@@ -5857,7 +5857,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="section-kicker">Map Layer</span>
                 <div class="view-toggle-row" style="display:flex;gap:6px;flex-wrap:wrap;">
                   <button id="counties-view" class="view-toggle-btn active" onclick="setMapView('counties')">Counties</button>
-                  <button id="vtds-2000-view" class="view-toggle-btn" onclick="setMapView('vtds_2000')" style="display:none;">Precincts 2000</button>
                   <button id="districts-view" class="view-toggle-btn" onclick="setMapView('districts')">Congress</button>
                   <button id="state-house-view" class="view-toggle-btn" onclick="setMapView('state_house')">State House</button>
                   <button id="state-senate-view" class="view-toggle-btn" onclick="setMapView('state_senate')">State Senate</button>
@@ -6189,7 +6188,6 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate_info: withBase('./Data/mn_state_senate_districts.csv'),
         district_descriptions: withBase('./Data/district_descriptions.json'),
         contests_dir: withBase('./Data/contests'),
-        vtds_2000: withBase('./Data/vtds_2000.geojson'),
         crosswalks: {
           congressional: withBase('./Data/crosswalks/precinct_to_cd118.csv'),
           state_house_2022: withBase('./Data/crosswalks/precinct_to_2022_state_house.csv'),
@@ -7929,15 +7927,21 @@ document.addEventListener('DOMContentLoaded', function() {
         (Array.isArray(districtManifest) && districtManifest.length > 0);
       const hasDistrictManifest = Array.isArray(districtManifest) && districtManifest.length > 0;
       let entries = null;
+      const districtPrimaryContestByScope = {
+        congressional: 'us_house',
+        state_house: 'state_house',
+        state_senate: 'state_senate'
+      };
 
-      if (currentView === 'counties' || currentView === 'vtds_2000' || !currentView) {
+      if (currentView === 'counties' || !currentView) {
         entries = contestManifest || [];
       } else {
         const scope = currentView === 'districts'
           ? 'congressional'
           : (currentView === 'state_house' ? 'state_house' : (currentView === 'state_senate' ? 'state_senate' : null));
         if (scope && hasDistrictManifest) {
-          entries = districtManifest.filter(e => e && e.scope === scope);
+          const targetContest = districtPrimaryContestByScope[scope] || '';
+          entries = districtManifest.filter(e => e && e.scope === scope && (!targetContest || e.contest_type === targetContest));
         } else if (Array.isArray(contestManifest) && contestManifest.length > 0) {
           entries = contestManifest;
         } else {
@@ -7951,7 +7955,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       // If district manifests exist but have no matches for this view, show an explicit empty selector state.
-      if (inManifestMode && hasDistrictManifest && currentView !== 'counties' && currentView !== 'vtds_2000') {
+      if (inManifestMode && hasDistrictManifest && currentView !== 'counties') {
         const sel = document.getElementById('contestSelect');
         if (sel) {
           sel.innerHTML = '<option value="">No contests available for this view</option>';
@@ -8478,14 +8482,14 @@ document.addEventListener('DOMContentLoaded', function() {
         return showAndPinDistrictSelection(targetScope, targetDistrictNum, contestValue);
       }
 
-      if (meta.kind === 'county' && (view === 'counties' || view === 'vtds_2000')) {
+      if (meta.kind === 'county' && view === 'counties') {
         const countyName = (meta.county || '').toString().trim();
         if (!countyName) return false;
         showCountyDetails(countyName);
         return true;
       }
 
-      if (meta.kind === 'precinct' && (view === 'counties' || view === 'vtds_2000')) {
+      if (meta.kind === 'precinct' && view === 'counties') {
         const county = (meta.county || '').toString().trim();
         const precinct = (meta.precinct || '').toString().trim();
         if (!county || !precinct) return false;
@@ -8516,26 +8520,19 @@ document.addEventListener('DOMContentLoaded', function() {
       document.getElementById('state-house-view')?.classList.toggle('active', view === 'state_house');
       document.getElementById('state-senate-view')?.classList.toggle('active', view === 'state_senate');
       
-      // Update 2000 VTDs button if available
-      const vtds2000Button = document.getElementById('vtds-2000-view');
-      if (vtds2000Button) {
-        vtds2000Button.classList.toggle('active', view === 'vtds_2000');
-      }
-      
       // Update sidebar title
       const sidebarTitle = document.querySelector('.sidebar-header h3');
       const titles = {
         'counties': 'County Analysis',
         'districts': 'Congressional District Analysis', 
         'state_house': 'State House District Analysis',
-        'state_senate': 'State Senate District Analysis',
-        'vtds_2000': '2000 Precinct Analysis'
+        'state_senate': 'State Senate District Analysis'
       };
       sidebarTitle.textContent = titles[view];
       
       // Clear all map layers for the active view.
       // Precincts are an overlay; don't destroy precinct layers when switching views.
-      const layerTypes = ['county', 'district', 'state-house', 'state-senate', 'vtds-2000'];
+      const layerTypes = ['county', 'district', 'state-house', 'state-senate'];
       layerTypes.forEach(type => {
         if (map.getLayer(`${type}-fill`)) {
           map.removeLayer(`${type}-fill`);
@@ -8561,8 +8558,6 @@ document.addEventListener('DOMContentLoaded', function() {
         addStateHouseLayers();
       } else if (view === 'state_senate') {
         addStateSenatelayers();
-      } else if (view === 'vtds_2000') {
-        add2000VTDLayers();
       }
       
       // Repopulate contest selector
@@ -9411,13 +9406,29 @@ document.addEventListener('DOMContentLoaded', function() {
     function buildAnyPropertyMatchFilter(keys, districtNum) {
       const raw = (districtNum || '').toString().trim();
       if (!raw) return ['==', 1, 0];
-      const padded3 = raw.padStart(3, '0');
-      const num = Number(raw);
+      const upperRaw = raw.toUpperCase();
+      const variants = new Set([upperRaw]);
+      const num = Number(upperRaw);
+
+      const numericOnly = upperRaw.match(/^0*([0-9]+)$/);
+      if (numericOnly) {
+        variants.add(String(Number(numericOnly[1])));
+        variants.add(String(Number(numericOnly[1])).padStart(3, '0'));
+      }
+
+      const withSuffix = upperRaw.match(/^0*([0-9]+)([A-Z])$/);
+      if (withSuffix) {
+        const base = String(Number(withSuffix[1]));
+        const suffix = withSuffix[2];
+        variants.add(`${base}${suffix}`);
+        variants.add(`${base.padStart(3, '0')}${suffix}`);
+      }
 
       const clauses = [];
       (keys || []).forEach(k => {
-        clauses.push(['==', ['to-string', ['get', k]], raw]);
-        clauses.push(['==', ['to-string', ['get', k]], padded3]);
+        variants.forEach(v => {
+          clauses.push(['==', ['to-string', ['get', k]], v]);
+        });
         if (Number.isFinite(num)) clauses.push(['==', ['to-number', ['get', k]], num]);
       });
 
@@ -9460,8 +9471,7 @@ document.addEventListener('DOMContentLoaded', function() {
         counties: 'Counties',
         districts: 'Congress',
         state_house: 'State House',
-        state_senate: 'State Senate',
-        vtds_2000: 'Precincts 2000'
+        state_senate: 'State Senate'
       };
       return labels[view] || 'Counties';
     }
@@ -9945,63 +9955,6 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
       showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(`${districtLabel} ${districtNum}`, inner), { force: !!forceTooltip });
       wireTooltipButtons();
-    }
-
-    function add2000VTDLayers() {
-      if (typeof window.vtds2000Data === 'undefined') {
-        setStatus('2000 precinct boundary data not loaded.');
-        // Switch back to counties view
-        setMapView('counties');
-        return;
-      }
-      
-      if (!map.getLayer('vtds-2000-fill')) {
-        map.addLayer({ 
-          id: 'vtds-2000-fill', 
-          type: 'fill', 
-          source: 'vtds-2000', 
-          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.3 } 
-        });
-        map.addLayer({ 
-          id: 'vtds-2000-stroke', 
-          type: 'line', 
-          source: 'vtds-2000', 
-          paint: { 'line-color': '#666', 'line-width': 0.5 } 
-        });
-        
-        // Add click handler for VTDs
-        map.on('click', 'vtds-2000-fill', (e) => {
-          if (e.features && e.features[0] && e.features[0].properties) {
-            const vtdProps = e.features[0].properties;
-            const vtdId = vtdProps.VTDST00 || vtdProps.VTD || vtdProps.VTDST || vtdProps.NAME00 || vtdProps.NAME || 'Unknown';
-            
-            // Show VTD details
-            showVTDDetails(vtdId, vtdProps);
-          }
-        });
-        
-        setStatus('2000 VTD layer loaded');
-      }
-    }
-    
-    // Function to show VTD details (placeholder)
-    function showVTDDetails(vtdId, vtdProps) {
-      const detailsDiv = document.getElementById('county-details');
-      const contentEl = document.getElementById('county-info-content');
-      const titleEl = document.getElementById('county-name');
-      if (!detailsDiv || !contentEl) return;
-
-      if (titleEl) titleEl.textContent = `2000 Precinct ${vtdId}`;
-      contentEl.innerHTML = `
-        <div style="font-size:13px;line-height:1.5;">
-          <div><strong>Precinct ID:</strong> ${vtdId}</div>
-          <div><strong>County:</strong> ${vtdProps.county_nam || 'Unknown'}</div>
-          <div><strong>Name:</strong> ${vtdProps.NAME00 || vtdProps.precinct_name || 'Unknown'}</div>
-          <div><strong>Attributes:</strong> ${Object.keys(vtdProps).length}</div>
-          <p style="margin-top:8px;"><em>Boundary-only preview for 2000 precincts.</em></p>
-        </div>
-      `;
-      detailsDiv.style.display = 'block';
     }
 
     function toggleLegend() {
@@ -12943,21 +12896,6 @@ document.addEventListener('DOMContentLoaded', function() {
         map.on('zoomend', updatePrecinctVisibility);
         setStatus('Counties loaded');
 
-        try {
-          const vtds2000 = await loadJSON(CONFIG.paths.vtds_2000);
-          window.vtds2000Data = vtds2000;
-          if (!map.getSource('vtds-2000')) {
-            map.addSource('vtds-2000', { type: 'geojson', data: vtds2000 });
-          }
-          const vtdBtn = document.getElementById('vtds-2000-view');
-          if (vtdBtn) vtdBtn.style.display = 'inline-flex';
-        } catch (err) {
-          delete window.vtds2000Data;
-          const vtdBtn = document.getElementById('vtds-2000-view');
-          if (vtdBtn) vtdBtn.style.display = 'none';
-          console.warn('2000 VTD source not loaded:', err?.message || err);
-        }
-
         setStatus('Loading election index...');
         candidateNameCache = new Map();
         contestSliceCache = new Map();
@@ -14057,9 +13995,9 @@ document.addEventListener('DOMContentLoaded', function() {
               color = colorForMarginMode(Math.abs(signed), winner === 'T' ? 'R' : winner);
             }
 
-            const districtNum = Number(districtId);
-            if (!isNaN(districtNum)) {
-              expr.push(['==', ['to-number', ['coalesce', ['get', 'DISTRICT'], ['get', 'CD118FP'], ['get', 'SLDLST'], ['get', 'SLDUST'], ['get', 'district_id'], ['get', 'district']]], districtNum]);
+            const districtNeedle = normalizeDistrictNumber(districtId);
+            if (districtNeedle) {
+              expr.push(buildAnyPropertyMatchFilter(['DISTRICT', 'CD118FP', 'SLDLST', 'SLDUST', 'district_id', 'district'], districtNeedle));
               expr.push(color);
             }
           });
