@@ -1,0 +1,1574 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,Attorney General,,DFL,Lori Swanson,3963,55.11
+01,Aitkin,Attorney General,,IND,,392,5.45
+01,Aitkin,Attorney General,,R,Chris Barden,2758,38.35
+01,Aitkin,Attorney General,,TRP,,78,1.08
+01,Aitkin,Governor,,DFL,Mark Dayton,3242,44.17
+01,Aitkin,Governor,,EDP,,21,0.29
+01,Aitkin,Governor,,GP,,9,0.12
+01,Aitkin,Governor,,GR,,32,0.44
+01,Aitkin,Governor,,IND,Tom Horner,829,11.30
+01,Aitkin,Governor,,R,Tom Emmer,3081,41.98
+01,Aitkin,Governor,,TRP,,125,1.70
+01,Aitkin,Secretary of State,,DFL,Mark Ritchie,3442,48.29
+01,Aitkin,Secretary of State,,IND,,486,6.82
+01,Aitkin,Secretary of State,,R,Dan Severson,3200,44.89
+01,Aitkin,State Auditor,,DFL,Rebecca Otto,3629,52.88
+01,Aitkin,State Auditor,,R,Pat Anderson,3234,47.12
+01,Aitkin,State Senate,,DFL,,3724,51.68
+01,Aitkin,State Senate,,R,,3482,48.32
+02,Anoka,Attorney General,,DFL,Lori Swanson,61617,48.44
+02,Anoka,Attorney General,,IND,,6042,4.75
+02,Anoka,Attorney General,,R,Chris Barden,58693,46.14
+02,Anoka,Attorney General,,TRP,,845,0.66
+02,Anoka,Governor,,DFL,Mark Dayton,50669,38.67
+02,Anoka,Governor,,EDP,,310,0.24
+02,Anoka,Governor,,GP,,309,0.24
+02,Anoka,Governor,,GR,,472,0.36
+02,Anoka,Governor,,IND,Tom Horner,14166,10.81
+02,Anoka,Governor,,R,Tom Emmer,64826,49.47
+02,Anoka,Governor,,TRP,,293,0.22
+02,Anoka,Secretary of State,,DFL,Mark Ritchie,55809,43.92
+02,Anoka,Secretary of State,,IND,,6082,4.79
+02,Anoka,Secretary of State,,R,Dan Severson,65193,51.30
+02,Anoka,State Auditor,,DFL,Rebecca Otto,56369,46.53
+02,Anoka,State Auditor,,R,Pat Anderson,64765,53.47
+02,Anoka,State Senate,,DFL,,55414,43.53
+02,Anoka,State Senate,,IND,,1255,0.99
+02,Anoka,State Senate,,R,,70645,55.49
+03,Becker,Attorney General,,DFL,Lori Swanson,4950,42.95
+03,Becker,Attorney General,,IND,,689,5.98
+03,Becker,Attorney General,,R,Chris Barden,5798,50.31
+03,Becker,Attorney General,,TRP,,88,0.76
+03,Becker,Governor,,DFL,Mark Dayton,4433,37.63
+03,Becker,Governor,,EDP,,46,0.39
+03,Becker,Governor,,GP,,34,0.29
+03,Becker,Governor,,GR,,72,0.61
+03,Becker,Governor,,IND,Tom Horner,1276,10.83
+03,Becker,Governor,,R,Tom Emmer,5882,49.92
+03,Becker,Governor,,TRP,,39,0.33
+03,Becker,Secretary of State,,DFL,Mark Ritchie,4682,40.68
+03,Becker,Secretary of State,,IND,,686,5.96
+03,Becker,Secretary of State,,R,Dan Severson,6141,53.36
+03,Becker,State Auditor,,DFL,Rebecca Otto,4474,40.68
+03,Becker,State Auditor,,R,Pat Anderson,6524,59.32
+03,Becker,State Senate,,DFL,,5375,46.00
+03,Becker,State Senate,,R,,6310,54.00
+04,Beltrami,Attorney General,,DFL,Lori Swanson,8227,53.11
+04,Beltrami,Attorney General,,IND,,740,4.78
+04,Beltrami,Attorney General,,R,Chris Barden,6374,41.15
+04,Beltrami,Attorney General,,TRP,,149,0.96
+04,Beltrami,Governor,,DFL,Mark Dayton,7526,47.16
+04,Beltrami,Governor,,EDP,,134,0.84
+04,Beltrami,Governor,,GP,,89,0.56
+04,Beltrami,Governor,,GR,,103,0.65
+04,Beltrami,Governor,,IND,Tom Horner,1532,9.60
+04,Beltrami,Governor,,R,Tom Emmer,6531,40.92
+04,Beltrami,Governor,,TRP,,44,0.28
+04,Beltrami,Secretary of State,,DFL,Mark Ritchie,7962,51.10
+04,Beltrami,Secretary of State,,IND,,854,5.48
+04,Beltrami,Secretary of State,,R,Dan Severson,6765,43.42
+04,Beltrami,State Auditor,,DFL,Rebecca Otto,7424,50.63
+04,Beltrami,State Auditor,,R,Pat Anderson,7240,49.37
+04,Beltrami,State Senate,,DFL,,8461,53.17
+04,Beltrami,State Senate,,R,,7453,46.83
+05,Benton,Attorney General,,DFL,Lori Swanson,6070,46.09
+05,Benton,Attorney General,,IND,,783,5.95
+05,Benton,Attorney General,,R,Chris Barden,6170,46.85
+05,Benton,Attorney General,,TRP,,146,1.11
+05,Benton,Governor,,DFL,Mark Dayton,4844,35.32
+05,Benton,Governor,,EDP,,54,0.39
+05,Benton,Governor,,GP,,40,0.29
+05,Benton,Governor,,GR,,77,0.56
+05,Benton,Governor,,IND,Tom Horner,1667,12.15
+05,Benton,Governor,,R,Tom Emmer,6989,50.96
+05,Benton,Governor,,TRP,,44,0.32
+05,Benton,Secretary of State,,DFL,Mark Ritchie,5009,37.36
+05,Benton,Secretary of State,,IND,,747,5.57
+05,Benton,Secretary of State,,R,Dan Severson,7650,57.06
+05,Benton,State Auditor,,DFL,Rebecca Otto,5324,42.58
+05,Benton,State Auditor,,R,Pat Anderson,7180,57.42
+05,Benton,State Senate,,DFL,,5437,40.56
+05,Benton,State Senate,,R,,7967,59.44
+06,Big Stone,Attorney General,,DFL,Lori Swanson,1180,54.96
+06,Big Stone,Attorney General,,IND,,113,5.26
+06,Big Stone,Attorney General,,R,Chris Barden,836,38.94
+06,Big Stone,Attorney General,,TRP,,18,0.84
+06,Big Stone,Governor,,DFL,Mark Dayton,995,45.43
+06,Big Stone,Governor,,EDP,,2,0.09
+06,Big Stone,Governor,,GP,,5,0.23
+06,Big Stone,Governor,,GR,,10,0.46
+06,Big Stone,Governor,,IND,Tom Horner,263,12.01
+06,Big Stone,Governor,,R,Tom Emmer,909,41.51
+06,Big Stone,Governor,,TRP,,6,0.27
+06,Big Stone,Secretary of State,,DFL,Mark Ritchie,1101,51.16
+06,Big Stone,Secretary of State,,IND,,137,6.37
+06,Big Stone,Secretary of State,,R,Dan Severson,914,42.47
+06,Big Stone,State Auditor,,DFL,Rebecca Otto,1078,52.89
+06,Big Stone,State Auditor,,R,Pat Anderson,960,47.11
+06,Big Stone,State Senate,,DFL,,1280,58.50
+06,Big Stone,State Senate,,R,,908,41.50
+07,Blue Earth,Attorney General,,DFL,Lori Swanson,11476,53.09
+07,Blue Earth,Attorney General,,IND,,1478,6.84
+07,Blue Earth,Attorney General,,R,Chris Barden,8505,39.35
+07,Blue Earth,Attorney General,,TRP,,157,0.73
+07,Blue Earth,Governor,,DFL,Mark Dayton,9706,43.34
+07,Blue Earth,Governor,,EDP,,112,0.50
+07,Blue Earth,Governor,,GP,,120,0.54
+07,Blue Earth,Governor,,GR,,141,0.63
+07,Blue Earth,Governor,,IND,Tom Horner,3047,13.61
+07,Blue Earth,Governor,,R,Tom Emmer,9216,41.16
+07,Blue Earth,Governor,,TRP,,51,0.23
+07,Blue Earth,Secretary of State,,DFL,Mark Ritchie,10589,48.68
+07,Blue Earth,Secretary of State,,IND,,1669,7.67
+07,Blue Earth,Secretary of State,,R,Dan Severson,9493,43.64
+07,Blue Earth,State Auditor,,DFL,Rebecca Otto,10366,50.89
+07,Blue Earth,State Auditor,,R,Pat Anderson,10004,49.11
+07,Blue Earth,State Senate,,DFL,,8603,41.54
+07,Blue Earth,State Senate,,R,,12106,58.46
+08,Brown,Attorney General,,DFL,Lori Swanson,4503,44.71
+08,Brown,Attorney General,,IND,,772,7.66
+08,Brown,Attorney General,,R,Chris Barden,4725,46.91
+08,Brown,Attorney General,,TRP,,72,0.71
+08,Brown,Governor,,DFL,Mark Dayton,3263,31.47
+08,Brown,Governor,,EDP,,25,0.24
+08,Brown,Governor,,GP,,20,0.19
+08,Brown,Governor,,GR,,32,0.31
+08,Brown,Governor,,IND,Tom Horner,1573,15.17
+08,Brown,Governor,,R,Tom Emmer,5443,52.49
+08,Brown,Governor,,TRP,,13,0.13
+08,Brown,Secretary of State,,DFL,Mark Ritchie,3845,38.17
+08,Brown,Secretary of State,,IND,,783,7.77
+08,Brown,Secretary of State,,R,Dan Severson,5445,54.06
+08,Brown,State Auditor,,DFL,Rebecca Otto,3836,39.70
+08,Brown,State Auditor,,R,Pat Anderson,5826,60.30
+08,Brown,State Senate,,DFL,,3775,37.14
+08,Brown,State Senate,,R,,6390,62.86
+09,Carlton,Attorney General,,DFL,Lori Swanson,8230,61.92
+09,Carlton,Attorney General,,IND,,636,4.78
+09,Carlton,Attorney General,,R,Chris Barden,4311,32.43
+09,Carlton,Attorney General,,TRP,,115,0.87
+09,Carlton,Governor,,DFL,Mark Dayton,8010,58.78
+09,Carlton,Governor,,EDP,,49,0.36
+09,Carlton,Governor,,GP,,36,0.26
+09,Carlton,Governor,,GR,,69,0.51
+09,Carlton,Governor,,IND,Tom Horner,1156,8.48
+09,Carlton,Governor,,R,Tom Emmer,4274,31.37
+09,Carlton,Governor,,TRP,,32,0.23
+09,Carlton,Secretary of State,,DFL,Mark Ritchie,7809,58.73
+09,Carlton,Secretary of State,,IND,,740,5.57
+09,Carlton,Secretary of State,,R,Dan Severson,4747,35.70
+09,Carlton,State Auditor,,DFL,Rebecca Otto,7326,58.38
+09,Carlton,State Auditor,,R,Pat Anderson,5222,41.62
+09,Carlton,State Senate,,DFL,,8418,62.47
+09,Carlton,State Senate,,R,,5057,37.53
+10,Carver,Attorney General,,DFL,Lori Swanson,14005,39.22
+10,Carver,Attorney General,,IND,,1604,4.49
+10,Carver,Attorney General,,R,Chris Barden,19935,55.83
+10,Carver,Attorney General,,TRP,,164,0.46
+10,Carver,Governor,,DFL,Mark Dayton,10249,27.72
+10,Carver,Governor,,EDP,,70,0.19
+10,Carver,Governor,,GP,,65,0.18
+10,Carver,Governor,,GR,,86,0.23
+10,Carver,Governor,,IND,Tom Horner,4866,13.16
+10,Carver,Governor,,R,Tom Emmer,21589,58.39
+10,Carver,Governor,,TRP,,51,0.14
+10,Carver,Secretary of State,,DFL,Mark Ritchie,12509,34.93
+10,Carver,Secretary of State,,IND,,1604,4.48
+10,Carver,Secretary of State,,R,Dan Severson,21698,60.59
+10,Carver,State Auditor,,DFL,Rebecca Otto,12774,36.94
+10,Carver,State Auditor,,R,Pat Anderson,21806,63.06
+10,Carver,State Senate,,DFL,,11029,30.34
+10,Carver,State Senate,,IND,,2246,6.18
+10,Carver,State Senate,,R,,23082,63.49
+11,Cass,Attorney General,,DFL,Lori Swanson,5724,45.50
+11,Cass,Attorney General,,IND,,748,5.95
+11,Cass,Attorney General,,R,Chris Barden,6018,47.84
+11,Cass,Attorney General,,TRP,,89,0.71
+11,Cass,Governor,,DFL,Mark Dayton,4872,37.71
+11,Cass,Governor,,EDP,,55,0.43
+11,Cass,Governor,,GP,,40,0.31
+11,Cass,Governor,,GR,,68,0.53
+11,Cass,Governor,,IND,Tom Horner,1503,11.63
+11,Cass,Governor,,R,Tom Emmer,6355,49.19
+11,Cass,Governor,,TRP,,26,0.20
+11,Cass,Secretary of State,,DFL,Mark Ritchie,5192,41.20
+11,Cass,Secretary of State,,IND,,886,7.03
+11,Cass,Secretary of State,,R,Dan Severson,6524,51.77
+11,Cass,State Auditor,,DFL,Rebecca Otto,5097,42.65
+11,Cass,State Auditor,,R,Pat Anderson,6853,57.35
+11,Cass,State Senate,,DFL,,5615,43.97
+11,Cass,State Senate,,R,,7156,56.03
+12,Chippewa,Attorney General,,DFL,Lori Swanson,2637,55.47
+12,Chippewa,Attorney General,,IND,,283,5.95
+12,Chippewa,Attorney General,,R,Chris Barden,1806,37.99
+12,Chippewa,Attorney General,,TRP,,28,0.59
+12,Chippewa,Governor,,DFL,Mark Dayton,2194,45.17
+12,Chippewa,Governor,,EDP,,14,0.29
+12,Chippewa,Governor,,GP,,14,0.29
+12,Chippewa,Governor,,GR,,14,0.29
+12,Chippewa,Governor,,IND,Tom Horner,673,13.86
+12,Chippewa,Governor,,R,Tom Emmer,1940,39.94
+12,Chippewa,Governor,,TRP,,8,0.16
+12,Chippewa,Secretary of State,,DFL,Mark Ritchie,2426,51.03
+12,Chippewa,Secretary of State,,IND,,322,6.77
+12,Chippewa,Secretary of State,,R,Dan Severson,2006,42.20
+12,Chippewa,State Auditor,,DFL,Rebecca Otto,2342,51.17
+12,Chippewa,State Auditor,,R,Pat Anderson,2235,48.83
+12,Chippewa,State Senate,,DFL,,2845,58.60
+12,Chippewa,State Senate,,R,,2010,41.40
+13,Chisago,Attorney General,,DFL,Lori Swanson,10010,45.70
+13,Chisago,Attorney General,,IND,,1234,5.63
+13,Chisago,Attorney General,,R,Chris Barden,10516,48.01
+13,Chisago,Attorney General,,TRP,,144,0.66
+13,Chisago,Governor,,DFL,Mark Dayton,8131,35.76
+13,Chisago,Governor,,EDP,,51,0.22
+13,Chisago,Governor,,GP,,37,0.16
+13,Chisago,Governor,,GR,,77,0.34
+13,Chisago,Governor,,IND,Tom Horner,2689,11.83
+13,Chisago,Governor,,R,Tom Emmer,11694,51.43
+13,Chisago,Governor,,TRP,,57,0.25
+13,Chisago,Secretary of State,,DFL,Mark Ritchie,9190,41.66
+13,Chisago,Secretary of State,,IND,,1230,5.58
+13,Chisago,Secretary of State,,R,Dan Severson,11642,52.77
+13,Chisago,State Auditor,,DFL,Rebecca Otto,9474,45.11
+13,Chisago,State Auditor,,R,Pat Anderson,11527,54.89
+13,Chisago,State Senate,,DFL,,9976,44.60
+13,Chisago,State Senate,,R,,12390,55.40
+14,Clay,Attorney General,,DFL,Lori Swanson,9513,52.05
+14,Clay,Attorney General,,IND,,898,4.91
+14,Clay,Attorney General,,R,Chris Barden,7770,42.51
+14,Clay,Attorney General,,TRP,,96,0.53
+14,Clay,Governor,,DFL,Mark Dayton,8512,44.86
+14,Clay,Governor,,EDP,,95,0.50
+14,Clay,Governor,,GP,,68,0.36
+14,Clay,Governor,,GR,,85,0.45
+14,Clay,Governor,,IND,Tom Horner,2146,11.31
+14,Clay,Governor,,R,Tom Emmer,8025,42.30
+14,Clay,Governor,,TRP,,42,0.22
+14,Clay,Secretary of State,,DFL,Mark Ritchie,8948,48.85
+14,Clay,Secretary of State,,IND,,1014,5.54
+14,Clay,Secretary of State,,R,Dan Severson,8355,45.61
+14,Clay,State Auditor,,DFL,Rebecca Otto,8491,48.93
+14,Clay,State Auditor,,R,Pat Anderson,8861,51.07
+14,Clay,State Senate,,DFL,,10444,55.23
+14,Clay,State Senate,,R,,8467,44.77
+15,Clearwater,Attorney General,,DFL,Lori Swanson,1507,44.31
+15,Clearwater,Attorney General,,IND,,193,5.67
+15,Clearwater,Attorney General,,R,Chris Barden,1671,49.13
+15,Clearwater,Attorney General,,TRP,,30,0.88
+15,Clearwater,Governor,,DFL,Mark Dayton,1419,40.57
+15,Clearwater,Governor,,EDP,,18,0.51
+15,Clearwater,Governor,,GP,,6,0.17
+15,Clearwater,Governor,,GR,,13,0.37
+15,Clearwater,Governor,,IND,Tom Horner,308,8.81
+15,Clearwater,Governor,,R,Tom Emmer,1709,48.86
+15,Clearwater,Governor,,TRP,,25,0.71
+15,Clearwater,Secretary of State,,DFL,Mark Ritchie,1410,41.20
+15,Clearwater,Secretary of State,,IND,,229,6.69
+15,Clearwater,Secretary of State,,R,Dan Severson,1783,52.10
+15,Clearwater,State Auditor,,DFL,Rebecca Otto,1364,42.05
+15,Clearwater,State Auditor,,R,Pat Anderson,1880,57.95
+15,Clearwater,State Senate,,DFL,,1686,47.78
+15,Clearwater,State Senate,,R,,1843,52.22
+16,Cook,Attorney General,,DFL,Lori Swanson,1657,61.28
+16,Cook,Attorney General,,IND,,152,5.62
+16,Cook,Attorney General,,R,Chris Barden,888,32.84
+16,Cook,Attorney General,,TRP,,7,0.26
+16,Cook,Governor,,DFL,Mark Dayton,1623,57.88
+16,Cook,Governor,,EDP,,10,0.36
+16,Cook,Governor,,GP,,14,0.50
+16,Cook,Governor,,GR,,9,0.32
+16,Cook,Governor,,IND,Tom Horner,287,10.24
+16,Cook,Governor,,R,Tom Emmer,856,30.53
+16,Cook,Governor,,TRP,,5,0.18
+16,Cook,Secretary of State,,DFL,Mark Ritchie,1596,58.61
+16,Cook,Secretary of State,,IND,,156,5.73
+16,Cook,Secretary of State,,R,Dan Severson,971,35.66
+16,Cook,State Auditor,,DFL,Rebecca Otto,1482,57.91
+16,Cook,State Auditor,,R,Pat Anderson,1077,42.09
+16,Cook,State Senate,,DFL,,1857,67.33
+16,Cook,State Senate,,R,,901,32.67
+17,Cottonwood,Attorney General,,DFL,Lori Swanson,2141,47.43
+17,Cottonwood,Attorney General,,IND,,295,6.54
+17,Cottonwood,Attorney General,,R,Chris Barden,2045,45.30
+17,Cottonwood,Attorney General,,TRP,,33,0.73
+17,Cottonwood,Governor,,DFL,Mark Dayton,1655,35.99
+17,Cottonwood,Governor,,EDP,,16,0.35
+17,Cottonwood,Governor,,GP,,14,0.30
+17,Cottonwood,Governor,,GR,,19,0.41
+17,Cottonwood,Governor,,IND,Tom Horner,627,13.63
+17,Cottonwood,Governor,,R,Tom Emmer,2257,49.08
+17,Cottonwood,Governor,,TRP,,11,0.24
+17,Cottonwood,Secretary of State,,DFL,Mark Ritchie,1872,41.47
+17,Cottonwood,Secretary of State,,IND,,328,7.27
+17,Cottonwood,Secretary of State,,R,Dan Severson,2314,51.26
+17,Cottonwood,State Auditor,,DFL,Rebecca Otto,1885,43.18
+17,Cottonwood,State Auditor,,R,Pat Anderson,2480,56.82
+17,Cottonwood,State Senate,,DFL,,2170,47.54
+17,Cottonwood,State Senate,,R,,2395,52.46
+18,Crow Wing,Attorney General,,DFL,Lori Swanson,12311,46.50
+18,Crow Wing,Attorney General,,IND,,1529,5.77
+18,Crow Wing,Attorney General,,R,Chris Barden,12435,46.96
+18,Crow Wing,Attorney General,,TRP,,203,0.77
+18,Crow Wing,Governor,,DFL,Mark Dayton,10559,38.59
+18,Crow Wing,Governor,,EDP,,101,0.37
+18,Crow Wing,Governor,,GP,,89,0.33
+18,Crow Wing,Governor,,GR,,113,0.41
+18,Crow Wing,Governor,,IND,Tom Horner,2934,10.72
+18,Crow Wing,Governor,,R,Tom Emmer,13442,49.12
+18,Crow Wing,Governor,,TRP,,125,0.46
+18,Crow Wing,Secretary of State,,DFL,Mark Ritchie,11129,41.72
+18,Crow Wing,Secretary of State,,IND,,1525,5.72
+18,Crow Wing,Secretary of State,,R,Dan Severson,14020,52.56
+18,Crow Wing,State Auditor,,DFL,Rebecca Otto,11254,44.75
+18,Crow Wing,State Auditor,,R,Pat Anderson,13895,55.25
+18,Crow Wing,State Senate,,DFL,,10543,42.85
+18,Crow Wing,State Senate,,R,,14059,57.15
+19,Dakota,Attorney General,,DFL,Lori Swanson,77735,49.93
+19,Dakota,Attorney General,,IND,,7442,4.78
+19,Dakota,Attorney General,,R,Chris Barden,69716,44.78
+19,Dakota,Attorney General,,TRP,,794,0.51
+19,Dakota,Governor,,DFL,Mark Dayton,63066,38.97
+19,Dakota,Governor,,EDP,,368,0.23
+19,Dakota,Governor,,GP,,363,0.22
+19,Dakota,Governor,,GR,,425,0.26
+19,Dakota,Governor,,IND,Tom Horner,21190,13.10
+19,Dakota,Governor,,R,Tom Emmer,76211,47.10
+19,Dakota,Governor,,TRP,,193,0.12
+19,Dakota,Secretary of State,,DFL,Mark Ritchie,71870,45.89
+19,Dakota,Secretary of State,,IND,,7409,4.73
+19,Dakota,Secretary of State,,R,Dan Severson,77319,49.37
+19,Dakota,State Auditor,,DFL,Rebecca Otto,71965,47.87
+19,Dakota,State Auditor,,R,Pat Anderson,78370,52.13
+19,Dakota,State Senate,,DFL,,72105,45.65
+19,Dakota,State Senate,,R,,85830,54.35
+20,Dodge,Attorney General,,DFL,Lori Swanson,3251,42.74
+20,Dodge,Attorney General,,IND,,615,8.08
+20,Dodge,Attorney General,,R,Chris Barden,3684,48.43
+20,Dodge,Attorney General,,TRP,,57,0.75
+20,Dodge,Governor,,DFL,Mark Dayton,2579,32.79
+20,Dodge,Governor,,EDP,,34,0.43
+20,Dodge,Governor,,GP,,29,0.37
+20,Dodge,Governor,,GR,,58,0.74
+20,Dodge,Governor,,IND,Tom Horner,1015,12.90
+20,Dodge,Governor,,R,Tom Emmer,4117,52.34
+20,Dodge,Governor,,TRP,,34,0.43
+20,Dodge,Secretary of State,,DFL,Mark Ritchie,2769,36.12
+20,Dodge,Secretary of State,,IND,,640,8.35
+20,Dodge,Secretary of State,,R,Dan Severson,4258,55.54
+20,Dodge,State Auditor,,DFL,Rebecca Otto,2626,36.60
+20,Dodge,State Auditor,,R,Pat Anderson,4549,63.40
+20,Dodge,State Senate,,DFL,,2443,31.18
+20,Dodge,State Senate,,R,,5393,68.82
+21,Douglas,Attorney General,,DFL,Lori Swanson,6725,44.47
+21,Douglas,Attorney General,,IND,,972,6.43
+21,Douglas,Attorney General,,R,Chris Barden,7325,48.44
+21,Douglas,Attorney General,,TRP,,99,0.65
+21,Douglas,Governor,,DFL,Mark Dayton,5371,34.53
+21,Douglas,Governor,,EDP,,26,0.17
+21,Douglas,Governor,,GP,,27,0.17
+21,Douglas,Governor,,GR,,65,0.42
+21,Douglas,Governor,,IND,Tom Horner,1991,12.80
+21,Douglas,Governor,,R,Tom Emmer,8036,51.66
+21,Douglas,Governor,,TRP,,39,0.25
+21,Douglas,Secretary of State,,DFL,Mark Ritchie,5996,39.42
+21,Douglas,Secretary of State,,IND,,983,6.46
+21,Douglas,Secretary of State,,R,Dan Severson,8230,54.11
+21,Douglas,State Auditor,,DFL,Rebecca Otto,5886,40.75
+21,Douglas,State Auditor,,R,Pat Anderson,8557,59.25
+21,Douglas,State Senate,,DFL,,4623,29.85
+21,Douglas,State Senate,,R,,10864,70.15
+22,Faribault,Attorney General,,DFL,Lori Swanson,3100,48.66
+22,Faribault,Attorney General,,IND,,443,6.95
+22,Faribault,Attorney General,,R,Chris Barden,2766,43.42
+22,Faribault,Attorney General,,TRP,,62,0.97
+22,Faribault,Governor,,DFL,Mark Dayton,2407,36.99
+22,Faribault,Governor,,EDP,,45,0.69
+22,Faribault,Governor,,GP,,21,0.32
+22,Faribault,Governor,,GR,,31,0.48
+22,Faribault,Governor,,IND,Tom Horner,858,13.19
+22,Faribault,Governor,,R,Tom Emmer,3121,47.96
+22,Faribault,Governor,,TRP,,24,0.37
+22,Faribault,Secretary of State,,DFL,Mark Ritchie,2651,41.53
+22,Faribault,Secretary of State,,IND,,578,9.05
+22,Faribault,Secretary of State,,R,Dan Severson,3155,49.42
+22,Faribault,State Auditor,,DFL,Rebecca Otto,2582,42.90
+22,Faribault,State Auditor,,R,Pat Anderson,3437,57.10
+22,Faribault,State Senate,,R,,5751,100.00
+23,Fillmore,Attorney General,,DFL,Lori Swanson,3878,48.29
+23,Fillmore,Attorney General,,IND,,649,8.08
+23,Fillmore,Attorney General,,R,Chris Barden,3424,42.64
+23,Fillmore,Attorney General,,TRP,,79,0.98
+23,Fillmore,Governor,,DFL,Mark Dayton,3535,42.46
+23,Fillmore,Governor,,EDP,,33,0.40
+23,Fillmore,Governor,,GP,,40,0.48
+23,Fillmore,Governor,,GR,,39,0.47
+23,Fillmore,Governor,,IND,Tom Horner,994,11.94
+23,Fillmore,Governor,,R,Tom Emmer,3648,43.82
+23,Fillmore,Governor,,TRP,,36,0.43
+23,Fillmore,Secretary of State,,DFL,Mark Ritchie,3410,42.94
+23,Fillmore,Secretary of State,,IND,,655,8.25
+23,Fillmore,Secretary of State,,R,Dan Severson,3876,48.81
+23,Fillmore,State Auditor,,DFL,Rebecca Otto,3281,43.65
+23,Fillmore,State Auditor,,R,Pat Anderson,4236,56.35
+23,Fillmore,State Senate,,DFL,,4234,50.84
+23,Fillmore,State Senate,,R,,4094,49.16
+24,Freeborn,Attorney General,,DFL,Lori Swanson,7180,55.45
+24,Freeborn,Attorney General,,IND,,826,6.38
+24,Freeborn,Attorney General,,R,Chris Barden,4826,37.27
+24,Freeborn,Attorney General,,TRP,,116,0.90
+24,Freeborn,Governor,,DFL,Mark Dayton,6490,48.67
+24,Freeborn,Governor,,EDP,,63,0.47
+24,Freeborn,Governor,,GP,,57,0.43
+24,Freeborn,Governor,,GR,,82,0.61
+24,Freeborn,Governor,,IND,Tom Horner,1318,9.88
+24,Freeborn,Governor,,R,Tom Emmer,5285,39.64
+24,Freeborn,Governor,,TRP,,39,0.29
+24,Freeborn,Secretary of State,,DFL,Mark Ritchie,6659,51.07
+24,Freeborn,Secretary of State,,IND,,753,5.78
+24,Freeborn,Secretary of State,,R,Dan Severson,5626,43.15
+24,Freeborn,State Auditor,,DFL,Rebecca Otto,6177,50.51
+24,Freeborn,State Auditor,,R,Pat Anderson,6053,49.49
+24,Freeborn,State Senate,,DFL,,8177,61.10
+24,Freeborn,State Senate,,R,,5205,38.90
+25,Goodhue,Attorney General,,DFL,Lori Swanson,9343,49.57
+25,Goodhue,Attorney General,,IND,,1067,5.66
+25,Goodhue,Attorney General,,R,Chris Barden,8309,44.09
+25,Goodhue,Attorney General,,TRP,,128,0.68
+25,Goodhue,Governor,,DFL,Mark Dayton,7247,37.42
+25,Goodhue,Governor,,EDP,,47,0.24
+25,Goodhue,Governor,,GP,,62,0.32
+25,Goodhue,Governor,,GR,,74,0.38
+25,Goodhue,Governor,,IND,Tom Horner,2730,14.10
+25,Goodhue,Governor,,R,Tom Emmer,9178,47.39
+25,Goodhue,Governor,,TRP,,27,0.14
+25,Goodhue,Secretary of State,,DFL,Mark Ritchie,8423,44.65
+25,Goodhue,Secretary of State,,IND,,1179,6.25
+25,Goodhue,Secretary of State,,R,Dan Severson,9264,49.10
+25,Goodhue,State Auditor,,DFL,Rebecca Otto,8174,44.98
+25,Goodhue,State Auditor,,R,Pat Anderson,10000,55.02
+25,Goodhue,State Senate,,DFL,,8482,44.22
+25,Goodhue,State Senate,,R,,10698,55.78
+26,Grant,Attorney General,,DFL,Lori Swanson,1601,54.40
+26,Grant,Attorney General,,IND,,194,6.59
+26,Grant,Attorney General,,R,Chris Barden,1123,38.16
+26,Grant,Attorney General,,TRP,,25,0.85
+26,Grant,Governor,,DFL,Mark Dayton,1279,42.39
+26,Grant,Governor,,EDP,,8,0.27
+26,Grant,Governor,,GP,,5,0.17
+26,Grant,Governor,,GR,,13,0.43
+26,Grant,Governor,,IND,Tom Horner,407,13.49
+26,Grant,Governor,,R,Tom Emmer,1297,42.99
+26,Grant,Governor,,TRP,,8,0.27
+26,Grant,Secretary of State,,DFL,Mark Ritchie,1419,47.96
+26,Grant,Secretary of State,,IND,,235,7.94
+26,Grant,Secretary of State,,R,Dan Severson,1305,44.10
+26,Grant,State Auditor,,DFL,Rebecca Otto,1324,46.80
+26,Grant,State Auditor,,R,Pat Anderson,1505,53.20
+26,Grant,State Senate,,DFL,,1251,41.87
+26,Grant,State Senate,,R,,1737,58.13
+27,Hennepin,Attorney General,,DFL,Lori Swanson,270879,60.35
+27,Hennepin,Attorney General,,IND,,17049,3.80
+27,Hennepin,Attorney General,,R,Chris Barden,158573,35.33
+27,Hennepin,Attorney General,,TRP,,2320,0.52
+27,Hennepin,Governor,,DFL,Mark Dayton,237998,50.86
+27,Hennepin,Governor,,EDP,,1203,0.26
+27,Hennepin,Governor,,GP,,1543,0.33
+27,Hennepin,Governor,,GR,,1148,0.25
+27,Hennepin,Governor,,IND,Tom Horner,57117,12.21
+27,Hennepin,Governor,,R,Tom Emmer,168522,36.01
+27,Hennepin,Governor,,TRP,,433,0.09
+27,Hennepin,Secretary of State,,DFL,Mark Ritchie,259077,57.79
+27,Hennepin,Secretary of State,,IND,,16850,3.76
+27,Hennepin,Secretary of State,,R,Dan Severson,172396,38.45
+27,Hennepin,State Auditor,,DFL,Rebecca Otto,252194,58.88
+27,Hennepin,State Auditor,,R,Pat Anderson,176160,41.12
+27,Hennepin,State Senate,,DFL,,248850,56.01
+27,Hennepin,State Senate,,IND,,1001,0.23
+27,Hennepin,State Senate,,R,,194417,43.76
+28,Houston,Attorney General,,DFL,Lori Swanson,3249,43.46
+28,Houston,Attorney General,,IND,,524,7.01
+28,Houston,Attorney General,,R,Chris Barden,3620,48.42
+28,Houston,Attorney General,,TRP,,83,1.11
+28,Houston,Governor,,DFL,Mark Dayton,3187,41.28
+28,Houston,Governor,,EDP,,36,0.47
+28,Houston,Governor,,GP,,43,0.56
+28,Houston,Governor,,GR,,52,0.67
+28,Houston,Governor,,IND,Tom Horner,607,7.86
+28,Houston,Governor,,R,Tom Emmer,3774,48.89
+28,Houston,Governor,,TRP,,21,0.27
+28,Houston,Secretary of State,,DFL,Mark Ritchie,3170,42.57
+28,Houston,Secretary of State,,IND,,509,6.83
+28,Houston,Secretary of State,,R,Dan Severson,3768,50.60
+28,Houston,State Auditor,,DFL,Rebecca Otto,2995,42.62
+28,Houston,State Auditor,,R,Pat Anderson,4033,57.38
+28,Houston,State Senate,,DFL,,3563,45.56
+28,Houston,State Senate,,R,,4257,54.44
+29,Hubbard,Attorney General,,DFL,Lori Swanson,4230,44.54
+29,Hubbard,Attorney General,,IND,,578,6.09
+29,Hubbard,Attorney General,,R,Chris Barden,4602,48.45
+29,Hubbard,Attorney General,,TRP,,88,0.93
+29,Hubbard,Governor,,DFL,Mark Dayton,3624,37.30
+29,Hubbard,Governor,,EDP,,35,0.36
+29,Hubbard,Governor,,GP,,34,0.35
+29,Hubbard,Governor,,GR,,46,0.47
+29,Hubbard,Governor,,IND,Tom Horner,1054,10.85
+29,Hubbard,Governor,,R,Tom Emmer,4888,50.31
+29,Hubbard,Governor,,TRP,,35,0.36
+29,Hubbard,Secretary of State,,DFL,Mark Ritchie,3838,40.46
+29,Hubbard,Secretary of State,,IND,,655,6.90
+29,Hubbard,Secretary of State,,R,Dan Severson,4993,52.64
+29,Hubbard,State Auditor,,DFL,Rebecca Otto,3763,41.71
+29,Hubbard,State Auditor,,R,Pat Anderson,5259,58.29
+29,Hubbard,State Senate,,DFL,,4344,45.11
+29,Hubbard,State Senate,,R,,5286,54.89
+30,Isanti,Attorney General,,DFL,Lori Swanson,6361,44.36
+30,Isanti,Attorney General,,IND,,843,5.88
+30,Isanti,Attorney General,,R,Chris Barden,7034,49.06
+30,Isanti,Attorney General,,TRP,,100,0.70
+30,Isanti,Governor,,DFL,Mark Dayton,5247,35.50
+30,Isanti,Governor,,EDP,,20,0.14
+30,Isanti,Governor,,GP,,30,0.20
+30,Isanti,Governor,,GR,,61,0.41
+30,Isanti,Governor,,IND,Tom Horner,1482,10.03
+30,Isanti,Governor,,R,Tom Emmer,7905,53.48
+30,Isanti,Governor,,TRP,,37,0.25
+30,Isanti,Secretary of State,,DFL,Mark Ritchie,5790,40.04
+30,Isanti,Secretary of State,,IND,,821,5.68
+30,Isanti,Secretary of State,,R,Dan Severson,7848,54.28
+30,Isanti,State Auditor,,DFL,Rebecca Otto,5930,43.17
+30,Isanti,State Auditor,,R,Pat Anderson,7807,56.83
+30,Isanti,State Senate,,DFL,,6310,43.30
+30,Isanti,State Senate,,R,,8263,56.70
+31,Itasca,Attorney General,,DFL,Lori Swanson,11084,57.96
+31,Itasca,Attorney General,,IND,,996,5.21
+31,Itasca,Attorney General,,R,Chris Barden,6901,36.09
+31,Itasca,Attorney General,,TRP,,142,0.74
+31,Itasca,Governor,,DFL,Mark Dayton,10379,52.97
+31,Itasca,Governor,,EDP,,86,0.44
+31,Itasca,Governor,,GP,,64,0.33
+31,Itasca,Governor,,GR,,114,0.58
+31,Itasca,Governor,,IND,Tom Horner,1844,9.41
+31,Itasca,Governor,,R,Tom Emmer,7041,35.93
+31,Itasca,Governor,,TRP,,66,0.34
+31,Itasca,Secretary of State,,DFL,Mark Ritchie,10295,53.90
+31,Itasca,Secretary of State,,IND,,1153,6.04
+31,Itasca,Secretary of State,,R,Dan Severson,7651,40.06
+31,Itasca,State Auditor,,DFL,Rebecca Otto,9813,54.25
+31,Itasca,State Auditor,,R,Pat Anderson,8274,45.75
+31,Itasca,State Senate,,DFL,,11389,58.60
+31,Itasca,State Senate,,R,,8046,41.40
+32,Jackson,Attorney General,,DFL,Lori Swanson,1947,46.27
+32,Jackson,Attorney General,,IND,,322,7.65
+32,Jackson,Attorney General,,R,Chris Barden,1900,45.15
+32,Jackson,Attorney General,,TRP,,39,0.93
+32,Jackson,Governor,,DFL,Mark Dayton,1603,37.22
+32,Jackson,Governor,,EDP,,17,0.39
+32,Jackson,Governor,,GP,,23,0.53
+32,Jackson,Governor,,GR,,23,0.53
+32,Jackson,Governor,,IND,Tom Horner,561,13.03
+32,Jackson,Governor,,R,Tom Emmer,2061,47.85
+32,Jackson,Governor,,TRP,,19,0.44
+32,Jackson,Secretary of State,,DFL,Mark Ritchie,1819,43.04
+32,Jackson,Secretary of State,,IND,,337,7.97
+32,Jackson,Secretary of State,,R,Dan Severson,2070,48.98
+32,Jackson,State Auditor,,DFL,Rebecca Otto,1766,44.04
+32,Jackson,State Auditor,,R,Pat Anderson,2244,55.96
+32,Jackson,State Senate,,DFL,,2007,46.58
+32,Jackson,State Senate,,R,,2302,53.42
+33,Kanabec,Attorney General,,DFL,Lori Swanson,3198,50.23
+33,Kanabec,Attorney General,,IND,,345,5.42
+33,Kanabec,Attorney General,,R,Chris Barden,2784,43.73
+33,Kanabec,Attorney General,,TRP,,40,0.63
+33,Kanabec,Governor,,DFL,Mark Dayton,2580,39.69
+33,Kanabec,Governor,,EDP,,18,0.28
+33,Kanabec,Governor,,GP,,17,0.26
+33,Kanabec,Governor,,GR,,37,0.57
+33,Kanabec,Governor,,IND,Tom Horner,646,9.94
+33,Kanabec,Governor,,R,Tom Emmer,3173,48.81
+33,Kanabec,Governor,,TRP,,30,0.46
+33,Kanabec,Secretary of State,,DFL,Mark Ritchie,2687,42.75
+33,Kanabec,Secretary of State,,IND,,414,6.59
+33,Kanabec,Secretary of State,,R,Dan Severson,3185,50.67
+33,Kanabec,State Auditor,,DFL,Rebecca Otto,2789,46.15
+33,Kanabec,State Auditor,,R,Pat Anderson,3254,53.85
+33,Kanabec,State Senate,,DFL,,2987,46.80
+33,Kanabec,State Senate,,R,,3396,53.20
+34,Kandiyohi,Attorney General,,DFL,Lori Swanson,8484,50.13
+34,Kandiyohi,Attorney General,,IND,,862,5.09
+34,Kandiyohi,Attorney General,,R,Chris Barden,7458,44.07
+34,Kandiyohi,Attorney General,,TRP,,120,0.71
+34,Kandiyohi,Governor,,DFL,Mark Dayton,6751,39.02
+34,Kandiyohi,Governor,,EDP,,44,0.25
+34,Kandiyohi,Governor,,GP,,35,0.20
+34,Kandiyohi,Governor,,GR,,72,0.42
+34,Kandiyohi,Governor,,IND,Tom Horner,2309,13.35
+34,Kandiyohi,Governor,,R,Tom Emmer,8041,46.48
+34,Kandiyohi,Governor,,TRP,,49,0.28
+34,Kandiyohi,Secretary of State,,DFL,Mark Ritchie,7660,45.23
+34,Kandiyohi,Secretary of State,,IND,,1002,5.92
+34,Kandiyohi,Secretary of State,,R,Dan Severson,8272,48.85
+34,Kandiyohi,State Auditor,,DFL,Rebecca Otto,7431,45.68
+34,Kandiyohi,State Auditor,,R,Pat Anderson,8835,54.32
+34,Kandiyohi,State Senate,,DFL,,8443,48.90
+34,Kandiyohi,State Senate,,R,,8823,51.10
+35,Kittson,Attorney General,,DFL,Lori Swanson,1079,57.45
+35,Kittson,Attorney General,,IND,,97,5.17
+35,Kittson,Attorney General,,R,Chris Barden,690,36.74
+35,Kittson,Attorney General,,TRP,,12,0.64
+35,Kittson,Governor,,DFL,Mark Dayton,1047,53.39
+35,Kittson,Governor,,EDP,,4,0.20
+35,Kittson,Governor,,GP,,3,0.15
+35,Kittson,Governor,,GR,,12,0.61
+35,Kittson,Governor,,IND,Tom Horner,180,9.18
+35,Kittson,Governor,,R,Tom Emmer,713,36.36
+35,Kittson,Governor,,TRP,,2,0.10
+35,Kittson,Secretary of State,,DFL,Mark Ritchie,1037,54.15
+35,Kittson,Secretary of State,,IND,,151,7.89
+35,Kittson,Secretary of State,,R,Dan Severson,727,37.96
+35,Kittson,State Auditor,,DFL,Rebecca Otto,1000,55.34
+35,Kittson,State Auditor,,R,Pat Anderson,807,44.66
+35,Kittson,State Senate,,DFL,,1261,63.88
+35,Kittson,State Senate,,R,,713,36.12
+36,Koochiching,Attorney General,,DFL,Lori Swanson,2932,59.62
+36,Koochiching,Attorney General,,IND,,295,6.00
+36,Koochiching,Attorney General,,R,Chris Barden,1640,33.35
+36,Koochiching,Attorney General,,TRP,,51,1.04
+36,Koochiching,Governor,,DFL,Mark Dayton,2880,57.05
+36,Koochiching,Governor,,EDP,,23,0.46
+36,Koochiching,Governor,,GP,,16,0.32
+36,Koochiching,Governor,,GR,,31,0.61
+36,Koochiching,Governor,,IND,Tom Horner,415,8.22
+36,Koochiching,Governor,,R,Tom Emmer,1653,32.75
+36,Koochiching,Governor,,TRP,,30,0.59
+36,Koochiching,Secretary of State,,DFL,Mark Ritchie,2626,53.54
+36,Koochiching,Secretary of State,,IND,,360,7.34
+36,Koochiching,Secretary of State,,R,Dan Severson,1919,39.12
+36,Koochiching,State Auditor,,DFL,Rebecca Otto,2580,55.38
+36,Koochiching,State Auditor,,R,Pat Anderson,2079,44.62
+36,Koochiching,State Senate,,DFL,,3156,63.16
+36,Koochiching,State Senate,,R,,1841,36.84
+37,Lac qui Parle,Attorney General,,DFL,Lori Swanson,2035,58.06
+37,Lac qui Parle,Attorney General,,IND,,205,5.85
+37,Lac qui Parle,Attorney General,,R,Chris Barden,1225,34.95
+37,Lac qui Parle,Attorney General,,TRP,,40,1.14
+37,Lac qui Parle,Governor,,DFL,Mark Dayton,1618,45.01
+37,Lac qui Parle,Governor,,EDP,,17,0.47
+37,Lac qui Parle,Governor,,GP,,16,0.45
+37,Lac qui Parle,Governor,,GR,,11,0.31
+37,Lac qui Parle,Governor,,IND,Tom Horner,525,14.60
+37,Lac qui Parle,Governor,,R,Tom Emmer,1391,38.69
+37,Lac qui Parle,Governor,,TRP,,17,0.47
+37,Lac qui Parle,Secretary of State,,DFL,Mark Ritchie,1845,52.47
+37,Lac qui Parle,Secretary of State,,IND,,254,7.22
+37,Lac qui Parle,Secretary of State,,R,Dan Severson,1417,40.30
+37,Lac qui Parle,State Auditor,,DFL,Rebecca Otto,1808,53.78
+37,Lac qui Parle,State Auditor,,R,Pat Anderson,1554,46.22
+37,Lac qui Parle,State Senate,,DFL,,2191,61.05
+37,Lac qui Parle,State Senate,,R,,1398,38.95
+38,Lake,Attorney General,,DFL,Lori Swanson,3407,62.76
+38,Lake,Attorney General,,IND,,243,4.48
+38,Lake,Attorney General,,R,Chris Barden,1742,32.09
+38,Lake,Attorney General,,TRP,,37,0.68
+38,Lake,Governor,,DFL,Mark Dayton,3251,58.63
+38,Lake,Governor,,EDP,,19,0.34
+38,Lake,Governor,,GP,,24,0.43
+38,Lake,Governor,,GR,,22,0.40
+38,Lake,Governor,,IND,Tom Horner,449,8.10
+38,Lake,Governor,,R,Tom Emmer,1768,31.88
+38,Lake,Governor,,TRP,,12,0.22
+38,Lake,Secretary of State,,DFL,Mark Ritchie,3153,58.60
+38,Lake,Secretary of State,,IND,,317,5.89
+38,Lake,Secretary of State,,R,Dan Severson,1911,35.51
+38,Lake,State Auditor,,DFL,Rebecca Otto,2952,58.27
+38,Lake,State Auditor,,R,Pat Anderson,2114,41.73
+38,Lake,State Senate,,DFL,,3585,65.58
+38,Lake,State Senate,,R,,1882,34.42
+39,Lake of the Woods,Attorney General,,DFL,Lori Swanson,818,45.49
+39,Lake of the Woods,Attorney General,,IND,,116,6.45
+39,Lake of the Woods,Attorney General,,R,Chris Barden,846,47.05
+39,Lake of the Woods,Attorney General,,TRP,,18,1.00
+39,Lake of the Woods,Governor,,DFL,Mark Dayton,750,40.67
+39,Lake of the Woods,Governor,,EDP,,9,0.49
+39,Lake of the Woods,Governor,,GP,,2,0.11
+39,Lake of the Woods,Governor,,GR,,10,0.54
+39,Lake of the Woods,Governor,,IND,Tom Horner,204,11.06
+39,Lake of the Woods,Governor,,R,Tom Emmer,858,46.53
+39,Lake of the Woods,Governor,,TRP,,11,0.60
+39,Lake of the Woods,Secretary of State,,DFL,Mark Ritchie,742,40.99
+39,Lake of the Woods,Secretary of State,,IND,,146,8.07
+39,Lake of the Woods,Secretary of State,,R,Dan Severson,922,50.94
+39,Lake of the Woods,State Auditor,,DFL,Rebecca Otto,737,43.18
+39,Lake of the Woods,State Auditor,,R,Pat Anderson,970,56.82
+39,Lake of the Woods,State Senate,,DFL,,938,51.03
+39,Lake of the Woods,State Senate,,R,,900,48.97
+40,Le Sueur,Attorney General,,DFL,Lori Swanson,5534,49.13
+40,Le Sueur,Attorney General,,IND,,918,8.15
+40,Le Sueur,Attorney General,,R,Chris Barden,4722,41.92
+40,Le Sueur,Attorney General,,TRP,,90,0.80
+40,Le Sueur,Governor,,DFL,Mark Dayton,4224,36.66
+40,Le Sueur,Governor,,EDP,,47,0.41
+40,Le Sueur,Governor,,GP,,32,0.28
+40,Le Sueur,Governor,,GR,,51,0.44
+40,Le Sueur,Governor,,IND,Tom Horner,1696,14.72
+40,Le Sueur,Governor,,R,Tom Emmer,5420,47.04
+40,Le Sueur,Governor,,TRP,,52,0.45
+40,Le Sueur,Secretary of State,,DFL,Mark Ritchie,4957,43.80
+40,Le Sueur,Secretary of State,,IND,,925,8.17
+40,Le Sueur,Secretary of State,,R,Dan Severson,5436,48.03
+40,Le Sueur,State Auditor,,DFL,Rebecca Otto,5054,47.13
+40,Le Sueur,State Auditor,,R,Pat Anderson,5669,52.87
+40,Le Sueur,State Senate,,DFL,,4062,44.55
+40,Le Sueur,State Senate,,R,,5055,55.45
+41,Lincoln,Attorney General,,DFL,Lori Swanson,1175,49.58
+41,Lincoln,Attorney General,,IND,,153,6.46
+41,Lincoln,Attorney General,,R,Chris Barden,1022,43.12
+41,Lincoln,Attorney General,,TRP,,20,0.84
+41,Lincoln,Governor,,DFL,Mark Dayton,1012,41.73
+41,Lincoln,Governor,,EDP,,14,0.58
+41,Lincoln,Governor,,GP,,8,0.33
+41,Lincoln,Governor,,GR,,18,0.74
+41,Lincoln,Governor,,IND,Tom Horner,298,12.29
+41,Lincoln,Governor,,R,Tom Emmer,1070,44.12
+41,Lincoln,Governor,,TRP,,5,0.21
+41,Lincoln,Secretary of State,,DFL,Mark Ritchie,1118,46.96
+41,Lincoln,Secretary of State,,IND,,178,7.48
+41,Lincoln,Secretary of State,,R,Dan Severson,1085,45.57
+41,Lincoln,State Auditor,,DFL,Rebecca Otto,1096,48.03
+41,Lincoln,State Auditor,,R,Pat Anderson,1186,51.97
+41,Lincoln,State Senate,,DFL,,1306,54.24
+41,Lincoln,State Senate,,R,,1102,45.76
+42,Lyon,Attorney General,,DFL,Lori Swanson,4052,46.65
+42,Lyon,Attorney General,,IND,,575,6.62
+42,Lyon,Attorney General,,R,Chris Barden,4013,46.20
+42,Lyon,Attorney General,,TRP,,46,0.53
+42,Lyon,Governor,,DFL,Mark Dayton,3261,36.81
+42,Lyon,Governor,,EDP,,30,0.34
+42,Lyon,Governor,,GP,,16,0.18
+42,Lyon,Governor,,GR,,34,0.38
+42,Lyon,Governor,,IND,Tom Horner,1338,15.10
+42,Lyon,Governor,,R,Tom Emmer,4153,46.88
+42,Lyon,Governor,,TRP,,26,0.29
+42,Lyon,Secretary of State,,DFL,Mark Ritchie,3700,42.57
+42,Lyon,Secretary of State,,IND,,521,5.99
+42,Lyon,Secretary of State,,R,Dan Severson,4470,51.43
+42,Lyon,State Auditor,,DFL,Rebecca Otto,3649,43.52
+42,Lyon,State Auditor,,R,Pat Anderson,4736,56.48
+42,Lyon,State Senate,,DFL,,3813,43.28
+42,Lyon,State Senate,,R,,4997,56.72
+44,Mahnomen,Attorney General,,DFL,Lori Swanson,1116,60.95
+44,Mahnomen,Attorney General,,IND,,130,7.10
+44,Mahnomen,Attorney General,,R,Chris Barden,569,31.08
+44,Mahnomen,Attorney General,,TRP,,16,0.87
+44,Mahnomen,Governor,,DFL,Mark Dayton,1023,54.01
+44,Mahnomen,Governor,,EDP,,23,1.21
+44,Mahnomen,Governor,,GP,,10,0.53
+44,Mahnomen,Governor,,GR,,13,0.69
+44,Mahnomen,Governor,,IND,Tom Horner,165,8.71
+44,Mahnomen,Governor,,R,Tom Emmer,641,33.84
+44,Mahnomen,Governor,,TRP,,19,1.00
+44,Mahnomen,Secretary of State,,DFL,Mark Ritchie,1064,57.70
+44,Mahnomen,Secretary of State,,IND,,139,7.54
+44,Mahnomen,Secretary of State,,R,Dan Severson,641,34.76
+44,Mahnomen,State Auditor,,DFL,Rebecca Otto,1052,60.01
+44,Mahnomen,State Auditor,,R,Pat Anderson,701,39.99
+44,Mahnomen,State Senate,,DFL,,1235,65.73
+44,Mahnomen,State Senate,,R,,644,34.27
+45,Marshall,Attorney General,,DFL,Lori Swanson,2219,54.66
+45,Marshall,Attorney General,,IND,,201,4.95
+45,Marshall,Attorney General,,R,Chris Barden,1612,39.70
+45,Marshall,Attorney General,,TRP,,28,0.69
+45,Marshall,Governor,,DFL,Mark Dayton,2028,48.25
+45,Marshall,Governor,,EDP,,25,0.59
+45,Marshall,Governor,,GP,,10,0.24
+45,Marshall,Governor,,GR,,17,0.40
+45,Marshall,Governor,,IND,Tom Horner,398,9.47
+45,Marshall,Governor,,R,Tom Emmer,1708,40.64
+45,Marshall,Governor,,TRP,,17,0.40
+45,Marshall,Secretary of State,,DFL,Mark Ritchie,2083,51.04
+45,Marshall,Secretary of State,,IND,,270,6.62
+45,Marshall,Secretary of State,,R,Dan Severson,1728,42.34
+45,Marshall,State Auditor,,DFL,Rebecca Otto,1909,49.14
+45,Marshall,State Auditor,,R,Pat Anderson,1976,50.86
+45,Marshall,State Senate,,DFL,,2734,64.51
+45,Marshall,State Senate,,R,,1504,35.49
+46,Martin,Attorney General,,DFL,Lori Swanson,3674,43.96
+46,Martin,Attorney General,,IND,,582,6.96
+46,Martin,Attorney General,,R,Chris Barden,4042,48.37
+46,Martin,Attorney General,,TRP,,59,0.71
+46,Martin,Governor,,DFL,Mark Dayton,2733,31.55
+46,Martin,Governor,,EDP,,32,0.37
+46,Martin,Governor,,GP,,24,0.28
+46,Martin,Governor,,GR,,52,0.60
+46,Martin,Governor,,IND,Tom Horner,1034,11.94
+46,Martin,Governor,,R,Tom Emmer,4757,54.91
+46,Martin,Governor,,TRP,,31,0.36
+46,Martin,Secretary of State,,DFL,Mark Ritchie,3070,36.68
+46,Martin,Secretary of State,,IND,,815,9.74
+46,Martin,Secretary of State,,R,Dan Severson,4485,53.58
+46,Martin,State Auditor,,DFL,Rebecca Otto,2989,37.67
+46,Martin,State Auditor,,R,Pat Anderson,4945,62.33
+46,Martin,State Senate,,R,,7551,100.00
+43,McLeod,Attorney General,,DFL,Lori Swanson,5691,43.64
+43,McLeod,Attorney General,,IND,,797,6.11
+43,McLeod,Attorney General,,R,Chris Barden,6471,49.62
+43,McLeod,Attorney General,,TRP,,83,0.64
+43,McLeod,Governor,,DFL,Mark Dayton,3967,29.64
+43,McLeod,Governor,,EDP,,34,0.25
+43,McLeod,Governor,,GP,,22,0.16
+43,McLeod,Governor,,GR,,70,0.52
+43,McLeod,Governor,,IND,Tom Horner,1891,14.13
+43,McLeod,Governor,,R,Tom Emmer,7365,55.02
+43,McLeod,Governor,,TRP,,36,0.27
+43,McLeod,Secretary of State,,DFL,Mark Ritchie,4695,36.17
+43,McLeod,Secretary of State,,IND,,953,7.34
+43,McLeod,Secretary of State,,R,Dan Severson,7333,56.49
+43,McLeod,State Auditor,,DFL,Rebecca Otto,5013,40.18
+43,McLeod,State Auditor,,R,Pat Anderson,7463,59.82
+43,McLeod,State Senate,,DFL,,4420,33.39
+43,McLeod,State Senate,,IND,,859,6.49
+43,McLeod,State Senate,,R,,7959,60.12
+61,Meeker,Attorney General,,DFL,Lori Swanson,2748,53.96
+61,Meeker,Attorney General,,IND,,306,6.01
+61,Meeker,Attorney General,,R,Chris Barden,1999,39.25
+61,Meeker,Attorney General,,TRP,,40,0.79
+61,Meeker,Governor,,DFL,Mark Dayton,2181,41.67
+61,Meeker,Governor,,EDP,,19,0.36
+61,Meeker,Governor,,GP,,10,0.19
+61,Meeker,Governor,,GR,,23,0.44
+61,Meeker,Governor,,IND,Tom Horner,715,13.66
+61,Meeker,Governor,,R,Tom Emmer,2270,43.37
+61,Meeker,Governor,,TRP,,16,0.31
+61,Meeker,Secretary of State,,DFL,Mark Ritchie,2518,49.36
+61,Meeker,Secretary of State,,IND,,327,6.41
+61,Meeker,Secretary of State,,R,Dan Severson,2256,44.23
+61,Meeker,State Auditor,,DFL,Rebecca Otto,2301,47.07
+61,Meeker,State Auditor,,R,Pat Anderson,2587,52.93
+61,Meeker,State Senate,,DFL,,2536,49.40
+61,Meeker,State Senate,,R,,2598,50.60
+47,Mille Lacs,Attorney General,,DFL,Lori Swanson,4481,46.94
+47,Mille Lacs,Attorney General,,IND,,744,7.79
+47,Mille Lacs,Attorney General,,R,Chris Barden,4227,44.28
+47,Mille Lacs,Attorney General,,TRP,,95,1.00
+47,Mille Lacs,Governor,,DFL,Mark Dayton,3312,33.71
+47,Mille Lacs,Governor,,EDP,,36,0.37
+47,Mille Lacs,Governor,,GP,,31,0.32
+47,Mille Lacs,Governor,,GR,,43,0.44
+47,Mille Lacs,Governor,,IND,Tom Horner,1476,15.02
+47,Mille Lacs,Governor,,R,Tom Emmer,4897,49.84
+47,Mille Lacs,Governor,,TRP,,30,0.31
+47,Mille Lacs,Secretary of State,,DFL,Mark Ritchie,3927,40.88
+47,Mille Lacs,Secretary of State,,IND,,806,8.39
+47,Mille Lacs,Secretary of State,,R,Dan Severson,4872,50.72
+47,Mille Lacs,State Auditor,,DFL,Rebecca Otto,4081,45.10
+47,Mille Lacs,State Auditor,,R,Pat Anderson,4968,54.90
+47,Mille Lacs,State Senate,,DFL,,3892,40.16
+47,Mille Lacs,State Senate,,IND,,822,8.48
+47,Mille Lacs,State Senate,,R,,4977,51.36
+48,Morrison,Attorney General,,DFL,Lori Swanson,4835,48.90
+48,Morrison,Attorney General,,IND,,586,5.93
+48,Morrison,Attorney General,,R,Chris Barden,4361,44.10
+48,Morrison,Attorney General,,TRP,,106,1.07
+48,Morrison,Governor,,DFL,Mark Dayton,3893,38.37
+48,Morrison,Governor,,EDP,,43,0.42
+48,Morrison,Governor,,GP,,30,0.30
+48,Morrison,Governor,,GR,,61,0.60
+48,Morrison,Governor,,IND,Tom Horner,1131,11.15
+48,Morrison,Governor,,R,Tom Emmer,4934,48.63
+48,Morrison,Governor,,TRP,,55,0.54
+48,Morrison,Secretary of State,,DFL,Mark Ritchie,4328,43.66
+48,Morrison,Secretary of State,,IND,,633,6.39
+48,Morrison,Secretary of State,,R,Dan Severson,4952,49.95
+48,Morrison,State Auditor,,DFL,Rebecca Otto,4533,48.05
+48,Morrison,State Auditor,,R,Pat Anderson,4900,51.95
+48,Morrison,State Senate,,DFL,,5168,51.25
+48,Morrison,State Senate,,R,,4916,48.75
+49,Mower,Attorney General,,DFL,Lori Swanson,5622,45.58
+49,Mower,Attorney General,,IND,,845,6.85
+49,Mower,Attorney General,,R,Chris Barden,5747,46.59
+49,Mower,Attorney General,,TRP,,120,0.97
+49,Mower,Governor,,DFL,Mark Dayton,4240,33.25
+49,Mower,Governor,,EDP,,36,0.28
+49,Mower,Governor,,GP,,33,0.26
+49,Mower,Governor,,GR,,62,0.49
+49,Mower,Governor,,IND,Tom Horner,1527,11.97
+49,Mower,Governor,,R,Tom Emmer,6776,53.13
+49,Mower,Governor,,TRP,,79,0.62
+49,Mower,Secretary of State,,DFL,Mark Ritchie,4799,38.53
+49,Mower,Secretary of State,,IND,,812,6.52
+49,Mower,Secretary of State,,R,Dan Severson,6845,54.95
+49,Mower,State Auditor,,DFL,Rebecca Otto,4719,40.49
+49,Mower,State Auditor,,R,Pat Anderson,6936,59.51
+49,Mower,State Senate,,DFL,,4265,37.91
+49,Mower,State Senate,,R,,6986,62.09
+50,Murray,Attorney General,,DFL,Lori Swanson,8172,57.30
+50,Murray,Attorney General,,IND,,1355,9.50
+50,Murray,Attorney General,,R,Chris Barden,4620,32.40
+50,Murray,Attorney General,,TRP,,114,0.80
+50,Murray,Governor,,DFL,Mark Dayton,7371,52.15
+50,Murray,Governor,,EDP,,62,0.44
+50,Murray,Governor,,GP,,57,0.40
+50,Murray,Governor,,GR,,67,0.47
+50,Murray,Governor,,IND,Tom Horner,1493,10.56
+50,Murray,Governor,,R,Tom Emmer,5038,35.65
+50,Murray,Governor,,TRP,,45,0.32
+50,Murray,Secretary of State,,DFL,Mark Ritchie,7553,54.95
+50,Murray,Secretary of State,,IND,,876,6.37
+50,Murray,Secretary of State,,R,Dan Severson,5316,38.68
+50,Murray,State Auditor,,DFL,Rebecca Otto,7087,54.45
+50,Murray,State Auditor,,R,Pat Anderson,5929,45.55
+50,Murray,State Senate,,DFL,,8972,63.26
+50,Murray,State Senate,,R,,5211,36.74
+51,Nicollet,Attorney General,,DFL,Lori Swanson,1699,46.51
+51,Nicollet,Attorney General,,IND,,260,7.12
+51,Nicollet,Attorney General,,R,Chris Barden,1673,45.80
+51,Nicollet,Attorney General,,TRP,,21,0.57
+51,Nicollet,Governor,,DFL,Mark Dayton,1497,40.02
+51,Nicollet,Governor,,EDP,,13,0.35
+51,Nicollet,Governor,,GP,,9,0.24
+51,Nicollet,Governor,,GR,,16,0.43
+51,Nicollet,Governor,,IND,Tom Horner,519,13.87
+51,Nicollet,Governor,,R,Tom Emmer,1674,44.75
+51,Nicollet,Governor,,TRP,,13,0.35
+51,Nicollet,Secretary of State,,DFL,Mark Ritchie,1665,45.29
+51,Nicollet,Secretary of State,,IND,,295,8.03
+51,Nicollet,Secretary of State,,R,Dan Severson,1716,46.68
+51,Nicollet,State Auditor,,DFL,Rebecca Otto,1566,44.97
+51,Nicollet,State Auditor,,R,Pat Anderson,1916,55.03
+51,Nicollet,State Senate,,DFL,,1294,34.49
+51,Nicollet,State Senate,,R,,2458,65.51
+52,Nobles,Attorney General,,DFL,Lori Swanson,7116,55.20
+52,Nobles,Attorney General,,IND,,757,5.87
+52,Nobles,Attorney General,,R,Chris Barden,4929,38.23
+52,Nobles,Attorney General,,TRP,,90,0.70
+52,Nobles,Governor,,DFL,Mark Dayton,5759,43.38
+52,Nobles,Governor,,EDP,,50,0.38
+52,Nobles,Governor,,GP,,55,0.41
+52,Nobles,Governor,,GR,,53,0.40
+52,Nobles,Governor,,IND,Tom Horner,1901,14.32
+52,Nobles,Governor,,R,Tom Emmer,5433,40.92
+52,Nobles,Governor,,TRP,,26,0.20
+52,Nobles,Secretary of State,,DFL,Mark Ritchie,6502,50.61
+52,Nobles,Secretary of State,,IND,,791,6.16
+52,Nobles,Secretary of State,,R,Dan Severson,5555,43.24
+52,Nobles,State Auditor,,DFL,Rebecca Otto,6574,53.34
+52,Nobles,State Auditor,,R,Pat Anderson,5750,46.66
+52,Nobles,State Senate,,DFL,,7844,59.80
+52,Nobles,State Senate,,R,,5273,40.20
+53,Norman,Attorney General,,DFL,Lori Swanson,2416,42.01
+53,Norman,Attorney General,,IND,,428,7.44
+53,Norman,Attorney General,,R,Chris Barden,2868,49.87
+53,Norman,Attorney General,,TRP,,39,0.68
+53,Norman,Governor,,DFL,Mark Dayton,2270,38.22
+53,Norman,Governor,,EDP,,35,0.59
+53,Norman,Governor,,GP,,18,0.30
+53,Norman,Governor,,GR,,14,0.24
+53,Norman,Governor,,IND,Tom Horner,788,13.27
+53,Norman,Governor,,R,Tom Emmer,2794,47.04
+53,Norman,Governor,,TRP,,20,0.34
+53,Norman,Secretary of State,,DFL,Mark Ritchie,2384,41.17
+53,Norman,Secretary of State,,IND,,407,7.03
+53,Norman,Secretary of State,,R,Dan Severson,2999,51.80
+53,Norman,State Auditor,,DFL,Rebecca Otto,2268,41.24
+53,Norman,State Auditor,,R,Pat Anderson,3232,58.76
+53,Norman,State Senate,,DFL,,2399,40.37
+53,Norman,State Senate,,R,,3544,59.63
+54,Olmsted,Attorney General,,DFL,Lori Swanson,1575,61.76
+54,Olmsted,Attorney General,,IND,,131,5.14
+54,Olmsted,Attorney General,,R,Chris Barden,823,32.27
+54,Olmsted,Attorney General,,TRP,,21,0.82
+54,Olmsted,Governor,,DFL,Mark Dayton,1455,55.43
+54,Olmsted,Governor,,EDP,,15,0.57
+54,Olmsted,Governor,,GP,,8,0.30
+54,Olmsted,Governor,,GR,,14,0.53
+54,Olmsted,Governor,,IND,Tom Horner,253,9.64
+54,Olmsted,Governor,,R,Tom Emmer,872,33.22
+54,Olmsted,Governor,,TRP,,8,0.30
+54,Olmsted,Secretary of State,,DFL,Mark Ritchie,1484,58.08
+54,Olmsted,Secretary of State,,IND,,183,7.16
+54,Olmsted,Secretary of State,,R,Dan Severson,888,34.76
+54,Olmsted,State Auditor,,DFL,Rebecca Otto,1409,58.13
+54,Olmsted,State Auditor,,R,Pat Anderson,1015,41.87
+54,Olmsted,State Senate,,DFL,,1782,67.50
+54,Olmsted,State Senate,,R,,858,32.50
+55,Otter Tail,Attorney General,,DFL,Lori Swanson,24058,45.99
+55,Otter Tail,Attorney General,,IND,,3185,6.09
+55,Otter Tail,Attorney General,,R,Chris Barden,24702,47.23
+55,Otter Tail,Attorney General,,TRP,,361,0.69
+55,Otter Tail,Governor,,DFL,Mark Dayton,20813,37.86
+55,Otter Tail,Governor,,EDP,,183,0.33
+55,Otter Tail,Governor,,GP,,198,0.36
+55,Otter Tail,Governor,,GR,,274,0.50
+55,Otter Tail,Governor,,IND,Tom Horner,8175,14.87
+55,Otter Tail,Governor,,R,Tom Emmer,25228,45.89
+55,Otter Tail,Governor,,TRP,,105,0.19
+55,Otter Tail,Secretary of State,,DFL,Mark Ritchie,21838,41.73
+55,Otter Tail,Secretary of State,,IND,,3187,6.09
+55,Otter Tail,Secretary of State,,R,Dan Severson,27312,52.18
+55,Otter Tail,State Auditor,,DFL,Rebecca Otto,20596,41.68
+55,Otter Tail,State Auditor,,R,Pat Anderson,28819,58.32
+55,Otter Tail,State Senate,,DFL,,22176,40.92
+55,Otter Tail,State Senate,,R,,32023,59.08
+56,Pennington,Attorney General,,DFL,Lori Swanson,9592,39.85
+56,Pennington,Attorney General,,IND,,1390,5.77
+56,Pennington,Attorney General,,R,Chris Barden,12869,53.46
+56,Pennington,Attorney General,,TRP,,219,0.91
+56,Pennington,Governor,,DFL,Mark Dayton,8702,35.08
+56,Pennington,Governor,,EDP,,99,0.40
+56,Pennington,Governor,,GP,,76,0.31
+56,Pennington,Governor,,GR,,118,0.48
+56,Pennington,Governor,,IND,Tom Horner,2450,9.88
+56,Pennington,Governor,,R,Tom Emmer,13295,53.60
+56,Pennington,Governor,,TRP,,65,0.26
+56,Pennington,Secretary of State,,DFL,Mark Ritchie,8747,36.71
+56,Pennington,Secretary of State,,IND,,1501,6.30
+56,Pennington,Secretary of State,,R,Dan Severson,13579,56.99
+56,Pennington,State Auditor,,DFL,Rebecca Otto,8546,37.21
+56,Pennington,State Auditor,,R,Pat Anderson,14418,62.79
+56,Pennington,State Senate,,DFL,,10860,43.87
+56,Pennington,State Senate,,R,,13894,56.13
+57,Pine,Attorney General,,DFL,Lori Swanson,2270,49.17
+57,Pine,Attorney General,,IND,,301,6.52
+57,Pine,Attorney General,,R,Chris Barden,2000,43.32
+57,Pine,Attorney General,,TRP,,46,1.00
+57,Pine,Governor,,DFL,Mark Dayton,2082,43.98
+57,Pine,Governor,,EDP,,32,0.68
+57,Pine,Governor,,GP,,15,0.32
+57,Pine,Governor,,GR,,26,0.55
+57,Pine,Governor,,IND,Tom Horner,452,9.55
+57,Pine,Governor,,R,Tom Emmer,2120,44.78
+57,Pine,Governor,,TRP,,7,0.15
+57,Pine,Secretary of State,,DFL,Mark Ritchie,2107,45.57
+57,Pine,Secretary of State,,IND,,372,8.04
+57,Pine,Secretary of State,,R,Dan Severson,2145,46.39
+57,Pine,State Auditor,,DFL,Rebecca Otto,2016,46.20
+57,Pine,State Auditor,,R,Pat Anderson,2348,53.80
+57,Pine,State Senate,,DFL,,2865,60.32
+57,Pine,State Senate,,R,,1885,39.68
+58,Pipestone,Attorney General,,DFL,Lori Swanson,5765,54.17
+58,Pipestone,Attorney General,,IND,,590,5.54
+58,Pipestone,Attorney General,,R,Chris Barden,4188,39.35
+58,Pipestone,Attorney General,,TRP,,100,0.94
+58,Pipestone,Governor,,DFL,Mark Dayton,4720,43.49
+58,Pipestone,Governor,,EDP,,32,0.29
+58,Pipestone,Governor,,GP,,35,0.32
+58,Pipestone,Governor,,GR,,54,0.50
+58,Pipestone,Governor,,IND,Tom Horner,1056,9.73
+58,Pipestone,Governor,,R,Tom Emmer,4927,45.40
+58,Pipestone,Governor,,TRP,,29,0.27
+58,Pipestone,Secretary of State,,DFL,Mark Ritchie,5088,48.15
+58,Pipestone,Secretary of State,,IND,,725,6.86
+58,Pipestone,Secretary of State,,R,Dan Severson,4755,44.99
+58,Pipestone,State Auditor,,DFL,Rebecca Otto,5015,49.70
+58,Pipestone,State Auditor,,R,Pat Anderson,5075,50.30
+58,Pipestone,State Senate,,DFL,,5618,52.25
+58,Pipestone,State Senate,,R,,5134,47.75
+59,Polk,Attorney General,,DFL,Lori Swanson,1240,36.29
+59,Polk,Attorney General,,IND,,231,6.76
+59,Polk,Attorney General,,R,Chris Barden,1929,56.45
+59,Polk,Attorney General,,TRP,,17,0.50
+59,Polk,Governor,,DFL,Mark Dayton,1162,33.06
+59,Polk,Governor,,EDP,,26,0.74
+59,Polk,Governor,,GP,,14,0.40
+59,Polk,Governor,,GR,,20,0.57
+59,Polk,Governor,,IND,Tom Horner,291,8.28
+59,Polk,Governor,,R,Tom Emmer,1988,56.56
+59,Polk,Governor,,TRP,,14,0.40
+59,Polk,Secretary of State,,DFL,Mark Ritchie,1228,35.77
+59,Polk,Secretary of State,,IND,,224,6.52
+59,Polk,Secretary of State,,R,Dan Severson,1981,57.70
+59,Polk,State Auditor,,DFL,Rebecca Otto,1177,35.75
+59,Polk,State Auditor,,R,Pat Anderson,2115,64.25
+59,Polk,State Senate,,DFL,,1258,35.62
+59,Polk,State Senate,,R,,2274,64.38
+60,Pope,Attorney General,,DFL,Lori Swanson,5312,51.00
+60,Pope,Attorney General,,IND,,502,4.82
+60,Pope,Attorney General,,R,Chris Barden,4532,43.51
+60,Pope,Attorney General,,TRP,,70,0.67
+60,Pope,Governor,,DFL,Mark Dayton,4797,44.71
+60,Pope,Governor,,EDP,,54,0.50
+60,Pope,Governor,,GP,,25,0.23
+60,Pope,Governor,,GR,,53,0.49
+60,Pope,Governor,,IND,Tom Horner,1025,9.55
+60,Pope,Governor,,R,Tom Emmer,4763,44.39
+60,Pope,Governor,,TRP,,13,0.12
+60,Pope,Secretary of State,,DFL,Mark Ritchie,4847,46.53
+60,Pope,Secretary of State,,IND,,607,5.83
+60,Pope,Secretary of State,,R,Dan Severson,4963,47.64
+60,Pope,State Auditor,,DFL,Rebecca Otto,4622,46.25
+60,Pope,State Auditor,,R,Pat Anderson,5372,53.75
+60,Pope,State Senate,,DFL,,6234,58.44
+60,Pope,State Senate,,R,,4433,41.56
+62,Ramsey,Attorney General,,DFL,Lori Swanson,117847,64.09
+62,Ramsey,Attorney General,,IND,,8091,4.40
+62,Ramsey,Attorney General,,R,Chris Barden,56394,30.67
+62,Ramsey,Attorney General,,TRP,,1551,0.84
+62,Ramsey,Governor,,DFL,Mark Dayton,105498,54.99
+62,Ramsey,Governor,,EDP,,515,0.27
+62,Ramsey,Governor,,GP,,620,0.32
+62,Ramsey,Governor,,GR,,558,0.29
+62,Ramsey,Governor,,IND,Tom Horner,22959,11.97
+62,Ramsey,Governor,,R,Tom Emmer,61412,32.01
+62,Ramsey,Governor,,TRP,,280,0.15
+62,Ramsey,Secretary of State,,DFL,Mark Ritchie,113629,61.85
+62,Ramsey,Secretary of State,,IND,,8052,4.38
+62,Ramsey,Secretary of State,,R,Dan Severson,62029,33.76
+62,Ramsey,State Auditor,,DFL,Rebecca Otto,110120,63.27
+62,Ramsey,State Auditor,,R,Pat Anderson,63933,36.73
+62,Ramsey,State Senate,,DFL,,114447,61.87
+62,Ramsey,State Senate,,IND,,4426,2.39
+62,Ramsey,State Senate,,R,,66112,35.74
+63,Red Lake,Attorney General,,DFL,Lori Swanson,891,57.63
+63,Red Lake,Attorney General,,IND,,92,5.95
+63,Red Lake,Attorney General,,R,Chris Barden,559,36.16
+63,Red Lake,Attorney General,,TRP,,4,0.26
+63,Red Lake,Governor,,DFL,Mark Dayton,762,48.17
+63,Red Lake,Governor,,EDP,,13,0.82
+63,Red Lake,Governor,,GP,,3,0.19
+63,Red Lake,Governor,,GR,,8,0.51
+63,Red Lake,Governor,,IND,Tom Horner,136,8.60
+63,Red Lake,Governor,,R,Tom Emmer,655,41.40
+63,Red Lake,Governor,,TRP,,5,0.32
+63,Red Lake,Secretary of State,,DFL,Mark Ritchie,828,53.45
+63,Red Lake,Secretary of State,,IND,,94,6.07
+63,Red Lake,Secretary of State,,R,Dan Severson,627,40.48
+63,Red Lake,State Auditor,,DFL,Rebecca Otto,783,52.91
+63,Red Lake,State Auditor,,R,Pat Anderson,697,47.09
+63,Red Lake,State Senate,,DFL,,1108,69.21
+63,Red Lake,State Senate,,R,,493,30.79
+64,Redwood,Attorney General,,DFL,Lori Swanson,2608,44.34
+64,Redwood,Attorney General,,IND,,378,6.43
+64,Redwood,Attorney General,,R,Chris Barden,2841,48.30
+64,Redwood,Attorney General,,TRP,,55,0.94
+64,Redwood,Governor,,DFL,Mark Dayton,1859,30.85
+64,Redwood,Governor,,EDP,,21,0.35
+64,Redwood,Governor,,GP,,17,0.28
+64,Redwood,Governor,,GR,,32,0.53
+64,Redwood,Governor,,IND,Tom Horner,864,14.34
+64,Redwood,Governor,,R,Tom Emmer,3220,53.44
+64,Redwood,Governor,,TRP,,13,0.22
+64,Redwood,Secretary of State,,DFL,Mark Ritchie,2178,37.17
+64,Redwood,Secretary of State,,IND,,441,7.53
+64,Redwood,Secretary of State,,R,Dan Severson,3241,55.31
+64,Redwood,State Auditor,,DFL,Rebecca Otto,2189,38.86
+64,Redwood,State Auditor,,R,Pat Anderson,3444,61.14
+64,Redwood,State Senate,,DFL,,1663,27.57
+64,Redwood,State Senate,,R,,4370,72.43
+65,Renville,Attorney General,,DFL,Lori Swanson,3229,52.50
+65,Renville,Attorney General,,IND,,436,7.09
+65,Renville,Attorney General,,R,Chris Barden,2443,39.72
+65,Renville,Attorney General,,TRP,,43,0.70
+65,Renville,Governor,,DFL,Mark Dayton,2288,36.28
+65,Renville,Governor,,EDP,,17,0.27
+65,Renville,Governor,,GP,,17,0.27
+65,Renville,Governor,,GR,,48,0.76
+65,Renville,Governor,,IND,Tom Horner,1163,18.44
+65,Renville,Governor,,R,Tom Emmer,2759,43.75
+65,Renville,Governor,,TRP,,14,0.22
+65,Renville,Secretary of State,,DFL,Mark Ritchie,2799,45.39
+65,Renville,Secretary of State,,IND,,539,8.74
+65,Renville,Secretary of State,,R,Dan Severson,2828,45.86
+65,Renville,State Auditor,,DFL,Rebecca Otto,2703,46.24
+65,Renville,State Auditor,,R,Pat Anderson,3143,53.76
+65,Renville,State Senate,,DFL,,3132,49.86
+65,Renville,State Senate,,R,,3150,50.14
+66,Rice,Attorney General,,DFL,Lori Swanson,12292,55.00
+66,Rice,Attorney General,,IND,,1278,5.72
+66,Rice,Attorney General,,R,Chris Barden,8630,38.61
+66,Rice,Attorney General,,TRP,,149,0.67
+66,Rice,Governor,,DFL,Mark Dayton,10382,44.59
+66,Rice,Governor,,EDP,,76,0.33
+66,Rice,Governor,,GP,,74,0.32
+66,Rice,Governor,,GR,,77,0.33
+66,Rice,Governor,,IND,Tom Horner,2895,12.43
+66,Rice,Governor,,R,Tom Emmer,9740,41.83
+66,Rice,Governor,,TRP,,41,0.18
+66,Rice,Secretary of State,,DFL,Mark Ritchie,11673,51.98
+66,Rice,Secretary of State,,IND,,1206,5.37
+66,Rice,Secretary of State,,R,Dan Severson,9579,42.65
+66,Rice,State Auditor,,DFL,Rebecca Otto,11442,53.39
+66,Rice,State Auditor,,R,Pat Anderson,9988,46.61
+66,Rice,State Senate,,DFL,,11742,53.58
+66,Rice,State Senate,,R,,10172,46.42
+67,Rock,Attorney General,,DFL,Lori Swanson,1304,36.69
+67,Rock,Attorney General,,IND,,225,6.33
+67,Rock,Attorney General,,R,Chris Barden,2006,56.44
+67,Rock,Attorney General,,TRP,,19,0.53
+67,Rock,Governor,,DFL,Mark Dayton,1264,34.62
+67,Rock,Governor,,EDP,,15,0.41
+67,Rock,Governor,,GP,,7,0.19
+67,Rock,Governor,,GR,,20,0.55
+67,Rock,Governor,,IND,Tom Horner,317,8.68
+67,Rock,Governor,,R,Tom Emmer,2017,55.25
+67,Rock,Governor,,TRP,,11,0.30
+67,Rock,Secretary of State,,DFL,Mark Ritchie,1300,36.25
+67,Rock,Secretary of State,,IND,,216,6.02
+67,Rock,Secretary of State,,R,Dan Severson,2070,57.72
+67,Rock,State Auditor,,DFL,Rebecca Otto,1242,36.24
+67,Rock,State Auditor,,R,Pat Anderson,2185,63.76
+67,Rock,State Senate,,DFL,,1316,36.03
+67,Rock,State Senate,,R,,2337,63.97
+68,Roseau,Attorney General,,DFL,Lori Swanson,2659,42.95
+68,Roseau,Attorney General,,IND,,397,6.41
+68,Roseau,Attorney General,,R,Chris Barden,3081,49.77
+68,Roseau,Attorney General,,TRP,,54,0.87
+68,Roseau,Governor,,DFL,Mark Dayton,2577,39.66
+68,Roseau,Governor,,EDP,,19,0.29
+68,Roseau,Governor,,GP,,17,0.26
+68,Roseau,Governor,,GR,,38,0.58
+68,Roseau,Governor,,IND,Tom Horner,610,9.39
+68,Roseau,Governor,,R,Tom Emmer,3218,49.52
+68,Roseau,Governor,,TRP,,19,0.29
+68,Roseau,Secretary of State,,DFL,Mark Ritchie,2358,37.56
+68,Roseau,Secretary of State,,IND,,563,8.97
+68,Roseau,Secretary of State,,R,Dan Severson,3357,53.47
+68,Roseau,State Auditor,,DFL,Rebecca Otto,2319,39.08
+68,Roseau,State Auditor,,R,Pat Anderson,3615,60.92
+68,Roseau,State Senate,,DFL,,3043,46.47
+68,Roseau,State Senate,,R,,3505,53.53
+70,Scott,Attorney General,,DFL,Lori Swanson,18973,41.22
+70,Scott,Attorney General,,IND,,2349,5.10
+70,Scott,Attorney General,,R,Chris Barden,24459,53.14
+70,Scott,Attorney General,,TRP,,243,0.53
+70,Scott,Governor,,DFL,Mark Dayton,14455,30.32
+70,Scott,Governor,,EDP,,97,0.20
+70,Scott,Governor,,GP,,68,0.14
+70,Scott,Governor,,GR,,102,0.21
+70,Scott,Governor,,IND,Tom Horner,6091,12.78
+70,Scott,Governor,,R,Tom Emmer,26806,56.23
+70,Scott,Governor,,TRP,,54,0.11
+70,Scott,Secretary of State,,DFL,Mark Ritchie,17091,37.09
+70,Scott,Secretary of State,,IND,,2314,5.02
+70,Scott,Secretary of State,,R,Dan Severson,26669,57.88
+70,Scott,State Auditor,,DFL,Rebecca Otto,17547,39.47
+70,Scott,State Auditor,,R,Pat Anderson,26904,60.53
+70,Scott,State Senate,,DFL,,14547,31.80
+70,Scott,State Senate,,IND,,84,0.18
+70,Scott,State Senate,,R,,31120,68.02
+71,Sherburne,Attorney General,,DFL,Lori Swanson,12782,40.26
+71,Sherburne,Attorney General,,IND,,1642,5.17
+71,Sherburne,Attorney General,,R,Chris Barden,17113,53.91
+71,Sherburne,Attorney General,,TRP,,209,0.66
+71,Sherburne,Governor,,DFL,Mark Dayton,10106,30.74
+71,Sherburne,Governor,,EDP,,62,0.19
+71,Sherburne,Governor,,GP,,75,0.23
+71,Sherburne,Governor,,GR,,118,0.36
+71,Sherburne,Governor,,IND,Tom Horner,3553,10.81
+71,Sherburne,Governor,,R,Tom Emmer,18890,57.46
+71,Sherburne,Governor,,TRP,,73,0.22
+71,Sherburne,Secretary of State,,DFL,Mark Ritchie,11511,35.98
+71,Sherburne,Secretary of State,,IND,,1521,4.75
+71,Sherburne,Secretary of State,,R,Dan Severson,18957,59.26
+71,Sherburne,State Auditor,,DFL,Rebecca Otto,11892,38.92
+71,Sherburne,State Auditor,,R,Pat Anderson,18660,61.08
+71,Sherburne,State Senate,,DFL,,12633,39.06
+71,Sherburne,State Senate,,R,,19706,60.94
+72,Sibley,Attorney General,,DFL,Lori Swanson,2661,46.40
+72,Sibley,Attorney General,,IND,,403,7.03
+72,Sibley,Attorney General,,R,Chris Barden,2612,45.54
+72,Sibley,Attorney General,,TRP,,59,1.03
+72,Sibley,Governor,,DFL,Mark Dayton,1760,29.68
+72,Sibley,Governor,,EDP,,4,0.07
+72,Sibley,Governor,,GP,,19,0.32
+72,Sibley,Governor,,GR,,30,0.51
+72,Sibley,Governor,,IND,Tom Horner,969,16.34
+72,Sibley,Governor,,R,Tom Emmer,3128,52.75
+72,Sibley,Governor,,TRP,,20,0.34
+72,Sibley,Secretary of State,,DFL,Mark Ritchie,2196,38.67
+72,Sibley,Secretary of State,,IND,,490,8.63
+72,Sibley,Secretary of State,,R,Dan Severson,2993,52.70
+72,Sibley,State Auditor,,DFL,Rebecca Otto,2346,42.76
+72,Sibley,State Auditor,,R,Pat Anderson,3140,57.24
+72,Sibley,State Senate,,DFL,,2294,42.44
+72,Sibley,State Senate,,R,,3111,57.56
+69,St. Louis,Attorney General,,DFL,Lori Swanson,54061,65.76
+69,St. Louis,Attorney General,,IND,,3668,4.46
+69,St. Louis,Attorney General,,R,Chris Barden,23834,28.99
+69,St. Louis,Attorney General,,TRP,,647,0.79
+69,St. Louis,Governor,,DFL,Mark Dayton,52312,61.85
+69,St. Louis,Governor,,EDP,,313,0.37
+69,St. Louis,Governor,,GP,,295,0.35
+69,St. Louis,Governor,,GR,,330,0.39
+69,St. Louis,Governor,,IND,Tom Horner,6999,8.28
+69,St. Louis,Governor,,R,Tom Emmer,24187,28.60
+69,St. Louis,Governor,,TRP,,144,0.17
+69,St. Louis,Secretary of State,,DFL,Mark Ritchie,50935,62.02
+69,St. Louis,Secretary of State,,IND,,4539,5.53
+69,St. Louis,Secretary of State,,R,Dan Severson,26656,32.46
+69,St. Louis,State Auditor,,DFL,Rebecca Otto,47527,61.57
+69,St. Louis,State Auditor,,R,Pat Anderson,29666,38.43
+69,St. Louis,State Senate,,DFL,,57144,68.71
+69,St. Louis,State Senate,,R,,26019,31.29
+73,Stearns,Attorney General,,DFL,Lori Swanson,24460,46.12
+73,Stearns,Attorney General,,IND,,3134,5.91
+73,Stearns,Attorney General,,R,Chris Barden,24722,46.62
+73,Stearns,Attorney General,,TRP,,717,1.35
+73,Stearns,Governor,,DFL,Mark Dayton,19929,36.04
+73,Stearns,Governor,,EDP,,156,0.28
+73,Stearns,Governor,,GP,,183,0.33
+73,Stearns,Governor,,GR,,215,0.39
+73,Stearns,Governor,,IND,Tom Horner,6898,12.48
+73,Stearns,Governor,,R,Tom Emmer,27816,50.31
+73,Stearns,Governor,,TRP,,95,0.17
+73,Stearns,Secretary of State,,DFL,Mark Ritchie,21156,39.72
+73,Stearns,Secretary of State,,IND,,2797,5.25
+73,Stearns,Secretary of State,,R,Dan Severson,29309,55.03
+73,Stearns,State Auditor,,DFL,Rebecca Otto,21568,42.72
+73,Stearns,State Auditor,,R,Pat Anderson,28916,57.28
+73,Stearns,State Senate,,DFL,,22115,40.59
+73,Stearns,State Senate,,R,,32373,59.41
+74,Steele,Attorney General,,DFL,Lori Swanson,6967,49.52
+74,Steele,Attorney General,,IND,,955,6.79
+74,Steele,Attorney General,,R,Chris Barden,6008,42.70
+74,Steele,Attorney General,,TRP,,139,0.99
+74,Steele,Governor,,DFL,Mark Dayton,5393,36.96
+74,Steele,Governor,,EDP,,50,0.34
+74,Steele,Governor,,GP,,50,0.34
+74,Steele,Governor,,GR,,75,0.51
+74,Steele,Governor,,IND,Tom Horner,2002,13.72
+74,Steele,Governor,,R,Tom Emmer,6973,47.79
+74,Steele,Governor,,TRP,,49,0.34
+74,Steele,Secretary of State,,DFL,Mark Ritchie,6064,43.15
+74,Steele,Secretary of State,,IND,,910,6.48
+74,Steele,Secretary of State,,R,Dan Severson,7079,50.37
+74,Steele,State Auditor,,DFL,Rebecca Otto,6014,45.08
+74,Steele,State Auditor,,R,Pat Anderson,7326,54.92
+74,Steele,State Senate,,DFL,,6388,44.47
+74,Steele,State Senate,,R,,7977,55.53
+75,Stevens,Attorney General,,DFL,Lori Swanson,2201,52.66
+75,Stevens,Attorney General,,IND,,191,4.57
+75,Stevens,Attorney General,,R,Chris Barden,1768,42.30
+75,Stevens,Attorney General,,TRP,,20,0.48
+75,Stevens,Governor,,DFL,Mark Dayton,1932,44.06
+75,Stevens,Governor,,EDP,,19,0.43
+75,Stevens,Governor,,GP,,24,0.55
+75,Stevens,Governor,,GR,,16,0.36
+75,Stevens,Governor,,IND,Tom Horner,447,10.19
+75,Stevens,Governor,,R,Tom Emmer,1942,44.29
+75,Stevens,Governor,,TRP,,5,0.11
+75,Stevens,Secretary of State,,DFL,Mark Ritchie,2003,47.37
+75,Stevens,Secretary of State,,IND,,250,5.91
+75,Stevens,Secretary of State,,R,Dan Severson,1975,46.71
+75,Stevens,State Auditor,,DFL,Rebecca Otto,1878,46.96
+75,Stevens,State Auditor,,R,Pat Anderson,2121,53.04
+75,Stevens,State Senate,,DFL,,1959,44.99
+75,Stevens,State Senate,,R,,2395,55.01
+76,Swift,Attorney General,,DFL,Lori Swanson,2568,59.55
+76,Swift,Attorney General,,IND,,267,6.19
+76,Swift,Attorney General,,R,Chris Barden,1442,33.44
+76,Swift,Attorney General,,TRP,,35,0.81
+76,Swift,Governor,,DFL,Mark Dayton,2101,47.36
+76,Swift,Governor,,EDP,,15,0.34
+76,Swift,Governor,,GP,,10,0.23
+76,Swift,Governor,,GR,,23,0.52
+76,Swift,Governor,,IND,Tom Horner,622,14.02
+76,Swift,Governor,,R,Tom Emmer,1650,37.20
+76,Swift,Governor,,TRP,,15,0.34
+76,Swift,Secretary of State,,DFL,Mark Ritchie,2434,56.21
+76,Swift,Secretary of State,,IND,,286,6.61
+76,Swift,Secretary of State,,R,Dan Severson,1610,37.18
+76,Swift,State Auditor,,DFL,Rebecca Otto,2340,56.81
+76,Swift,State Auditor,,R,Pat Anderson,1779,43.19
+76,Swift,State Senate,,DFL,,2722,61.95
+76,Swift,State Senate,,R,,1672,38.05
+77,Todd,Attorney General,,DFL,Lori Swanson,4277,47.73
+77,Todd,Attorney General,,IND,,673,7.51
+77,Todd,Attorney General,,R,Chris Barden,3913,43.67
+77,Todd,Attorney General,,TRP,,97,1.08
+77,Todd,Governor,,DFL,Mark Dayton,3411,36.75
+77,Todd,Governor,,EDP,,32,0.34
+77,Todd,Governor,,GP,,19,0.20
+77,Todd,Governor,,GR,,51,0.55
+77,Todd,Governor,,IND,Tom Horner,1012,10.90
+77,Todd,Governor,,R,Tom Emmer,4734,51.01
+77,Todd,Governor,,TRP,,22,0.24
+77,Todd,Secretary of State,,DFL,Mark Ritchie,3684,41.46
+77,Todd,Secretary of State,,IND,,691,7.78
+77,Todd,Secretary of State,,R,Dan Severson,4511,50.77
+77,Todd,State Auditor,,DFL,Rebecca Otto,3686,43.53
+77,Todd,State Auditor,,R,Pat Anderson,4782,56.47
+77,Todd,State Senate,,DFL,,3338,36.52
+77,Todd,State Senate,,R,,5802,63.48
+78,Traverse,Attorney General,,DFL,Lori Swanson,943,55.47
+78,Traverse,Attorney General,,IND,,110,6.47
+78,Traverse,Attorney General,,R,Chris Barden,632,37.18
+78,Traverse,Attorney General,,TRP,,15,0.88
+78,Traverse,Governor,,DFL,Mark Dayton,819,46.40
+78,Traverse,Governor,,EDP,,9,0.51
+78,Traverse,Governor,,GP,,8,0.45
+78,Traverse,Governor,,GR,,14,0.79
+78,Traverse,Governor,,IND,Tom Horner,216,12.24
+78,Traverse,Governor,,R,Tom Emmer,689,39.04
+78,Traverse,Governor,,TRP,,10,0.57
+78,Traverse,Secretary of State,,DFL,Mark Ritchie,865,51.09
+78,Traverse,Secretary of State,,IND,,134,7.91
+78,Traverse,Secretary of State,,R,Dan Severson,694,40.99
+78,Traverse,State Auditor,,DFL,Rebecca Otto,847,52.32
+78,Traverse,State Auditor,,R,Pat Anderson,772,47.68
+78,Traverse,State Senate,,DFL,,923,52.15
+78,Traverse,State Senate,,R,,847,47.85
+79,Wabasha,Attorney General,,DFL,Lori Swanson,4123,47.59
+79,Wabasha,Attorney General,,IND,,591,6.82
+79,Wabasha,Attorney General,,R,Chris Barden,3869,44.66
+79,Wabasha,Attorney General,,TRP,,80,0.92
+79,Wabasha,Governor,,DFL,Mark Dayton,3272,36.73
+79,Wabasha,Governor,,EDP,,26,0.29
+79,Wabasha,Governor,,GP,,36,0.40
+79,Wabasha,Governor,,GR,,33,0.37
+79,Wabasha,Governor,,IND,Tom Horner,1182,13.27
+79,Wabasha,Governor,,R,Tom Emmer,4341,48.73
+79,Wabasha,Governor,,TRP,,19,0.21
+79,Wabasha,Secretary of State,,DFL,Mark Ritchie,3780,43.54
+79,Wabasha,Secretary of State,,IND,,650,7.49
+79,Wabasha,Secretary of State,,R,Dan Severson,4252,48.97
+79,Wabasha,State Auditor,,DFL,Rebecca Otto,3515,42.70
+79,Wabasha,State Auditor,,R,Pat Anderson,4717,57.30
+79,Wabasha,State Senate,,DFL,,3930,44.90
+79,Wabasha,State Senate,,R,,4823,55.10
+80,Wadena,Attorney General,,DFL,Lori Swanson,2231,42.37
+80,Wadena,Attorney General,,IND,,287,5.45
+80,Wadena,Attorney General,,R,Chris Barden,2709,51.44
+80,Wadena,Attorney General,,TRP,,39,0.74
+80,Wadena,Governor,,DFL,Mark Dayton,1922,35.54
+80,Wadena,Governor,,EDP,,13,0.24
+80,Wadena,Governor,,GP,,11,0.20
+80,Wadena,Governor,,GR,,24,0.44
+80,Wadena,Governor,,IND,Tom Horner,517,9.56
+80,Wadena,Governor,,R,Tom Emmer,2906,53.74
+80,Wadena,Governor,,TRP,,15,0.28
+80,Wadena,Secretary of State,,DFL,Mark Ritchie,2025,38.38
+80,Wadena,Secretary of State,,IND,,325,6.16
+80,Wadena,Secretary of State,,R,Dan Severson,2926,55.46
+80,Wadena,State Auditor,,DFL,Rebecca Otto,1977,39.17
+80,Wadena,State Auditor,,R,Pat Anderson,3070,60.83
+80,Wadena,State Senate,,DFL,,2786,51.52
+80,Wadena,State Senate,,R,,2622,48.48
+81,Waseca,Attorney General,,DFL,Lori Swanson,3612,47.72
+81,Waseca,Attorney General,,IND,,619,8.18
+81,Waseca,Attorney General,,R,Chris Barden,3280,43.33
+81,Waseca,Attorney General,,TRP,,58,0.77
+81,Waseca,Governor,,DFL,Mark Dayton,2853,36.53
+81,Waseca,Governor,,EDP,,27,0.35
+81,Waseca,Governor,,GP,,22,0.28
+81,Waseca,Governor,,GR,,33,0.42
+81,Waseca,Governor,,IND,Tom Horner,1280,16.39
+81,Waseca,Governor,,R,Tom Emmer,3577,45.80
+81,Waseca,Governor,,TRP,,18,0.23
+81,Waseca,Secretary of State,,DFL,Mark Ritchie,3198,42.31
+81,Waseca,Secretary of State,,IND,,724,9.58
+81,Waseca,Secretary of State,,R,Dan Severson,3637,48.11
+81,Waseca,State Auditor,,DFL,Rebecca Otto,3186,43.95
+81,Waseca,State Auditor,,R,Pat Anderson,4063,56.05
+81,Waseca,State Senate,,DFL,,1920,26.47
+81,Waseca,State Senate,,R,,5333,73.53
+82,Washington,Attorney General,,DFL,Lori Swanson,50029,50.36
+82,Washington,Attorney General,,IND,,4589,4.62
+82,Washington,Attorney General,,R,Chris Barden,44242,44.54
+82,Washington,Attorney General,,TRP,,479,0.48
+82,Washington,Governor,,DFL,Mark Dayton,40132,38.90
+82,Washington,Governor,,EDP,,191,0.19
+82,Washington,Governor,,GP,,180,0.17
+82,Washington,Governor,,GR,,251,0.24
+82,Washington,Governor,,IND,Tom Horner,13168,12.76
+82,Washington,Governor,,R,Tom Emmer,49141,47.63
+82,Washington,Governor,,TRP,,113,0.11
+82,Washington,Secretary of State,,DFL,Mark Ritchie,46597,46.62
+82,Washington,Secretary of State,,IND,,4203,4.20
+82,Washington,Secretary of State,,R,Dan Severson,49159,49.18
+82,Washington,State Auditor,,DFL,Rebecca Otto,48276,50.10
+82,Washington,State Auditor,,R,Pat Anderson,48089,49.90
+82,Washington,State Senate,,DFL,,46286,45.73
+82,Washington,State Senate,,IND,,2991,2.95
+82,Washington,State Senate,,R,,51947,51.32
+83,Watonwan,Attorney General,,DFL,Lori Swanson,2135,52.25
+83,Watonwan,Attorney General,,IND,,312,7.64
+83,Watonwan,Attorney General,,R,Chris Barden,1610,39.40
+83,Watonwan,Attorney General,,TRP,,29,0.71
+83,Watonwan,Governor,,DFL,Mark Dayton,1632,38.82
+83,Watonwan,Governor,,EDP,,9,0.21
+83,Watonwan,Governor,,GP,,6,0.14
+83,Watonwan,Governor,,GR,,20,0.48
+83,Watonwan,Governor,,IND,Tom Horner,619,14.72
+83,Watonwan,Governor,,R,Tom Emmer,1894,45.05
+83,Watonwan,Governor,,TRP,,24,0.57
+83,Watonwan,Secretary of State,,DFL,Mark Ritchie,1837,45.28
+83,Watonwan,Secretary of State,,IND,,355,8.75
+83,Watonwan,Secretary of State,,R,Dan Severson,1865,45.97
+83,Watonwan,State Auditor,,DFL,Rebecca Otto,1772,45.49
+83,Watonwan,State Auditor,,R,Pat Anderson,2123,54.51
+83,Watonwan,State Senate,,DFL,,770,20.78
+83,Watonwan,State Senate,,R,,2936,79.22
+84,Wilkin,Attorney General,,DFL,Lori Swanson,978,42.10
+84,Wilkin,Attorney General,,IND,,131,5.64
+84,Wilkin,Attorney General,,R,Chris Barden,1190,51.23
+84,Wilkin,Attorney General,,TRP,,24,1.03
+84,Wilkin,Governor,,DFL,Mark Dayton,825,34.28
+84,Wilkin,Governor,,EDP,,4,0.17
+84,Wilkin,Governor,,GP,,2,0.08
+84,Wilkin,Governor,,GR,,13,0.54
+84,Wilkin,Governor,,IND,Tom Horner,305,12.67
+84,Wilkin,Governor,,R,Tom Emmer,1249,51.89
+84,Wilkin,Governor,,TRP,,9,0.37
+84,Wilkin,Secretary of State,,DFL,Mark Ritchie,927,39.60
+84,Wilkin,Secretary of State,,IND,,157,6.71
+84,Wilkin,Secretary of State,,R,Dan Severson,1257,53.70
+84,Wilkin,State Auditor,,DFL,Rebecca Otto,864,38.85
+84,Wilkin,State Auditor,,R,Pat Anderson,1360,61.15
+84,Wilkin,State Senate,,DFL,,1155,47.71
+84,Wilkin,State Senate,,R,,1266,52.29
+85,Winona,Attorney General,,DFL,Lori Swanson,8525,48.95
+85,Winona,Attorney General,,IND,,1130,6.49
+85,Winona,Attorney General,,R,Chris Barden,7563,43.43
+85,Winona,Attorney General,,TRP,,197,1.13
+85,Winona,Governor,,DFL,Mark Dayton,8275,45.68
+85,Winona,Governor,,EDP,,106,0.59
+85,Winona,Governor,,GP,,133,0.73
+85,Winona,Governor,,GR,,132,0.73
+85,Winona,Governor,,IND,Tom Horner,1462,8.07
+85,Winona,Governor,,R,Tom Emmer,7950,43.89
+85,Winona,Governor,,TRP,,57,0.31
+85,Winona,Secretary of State,,DFL,Mark Ritchie,8225,46.79
+85,Winona,Secretary of State,,IND,,1151,6.55
+85,Winona,Secretary of State,,R,Dan Severson,8202,46.66
+85,Winona,State Auditor,,DFL,Rebecca Otto,7564,46.53
+85,Winona,State Auditor,,R,Pat Anderson,8692,53.47
+85,Winona,State Senate,,DFL,,8713,48.26
+85,Winona,State Senate,,R,,9342,51.74
+86,Wright,Attorney General,,DFL,Lori Swanson,18404,39.73
+86,Wright,Attorney General,,IND,,2434,5.25
+86,Wright,Attorney General,,R,Chris Barden,25153,54.30
+86,Wright,Attorney General,,TRP,,335,0.72
+86,Wright,Governor,,DFL,Mark Dayton,14533,30.31
+86,Wright,Governor,,EDP,,84,0.18
+86,Wright,Governor,,GP,,78,0.16
+86,Wright,Governor,,GR,,167,0.35
+86,Wright,Governor,,IND,Tom Horner,5079,10.59
+86,Wright,Governor,,R,Tom Emmer,27916,58.23
+86,Wright,Governor,,TRP,,88,0.18
+86,Wright,Secretary of State,,DFL,Mark Ritchie,16986,36.41
+86,Wright,Secretary of State,,IND,,2357,5.05
+86,Wright,Secretary of State,,R,Dan Severson,27311,58.54
+86,Wright,State Auditor,,DFL,Rebecca Otto,17256,38.59
+86,Wright,State Auditor,,R,Pat Anderson,27461,61.41
+86,Wright,State Senate,,DFL,,14934,31.90
+86,Wright,State Senate,,IND,,402,0.86
+86,Wright,State Senate,,R,,31481,67.24
+87,Yellow Medicine,Attorney General,,DFL,Lori Swanson,2177,53.63
+87,Yellow Medicine,Attorney General,,IND,,252,6.21
+87,Yellow Medicine,Attorney General,,R,Chris Barden,1600,39.42
+87,Yellow Medicine,Attorney General,,TRP,,30,0.74
+87,Yellow Medicine,Governor,,DFL,Mark Dayton,1647,39.79
+87,Yellow Medicine,Governor,,EDP,,9,0.22
+87,Yellow Medicine,Governor,,GP,,15,0.36
+87,Yellow Medicine,Governor,,GR,,17,0.41
+87,Yellow Medicine,Governor,,IND,Tom Horner,612,14.79
+87,Yellow Medicine,Governor,,R,Tom Emmer,1830,44.21
+87,Yellow Medicine,Governor,,TRP,,9,0.22
+87,Yellow Medicine,Secretary of State,,DFL,Mark Ritchie,1945,47.86
+87,Yellow Medicine,Secretary of State,,IND,,284,6.99
+87,Yellow Medicine,Secretary of State,,R,Dan Severson,1835,45.15
+87,Yellow Medicine,State Auditor,,DFL,Rebecca Otto,1935,49.54
+87,Yellow Medicine,State Auditor,,R,Pat Anderson,1971,50.46
+87,Yellow Medicine,State Senate,,DFL,,2400,58.11
+87,Yellow Medicine,State Senate,,R,,1730,41.89

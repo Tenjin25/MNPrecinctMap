@@ -1,0 +1,1914 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,Attorney General,,DFL,Mike Hatch,4371,56.88
+01,Aitkin,Attorney General,,IND,,434,5.65
+01,Aitkin,Attorney General,,R,Mike Hatch,2879,37.47
+01,Aitkin,Governor,,CP,,20,0.25
+01,Aitkin,Governor,,DFL,Roger Moe,3064,38.63
+01,Aitkin,Governor,,GP,,114,1.44
+01,Aitkin,Governor,,I,,46,0.58
+01,Aitkin,Governor,,IND,Tim Penny,1346,16.97
+01,Aitkin,Governor,,R,Tim Pawlenty,3341,42.13
+01,Aitkin,Secretary of State,,DFL,Deborah L. Anderson,3593,46.40
+01,Aitkin,Secretary of State,,GP,,120,1.55
+01,Aitkin,Secretary of State,,IND,,506,6.53
+01,Aitkin,Secretary of State,,R,Mary Kiffmeyer,3524,45.51
+01,Aitkin,State Auditor,,DFL,Judi Dutcher,3626,48.20
+01,Aitkin,State Auditor,,GP,,154,2.05
+01,Aitkin,State Auditor,,IND,,741,9.85
+01,Aitkin,State Auditor,,R,Patricia Anderson Awada,3002,39.90
+01,Aitkin,U.S. Senate,,CP,,7,0.09
+01,Aitkin,U.S. Senate,,DFL,Walter Mondale,3855,48.90
+01,Aitkin,U.S. Senate,,GP,,41,0.52
+01,Aitkin,U.S. Senate,,IND,Jim Moore,269,3.41
+01,Aitkin,U.S. Senate,,R,Norm Coleman,3711,47.08
+02,Anoka,Attorney General,,DFL,Mike Hatch,70554,52.07
+02,Anoka,Attorney General,,IND,,5425,4.00
+02,Anoka,Attorney General,,R,Mike Hatch,59509,43.92
+02,Anoka,Governor,,CP,,156,0.11
+02,Anoka,Governor,,DFL,Roger Moe,45553,32.82
+02,Anoka,Governor,,GP,,2172,1.56
+02,Anoka,Governor,,I,,575,0.41
+02,Anoka,Governor,,IND,Tim Penny,19161,13.81
+02,Anoka,Governor,,R,Tim Pawlenty,71169,51.28
+02,Anoka,Secretary of State,,DFL,Deborah L. Anderson,56398,41.86
+02,Anoka,Secretary of State,,GP,,2276,1.69
+02,Anoka,Secretary of State,,IND,,6502,4.83
+02,Anoka,Secretary of State,,R,Mary Kiffmeyer,69538,51.62
+02,Anoka,State Auditor,,DFL,Judi Dutcher,54485,41.53
+02,Anoka,State Auditor,,GP,,3249,2.48
+02,Anoka,State Auditor,,IND,,10225,7.79
+02,Anoka,State Auditor,,R,Patricia Anderson Awada,63227,48.20
+02,Anoka,U.S. Senate,,CP,,129,0.09
+02,Anoka,U.S. Senate,,DFL,Walter Mondale,57511,41.36
+02,Anoka,U.S. Senate,,GP,,498,0.36
+02,Anoka,U.S. Senate,,IND,Jim Moore,2722,1.96
+02,Anoka,U.S. Senate,,R,Norm Coleman,78176,56.23
+03,Becker,Attorney General,,DFL,Mike Hatch,6423,50.20
+03,Becker,Attorney General,,IND,,555,4.34
+03,Becker,Attorney General,,R,Mike Hatch,5817,45.46
+03,Becker,Governor,,CP,,20,0.15
+03,Becker,Governor,,DFL,Roger Moe,5384,40.91
+03,Becker,Governor,,GP,,161,1.22
+03,Becker,Governor,,I,,59,0.45
+03,Becker,Governor,,IND,Tim Penny,1392,10.58
+03,Becker,Governor,,R,Tim Pawlenty,6145,46.69
+03,Becker,Secretary of State,,DFL,Deborah L. Anderson,5736,44.65
+03,Becker,Secretary of State,,GP,,180,1.40
+03,Becker,Secretary of State,,IND,,638,4.97
+03,Becker,Secretary of State,,R,Mary Kiffmeyer,6294,48.99
+03,Becker,State Auditor,,DFL,Judi Dutcher,5401,42.22
+03,Becker,State Auditor,,GP,,313,2.45
+03,Becker,State Auditor,,IND,,1081,8.45
+03,Becker,State Auditor,,R,Patricia Anderson Awada,5998,46.89
+03,Becker,U.S. Senate,,CP,,24,0.18
+03,Becker,U.S. Senate,,DFL,Walter Mondale,5841,44.44
+03,Becker,U.S. Senate,,GP,,32,0.24
+03,Becker,U.S. Senate,,IND,Jim Moore,402,3.06
+03,Becker,U.S. Senate,,R,Norm Coleman,6845,52.08
+04,Beltrami,Attorney General,,DFL,Mike Hatch,8127,55.42
+04,Beltrami,Attorney General,,IND,,559,3.81
+04,Beltrami,Attorney General,,R,Mike Hatch,5978,40.77
+04,Beltrami,Governor,,CP,,25,0.17
+04,Beltrami,Governor,,DFL,Roger Moe,6720,44.90
+04,Beltrami,Governor,,GP,,533,3.56
+04,Beltrami,Governor,,I,,42,0.28
+04,Beltrami,Governor,,IND,Tim Penny,1250,8.35
+04,Beltrami,Governor,,R,Tim Pawlenty,6395,42.73
+04,Beltrami,Secretary of State,,DFL,Deborah L. Anderson,6914,47.10
+04,Beltrami,Secretary of State,,GP,,553,3.77
+04,Beltrami,Secretary of State,,IND,,537,3.66
+04,Beltrami,Secretary of State,,R,Mary Kiffmeyer,6676,45.48
+04,Beltrami,State Auditor,,DFL,Judi Dutcher,6950,48.28
+04,Beltrami,State Auditor,,GP,,633,4.40
+04,Beltrami,State Auditor,,IND,,804,5.59
+04,Beltrami,State Auditor,,R,Patricia Anderson Awada,6007,41.73
+04,Beltrami,U.S. Senate,,CP,,24,0.16
+04,Beltrami,U.S. Senate,,DFL,Walter Mondale,7433,49.27
+04,Beltrami,U.S. Senate,,GP,,141,0.93
+04,Beltrami,U.S. Senate,,IND,Jim Moore,246,1.63
+04,Beltrami,U.S. Senate,,R,Norm Coleman,7243,48.01
+05,Benton,Attorney General,,DFL,Mike Hatch,7087,54.35
+05,Benton,Attorney General,,IND,,689,5.28
+05,Benton,Attorney General,,R,Mike Hatch,5264,40.37
+05,Benton,Governor,,CP,,13,0.10
+05,Benton,Governor,,DFL,Roger Moe,4336,32.38
+05,Benton,Governor,,GP,,335,2.50
+05,Benton,Governor,,I,,53,0.40
+05,Benton,Governor,,IND,Tim Penny,2129,15.90
+05,Benton,Governor,,R,Tim Pawlenty,6524,48.72
+05,Benton,Secretary of State,,DFL,Deborah L. Anderson,5228,39.69
+05,Benton,Secretary of State,,GP,,247,1.88
+05,Benton,Secretary of State,,IND,,534,4.05
+05,Benton,Secretary of State,,R,Mary Kiffmeyer,7164,54.38
+05,Benton,State Auditor,,DFL,Judi Dutcher,5526,43.25
+05,Benton,State Auditor,,GP,,457,3.58
+05,Benton,State Auditor,,IND,,1061,8.30
+05,Benton,State Auditor,,R,Patricia Anderson Awada,5733,44.87
+05,Benton,U.S. Senate,,CP,,14,0.10
+05,Benton,U.S. Senate,,DFL,Walter Mondale,5807,43.05
+05,Benton,U.S. Senate,,GP,,83,0.62
+05,Benton,U.S. Senate,,IND,Jim Moore,391,2.90
+05,Benton,U.S. Senate,,R,Norm Coleman,7193,53.33
+06,Big Stone,Attorney General,,DFL,Mike Hatch,1562,59.12
+06,Big Stone,Attorney General,,IND,,119,4.50
+06,Big Stone,Attorney General,,R,Mike Hatch,961,36.37
+06,Big Stone,Governor,,CP,,7,0.26
+06,Big Stone,Governor,,DFL,Roger Moe,1192,44.61
+06,Big Stone,Governor,,GP,,25,0.94
+06,Big Stone,Governor,,I,,17,0.64
+06,Big Stone,Governor,,IND,Tim Penny,315,11.79
+06,Big Stone,Governor,,R,Tim Pawlenty,1116,41.77
+06,Big Stone,Secretary of State,,DFL,Deborah L. Anderson,1362,51.11
+06,Big Stone,Secretary of State,,GP,,37,1.39
+06,Big Stone,Secretary of State,,IND,,103,3.86
+06,Big Stone,Secretary of State,,R,Mary Kiffmeyer,1163,43.64
+06,Big Stone,State Auditor,,DFL,Judi Dutcher,1434,54.57
+06,Big Stone,State Auditor,,GP,,51,1.94
+06,Big Stone,State Auditor,,IND,,151,5.75
+06,Big Stone,State Auditor,,R,Patricia Anderson Awada,992,37.75
+06,Big Stone,U.S. Senate,,CP,,3,0.12
+06,Big Stone,U.S. Senate,,DFL,Walter Mondale,1337,51.29
+06,Big Stone,U.S. Senate,,GP,,8,0.31
+06,Big Stone,U.S. Senate,,IND,Jim Moore,86,3.30
+06,Big Stone,U.S. Senate,,R,Norm Coleman,1173,44.99
+07,Blue Earth,Attorney General,,DFL,Mike Hatch,12511,53.31
+07,Blue Earth,Attorney General,,IND,,1343,5.72
+07,Blue Earth,Attorney General,,R,Mike Hatch,9616,40.97
+07,Blue Earth,Governor,,CP,,30,0.13
+07,Blue Earth,Governor,,DFL,Roger Moe,6333,26.43
+07,Blue Earth,Governor,,GP,,601,2.51
+07,Blue Earth,Governor,,I,,67,0.28
+07,Blue Earth,Governor,,IND,Tim Penny,8001,33.40
+07,Blue Earth,Governor,,R,Tim Pawlenty,8925,37.25
+07,Blue Earth,Secretary of State,,DFL,Deborah L. Anderson,10755,45.88
+07,Blue Earth,Secretary of State,,GP,,853,3.64
+07,Blue Earth,Secretary of State,,IND,,1508,6.43
+07,Blue Earth,Secretary of State,,R,Mary Kiffmeyer,10325,44.05
+07,Blue Earth,State Auditor,,DFL,Judi Dutcher,10107,43.84
+07,Blue Earth,State Auditor,,GP,,983,4.26
+07,Blue Earth,State Auditor,,IND,,2176,9.44
+07,Blue Earth,State Auditor,,R,Patricia Anderson Awada,9790,42.46
+07,Blue Earth,U.S. Senate,,CP,,32,0.13
+07,Blue Earth,U.S. Senate,,DFL,Walter Mondale,11435,47.55
+07,Blue Earth,U.S. Senate,,GP,,245,1.02
+07,Blue Earth,U.S. Senate,,IND,Jim Moore,719,2.99
+07,Blue Earth,U.S. Senate,,R,Norm Coleman,11615,48.30
+08,Brown,Attorney General,,DFL,Mike Hatch,5292,47.48
+08,Brown,Attorney General,,IND,,538,4.83
+08,Brown,Attorney General,,R,Mike Hatch,5316,47.69
+08,Brown,Governor,,CP,,13,0.11
+08,Brown,Governor,,DFL,Roger Moe,2731,24.06
+08,Brown,Governor,,GP,,142,1.25
+08,Brown,Governor,,I,,44,0.39
+08,Brown,Governor,,IND,Tim Penny,2586,22.79
+08,Brown,Governor,,R,Tim Pawlenty,5833,51.40
+08,Brown,Secretary of State,,DFL,Deborah L. Anderson,4170,37.56
+08,Brown,Secretary of State,,GP,,237,2.13
+08,Brown,Secretary of State,,IND,,716,6.45
+08,Brown,Secretary of State,,R,Mary Kiffmeyer,5978,53.85
+08,Brown,State Auditor,,DFL,Judi Dutcher,4134,37.73
+08,Brown,State Auditor,,GP,,267,2.44
+08,Brown,State Auditor,,IND,,1028,9.38
+08,Brown,State Auditor,,R,Patricia Anderson Awada,5527,50.45
+08,Brown,U.S. Senate,,CP,,11,0.10
+08,Brown,U.S. Senate,,DFL,Walter Mondale,4404,38.63
+08,Brown,U.S. Senate,,GP,,47,0.41
+08,Brown,U.S. Senate,,IND,Jim Moore,375,3.29
+08,Brown,U.S. Senate,,R,Norm Coleman,6564,57.57
+09,Carlton,Attorney General,,DFL,Mike Hatch,9739,69.14
+09,Carlton,Attorney General,,IND,,543,3.85
+09,Carlton,Attorney General,,R,Mike Hatch,3804,27.01
+09,Carlton,Governor,,CP,,20,0.14
+09,Carlton,Governor,,DFL,Roger Moe,8198,57.73
+09,Carlton,Governor,,GP,,177,1.25
+09,Carlton,Governor,,I,,49,0.35
+09,Carlton,Governor,,IND,Tim Penny,1489,10.49
+09,Carlton,Governor,,R,Tim Pawlenty,4267,30.05
+09,Carlton,Secretary of State,,DFL,Deborah L. Anderson,8588,61.17
+09,Carlton,Secretary of State,,GP,,244,1.74
+09,Carlton,Secretary of State,,IND,,681,4.85
+09,Carlton,Secretary of State,,R,Mary Kiffmeyer,4527,32.24
+09,Carlton,State Auditor,,DFL,Judi Dutcher,8075,58.69
+09,Carlton,State Auditor,,GP,,322,2.34
+09,Carlton,State Auditor,,IND,,1230,8.94
+09,Carlton,State Auditor,,R,Patricia Anderson Awada,4131,30.03
+09,Carlton,U.S. Senate,,CP,,18,0.13
+09,Carlton,U.S. Senate,,DFL,Walter Mondale,8529,60.90
+09,Carlton,U.S. Senate,,GP,,52,0.37
+09,Carlton,U.S. Senate,,IND,Jim Moore,322,2.30
+09,Carlton,U.S. Senate,,R,Norm Coleman,5083,36.30
+10,Carver,Attorney General,,DFL,Mike Hatch,14105,41.70
+10,Carver,Attorney General,,IND,,1161,3.43
+10,Carver,Attorney General,,R,Mike Hatch,18560,54.87
+10,Carver,Governor,,CP,,26,0.07
+10,Carver,Governor,,DFL,Roger Moe,7848,22.63
+10,Carver,Governor,,GP,,498,1.44
+10,Carver,Governor,,I,,86,0.25
+10,Carver,Governor,,IND,Tim Penny,4826,13.92
+10,Carver,Governor,,R,Tim Pawlenty,21396,61.70
+10,Carver,Secretary of State,,DFL,Deborah L. Anderson,10412,30.96
+10,Carver,Secretary of State,,GP,,600,1.78
+10,Carver,Secretary of State,,IND,,1488,4.42
+10,Carver,Secretary of State,,R,Mary Kiffmeyer,21134,62.84
+10,Carver,State Auditor,,DFL,Judi Dutcher,10064,30.67
+10,Carver,State Auditor,,GP,,802,2.44
+10,Carver,State Auditor,,IND,,2421,7.38
+10,Carver,State Auditor,,R,Patricia Anderson Awada,19524,59.50
+10,Carver,U.S. Senate,,CP,,28,0.08
+10,Carver,U.S. Senate,,DFL,Walter Mondale,11072,31.85
+10,Carver,U.S. Senate,,GP,,89,0.26
+10,Carver,U.S. Senate,,IND,Jim Moore,605,1.74
+10,Carver,U.S. Senate,,R,Norm Coleman,22966,66.07
+11,Cass,Attorney General,,DFL,Mike Hatch,6149,50.08
+11,Cass,Attorney General,,IND,,591,4.81
+11,Cass,Attorney General,,R,Mike Hatch,5538,45.11
+11,Cass,Governor,,CP,,8,0.06
+11,Cass,Governor,,DFL,Roger Moe,4174,33.51
+11,Cass,Governor,,GP,,249,2.00
+11,Cass,Governor,,I,,68,0.55
+11,Cass,Governor,,IND,Tim Penny,1843,14.79
+11,Cass,Governor,,R,Tim Pawlenty,6115,49.09
+11,Cass,Secretary of State,,DFL,Deborah L. Anderson,4812,39.19
+11,Cass,Secretary of State,,GP,,291,2.37
+11,Cass,Secretary of State,,IND,,640,5.21
+11,Cass,Secretary of State,,R,Mary Kiffmeyer,6537,53.23
+11,Cass,State Auditor,,DFL,Judi Dutcher,5059,42.06
+11,Cass,State Auditor,,GP,,335,2.79
+11,Cass,State Auditor,,IND,,954,7.93
+11,Cass,State Auditor,,R,Patricia Anderson Awada,5680,47.22
+11,Cass,U.S. Senate,,CP,,16,0.13
+11,Cass,U.S. Senate,,DFL,Walter Mondale,5013,41.17
+11,Cass,U.S. Senate,,GP,,75,0.62
+11,Cass,U.S. Senate,,IND,Jim Moore,353,2.90
+11,Cass,U.S. Senate,,R,Norm Coleman,6720,55.19
+12,Chippewa,Attorney General,,DFL,Mike Hatch,3509,61.10
+12,Chippewa,Attorney General,,IND,,237,4.13
+12,Chippewa,Attorney General,,R,Mike Hatch,1997,34.77
+12,Chippewa,Governor,,CP,,5,0.09
+12,Chippewa,Governor,,DFL,Roger Moe,2394,40.90
+12,Chippewa,Governor,,GP,,69,1.18
+12,Chippewa,Governor,,I,,19,0.32
+12,Chippewa,Governor,,IND,Tim Penny,1117,19.08
+12,Chippewa,Governor,,R,Tim Pawlenty,2250,38.44
+12,Chippewa,Secretary of State,,DFL,Deborah L. Anderson,2965,51.45
+12,Chippewa,Secretary of State,,GP,,73,1.27
+12,Chippewa,Secretary of State,,IND,,296,5.14
+12,Chippewa,Secretary of State,,R,Mary Kiffmeyer,2429,42.15
+12,Chippewa,State Auditor,,DFL,Judi Dutcher,2934,51.54
+12,Chippewa,State Auditor,,GP,,145,2.55
+12,Chippewa,State Auditor,,IND,,438,7.69
+12,Chippewa,State Auditor,,R,Patricia Anderson Awada,2176,38.22
+12,Chippewa,U.S. Senate,,CP,,2,0.03
+12,Chippewa,U.S. Senate,,DFL,Walter Mondale,3173,54.27
+12,Chippewa,U.S. Senate,,GP,,17,0.29
+12,Chippewa,U.S. Senate,,IND,Jim Moore,167,2.86
+12,Chippewa,U.S. Senate,,R,Norm Coleman,2488,42.55
+13,Chisago,Attorney General,,DFL,Mike Hatch,10750,50.24
+13,Chisago,Attorney General,,IND,,936,4.37
+13,Chisago,Attorney General,,R,Mike Hatch,9712,45.39
+13,Chisago,Governor,,CP,,28,0.13
+13,Chisago,Governor,,DFL,Roger Moe,6755,30.82
+13,Chisago,Governor,,GP,,364,1.66
+13,Chisago,Governor,,I,,101,0.46
+13,Chisago,Governor,,IND,Tim Penny,2879,13.14
+13,Chisago,Governor,,R,Tim Pawlenty,11791,53.80
+13,Chisago,Secretary of State,,DFL,Deborah L. Anderson,8742,40.87
+13,Chisago,Secretary of State,,GP,,370,1.73
+13,Chisago,Secretary of State,,IND,,1117,5.22
+13,Chisago,Secretary of State,,R,Mary Kiffmeyer,11159,52.17
+13,Chisago,State Auditor,,DFL,Judi Dutcher,8435,40.34
+13,Chisago,State Auditor,,GP,,523,2.50
+13,Chisago,State Auditor,,IND,,1672,8.00
+13,Chisago,State Auditor,,R,Patricia Anderson Awada,10278,49.16
+13,Chisago,U.S. Senate,,CP,,28,0.13
+13,Chisago,U.S. Senate,,DFL,Walter Mondale,8660,39.60
+13,Chisago,U.S. Senate,,GP,,66,0.30
+13,Chisago,U.S. Senate,,IND,Jim Moore,549,2.51
+13,Chisago,U.S. Senate,,R,Norm Coleman,12567,57.46
+14,Clay,Attorney General,,DFL,Mike Hatch,11243,57.41
+14,Clay,Attorney General,,IND,,730,3.73
+14,Clay,Attorney General,,R,Mike Hatch,7611,38.86
+14,Clay,Governor,,CP,,26,0.13
+14,Clay,Governor,,DFL,Roger Moe,9956,48.90
+14,Clay,Governor,,GP,,302,1.48
+14,Clay,Governor,,I,,79,0.39
+14,Clay,Governor,,IND,Tim Penny,1707,8.38
+14,Clay,Governor,,R,Tim Pawlenty,8292,40.72
+14,Clay,Secretary of State,,DFL,Deborah L. Anderson,10424,52.63
+14,Clay,Secretary of State,,GP,,360,1.82
+14,Clay,Secretary of State,,IND,,908,4.58
+14,Clay,Secretary of State,,R,Mary Kiffmeyer,8115,40.97
+14,Clay,State Auditor,,DFL,Judi Dutcher,9699,49.59
+14,Clay,State Auditor,,GP,,841,4.30
+14,Clay,State Auditor,,IND,,1237,6.32
+14,Clay,State Auditor,,R,Patricia Anderson Awada,7782,39.79
+14,Clay,U.S. Senate,,CP,,22,0.11
+14,Clay,U.S. Senate,,DFL,Walter Mondale,10454,51.27
+14,Clay,U.S. Senate,,GP,,60,0.29
+14,Clay,U.S. Senate,,IND,Jim Moore,489,2.40
+14,Clay,U.S. Senate,,R,Norm Coleman,9365,45.93
+15,Clearwater,Attorney General,,DFL,Mike Hatch,1840,51.64
+15,Clearwater,Attorney General,,IND,,150,4.21
+15,Clearwater,Attorney General,,R,Mike Hatch,1573,44.15
+15,Clearwater,Governor,,CP,,9,0.25
+15,Clearwater,Governor,,DFL,Roger Moe,1705,46.74
+15,Clearwater,Governor,,GP,,51,1.40
+15,Clearwater,Governor,,I,,13,0.36
+15,Clearwater,Governor,,IND,Tim Penny,273,7.48
+15,Clearwater,Governor,,R,Tim Pawlenty,1597,43.78
+15,Clearwater,Secretary of State,,DFL,Deborah L. Anderson,1643,45.53
+15,Clearwater,Secretary of State,,GP,,57,1.58
+15,Clearwater,Secretary of State,,IND,,135,3.74
+15,Clearwater,Secretary of State,,R,Mary Kiffmeyer,1774,49.15
+15,Clearwater,State Auditor,,DFL,Judi Dutcher,1647,46.16
+15,Clearwater,State Auditor,,GP,,81,2.27
+15,Clearwater,State Auditor,,IND,,221,6.19
+15,Clearwater,State Auditor,,R,Patricia Anderson Awada,1619,45.38
+15,Clearwater,U.S. Senate,,CP,,3,0.08
+15,Clearwater,U.S. Senate,,DFL,Walter Mondale,1746,47.80
+15,Clearwater,U.S. Senate,,GP,,29,0.79
+15,Clearwater,U.S. Senate,,IND,Jim Moore,85,2.33
+15,Clearwater,U.S. Senate,,R,Norm Coleman,1790,49.00
+16,Cook,Attorney General,,DFL,Mike Hatch,1604,58.31
+16,Cook,Attorney General,,IND,,165,6.00
+16,Cook,Attorney General,,R,Mike Hatch,982,35.70
+16,Cook,Governor,,CP,,25,0.89
+16,Cook,Governor,,DFL,Roger Moe,1228,43.52
+16,Cook,Governor,,GP,,148,5.24
+16,Cook,Governor,,I,,18,0.64
+16,Cook,Governor,,IND,Tim Penny,441,15.63
+16,Cook,Governor,,R,Tim Pawlenty,962,34.09
+16,Cook,Secretary of State,,DFL,Deborah L. Anderson,1239,44.42
+16,Cook,Secretary of State,,GP,,165,5.92
+16,Cook,Secretary of State,,IND,,150,5.38
+16,Cook,Secretary of State,,R,Mary Kiffmeyer,1235,44.28
+16,Cook,State Auditor,,DFL,Judi Dutcher,1239,45.80
+16,Cook,State Auditor,,GP,,160,5.91
+16,Cook,State Auditor,,IND,,268,9.91
+16,Cook,State Auditor,,R,Patricia Anderson Awada,1038,38.37
+16,Cook,U.S. Senate,,CP,,24,0.93
+16,Cook,U.S. Senate,,DFL,Walter Mondale,1240,48.02
+16,Cook,U.S. Senate,,GP,,23,0.89
+16,Cook,U.S. Senate,,IND,Jim Moore,115,4.45
+16,Cook,U.S. Senate,,R,Norm Coleman,1180,45.70
+17,Cottonwood,Attorney General,,DFL,Mike Hatch,2941,53.40
+17,Cottonwood,Attorney General,,IND,,182,3.30
+17,Cottonwood,Attorney General,,R,Mike Hatch,2385,43.30
+17,Cottonwood,Governor,,CP,,6,0.11
+17,Cottonwood,Governor,,DFL,Roger Moe,1813,32.74
+17,Cottonwood,Governor,,GP,,66,1.19
+17,Cottonwood,Governor,,I,,23,0.42
+17,Cottonwood,Governor,,IND,Tim Penny,992,17.91
+17,Cottonwood,Governor,,R,Tim Pawlenty,2638,47.63
+17,Cottonwood,Secretary of State,,DFL,Deborah L. Anderson,2466,44.93
+17,Cottonwood,Secretary of State,,GP,,85,1.55
+17,Cottonwood,Secretary of State,,IND,,237,4.32
+17,Cottonwood,Secretary of State,,R,Mary Kiffmeyer,2700,49.20
+17,Cottonwood,State Auditor,,DFL,Judi Dutcher,2485,45.76
+17,Cottonwood,State Auditor,,GP,,90,1.66
+17,Cottonwood,State Auditor,,IND,,351,6.46
+17,Cottonwood,State Auditor,,R,Patricia Anderson Awada,2505,46.12
+17,Cottonwood,U.S. Senate,,CP,,3,0.05
+17,Cottonwood,U.S. Senate,,DFL,Walter Mondale,2606,47.10
+17,Cottonwood,U.S. Senate,,GP,,14,0.25
+17,Cottonwood,U.S. Senate,,IND,Jim Moore,131,2.37
+17,Cottonwood,U.S. Senate,,R,Norm Coleman,2779,50.23
+18,Crow Wing,Attorney General,,DFL,Mike Hatch,13529,51.75
+18,Crow Wing,Attorney General,,IND,,1207,4.62
+18,Crow Wing,Attorney General,,R,Mike Hatch,11409,43.64
+18,Crow Wing,Governor,,CP,,28,0.11
+18,Crow Wing,Governor,,DFL,Roger Moe,8984,33.92
+18,Crow Wing,Governor,,GP,,426,1.61
+18,Crow Wing,Governor,,I,,127,0.48
+18,Crow Wing,Governor,,IND,Tim Penny,3952,14.92
+18,Crow Wing,Governor,,R,Tim Pawlenty,12970,48.97
+18,Crow Wing,Secretary of State,,DFL,Deborah L. Anderson,10605,40.66
+18,Crow Wing,Secretary of State,,GP,,522,2.00
+18,Crow Wing,Secretary of State,,IND,,1247,4.78
+18,Crow Wing,Secretary of State,,R,Mary Kiffmeyer,13707,52.56
+18,Crow Wing,State Auditor,,DFL,Judi Dutcher,11046,43.20
+18,Crow Wing,State Auditor,,GP,,634,2.48
+18,Crow Wing,State Auditor,,IND,,2079,8.13
+18,Crow Wing,State Auditor,,R,Patricia Anderson Awada,11808,46.18
+18,Crow Wing,U.S. Senate,,CP,,30,0.11
+18,Crow Wing,U.S. Senate,,DFL,Walter Mondale,11181,42.67
+18,Crow Wing,U.S. Senate,,GP,,149,0.57
+18,Crow Wing,U.S. Senate,,IND,Jim Moore,619,2.36
+18,Crow Wing,U.S. Senate,,R,Norm Coleman,14222,54.28
+19,Dakota,Attorney General,,DFL,Mike Hatch,84540,51.10
+19,Dakota,Attorney General,,IND,,6041,3.65
+19,Dakota,Attorney General,,R,Mike Hatch,74862,45.25
+19,Dakota,Governor,,CP,,131,0.08
+19,Dakota,Governor,,DFL,Roger Moe,53440,31.54
+19,Dakota,Governor,,GP,,2653,1.57
+19,Dakota,Governor,,I,,519,0.31
+19,Dakota,Governor,,IND,Tim Penny,22156,13.08
+19,Dakota,Governor,,R,Tim Pawlenty,90534,53.43
+19,Dakota,Secretary of State,,DFL,Deborah L. Anderson,65221,40.44
+19,Dakota,Secretary of State,,GP,,3480,2.16
+19,Dakota,Secretary of State,,IND,,7114,4.41
+19,Dakota,Secretary of State,,R,Mary Kiffmeyer,85471,52.99
+19,Dakota,State Auditor,,DFL,Judi Dutcher,60102,37.12
+19,Dakota,State Auditor,,GP,,4715,2.91
+19,Dakota,State Auditor,,IND,,11107,6.86
+19,Dakota,State Auditor,,R,Patricia Anderson Awada,85982,53.11
+19,Dakota,U.S. Senate,,CP,,132,0.08
+19,Dakota,U.S. Senate,,DFL,Walter Mondale,68742,40.93
+19,Dakota,U.S. Senate,,GP,,536,0.32
+19,Dakota,U.S. Senate,,IND,Jim Moore,2408,1.43
+19,Dakota,U.S. Senate,,R,Norm Coleman,96149,57.24
+20,Dodge,Attorney General,,DFL,Mike Hatch,3669,46.96
+20,Dodge,Attorney General,,IND,,558,7.14
+20,Dodge,Attorney General,,R,Mike Hatch,3586,45.90
+20,Dodge,Governor,,CP,,6,0.07
+20,Dodge,Governor,,DFL,Roger Moe,1383,17.13
+20,Dodge,Governor,,GP,,74,0.92
+20,Dodge,Governor,,I,,27,0.33
+20,Dodge,Governor,,IND,Tim Penny,3382,41.88
+20,Dodge,Governor,,R,Tim Pawlenty,3203,39.67
+20,Dodge,Secretary of State,,DFL,Deborah L. Anderson,3151,39.94
+20,Dodge,Secretary of State,,GP,,130,1.65
+20,Dodge,Secretary of State,,IND,,580,7.35
+20,Dodge,Secretary of State,,R,Mary Kiffmeyer,4029,51.06
+20,Dodge,State Auditor,,DFL,Judi Dutcher,2872,37.00
+20,Dodge,State Auditor,,GP,,218,2.81
+20,Dodge,State Auditor,,IND,,866,11.16
+20,Dodge,State Auditor,,R,Patricia Anderson Awada,3807,49.04
+20,Dodge,U.S. Senate,,CP,,7,0.09
+20,Dodge,U.S. Senate,,DFL,Walter Mondale,3592,43.95
+20,Dodge,U.S. Senate,,GP,,35,0.43
+20,Dodge,U.S. Senate,,IND,Jim Moore,304,3.72
+20,Dodge,U.S. Senate,,R,Norm Coleman,4234,51.81
+21,Douglas,Attorney General,,DFL,Mike Hatch,7409,49.27
+21,Douglas,Attorney General,,IND,,585,3.89
+21,Douglas,Attorney General,,R,Mike Hatch,7044,46.84
+21,Douglas,Governor,,CP,,11,0.07
+21,Douglas,Governor,,DFL,Roger Moe,4790,31.15
+21,Douglas,Governor,,GP,,231,1.50
+21,Douglas,Governor,,I,,48,0.31
+21,Douglas,Governor,,IND,Tim Penny,2206,14.35
+21,Douglas,Governor,,R,Tim Pawlenty,8092,52.62
+21,Douglas,Secretary of State,,DFL,Deborah L. Anderson,5667,37.59
+21,Douglas,Secretary of State,,GP,,220,1.46
+21,Douglas,Secretary of State,,IND,,723,4.80
+21,Douglas,Secretary of State,,R,Mary Kiffmeyer,8467,56.16
+21,Douglas,State Auditor,,DFL,Judi Dutcher,6048,40.68
+21,Douglas,State Auditor,,GP,,339,2.28
+21,Douglas,State Auditor,,IND,,1036,6.97
+21,Douglas,State Auditor,,R,Patricia Anderson Awada,7443,50.07
+21,Douglas,U.S. Senate,,CP,,8,0.05
+21,Douglas,U.S. Senate,,DFL,Walter Mondale,6154,40.27
+21,Douglas,U.S. Senate,,GP,,54,0.35
+21,Douglas,U.S. Senate,,IND,Jim Moore,427,2.79
+21,Douglas,U.S. Senate,,R,Norm Coleman,8639,56.53
+22,Faribault,Attorney General,,DFL,Mike Hatch,4074,54.48
+22,Faribault,Attorney General,,IND,,377,5.04
+22,Faribault,Attorney General,,R,Mike Hatch,3027,40.48
+22,Faribault,Governor,,CP,,4,0.05
+22,Faribault,Governor,,DFL,Roger Moe,1209,15.90
+22,Faribault,Governor,,GP,,58,0.76
+22,Faribault,Governor,,I,,19,0.25
+22,Faribault,Governor,,IND,Tim Penny,3689,48.51
+22,Faribault,Governor,,R,Tim Pawlenty,2626,34.53
+22,Faribault,Secretary of State,,DFL,Deborah L. Anderson,3258,43.42
+22,Faribault,Secretary of State,,GP,,89,1.19
+22,Faribault,Secretary of State,,IND,,430,5.73
+22,Faribault,Secretary of State,,R,Mary Kiffmeyer,3726,49.66
+22,Faribault,State Auditor,,DFL,Judi Dutcher,3129,42.87
+22,Faribault,State Auditor,,GP,,215,2.95
+22,Faribault,State Auditor,,IND,,820,11.24
+22,Faribault,State Auditor,,R,Patricia Anderson Awada,3134,42.94
+22,Faribault,U.S. Senate,,CP,,6,0.08
+22,Faribault,U.S. Senate,,DFL,Walter Mondale,3627,47.67
+22,Faribault,U.S. Senate,,GP,,18,0.24
+22,Faribault,U.S. Senate,,IND,Jim Moore,223,2.93
+22,Faribault,U.S. Senate,,R,Norm Coleman,3734,49.08
+23,Fillmore,Attorney General,,DFL,Mike Hatch,4610,51.28
+23,Fillmore,Attorney General,,IND,,573,6.37
+23,Fillmore,Attorney General,,R,Mike Hatch,3806,42.34
+23,Fillmore,Governor,,CP,,12,0.13
+23,Fillmore,Governor,,DFL,Roger Moe,1733,18.72
+23,Fillmore,Governor,,GP,,101,1.09
+23,Fillmore,Governor,,I,,20,0.22
+23,Fillmore,Governor,,IND,Tim Penny,4432,47.88
+23,Fillmore,Governor,,R,Tim Pawlenty,2959,31.96
+23,Fillmore,Secretary of State,,DFL,Deborah L. Anderson,4190,46.10
+23,Fillmore,Secretary of State,,GP,,166,1.83
+23,Fillmore,Secretary of State,,IND,,575,6.33
+23,Fillmore,Secretary of State,,R,Mary Kiffmeyer,4157,45.74
+23,Fillmore,State Auditor,,DFL,Judi Dutcher,3892,44.11
+23,Fillmore,State Auditor,,GP,,229,2.60
+23,Fillmore,State Auditor,,IND,,913,10.35
+23,Fillmore,State Auditor,,R,Patricia Anderson Awada,3790,42.95
+23,Fillmore,U.S. Senate,,CP,,11,0.12
+23,Fillmore,U.S. Senate,,DFL,Walter Mondale,4908,52.53
+23,Fillmore,U.S. Senate,,GP,,37,0.40
+23,Fillmore,U.S. Senate,,IND,Jim Moore,299,3.20
+23,Fillmore,U.S. Senate,,R,Norm Coleman,4088,43.75
+24,Freeborn,Attorney General,,DFL,Mike Hatch,8498,55.90
+24,Freeborn,Attorney General,,IND,,862,5.67
+24,Freeborn,Attorney General,,R,Mike Hatch,5842,38.43
+24,Freeborn,Governor,,CP,,9,0.06
+24,Freeborn,Governor,,DFL,Roger Moe,2827,17.97
+24,Freeborn,Governor,,GP,,146,0.93
+24,Freeborn,Governor,,I,,33,0.21
+24,Freeborn,Governor,,IND,Tim Penny,8189,52.05
+24,Freeborn,Governor,,R,Tim Pawlenty,4530,28.79
+24,Freeborn,Secretary of State,,DFL,Deborah L. Anderson,7900,52.88
+24,Freeborn,Secretary of State,,GP,,214,1.43
+24,Freeborn,Secretary of State,,IND,,980,6.56
+24,Freeborn,Secretary of State,,R,Mary Kiffmeyer,5845,39.13
+24,Freeborn,State Auditor,,DFL,Judi Dutcher,6929,45.94
+24,Freeborn,State Auditor,,GP,,415,2.75
+24,Freeborn,State Auditor,,IND,,2068,13.71
+24,Freeborn,State Auditor,,R,Patricia Anderson Awada,5670,37.59
+24,Freeborn,U.S. Senate,,CP,,25,0.16
+24,Freeborn,U.S. Senate,,DFL,Walter Mondale,8418,54.15
+24,Freeborn,U.S. Senate,,GP,,46,0.30
+24,Freeborn,U.S. Senate,,IND,Jim Moore,516,3.32
+24,Freeborn,U.S. Senate,,R,Norm Coleman,6542,42.08
+25,Goodhue,Attorney General,,DFL,Mike Hatch,10557,52.30
+25,Goodhue,Attorney General,,IND,,932,4.62
+25,Goodhue,Attorney General,,R,Mike Hatch,8695,43.08
+25,Goodhue,Governor,,CP,,19,0.09
+25,Goodhue,Governor,,DFL,Roger Moe,5229,25.38
+25,Goodhue,Governor,,GP,,283,1.37
+25,Goodhue,Governor,,I,,64,0.31
+25,Goodhue,Governor,,IND,Tim Penny,6260,30.38
+25,Goodhue,Governor,,R,Tim Pawlenty,8749,42.46
+25,Goodhue,Secretary of State,,DFL,Deborah L. Anderson,8416,41.57
+25,Goodhue,Secretary of State,,GP,,380,1.88
+25,Goodhue,Secretary of State,,IND,,1135,5.61
+25,Goodhue,Secretary of State,,R,Mary Kiffmeyer,10316,50.95
+25,Goodhue,State Auditor,,DFL,Judi Dutcher,8145,40.96
+25,Goodhue,State Auditor,,GP,,546,2.75
+25,Goodhue,State Auditor,,IND,,1974,9.93
+25,Goodhue,State Auditor,,R,Patricia Anderson Awada,9219,46.36
+25,Goodhue,U.S. Senate,,CP,,22,0.11
+25,Goodhue,U.S. Senate,,DFL,Walter Mondale,9169,44.53
+25,Goodhue,U.S. Senate,,GP,,95,0.46
+25,Goodhue,U.S. Senate,,IND,Jim Moore,512,2.49
+25,Goodhue,U.S. Senate,,R,Norm Coleman,10791,52.41
+26,Grant,Attorney General,,DFL,Mike Hatch,1817,56.50
+26,Grant,Attorney General,,IND,,137,4.26
+26,Grant,Attorney General,,R,Mike Hatch,1262,39.24
+26,Grant,Governor,,CP,,3,0.09
+26,Grant,Governor,,DFL,Roger Moe,1313,40.04
+26,Grant,Governor,,GP,,44,1.34
+26,Grant,Governor,,I,,21,0.64
+26,Grant,Governor,,IND,Tim Penny,434,13.24
+26,Grant,Governor,,R,Tim Pawlenty,1464,44.65
+26,Grant,Secretary of State,,DFL,Deborah L. Anderson,1568,48.67
+26,Grant,Secretary of State,,GP,,33,1.02
+26,Grant,Secretary of State,,IND,,142,4.41
+26,Grant,Secretary of State,,R,Mary Kiffmeyer,1479,45.90
+26,Grant,State Auditor,,DFL,Judi Dutcher,1493,46.76
+26,Grant,State Auditor,,GP,,54,1.69
+26,Grant,State Auditor,,IND,,224,7.02
+26,Grant,State Auditor,,R,Patricia Anderson Awada,1422,44.53
+26,Grant,U.S. Senate,,CP,,6,0.18
+26,Grant,U.S. Senate,,DFL,Walter Mondale,1594,48.90
+26,Grant,U.S. Senate,,GP,,9,0.28
+26,Grant,U.S. Senate,,IND,Jim Moore,100,3.07
+26,Grant,U.S. Senate,,R,Norm Coleman,1551,47.58
+27,Hennepin,Attorney General,,DFL,Mike Hatch,284017,56.90
+27,Hennepin,Attorney General,,IND,,22670,4.54
+27,Hennepin,Attorney General,,R,Mike Hatch,192488,38.56
+27,Hennepin,Governor,,CP,,431,0.08
+27,Hennepin,Governor,,DFL,Roger Moe,213147,41.38
+27,Hennepin,Governor,,GP,,17644,3.43
+27,Hennepin,Governor,,I,,2715,0.53
+27,Hennepin,Governor,,IND,Tim Penny,71010,13.79
+27,Hennepin,Governor,,R,Tim Pawlenty,210140,40.80
+27,Hennepin,Secretary of State,,DFL,Deborah L. Anderson,225268,45.09
+27,Hennepin,Secretary of State,,GP,,26344,5.27
+27,Hennepin,Secretary of State,,IND,,22763,4.56
+27,Hennepin,Secretary of State,,R,Mary Kiffmeyer,225236,45.08
+27,Hennepin,State Auditor,,DFL,Judi Dutcher,220610,45.53
+27,Hennepin,State Auditor,,GP,,24662,5.09
+27,Hennepin,State Auditor,,IND,,36003,7.43
+27,Hennepin,State Auditor,,R,Patricia Anderson Awada,203245,41.95
+27,Hennepin,U.S. Senate,,CP,,391,0.08
+27,Hennepin,U.S. Senate,,DFL,Walter Mondale,268504,52.32
+27,Hennepin,U.S. Senate,,GP,,2780,0.54
+27,Hennepin,U.S. Senate,,IND,Jim Moore,7711,1.50
+27,Hennepin,U.S. Senate,,R,Norm Coleman,233779,45.56
+28,Houston,Attorney General,,DFL,Mike Hatch,3744,44.82
+28,Houston,Attorney General,,IND,,506,6.06
+28,Houston,Attorney General,,R,Mike Hatch,4103,49.12
+28,Houston,Governor,,CP,,14,0.16
+28,Houston,Governor,,DFL,Roger Moe,2007,23.41
+28,Houston,Governor,,GP,,100,1.17
+28,Houston,Governor,,I,,35,0.41
+28,Houston,Governor,,IND,Tim Penny,3060,35.69
+28,Houston,Governor,,R,Tim Pawlenty,3358,39.16
+28,Houston,Secretary of State,,DFL,Deborah L. Anderson,3807,45.06
+28,Houston,Secretary of State,,GP,,230,2.72
+28,Houston,Secretary of State,,IND,,518,6.13
+28,Houston,Secretary of State,,R,Mary Kiffmeyer,3894,46.09
+28,Houston,State Auditor,,DFL,Judi Dutcher,3547,42.62
+28,Houston,State Auditor,,GP,,275,3.30
+28,Houston,State Auditor,,IND,,619,7.44
+28,Houston,State Auditor,,R,Patricia Anderson Awada,3881,46.64
+28,Houston,U.S. Senate,,CP,,14,0.16
+28,Houston,U.S. Senate,,DFL,Walter Mondale,4110,47.53
+28,Houston,U.S. Senate,,GP,,46,0.53
+28,Houston,U.S. Senate,,IND,Jim Moore,243,2.81
+28,Houston,U.S. Senate,,R,Norm Coleman,4234,48.96
+29,Hubbard,Attorney General,,DFL,Mike Hatch,4442,49.27
+29,Hubbard,Attorney General,,IND,,392,4.35
+29,Hubbard,Attorney General,,R,Mike Hatch,4181,46.38
+29,Hubbard,Governor,,CP,,11,0.12
+29,Hubbard,Governor,,DFL,Roger Moe,3246,35.81
+29,Hubbard,Governor,,GP,,187,2.06
+29,Hubbard,Governor,,I,,49,0.54
+29,Hubbard,Governor,,IND,Tim Penny,1010,11.14
+29,Hubbard,Governor,,R,Tim Pawlenty,4562,50.33
+29,Hubbard,Secretary of State,,DFL,Deborah L. Anderson,3604,39.88
+29,Hubbard,Secretary of State,,GP,,221,2.45
+29,Hubbard,Secretary of State,,IND,,457,5.06
+29,Hubbard,Secretary of State,,R,Mary Kiffmeyer,4756,52.62
+29,Hubbard,State Auditor,,DFL,Judi Dutcher,3638,41.07
+29,Hubbard,State Auditor,,GP,,267,3.01
+29,Hubbard,State Auditor,,IND,,641,7.24
+29,Hubbard,State Auditor,,R,Patricia Anderson Awada,4313,48.68
+29,Hubbard,U.S. Senate,,CP,,8,0.09
+29,Hubbard,U.S. Senate,,DFL,Walter Mondale,3758,41.92
+29,Hubbard,U.S. Senate,,GP,,32,0.36
+29,Hubbard,U.S. Senate,,IND,Jim Moore,222,2.48
+29,Hubbard,U.S. Senate,,R,Norm Coleman,4944,55.15
+30,Isanti,Attorney General,,DFL,Mike Hatch,7302,50.41
+30,Isanti,Attorney General,,IND,,680,4.69
+30,Isanti,Attorney General,,R,Mike Hatch,6503,44.89
+30,Isanti,Governor,,CP,,19,0.13
+30,Isanti,Governor,,DFL,Roger Moe,4745,32.19
+30,Isanti,Governor,,GP,,250,1.70
+30,Isanti,Governor,,I,,78,0.53
+30,Isanti,Governor,,IND,Tim Penny,1820,12.35
+30,Isanti,Governor,,R,Tim Pawlenty,7827,53.10
+30,Isanti,Secretary of State,,DFL,Deborah L. Anderson,6057,41.80
+30,Isanti,Secretary of State,,GP,,246,1.70
+30,Isanti,Secretary of State,,IND,,791,5.46
+30,Isanti,Secretary of State,,R,Mary Kiffmeyer,7397,51.05
+30,Isanti,State Auditor,,DFL,Judi Dutcher,6078,42.88
+30,Isanti,State Auditor,,GP,,344,2.43
+30,Isanti,State Auditor,,IND,,1139,8.04
+30,Isanti,State Auditor,,R,Patricia Anderson Awada,6612,46.65
+30,Isanti,U.S. Senate,,CP,,17,0.12
+30,Isanti,U.S. Senate,,DFL,Walter Mondale,6019,40.73
+30,Isanti,U.S. Senate,,GP,,59,0.40
+30,Isanti,U.S. Senate,,IND,Jim Moore,319,2.16
+30,Isanti,U.S. Senate,,R,Norm Coleman,8365,56.60
+31,Itasca,Attorney General,,DFL,Mike Hatch,12141,63.61
+31,Itasca,Attorney General,,IND,,804,4.21
+31,Itasca,Attorney General,,R,Mike Hatch,6143,32.18
+31,Itasca,Governor,,CP,,31,0.16
+31,Itasca,Governor,,DFL,Roger Moe,9917,50.95
+31,Itasca,Governor,,GP,,397,2.04
+31,Itasca,Governor,,I,,76,0.39
+31,Itasca,Governor,,IND,Tim Penny,2273,11.68
+31,Itasca,Governor,,R,Tim Pawlenty,6770,34.78
+31,Itasca,Secretary of State,,DFL,Deborah L. Anderson,10521,55.59
+31,Itasca,Secretary of State,,GP,,413,2.18
+31,Itasca,Secretary of State,,IND,,905,4.78
+31,Itasca,Secretary of State,,R,Mary Kiffmeyer,7087,37.45
+31,Itasca,State Auditor,,DFL,Judi Dutcher,10117,53.50
+31,Itasca,State Auditor,,GP,,551,2.91
+31,Itasca,State Auditor,,IND,,1611,8.52
+31,Itasca,State Auditor,,R,Patricia Anderson Awada,6633,35.07
+31,Itasca,U.S. Senate,,CP,,32,0.17
+31,Itasca,U.S. Senate,,DFL,Walter Mondale,10928,56.45
+31,Itasca,U.S. Senate,,GP,,85,0.44
+31,Itasca,U.S. Senate,,IND,Jim Moore,464,2.40
+31,Itasca,U.S. Senate,,R,Norm Coleman,7849,40.55
+32,Jackson,Attorney General,,DFL,Mike Hatch,2759,55.57
+32,Jackson,Attorney General,,IND,,224,4.51
+32,Jackson,Attorney General,,R,Mike Hatch,1982,39.92
+32,Jackson,Governor,,CP,,9,0.18
+32,Jackson,Governor,,DFL,Roger Moe,1719,34.65
+32,Jackson,Governor,,GP,,58,1.17
+32,Jackson,Governor,,I,,28,0.56
+32,Jackson,Governor,,IND,Tim Penny,986,19.88
+32,Jackson,Governor,,R,Tim Pawlenty,2161,43.56
+32,Jackson,Secretary of State,,DFL,Deborah L. Anderson,2372,47.76
+32,Jackson,Secretary of State,,GP,,73,1.47
+32,Jackson,Secretary of State,,IND,,289,5.82
+32,Jackson,Secretary of State,,R,Mary Kiffmeyer,2232,44.95
+32,Jackson,State Auditor,,DFL,Judi Dutcher,2362,48.16
+32,Jackson,State Auditor,,GP,,103,2.10
+32,Jackson,State Auditor,,IND,,385,7.85
+32,Jackson,State Auditor,,R,Patricia Anderson Awada,2054,41.88
+32,Jackson,U.S. Senate,,CP,,7,0.14
+32,Jackson,U.S. Senate,,DFL,Walter Mondale,2526,49.89
+32,Jackson,U.S. Senate,,GP,,23,0.45
+32,Jackson,U.S. Senate,,IND,Jim Moore,151,2.98
+32,Jackson,U.S. Senate,,R,Norm Coleman,2356,46.53
+33,Kanabec,Attorney General,,DFL,Mike Hatch,3410,53.60
+33,Kanabec,Attorney General,,IND,,308,4.84
+33,Kanabec,Attorney General,,R,Mike Hatch,2644,41.56
+33,Kanabec,Governor,,CP,,8,0.12
+33,Kanabec,Governor,,DFL,Roger Moe,2177,33.76
+33,Kanabec,Governor,,GP,,105,1.63
+33,Kanabec,Governor,,I,,41,0.64
+33,Kanabec,Governor,,IND,Tim Penny,815,12.64
+33,Kanabec,Governor,,R,Tim Pawlenty,3302,51.21
+33,Kanabec,Secretary of State,,DFL,Deborah L. Anderson,2769,43.35
+33,Kanabec,Secretary of State,,GP,,88,1.38
+33,Kanabec,Secretary of State,,IND,,307,4.81
+33,Kanabec,Secretary of State,,R,Mary Kiffmeyer,3224,50.47
+33,Kanabec,State Auditor,,DFL,Judi Dutcher,2855,45.63
+33,Kanabec,State Auditor,,GP,,146,2.33
+33,Kanabec,State Auditor,,IND,,492,7.86
+33,Kanabec,State Auditor,,R,Patricia Anderson Awada,2764,44.17
+33,Kanabec,U.S. Senate,,CP,,16,0.25
+33,Kanabec,U.S. Senate,,DFL,Walter Mondale,2755,42.49
+33,Kanabec,U.S. Senate,,GP,,37,0.57
+33,Kanabec,U.S. Senate,,IND,Jim Moore,168,2.59
+33,Kanabec,U.S. Senate,,R,Norm Coleman,3508,54.10
+34,Kandiyohi,Attorney General,,DFL,Mike Hatch,9683,54.51
+34,Kandiyohi,Attorney General,,IND,,652,3.67
+34,Kandiyohi,Attorney General,,R,Mike Hatch,7430,41.82
+34,Kandiyohi,Governor,,CP,,23,0.13
+34,Kandiyohi,Governor,,DFL,Roger Moe,6879,38.28
+34,Kandiyohi,Governor,,GP,,199,1.11
+34,Kandiyohi,Governor,,I,,52,0.29
+34,Kandiyohi,Governor,,IND,Tim Penny,2483,13.82
+34,Kandiyohi,Governor,,R,Tim Pawlenty,8332,46.37
+34,Kandiyohi,Secretary of State,,DFL,Deborah L. Anderson,7754,43.65
+34,Kandiyohi,Secretary of State,,GP,,297,1.67
+34,Kandiyohi,Secretary of State,,IND,,844,4.75
+34,Kandiyohi,Secretary of State,,R,Mary Kiffmeyer,8871,49.93
+34,Kandiyohi,State Auditor,,DFL,Judi Dutcher,7843,44.88
+34,Kandiyohi,State Auditor,,GP,,397,2.27
+34,Kandiyohi,State Auditor,,IND,,1231,7.04
+34,Kandiyohi,State Auditor,,R,Patricia Anderson Awada,8004,45.80
+34,Kandiyohi,U.S. Senate,,CP,,12,0.07
+34,Kandiyohi,U.S. Senate,,DFL,Walter Mondale,8245,45.67
+34,Kandiyohi,U.S. Senate,,GP,,48,0.27
+34,Kandiyohi,U.S. Senate,,IND,Jim Moore,404,2.24
+34,Kandiyohi,U.S. Senate,,R,Norm Coleman,9345,51.76
+35,Kittson,Attorney General,,DFL,Mike Hatch,1461,61.99
+35,Kittson,Attorney General,,IND,,76,3.22
+35,Kittson,Attorney General,,R,Mike Hatch,820,34.79
+35,Kittson,Governor,,CP,,3,0.12
+35,Kittson,Governor,,DFL,Roger Moe,1470,60.69
+35,Kittson,Governor,,GP,,17,0.70
+35,Kittson,Governor,,I,,8,0.33
+35,Kittson,Governor,,IND,Tim Penny,189,7.80
+35,Kittson,Governor,,R,Tim Pawlenty,735,30.35
+35,Kittson,Secretary of State,,DFL,Deborah L. Anderson,1405,58.57
+35,Kittson,Secretary of State,,GP,,16,0.67
+35,Kittson,Secretary of State,,IND,,70,2.92
+35,Kittson,Secretary of State,,R,Mary Kiffmeyer,908,37.85
+35,Kittson,State Auditor,,DFL,Judi Dutcher,1452,61.60
+35,Kittson,State Auditor,,GP,,25,1.06
+35,Kittson,State Auditor,,IND,,119,5.05
+35,Kittson,State Auditor,,R,Patricia Anderson Awada,761,32.29
+35,Kittson,U.S. Senate,,CP,,6,0.27
+35,Kittson,U.S. Senate,,DFL,Walter Mondale,1212,54.69
+35,Kittson,U.S. Senate,,GP,,4,0.18
+35,Kittson,U.S. Senate,,IND,Jim Moore,57,2.57
+35,Kittson,U.S. Senate,,R,Norm Coleman,937,42.28
+36,Koochiching,Attorney General,,DFL,Mike Hatch,3848,65.62
+36,Koochiching,Attorney General,,IND,,279,4.76
+36,Koochiching,Attorney General,,R,Mike Hatch,1737,29.62
+36,Koochiching,Governor,,CP,,12,0.20
+36,Koochiching,Governor,,DFL,Roger Moe,2866,48.00
+36,Koochiching,Governor,,GP,,98,1.64
+36,Koochiching,Governor,,I,,33,0.55
+36,Koochiching,Governor,,IND,Tim Penny,776,13.00
+36,Koochiching,Governor,,R,Tim Pawlenty,2186,36.61
+36,Koochiching,Secretary of State,,DFL,Deborah L. Anderson,3016,51.15
+36,Koochiching,Secretary of State,,GP,,84,1.42
+36,Koochiching,Secretary of State,,IND,,301,5.11
+36,Koochiching,Secretary of State,,R,Mary Kiffmeyer,2495,42.32
+36,Koochiching,State Auditor,,DFL,Judi Dutcher,3046,52.36
+36,Koochiching,State Auditor,,GP,,127,2.18
+36,Koochiching,State Auditor,,IND,,570,9.80
+36,Koochiching,State Auditor,,R,Patricia Anderson Awada,2074,35.65
+36,Koochiching,U.S. Senate,,CP,,6,0.10
+36,Koochiching,U.S. Senate,,DFL,Walter Mondale,3106,51.66
+36,Koochiching,U.S. Senate,,GP,,12,0.20
+36,Koochiching,U.S. Senate,,IND,Jim Moore,153,2.54
+36,Koochiching,U.S. Senate,,R,Norm Coleman,2735,45.49
+37,Lac qui Parle,Attorney General,,DFL,Mike Hatch,2441,60.96
+37,Lac qui Parle,Attorney General,,IND,,209,5.22
+37,Lac qui Parle,Attorney General,,R,Mike Hatch,1354,33.82
+37,Lac qui Parle,Governor,,CP,,5,0.12
+37,Lac qui Parle,Governor,,DFL,Roger Moe,1797,44.59
+37,Lac qui Parle,Governor,,GP,,53,1.32
+37,Lac qui Parle,Governor,,I,,20,0.50
+37,Lac qui Parle,Governor,,IND,Tim Penny,644,15.98
+37,Lac qui Parle,Governor,,R,Tim Pawlenty,1511,37.49
+37,Lac qui Parle,Secretary of State,,DFL,Deborah L. Anderson,2042,50.86
+37,Lac qui Parle,Secretary of State,,GP,,43,1.07
+37,Lac qui Parle,Secretary of State,,IND,,216,5.38
+37,Lac qui Parle,Secretary of State,,R,Mary Kiffmeyer,1714,42.69
+37,Lac qui Parle,State Auditor,,DFL,Judi Dutcher,2116,53.22
+37,Lac qui Parle,State Auditor,,GP,,72,1.81
+37,Lac qui Parle,State Auditor,,IND,,276,6.94
+37,Lac qui Parle,State Auditor,,R,Patricia Anderson Awada,1512,38.03
+37,Lac qui Parle,U.S. Senate,,CP,,4,0.10
+37,Lac qui Parle,U.S. Senate,,DFL,Walter Mondale,2236,55.21
+37,Lac qui Parle,U.S. Senate,,GP,,11,0.27
+37,Lac qui Parle,U.S. Senate,,IND,Jim Moore,146,3.60
+37,Lac qui Parle,U.S. Senate,,R,Norm Coleman,1653,40.81
+38,Lake,Attorney General,,DFL,Mike Hatch,4052,68.04
+38,Lake,Attorney General,,IND,,303,5.09
+38,Lake,Attorney General,,R,Mike Hatch,1600,26.87
+38,Lake,Governor,,CP,,12,0.20
+38,Lake,Governor,,DFL,Roger Moe,3333,55.37
+38,Lake,Governor,,GP,,128,2.13
+38,Lake,Governor,,I,,25,0.42
+38,Lake,Governor,,IND,Tim Penny,730,12.13
+38,Lake,Governor,,R,Tim Pawlenty,1792,29.77
+38,Lake,Secretary of State,,DFL,Deborah L. Anderson,3402,57.13
+38,Lake,Secretary of State,,GP,,228,3.83
+38,Lake,Secretary of State,,IND,,330,5.54
+38,Lake,Secretary of State,,R,Mary Kiffmeyer,1995,33.50
+38,Lake,State Auditor,,DFL,Judi Dutcher,3382,57.66
+38,Lake,State Auditor,,GP,,242,4.13
+38,Lake,State Auditor,,IND,,535,9.12
+38,Lake,State Auditor,,R,Patricia Anderson Awada,1706,29.09
+38,Lake,U.S. Senate,,CP,,7,0.12
+38,Lake,U.S. Senate,,DFL,Walter Mondale,3542,59.28
+38,Lake,U.S. Senate,,GP,,27,0.45
+38,Lake,U.S. Senate,,IND,Jim Moore,170,2.85
+38,Lake,U.S. Senate,,R,Norm Coleman,2229,37.31
+39,Lake of the Woods,Attorney General,,DFL,Mike Hatch,1049,50.46
+39,Lake of the Woods,Attorney General,,IND,,145,6.97
+39,Lake of the Woods,Attorney General,,R,Mike Hatch,885,42.57
+39,Lake of the Woods,Governor,,CP,,5,0.23
+39,Lake of the Woods,Governor,,DFL,Roger Moe,944,44.15
+39,Lake of the Woods,Governor,,GP,,26,1.22
+39,Lake of the Woods,Governor,,I,,21,0.98
+39,Lake of the Woods,Governor,,IND,Tim Penny,254,11.88
+39,Lake of the Woods,Governor,,R,Tim Pawlenty,888,41.53
+39,Lake of the Woods,Secretary of State,,DFL,Deborah L. Anderson,971,45.72
+39,Lake of the Woods,Secretary of State,,GP,,27,1.27
+39,Lake of the Woods,Secretary of State,,IND,,136,6.40
+39,Lake of the Woods,Secretary of State,,R,Mary Kiffmeyer,990,46.61
+39,Lake of the Woods,State Auditor,,DFL,Judi Dutcher,936,45.17
+39,Lake of the Woods,State Auditor,,GP,,38,1.83
+39,Lake of the Woods,State Auditor,,IND,,178,8.59
+39,Lake of the Woods,State Auditor,,R,Patricia Anderson Awada,920,44.40
+39,Lake of the Woods,U.S. Senate,,CP,,4,0.20
+39,Lake of the Woods,U.S. Senate,,DFL,Walter Mondale,754,37.74
+39,Lake of the Woods,U.S. Senate,,GP,,15,0.75
+39,Lake of the Woods,U.S. Senate,,IND,Jim Moore,100,5.01
+39,Lake of the Woods,U.S. Senate,,R,Norm Coleman,1125,56.31
+40,Le Sueur,Attorney General,,DFL,Mike Hatch,6261,54.36
+40,Le Sueur,Attorney General,,IND,,594,5.16
+40,Le Sueur,Attorney General,,R,Mike Hatch,4663,40.48
+40,Le Sueur,Governor,,CP,,9,0.08
+40,Le Sueur,Governor,,DFL,Roger Moe,2824,23.88
+40,Le Sueur,Governor,,GP,,184,1.56
+40,Le Sueur,Governor,,I,,34,0.29
+40,Le Sueur,Governor,,IND,Tim Penny,3739,31.61
+40,Le Sueur,Governor,,R,Tim Pawlenty,5038,42.59
+40,Le Sueur,Secretary of State,,DFL,Deborah L. Anderson,5224,45.03
+40,Le Sueur,Secretary of State,,GP,,229,1.97
+40,Le Sueur,Secretary of State,,IND,,724,6.24
+40,Le Sueur,Secretary of State,,R,Mary Kiffmeyer,5424,46.75
+40,Le Sueur,State Auditor,,DFL,Judi Dutcher,5044,44.20
+40,Le Sueur,State Auditor,,GP,,306,2.68
+40,Le Sueur,State Auditor,,IND,,1122,9.83
+40,Le Sueur,State Auditor,,R,Patricia Anderson Awada,4941,43.29
+40,Le Sueur,U.S. Senate,,CP,,12,0.10
+40,Le Sueur,U.S. Senate,,DFL,Walter Mondale,5302,44.65
+40,Le Sueur,U.S. Senate,,GP,,66,0.56
+40,Le Sueur,U.S. Senate,,IND,Jim Moore,342,2.88
+40,Le Sueur,U.S. Senate,,R,Norm Coleman,6152,51.81
+41,Lincoln,Attorney General,,DFL,Mike Hatch,1679,56.04
+41,Lincoln,Attorney General,,IND,,158,5.27
+41,Lincoln,Attorney General,,R,Mike Hatch,1159,38.68
+41,Lincoln,Governor,,CP,,8,0.26
+41,Lincoln,Governor,,DFL,Roger Moe,1278,42.26
+41,Lincoln,Governor,,GP,,37,1.22
+41,Lincoln,Governor,,I,,25,0.83
+41,Lincoln,Governor,,IND,Tim Penny,436,14.42
+41,Lincoln,Governor,,R,Tim Pawlenty,1240,41.01
+41,Lincoln,Secretary of State,,DFL,Deborah L. Anderson,1497,49.62
+41,Lincoln,Secretary of State,,GP,,48,1.59
+41,Lincoln,Secretary of State,,IND,,139,4.61
+41,Lincoln,Secretary of State,,R,Mary Kiffmeyer,1333,44.18
+41,Lincoln,State Auditor,,DFL,Judi Dutcher,1552,52.26
+41,Lincoln,State Auditor,,GP,,58,1.95
+41,Lincoln,State Auditor,,IND,,223,7.51
+41,Lincoln,State Auditor,,R,Patricia Anderson Awada,1137,38.28
+41,Lincoln,U.S. Senate,,CP,,4,0.13
+41,Lincoln,U.S. Senate,,DFL,Walter Mondale,1660,54.11
+41,Lincoln,U.S. Senate,,GP,,11,0.36
+41,Lincoln,U.S. Senate,,IND,Jim Moore,95,3.10
+41,Lincoln,U.S. Senate,,R,Norm Coleman,1298,42.31
+42,Lyon,Attorney General,,DFL,Mike Hatch,4962,50.81
+42,Lyon,Attorney General,,IND,,365,3.74
+42,Lyon,Attorney General,,R,Mike Hatch,4439,45.45
+42,Lyon,Governor,,CP,,20,0.20
+42,Lyon,Governor,,DFL,Roger Moe,3349,33.78
+42,Lyon,Governor,,GP,,139,1.40
+42,Lyon,Governor,,I,,34,0.34
+42,Lyon,Governor,,IND,Tim Penny,1477,14.90
+42,Lyon,Governor,,R,Tim Pawlenty,4896,49.38
+42,Lyon,Secretary of State,,DFL,Deborah L. Anderson,4188,42.62
+42,Lyon,Secretary of State,,GP,,192,1.95
+42,Lyon,Secretary of State,,IND,,429,4.37
+42,Lyon,Secretary of State,,R,Mary Kiffmeyer,5018,51.06
+42,Lyon,State Auditor,,DFL,Judi Dutcher,4332,44.90
+42,Lyon,State Auditor,,GP,,227,2.35
+42,Lyon,State Auditor,,IND,,643,6.66
+42,Lyon,State Auditor,,R,Patricia Anderson Awada,4447,46.09
+42,Lyon,U.S. Senate,,CP,,15,0.15
+42,Lyon,U.S. Senate,,DFL,Walter Mondale,4632,46.04
+42,Lyon,U.S. Senate,,GP,,35,0.35
+42,Lyon,U.S. Senate,,IND,Jim Moore,270,2.68
+42,Lyon,U.S. Senate,,R,Norm Coleman,5109,50.78
+44,Mahnomen,Attorney General,,DFL,Mike Hatch,1330,58.80
+44,Mahnomen,Attorney General,,IND,,143,6.32
+44,Mahnomen,Attorney General,,R,Mike Hatch,789,34.88
+44,Mahnomen,Governor,,CP,,10,0.43
+44,Mahnomen,Governor,,DFL,Roger Moe,1100,47.29
+44,Mahnomen,Governor,,GP,,35,1.50
+44,Mahnomen,Governor,,I,,29,1.25
+44,Mahnomen,Governor,,IND,Tim Penny,226,9.72
+44,Mahnomen,Governor,,R,Tim Pawlenty,926,39.81
+44,Mahnomen,Secretary of State,,DFL,Deborah L. Anderson,1203,52.67
+44,Mahnomen,Secretary of State,,GP,,48,2.10
+44,Mahnomen,Secretary of State,,IND,,160,7.01
+44,Mahnomen,Secretary of State,,R,Mary Kiffmeyer,873,38.22
+44,Mahnomen,State Auditor,,DFL,Judi Dutcher,1217,54.23
+44,Mahnomen,State Auditor,,GP,,56,2.50
+44,Mahnomen,State Auditor,,IND,,199,8.87
+44,Mahnomen,State Auditor,,R,Patricia Anderson Awada,772,34.40
+44,Mahnomen,U.S. Senate,,CP,,6,0.26
+44,Mahnomen,U.S. Senate,,DFL,Walter Mondale,1218,52.07
+44,Mahnomen,U.S. Senate,,GP,,14,0.60
+44,Mahnomen,U.S. Senate,,IND,Jim Moore,62,2.65
+44,Mahnomen,U.S. Senate,,R,Norm Coleman,1039,44.42
+45,Marshall,Attorney General,,DFL,Mike Hatch,2671,57.39
+45,Marshall,Attorney General,,IND,,224,4.81
+45,Marshall,Attorney General,,R,Mike Hatch,1759,37.80
+45,Marshall,Governor,,CP,,5,0.10
+45,Marshall,Governor,,DFL,Roger Moe,2348,48.99
+45,Marshall,Governor,,GP,,36,0.75
+45,Marshall,Governor,,I,,31,0.65
+45,Marshall,Governor,,IND,Tim Penny,398,8.30
+45,Marshall,Governor,,R,Tim Pawlenty,1975,41.21
+45,Marshall,Secretary of State,,DFL,Deborah L. Anderson,2494,52.78
+45,Marshall,Secretary of State,,GP,,42,0.89
+45,Marshall,Secretary of State,,IND,,199,4.21
+45,Marshall,Secretary of State,,R,Mary Kiffmeyer,1990,42.12
+45,Marshall,State Auditor,,DFL,Judi Dutcher,2421,52.52
+45,Marshall,State Auditor,,GP,,65,1.41
+45,Marshall,State Auditor,,IND,,348,7.55
+45,Marshall,State Auditor,,R,Patricia Anderson Awada,1776,38.52
+45,Marshall,U.S. Senate,,CP,,6,0.13
+45,Marshall,U.S. Senate,,DFL,Walter Mondale,2439,51.07
+45,Marshall,U.S. Senate,,GP,,9,0.19
+45,Marshall,U.S. Senate,,IND,Jim Moore,149,3.12
+45,Marshall,U.S. Senate,,R,Norm Coleman,2173,45.50
+46,Martin,Attorney General,,DFL,Mike Hatch,4809,51.79
+46,Martin,Attorney General,,IND,,377,4.06
+46,Martin,Attorney General,,R,Mike Hatch,4099,44.15
+46,Martin,Governor,,CP,,7,0.07
+46,Martin,Governor,,DFL,Roger Moe,2389,25.47
+46,Martin,Governor,,GP,,103,1.10
+46,Martin,Governor,,I,,43,0.46
+46,Martin,Governor,,IND,Tim Penny,2399,25.58
+46,Martin,Governor,,R,Tim Pawlenty,4437,47.31
+46,Martin,Secretary of State,,DFL,Deborah L. Anderson,3895,42.13
+46,Martin,Secretary of State,,GP,,180,1.95
+46,Martin,Secretary of State,,IND,,488,5.28
+46,Martin,Secretary of State,,R,Mary Kiffmeyer,4682,50.64
+46,Martin,State Auditor,,DFL,Judi Dutcher,3526,38.74
+46,Martin,State Auditor,,GP,,217,2.38
+46,Martin,State Auditor,,IND,,896,9.85
+46,Martin,State Auditor,,R,Patricia Anderson Awada,4462,49.03
+46,Martin,U.S. Senate,,CP,,9,0.10
+46,Martin,U.S. Senate,,DFL,Walter Mondale,4039,43.17
+46,Martin,U.S. Senate,,GP,,34,0.36
+46,Martin,U.S. Senate,,IND,Jim Moore,251,2.68
+46,Martin,U.S. Senate,,R,Norm Coleman,5024,53.69
+43,McLeod,Attorney General,,DFL,Mike Hatch,6505,46.26
+43,McLeod,Attorney General,,IND,,695,4.94
+43,McLeod,Attorney General,,R,Mike Hatch,6861,48.79
+43,McLeod,Governor,,CP,,34,0.24
+43,McLeod,Governor,,DFL,Roger Moe,3583,25.00
+43,McLeod,Governor,,GP,,226,1.58
+43,McLeod,Governor,,I,,59,0.41
+43,McLeod,Governor,,IND,Tim Penny,2419,16.88
+43,McLeod,Governor,,R,Tim Pawlenty,8010,55.89
+43,McLeod,Secretary of State,,DFL,Deborah L. Anderson,5028,35.66
+43,McLeod,Secretary of State,,GP,,185,1.31
+43,McLeod,Secretary of State,,IND,,746,5.29
+43,McLeod,Secretary of State,,R,Mary Kiffmeyer,8139,57.73
+43,McLeod,State Auditor,,DFL,Judi Dutcher,4816,34.72
+43,McLeod,State Auditor,,GP,,289,2.08
+43,McLeod,State Auditor,,IND,,1325,9.55
+43,McLeod,State Auditor,,R,Patricia Anderson Awada,7439,53.64
+43,McLeod,U.S. Senate,,CP,,26,0.18
+43,McLeod,U.S. Senate,,DFL,Walter Mondale,5174,36.10
+43,McLeod,U.S. Senate,,GP,,57,0.40
+43,McLeod,U.S. Senate,,IND,Jim Moore,451,3.15
+43,McLeod,U.S. Senate,,R,Norm Coleman,8626,60.18
+61,Meeker,Attorney General,,DFL,Mike Hatch,3218,58.23
+61,Meeker,Attorney General,,IND,,218,3.94
+61,Meeker,Attorney General,,R,Mike Hatch,2090,37.82
+61,Meeker,Governor,,CP,,6,0.11
+61,Meeker,Governor,,DFL,Roger Moe,2215,39.48
+61,Meeker,Governor,,GP,,101,1.80
+61,Meeker,Governor,,I,,25,0.45
+61,Meeker,Governor,,IND,Tim Penny,828,14.76
+61,Meeker,Governor,,R,Tim Pawlenty,2436,43.41
+61,Meeker,Secretary of State,,DFL,Deborah L. Anderson,2597,46.86
+61,Meeker,Secretary of State,,GP,,74,1.34
+61,Meeker,Secretary of State,,IND,,237,4.28
+61,Meeker,Secretary of State,,R,Mary Kiffmeyer,2634,47.53
+61,Meeker,State Auditor,,DFL,Judi Dutcher,2687,49.48
+61,Meeker,State Auditor,,GP,,140,2.58
+61,Meeker,State Auditor,,IND,,420,7.73
+61,Meeker,State Auditor,,R,Patricia Anderson Awada,2183,40.20
+61,Meeker,U.S. Senate,,CP,,6,0.11
+61,Meeker,U.S. Senate,,DFL,Walter Mondale,2870,50.90
+61,Meeker,U.S. Senate,,GP,,23,0.41
+61,Meeker,U.S. Senate,,IND,Jim Moore,141,2.50
+61,Meeker,U.S. Senate,,R,Norm Coleman,2599,46.09
+47,Mille Lacs,Attorney General,,DFL,Mike Hatch,5246,51.33
+47,Mille Lacs,Attorney General,,IND,,504,4.93
+47,Mille Lacs,Attorney General,,R,Mike Hatch,4470,43.74
+47,Mille Lacs,Governor,,CP,,54,0.52
+47,Mille Lacs,Governor,,DFL,Roger Moe,3128,30.31
+47,Mille Lacs,Governor,,GP,,150,1.45
+47,Mille Lacs,Governor,,I,,54,0.52
+47,Mille Lacs,Governor,,IND,Tim Penny,1753,16.98
+47,Mille Lacs,Governor,,R,Tim Pawlenty,5182,50.21
+47,Mille Lacs,Secretary of State,,DFL,Deborah L. Anderson,3956,38.66
+47,Mille Lacs,Secretary of State,,GP,,170,1.66
+47,Mille Lacs,Secretary of State,,IND,,563,5.50
+47,Mille Lacs,Secretary of State,,R,Mary Kiffmeyer,5545,54.18
+47,Mille Lacs,State Auditor,,DFL,Judi Dutcher,3994,39.81
+47,Mille Lacs,State Auditor,,GP,,275,2.74
+47,Mille Lacs,State Auditor,,IND,,887,8.84
+47,Mille Lacs,State Auditor,,R,Patricia Anderson Awada,4877,48.61
+47,Mille Lacs,U.S. Senate,,CP,,42,0.40
+47,Mille Lacs,U.S. Senate,,DFL,Walter Mondale,4274,41.16
+47,Mille Lacs,U.S. Senate,,GP,,43,0.41
+47,Mille Lacs,U.S. Senate,,IND,Jim Moore,321,3.09
+47,Mille Lacs,U.S. Senate,,R,Norm Coleman,5704,54.93
+48,Morrison,Attorney General,,DFL,Mike Hatch,5226,52.17
+48,Morrison,Attorney General,,IND,,507,5.06
+48,Morrison,Attorney General,,R,Mike Hatch,4285,42.77
+48,Morrison,Governor,,CP,,18,0.18
+48,Morrison,Governor,,DFL,Roger Moe,3205,31.56
+48,Morrison,Governor,,GP,,170,1.67
+48,Morrison,Governor,,I,,62,0.61
+48,Morrison,Governor,,IND,Tim Penny,1510,14.87
+48,Morrison,Governor,,R,Tim Pawlenty,5190,51.11
+48,Morrison,Secretary of State,,DFL,Deborah L. Anderson,4018,39.90
+48,Morrison,Secretary of State,,GP,,214,2.12
+48,Morrison,Secretary of State,,IND,,478,4.75
+48,Morrison,Secretary of State,,R,Mary Kiffmeyer,5361,53.23
+48,Morrison,State Auditor,,DFL,Judi Dutcher,4193,42.62
+48,Morrison,State Auditor,,GP,,355,3.61
+48,Morrison,State Auditor,,IND,,828,8.42
+48,Morrison,State Auditor,,R,Patricia Anderson Awada,4461,45.35
+48,Morrison,U.S. Senate,,CP,,17,0.17
+48,Morrison,U.S. Senate,,DFL,Walter Mondale,4355,42.97
+48,Morrison,U.S. Senate,,GP,,56,0.55
+48,Morrison,U.S. Senate,,IND,Jim Moore,254,2.51
+48,Morrison,U.S. Senate,,R,Norm Coleman,5454,53.81
+49,Mower,Attorney General,,DFL,Mike Hatch,7619,54.68
+49,Mower,Attorney General,,IND,,721,5.17
+49,Mower,Attorney General,,R,Mike Hatch,5594,40.15
+49,Mower,Governor,,CP,,29,0.20
+49,Mower,Governor,,DFL,Roger Moe,3985,28.13
+49,Mower,Governor,,GP,,219,1.55
+49,Mower,Governor,,I,,80,0.56
+49,Mower,Governor,,IND,Tim Penny,2014,14.22
+49,Mower,Governor,,R,Tim Pawlenty,7838,55.33
+49,Mower,Secretary of State,,DFL,Deborah L. Anderson,5119,36.22
+49,Mower,Secretary of State,,GP,,257,1.82
+49,Mower,Secretary of State,,IND,,572,4.05
+49,Mower,Secretary of State,,R,Mary Kiffmeyer,8186,57.92
+49,Mower,State Auditor,,DFL,Judi Dutcher,6351,46.49
+49,Mower,State Auditor,,GP,,397,2.91
+49,Mower,State Auditor,,IND,,1022,7.48
+49,Mower,State Auditor,,R,Patricia Anderson Awada,5890,43.12
+49,Mower,U.S. Senate,,CP,,19,0.13
+49,Mower,U.S. Senate,,DFL,Walter Mondale,6039,41.88
+49,Mower,U.S. Senate,,GP,,82,0.57
+49,Mower,U.S. Senate,,IND,Jim Moore,441,3.06
+49,Mower,U.S. Senate,,R,Norm Coleman,7839,54.36
+50,Murray,Attorney General,,DFL,Mike Hatch,9750,61.84
+50,Murray,Attorney General,,IND,,798,5.06
+50,Murray,Attorney General,,R,Mike Hatch,5218,33.10
+50,Murray,Governor,,CP,,12,0.07
+50,Murray,Governor,,DFL,Roger Moe,4361,27.03
+50,Murray,Governor,,GP,,177,1.10
+50,Murray,Governor,,I,,52,0.32
+50,Murray,Governor,,IND,Tim Penny,6875,42.61
+50,Murray,Governor,,R,Tim Pawlenty,4656,28.86
+50,Murray,Secretary of State,,DFL,Deborah L. Anderson,9046,57.45
+50,Murray,Secretary of State,,GP,,216,1.37
+50,Murray,Secretary of State,,IND,,926,5.88
+50,Murray,Secretary of State,,R,Mary Kiffmeyer,5557,35.29
+50,Murray,State Auditor,,DFL,Judi Dutcher,8433,53.91
+50,Murray,State Auditor,,GP,,419,2.68
+50,Murray,State Auditor,,IND,,1346,8.60
+50,Murray,State Auditor,,R,Patricia Anderson Awada,5445,34.81
+50,Murray,U.S. Senate,,CP,,24,0.15
+50,Murray,U.S. Senate,,DFL,Walter Mondale,9497,58.91
+50,Murray,U.S. Senate,,GP,,69,0.43
+50,Murray,U.S. Senate,,IND,Jim Moore,410,2.54
+50,Murray,U.S. Senate,,R,Norm Coleman,6122,37.97
+51,Nicollet,Attorney General,,DFL,Mike Hatch,2539,55.27
+51,Nicollet,Attorney General,,IND,,206,4.48
+51,Nicollet,Attorney General,,R,Mike Hatch,1849,40.25
+51,Nicollet,Governor,,CP,,11,0.24
+51,Nicollet,Governor,,DFL,Roger Moe,1730,37.45
+51,Nicollet,Governor,,GP,,66,1.43
+51,Nicollet,Governor,,I,,36,0.78
+51,Nicollet,Governor,,IND,Tim Penny,734,15.89
+51,Nicollet,Governor,,R,Tim Pawlenty,2042,44.21
+51,Nicollet,Secretary of State,,DFL,Deborah L. Anderson,2260,49.05
+51,Nicollet,Secretary of State,,GP,,58,1.26
+51,Nicollet,Secretary of State,,IND,,230,4.99
+51,Nicollet,Secretary of State,,R,Mary Kiffmeyer,2060,44.70
+51,Nicollet,State Auditor,,DFL,Judi Dutcher,2349,51.46
+51,Nicollet,State Auditor,,GP,,102,2.23
+51,Nicollet,State Auditor,,IND,,284,6.22
+51,Nicollet,State Auditor,,R,Patricia Anderson Awada,1830,40.09
+51,Nicollet,U.S. Senate,,CP,,5,0.11
+51,Nicollet,U.S. Senate,,DFL,Walter Mondale,2351,50.39
+51,Nicollet,U.S. Senate,,GP,,13,0.28
+51,Nicollet,U.S. Senate,,IND,Jim Moore,133,2.85
+51,Nicollet,U.S. Senate,,R,Norm Coleman,2164,46.38
+52,Nobles,Attorney General,,DFL,Mike Hatch,7736,54.89
+52,Nobles,Attorney General,,IND,,592,4.20
+52,Nobles,Attorney General,,R,Mike Hatch,5765,40.91
+52,Nobles,Governor,,CP,,6,0.04
+52,Nobles,Governor,,DFL,Roger Moe,4207,29.13
+52,Nobles,Governor,,GP,,267,1.85
+52,Nobles,Governor,,I,,38,0.26
+52,Nobles,Governor,,IND,Tim Penny,4142,28.68
+52,Nobles,Governor,,R,Tim Pawlenty,5783,40.04
+52,Nobles,Secretary of State,,DFL,Deborah L. Anderson,6517,46.25
+52,Nobles,Secretary of State,,GP,,430,3.05
+52,Nobles,Secretary of State,,IND,,711,5.05
+52,Nobles,Secretary of State,,R,Mary Kiffmeyer,6433,45.65
+52,Nobles,State Auditor,,DFL,Judi Dutcher,6171,44.58
+52,Nobles,State Auditor,,GP,,488,3.53
+52,Nobles,State Auditor,,IND,,1098,7.93
+52,Nobles,State Auditor,,R,Patricia Anderson Awada,6084,43.96
+52,Nobles,U.S. Senate,,CP,,14,0.10
+52,Nobles,U.S. Senate,,DFL,Walter Mondale,6811,47.73
+52,Nobles,U.S. Senate,,GP,,83,0.58
+52,Nobles,U.S. Senate,,IND,Jim Moore,351,2.46
+52,Nobles,U.S. Senate,,R,Norm Coleman,7012,49.13
+53,Norman,Attorney General,,DFL,Mike Hatch,4401,53.40
+53,Norman,Attorney General,,IND,,311,3.77
+53,Norman,Attorney General,,R,Mike Hatch,3529,42.82
+53,Norman,Governor,,CP,,16,0.19
+53,Norman,Governor,,DFL,Roger Moe,3132,37.74
+53,Norman,Governor,,GP,,107,1.29
+53,Norman,Governor,,I,,44,0.53
+53,Norman,Governor,,IND,Tim Penny,1264,15.23
+53,Norman,Governor,,R,Tim Pawlenty,3735,45.01
+53,Norman,Secretary of State,,DFL,Deborah L. Anderson,4246,51.91
+53,Norman,Secretary of State,,GP,,98,1.20
+53,Norman,Secretary of State,,IND,,357,4.36
+53,Norman,Secretary of State,,R,Mary Kiffmeyer,3478,42.52
+53,Norman,State Auditor,,DFL,Judi Dutcher,4006,49.00
+53,Norman,State Auditor,,GP,,193,2.36
+53,Norman,State Auditor,,IND,,548,6.70
+53,Norman,State Auditor,,R,Patricia Anderson Awada,3428,41.93
+53,Norman,U.S. Senate,,CP,,5,0.06
+53,Norman,U.S. Senate,,DFL,Walter Mondale,3979,47.40
+53,Norman,U.S. Senate,,GP,,23,0.27
+53,Norman,U.S. Senate,,IND,Jim Moore,218,2.60
+53,Norman,U.S. Senate,,R,Norm Coleman,4170,49.67
+54,Olmsted,Attorney General,,DFL,Mike Hatch,1941,60.34
+54,Olmsted,Attorney General,,IND,,147,4.57
+54,Olmsted,Attorney General,,R,Mike Hatch,1129,35.09
+54,Olmsted,Governor,,CP,,5,0.15
+54,Olmsted,Governor,,DFL,Roger Moe,1921,57.77
+54,Olmsted,Governor,,GP,,22,0.66
+54,Olmsted,Governor,,I,,5,0.15
+54,Olmsted,Governor,,IND,Tim Penny,279,8.39
+54,Olmsted,Governor,,R,Tim Pawlenty,1093,32.87
+54,Olmsted,Secretary of State,,DFL,Deborah L. Anderson,1864,57.16
+54,Olmsted,Secretary of State,,GP,,34,1.04
+54,Olmsted,Secretary of State,,IND,,139,4.26
+54,Olmsted,Secretary of State,,R,Mary Kiffmeyer,1224,37.53
+54,Olmsted,State Auditor,,DFL,Judi Dutcher,1753,55.20
+54,Olmsted,State Auditor,,GP,,65,2.05
+54,Olmsted,State Auditor,,IND,,233,7.34
+54,Olmsted,State Auditor,,R,Patricia Anderson Awada,1125,35.42
+54,Olmsted,U.S. Senate,,CP,,2,0.06
+54,Olmsted,U.S. Senate,,DFL,Walter Mondale,1941,58.52
+54,Olmsted,U.S. Senate,,GP,,8,0.24
+54,Olmsted,U.S. Senate,,IND,Jim Moore,80,2.41
+54,Olmsted,U.S. Senate,,R,Norm Coleman,1286,38.77
+55,Otter Tail,Attorney General,,DFL,Mike Hatch,23017,45.62
+55,Otter Tail,Attorney General,,IND,,3280,6.50
+55,Otter Tail,Attorney General,,R,Mike Hatch,24159,47.88
+55,Otter Tail,Governor,,CP,,36,0.07
+55,Otter Tail,Governor,,DFL,Roger Moe,10458,19.74
+55,Otter Tail,Governor,,GP,,588,1.11
+55,Otter Tail,Governor,,I,,95,0.18
+55,Otter Tail,Governor,,IND,Tim Penny,20904,39.46
+55,Otter Tail,Governor,,R,Tim Pawlenty,20889,39.44
+55,Otter Tail,Secretary of State,,DFL,Deborah L. Anderson,19698,38.79
+55,Otter Tail,Secretary of State,,GP,,1040,2.05
+55,Otter Tail,Secretary of State,,IND,,3455,6.80
+55,Otter Tail,Secretary of State,,R,Mary Kiffmeyer,26593,52.36
+55,Otter Tail,State Auditor,,DFL,Judi Dutcher,17996,36.49
+55,Otter Tail,State Auditor,,GP,,1581,3.21
+55,Otter Tail,State Auditor,,IND,,5514,11.18
+55,Otter Tail,State Auditor,,R,Patricia Anderson Awada,24225,49.12
+55,Otter Tail,U.S. Senate,,CP,,37,0.07
+55,Otter Tail,U.S. Senate,,DFL,Walter Mondale,23168,44.03
+55,Otter Tail,U.S. Senate,,GP,,196,0.37
+55,Otter Tail,U.S. Senate,,IND,Jim Moore,1388,2.64
+55,Otter Tail,U.S. Senate,,R,Norm Coleman,27826,52.89
+56,Pennington,Attorney General,,DFL,Mike Hatch,12172,47.70
+56,Pennington,Attorney General,,IND,,1003,3.93
+56,Pennington,Attorney General,,R,Mike Hatch,12341,48.37
+56,Pennington,Governor,,CP,,22,0.08
+56,Pennington,Governor,,DFL,Roger Moe,9101,35.02
+56,Pennington,Governor,,GP,,324,1.25
+56,Pennington,Governor,,I,,107,0.41
+56,Pennington,Governor,,IND,Tim Penny,2760,10.62
+56,Pennington,Governor,,R,Tim Pawlenty,13676,52.62
+56,Pennington,Secretary of State,,DFL,Deborah L. Anderson,10110,39.74
+56,Pennington,Secretary of State,,GP,,345,1.36
+56,Pennington,Secretary of State,,IND,,1032,4.06
+56,Pennington,Secretary of State,,R,Mary Kiffmeyer,13956,54.85
+56,Pennington,State Auditor,,DFL,Judi Dutcher,9650,38.83
+56,Pennington,State Auditor,,GP,,514,2.07
+56,Pennington,State Auditor,,IND,,1617,6.51
+56,Pennington,State Auditor,,R,Patricia Anderson Awada,13073,52.60
+56,Pennington,U.S. Senate,,CP,,27,0.10
+56,Pennington,U.S. Senate,,DFL,Walter Mondale,10690,40.85
+56,Pennington,U.S. Senate,,GP,,101,0.39
+56,Pennington,U.S. Senate,,IND,Jim Moore,582,2.22
+56,Pennington,U.S. Senate,,R,Norm Coleman,14766,56.43
+57,Pine,Attorney General,,DFL,Mike Hatch,2997,55.80
+57,Pine,Attorney General,,IND,,279,5.19
+57,Pine,Attorney General,,R,Mike Hatch,2095,39.01
+57,Pine,Governor,,CP,,9,0.16
+57,Pine,Governor,,DFL,Roger Moe,2739,50.10
+57,Pine,Governor,,GP,,52,0.95
+57,Pine,Governor,,I,,30,0.55
+57,Pine,Governor,,IND,Tim Penny,507,9.27
+57,Pine,Governor,,R,Tim Pawlenty,2130,38.96
+57,Pine,Secretary of State,,DFL,Deborah L. Anderson,2753,50.49
+57,Pine,Secretary of State,,GP,,86,1.58
+57,Pine,Secretary of State,,IND,,260,4.77
+57,Pine,Secretary of State,,R,Mary Kiffmeyer,2354,43.17
+57,Pine,State Auditor,,DFL,Judi Dutcher,2811,52.66
+57,Pine,State Auditor,,GP,,116,2.17
+57,Pine,State Auditor,,IND,,400,7.49
+57,Pine,State Auditor,,R,Patricia Anderson Awada,2011,37.67
+57,Pine,U.S. Senate,,CP,,9,0.16
+57,Pine,U.S. Senate,,DFL,Walter Mondale,2869,51.86
+57,Pine,U.S. Senate,,GP,,15,0.27
+57,Pine,U.S. Senate,,IND,Jim Moore,139,2.51
+57,Pine,U.S. Senate,,R,Norm Coleman,2500,45.19
+58,Pipestone,Attorney General,,DFL,Mike Hatch,6422,57.70
+58,Pipestone,Attorney General,,IND,,568,5.10
+58,Pipestone,Attorney General,,R,Mike Hatch,4140,37.20
+58,Pipestone,Governor,,CP,,28,0.25
+58,Pipestone,Governor,,DFL,Roger Moe,4501,39.88
+58,Pipestone,Governor,,GP,,217,1.92
+58,Pipestone,Governor,,I,,66,0.58
+58,Pipestone,Governor,,IND,Tim Penny,1534,13.59
+58,Pipestone,Governor,,R,Tim Pawlenty,4939,43.77
+58,Pipestone,Secretary of State,,DFL,Deborah L. Anderson,5490,49.33
+58,Pipestone,Secretary of State,,GP,,199,1.79
+58,Pipestone,Secretary of State,,IND,,634,5.70
+58,Pipestone,Secretary of State,,R,Mary Kiffmeyer,4807,43.19
+58,Pipestone,State Auditor,,DFL,Judi Dutcher,5412,49.40
+58,Pipestone,State Auditor,,GP,,263,2.40
+58,Pipestone,State Auditor,,IND,,973,8.88
+58,Pipestone,State Auditor,,R,Patricia Anderson Awada,4308,39.32
+58,Pipestone,U.S. Senate,,CP,,21,0.19
+58,Pipestone,U.S. Senate,,DFL,Walter Mondale,5640,49.84
+58,Pipestone,U.S. Senate,,GP,,44,0.39
+58,Pipestone,U.S. Senate,,IND,Jim Moore,334,2.95
+58,Pipestone,U.S. Senate,,R,Norm Coleman,5278,46.64
+59,Polk,Attorney General,,DFL,Mike Hatch,1959,44.63
+59,Polk,Attorney General,,IND,,179,4.08
+59,Polk,Attorney General,,R,Mike Hatch,2251,51.29
+59,Polk,Governor,,CP,,9,0.20
+59,Polk,Governor,,DFL,Roger Moe,1460,32.91
+59,Polk,Governor,,GP,,73,1.65
+59,Polk,Governor,,I,,26,0.59
+59,Polk,Governor,,IND,Tim Penny,711,16.02
+59,Polk,Governor,,R,Tim Pawlenty,2158,48.64
+59,Polk,Secretary of State,,DFL,Deborah L. Anderson,1865,43.33
+59,Polk,Secretary of State,,GP,,56,1.30
+59,Polk,Secretary of State,,IND,,177,4.11
+59,Polk,Secretary of State,,R,Mary Kiffmeyer,2206,51.25
+59,Polk,State Auditor,,DFL,Judi Dutcher,1870,43.06
+59,Polk,State Auditor,,GP,,76,1.75
+59,Polk,State Auditor,,IND,,239,5.50
+59,Polk,State Auditor,,R,Patricia Anderson Awada,2158,49.69
+59,Polk,U.S. Senate,,CP,,6,0.13
+59,Polk,U.S. Senate,,DFL,Walter Mondale,2004,44.67
+59,Polk,U.S. Senate,,GP,,17,0.38
+59,Polk,U.S. Senate,,IND,Jim Moore,150,3.34
+59,Polk,U.S. Senate,,R,Norm Coleman,2309,51.47
+60,Pope,Attorney General,,DFL,Mike Hatch,6860,55.91
+60,Pope,Attorney General,,IND,,466,3.80
+60,Pope,Attorney General,,R,Mike Hatch,4944,40.29
+60,Pope,Governor,,CP,,12,0.09
+60,Pope,Governor,,DFL,Roger Moe,7153,56.52
+60,Pope,Governor,,GP,,87,0.69
+60,Pope,Governor,,I,,43,0.34
+60,Pope,Governor,,IND,Tim Penny,840,6.64
+60,Pope,Governor,,R,Tim Pawlenty,4521,35.72
+60,Pope,Secretary of State,,DFL,Deborah L. Anderson,6720,54.01
+60,Pope,Secretary of State,,GP,,136,1.09
+60,Pope,Secretary of State,,IND,,486,3.91
+60,Pope,Secretary of State,,R,Mary Kiffmeyer,5101,40.99
+60,Pope,State Auditor,,DFL,Judi Dutcher,6357,51.62
+60,Pope,State Auditor,,GP,,245,1.99
+60,Pope,State Auditor,,IND,,766,6.22
+60,Pope,State Auditor,,R,Patricia Anderson Awada,4947,40.17
+60,Pope,U.S. Senate,,CP,,26,0.21
+60,Pope,U.S. Senate,,DFL,Walter Mondale,6407,51.02
+60,Pope,U.S. Senate,,GP,,28,0.22
+60,Pope,U.S. Senate,,IND,Jim Moore,243,1.94
+60,Pope,U.S. Senate,,R,Norm Coleman,5854,46.62
+62,Ramsey,Attorney General,,DFL,Mike Hatch,131780,60.79
+62,Ramsey,Attorney General,,IND,,9422,4.35
+62,Ramsey,Attorney General,,R,Mike Hatch,75570,34.86
+62,Ramsey,Governor,,CP,,298,0.13
+62,Ramsey,Governor,,DFL,Roger Moe,101924,45.38
+62,Ramsey,Governor,,GP,,7368,3.28
+62,Ramsey,Governor,,I,,1303,0.58
+62,Ramsey,Governor,,IND,Tim Penny,27507,12.25
+62,Ramsey,Governor,,R,Tim Pawlenty,86200,38.38
+62,Ramsey,Secretary of State,,DFL,Deborah L. Anderson,108404,49.78
+62,Ramsey,Secretary of State,,GP,,10564,4.85
+62,Ramsey,Secretary of State,,IND,,10152,4.66
+62,Ramsey,Secretary of State,,R,Mary Kiffmeyer,88649,40.71
+62,Ramsey,State Auditor,,DFL,Judi Dutcher,103728,49.02
+62,Ramsey,State Auditor,,GP,,11314,5.35
+62,Ramsey,State Auditor,,IND,,13874,6.56
+62,Ramsey,State Auditor,,R,Patricia Anderson Awada,82683,39.08
+62,Ramsey,U.S. Senate,,CP,,209,0.09
+62,Ramsey,U.S. Senate,,DFL,Walter Mondale,124752,55.76
+62,Ramsey,U.S. Senate,,GP,,1074,0.48
+62,Ramsey,U.S. Senate,,IND,Jim Moore,3105,1.39
+62,Ramsey,U.S. Senate,,R,Norm Coleman,94582,42.28
+63,Red Lake,Attorney General,,DFL,Mike Hatch,1163,62.80
+63,Red Lake,Attorney General,,IND,,84,4.54
+63,Red Lake,Attorney General,,R,Mike Hatch,605,32.67
+63,Red Lake,Governor,,CP,,6,0.31
+63,Red Lake,Governor,,DFL,Roger Moe,990,51.78
+63,Red Lake,Governor,,GP,,17,0.89
+63,Red Lake,Governor,,I,,10,0.52
+63,Red Lake,Governor,,IND,Tim Penny,172,9.00
+63,Red Lake,Governor,,R,Tim Pawlenty,717,37.50
+63,Red Lake,Secretary of State,,DFL,Deborah L. Anderson,1069,56.74
+63,Red Lake,Secretary of State,,GP,,15,0.80
+63,Red Lake,Secretary of State,,IND,,84,4.46
+63,Red Lake,Secretary of State,,R,Mary Kiffmeyer,716,38.00
+63,Red Lake,State Auditor,,DFL,Judi Dutcher,1077,58.41
+63,Red Lake,State Auditor,,GP,,24,1.30
+63,Red Lake,State Auditor,,IND,,126,6.83
+63,Red Lake,State Auditor,,R,Patricia Anderson Awada,617,33.46
+63,Red Lake,U.S. Senate,,CP,,3,0.16
+63,Red Lake,U.S. Senate,,DFL,Walter Mondale,991,52.21
+63,Red Lake,U.S. Senate,,GP,,8,0.42
+63,Red Lake,U.S. Senate,,IND,Jim Moore,57,3.00
+63,Red Lake,U.S. Senate,,R,Norm Coleman,839,44.20
+64,Redwood,Attorney General,,DFL,Mike Hatch,3240,47.37
+64,Redwood,Attorney General,,IND,,322,4.71
+64,Redwood,Attorney General,,R,Mike Hatch,3278,47.92
+64,Redwood,Governor,,CP,,24,0.34
+64,Redwood,Governor,,DFL,Roger Moe,1891,27.13
+64,Redwood,Governor,,GP,,77,1.10
+64,Redwood,Governor,,I,,32,0.46
+64,Redwood,Governor,,IND,Tim Penny,1275,18.29
+64,Redwood,Governor,,R,Tim Pawlenty,3671,52.67
+64,Redwood,Secretary of State,,DFL,Deborah L. Anderson,2448,35.61
+64,Redwood,Secretary of State,,GP,,98,1.43
+64,Redwood,Secretary of State,,IND,,364,5.29
+64,Redwood,Secretary of State,,R,Mary Kiffmeyer,3965,57.67
+64,Redwood,State Auditor,,DFL,Judi Dutcher,2515,37.52
+64,Redwood,State Auditor,,GP,,140,2.09
+64,Redwood,State Auditor,,IND,,624,9.31
+64,Redwood,State Auditor,,R,Patricia Anderson Awada,3424,51.08
+64,Redwood,U.S. Senate,,CP,,12,0.17
+64,Redwood,U.S. Senate,,DFL,Walter Mondale,2798,39.86
+64,Redwood,U.S. Senate,,GP,,24,0.34
+64,Redwood,U.S. Senate,,IND,Jim Moore,238,3.39
+64,Redwood,U.S. Senate,,R,Norm Coleman,3948,56.24
+65,Renville,Attorney General,,DFL,Mike Hatch,4287,58.89
+65,Renville,Attorney General,,IND,,328,4.51
+65,Renville,Attorney General,,R,Mike Hatch,2665,36.61
+65,Renville,Governor,,CP,,10,0.14
+65,Renville,Governor,,DFL,Roger Moe,2589,35.37
+65,Renville,Governor,,GP,,96,1.31
+65,Renville,Governor,,I,,31,0.42
+65,Renville,Governor,,IND,Tim Penny,1341,18.32
+65,Renville,Governor,,R,Tim Pawlenty,3252,44.43
+65,Renville,Secretary of State,,DFL,Deborah L. Anderson,3320,45.69
+65,Renville,Secretary of State,,GP,,117,1.61
+65,Renville,Secretary of State,,IND,,438,6.03
+65,Renville,Secretary of State,,R,Mary Kiffmeyer,3392,46.68
+65,Renville,State Auditor,,DFL,Judi Dutcher,3370,47.08
+65,Renville,State Auditor,,GP,,213,2.98
+65,Renville,State Auditor,,IND,,648,9.05
+65,Renville,State Auditor,,R,Patricia Anderson Awada,2927,40.89
+65,Renville,U.S. Senate,,CP,,5,0.07
+65,Renville,U.S. Senate,,DFL,Walter Mondale,3532,48.02
+65,Renville,U.S. Senate,,GP,,33,0.45
+65,Renville,U.S. Senate,,IND,Jim Moore,253,3.44
+65,Renville,U.S. Senate,,R,Norm Coleman,3533,48.03
+66,Rice,Attorney General,,DFL,Mike Hatch,14333,60.08
+66,Rice,Attorney General,,IND,,1027,4.30
+66,Rice,Attorney General,,R,Mike Hatch,8498,35.62
+66,Rice,Governor,,CP,,19,0.08
+66,Rice,Governor,,DFL,Roger Moe,8380,33.85
+66,Rice,Governor,,GP,,911,3.68
+66,Rice,Governor,,I,,77,0.31
+66,Rice,Governor,,IND,Tim Penny,6038,24.39
+66,Rice,Governor,,R,Tim Pawlenty,9334,37.70
+66,Rice,Secretary of State,,DFL,Deborah L. Anderson,11717,49.14
+66,Rice,Secretary of State,,GP,,1007,4.22
+66,Rice,Secretary of State,,IND,,1140,4.78
+66,Rice,Secretary of State,,R,Mary Kiffmeyer,9978,41.85
+66,Rice,State Auditor,,DFL,Judi Dutcher,10916,47.15
+66,Rice,State Auditor,,GP,,1341,5.79
+66,Rice,State Auditor,,IND,,1822,7.87
+66,Rice,State Auditor,,R,Patricia Anderson Awada,9071,39.18
+66,Rice,U.S. Senate,,CP,,23,0.09
+66,Rice,U.S. Senate,,DFL,Walter Mondale,12892,52.51
+66,Rice,U.S. Senate,,GP,,144,0.59
+66,Rice,U.S. Senate,,IND,Jim Moore,482,1.96
+66,Rice,U.S. Senate,,R,Norm Coleman,11012,44.85
+67,Rock,Attorney General,,DFL,Mike Hatch,2028,45.88
+67,Rock,Attorney General,,IND,,175,3.96
+67,Rock,Attorney General,,R,Mike Hatch,2217,50.16
+67,Rock,Governor,,CP,,16,0.36
+67,Rock,Governor,,DFL,Roger Moe,1727,38.70
+67,Rock,Governor,,GP,,34,0.76
+67,Rock,Governor,,I,,38,0.85
+67,Rock,Governor,,IND,Tim Penny,452,10.13
+67,Rock,Governor,,R,Tim Pawlenty,2195,49.19
+67,Rock,Secretary of State,,DFL,Deborah L. Anderson,2032,45.80
+67,Rock,Secretary of State,,GP,,39,0.88
+67,Rock,Secretary of State,,IND,,193,4.35
+67,Rock,Secretary of State,,R,Mary Kiffmeyer,2173,48.97
+67,Rock,State Auditor,,DFL,Judi Dutcher,1898,43.36
+67,Rock,State Auditor,,GP,,89,2.03
+67,Rock,State Auditor,,IND,,274,6.26
+67,Rock,State Auditor,,R,Patricia Anderson Awada,2116,48.34
+67,Rock,U.S. Senate,,CP,,10,0.22
+67,Rock,U.S. Senate,,DFL,Walter Mondale,2019,44.52
+67,Rock,U.S. Senate,,GP,,7,0.15
+67,Rock,U.S. Senate,,IND,Jim Moore,126,2.78
+67,Rock,U.S. Senate,,R,Norm Coleman,2373,52.33
+68,Roseau,Attorney General,,DFL,Mike Hatch,2896,46.78
+68,Roseau,Attorney General,,IND,,236,3.81
+68,Roseau,Attorney General,,R,Mike Hatch,3059,49.41
+68,Roseau,Governor,,CP,,10,0.16
+68,Roseau,Governor,,DFL,Roger Moe,2701,42.61
+68,Roseau,Governor,,GP,,69,1.09
+68,Roseau,Governor,,I,,49,0.77
+68,Roseau,Governor,,IND,Tim Penny,352,5.55
+68,Roseau,Governor,,R,Tim Pawlenty,3158,49.82
+68,Roseau,Secretary of State,,DFL,Deborah L. Anderson,2562,40.68
+68,Roseau,Secretary of State,,GP,,55,0.87
+68,Roseau,Secretary of State,,IND,,214,3.40
+68,Roseau,Secretary of State,,R,Mary Kiffmeyer,3467,55.05
+68,Roseau,State Auditor,,DFL,Judi Dutcher,2622,42.39
+68,Roseau,State Auditor,,GP,,82,1.33
+68,Roseau,State Auditor,,IND,,359,5.80
+68,Roseau,State Auditor,,R,Patricia Anderson Awada,3123,50.48
+68,Roseau,U.S. Senate,,CP,,7,0.11
+68,Roseau,U.S. Senate,,DFL,Walter Mondale,2630,41.11
+68,Roseau,U.S. Senate,,GP,,21,0.33
+68,Roseau,U.S. Senate,,IND,Jim Moore,150,2.34
+68,Roseau,U.S. Senate,,R,Norm Coleman,3589,56.10
+70,Scott,Attorney General,,DFL,Mike Hatch,19790,45.55
+70,Scott,Attorney General,,IND,,1740,4.00
+70,Scott,Attorney General,,R,Mike Hatch,21916,50.44
+70,Scott,Governor,,CP,,38,0.09
+70,Scott,Governor,,DFL,Roger Moe,10898,24.39
+70,Scott,Governor,,GP,,637,1.43
+70,Scott,Governor,,I,,154,0.34
+70,Scott,Governor,,IND,Tim Penny,6884,15.41
+70,Scott,Governor,,R,Tim Pawlenty,26074,58.35
+70,Scott,Secretary of State,,DFL,Deborah L. Anderson,15213,35.17
+70,Scott,Secretary of State,,GP,,835,1.93
+70,Scott,Secretary of State,,IND,,2023,4.68
+70,Scott,Secretary of State,,R,Mary Kiffmeyer,25189,58.23
+70,Scott,State Auditor,,DFL,Judi Dutcher,14267,33.67
+70,Scott,State Auditor,,GP,,1081,2.55
+70,Scott,State Auditor,,IND,,3100,7.32
+70,Scott,State Auditor,,R,Patricia Anderson Awada,23919,56.46
+70,Scott,U.S. Senate,,CP,,28,0.06
+70,Scott,U.S. Senate,,DFL,Walter Mondale,15308,34.46
+70,Scott,U.S. Senate,,GP,,163,0.37
+70,Scott,U.S. Senate,,IND,Jim Moore,820,1.85
+70,Scott,U.S. Senate,,R,Norm Coleman,28102,63.26
+71,Sherburne,Attorney General,,DFL,Mike Hatch,13313,46.33
+71,Sherburne,Attorney General,,IND,,1189,4.14
+71,Sherburne,Attorney General,,R,Mike Hatch,14232,49.53
+71,Sherburne,Governor,,CP,,21,0.07
+71,Sherburne,Governor,,DFL,Roger Moe,7975,26.91
+71,Sherburne,Governor,,GP,,464,1.57
+71,Sherburne,Governor,,I,,127,0.43
+71,Sherburne,Governor,,IND,Tim Penny,3758,12.68
+71,Sherburne,Governor,,R,Tim Pawlenty,17293,58.35
+71,Sherburne,Secretary of State,,DFL,Deborah L. Anderson,9306,31.97
+71,Sherburne,Secretary of State,,GP,,397,1.36
+71,Sherburne,Secretary of State,,IND,,1145,3.93
+71,Sherburne,Secretary of State,,R,Mary Kiffmeyer,18262,62.73
+71,Sherburne,State Auditor,,DFL,Judi Dutcher,9992,35.51
+71,Sherburne,State Auditor,,GP,,647,2.30
+71,Sherburne,State Auditor,,IND,,2116,7.52
+71,Sherburne,State Auditor,,R,Patricia Anderson Awada,15386,54.67
+71,Sherburne,U.S. Senate,,CP,,15,0.05
+71,Sherburne,U.S. Senate,,DFL,Walter Mondale,10330,34.90
+71,Sherburne,U.S. Senate,,GP,,123,0.42
+71,Sherburne,U.S. Senate,,IND,Jim Moore,657,2.22
+71,Sherburne,U.S. Senate,,R,Norm Coleman,18478,62.42
+72,Sibley,Attorney General,,DFL,Mike Hatch,3489,50.78
+72,Sibley,Attorney General,,IND,,366,5.33
+72,Sibley,Attorney General,,R,Mike Hatch,3016,43.89
+72,Sibley,Governor,,CP,,7,0.10
+72,Sibley,Governor,,DFL,Roger Moe,1684,23.87
+72,Sibley,Governor,,GP,,91,1.29
+72,Sibley,Governor,,I,,26,0.37
+72,Sibley,Governor,,IND,Tim Penny,1656,23.47
+72,Sibley,Governor,,R,Tim Pawlenty,3592,50.91
+72,Sibley,Secretary of State,,DFL,Deborah L. Anderson,2724,39.51
+72,Sibley,Secretary of State,,GP,,117,1.70
+72,Sibley,Secretary of State,,IND,,451,6.54
+72,Sibley,Secretary of State,,R,Mary Kiffmeyer,3602,52.25
+72,Sibley,State Auditor,,DFL,Judi Dutcher,2697,40.21
+72,Sibley,State Auditor,,GP,,150,2.24
+72,Sibley,State Auditor,,IND,,695,10.36
+72,Sibley,State Auditor,,R,Patricia Anderson Awada,3166,47.20
+72,Sibley,U.S. Senate,,CP,,3,0.04
+72,Sibley,U.S. Senate,,DFL,Walter Mondale,2819,39.88
+72,Sibley,U.S. Senate,,GP,,37,0.52
+72,Sibley,U.S. Senate,,IND,Jim Moore,310,4.39
+72,Sibley,U.S. Senate,,R,Norm Coleman,3900,55.17
+69,St. Louis,Attorney General,,DFL,Mike Hatch,67069,73.00
+69,St. Louis,Attorney General,,IND,,3480,3.79
+69,St. Louis,Attorney General,,R,Mike Hatch,21329,23.21
+69,St. Louis,Governor,,CP,,97,0.10
+69,St. Louis,Governor,,DFL,Roger Moe,56568,59.99
+69,St. Louis,Governor,,GP,,2301,2.44
+69,St. Louis,Governor,,I,,255,0.27
+69,St. Louis,Governor,,IND,Tim Penny,10019,10.62
+69,St. Louis,Governor,,R,Tim Pawlenty,25059,26.57
+69,St. Louis,Secretary of State,,DFL,Deborah L. Anderson,58034,63.14
+69,St. Louis,Secretary of State,,GP,,3106,3.38
+69,St. Louis,Secretary of State,,IND,,4013,4.37
+69,St. Louis,Secretary of State,,R,Mary Kiffmeyer,26767,29.12
+69,St. Louis,State Auditor,,DFL,Judi Dutcher,53938,59.59
+69,St. Louis,State Auditor,,GP,,4072,4.50
+69,St. Louis,State Auditor,,IND,,6949,7.68
+69,St. Louis,State Auditor,,R,Patricia Anderson Awada,25553,28.23
+69,St. Louis,U.S. Senate,,CP,,124,0.13
+69,St. Louis,U.S. Senate,,DFL,Walter Mondale,62090,65.82
+69,St. Louis,U.S. Senate,,GP,,423,0.45
+69,St. Louis,U.S. Senate,,IND,Jim Moore,1702,1.80
+69,St. Louis,U.S. Senate,,R,Norm Coleman,29998,31.80
+73,Stearns,Attorney General,,DFL,Mike Hatch,28915,52.53
+73,Stearns,Attorney General,,IND,,2589,4.70
+73,Stearns,Attorney General,,R,Mike Hatch,23539,42.76
+73,Stearns,Governor,,CP,,71,0.13
+73,Stearns,Governor,,DFL,Roger Moe,17362,30.57
+73,Stearns,Governor,,GP,,1627,2.87
+73,Stearns,Governor,,I,,230,0.41
+73,Stearns,Governor,,IND,Tim Penny,8648,15.23
+73,Stearns,Governor,,R,Tim Pawlenty,28849,50.80
+73,Stearns,Secretary of State,,DFL,Deborah L. Anderson,21059,37.85
+73,Stearns,Secretary of State,,GP,,1373,2.47
+73,Stearns,Secretary of State,,IND,,2225,4.00
+73,Stearns,Secretary of State,,R,Mary Kiffmeyer,30979,55.68
+73,Stearns,State Auditor,,DFL,Judi Dutcher,21427,39.83
+73,Stearns,State Auditor,,GP,,2067,3.84
+73,Stearns,State Auditor,,IND,,4484,8.34
+73,Stearns,State Auditor,,R,Patricia Anderson Awada,25813,47.99
+73,Stearns,U.S. Senate,,CP,,56,0.10
+73,Stearns,U.S. Senate,,DFL,Walter Mondale,23520,41.03
+73,Stearns,U.S. Senate,,GP,,330,0.58
+73,Stearns,U.S. Senate,,IND,Jim Moore,1467,2.56
+73,Stearns,U.S. Senate,,R,Norm Coleman,31945,55.73
+74,Steele,Attorney General,,DFL,Mike Hatch,7609,49.96
+74,Steele,Attorney General,,IND,,851,5.59
+74,Steele,Attorney General,,R,Mike Hatch,6770,44.45
+74,Steele,Governor,,CP,,16,0.10
+74,Steele,Governor,,DFL,Roger Moe,2615,16.74
+74,Steele,Governor,,GP,,169,1.08
+74,Steele,Governor,,I,,43,0.28
+74,Steele,Governor,,IND,Tim Penny,6354,40.67
+74,Steele,Governor,,R,Tim Pawlenty,6425,41.13
+74,Steele,Secretary of State,,DFL,Deborah L. Anderson,6406,42.11
+74,Steele,Secretary of State,,GP,,292,1.92
+74,Steele,Secretary of State,,IND,,1023,6.73
+74,Steele,Secretary of State,,R,Mary Kiffmeyer,7490,49.24
+74,Steele,State Auditor,,DFL,Judi Dutcher,5871,39.43
+74,Steele,State Auditor,,GP,,434,2.92
+74,Steele,State Auditor,,IND,,1558,10.46
+74,Steele,State Auditor,,R,Patricia Anderson Awada,7025,47.19
+74,Steele,U.S. Senate,,CP,,13,0.09
+74,Steele,U.S. Senate,,DFL,Walter Mondale,6552,42.96
+74,Steele,U.S. Senate,,GP,,73,0.48
+74,Steele,U.S. Senate,,IND,Jim Moore,448,2.94
+74,Steele,U.S. Senate,,R,Norm Coleman,8165,53.54
+75,Stevens,Attorney General,,DFL,Mike Hatch,2712,53.63
+75,Stevens,Attorney General,,IND,,184,3.64
+75,Stevens,Attorney General,,R,Mike Hatch,2161,42.73
+75,Stevens,Governor,,CP,,7,0.13
+75,Stevens,Governor,,DFL,Roger Moe,1923,35.97
+75,Stevens,Governor,,GP,,239,4.47
+75,Stevens,Governor,,I,,20,0.37
+75,Stevens,Governor,,IND,Tim Penny,703,13.15
+75,Stevens,Governor,,R,Tim Pawlenty,2454,45.90
+75,Stevens,Secretary of State,,DFL,Deborah L. Anderson,2277,43.48
+75,Stevens,Secretary of State,,GP,,194,3.70
+75,Stevens,Secretary of State,,IND,,221,4.22
+75,Stevens,Secretary of State,,R,Mary Kiffmeyer,2545,48.60
+75,Stevens,State Auditor,,DFL,Judi Dutcher,2309,45.06
+75,Stevens,State Auditor,,GP,,240,4.68
+75,Stevens,State Auditor,,IND,,299,5.84
+75,Stevens,State Auditor,,R,Patricia Anderson Awada,2276,44.42
+75,Stevens,U.S. Senate,,CP,,10,0.19
+75,Stevens,U.S. Senate,,DFL,Walter Mondale,2566,48.14
+75,Stevens,U.S. Senate,,GP,,37,0.69
+75,Stevens,U.S. Senate,,IND,Jim Moore,92,1.73
+75,Stevens,U.S. Senate,,R,Norm Coleman,2625,49.25
+76,Swift,Attorney General,,DFL,Mike Hatch,3193,63.96
+76,Swift,Attorney General,,IND,,215,4.31
+76,Swift,Attorney General,,R,Mike Hatch,1584,31.73
+76,Swift,Governor,,CP,,8,0.16
+76,Swift,Governor,,DFL,Roger Moe,2403,47.67
+76,Swift,Governor,,GP,,65,1.29
+76,Swift,Governor,,I,,15,0.30
+76,Swift,Governor,,IND,Tim Penny,667,13.23
+76,Swift,Governor,,R,Tim Pawlenty,1883,37.35
+76,Swift,Secretary of State,,DFL,Deborah L. Anderson,2759,55.15
+76,Swift,Secretary of State,,GP,,53,1.06
+76,Swift,Secretary of State,,IND,,231,4.62
+76,Swift,Secretary of State,,R,Mary Kiffmeyer,1960,39.18
+76,Swift,State Auditor,,DFL,Judi Dutcher,2812,56.73
+76,Swift,State Auditor,,GP,,104,2.10
+76,Swift,State Auditor,,IND,,363,7.32
+76,Swift,State Auditor,,R,Patricia Anderson Awada,1678,33.85
+76,Swift,U.S. Senate,,CP,,3,0.06
+76,Swift,U.S. Senate,,DFL,Walter Mondale,2907,57.41
+76,Swift,U.S. Senate,,GP,,12,0.24
+76,Swift,U.S. Senate,,IND,Jim Moore,143,2.82
+76,Swift,U.S. Senate,,R,Norm Coleman,1999,39.47
+77,Todd,Attorney General,,DFL,Mike Hatch,5444,53.58
+77,Todd,Attorney General,,IND,,585,5.76
+77,Todd,Attorney General,,R,Mike Hatch,4132,40.67
+77,Todd,Governor,,CP,,28,0.27
+77,Todd,Governor,,DFL,Roger Moe,3218,31.22
+77,Todd,Governor,,GP,,165,1.60
+77,Todd,Governor,,I,,60,0.58
+77,Todd,Governor,,IND,Tim Penny,1474,14.30
+77,Todd,Governor,,R,Tim Pawlenty,5363,52.03
+77,Todd,Secretary of State,,DFL,Deborah L. Anderson,4351,42.72
+77,Todd,Secretary of State,,GP,,183,1.80
+77,Todd,Secretary of State,,IND,,586,5.75
+77,Todd,Secretary of State,,R,Mary Kiffmeyer,5065,49.73
+77,Todd,State Auditor,,DFL,Judi Dutcher,4349,43.49
+77,Todd,State Auditor,,GP,,279,2.79
+77,Todd,State Auditor,,IND,,932,9.32
+77,Todd,State Auditor,,R,Patricia Anderson Awada,4439,44.39
+77,Todd,U.S. Senate,,CP,,24,0.23
+77,Todd,U.S. Senate,,DFL,Walter Mondale,4460,42.33
+77,Todd,U.S. Senate,,GP,,43,0.41
+77,Todd,U.S. Senate,,IND,Jim Moore,365,3.46
+77,Todd,U.S. Senate,,R,Norm Coleman,5644,53.57
+78,Traverse,Attorney General,,DFL,Mike Hatch,1092,58.30
+78,Traverse,Attorney General,,IND,,67,3.58
+78,Traverse,Attorney General,,R,Mike Hatch,714,38.12
+78,Traverse,Governor,,DFL,Roger Moe,826,43.47
+78,Traverse,Governor,,GP,,23,1.21
+78,Traverse,Governor,,I,,10,0.53
+78,Traverse,Governor,,IND,Tim Penny,253,13.32
+78,Traverse,Governor,,R,Tim Pawlenty,788,41.47
+78,Traverse,Secretary of State,,DFL,Deborah L. Anderson,942,50.32
+78,Traverse,Secretary of State,,GP,,12,0.64
+78,Traverse,Secretary of State,,IND,,56,2.99
+78,Traverse,Secretary of State,,R,Mary Kiffmeyer,862,46.05
+78,Traverse,State Auditor,,DFL,Judi Dutcher,975,53.31
+78,Traverse,State Auditor,,GP,,22,1.20
+78,Traverse,State Auditor,,IND,,121,6.62
+78,Traverse,State Auditor,,R,Patricia Anderson Awada,711,38.87
+78,Traverse,U.S. Senate,,CP,,2,0.10
+78,Traverse,U.S. Senate,,DFL,Walter Mondale,1016,52.45
+78,Traverse,U.S. Senate,,GP,,6,0.31
+78,Traverse,U.S. Senate,,IND,Jim Moore,60,3.10
+78,Traverse,U.S. Senate,,R,Norm Coleman,853,44.04
+79,Wabasha,Attorney General,,DFL,Mike Hatch,4940,50.80
+79,Wabasha,Attorney General,,IND,,593,6.10
+79,Wabasha,Attorney General,,R,Mike Hatch,4192,43.11
+79,Wabasha,Governor,,CP,,8,0.08
+79,Wabasha,Governor,,DFL,Roger Moe,2133,21.28
+79,Wabasha,Governor,,GP,,127,1.27
+79,Wabasha,Governor,,I,,24,0.24
+79,Wabasha,Governor,,IND,Tim Penny,3735,37.26
+79,Wabasha,Governor,,R,Tim Pawlenty,3998,39.88
+79,Wabasha,Secretary of State,,DFL,Deborah L. Anderson,4265,43.65
+79,Wabasha,Secretary of State,,GP,,223,2.28
+79,Wabasha,Secretary of State,,IND,,612,6.26
+79,Wabasha,Secretary of State,,R,Mary Kiffmeyer,4672,47.81
+79,Wabasha,State Auditor,,DFL,Judi Dutcher,3993,41.82
+79,Wabasha,State Auditor,,GP,,327,3.43
+79,Wabasha,State Auditor,,IND,,1005,10.53
+79,Wabasha,State Auditor,,R,Patricia Anderson Awada,4222,44.22
+79,Wabasha,U.S. Senate,,CP,,7,0.07
+79,Wabasha,U.S. Senate,,DFL,Walter Mondale,4549,46.39
+79,Wabasha,U.S. Senate,,GP,,45,0.46
+79,Wabasha,U.S. Senate,,IND,Jim Moore,301,3.07
+79,Wabasha,U.S. Senate,,R,Norm Coleman,4905,50.02
+80,Wadena,Attorney General,,DFL,Mike Hatch,2805,48.14
+80,Wadena,Attorney General,,IND,,237,4.07
+80,Wadena,Attorney General,,R,Mike Hatch,2785,47.79
+80,Wadena,Governor,,CP,,7,0.12
+80,Wadena,Governor,,DFL,Roger Moe,1979,32.94
+80,Wadena,Governor,,GP,,100,1.66
+80,Wadena,Governor,,I,,39,0.65
+80,Wadena,Governor,,IND,Tim Penny,669,11.14
+80,Wadena,Governor,,R,Tim Pawlenty,3213,53.49
+80,Wadena,Secretary of State,,DFL,Deborah L. Anderson,2305,39.18
+80,Wadena,Secretary of State,,GP,,80,1.36
+80,Wadena,Secretary of State,,IND,,288,4.90
+80,Wadena,Secretary of State,,R,Mary Kiffmeyer,3210,54.56
+80,Wadena,State Auditor,,DFL,Judi Dutcher,2302,39.99
+80,Wadena,State Auditor,,GP,,128,2.22
+80,Wadena,State Auditor,,IND,,404,7.02
+80,Wadena,State Auditor,,R,Patricia Anderson Awada,2922,50.76
+80,Wadena,U.S. Senate,,CP,,12,0.20
+80,Wadena,U.S. Senate,,DFL,Walter Mondale,2462,40.73
+80,Wadena,U.S. Senate,,GP,,24,0.40
+80,Wadena,U.S. Senate,,IND,Jim Moore,169,2.80
+80,Wadena,U.S. Senate,,R,Norm Coleman,3377,55.87
+81,Waseca,Attorney General,,DFL,Mike Hatch,4207,50.27
+81,Waseca,Attorney General,,IND,,606,7.24
+81,Waseca,Attorney General,,R,Mike Hatch,3556,42.49
+81,Waseca,Governor,,CP,,4,0.05
+81,Waseca,Governor,,DFL,Roger Moe,887,10.35
+81,Waseca,Governor,,GP,,76,0.89
+81,Waseca,Governor,,I,,17,0.20
+81,Waseca,Governor,,IND,Tim Penny,5022,58.59
+81,Waseca,Governor,,R,Tim Pawlenty,2565,29.93
+81,Waseca,Secretary of State,,DFL,Deborah L. Anderson,3446,41.05
+81,Waseca,Secretary of State,,GP,,205,2.44
+81,Waseca,Secretary of State,,IND,,680,8.10
+81,Waseca,Secretary of State,,R,Mary Kiffmeyer,4064,48.41
+81,Waseca,State Auditor,,DFL,Judi Dutcher,3164,38.41
+81,Waseca,State Auditor,,GP,,257,3.12
+81,Waseca,State Auditor,,IND,,1017,12.35
+81,Waseca,State Auditor,,R,Patricia Anderson Awada,3799,46.12
+81,Waseca,U.S. Senate,,CP,,13,0.15
+81,Waseca,U.S. Senate,,DFL,Walter Mondale,3687,43.34
+81,Waseca,U.S. Senate,,GP,,43,0.51
+81,Waseca,U.S. Senate,,IND,Jim Moore,396,4.65
+81,Waseca,U.S. Senate,,R,Norm Coleman,4369,51.35
+82,Washington,Attorney General,,DFL,Mike Hatch,51414,50.61
+82,Washington,Attorney General,,IND,,3796,3.74
+82,Washington,Attorney General,,R,Mike Hatch,46380,45.65
+82,Washington,Governor,,CP,,96,0.09
+82,Washington,Governor,,DFL,Roger Moe,33968,32.71
+82,Washington,Governor,,GP,,1804,1.74
+82,Washington,Governor,,I,,389,0.37
+82,Washington,Governor,,IND,Tim Penny,12808,12.33
+82,Washington,Governor,,R,Tim Pawlenty,54792,52.76
+82,Washington,Secretary of State,,DFL,Deborah L. Anderson,40991,40.79
+82,Washington,Secretary of State,,GP,,2222,2.21
+82,Washington,Secretary of State,,IND,,4332,4.31
+82,Washington,Secretary of State,,R,Mary Kiffmeyer,52950,52.69
+82,Washington,State Auditor,,DFL,Judi Dutcher,37841,38.19
+82,Washington,State Auditor,,GP,,2829,2.86
+82,Washington,State Auditor,,IND,,6338,6.40
+82,Washington,State Auditor,,R,Patricia Anderson Awada,52076,52.56
+82,Washington,U.S. Senate,,CP,,67,0.06
+82,Washington,U.S. Senate,,DFL,Walter Mondale,42249,40.88
+82,Washington,U.S. Senate,,GP,,370,0.36
+82,Washington,U.S. Senate,,IND,Jim Moore,1399,1.35
+82,Washington,U.S. Senate,,R,Norm Coleman,59269,57.35
+83,Watonwan,Attorney General,,DFL,Mike Hatch,2695,55.69
+83,Watonwan,Attorney General,,IND,,243,5.02
+83,Watonwan,Attorney General,,R,Mike Hatch,1901,39.28
+83,Watonwan,Governor,,CP,,7,0.14
+83,Watonwan,Governor,,DFL,Roger Moe,1436,29.15
+83,Watonwan,Governor,,GP,,69,1.40
+83,Watonwan,Governor,,I,,16,0.32
+83,Watonwan,Governor,,IND,Tim Penny,1414,28.70
+83,Watonwan,Governor,,R,Tim Pawlenty,1985,40.29
+83,Watonwan,Secretary of State,,DFL,Deborah L. Anderson,2272,47.01
+83,Watonwan,Secretary of State,,GP,,73,1.51
+83,Watonwan,Secretary of State,,IND,,299,6.19
+83,Watonwan,Secretary of State,,R,Mary Kiffmeyer,2189,45.29
+83,Watonwan,State Auditor,,DFL,Judi Dutcher,2629,54.52
+83,Watonwan,State Auditor,,GP,,83,1.72
+83,Watonwan,State Auditor,,IND,,344,7.13
+83,Watonwan,State Auditor,,R,Patricia Anderson Awada,1766,36.62
+83,Watonwan,U.S. Senate,,CP,,12,0.24
+83,Watonwan,U.S. Senate,,DFL,Walter Mondale,2346,47.59
+83,Watonwan,U.S. Senate,,GP,,14,0.28
+83,Watonwan,U.S. Senate,,IND,Jim Moore,196,3.98
+83,Watonwan,U.S. Senate,,R,Norm Coleman,2362,47.91
+84,Wilkin,Attorney General,,DFL,Mike Hatch,1309,47.43
+84,Wilkin,Attorney General,,IND,,112,4.06
+84,Wilkin,Attorney General,,R,Mike Hatch,1339,48.51
+84,Wilkin,Governor,,CP,,7,0.25
+84,Wilkin,Governor,,DFL,Roger Moe,1079,37.99
+84,Wilkin,Governor,,GP,,36,1.27
+84,Wilkin,Governor,,I,,8,0.28
+84,Wilkin,Governor,,IND,Tim Penny,258,9.08
+84,Wilkin,Governor,,R,Tim Pawlenty,1452,51.13
+84,Wilkin,Secretary of State,,DFL,Deborah L. Anderson,1244,44.96
+84,Wilkin,Secretary of State,,GP,,27,0.98
+84,Wilkin,Secretary of State,,IND,,116,4.19
+84,Wilkin,Secretary of State,,R,Mary Kiffmeyer,1380,49.87
+84,Wilkin,State Auditor,,DFL,Judi Dutcher,1130,41.27
+84,Wilkin,State Auditor,,GP,,49,1.79
+84,Wilkin,State Auditor,,IND,,161,5.88
+84,Wilkin,State Auditor,,R,Patricia Anderson Awada,1398,51.06
+84,Wilkin,U.S. Senate,,CP,,3,0.10
+84,Wilkin,U.S. Senate,,DFL,Walter Mondale,1219,42.56
+84,Wilkin,U.S. Senate,,GP,,7,0.24
+84,Wilkin,U.S. Senate,,IND,Jim Moore,80,2.79
+84,Wilkin,U.S. Senate,,R,Norm Coleman,1555,54.29
+85,Winona,Attorney General,,DFL,Mike Hatch,9621,50.51
+85,Winona,Attorney General,,IND,,1075,5.64
+85,Winona,Attorney General,,R,Mike Hatch,8352,43.85
+85,Winona,Governor,,CP,,18,0.09
+85,Winona,Governor,,DFL,Roger Moe,5413,27.58
+85,Winona,Governor,,GP,,630,3.21
+85,Winona,Governor,,I,,80,0.41
+85,Winona,Governor,,IND,Tim Penny,6103,31.09
+85,Winona,Governor,,R,Tim Pawlenty,7385,37.62
+85,Winona,Secretary of State,,DFL,Deborah L. Anderson,9064,47.30
+85,Winona,Secretary of State,,GP,,773,4.03
+85,Winona,Secretary of State,,IND,,970,5.06
+85,Winona,Secretary of State,,R,Mary Kiffmeyer,8356,43.60
+85,Winona,State Auditor,,DFL,Judi Dutcher,8132,43.47
+85,Winona,State Auditor,,GP,,1038,5.55
+85,Winona,State Auditor,,IND,,1499,8.01
+85,Winona,State Auditor,,R,Patricia Anderson Awada,8040,42.97
+85,Winona,U.S. Senate,,CP,,28,0.14
+85,Winona,U.S. Senate,,DFL,Walter Mondale,9755,49.63
+85,Winona,U.S. Senate,,GP,,175,0.89
+85,Winona,U.S. Senate,,IND,Jim Moore,480,2.44
+85,Winona,U.S. Senate,,R,Norm Coleman,9219,46.90
+86,Wright,Attorney General,,DFL,Mike Hatch,19057,43.85
+86,Wright,Attorney General,,IND,,1860,4.28
+86,Wright,Attorney General,,R,Mike Hatch,22547,51.88
+86,Wright,Governor,,CP,,95,0.21
+86,Wright,Governor,,DFL,Roger Moe,11962,26.88
+86,Wright,Governor,,GP,,678,1.52
+86,Wright,Governor,,I,,186,0.42
+86,Wright,Governor,,IND,Tim Penny,6011,13.51
+86,Wright,Governor,,R,Tim Pawlenty,25575,57.46
+86,Wright,Secretary of State,,DFL,Deborah L. Anderson,15287,35.19
+86,Wright,Secretary of State,,GP,,647,1.49
+86,Wright,Secretary of State,,IND,,1978,4.55
+86,Wright,Secretary of State,,R,Mary Kiffmeyer,25535,58.77
+86,Wright,State Auditor,,DFL,Judi Dutcher,14825,34.95
+86,Wright,State Auditor,,GP,,1040,2.45
+86,Wright,State Auditor,,IND,,3202,7.55
+86,Wright,State Auditor,,R,Patricia Anderson Awada,23347,55.05
+86,Wright,U.S. Senate,,CP,,65,0.15
+86,Wright,U.S. Senate,,DFL,Walter Mondale,15590,35.10
+86,Wright,U.S. Senate,,GP,,165,0.37
+86,Wright,U.S. Senate,,IND,Jim Moore,970,2.18
+86,Wright,U.S. Senate,,R,Norm Coleman,27626,62.20
+87,Yellow Medicine,Attorney General,,DFL,Mike Hatch,2782,58.09
+87,Yellow Medicine,Attorney General,,IND,,223,4.66
+87,Yellow Medicine,Attorney General,,R,Mike Hatch,1784,37.25
+87,Yellow Medicine,Governor,,CP,,10,0.21
+87,Yellow Medicine,Governor,,DFL,Roger Moe,2031,42.37
+87,Yellow Medicine,Governor,,GP,,51,1.06
+87,Yellow Medicine,Governor,,I,,23,0.48
+87,Yellow Medicine,Governor,,IND,Tim Penny,715,14.91
+87,Yellow Medicine,Governor,,R,Tim Pawlenty,1964,40.97
+87,Yellow Medicine,Secretary of State,,DFL,Deborah L. Anderson,2349,49.03
+87,Yellow Medicine,Secretary of State,,GP,,68,1.42
+87,Yellow Medicine,Secretary of State,,IND,,274,5.72
+87,Yellow Medicine,Secretary of State,,R,Mary Kiffmeyer,2100,43.83
+87,Yellow Medicine,State Auditor,,DFL,Judi Dutcher,2471,52.22
+87,Yellow Medicine,State Auditor,,GP,,94,1.99
+87,Yellow Medicine,State Auditor,,IND,,342,7.23
+87,Yellow Medicine,State Auditor,,R,Patricia Anderson Awada,1825,38.57
+87,Yellow Medicine,U.S. Senate,,CP,,5,0.10
+87,Yellow Medicine,U.S. Senate,,DFL,Walter Mondale,2554,52.83
+87,Yellow Medicine,U.S. Senate,,GP,,22,0.46
+87,Yellow Medicine,U.S. Senate,,IND,Jim Moore,152,3.14
+87,Yellow Medicine,U.S. Senate,,R,Norm Coleman,2101,43.46

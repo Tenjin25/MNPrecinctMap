@@ -1,0 +1,1741 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,Attorney General,,DFL,Mike Hatch,4110,52.80
+01,Aitkin,Attorney General,,Other,,433,5.56
+01,Aitkin,Attorney General,,R,Charlie Weaver,2785,35.78
+01,Aitkin,Attorney General,,RP,,456,5.86
+01,Aitkin,Governor,,DFL,Hubert H. Humphrey III,2347,30.15
+01,Aitkin,Governor,,Other,,93,1.19
+01,Aitkin,Governor,,R,Norm Coleman,2447,31.44
+01,Aitkin,Governor,,RP,Jesse Ventura,2897,37.22
+01,Aitkin,Secretary of State,,DFL,Mark Ritchie,3532,45.38
+01,Aitkin,Secretary of State,,Other,,523,6.72
+01,Aitkin,Secretary of State,,R,Mary Kiffmeyer,3015,38.73
+01,Aitkin,Secretary of State,,RP,,714,9.17
+01,Aitkin,State Auditor,,DFL,Judi Dutcher,3680,47.28
+01,Aitkin,State Auditor,,MTP,,441,5.67
+01,Aitkin,State Auditor,,Other,,632,8.12
+01,Aitkin,State Auditor,,R,Mark Ourada,3031,38.94
+01,Aitkin,State Treasurer,,DFL,Carol Johnson,3845,49.40
+01,Aitkin,State Treasurer,,Other,,552,7.09
+01,Aitkin,State Treasurer,,R,Mark Meierhenry,2652,34.07
+01,Aitkin,State Treasurer,,RP,,735,9.44
+02,Anoka,Attorney General,,DFL,Mike Hatch,49810,39.22
+02,Anoka,Attorney General,,Other,,9216,7.26
+02,Anoka,Attorney General,,R,Charlie Weaver,59096,46.53
+02,Anoka,Attorney General,,RP,,8884,6.99
+02,Anoka,Governor,,DFL,Hubert H. Humphrey III,24975,19.66
+02,Anoka,Governor,,Other,,820,0.65
+02,Anoka,Governor,,R,Norm Coleman,37111,29.22
+02,Anoka,Governor,,RP,Jesse Ventura,64100,50.47
+02,Anoka,Secretary of State,,DFL,Mark Ritchie,44726,35.22
+02,Anoka,Secretary of State,,Other,,11744,9.25
+02,Anoka,Secretary of State,,R,Mary Kiffmeyer,55382,43.61
+02,Anoka,Secretary of State,,RP,,15154,11.93
+02,Anoka,State Auditor,,DFL,Judi Dutcher,45149,35.55
+02,Anoka,State Auditor,,MTP,,7704,6.07
+02,Anoka,State Auditor,,Other,,14791,11.65
+02,Anoka,State Auditor,,R,Mark Ourada,59362,46.74
+02,Anoka,State Treasurer,,DFL,Carol Johnson,49577,39.04
+02,Anoka,State Treasurer,,Other,,13218,10.41
+02,Anoka,State Treasurer,,R,Mark Meierhenry,46050,36.26
+02,Anoka,State Treasurer,,RP,,18161,14.30
+03,Becker,Attorney General,,DFL,Mike Hatch,5227,41.94
+03,Becker,Attorney General,,Other,,815,6.54
+03,Becker,Attorney General,,R,Charlie Weaver,5984,48.01
+03,Becker,Attorney General,,RP,,438,3.51
+03,Becker,Governor,,DFL,Hubert H. Humphrey III,4349,34.89
+03,Becker,Governor,,Other,,358,2.87
+03,Becker,Governor,,R,Norm Coleman,5036,40.40
+03,Becker,Governor,,RP,Jesse Ventura,2721,21.83
+03,Becker,Secretary of State,,DFL,Mark Ritchie,4880,39.15
+03,Becker,Secretary of State,,Other,,871,6.99
+03,Becker,Secretary of State,,R,Mary Kiffmeyer,5959,47.81
+03,Becker,Secretary of State,,RP,,754,6.05
+03,Becker,State Auditor,,DFL,Judi Dutcher,5091,40.85
+03,Becker,State Auditor,,MTP,,788,6.32
+03,Becker,State Auditor,,Other,,1045,8.38
+03,Becker,State Auditor,,R,Mark Ourada,5540,44.45
+03,Becker,State Treasurer,,DFL,Carol Johnson,5371,43.09
+03,Becker,State Treasurer,,Other,,832,6.68
+03,Becker,State Treasurer,,R,Mark Meierhenry,5518,44.27
+03,Becker,State Treasurer,,RP,,743,5.96
+04,Beltrami,Attorney General,,DFL,Mike Hatch,7402,49.71
+04,Beltrami,Attorney General,,Other,,895,6.01
+04,Beltrami,Attorney General,,R,Charlie Weaver,6064,40.73
+04,Beltrami,Attorney General,,RP,,529,3.55
+04,Beltrami,Governor,,DFL,Hubert H. Humphrey III,5289,35.52
+04,Beltrami,Governor,,Other,,342,2.30
+04,Beltrami,Governor,,R,Norm Coleman,5872,39.44
+04,Beltrami,Governor,,RP,Jesse Ventura,3387,22.75
+04,Beltrami,Secretary of State,,DFL,Mark Ritchie,6694,44.96
+04,Beltrami,Secretary of State,,Other,,926,6.22
+04,Beltrami,Secretary of State,,R,Mary Kiffmeyer,6368,42.77
+04,Beltrami,Secretary of State,,RP,,902,6.06
+04,Beltrami,State Auditor,,DFL,Judi Dutcher,6645,44.63
+04,Beltrami,State Auditor,,MTP,,654,4.39
+04,Beltrami,State Auditor,,Other,,1265,8.50
+04,Beltrami,State Auditor,,R,Mark Ourada,6326,42.48
+04,Beltrami,State Treasurer,,DFL,Carol Johnson,7089,47.61
+04,Beltrami,State Treasurer,,Other,,1076,7.23
+04,Beltrami,State Treasurer,,R,Mark Meierhenry,5746,38.59
+04,Beltrami,State Treasurer,,RP,,979,6.57
+05,Benton,Attorney General,,DFL,Mike Hatch,6273,46.64
+05,Benton,Attorney General,,Other,,1085,8.07
+05,Benton,Attorney General,,R,Charlie Weaver,5216,38.78
+05,Benton,Attorney General,,RP,,877,6.52
+05,Benton,Governor,,DFL,Hubert H. Humphrey III,2750,20.44
+05,Benton,Governor,,Other,,286,2.13
+05,Benton,Governor,,R,Norm Coleman,4388,32.62
+05,Benton,Governor,,RP,Jesse Ventura,6027,44.81
+05,Benton,Secretary of State,,DFL,Mark Ritchie,4324,32.15
+05,Benton,Secretary of State,,Other,,981,7.29
+05,Benton,Secretary of State,,R,Mary Kiffmeyer,7023,52.21
+05,Benton,Secretary of State,,RP,,1123,8.35
+05,Benton,State Auditor,,DFL,Judi Dutcher,5148,38.27
+05,Benton,State Auditor,,MTP,,1221,9.08
+05,Benton,State Auditor,,Other,,1497,11.13
+05,Benton,State Auditor,,R,Mark Ourada,5585,41.52
+05,Benton,State Treasurer,,DFL,Carol Johnson,5656,42.05
+05,Benton,State Treasurer,,Other,,1309,9.73
+05,Benton,State Treasurer,,R,Mark Meierhenry,4774,35.49
+05,Benton,State Treasurer,,RP,,1712,12.73
+06,Big Stone,Attorney General,,DFL,Mike Hatch,1614,55.93
+06,Big Stone,Attorney General,,Other,,152,5.27
+06,Big Stone,Attorney General,,R,Charlie Weaver,1026,35.55
+06,Big Stone,Attorney General,,RP,,94,3.26
+06,Big Stone,Governor,,DFL,Hubert H. Humphrey III,1144,39.64
+06,Big Stone,Governor,,Other,,44,1.52
+06,Big Stone,Governor,,R,Norm Coleman,912,31.60
+06,Big Stone,Governor,,RP,Jesse Ventura,786,27.23
+06,Big Stone,Secretary of State,,DFL,Mark Ritchie,1395,48.34
+06,Big Stone,Secretary of State,,Other,,203,7.03
+06,Big Stone,Secretary of State,,R,Mary Kiffmeyer,1115,38.63
+06,Big Stone,Secretary of State,,RP,,173,5.99
+06,Big Stone,State Auditor,,DFL,Judi Dutcher,1542,53.43
+06,Big Stone,State Auditor,,MTP,,90,3.12
+06,Big Stone,State Auditor,,Other,,222,7.69
+06,Big Stone,State Auditor,,R,Mark Ourada,1032,35.76
+06,Big Stone,State Treasurer,,DFL,Carol Johnson,1560,54.05
+06,Big Stone,State Treasurer,,Other,,217,7.52
+06,Big Stone,State Treasurer,,R,Mark Meierhenry,931,32.26
+06,Big Stone,State Treasurer,,RP,,178,6.17
+07,Blue Earth,Attorney General,,DFL,Mike Hatch,10346,45.07
+07,Blue Earth,Attorney General,,Other,,1617,7.04
+07,Blue Earth,Attorney General,,R,Charlie Weaver,9375,40.84
+07,Blue Earth,Attorney General,,RP,,1619,7.05
+07,Blue Earth,Governor,,DFL,Hubert H. Humphrey III,5666,24.68
+07,Blue Earth,Governor,,Other,,288,1.25
+07,Blue Earth,Governor,,R,Norm Coleman,7031,30.63
+07,Blue Earth,Governor,,RP,Jesse Ventura,9973,43.44
+07,Blue Earth,Secretary of State,,DFL,Mark Ritchie,8004,34.87
+07,Blue Earth,Secretary of State,,Other,,1693,7.37
+07,Blue Earth,Secretary of State,,R,Mary Kiffmeyer,10477,45.64
+07,Blue Earth,Secretary of State,,RP,,2783,12.12
+07,Blue Earth,State Auditor,,DFL,Judi Dutcher,8856,38.58
+07,Blue Earth,State Auditor,,MTP,,1674,7.29
+07,Blue Earth,State Auditor,,Other,,2126,9.26
+07,Blue Earth,State Auditor,,R,Mark Ourada,10299,44.87
+07,Blue Earth,State Treasurer,,DFL,Carol Johnson,9624,41.92
+07,Blue Earth,State Treasurer,,Other,,1796,7.82
+07,Blue Earth,State Treasurer,,R,Mark Meierhenry,8769,38.20
+07,Blue Earth,State Treasurer,,RP,,2769,12.06
+08,Brown,Attorney General,,DFL,Mike Hatch,4625,40.30
+08,Brown,Attorney General,,Other,,648,5.65
+08,Brown,Attorney General,,R,Charlie Weaver,5685,49.54
+08,Brown,Attorney General,,RP,,518,4.51
+08,Brown,Governor,,DFL,Hubert H. Humphrey III,2417,21.06
+08,Brown,Governor,,Other,,115,1.00
+08,Brown,Governor,,R,Norm Coleman,5150,44.88
+08,Brown,Governor,,RP,Jesse Ventura,3794,33.06
+08,Brown,Secretary of State,,DFL,Mark Ritchie,3667,31.95
+08,Brown,Secretary of State,,Other,,808,7.04
+08,Brown,Secretary of State,,R,Mary Kiffmeyer,6030,52.54
+08,Brown,Secretary of State,,RP,,971,8.46
+08,Brown,State Auditor,,DFL,Judi Dutcher,3809,33.19
+08,Brown,State Auditor,,MTP,,638,5.56
+08,Brown,State Auditor,,Other,,952,8.30
+08,Brown,State Auditor,,R,Mark Ourada,6077,52.95
+08,Brown,State Treasurer,,DFL,Carol Johnson,4113,35.84
+08,Brown,State Treasurer,,Other,,783,6.82
+08,Brown,State Treasurer,,R,Mark Meierhenry,5613,48.91
+08,Brown,State Treasurer,,RP,,967,8.43
+09,Carlton,Attorney General,,DFL,Mike Hatch,7999,62.38
+09,Carlton,Attorney General,,Other,,587,4.58
+09,Carlton,Attorney General,,R,Charlie Weaver,3795,29.59
+09,Carlton,Attorney General,,RP,,443,3.45
+09,Carlton,Governor,,DFL,Hubert H. Humphrey III,5439,42.41
+09,Carlton,Governor,,Other,,230,1.79
+09,Carlton,Governor,,R,Norm Coleman,3929,30.64
+09,Carlton,Governor,,RP,Jesse Ventura,3226,25.16
+09,Carlton,Secretary of State,,DFL,Mark Ritchie,6782,52.89
+09,Carlton,Secretary of State,,Other,,897,6.99
+09,Carlton,Secretary of State,,R,Mary Kiffmeyer,4367,34.05
+09,Carlton,Secretary of State,,RP,,778,6.07
+09,Carlton,State Auditor,,DFL,Judi Dutcher,7073,55.15
+09,Carlton,State Auditor,,MTP,,913,7.12
+09,Carlton,State Auditor,,Other,,1164,9.08
+09,Carlton,State Auditor,,R,Mark Ourada,3674,28.65
+09,Carlton,State Treasurer,,DFL,Carol Johnson,7530,58.72
+09,Carlton,State Treasurer,,Other,,906,7.06
+09,Carlton,State Treasurer,,R,Mark Meierhenry,3625,28.27
+09,Carlton,State Treasurer,,RP,,763,5.95
+10,Carver,Attorney General,,DFL,Mike Hatch,10412,35.95
+10,Carver,Attorney General,,Other,,2319,8.01
+10,Carver,Attorney General,,R,Charlie Weaver,14400,49.72
+10,Carver,Attorney General,,RP,,1834,6.33
+10,Carver,Governor,,DFL,Hubert H. Humphrey III,4621,15.95
+10,Carver,Governor,,Other,,262,0.90
+10,Carver,Governor,,R,Norm Coleman,11476,39.62
+10,Carver,Governor,,RP,Jesse Ventura,12606,43.52
+10,Carver,Secretary of State,,DFL,Mark Ritchie,7557,26.09
+10,Carver,Secretary of State,,Other,,2472,8.53
+10,Carver,Secretary of State,,R,Mary Kiffmeyer,16126,55.67
+10,Carver,Secretary of State,,RP,,2810,9.70
+10,Carver,State Auditor,,DFL,Judi Dutcher,7210,24.89
+10,Carver,State Auditor,,MTP,,1838,6.35
+10,Carver,State Auditor,,Other,,3025,10.44
+10,Carver,State Auditor,,R,Mark Ourada,16892,58.32
+10,Carver,State Treasurer,,DFL,Carol Johnson,8913,30.77
+10,Carver,State Treasurer,,Other,,2974,10.27
+10,Carver,State Treasurer,,R,Mark Meierhenry,13641,47.09
+10,Carver,State Treasurer,,RP,,3437,11.87
+11,Cass,Attorney General,,DFL,Mike Hatch,5231,45.06
+11,Cass,Attorney General,,Other,,724,6.24
+11,Cass,Attorney General,,R,Charlie Weaver,5164,44.49
+11,Cass,Attorney General,,RP,,489,4.21
+11,Cass,Governor,,DFL,Hubert H. Humphrey III,3288,28.33
+11,Cass,Governor,,Other,,271,2.33
+11,Cass,Governor,,R,Norm Coleman,4781,41.19
+11,Cass,Governor,,RP,Jesse Ventura,3268,28.15
+11,Cass,Secretary of State,,DFL,Mark Ritchie,4464,38.46
+11,Cass,Secretary of State,,Other,,791,6.81
+11,Cass,Secretary of State,,R,Mary Kiffmeyer,5586,48.12
+11,Cass,Secretary of State,,RP,,767,6.61
+11,Cass,State Auditor,,DFL,Judi Dutcher,4668,40.21
+11,Cass,State Auditor,,MTP,,637,5.49
+11,Cass,State Auditor,,Other,,966,8.32
+11,Cass,State Auditor,,R,Mark Ourada,5337,45.98
+11,Cass,State Treasurer,,DFL,Carol Johnson,4902,42.23
+11,Cass,State Treasurer,,Other,,876,7.55
+11,Cass,State Treasurer,,R,Mark Meierhenry,5008,43.14
+11,Cass,State Treasurer,,RP,,822,7.08
+12,Chippewa,Attorney General,,DFL,Mike Hatch,3301,53.74
+12,Chippewa,Attorney General,,Other,,344,5.60
+12,Chippewa,Attorney General,,R,Charlie Weaver,2304,37.51
+12,Chippewa,Attorney General,,RP,,194,3.16
+12,Chippewa,Governor,,DFL,Hubert H. Humphrey III,2064,33.60
+12,Chippewa,Governor,,Other,,87,1.42
+12,Chippewa,Governor,,R,Norm Coleman,1721,28.02
+12,Chippewa,Governor,,RP,Jesse Ventura,2271,36.97
+12,Chippewa,Secretary of State,,DFL,Mark Ritchie,2801,45.60
+12,Chippewa,Secretary of State,,Other,,401,6.53
+12,Chippewa,Secretary of State,,R,Mary Kiffmeyer,2460,40.05
+12,Chippewa,Secretary of State,,RP,,481,7.83
+12,Chippewa,State Auditor,,DFL,Judi Dutcher,2871,46.74
+12,Chippewa,State Auditor,,MTP,,290,4.72
+12,Chippewa,State Auditor,,Other,,416,6.77
+12,Chippewa,State Auditor,,R,Mark Ourada,2566,41.77
+12,Chippewa,State Treasurer,,DFL,Carol Johnson,3125,50.87
+12,Chippewa,State Treasurer,,Other,,417,6.79
+12,Chippewa,State Treasurer,,R,Mark Meierhenry,2115,34.43
+12,Chippewa,State Treasurer,,RP,,486,7.91
+13,Chisago,Attorney General,,DFL,Mike Hatch,8728,45.23
+13,Chisago,Attorney General,,Other,,1510,7.82
+13,Chisago,Attorney General,,R,Charlie Weaver,7324,37.95
+13,Chisago,Attorney General,,RP,,1736,9.00
+13,Chisago,Governor,,DFL,Hubert H. Humphrey III,3621,18.76
+13,Chisago,Governor,,Other,,163,0.84
+13,Chisago,Governor,,R,Norm Coleman,5376,27.86
+13,Chisago,Governor,,RP,Jesse Ventura,10138,52.53
+13,Chisago,Secretary of State,,DFL,Mark Ritchie,6831,35.40
+13,Chisago,Secretary of State,,Other,,1773,9.19
+13,Chisago,Secretary of State,,R,Mary Kiffmeyer,8082,41.88
+13,Chisago,Secretary of State,,RP,,2612,13.54
+13,Chisago,State Auditor,,DFL,Judi Dutcher,7218,37.40
+13,Chisago,State Auditor,,MTP,,1532,7.94
+13,Chisago,State Auditor,,Other,,2188,11.34
+13,Chisago,State Auditor,,R,Mark Ourada,8360,43.32
+13,Chisago,State Treasurer,,DFL,Carol Johnson,7899,40.93
+13,Chisago,State Treasurer,,Other,,1858,9.63
+13,Chisago,State Treasurer,,R,Mark Meierhenry,6667,34.55
+13,Chisago,State Treasurer,,RP,,2874,14.89
+14,Clay,Attorney General,,DFL,Mike Hatch,7929,43.96
+14,Clay,Attorney General,,Other,,1052,5.83
+14,Clay,Attorney General,,R,Charlie Weaver,8587,47.61
+14,Clay,Attorney General,,RP,,469,2.60
+14,Clay,Governor,,DFL,Hubert H. Humphrey III,7766,43.06
+14,Clay,Governor,,Other,,274,1.52
+14,Clay,Governor,,R,Norm Coleman,6200,34.37
+14,Clay,Governor,,RP,Jesse Ventura,3797,21.05
+14,Clay,Secretary of State,,DFL,Mark Ritchie,7399,41.02
+14,Clay,Secretary of State,,Other,,1269,7.04
+14,Clay,Secretary of State,,R,Mary Kiffmeyer,8520,47.24
+14,Clay,Secretary of State,,RP,,849,4.71
+14,Clay,State Auditor,,DFL,Judi Dutcher,8027,44.50
+14,Clay,State Auditor,,MTP,,905,5.02
+14,Clay,State Auditor,,Other,,1454,8.06
+14,Clay,State Auditor,,R,Mark Ourada,7651,42.42
+14,Clay,State Treasurer,,DFL,Carol Johnson,8554,47.42
+14,Clay,State Treasurer,,Other,,1117,6.19
+14,Clay,State Treasurer,,R,Mark Meierhenry,7396,41.00
+14,Clay,State Treasurer,,RP,,970,5.38
+15,Clearwater,Attorney General,,DFL,Mike Hatch,1455,44.60
+15,Clearwater,Attorney General,,Other,,194,5.95
+15,Clearwater,Attorney General,,R,Charlie Weaver,1488,45.62
+15,Clearwater,Attorney General,,RP,,125,3.83
+15,Clearwater,Governor,,DFL,Hubert H. Humphrey III,1124,34.46
+15,Clearwater,Governor,,Other,,74,2.27
+15,Clearwater,Governor,,R,Norm Coleman,1439,44.11
+15,Clearwater,Governor,,RP,Jesse Ventura,625,19.16
+15,Clearwater,Secretary of State,,DFL,Mark Ritchie,1313,40.25
+15,Clearwater,Secretary of State,,Other,,206,6.32
+15,Clearwater,Secretary of State,,R,Mary Kiffmeyer,1582,48.50
+15,Clearwater,Secretary of State,,RP,,161,4.94
+15,Clearwater,State Auditor,,DFL,Judi Dutcher,1445,44.30
+15,Clearwater,State Auditor,,MTP,,118,3.62
+15,Clearwater,State Auditor,,Other,,227,6.96
+15,Clearwater,State Auditor,,R,Mark Ourada,1472,45.13
+15,Clearwater,State Treasurer,,DFL,Carol Johnson,1448,44.39
+15,Clearwater,State Treasurer,,Other,,219,6.71
+15,Clearwater,State Treasurer,,R,Mark Meierhenry,1413,43.32
+15,Clearwater,State Treasurer,,RP,,182,5.58
+16,Cook,Attorney General,,DFL,Mike Hatch,1349,50.13
+16,Cook,Attorney General,,Other,,247,9.18
+16,Cook,Attorney General,,R,Charlie Weaver,1015,37.72
+16,Cook,Attorney General,,RP,,80,2.97
+16,Cook,Governor,,DFL,Hubert H. Humphrey III,1046,38.87
+16,Cook,Governor,,Other,,152,5.65
+16,Cook,Governor,,R,Norm Coleman,1019,37.87
+16,Cook,Governor,,RP,Jesse Ventura,474,17.61
+16,Cook,Secretary of State,,DFL,Mark Ritchie,1198,44.52
+16,Cook,Secretary of State,,Other,,236,8.77
+16,Cook,Secretary of State,,R,Mary Kiffmeyer,1118,41.55
+16,Cook,Secretary of State,,RP,,139,5.17
+16,Cook,State Auditor,,DFL,Judi Dutcher,1180,43.85
+16,Cook,State Auditor,,MTP,,173,6.43
+16,Cook,State Auditor,,Other,,278,10.33
+16,Cook,State Auditor,,R,Mark Ourada,1060,39.39
+16,Cook,State Treasurer,,DFL,Carol Johnson,1283,47.68
+16,Cook,State Treasurer,,Other,,279,10.37
+16,Cook,State Treasurer,,R,Mark Meierhenry,986,36.64
+16,Cook,State Treasurer,,RP,,143,5.31
+17,Cottonwood,Attorney General,,DFL,Mike Hatch,2949,47.73
+17,Cottonwood,Attorney General,,Other,,325,5.26
+17,Cottonwood,Attorney General,,R,Charlie Weaver,2707,43.82
+17,Cottonwood,Attorney General,,RP,,197,3.19
+17,Cottonwood,Governor,,DFL,Hubert H. Humphrey III,1884,30.47
+17,Cottonwood,Governor,,Other,,87,1.41
+17,Cottonwood,Governor,,R,Norm Coleman,2424,39.20
+17,Cottonwood,Governor,,RP,Jesse Ventura,1788,28.92
+17,Cottonwood,Secretary of State,,DFL,Mark Ritchie,2366,38.28
+17,Cottonwood,Secretary of State,,Other,,364,5.89
+17,Cottonwood,Secretary of State,,R,Mary Kiffmeyer,3104,50.23
+17,Cottonwood,Secretary of State,,RP,,346,5.60
+17,Cottonwood,State Auditor,,DFL,Judi Dutcher,2547,41.22
+17,Cottonwood,State Auditor,,MTP,,235,3.80
+17,Cottonwood,State Auditor,,Other,,439,7.10
+17,Cottonwood,State Auditor,,R,Mark Ourada,2958,47.87
+17,Cottonwood,State Treasurer,,DFL,Carol Johnson,2786,45.11
+17,Cottonwood,State Treasurer,,Other,,371,6.01
+17,Cottonwood,State Treasurer,,R,Mark Meierhenry,2546,41.22
+17,Cottonwood,State Treasurer,,RP,,473,7.66
+18,Crow Wing,Attorney General,,DFL,Mike Hatch,11006,45.42
+18,Crow Wing,Attorney General,,Other,,1397,5.77
+18,Crow Wing,Attorney General,,R,Charlie Weaver,10654,43.97
+18,Crow Wing,Attorney General,,RP,,1173,4.84
+18,Crow Wing,Governor,,DFL,Hubert H. Humphrey III,6257,25.82
+18,Crow Wing,Governor,,Other,,252,1.04
+18,Crow Wing,Governor,,R,Norm Coleman,9559,39.45
+18,Crow Wing,Governor,,RP,Jesse Ventura,8162,33.69
+18,Crow Wing,Secretary of State,,DFL,Mark Ritchie,8920,36.81
+18,Crow Wing,Secretary of State,,Other,,1477,6.10
+18,Crow Wing,Secretary of State,,R,Mary Kiffmeyer,12133,50.07
+18,Crow Wing,Secretary of State,,RP,,1700,7.02
+18,Crow Wing,State Auditor,,DFL,Judi Dutcher,9660,39.87
+18,Crow Wing,State Auditor,,MTP,,1292,5.33
+18,Crow Wing,State Auditor,,Other,,2119,8.75
+18,Crow Wing,State Auditor,,R,Mark Ourada,11159,46.05
+18,Crow Wing,State Treasurer,,DFL,Carol Johnson,10113,41.74
+18,Crow Wing,State Treasurer,,Other,,1809,7.47
+18,Crow Wing,State Treasurer,,R,Mark Meierhenry,10149,41.89
+18,Crow Wing,State Treasurer,,RP,,2159,8.91
+19,Dakota,Attorney General,,DFL,Mike Hatch,63982,42.17
+19,Dakota,Attorney General,,Other,,11172,7.36
+19,Dakota,Attorney General,,R,Charlie Weaver,67365,44.40
+19,Dakota,Attorney General,,RP,,9213,6.07
+19,Dakota,Governor,,DFL,Hubert H. Humphrey III,33253,21.92
+19,Dakota,Governor,,Other,,1328,0.88
+19,Dakota,Governor,,R,Norm Coleman,56242,37.07
+19,Dakota,Governor,,RP,Jesse Ventura,60909,40.14
+19,Dakota,Secretary of State,,DFL,Mark Ritchie,51736,34.10
+19,Dakota,Secretary of State,,Other,,13691,9.02
+19,Dakota,Secretary of State,,R,Mary Kiffmeyer,71103,46.86
+19,Dakota,Secretary of State,,RP,,15202,10.02
+19,Dakota,State Auditor,,DFL,Judi Dutcher,49838,32.85
+19,Dakota,State Auditor,,MTP,,7652,5.04
+19,Dakota,State Auditor,,Other,,15692,10.34
+19,Dakota,State Auditor,,R,Mark Ourada,78550,51.77
+19,Dakota,State Treasurer,,DFL,Carol Johnson,55616,36.65
+19,Dakota,State Treasurer,,Other,,15008,9.89
+19,Dakota,State Treasurer,,R,Mark Meierhenry,62611,41.26
+19,Dakota,State Treasurer,,RP,,18497,12.19
+20,Dodge,Attorney General,,DFL,Mike Hatch,2748,38.83
+20,Dodge,Attorney General,,Other,,549,7.76
+20,Dodge,Attorney General,,R,Charlie Weaver,3343,47.24
+20,Dodge,Attorney General,,RP,,437,6.17
+20,Dodge,Governor,,DFL,Hubert H. Humphrey III,1484,20.96
+20,Dodge,Governor,,Other,,110,1.55
+20,Dodge,Governor,,R,Norm Coleman,2619,36.99
+20,Dodge,Governor,,RP,Jesse Ventura,2867,40.49
+20,Dodge,Secretary of State,,DFL,Mark Ritchie,2130,30.10
+20,Dodge,Secretary of State,,Other,,530,7.49
+20,Dodge,Secretary of State,,R,Mary Kiffmeyer,3743,52.89
+20,Dodge,Secretary of State,,RP,,674,9.52
+20,Dodge,State Auditor,,DFL,Judi Dutcher,2371,33.50
+20,Dodge,State Auditor,,MTP,,508,7.18
+20,Dodge,State Auditor,,Other,,593,8.38
+20,Dodge,State Auditor,,R,Mark Ourada,3605,50.94
+20,Dodge,State Treasurer,,DFL,Carol Johnson,2686,37.95
+20,Dodge,State Treasurer,,Other,,547,7.73
+20,Dodge,State Treasurer,,R,Mark Meierhenry,3118,44.06
+20,Dodge,State Treasurer,,RP,,726,10.26
+21,Douglas,Attorney General,,DFL,Mike Hatch,5514,36.33
+21,Douglas,Attorney General,,Other,,768,5.06
+21,Douglas,Attorney General,,R,Charlie Weaver,8340,54.95
+21,Douglas,Attorney General,,RP,,556,3.66
+21,Douglas,Governor,,DFL,Hubert H. Humphrey III,3503,23.08
+21,Douglas,Governor,,Other,,190,1.25
+21,Douglas,Governor,,R,Norm Coleman,6323,41.66
+21,Douglas,Governor,,RP,Jesse Ventura,5162,34.01
+21,Douglas,Secretary of State,,DFL,Mark Ritchie,4989,32.87
+21,Douglas,Secretary of State,,Other,,973,6.41
+21,Douglas,Secretary of State,,R,Mary Kiffmeyer,8004,52.73
+21,Douglas,Secretary of State,,RP,,1212,7.99
+21,Douglas,State Auditor,,DFL,Judi Dutcher,5430,35.78
+21,Douglas,State Auditor,,MTP,,780,5.14
+21,Douglas,State Auditor,,Other,,1169,7.70
+21,Douglas,State Auditor,,R,Mark Ourada,7799,51.38
+21,Douglas,State Treasurer,,DFL,Carol Johnson,5848,38.53
+21,Douglas,State Treasurer,,Other,,1153,7.60
+21,Douglas,State Treasurer,,R,Mark Meierhenry,6887,45.37
+21,Douglas,State Treasurer,,RP,,1290,8.50
+22,Faribault,Attorney General,,DFL,Mike Hatch,3877,47.38
+22,Faribault,Attorney General,,Other,,368,4.50
+22,Faribault,Attorney General,,R,Charlie Weaver,3411,41.68
+22,Faribault,Attorney General,,RP,,527,6.44
+22,Faribault,Governor,,DFL,Hubert H. Humphrey III,2382,29.11
+22,Faribault,Governor,,Other,,100,1.22
+22,Faribault,Governor,,R,Norm Coleman,2778,33.95
+22,Faribault,Governor,,RP,Jesse Ventura,2923,35.72
+22,Faribault,Secretary of State,,DFL,Mark Ritchie,2923,35.72
+22,Faribault,Secretary of State,,Other,,385,4.70
+22,Faribault,Secretary of State,,R,Mary Kiffmeyer,4044,49.42
+22,Faribault,Secretary of State,,RP,,831,10.16
+22,Faribault,State Auditor,,DFL,Judi Dutcher,3427,41.88
+22,Faribault,State Auditor,,MTP,,475,5.80
+22,Faribault,State Auditor,,Other,,562,6.87
+22,Faribault,State Auditor,,R,Mark Ourada,3719,45.45
+22,Faribault,State Treasurer,,DFL,Carol Johnson,3572,43.65
+22,Faribault,State Treasurer,,Other,,420,5.13
+22,Faribault,State Treasurer,,R,Mark Meierhenry,3336,40.77
+22,Faribault,State Treasurer,,RP,,855,10.45
+23,Fillmore,Attorney General,,DFL,Mike Hatch,3576,41.98
+23,Fillmore,Attorney General,,Other,,546,6.41
+23,Fillmore,Attorney General,,R,Charlie Weaver,3999,46.94
+23,Fillmore,Attorney General,,RP,,398,4.67
+23,Fillmore,Governor,,DFL,Hubert H. Humphrey III,2823,33.14
+23,Fillmore,Governor,,Other,,118,1.39
+23,Fillmore,Governor,,R,Norm Coleman,3359,39.43
+23,Fillmore,Governor,,RP,Jesse Ventura,2219,26.05
+23,Fillmore,Secretary of State,,DFL,Mark Ritchie,3121,36.64
+23,Fillmore,Secretary of State,,Other,,514,6.03
+23,Fillmore,Secretary of State,,R,Mary Kiffmeyer,4406,51.72
+23,Fillmore,Secretary of State,,RP,,478,5.61
+23,Fillmore,State Auditor,,DFL,Judi Dutcher,3553,41.71
+23,Fillmore,State Auditor,,MTP,,415,4.87
+23,Fillmore,State Auditor,,Other,,573,6.73
+23,Fillmore,State Auditor,,R,Mark Ourada,3978,46.70
+23,Fillmore,State Treasurer,,DFL,Carol Johnson,3698,43.41
+23,Fillmore,State Treasurer,,Other,,574,6.74
+23,Fillmore,State Treasurer,,R,Mark Meierhenry,3696,43.39
+23,Fillmore,State Treasurer,,RP,,551,6.47
+24,Freeborn,Attorney General,,DFL,Mike Hatch,6448,45.96
+24,Freeborn,Attorney General,,Other,,657,4.68
+24,Freeborn,Attorney General,,R,Charlie Weaver,6448,45.96
+24,Freeborn,Attorney General,,RP,,476,3.39
+24,Freeborn,Governor,,DFL,Hubert H. Humphrey III,4605,32.82
+24,Freeborn,Governor,,Other,,255,1.82
+24,Freeborn,Governor,,R,Norm Coleman,5463,38.94
+24,Freeborn,Governor,,RP,Jesse Ventura,3706,26.42
+24,Freeborn,Secretary of State,,DFL,Mark Ritchie,5898,42.04
+24,Freeborn,Secretary of State,,Other,,802,5.72
+24,Freeborn,Secretary of State,,R,Mary Kiffmeyer,6461,46.05
+24,Freeborn,Secretary of State,,RP,,868,6.19
+24,Freeborn,State Auditor,,DFL,Judi Dutcher,6407,45.67
+24,Freeborn,State Auditor,,MTP,,745,5.31
+24,Freeborn,State Auditor,,Other,,887,6.32
+24,Freeborn,State Auditor,,R,Mark Ourada,5990,42.70
+24,Freeborn,State Treasurer,,DFL,Carol Johnson,6722,47.92
+24,Freeborn,State Treasurer,,Other,,765,5.45
+24,Freeborn,State Treasurer,,R,Mark Meierhenry,5458,38.91
+24,Freeborn,State Treasurer,,RP,,1084,7.73
+25,Goodhue,Attorney General,,DFL,Mike Hatch,8613,42.74
+25,Goodhue,Attorney General,,Other,,1076,5.34
+25,Goodhue,Attorney General,,R,Charlie Weaver,9233,45.82
+25,Goodhue,Attorney General,,RP,,1229,6.10
+25,Goodhue,Governor,,DFL,Hubert H. Humphrey III,4547,22.56
+25,Goodhue,Governor,,Other,,208,1.03
+25,Goodhue,Governor,,R,Norm Coleman,6786,33.68
+25,Goodhue,Governor,,RP,Jesse Ventura,8610,42.73
+25,Goodhue,Secretary of State,,DFL,Mark Ritchie,6945,34.46
+25,Goodhue,Secretary of State,,Other,,1166,5.79
+25,Goodhue,Secretary of State,,R,Mary Kiffmeyer,10013,49.69
+25,Goodhue,Secretary of State,,RP,,2027,10.06
+25,Goodhue,State Auditor,,DFL,Judi Dutcher,7139,35.43
+25,Goodhue,State Auditor,,MTP,,1152,5.72
+25,Goodhue,State Auditor,,Other,,1457,7.23
+25,Goodhue,State Auditor,,R,Mark Ourada,10403,51.63
+25,Goodhue,State Treasurer,,DFL,Carol Johnson,7984,39.62
+25,Goodhue,State Treasurer,,Other,,1280,6.35
+25,Goodhue,State Treasurer,,R,Mark Meierhenry,8080,40.10
+25,Goodhue,State Treasurer,,RP,,2807,13.93
+26,Grant,Attorney General,,DFL,Mike Hatch,1633,46.95
+26,Grant,Attorney General,,Other,,158,4.54
+26,Grant,Attorney General,,R,Charlie Weaver,1532,44.05
+26,Grant,Attorney General,,RP,,155,4.46
+26,Grant,Governor,,DFL,Hubert H. Humphrey III,1089,31.31
+26,Grant,Governor,,Other,,40,1.15
+26,Grant,Governor,,R,Norm Coleman,1055,30.33
+26,Grant,Governor,,RP,Jesse Ventura,1294,37.21
+26,Grant,Secretary of State,,DFL,Mark Ritchie,1473,42.35
+26,Grant,Secretary of State,,Other,,199,5.72
+26,Grant,Secretary of State,,R,Mary Kiffmeyer,1521,43.73
+26,Grant,Secretary of State,,RP,,285,8.19
+26,Grant,State Auditor,,DFL,Judi Dutcher,1665,47.87
+26,Grant,State Auditor,,MTP,,132,3.80
+26,Grant,State Auditor,,Other,,229,6.58
+26,Grant,State Auditor,,R,Mark Ourada,1452,41.75
+26,Grant,State Treasurer,,DFL,Carol Johnson,1617,46.49
+26,Grant,State Treasurer,,Other,,230,6.61
+26,Grant,State Treasurer,,R,Mark Meierhenry,1327,38.15
+26,Grant,State Treasurer,,RP,,304,8.74
+27,Hennepin,Attorney General,,DFL,Mike Hatch,222327,45.40
+27,Hennepin,Attorney General,,Other,,38065,7.77
+27,Hennepin,Attorney General,,R,Charlie Weaver,201570,41.16
+27,Hennepin,Attorney General,,RP,,27780,5.67
+27,Hennepin,Governor,,DFL,Hubert H. Humphrey III,147059,30.03
+27,Hennepin,Governor,,Other,,7418,1.51
+27,Hennepin,Governor,,R,Norm Coleman,155311,31.71
+27,Hennepin,Governor,,RP,Jesse Ventura,179954,36.74
+27,Hennepin,Secretary of State,,DFL,Mark Ritchie,198960,40.63
+27,Hennepin,Secretary of State,,Other,,41186,8.41
+27,Hennepin,Secretary of State,,R,Mary Kiffmeyer,202747,41.40
+27,Hennepin,Secretary of State,,RP,,46849,9.57
+27,Hennepin,State Auditor,,DFL,Judi Dutcher,175206,35.78
+27,Hennepin,State Auditor,,MTP,,24004,4.90
+27,Hennepin,State Auditor,,Other,,52626,10.75
+27,Hennepin,State Auditor,,R,Mark Ourada,237906,48.58
+27,Hennepin,State Treasurer,,DFL,Carol Johnson,199142,40.66
+27,Hennepin,State Treasurer,,Other,,49056,10.02
+27,Hennepin,State Treasurer,,R,Mark Meierhenry,180389,36.83
+27,Hennepin,State Treasurer,,RP,,61155,12.49
+28,Houston,Attorney General,,DFL,Mike Hatch,2886,38.25
+28,Houston,Attorney General,,Other,,603,7.99
+28,Houston,Attorney General,,R,Charlie Weaver,3868,51.26
+28,Houston,Attorney General,,RP,,189,2.50
+28,Houston,Governor,,DFL,Hubert H. Humphrey III,2797,37.07
+28,Houston,Governor,,Other,,242,3.21
+28,Houston,Governor,,R,Norm Coleman,3616,47.92
+28,Houston,Governor,,RP,Jesse Ventura,891,11.81
+28,Houston,Secretary of State,,DFL,Mark Ritchie,2777,36.80
+28,Houston,Secretary of State,,Other,,581,7.70
+28,Houston,Secretary of State,,R,Mary Kiffmeyer,3903,51.72
+28,Houston,Secretary of State,,RP,,285,3.78
+28,Houston,State Auditor,,DFL,Judi Dutcher,2958,39.20
+28,Houston,State Auditor,,MTP,,494,6.55
+28,Houston,State Auditor,,Other,,664,8.80
+28,Houston,State Auditor,,R,Mark Ourada,3430,45.45
+28,Houston,State Treasurer,,DFL,Carol Johnson,3045,40.35
+28,Houston,State Treasurer,,Other,,629,8.34
+28,Houston,State Treasurer,,R,Mark Meierhenry,3598,47.68
+28,Houston,State Treasurer,,RP,,274,3.63
+29,Hubbard,Attorney General,,DFL,Mike Hatch,3902,44.45
+29,Hubbard,Attorney General,,Other,,494,5.63
+29,Hubbard,Attorney General,,R,Charlie Weaver,4087,46.56
+29,Hubbard,Attorney General,,RP,,295,3.36
+29,Hubbard,Governor,,DFL,Hubert H. Humphrey III,2609,29.72
+29,Hubbard,Governor,,Other,,155,1.77
+29,Hubbard,Governor,,R,Norm Coleman,3697,42.12
+29,Hubbard,Governor,,RP,Jesse Ventura,2317,26.40
+29,Hubbard,Secretary of State,,DFL,Mark Ritchie,3384,38.55
+29,Hubbard,Secretary of State,,Other,,547,6.23
+29,Hubbard,Secretary of State,,R,Mary Kiffmeyer,4273,48.68
+29,Hubbard,Secretary of State,,RP,,574,6.54
+29,Hubbard,State Auditor,,DFL,Judi Dutcher,3466,39.49
+29,Hubbard,State Auditor,,MTP,,443,5.05
+29,Hubbard,State Auditor,,Other,,693,7.89
+29,Hubbard,State Auditor,,R,Mark Ourada,4176,47.57
+29,Hubbard,State Treasurer,,DFL,Carol Johnson,3663,41.73
+29,Hubbard,State Treasurer,,Other,,653,7.44
+29,Hubbard,State Treasurer,,R,Mark Meierhenry,3867,44.05
+29,Hubbard,State Treasurer,,RP,,595,6.78
+30,Isanti,Attorney General,,DFL,Mike Hatch,6226,45.45
+30,Isanti,Attorney General,,Other,,999,7.29
+30,Isanti,Attorney General,,R,Charlie Weaver,5407,39.47
+30,Isanti,Attorney General,,RP,,1068,7.80
+30,Isanti,Governor,,DFL,Hubert H. Humphrey III,2665,19.45
+30,Isanti,Governor,,Other,,107,0.78
+30,Isanti,Governor,,R,Norm Coleman,3719,27.15
+30,Isanti,Governor,,RP,Jesse Ventura,7209,52.62
+30,Isanti,Secretary of State,,DFL,Mark Ritchie,5096,37.20
+30,Isanti,Secretary of State,,Other,,1076,7.85
+30,Isanti,Secretary of State,,R,Mary Kiffmeyer,5805,42.37
+30,Isanti,Secretary of State,,RP,,1723,12.58
+30,Isanti,State Auditor,,DFL,Judi Dutcher,5486,40.04
+30,Isanti,State Auditor,,MTP,,996,7.27
+30,Isanti,State Auditor,,Other,,1304,9.52
+30,Isanti,State Auditor,,R,Mark Ourada,5914,43.17
+30,Isanti,State Treasurer,,DFL,Carol Johnson,5938,43.34
+30,Isanti,State Treasurer,,Other,,1171,8.55
+30,Isanti,State Treasurer,,R,Mark Meierhenry,4793,34.99
+30,Isanti,State Treasurer,,RP,,1798,13.12
+31,Itasca,Attorney General,,DFL,Mike Hatch,11405,58.85
+31,Itasca,Attorney General,,Other,,1162,6.00
+31,Itasca,Attorney General,,R,Charlie Weaver,6118,31.57
+31,Itasca,Attorney General,,RP,,694,3.58
+31,Itasca,Governor,,DFL,Hubert H. Humphrey III,7911,40.82
+31,Itasca,Governor,,Other,,519,2.68
+31,Itasca,Governor,,R,Norm Coleman,7181,37.06
+31,Itasca,Governor,,RP,Jesse Ventura,3768,19.44
+31,Itasca,Secretary of State,,DFL,Mark Ritchie,9331,48.15
+31,Itasca,Secretary of State,,Other,,1552,8.01
+31,Itasca,Secretary of State,,R,Mary Kiffmeyer,7364,38.00
+31,Itasca,Secretary of State,,RP,,1132,5.84
+31,Itasca,State Auditor,,DFL,Judi Dutcher,9808,50.61
+31,Itasca,State Auditor,,MTP,,1287,6.64
+31,Itasca,State Auditor,,Other,,1877,9.69
+31,Itasca,State Auditor,,R,Mark Ourada,6407,33.06
+31,Itasca,State Treasurer,,DFL,Carol Johnson,10412,53.73
+31,Itasca,State Treasurer,,Other,,1610,8.31
+31,Itasca,State Treasurer,,R,Mark Meierhenry,6183,31.91
+31,Itasca,State Treasurer,,RP,,1174,6.06
+32,Jackson,Attorney General,,DFL,Mike Hatch,2701,51.90
+32,Jackson,Attorney General,,Other,,243,4.67
+32,Jackson,Attorney General,,R,Charlie Weaver,2052,39.43
+32,Jackson,Attorney General,,RP,,208,4.00
+32,Jackson,Governor,,DFL,Hubert H. Humphrey III,1728,33.21
+32,Jackson,Governor,,Other,,75,1.44
+32,Jackson,Governor,,R,Norm Coleman,1796,34.51
+32,Jackson,Governor,,RP,Jesse Ventura,1605,30.84
+32,Jackson,Secretary of State,,DFL,Mark Ritchie,2224,42.74
+32,Jackson,Secretary of State,,Other,,275,5.28
+32,Jackson,Secretary of State,,R,Mary Kiffmeyer,2385,45.83
+32,Jackson,Secretary of State,,RP,,320,6.15
+32,Jackson,State Auditor,,DFL,Judi Dutcher,2373,45.60
+32,Jackson,State Auditor,,MTP,,234,4.50
+32,Jackson,State Auditor,,Other,,322,6.19
+32,Jackson,State Auditor,,R,Mark Ourada,2275,43.72
+32,Jackson,State Treasurer,,DFL,Carol Johnson,2611,50.17
+32,Jackson,State Treasurer,,Other,,268,5.15
+32,Jackson,State Treasurer,,R,Mark Meierhenry,1952,37.51
+32,Jackson,State Treasurer,,RP,,373,7.17
+33,Kanabec,Attorney General,,DFL,Mike Hatch,2955,45.00
+33,Kanabec,Attorney General,,Other,,1003,15.27
+33,Kanabec,Attorney General,,R,Charlie Weaver,2062,31.40
+33,Kanabec,Attorney General,,RP,,547,8.33
+33,Kanabec,Governor,,DFL,Hubert H. Humphrey III,1374,20.92
+33,Kanabec,Governor,,Other,,60,0.91
+33,Kanabec,Governor,,R,Norm Coleman,1895,28.86
+33,Kanabec,Governor,,RP,Jesse Ventura,3238,49.31
+33,Kanabec,Secretary of State,,DFL,Mark Ritchie,2595,39.52
+33,Kanabec,Secretary of State,,Other,,483,7.35
+33,Kanabec,Secretary of State,,R,Mary Kiffmeyer,2649,40.34
+33,Kanabec,Secretary of State,,RP,,840,12.79
+33,Kanabec,State Auditor,,DFL,Judi Dutcher,2812,42.82
+33,Kanabec,State Auditor,,MTP,,491,7.48
+33,Kanabec,State Auditor,,Other,,598,9.11
+33,Kanabec,State Auditor,,R,Mark Ourada,2666,40.60
+33,Kanabec,State Treasurer,,DFL,Carol Johnson,2684,40.87
+33,Kanabec,State Treasurer,,Other,,1101,16.77
+33,Kanabec,State Treasurer,,R,Mark Meierhenry,1966,29.94
+33,Kanabec,State Treasurer,,RP,,816,12.43
+34,Kandiyohi,Attorney General,,DFL,Mike Hatch,8693,47.42
+34,Kandiyohi,Attorney General,,Other,,775,4.23
+34,Kandiyohi,Attorney General,,R,Charlie Weaver,8164,44.53
+34,Kandiyohi,Attorney General,,RP,,700,3.82
+34,Kandiyohi,Governor,,DFL,Hubert H. Humphrey III,5337,29.11
+34,Kandiyohi,Governor,,Other,,178,0.97
+34,Kandiyohi,Governor,,R,Norm Coleman,6287,34.30
+34,Kandiyohi,Governor,,RP,Jesse Ventura,6530,35.62
+34,Kandiyohi,Secretary of State,,DFL,Mark Ritchie,7133,38.91
+34,Kandiyohi,Secretary of State,,Other,,1049,5.72
+34,Kandiyohi,Secretary of State,,R,Mary Kiffmeyer,8767,47.82
+34,Kandiyohi,Secretary of State,,RP,,1383,7.54
+34,Kandiyohi,State Auditor,,DFL,Judi Dutcher,7345,40.07
+34,Kandiyohi,State Auditor,,MTP,,660,3.60
+34,Kandiyohi,State Auditor,,Other,,1168,6.37
+34,Kandiyohi,State Auditor,,R,Mark Ourada,9159,49.96
+34,Kandiyohi,State Treasurer,,DFL,Carol Johnson,8280,45.17
+34,Kandiyohi,State Treasurer,,Other,,1135,6.19
+34,Kandiyohi,State Treasurer,,R,Mark Meierhenry,7246,39.53
+34,Kandiyohi,State Treasurer,,RP,,1671,9.12
+35,Kittson,Attorney General,,DFL,Mike Hatch,1295,54.41
+35,Kittson,Attorney General,,Other,,147,6.18
+35,Kittson,Attorney General,,R,Charlie Weaver,873,36.68
+35,Kittson,Attorney General,,RP,,65,2.73
+35,Kittson,Governor,,DFL,Hubert H. Humphrey III,1185,49.79
+35,Kittson,Governor,,Other,,49,2.06
+35,Kittson,Governor,,R,Norm Coleman,757,31.81
+35,Kittson,Governor,,RP,Jesse Ventura,389,16.34
+35,Kittson,Secretary of State,,DFL,Mark Ritchie,1214,51.01
+35,Kittson,Secretary of State,,Other,,151,6.34
+35,Kittson,Secretary of State,,R,Mary Kiffmeyer,905,38.03
+35,Kittson,Secretary of State,,RP,,110,4.62
+35,Kittson,State Auditor,,DFL,Judi Dutcher,1323,55.59
+35,Kittson,State Auditor,,MTP,,86,3.61
+35,Kittson,State Auditor,,Other,,191,8.03
+35,Kittson,State Auditor,,R,Mark Ourada,780,32.77
+35,Kittson,State Treasurer,,DFL,Carol Johnson,1388,58.32
+35,Kittson,State Treasurer,,Other,,158,6.64
+35,Kittson,State Treasurer,,R,Mark Meierhenry,746,31.34
+35,Kittson,State Treasurer,,RP,,88,3.70
+36,Koochiching,Attorney General,,DFL,Mike Hatch,3480,58.43
+36,Koochiching,Attorney General,,Other,,382,6.41
+36,Koochiching,Attorney General,,R,Charlie Weaver,1900,31.90
+36,Koochiching,Attorney General,,RP,,194,3.26
+36,Koochiching,Governor,,DFL,Hubert H. Humphrey III,2050,34.42
+36,Koochiching,Governor,,Other,,121,2.03
+36,Koochiching,Governor,,R,Norm Coleman,2721,45.69
+36,Koochiching,Governor,,RP,Jesse Ventura,1064,17.86
+36,Koochiching,Secretary of State,,DFL,Mark Ritchie,2988,50.17
+36,Koochiching,Secretary of State,,Other,,404,6.78
+36,Koochiching,Secretary of State,,R,Mary Kiffmeyer,2228,37.41
+36,Koochiching,Secretary of State,,RP,,336,5.64
+36,Koochiching,State Auditor,,DFL,Judi Dutcher,3224,54.13
+36,Koochiching,State Auditor,,MTP,,312,5.24
+36,Koochiching,State Auditor,,Other,,492,8.26
+36,Koochiching,State Auditor,,R,Mark Ourada,1928,32.37
+36,Koochiching,State Treasurer,,DFL,Carol Johnson,3221,54.08
+36,Koochiching,State Treasurer,,Other,,447,7.51
+36,Koochiching,State Treasurer,,R,Mark Meierhenry,1957,32.86
+36,Koochiching,State Treasurer,,RP,,331,5.56
+37,Lac qui Parle,Attorney General,,DFL,Mike Hatch,2422,58.52
+37,Lac qui Parle,Attorney General,,Other,,158,3.82
+37,Lac qui Parle,Attorney General,,R,Charlie Weaver,1395,33.70
+37,Lac qui Parle,Attorney General,,RP,,164,3.96
+37,Lac qui Parle,Governor,,DFL,Hubert H. Humphrey III,1621,39.16
+37,Lac qui Parle,Governor,,Other,,55,1.33
+37,Lac qui Parle,Governor,,R,Norm Coleman,1133,27.37
+37,Lac qui Parle,Governor,,RP,Jesse Ventura,1330,32.13
+37,Lac qui Parle,Secretary of State,,DFL,Mark Ritchie,2129,51.44
+37,Lac qui Parle,Secretary of State,,Other,,181,4.37
+37,Lac qui Parle,Secretary of State,,R,Mary Kiffmeyer,1553,37.52
+37,Lac qui Parle,Secretary of State,,RP,,276,6.67
+37,Lac qui Parle,State Auditor,,DFL,Judi Dutcher,2250,54.36
+37,Lac qui Parle,State Auditor,,MTP,,133,3.21
+37,Lac qui Parle,State Auditor,,Other,,240,5.80
+37,Lac qui Parle,State Auditor,,R,Mark Ourada,1516,36.63
+37,Lac qui Parle,State Treasurer,,DFL,Carol Johnson,2342,56.58
+37,Lac qui Parle,State Treasurer,,Other,,218,5.27
+37,Lac qui Parle,State Treasurer,,R,Mark Meierhenry,1281,30.95
+37,Lac qui Parle,State Treasurer,,RP,,298,7.20
+38,Lake,Attorney General,,DFL,Mike Hatch,3323,56.19
+38,Lake,Attorney General,,Other,,289,4.89
+38,Lake,Attorney General,,R,Charlie Weaver,2130,36.02
+38,Lake,Attorney General,,RP,,172,2.91
+38,Lake,Governor,,DFL,Hubert H. Humphrey III,2472,41.80
+38,Lake,Governor,,Other,,131,2.22
+38,Lake,Governor,,R,Norm Coleman,1766,29.86
+38,Lake,Governor,,RP,Jesse Ventura,1545,26.12
+38,Lake,Secretary of State,,DFL,Mark Ritchie,3319,56.12
+38,Lake,Secretary of State,,Other,,410,6.93
+38,Lake,Secretary of State,,R,Mary Kiffmeyer,1808,30.57
+38,Lake,Secretary of State,,RP,,377,6.37
+38,Lake,State Auditor,,DFL,Judi Dutcher,3462,58.54
+38,Lake,State Auditor,,MTP,,326,5.51
+38,Lake,State Auditor,,Other,,532,9.00
+38,Lake,State Auditor,,R,Mark Ourada,1594,26.95
+38,Lake,State Treasurer,,DFL,Carol Johnson,3628,61.35
+38,Lake,State Treasurer,,Other,,448,7.58
+38,Lake,State Treasurer,,R,Mark Meierhenry,1516,25.63
+38,Lake,State Treasurer,,RP,,322,5.44
+39,Lake of the Woods,Attorney General,,DFL,Mike Hatch,992,48.27
+39,Lake of the Woods,Attorney General,,Other,,156,7.59
+39,Lake of the Woods,Attorney General,,R,Charlie Weaver,826,40.19
+39,Lake of the Woods,Attorney General,,RP,,81,3.94
+39,Lake of the Woods,Governor,,DFL,Hubert H. Humphrey III,852,41.46
+39,Lake of the Woods,Governor,,Other,,78,3.80
+39,Lake of the Woods,Governor,,R,Norm Coleman,837,40.73
+39,Lake of the Woods,Governor,,RP,Jesse Ventura,288,14.01
+39,Lake of the Woods,Secretary of State,,DFL,Mark Ritchie,934,45.45
+39,Lake of the Woods,Secretary of State,,Other,,152,7.40
+39,Lake of the Woods,Secretary of State,,R,Mary Kiffmeyer,881,42.87
+39,Lake of the Woods,Secretary of State,,RP,,88,4.28
+39,Lake of the Woods,State Auditor,,DFL,Judi Dutcher,959,46.67
+39,Lake of the Woods,State Auditor,,MTP,,103,5.01
+39,Lake of the Woods,State Auditor,,Other,,177,8.61
+39,Lake of the Woods,State Auditor,,R,Mark Ourada,816,39.71
+39,Lake of the Woods,State Treasurer,,DFL,Carol Johnson,1006,48.95
+39,Lake of the Woods,State Treasurer,,Other,,165,8.03
+39,Lake of the Woods,State Treasurer,,R,Mark Meierhenry,765,37.23
+39,Lake of the Woods,State Treasurer,,RP,,119,5.79
+40,Le Sueur,Attorney General,,DFL,Mike Hatch,5622,47.42
+40,Le Sueur,Attorney General,,Other,,743,6.27
+40,Le Sueur,Attorney General,,R,Charlie Weaver,4657,39.28
+40,Le Sueur,Attorney General,,RP,,835,7.04
+40,Le Sueur,Governor,,DFL,Hubert H. Humphrey III,2614,22.05
+40,Le Sueur,Governor,,Other,,110,0.93
+40,Le Sueur,Governor,,R,Norm Coleman,3582,30.21
+40,Le Sueur,Governor,,RP,Jesse Ventura,5551,46.82
+40,Le Sueur,Secretary of State,,DFL,Mark Ritchie,4340,36.60
+40,Le Sueur,Secretary of State,,Other,,742,6.26
+40,Le Sueur,Secretary of State,,R,Mary Kiffmeyer,5424,45.75
+40,Le Sueur,Secretary of State,,RP,,1351,11.39
+40,Le Sueur,State Auditor,,DFL,Judi Dutcher,4699,39.63
+40,Le Sueur,State Auditor,,MTP,,823,6.94
+40,Le Sueur,State Auditor,,Other,,975,8.22
+40,Le Sueur,State Auditor,,R,Mark Ourada,5360,45.21
+40,Le Sueur,State Treasurer,,DFL,Carol Johnson,5076,42.81
+40,Le Sueur,State Treasurer,,Other,,905,7.63
+40,Le Sueur,State Treasurer,,R,Mark Meierhenry,4418,37.26
+40,Le Sueur,State Treasurer,,RP,,1458,12.30
+41,Lincoln,Attorney General,,DFL,Mike Hatch,1578,49.98
+41,Lincoln,Attorney General,,Other,,195,6.18
+41,Lincoln,Attorney General,,R,Charlie Weaver,1275,40.39
+41,Lincoln,Attorney General,,RP,,109,3.45
+41,Lincoln,Governor,,DFL,Hubert H. Humphrey III,1136,35.98
+41,Lincoln,Governor,,Other,,77,2.44
+41,Lincoln,Governor,,R,Norm Coleman,1129,35.76
+41,Lincoln,Governor,,RP,Jesse Ventura,815,25.82
+41,Lincoln,Secretary of State,,DFL,Mark Ritchie,1372,43.46
+41,Lincoln,Secretary of State,,Other,,190,6.02
+41,Lincoln,Secretary of State,,R,Mary Kiffmeyer,1417,44.88
+41,Lincoln,Secretary of State,,RP,,178,5.64
+41,Lincoln,State Auditor,,DFL,Judi Dutcher,1465,46.40
+41,Lincoln,State Auditor,,MTP,,145,4.59
+41,Lincoln,State Auditor,,Other,,261,8.27
+41,Lincoln,State Auditor,,R,Mark Ourada,1286,40.73
+41,Lincoln,State Treasurer,,DFL,Carol Johnson,1578,49.98
+41,Lincoln,State Treasurer,,Other,,208,6.59
+41,Lincoln,State Treasurer,,R,Mark Meierhenry,1177,37.28
+41,Lincoln,State Treasurer,,RP,,194,6.15
+42,Lyon,Attorney General,,DFL,Mike Hatch,4592,43.81
+42,Lyon,Attorney General,,Other,,597,5.70
+42,Lyon,Attorney General,,R,Charlie Weaver,4928,47.02
+42,Lyon,Attorney General,,RP,,364,3.47
+42,Lyon,Governor,,DFL,Hubert H. Humphrey III,2966,28.30
+42,Lyon,Governor,,Other,,195,1.86
+42,Lyon,Governor,,R,Norm Coleman,4043,38.57
+42,Lyon,Governor,,RP,Jesse Ventura,3277,31.27
+42,Lyon,Secretary of State,,DFL,Mark Ritchie,3865,36.88
+42,Lyon,Secretary of State,,Other,,661,6.31
+42,Lyon,Secretary of State,,R,Mary Kiffmeyer,5301,50.58
+42,Lyon,Secretary of State,,RP,,654,6.24
+42,Lyon,State Auditor,,DFL,Judi Dutcher,4032,38.47
+42,Lyon,State Auditor,,MTP,,451,4.30
+42,Lyon,State Auditor,,Other,,866,8.26
+42,Lyon,State Auditor,,R,Mark Ourada,5132,48.96
+42,Lyon,State Treasurer,,DFL,Carol Johnson,4511,43.04
+42,Lyon,State Treasurer,,Other,,709,6.76
+42,Lyon,State Treasurer,,R,Mark Meierhenry,4432,42.29
+42,Lyon,State Treasurer,,RP,,829,7.91
+44,Mahnomen,Attorney General,,DFL,Mike Hatch,947,47.73
+44,Mahnomen,Attorney General,,Other,,141,7.11
+44,Mahnomen,Attorney General,,R,Charlie Weaver,827,41.68
+44,Mahnomen,Attorney General,,RP,,69,3.48
+44,Mahnomen,Governor,,DFL,Hubert H. Humphrey III,716,36.09
+44,Mahnomen,Governor,,Other,,41,2.07
+44,Mahnomen,Governor,,R,Norm Coleman,821,41.38
+44,Mahnomen,Governor,,RP,Jesse Ventura,406,20.46
+44,Mahnomen,Secretary of State,,DFL,Mark Ritchie,875,44.10
+44,Mahnomen,Secretary of State,,Other,,135,6.80
+44,Mahnomen,Secretary of State,,R,Mary Kiffmeyer,877,44.20
+44,Mahnomen,Secretary of State,,RP,,97,4.89
+44,Mahnomen,State Auditor,,DFL,Judi Dutcher,927,46.72
+44,Mahnomen,State Auditor,,MTP,,116,5.85
+44,Mahnomen,State Auditor,,Other,,178,8.97
+44,Mahnomen,State Auditor,,R,Mark Ourada,763,38.46
+44,Mahnomen,State Treasurer,,DFL,Carol Johnson,959,48.34
+44,Mahnomen,State Treasurer,,Other,,145,7.31
+44,Mahnomen,State Treasurer,,R,Mark Meierhenry,786,39.62
+44,Mahnomen,State Treasurer,,RP,,94,4.74
+45,Marshall,Attorney General,,DFL,Mike Hatch,2532,51.21
+45,Marshall,Attorney General,,Other,,347,7.02
+45,Marshall,Attorney General,,R,Charlie Weaver,1913,38.69
+45,Marshall,Attorney General,,RP,,152,3.07
+45,Marshall,Governor,,DFL,Hubert H. Humphrey III,2008,40.61
+45,Marshall,Governor,,Other,,143,2.89
+45,Marshall,Governor,,R,Norm Coleman,1959,39.62
+45,Marshall,Governor,,RP,Jesse Ventura,834,16.87
+45,Marshall,Secretary of State,,DFL,Mark Ritchie,2291,46.34
+45,Marshall,Secretary of State,,Other,,392,7.93
+45,Marshall,Secretary of State,,R,Mary Kiffmeyer,2011,40.68
+45,Marshall,Secretary of State,,RP,,250,5.06
+45,Marshall,State Auditor,,DFL,Judi Dutcher,2598,52.55
+45,Marshall,State Auditor,,MTP,,185,3.74
+45,Marshall,State Auditor,,Other,,468,9.47
+45,Marshall,State Auditor,,R,Mark Ourada,1693,34.24
+45,Marshall,State Treasurer,,DFL,Carol Johnson,2610,52.79
+45,Marshall,State Treasurer,,Other,,396,8.01
+45,Marshall,State Treasurer,,R,Mark Meierhenry,1712,34.63
+45,Marshall,State Treasurer,,RP,,226,4.57
+46,Martin,Attorney General,,DFL,Mike Hatch,4376,45.83
+46,Martin,Attorney General,,Other,,423,4.43
+46,Martin,Attorney General,,R,Charlie Weaver,4260,44.61
+46,Martin,Attorney General,,RP,,490,5.13
+46,Martin,Governor,,DFL,Hubert H. Humphrey III,2534,26.54
+46,Martin,Governor,,Other,,96,1.01
+46,Martin,Governor,,R,Norm Coleman,3676,38.50
+46,Martin,Governor,,RP,Jesse Ventura,3243,33.96
+46,Martin,Secretary of State,,DFL,Mark Ritchie,3156,33.05
+46,Martin,Secretary of State,,Other,,488,5.11
+46,Martin,Secretary of State,,R,Mary Kiffmeyer,5054,52.93
+46,Martin,Secretary of State,,RP,,851,8.91
+46,Martin,State Auditor,,DFL,Judi Dutcher,3418,35.79
+46,Martin,State Auditor,,MTP,,542,5.68
+46,Martin,State Auditor,,Other,,668,7.00
+46,Martin,State Auditor,,R,Mark Ourada,4921,51.53
+46,Martin,State Treasurer,,DFL,Carol Johnson,3804,39.84
+46,Martin,State Treasurer,,Other,,563,5.90
+46,Martin,State Treasurer,,R,Mark Meierhenry,4294,44.97
+46,Martin,State Treasurer,,RP,,888,9.30
+43,McLeod,Attorney General,,DFL,Mike Hatch,6340,41.04
+43,McLeod,Attorney General,,Other,,1033,6.69
+43,McLeod,Attorney General,,R,Charlie Weaver,6887,44.58
+43,McLeod,Attorney General,,RP,,1190,7.70
+43,McLeod,Governor,,DFL,Hubert H. Humphrey III,2449,15.85
+43,McLeod,Governor,,Other,,121,0.78
+43,McLeod,Governor,,R,Norm Coleman,4754,30.77
+43,McLeod,Governor,,RP,Jesse Ventura,8126,52.60
+43,McLeod,Secretary of State,,DFL,Mark Ritchie,4218,27.30
+43,McLeod,Secretary of State,,Other,,1159,7.50
+43,McLeod,Secretary of State,,R,Mary Kiffmeyer,7980,51.65
+43,McLeod,Secretary of State,,RP,,2093,13.55
+43,McLeod,State Auditor,,DFL,Judi Dutcher,5143,33.29
+43,McLeod,State Auditor,,MTP,,1029,6.66
+43,McLeod,State Auditor,,Other,,1494,9.67
+43,McLeod,State Auditor,,R,Mark Ourada,7784,50.38
+43,McLeod,State Treasurer,,DFL,Carol Johnson,5492,35.55
+43,McLeod,State Treasurer,,Other,,1259,8.15
+43,McLeod,State Treasurer,,R,Mark Meierhenry,6514,42.16
+43,McLeod,State Treasurer,,RP,,2185,14.14
+61,Meeker,Attorney General,,DFL,Mike Hatch,2735,46.72
+61,Meeker,Attorney General,,Other,,253,4.32
+61,Meeker,Attorney General,,R,Charlie Weaver,2635,45.01
+61,Meeker,Attorney General,,RP,,231,3.95
+61,Meeker,Governor,,DFL,Hubert H. Humphrey III,1738,29.69
+61,Meeker,Governor,,Other,,63,1.08
+61,Meeker,Governor,,R,Norm Coleman,1954,33.38
+61,Meeker,Governor,,RP,Jesse Ventura,2099,35.86
+61,Meeker,Secretary of State,,DFL,Mark Ritchie,2389,40.81
+61,Meeker,Secretary of State,,Other,,327,5.59
+61,Meeker,Secretary of State,,R,Mary Kiffmeyer,2712,46.33
+61,Meeker,Secretary of State,,RP,,426,7.28
+61,Meeker,State Auditor,,DFL,Judi Dutcher,2775,47.40
+61,Meeker,State Auditor,,MTP,,202,3.45
+61,Meeker,State Auditor,,Other,,386,6.59
+61,Meeker,State Auditor,,R,Mark Ourada,2491,42.55
+61,Meeker,State Treasurer,,DFL,Carol Johnson,2739,46.79
+61,Meeker,State Treasurer,,Other,,390,6.66
+61,Meeker,State Treasurer,,R,Mark Meierhenry,2231,38.11
+61,Meeker,State Treasurer,,RP,,494,8.44
+47,Mille Lacs,Attorney General,,DFL,Mike Hatch,4750,44.53
+47,Mille Lacs,Attorney General,,Other,,640,6.00
+47,Mille Lacs,Attorney General,,R,Charlie Weaver,4589,43.02
+47,Mille Lacs,Attorney General,,RP,,689,6.46
+47,Mille Lacs,Governor,,DFL,Hubert H. Humphrey III,2083,19.53
+47,Mille Lacs,Governor,,Other,,112,1.05
+47,Mille Lacs,Governor,,R,Norm Coleman,3320,31.12
+47,Mille Lacs,Governor,,RP,Jesse Ventura,5153,48.30
+47,Mille Lacs,Secretary of State,,DFL,Mark Ritchie,3322,31.14
+47,Mille Lacs,Secretary of State,,Other,,628,5.89
+47,Mille Lacs,Secretary of State,,R,Mary Kiffmeyer,5413,50.74
+47,Mille Lacs,Secretary of State,,RP,,1305,12.23
+47,Mille Lacs,State Auditor,,DFL,Judi Dutcher,4771,44.72
+47,Mille Lacs,State Auditor,,MTP,,528,4.95
+47,Mille Lacs,State Auditor,,Other,,763,7.15
+47,Mille Lacs,State Auditor,,R,Mark Ourada,4606,43.18
+47,Mille Lacs,State Treasurer,,DFL,Carol Johnson,4397,41.22
+47,Mille Lacs,State Treasurer,,Other,,824,7.72
+47,Mille Lacs,State Treasurer,,R,Mark Meierhenry,4114,38.56
+47,Mille Lacs,State Treasurer,,RP,,1333,12.50
+48,Morrison,Attorney General,,DFL,Mike Hatch,4381,46.63
+48,Morrison,Attorney General,,Other,,652,6.94
+48,Morrison,Attorney General,,R,Charlie Weaver,3704,39.43
+48,Morrison,Attorney General,,RP,,658,7.00
+48,Morrison,Governor,,DFL,Hubert H. Humphrey III,1998,21.27
+48,Morrison,Governor,,Other,,95,1.01
+48,Morrison,Governor,,R,Norm Coleman,2898,30.85
+48,Morrison,Governor,,RP,Jesse Ventura,4404,46.88
+48,Morrison,Secretary of State,,DFL,Mark Ritchie,3408,36.27
+48,Morrison,Secretary of State,,Other,,712,7.58
+48,Morrison,Secretary of State,,R,Mary Kiffmeyer,4232,45.05
+48,Morrison,Secretary of State,,RP,,1043,11.10
+48,Morrison,State Auditor,,DFL,Judi Dutcher,3762,40.04
+48,Morrison,State Auditor,,MTP,,748,7.96
+48,Morrison,State Auditor,,Other,,931,9.91
+48,Morrison,State Auditor,,R,Mark Ourada,3954,42.09
+48,Morrison,State Treasurer,,DFL,Carol Johnson,3994,42.51
+48,Morrison,State Treasurer,,Other,,818,8.71
+48,Morrison,State Treasurer,,R,Mark Meierhenry,3392,36.10
+48,Morrison,State Treasurer,,RP,,1191,12.68
+49,Mower,Attorney General,,DFL,Mike Hatch,7054,52.55
+49,Mower,Attorney General,,Other,,1012,7.54
+49,Mower,Attorney General,,R,Charlie Weaver,4674,34.82
+49,Mower,Attorney General,,RP,,683,5.09
+49,Mower,Governor,,DFL,Hubert H. Humphrey III,2899,21.60
+49,Mower,Governor,,Other,,242,1.80
+49,Mower,Governor,,R,Norm Coleman,5377,40.06
+49,Mower,Governor,,RP,Jesse Ventura,4905,36.54
+49,Mower,Secretary of State,,DFL,Mark Ritchie,4745,35.35
+49,Mower,Secretary of State,,Other,,980,7.30
+49,Mower,Secretary of State,,R,Mary Kiffmeyer,6696,49.88
+49,Mower,Secretary of State,,RP,,1002,7.46
+49,Mower,State Auditor,,DFL,Judi Dutcher,5470,40.75
+49,Mower,State Auditor,,MTP,,1101,8.20
+49,Mower,State Auditor,,Other,,1405,10.47
+49,Mower,State Auditor,,R,Mark Ourada,5447,40.58
+49,Mower,State Treasurer,,DFL,Carol Johnson,6132,45.68
+49,Mower,State Treasurer,,Other,,1162,8.66
+49,Mower,State Treasurer,,R,Mark Meierhenry,4893,36.45
+49,Mower,State Treasurer,,RP,,1236,9.21
+50,Murray,Attorney General,,DFL,Mike Hatch,8506,52.79
+50,Murray,Attorney General,,Other,,1095,6.80
+50,Murray,Attorney General,,R,Charlie Weaver,5930,36.80
+50,Murray,Attorney General,,RP,,582,3.61
+50,Murray,Governor,,DFL,Hubert H. Humphrey III,6234,38.69
+50,Murray,Governor,,Other,,360,2.23
+50,Murray,Governor,,R,Norm Coleman,5529,34.31
+50,Murray,Governor,,RP,Jesse Ventura,3990,24.76
+50,Murray,Secretary of State,,DFL,Mark Ritchie,7728,47.96
+50,Murray,Secretary of State,,Other,,1258,7.81
+50,Murray,Secretary of State,,R,Mary Kiffmeyer,6234,38.69
+50,Murray,Secretary of State,,RP,,893,5.54
+50,Murray,State Auditor,,DFL,Judi Dutcher,7900,49.03
+50,Murray,State Auditor,,MTP,,826,5.13
+50,Murray,State Auditor,,Other,,1278,7.93
+50,Murray,State Auditor,,R,Mark Ourada,6109,37.91
+50,Murray,State Treasurer,,DFL,Carol Johnson,8564,53.15
+50,Murray,State Treasurer,,Other,,1120,6.95
+50,Murray,State Treasurer,,R,Mark Meierhenry,5163,32.04
+50,Murray,State Treasurer,,RP,,1266,7.86
+51,Nicollet,Attorney General,,DFL,Mike Hatch,2449,51.63
+51,Nicollet,Attorney General,,Other,,261,5.50
+51,Nicollet,Attorney General,,R,Charlie Weaver,1874,39.51
+51,Nicollet,Attorney General,,RP,,159,3.35
+51,Nicollet,Governor,,DFL,Hubert H. Humphrey III,1620,34.16
+51,Nicollet,Governor,,Other,,71,1.50
+51,Nicollet,Governor,,R,Norm Coleman,1819,38.35
+51,Nicollet,Governor,,RP,Jesse Ventura,1233,26.00
+51,Nicollet,Secretary of State,,DFL,Mark Ritchie,2077,43.79
+51,Nicollet,Secretary of State,,Other,,278,5.86
+51,Nicollet,Secretary of State,,R,Mary Kiffmeyer,2129,44.89
+51,Nicollet,Secretary of State,,RP,,259,5.46
+51,Nicollet,State Auditor,,DFL,Judi Dutcher,2274,47.94
+51,Nicollet,State Auditor,,MTP,,230,4.85
+51,Nicollet,State Auditor,,Other,,346,7.29
+51,Nicollet,State Auditor,,R,Mark Ourada,1893,39.91
+51,Nicollet,State Treasurer,,DFL,Carol Johnson,2516,53.05
+51,Nicollet,State Treasurer,,Other,,250,5.27
+51,Nicollet,State Treasurer,,R,Mark Meierhenry,1719,36.24
+51,Nicollet,State Treasurer,,RP,,258,5.44
+52,Nobles,Attorney General,,DFL,Mike Hatch,5820,44.31
+52,Nobles,Attorney General,,Other,,866,6.59
+52,Nobles,Attorney General,,R,Charlie Weaver,5742,43.72
+52,Nobles,Attorney General,,RP,,707,5.38
+52,Nobles,Governor,,DFL,Hubert H. Humphrey III,3384,25.75
+52,Nobles,Governor,,Other,,143,1.09
+52,Nobles,Governor,,R,Norm Coleman,4345,33.06
+52,Nobles,Governor,,RP,Jesse Ventura,5272,40.11
+52,Nobles,Secretary of State,,DFL,Mark Ritchie,4738,36.07
+52,Nobles,Secretary of State,,Other,,873,6.65
+52,Nobles,Secretary of State,,R,Mary Kiffmeyer,6174,47.00
+52,Nobles,Secretary of State,,RP,,1350,10.28
+52,Nobles,State Auditor,,DFL,Judi Dutcher,4994,38.02
+52,Nobles,State Auditor,,MTP,,757,5.76
+52,Nobles,State Auditor,,Other,,1076,8.19
+52,Nobles,State Auditor,,R,Mark Ourada,6308,48.02
+52,Nobles,State Treasurer,,DFL,Carol Johnson,5536,42.15
+52,Nobles,State Treasurer,,Other,,933,7.10
+52,Nobles,State Treasurer,,R,Mark Meierhenry,5287,40.25
+52,Nobles,State Treasurer,,RP,,1379,10.50
+53,Norman,Attorney General,,DFL,Mike Hatch,3806,44.65
+53,Norman,Attorney General,,Other,,605,7.10
+53,Norman,Attorney General,,R,Charlie Weaver,3818,44.79
+53,Norman,Attorney General,,RP,,296,3.47
+53,Norman,Governor,,DFL,Hubert H. Humphrey III,2664,31.25
+53,Norman,Governor,,Other,,192,2.25
+53,Norman,Governor,,R,Norm Coleman,3265,38.30
+53,Norman,Governor,,RP,Jesse Ventura,2404,28.20
+53,Norman,Secretary of State,,DFL,Mark Ritchie,3470,40.70
+53,Norman,Secretary of State,,Other,,634,7.44
+53,Norman,Secretary of State,,R,Mary Kiffmeyer,3901,45.76
+53,Norman,Secretary of State,,RP,,520,6.10
+53,Norman,State Auditor,,DFL,Judi Dutcher,3902,45.77
+53,Norman,State Auditor,,MTP,,459,5.38
+53,Norman,State Auditor,,Other,,670,7.86
+53,Norman,State Auditor,,R,Mark Ourada,3494,40.99
+53,Norman,State Treasurer,,DFL,Carol Johnson,4076,47.81
+53,Norman,State Treasurer,,Other,,662,7.77
+53,Norman,State Treasurer,,R,Mark Meierhenry,3275,38.42
+53,Norman,State Treasurer,,RP,,512,6.01
+54,Olmsted,Attorney General,,DFL,Mike Hatch,1786,54.14
+54,Olmsted,Attorney General,,Other,,213,6.46
+54,Olmsted,Attorney General,,R,Charlie Weaver,1204,36.50
+54,Olmsted,Attorney General,,RP,,96,2.91
+54,Olmsted,Governor,,DFL,Hubert H. Humphrey III,1621,49.14
+54,Olmsted,Governor,,Other,,58,1.76
+54,Olmsted,Governor,,R,Norm Coleman,1024,31.04
+54,Olmsted,Governor,,RP,Jesse Ventura,596,18.07
+54,Olmsted,Secretary of State,,DFL,Mark Ritchie,1620,49.11
+54,Olmsted,Secretary of State,,Other,,222,6.73
+54,Olmsted,Secretary of State,,R,Mary Kiffmeyer,1303,39.50
+54,Olmsted,Secretary of State,,RP,,154,4.67
+54,Olmsted,State Auditor,,DFL,Judi Dutcher,1760,53.35
+54,Olmsted,State Auditor,,MTP,,104,3.15
+54,Olmsted,State Auditor,,Other,,271,8.21
+54,Olmsted,State Auditor,,R,Mark Ourada,1164,35.28
+54,Olmsted,State Treasurer,,DFL,Carol Johnson,1752,53.11
+54,Olmsted,State Treasurer,,Other,,229,6.94
+54,Olmsted,State Treasurer,,R,Mark Meierhenry,1141,34.59
+54,Olmsted,State Treasurer,,RP,,177,5.37
+55,Otter Tail,Attorney General,,DFL,Mike Hatch,16893,36.81
+55,Otter Tail,Attorney General,,Other,,3625,7.90
+55,Otter Tail,Attorney General,,R,Charlie Weaver,23008,50.14
+55,Otter Tail,Attorney General,,RP,,2365,5.15
+55,Otter Tail,Governor,,DFL,Hubert H. Humphrey III,12205,26.60
+55,Otter Tail,Governor,,Other,,496,1.08
+55,Otter Tail,Governor,,R,Norm Coleman,19480,42.45
+55,Otter Tail,Governor,,RP,Jesse Ventura,13710,29.88
+55,Otter Tail,Secretary of State,,DFL,Mark Ritchie,13732,29.92
+55,Otter Tail,Secretary of State,,Other,,3483,7.59
+55,Otter Tail,Secretary of State,,R,Mary Kiffmeyer,25471,55.50
+55,Otter Tail,Secretary of State,,RP,,3205,6.98
+55,Otter Tail,State Auditor,,DFL,Judi Dutcher,14160,30.86
+55,Otter Tail,State Auditor,,MTP,,2648,5.77
+55,Otter Tail,State Auditor,,Other,,4212,9.18
+55,Otter Tail,State Auditor,,R,Mark Ourada,24871,54.20
+55,Otter Tail,State Treasurer,,DFL,Carol Johnson,16149,35.19
+55,Otter Tail,State Treasurer,,Other,,4156,9.06
+55,Otter Tail,State Treasurer,,R,Mark Meierhenry,21457,46.76
+55,Otter Tail,State Treasurer,,RP,,4129,9.00
+56,Pennington,Attorney General,,DFL,Mike Hatch,9424,38.90
+56,Pennington,Attorney General,,Other,,1257,5.19
+56,Pennington,Attorney General,,R,Charlie Weaver,12730,52.55
+56,Pennington,Attorney General,,RP,,813,3.36
+56,Pennington,Governor,,DFL,Hubert H. Humphrey III,6982,28.82
+56,Pennington,Governor,,Other,,388,1.60
+56,Pennington,Governor,,R,Norm Coleman,10785,44.52
+56,Pennington,Governor,,RP,Jesse Ventura,6069,25.05
+56,Pennington,Secretary of State,,DFL,Mark Ritchie,8407,34.71
+56,Pennington,Secretary of State,,Other,,1486,6.13
+56,Pennington,Secretary of State,,R,Mary Kiffmeyer,12927,53.36
+56,Pennington,Secretary of State,,RP,,1404,5.80
+56,Pennington,State Auditor,,DFL,Judi Dutcher,9162,37.82
+56,Pennington,State Auditor,,MTP,,1044,4.31
+56,Pennington,State Auditor,,Other,,1834,7.57
+56,Pennington,State Auditor,,R,Mark Ourada,12184,50.30
+56,Pennington,State Treasurer,,DFL,Carol Johnson,9293,38.36
+56,Pennington,State Treasurer,,Other,,1568,6.47
+56,Pennington,State Treasurer,,R,Mark Meierhenry,11678,48.21
+56,Pennington,State Treasurer,,RP,,1685,6.96
+57,Pine,Attorney General,,DFL,Mike Hatch,2738,47.08
+57,Pine,Attorney General,,Other,,403,6.93
+57,Pine,Attorney General,,R,Charlie Weaver,2509,43.14
+57,Pine,Attorney General,,RP,,166,2.85
+57,Pine,Governor,,DFL,Hubert H. Humphrey III,2253,38.74
+57,Pine,Governor,,Other,,111,1.91
+57,Pine,Governor,,R,Norm Coleman,2226,38.27
+57,Pine,Governor,,RP,Jesse Ventura,1226,21.08
+57,Pine,Secretary of State,,DFL,Mark Ritchie,2645,45.48
+57,Pine,Secretary of State,,Other,,378,6.50
+57,Pine,Secretary of State,,R,Mary Kiffmeyer,2477,42.59
+57,Pine,Secretary of State,,RP,,316,5.43
+57,Pine,State Auditor,,DFL,Judi Dutcher,2863,49.23
+57,Pine,State Auditor,,MTP,,279,4.80
+57,Pine,State Auditor,,Other,,492,8.46
+57,Pine,State Auditor,,R,Mark Ourada,2182,37.52
+57,Pine,State Treasurer,,DFL,Carol Johnson,3036,52.20
+57,Pine,State Treasurer,,Other,,396,6.81
+57,Pine,State Treasurer,,R,Mark Meierhenry,2036,35.01
+57,Pine,State Treasurer,,RP,,348,5.98
+58,Pipestone,Attorney General,,DFL,Mike Hatch,5747,53.54
+58,Pipestone,Attorney General,,Other,,600,5.59
+58,Pipestone,Attorney General,,R,Charlie Weaver,3492,32.53
+58,Pipestone,Attorney General,,RP,,895,8.34
+58,Pipestone,Governor,,DFL,Hubert H. Humphrey III,2730,25.43
+58,Pipestone,Governor,,Other,,109,1.02
+58,Pipestone,Governor,,R,Norm Coleman,2868,26.72
+58,Pipestone,Governor,,RP,Jesse Ventura,5027,46.83
+58,Pipestone,Secretary of State,,DFL,Mark Ritchie,4826,44.96
+58,Pipestone,Secretary of State,,Other,,687,6.40
+58,Pipestone,Secretary of State,,R,Mary Kiffmeyer,3886,36.20
+58,Pipestone,Secretary of State,,RP,,1335,12.44
+58,Pipestone,State Auditor,,DFL,Judi Dutcher,5190,48.32
+58,Pipestone,State Auditor,,MTP,,676,6.29
+58,Pipestone,State Auditor,,Other,,967,9.00
+58,Pipestone,State Auditor,,R,Mark Ourada,3908,36.38
+58,Pipestone,State Treasurer,,DFL,Carol Johnson,5351,49.85
+58,Pipestone,State Treasurer,,Other,,779,7.26
+58,Pipestone,State Treasurer,,R,Mark Meierhenry,3269,30.45
+58,Pipestone,State Treasurer,,RP,,1335,12.44
+59,Polk,Attorney General,,DFL,Mike Hatch,2037,43.64
+59,Polk,Attorney General,,Other,,374,8.01
+59,Polk,Attorney General,,R,Charlie Weaver,2119,45.39
+59,Polk,Attorney General,,RP,,138,2.96
+59,Polk,Governor,,DFL,Hubert H. Humphrey III,1621,34.73
+59,Polk,Governor,,Other,,168,3.60
+59,Polk,Governor,,R,Norm Coleman,2127,45.57
+59,Polk,Governor,,RP,Jesse Ventura,752,16.11
+59,Polk,Secretary of State,,DFL,Mark Ritchie,1810,38.77
+59,Polk,Secretary of State,,Other,,384,8.23
+59,Polk,Secretary of State,,R,Mary Kiffmeyer,2299,49.25
+59,Polk,Secretary of State,,RP,,175,3.75
+59,Polk,State Auditor,,DFL,Judi Dutcher,1861,39.87
+59,Polk,State Auditor,,MTP,,229,4.91
+59,Polk,State Auditor,,Other,,440,9.43
+59,Polk,State Auditor,,R,Mark Ourada,2138,45.80
+59,Polk,State Treasurer,,DFL,Carol Johnson,2067,44.28
+59,Polk,State Treasurer,,Other,,373,7.99
+59,Polk,State Treasurer,,R,Mark Meierhenry,2043,43.77
+59,Polk,State Treasurer,,RP,,185,3.96
+60,Pope,Attorney General,,DFL,Mike Hatch,5426,48.52
+60,Pope,Attorney General,,Other,,675,6.04
+60,Pope,Attorney General,,R,Charlie Weaver,4813,43.04
+60,Pope,Attorney General,,RP,,269,2.41
+60,Pope,Governor,,DFL,Hubert H. Humphrey III,4770,42.65
+60,Pope,Governor,,Other,,252,2.25
+60,Pope,Governor,,R,Norm Coleman,4462,39.90
+60,Pope,Governor,,RP,Jesse Ventura,1699,15.19
+60,Pope,Secretary of State,,DFL,Mark Ritchie,4825,43.15
+60,Pope,Secretary of State,,Other,,685,6.13
+60,Pope,Secretary of State,,R,Mary Kiffmeyer,5220,46.68
+60,Pope,Secretary of State,,RP,,453,4.05
+60,Pope,State Auditor,,DFL,Judi Dutcher,5260,47.04
+60,Pope,State Auditor,,MTP,,572,5.11
+60,Pope,State Auditor,,Other,,788,7.05
+60,Pope,State Auditor,,R,Mark Ourada,4563,40.80
+60,Pope,State Treasurer,,DFL,Carol Johnson,5561,49.73
+60,Pope,State Treasurer,,Other,,602,5.38
+60,Pope,State Treasurer,,R,Mark Meierhenry,4586,41.01
+60,Pope,State Treasurer,,RP,,434,3.88
+62,Ramsey,Attorney General,,DFL,Mike Hatch,104422,48.92
+62,Ramsey,Attorney General,,Other,,16991,7.96
+62,Ramsey,Attorney General,,R,Charlie Weaver,79097,37.05
+62,Ramsey,Attorney General,,RP,,12961,6.07
+62,Ramsey,Governor,,DFL,Hubert H. Humphrey III,68151,31.91
+62,Ramsey,Governor,,Other,,2989,1.40
+62,Ramsey,Governor,,R,Norm Coleman,68770,32.20
+62,Ramsey,Governor,,RP,Jesse Ventura,73683,34.50
+62,Ramsey,Secretary of State,,DFL,Mark Ritchie,95428,44.71
+62,Ramsey,Secretary of State,,Other,,19621,9.19
+62,Ramsey,Secretary of State,,R,Mary Kiffmeyer,76834,36.00
+62,Ramsey,Secretary of State,,RP,,21549,10.10
+62,Ramsey,State Auditor,,DFL,Judi Dutcher,87894,41.18
+62,Ramsey,State Auditor,,MTP,,9802,4.59
+62,Ramsey,State Auditor,,Other,,24764,11.60
+62,Ramsey,State Auditor,,R,Mark Ourada,90954,42.62
+62,Ramsey,State Treasurer,,DFL,Carol Johnson,94413,44.24
+62,Ramsey,State Treasurer,,Other,,22946,10.75
+62,Ramsey,State Treasurer,,R,Mark Meierhenry,67912,31.82
+62,Ramsey,State Treasurer,,RP,,28133,13.18
+63,Red Lake,Attorney General,,DFL,Mike Hatch,1146,52.93
+63,Red Lake,Attorney General,,Other,,172,7.94
+63,Red Lake,Attorney General,,R,Charlie Weaver,769,35.52
+63,Red Lake,Attorney General,,RP,,78,3.60
+63,Red Lake,Governor,,DFL,Hubert H. Humphrey III,920,42.49
+63,Red Lake,Governor,,Other,,64,2.96
+63,Red Lake,Governor,,R,Norm Coleman,842,38.89
+63,Red Lake,Governor,,RP,Jesse Ventura,339,15.66
+63,Red Lake,Secretary of State,,DFL,Mark Ritchie,1037,47.90
+63,Red Lake,Secretary of State,,Other,,156,7.21
+63,Red Lake,Secretary of State,,R,Mary Kiffmeyer,858,39.63
+63,Red Lake,Secretary of State,,RP,,114,5.27
+63,Red Lake,State Auditor,,DFL,Judi Dutcher,1176,54.32
+63,Red Lake,State Auditor,,MTP,,91,4.20
+63,Red Lake,State Auditor,,Other,,215,9.93
+63,Red Lake,State Auditor,,R,Mark Ourada,683,31.55
+63,Red Lake,State Treasurer,,DFL,Carol Johnson,1157,53.44
+63,Red Lake,State Treasurer,,Other,,185,8.55
+63,Red Lake,State Treasurer,,R,Mark Meierhenry,712,32.89
+63,Red Lake,State Treasurer,,RP,,111,5.13
+64,Redwood,Attorney General,,DFL,Mike Hatch,3026,40.91
+64,Redwood,Attorney General,,Other,,390,5.27
+64,Redwood,Attorney General,,R,Charlie Weaver,3641,49.23
+64,Redwood,Attorney General,,RP,,339,4.58
+64,Redwood,Governor,,DFL,Hubert H. Humphrey III,1654,22.36
+64,Redwood,Governor,,Other,,69,0.93
+64,Redwood,Governor,,R,Norm Coleman,3140,42.46
+64,Redwood,Governor,,RP,Jesse Ventura,2533,34.25
+64,Redwood,Secretary of State,,DFL,Mark Ritchie,2328,31.48
+64,Redwood,Secretary of State,,Other,,458,6.19
+64,Redwood,Secretary of State,,R,Mary Kiffmeyer,4007,54.18
+64,Redwood,Secretary of State,,RP,,603,8.15
+64,Redwood,State Auditor,,DFL,Judi Dutcher,2496,33.75
+64,Redwood,State Auditor,,MTP,,433,5.85
+64,Redwood,State Auditor,,Other,,520,7.03
+64,Redwood,State Auditor,,R,Mark Ourada,3947,53.37
+64,Redwood,State Treasurer,,DFL,Carol Johnson,2634,35.61
+64,Redwood,State Treasurer,,Other,,480,6.49
+64,Redwood,State Treasurer,,R,Mark Meierhenry,3622,48.97
+64,Redwood,State Treasurer,,RP,,660,8.92
+65,Renville,Attorney General,,DFL,Mike Hatch,4221,50.89
+65,Renville,Attorney General,,Other,,414,4.99
+65,Renville,Attorney General,,R,Charlie Weaver,3271,39.43
+65,Renville,Attorney General,,RP,,389,4.69
+65,Renville,Governor,,DFL,Hubert H. Humphrey III,2079,25.06
+65,Renville,Governor,,Other,,119,1.43
+65,Renville,Governor,,R,Norm Coleman,2514,30.31
+65,Renville,Governor,,RP,Jesse Ventura,3583,43.19
+65,Renville,Secretary of State,,DFL,Mark Ritchie,3193,38.49
+65,Renville,Secretary of State,,Other,,606,7.31
+65,Renville,Secretary of State,,R,Mary Kiffmeyer,3706,44.68
+65,Renville,Secretary of State,,RP,,790,9.52
+65,Renville,State Auditor,,DFL,Judi Dutcher,3302,39.81
+65,Renville,State Auditor,,MTP,,407,4.91
+65,Renville,State Auditor,,Other,,638,7.69
+65,Renville,State Auditor,,R,Mark Ourada,3948,47.59
+65,Renville,State Treasurer,,DFL,Carol Johnson,3785,45.63
+65,Renville,State Treasurer,,Other,,676,8.15
+65,Renville,State Treasurer,,R,Mark Meierhenry,3012,36.31
+65,Renville,State Treasurer,,RP,,822,9.91
+66,Rice,Attorney General,,DFL,Mike Hatch,10980,47.55
+66,Rice,Attorney General,,Other,,1804,7.81
+66,Rice,Attorney General,,R,Charlie Weaver,9027,39.09
+66,Rice,Attorney General,,RP,,1282,5.55
+66,Rice,Governor,,DFL,Hubert H. Humphrey III,6518,28.23
+66,Rice,Governor,,Other,,399,1.73
+66,Rice,Governor,,R,Norm Coleman,6732,29.15
+66,Rice,Governor,,RP,Jesse Ventura,9444,40.90
+66,Rice,Secretary of State,,DFL,Mark Ritchie,9232,39.98
+66,Rice,Secretary of State,,Other,,2119,9.18
+66,Rice,Secretary of State,,R,Mary Kiffmeyer,9484,41.07
+66,Rice,Secretary of State,,RP,,2258,9.78
+66,Rice,State Auditor,,DFL,Judi Dutcher,9352,40.50
+66,Rice,State Auditor,,MTP,,1752,7.59
+66,Rice,State Auditor,,Other,,2444,10.58
+66,Rice,State Auditor,,R,Mark Ourada,9545,41.33
+66,Rice,State Treasurer,,DFL,Carol Johnson,10370,44.91
+66,Rice,State Treasurer,,Other,,2129,9.22
+66,Rice,State Treasurer,,R,Mark Meierhenry,7860,34.04
+66,Rice,State Treasurer,,RP,,2734,11.84
+67,Rock,Attorney General,,DFL,Mike Hatch,1621,41.69
+67,Rock,Attorney General,,Other,,209,5.38
+67,Rock,Attorney General,,R,Charlie Weaver,1942,49.95
+67,Rock,Attorney General,,RP,,116,2.98
+67,Rock,Governor,,DFL,Hubert H. Humphrey III,1384,35.60
+67,Rock,Governor,,Other,,76,1.95
+67,Rock,Governor,,R,Norm Coleman,1832,47.12
+67,Rock,Governor,,RP,Jesse Ventura,596,15.33
+67,Rock,Secretary of State,,DFL,Mark Ritchie,1437,36.96
+67,Rock,Secretary of State,,Other,,205,5.27
+67,Rock,Secretary of State,,R,Mary Kiffmeyer,2091,53.78
+67,Rock,Secretary of State,,RP,,155,3.99
+67,Rock,State Auditor,,DFL,Judi Dutcher,1576,40.53
+67,Rock,State Auditor,,MTP,,160,4.12
+67,Rock,State Auditor,,Other,,250,6.43
+67,Rock,State Auditor,,R,Mark Ourada,1902,48.92
+67,Rock,State Treasurer,,DFL,Carol Johnson,1691,43.49
+67,Rock,State Treasurer,,Other,,189,4.86
+67,Rock,State Treasurer,,R,Mark Meierhenry,1851,47.61
+67,Rock,State Treasurer,,RP,,157,4.04
+68,Roseau,Attorney General,,DFL,Mike Hatch,2694,44.63
+68,Roseau,Attorney General,,Other,,326,5.40
+68,Roseau,Attorney General,,R,Charlie Weaver,2792,46.26
+68,Roseau,Attorney General,,RP,,224,3.71
+68,Roseau,Governor,,DFL,Hubert H. Humphrey III,1863,30.86
+68,Roseau,Governor,,Other,,117,1.94
+68,Roseau,Governor,,R,Norm Coleman,2975,49.29
+68,Roseau,Governor,,RP,Jesse Ventura,1081,17.91
+68,Roseau,Secretary of State,,DFL,Mark Ritchie,2406,39.86
+68,Roseau,Secretary of State,,Other,,293,4.85
+68,Roseau,Secretary of State,,R,Mary Kiffmeyer,3078,50.99
+68,Roseau,Secretary of State,,RP,,259,4.29
+68,Roseau,State Auditor,,DFL,Judi Dutcher,2560,42.41
+68,Roseau,State Auditor,,MTP,,262,4.34
+68,Roseau,State Auditor,,Other,,420,6.96
+68,Roseau,State Auditor,,R,Mark Ourada,2794,46.29
+68,Roseau,State Treasurer,,DFL,Carol Johnson,2682,44.43
+68,Roseau,State Treasurer,,Other,,397,6.58
+68,Roseau,State Treasurer,,R,Mark Meierhenry,2634,43.64
+68,Roseau,State Treasurer,,RP,,323,5.35
+70,Scott,Attorney General,,DFL,Mike Hatch,14245,41.03
+70,Scott,Attorney General,,Other,,2599,7.49
+70,Scott,Attorney General,,R,Charlie Weaver,15162,43.67
+70,Scott,Attorney General,,RP,,2711,7.81
+70,Scott,Governor,,DFL,Hubert H. Humphrey III,5787,16.66
+70,Scott,Governor,,Other,,253,0.73
+70,Scott,Governor,,R,Norm Coleman,12075,34.77
+70,Scott,Governor,,RP,Jesse Ventura,16612,47.84
+70,Scott,Secretary of State,,DFL,Mark Ritchie,10728,30.90
+70,Scott,Secretary of State,,Other,,2900,8.35
+70,Scott,Secretary of State,,R,Mary Kiffmeyer,16997,48.96
+70,Scott,Secretary of State,,RP,,4092,11.79
+70,Scott,State Auditor,,DFL,Judi Dutcher,10615,30.58
+70,Scott,State Auditor,,MTP,,2230,6.42
+70,Scott,State Auditor,,Other,,3653,10.52
+70,Scott,State Auditor,,R,Mark Ourada,18219,52.48
+70,Scott,State Treasurer,,DFL,Carol Johnson,12149,34.99
+70,Scott,State Treasurer,,Other,,3280,9.45
+70,Scott,State Treasurer,,R,Mark Meierhenry,14718,42.39
+70,Scott,State Treasurer,,RP,,4570,13.16
+71,Sherburne,Attorney General,,DFL,Mike Hatch,10138,39.81
+71,Sherburne,Attorney General,,Other,,2046,8.03
+71,Sherburne,Attorney General,,R,Charlie Weaver,11412,44.81
+71,Sherburne,Attorney General,,RP,,1871,7.35
+71,Sherburne,Governor,,DFL,Hubert H. Humphrey III,4163,16.34
+71,Sherburne,Governor,,Other,,179,0.70
+71,Sherburne,Governor,,R,Norm Coleman,8139,31.94
+71,Sherburne,Governor,,RP,Jesse Ventura,13004,51.03
+71,Sherburne,Secretary of State,,DFL,Mark Ritchie,6962,27.34
+71,Sherburne,Secretary of State,,Other,,1795,7.05
+71,Sherburne,Secretary of State,,R,Mary Kiffmeyer,14178,55.67
+71,Sherburne,Secretary of State,,RP,,2532,9.94
+71,Sherburne,State Auditor,,DFL,Judi Dutcher,8349,32.78
+71,Sherburne,State Auditor,,MTP,,2005,7.87
+71,Sherburne,State Auditor,,Other,,2932,11.51
+71,Sherburne,State Auditor,,R,Mark Ourada,12181,47.83
+71,Sherburne,State Treasurer,,DFL,Carol Johnson,9457,37.13
+71,Sherburne,State Treasurer,,Other,,2678,10.52
+71,Sherburne,State Treasurer,,R,Mark Meierhenry,9856,38.70
+71,Sherburne,State Treasurer,,RP,,3476,13.65
+72,Sibley,Attorney General,,DFL,Mike Hatch,3010,42.45
+72,Sibley,Attorney General,,Other,,432,6.09
+72,Sibley,Attorney General,,R,Charlie Weaver,3149,44.41
+72,Sibley,Attorney General,,RP,,499,7.04
+72,Sibley,Governor,,DFL,Hubert H. Humphrey III,1262,17.80
+72,Sibley,Governor,,Other,,70,0.99
+72,Sibley,Governor,,R,Norm Coleman,2261,31.89
+72,Sibley,Governor,,RP,Jesse Ventura,3497,49.32
+72,Sibley,Secretary of State,,DFL,Mark Ritchie,2146,30.27
+72,Sibley,Secretary of State,,Other,,539,7.60
+72,Sibley,Secretary of State,,R,Mary Kiffmeyer,3589,50.62
+72,Sibley,Secretary of State,,RP,,816,11.51
+72,Sibley,State Auditor,,DFL,Judi Dutcher,2488,35.09
+72,Sibley,State Auditor,,MTP,,433,6.11
+72,Sibley,State Auditor,,Other,,626,8.83
+72,Sibley,State Auditor,,R,Mark Ourada,3543,49.97
+72,Sibley,State Treasurer,,DFL,Carol Johnson,2702,38.11
+72,Sibley,State Treasurer,,Other,,509,7.18
+72,Sibley,State Treasurer,,R,Mark Meierhenry,2960,41.75
+72,Sibley,State Treasurer,,RP,,919,12.96
+69,St. Louis,Attorney General,,DFL,Mike Hatch,56972,64.66
+69,St. Louis,Attorney General,,Other,,4932,5.60
+69,St. Louis,Attorney General,,R,Charlie Weaver,23501,26.67
+69,St. Louis,Attorney General,,RP,,2702,3.07
+69,St. Louis,Governor,,DFL,Hubert H. Humphrey III,41208,46.75
+69,St. Louis,Governor,,Other,,1811,2.05
+69,St. Louis,Governor,,R,Norm Coleman,24439,27.73
+69,St. Louis,Governor,,RP,Jesse Ventura,20682,23.46
+69,St. Louis,Secretary of State,,DFL,Mark Ritchie,49337,56.02
+69,St. Louis,Secretary of State,,Other,,6435,7.31
+69,St. Louis,Secretary of State,,R,Mary Kiffmeyer,26809,30.44
+69,St. Louis,Secretary of State,,RP,,5485,6.23
+69,St. Louis,State Auditor,,DFL,Judi Dutcher,51176,58.12
+69,St. Louis,State Auditor,,MTP,,5350,6.08
+69,St. Louis,State Auditor,,Other,,8083,9.18
+69,St. Louis,State Auditor,,R,Mark Ourada,23449,26.63
+69,St. Louis,State Treasurer,,DFL,Carol Johnson,52960,60.14
+69,St. Louis,State Treasurer,,Other,,7343,8.34
+69,St. Louis,State Treasurer,,R,Mark Meierhenry,22076,25.07
+69,St. Louis,State Treasurer,,RP,,5682,6.45
+73,Stearns,Attorney General,,DFL,Mike Hatch,22650,41.71
+73,Stearns,Attorney General,,Other,,4191,7.72
+73,Stearns,Attorney General,,R,Charlie Weaver,24140,44.45
+73,Stearns,Attorney General,,RP,,3327,6.13
+73,Stearns,Governor,,DFL,Hubert H. Humphrey III,11696,21.54
+73,Stearns,Governor,,Other,,765,1.41
+73,Stearns,Governor,,R,Norm Coleman,20731,38.17
+73,Stearns,Governor,,RP,Jesse Ventura,21116,38.88
+73,Stearns,Secretary of State,,DFL,Mark Ritchie,16572,30.51
+73,Stearns,Secretary of State,,Other,,4050,7.46
+73,Stearns,Secretary of State,,R,Mary Kiffmeyer,28850,53.12
+73,Stearns,Secretary of State,,RP,,4836,8.90
+73,Stearns,State Auditor,,DFL,Judi Dutcher,19120,35.21
+73,Stearns,State Auditor,,MTP,,3545,6.53
+73,Stearns,State Auditor,,Other,,6096,11.22
+73,Stearns,State Auditor,,R,Mark Ourada,25547,47.04
+73,Stearns,State Treasurer,,DFL,Carol Johnson,20581,37.90
+73,Stearns,State Treasurer,,Other,,5372,9.89
+73,Stearns,State Treasurer,,R,Mark Meierhenry,21841,40.22
+73,Stearns,State Treasurer,,RP,,6514,11.99
+74,Steele,Attorney General,,DFL,Mike Hatch,5561,39.44
+74,Steele,Attorney General,,Other,,885,6.28
+74,Steele,Attorney General,,R,Charlie Weaver,6868,48.71
+74,Steele,Attorney General,,RP,,786,5.57
+74,Steele,Governor,,DFL,Hubert H. Humphrey III,3022,21.43
+74,Steele,Governor,,Other,,120,0.85
+74,Steele,Governor,,R,Norm Coleman,5399,38.29
+74,Steele,Governor,,RP,Jesse Ventura,5559,39.43
+74,Steele,Secretary of State,,DFL,Mark Ritchie,4415,31.31
+74,Steele,Secretary of State,,Other,,1016,7.21
+74,Steele,Secretary of State,,R,Mary Kiffmeyer,7295,51.74
+74,Steele,Secretary of State,,RP,,1374,9.74
+74,Steele,State Auditor,,DFL,Judi Dutcher,4740,33.62
+74,Steele,State Auditor,,MTP,,859,6.09
+74,Steele,State Auditor,,Other,,1120,7.94
+74,Steele,State Auditor,,R,Mark Ourada,7381,52.35
+74,Steele,State Treasurer,,DFL,Carol Johnson,5365,38.05
+74,Steele,State Treasurer,,Other,,1093,7.75
+74,Steele,State Treasurer,,R,Mark Meierhenry,6188,43.89
+74,Steele,State Treasurer,,RP,,1454,10.31
+75,Stevens,Attorney General,,DFL,Mike Hatch,2285,45.00
+75,Stevens,Attorney General,,Other,,303,5.97
+75,Stevens,Attorney General,,R,Charlie Weaver,2334,45.96
+75,Stevens,Attorney General,,RP,,156,3.07
+75,Stevens,Governor,,DFL,Hubert H. Humphrey III,1507,29.63
+75,Stevens,Governor,,Other,,72,1.42
+75,Stevens,Governor,,R,Norm Coleman,2052,40.35
+75,Stevens,Governor,,RP,Jesse Ventura,1455,28.61
+75,Stevens,Secretary of State,,DFL,Mark Ritchie,1962,38.73
+75,Stevens,Secretary of State,,Other,,361,7.13
+75,Stevens,Secretary of State,,R,Mary Kiffmeyer,2414,47.65
+75,Stevens,Secretary of State,,RP,,329,6.49
+75,Stevens,State Auditor,,DFL,Judi Dutcher,2102,41.44
+75,Stevens,State Auditor,,MTP,,148,2.92
+75,Stevens,State Auditor,,Other,,449,8.85
+75,Stevens,State Auditor,,R,Mark Ourada,2373,46.79
+75,Stevens,State Treasurer,,DFL,Carol Johnson,2174,42.90
+75,Stevens,State Treasurer,,Other,,405,7.99
+75,Stevens,State Treasurer,,R,Mark Meierhenry,2176,42.94
+75,Stevens,State Treasurer,,RP,,313,6.18
+76,Swift,Attorney General,,DFL,Mike Hatch,3039,56.96
+76,Swift,Attorney General,,Other,,229,4.29
+76,Swift,Attorney General,,R,Charlie Weaver,1843,34.55
+76,Swift,Attorney General,,RP,,224,4.20
+76,Swift,Governor,,DFL,Hubert H. Humphrey III,1852,34.71
+76,Swift,Governor,,Other,,67,1.26
+76,Swift,Governor,,R,Norm Coleman,1410,26.43
+76,Swift,Governor,,RP,Jesse Ventura,2006,37.60
+76,Swift,Secretary of State,,DFL,Mark Ritchie,2606,48.85
+76,Swift,Secretary of State,,Other,,307,5.75
+76,Swift,Secretary of State,,R,Mary Kiffmeyer,2007,37.62
+76,Swift,Secretary of State,,RP,,415,7.78
+76,Swift,State Auditor,,DFL,Judi Dutcher,2818,52.82
+76,Swift,State Auditor,,MTP,,195,3.66
+76,Swift,State Auditor,,Other,,354,6.64
+76,Swift,State Auditor,,R,Mark Ourada,1968,36.89
+76,Swift,State Treasurer,,DFL,Carol Johnson,2928,54.88
+76,Swift,State Treasurer,,Other,,309,5.79
+76,Swift,State Treasurer,,R,Mark Meierhenry,1669,31.28
+76,Swift,State Treasurer,,RP,,429,8.04
+77,Todd,Attorney General,,DFL,Mike Hatch,5182,46.93
+77,Todd,Attorney General,,Other,,796,7.21
+77,Todd,Attorney General,,R,Charlie Weaver,4575,41.44
+77,Todd,Attorney General,,RP,,488,4.42
+77,Todd,Governor,,DFL,Hubert H. Humphrey III,2426,21.97
+77,Todd,Governor,,Other,,176,1.59
+77,Todd,Governor,,R,Norm Coleman,4293,38.88
+77,Todd,Governor,,RP,Jesse Ventura,4146,37.55
+77,Todd,Secretary of State,,DFL,Mark Ritchie,4192,37.97
+77,Todd,Secretary of State,,Other,,968,8.77
+77,Todd,Secretary of State,,R,Mary Kiffmeyer,4954,44.87
+77,Todd,Secretary of State,,RP,,927,8.40
+77,Todd,State Auditor,,DFL,Judi Dutcher,4473,40.51
+77,Todd,State Auditor,,MTP,,809,7.33
+77,Todd,State Auditor,,Other,,1149,10.41
+77,Todd,State Auditor,,R,Mark Ourada,4610,41.75
+77,Todd,State Treasurer,,DFL,Carol Johnson,4898,44.36
+77,Todd,State Treasurer,,Other,,1034,9.37
+77,Todd,State Treasurer,,R,Mark Meierhenry,4134,37.44
+77,Todd,State Treasurer,,RP,,975,8.83
+78,Traverse,Attorney General,,DFL,Mike Hatch,1095,50.32
+78,Traverse,Attorney General,,Other,,126,5.79
+78,Traverse,Attorney General,,R,Charlie Weaver,834,38.33
+78,Traverse,Attorney General,,RP,,121,5.56
+78,Traverse,Governor,,DFL,Hubert H. Humphrey III,721,33.13
+78,Traverse,Governor,,Other,,48,2.21
+78,Traverse,Governor,,R,Norm Coleman,733,33.69
+78,Traverse,Governor,,RP,Jesse Ventura,674,30.97
+78,Traverse,Secretary of State,,DFL,Mark Ritchie,940,43.20
+78,Traverse,Secretary of State,,Other,,149,6.85
+78,Traverse,Secretary of State,,R,Mary Kiffmeyer,954,43.84
+78,Traverse,Secretary of State,,RP,,133,6.11
+78,Traverse,State Auditor,,DFL,Judi Dutcher,1112,51.10
+78,Traverse,State Auditor,,MTP,,70,3.22
+78,Traverse,State Auditor,,Other,,167,7.67
+78,Traverse,State Auditor,,R,Mark Ourada,827,38.01
+78,Traverse,State Treasurer,,DFL,Carol Johnson,1058,48.62
+78,Traverse,State Treasurer,,Other,,165,7.58
+78,Traverse,State Treasurer,,R,Mark Meierhenry,808,37.13
+78,Traverse,State Treasurer,,RP,,145,6.66
+79,Wabasha,Attorney General,,DFL,Mike Hatch,4213,44.24
+79,Wabasha,Attorney General,,Other,,658,6.91
+79,Wabasha,Attorney General,,R,Charlie Weaver,4116,43.22
+79,Wabasha,Attorney General,,RP,,537,5.64
+79,Wabasha,Governor,,DFL,Hubert H. Humphrey III,2221,23.32
+79,Wabasha,Governor,,Other,,164,1.72
+79,Wabasha,Governor,,R,Norm Coleman,3363,35.31
+79,Wabasha,Governor,,RP,Jesse Ventura,3776,39.65
+79,Wabasha,Secretary of State,,DFL,Mark Ritchie,3380,35.49
+79,Wabasha,Secretary of State,,Other,,694,7.29
+79,Wabasha,Secretary of State,,R,Mary Kiffmeyer,4576,48.05
+79,Wabasha,Secretary of State,,RP,,874,9.18
+79,Wabasha,State Auditor,,DFL,Judi Dutcher,3619,38.00
+79,Wabasha,State Auditor,,MTP,,639,6.71
+79,Wabasha,State Auditor,,Other,,823,8.64
+79,Wabasha,State Auditor,,R,Mark Ourada,4443,46.65
+79,Wabasha,State Treasurer,,DFL,Carol Johnson,3943,41.40
+79,Wabasha,State Treasurer,,Other,,695,7.30
+79,Wabasha,State Treasurer,,R,Mark Meierhenry,3714,39.00
+79,Wabasha,State Treasurer,,RP,,1172,12.31
+80,Wadena,Attorney General,,DFL,Mike Hatch,2503,41.74
+80,Wadena,Attorney General,,Other,,278,4.64
+80,Wadena,Attorney General,,R,Charlie Weaver,2920,48.69
+80,Wadena,Attorney General,,RP,,296,4.94
+80,Wadena,Governor,,DFL,Hubert H. Humphrey III,1537,25.63
+80,Wadena,Governor,,Other,,115,1.92
+80,Wadena,Governor,,R,Norm Coleman,2563,42.74
+80,Wadena,Governor,,RP,Jesse Ventura,1782,29.71
+80,Wadena,Secretary of State,,DFL,Mark Ritchie,2116,35.28
+80,Wadena,Secretary of State,,Other,,323,5.39
+80,Wadena,Secretary of State,,R,Mary Kiffmeyer,3033,50.58
+80,Wadena,Secretary of State,,RP,,525,8.75
+80,Wadena,State Auditor,,DFL,Judi Dutcher,2184,36.42
+80,Wadena,State Auditor,,MTP,,310,5.17
+80,Wadena,State Auditor,,Other,,451,7.52
+80,Wadena,State Auditor,,R,Mark Ourada,3052,50.89
+80,Wadena,State Treasurer,,DFL,Carol Johnson,2299,38.34
+80,Wadena,State Treasurer,,Other,,403,6.72
+80,Wadena,State Treasurer,,R,Mark Meierhenry,2766,46.12
+80,Wadena,State Treasurer,,RP,,529,8.82
+81,Waseca,Attorney General,,DFL,Mike Hatch,3813,44.38
+81,Waseca,Attorney General,,Other,,522,6.08
+81,Waseca,Attorney General,,R,Charlie Weaver,3733,43.45
+81,Waseca,Attorney General,,RP,,524,6.10
+81,Waseca,Governor,,DFL,Hubert H. Humphrey III,1904,22.16
+81,Waseca,Governor,,Other,,81,0.94
+81,Waseca,Governor,,R,Norm Coleman,3064,35.66
+81,Waseca,Governor,,RP,Jesse Ventura,3543,41.24
+81,Waseca,Secretary of State,,DFL,Mark Ritchie,2806,32.66
+81,Waseca,Secretary of State,,Other,,593,6.90
+81,Waseca,Secretary of State,,R,Mary Kiffmeyer,4387,51.06
+81,Waseca,Secretary of State,,RP,,806,9.38
+81,Waseca,State Auditor,,DFL,Judi Dutcher,3081,35.86
+81,Waseca,State Auditor,,MTP,,595,6.93
+81,Waseca,State Auditor,,Other,,669,7.79
+81,Waseca,State Auditor,,R,Mark Ourada,4247,49.43
+81,Waseca,State Treasurer,,DFL,Carol Johnson,3469,40.37
+81,Waseca,State Treasurer,,Other,,617,7.18
+81,Waseca,State Treasurer,,R,Mark Meierhenry,3631,42.26
+81,Waseca,State Treasurer,,RP,,875,10.18
+82,Washington,Attorney General,,DFL,Mike Hatch,39324,42.87
+82,Washington,Attorney General,,Other,,7196,7.84
+82,Washington,Attorney General,,R,Charlie Weaver,39796,43.38
+82,Washington,Attorney General,,RP,,5421,5.91
+82,Washington,Governor,,DFL,Hubert H. Humphrey III,20205,22.02
+82,Washington,Governor,,Other,,1057,1.15
+82,Washington,Governor,,R,Norm Coleman,32565,35.50
+82,Washington,Governor,,RP,Jesse Ventura,37910,41.32
+82,Washington,Secretary of State,,DFL,Mark Ritchie,32799,35.75
+82,Washington,Secretary of State,,Other,,8381,9.13
+82,Washington,Secretary of State,,R,Mary Kiffmeyer,41135,44.83
+82,Washington,Secretary of State,,RP,,9439,10.29
+82,Washington,State Auditor,,DFL,Judi Dutcher,31446,34.28
+82,Washington,State Auditor,,MTP,,5522,6.02
+82,Washington,State Auditor,,Other,,9865,10.75
+82,Washington,State Auditor,,R,Mark Ourada,44904,48.95
+82,Washington,State Treasurer,,DFL,Carol Johnson,34428,37.53
+82,Washington,State Treasurer,,Other,,9653,10.52
+82,Washington,State Treasurer,,R,Mark Meierhenry,35697,38.91
+82,Washington,State Treasurer,,RP,,11959,13.04
+83,Watonwan,Attorney General,,DFL,Mike Hatch,2598,50.13
+83,Watonwan,Attorney General,,Other,,268,5.17
+83,Watonwan,Attorney General,,R,Charlie Weaver,2048,39.51
+83,Watonwan,Attorney General,,RP,,269,5.19
+83,Watonwan,Governor,,DFL,Hubert H. Humphrey III,1429,27.57
+83,Watonwan,Governor,,Other,,78,1.50
+83,Watonwan,Governor,,R,Norm Coleman,1711,33.01
+83,Watonwan,Governor,,RP,Jesse Ventura,1965,37.91
+83,Watonwan,Secretary of State,,DFL,Mark Ritchie,1908,36.81
+83,Watonwan,Secretary of State,,Other,,346,6.68
+83,Watonwan,Secretary of State,,R,Mary Kiffmeyer,2451,47.29
+83,Watonwan,Secretary of State,,RP,,478,9.22
+83,Watonwan,State Auditor,,DFL,Judi Dutcher,2146,41.40
+83,Watonwan,State Auditor,,MTP,,322,6.21
+83,Watonwan,State Auditor,,Other,,415,8.01
+83,Watonwan,State Auditor,,R,Mark Ourada,2300,44.38
+83,Watonwan,State Treasurer,,DFL,Carol Johnson,2786,53.75
+83,Watonwan,State Treasurer,,Other,,272,5.25
+83,Watonwan,State Treasurer,,R,Mark Meierhenry,1746,33.69
+83,Watonwan,State Treasurer,,RP,,379,7.31
+84,Wilkin,Attorney General,,DFL,Mike Hatch,1090,39.15
+84,Wilkin,Attorney General,,Other,,174,6.25
+84,Wilkin,Attorney General,,R,Charlie Weaver,1438,51.65
+84,Wilkin,Attorney General,,RP,,82,2.95
+84,Wilkin,Governor,,DFL,Hubert H. Humphrey III,892,32.04
+84,Wilkin,Governor,,Other,,72,2.59
+84,Wilkin,Governor,,R,Norm Coleman,1181,42.42
+84,Wilkin,Governor,,RP,Jesse Ventura,639,22.95
+84,Wilkin,Secretary of State,,DFL,Mark Ritchie,940,33.76
+84,Wilkin,Secretary of State,,Other,,196,7.04
+84,Wilkin,Secretary of State,,R,Mary Kiffmeyer,1505,54.06
+84,Wilkin,Secretary of State,,RP,,143,5.14
+84,Wilkin,State Auditor,,DFL,Judi Dutcher,1056,37.93
+84,Wilkin,State Auditor,,MTP,,152,5.46
+84,Wilkin,State Auditor,,Other,,233,8.37
+84,Wilkin,State Auditor,,R,Mark Ourada,1343,48.24
+84,Wilkin,State Treasurer,,DFL,Carol Johnson,1103,39.62
+84,Wilkin,State Treasurer,,Other,,186,6.68
+84,Wilkin,State Treasurer,,R,Mark Meierhenry,1340,48.13
+84,Wilkin,State Treasurer,,RP,,155,5.57
+85,Winona,Attorney General,,DFL,Mike Hatch,7731,41.70
+85,Winona,Attorney General,,Other,,1450,7.82
+85,Winona,Attorney General,,R,Charlie Weaver,8653,46.67
+85,Winona,Attorney General,,RP,,706,3.81
+85,Winona,Governor,,DFL,Hubert H. Humphrey III,6176,33.31
+85,Winona,Governor,,Other,,469,2.53
+85,Winona,Governor,,R,Norm Coleman,7856,42.37
+85,Winona,Governor,,RP,Jesse Ventura,4039,21.79
+85,Winona,Secretary of State,,DFL,Mark Ritchie,7194,38.80
+85,Winona,Secretary of State,,Other,,1456,7.85
+85,Winona,Secretary of State,,R,Mary Kiffmeyer,8843,47.70
+85,Winona,Secretary of State,,RP,,1047,5.65
+85,Winona,State Auditor,,DFL,Judi Dutcher,7575,40.86
+85,Winona,State Auditor,,MTP,,1088,5.87
+85,Winona,State Auditor,,Other,,1762,9.50
+85,Winona,State Auditor,,R,Mark Ourada,8115,43.77
+85,Winona,State Treasurer,,DFL,Carol Johnson,7966,42.97
+85,Winona,State Treasurer,,Other,,1525,8.23
+85,Winona,State Treasurer,,R,Mark Meierhenry,7716,41.62
+85,Winona,State Treasurer,,RP,,1333,7.19
+86,Wright,Attorney General,,DFL,Mike Hatch,15253,40.64
+86,Wright,Attorney General,,Other,,3097,8.25
+86,Wright,Attorney General,,R,Charlie Weaver,16289,43.40
+86,Wright,Attorney General,,RP,,2892,7.71
+86,Wright,Governor,,DFL,Hubert H. Humphrey III,6027,16.06
+86,Wright,Governor,,Other,,423,1.13
+86,Wright,Governor,,R,Norm Coleman,11957,31.86
+86,Wright,Governor,,RP,Jesse Ventura,19124,50.96
+86,Wright,Secretary of State,,DFL,Mark Ritchie,11057,29.46
+86,Wright,Secretary of State,,Other,,2745,7.31
+86,Wright,Secretary of State,,R,Mary Kiffmeyer,19584,52.18
+86,Wright,Secretary of State,,RP,,4145,11.04
+86,Wright,State Auditor,,DFL,Judi Dutcher,12548,33.43
+86,Wright,State Auditor,,MTP,,2939,7.83
+86,Wright,State Auditor,,Other,,3760,10.02
+86,Wright,State Auditor,,R,Mark Ourada,18284,48.72
+86,Wright,State Treasurer,,DFL,Carol Johnson,13565,36.14
+86,Wright,State Treasurer,,Other,,3517,9.37
+86,Wright,State Treasurer,,R,Mark Meierhenry,15140,40.34
+86,Wright,State Treasurer,,RP,,5309,14.15
+87,Yellow Medicine,Attorney General,,DFL,Mike Hatch,2933,53.46
+87,Yellow Medicine,Attorney General,,Other,,198,3.61
+87,Yellow Medicine,Attorney General,,R,Charlie Weaver,2134,38.90
+87,Yellow Medicine,Attorney General,,RP,,221,4.03
+87,Yellow Medicine,Governor,,DFL,Hubert H. Humphrey III,1838,33.50
+87,Yellow Medicine,Governor,,Other,,54,0.98
+87,Yellow Medicine,Governor,,R,Norm Coleman,1628,29.68
+87,Yellow Medicine,Governor,,RP,Jesse Ventura,1966,35.84
+87,Yellow Medicine,Secretary of State,,DFL,Mark Ritchie,2476,45.13
+87,Yellow Medicine,Secretary of State,,Other,,246,4.48
+87,Yellow Medicine,Secretary of State,,R,Mary Kiffmeyer,2389,43.55
+87,Yellow Medicine,Secretary of State,,RP,,375,6.84
+87,Yellow Medicine,State Auditor,,DFL,Judi Dutcher,2636,48.05
+87,Yellow Medicine,State Auditor,,MTP,,195,3.55
+87,Yellow Medicine,State Auditor,,Other,,319,5.81
+87,Yellow Medicine,State Auditor,,R,Mark Ourada,2336,42.58
+87,Yellow Medicine,State Treasurer,,DFL,Carol Johnson,2778,50.64
+87,Yellow Medicine,State Treasurer,,Other,,288,5.25
+87,Yellow Medicine,State Treasurer,,R,Mark Meierhenry,1956,35.65
+87,Yellow Medicine,State Treasurer,,RP,,464,8.46

@@ -1,0 +1,1567 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,Attorney General,,DFL,Hubert H. Humphrey III,4301,62.72
+01,Aitkin,Attorney General,,Other,,547,7.98
+01,Aitkin,Attorney General,,R,Mike Hatch,2010,29.31
+01,Aitkin,Governor,,DFL,John Marty,2749,40.08
+01,Aitkin,Governor,,Other,,519,7.57
+01,Aitkin,Governor,,R,Arne Carlson,3590,52.35
+01,Aitkin,Secretary of State,,DFL,John Lindner,4113,59.97
+01,Aitkin,Secretary of State,,Other,,428,6.24
+01,Aitkin,Secretary of State,,R,Joanell Dyrstad,2317,33.79
+01,Aitkin,State Auditor,,DFL,Mark Dayton,3459,50.42
+01,Aitkin,State Auditor,,Other,,611,8.91
+01,Aitkin,State Auditor,,R,Judi Dutcher,2791,40.68
+01,Aitkin,State Treasurer,,DFL,Michael McGrath,3326,48.50
+01,Aitkin,State Treasurer,,Other,,754,10.99
+01,Aitkin,State Treasurer,,R,Mike McGrath,2778,40.51
+01,Aitkin,U.S. Senate,,DFL,Ann Wynia,2991,43.61
+01,Aitkin,U.S. Senate,,Other,,637,9.29
+01,Aitkin,U.S. Senate,,R,Rod Grams,3230,47.10
+02,Anoka,Attorney General,,DFL,Hubert H. Humphrey III,57945,60.89
+02,Anoka,Attorney General,,Other,,10891,11.44
+02,Anoka,Attorney General,,R,Mike Hatch,26325,27.66
+02,Anoka,Governor,,DFL,John Marty,28906,30.33
+02,Anoka,Governor,,Other,,6098,6.40
+02,Anoka,Governor,,R,Arne Carlson,60289,63.27
+02,Anoka,Secretary of State,,DFL,John Lindner,53033,55.70
+02,Anoka,Secretary of State,,Other,,7397,7.77
+02,Anoka,Secretary of State,,R,Joanell Dyrstad,34782,36.53
+02,Anoka,State Auditor,,DFL,Mark Dayton,37935,39.86
+02,Anoka,State Auditor,,Other,,10837,11.39
+02,Anoka,State Auditor,,R,Judi Dutcher,46393,48.75
+02,Anoka,State Treasurer,,DFL,Michael McGrath,40121,42.19
+02,Anoka,State Treasurer,,Other,,14979,15.75
+02,Anoka,State Treasurer,,R,Mike McGrath,40006,42.06
+02,Anoka,U.S. Senate,,DFL,Ann Wynia,38359,40.31
+02,Anoka,U.S. Senate,,Other,,9359,9.84
+02,Anoka,U.S. Senate,,R,Rod Grams,47432,49.85
+03,Becker,Attorney General,,DFL,Hubert H. Humphrey III,6643,58.78
+03,Becker,Attorney General,,Other,,984,8.71
+03,Becker,Attorney General,,R,Mike Hatch,3674,32.51
+03,Becker,Governor,,DFL,John Marty,3446,30.49
+03,Becker,Governor,,Other,,817,7.23
+03,Becker,Governor,,R,Arne Carlson,7038,62.28
+03,Becker,Secretary of State,,DFL,John Lindner,6111,54.07
+03,Becker,Secretary of State,,Other,,715,6.33
+03,Becker,Secretary of State,,R,Joanell Dyrstad,4475,39.60
+03,Becker,State Auditor,,DFL,Mark Dayton,4957,43.86
+03,Becker,State Auditor,,Other,,1225,10.84
+03,Becker,State Auditor,,R,Judi Dutcher,5119,45.30
+03,Becker,State Treasurer,,DFL,Michael McGrath,4424,39.15
+03,Becker,State Treasurer,,Other,,1460,12.92
+03,Becker,State Treasurer,,R,Mike McGrath,5417,47.93
+03,Becker,U.S. Senate,,DFL,Ann Wynia,4425,39.16
+03,Becker,U.S. Senate,,Other,,649,5.74
+03,Becker,U.S. Senate,,R,Rod Grams,6227,55.10
+04,Beltrami,Attorney General,,DFL,Hubert H. Humphrey III,7402,59.74
+04,Beltrami,Attorney General,,Other,,1129,9.11
+04,Beltrami,Attorney General,,R,Mike Hatch,3859,31.15
+04,Beltrami,Governor,,DFL,John Marty,5215,42.09
+04,Beltrami,Governor,,Other,,1037,8.37
+04,Beltrami,Governor,,R,Arne Carlson,6138,49.54
+04,Beltrami,Secretary of State,,DFL,John Lindner,7029,56.73
+04,Beltrami,Secretary of State,,Other,,762,6.15
+04,Beltrami,Secretary of State,,R,Joanell Dyrstad,4599,37.12
+04,Beltrami,State Auditor,,DFL,Mark Dayton,5950,48.02
+04,Beltrami,State Auditor,,Other,,1139,9.19
+04,Beltrami,State Auditor,,R,Judi Dutcher,5301,42.78
+04,Beltrami,State Treasurer,,DFL,Michael McGrath,5769,46.56
+04,Beltrami,State Treasurer,,Other,,1424,11.49
+04,Beltrami,State Treasurer,,R,Mike McGrath,5197,41.95
+04,Beltrami,U.S. Senate,,DFL,Ann Wynia,5353,43.20
+04,Beltrami,U.S. Senate,,Other,,816,6.59
+04,Beltrami,U.S. Senate,,R,Rod Grams,6221,50.21
+05,Benton,Attorney General,,DFL,Hubert H. Humphrey III,6406,60.38
+05,Benton,Attorney General,,Other,,1028,9.69
+05,Benton,Attorney General,,R,Mike Hatch,3175,29.93
+05,Benton,Governor,,DFL,John Marty,3589,33.83
+05,Benton,Governor,,Other,,844,7.96
+05,Benton,Governor,,R,Arne Carlson,6176,58.21
+05,Benton,Secretary of State,,DFL,John Lindner,6096,57.46
+05,Benton,Secretary of State,,Other,,720,6.79
+05,Benton,Secretary of State,,R,Joanell Dyrstad,3793,35.75
+05,Benton,State Auditor,,DFL,Mark Dayton,4368,41.17
+05,Benton,State Auditor,,Other,,1272,11.99
+05,Benton,State Auditor,,R,Judi Dutcher,4969,46.84
+05,Benton,State Treasurer,,DFL,Michael McGrath,4257,40.13
+05,Benton,State Treasurer,,Other,,1563,14.73
+05,Benton,State Treasurer,,R,Mike McGrath,4789,45.14
+05,Benton,U.S. Senate,,DFL,Ann Wynia,3702,34.89
+05,Benton,U.S. Senate,,Other,,839,7.91
+05,Benton,U.S. Senate,,R,Rod Grams,6068,57.20
+06,Big Stone,Attorney General,,DFL,Hubert H. Humphrey III,1997,67.26
+06,Big Stone,Attorney General,,Other,,179,6.03
+06,Big Stone,Attorney General,,R,Mike Hatch,793,26.71
+06,Big Stone,Governor,,DFL,John Marty,1375,46.31
+06,Big Stone,Governor,,Other,,153,5.15
+06,Big Stone,Governor,,R,Arne Carlson,1441,48.53
+06,Big Stone,Secretary of State,,DFL,John Lindner,1939,65.31
+06,Big Stone,Secretary of State,,Other,,140,4.72
+06,Big Stone,Secretary of State,,R,Joanell Dyrstad,890,29.98
+06,Big Stone,State Auditor,,DFL,Mark Dayton,1648,55.51
+06,Big Stone,State Auditor,,Other,,216,7.28
+06,Big Stone,State Auditor,,R,Judi Dutcher,1105,37.22
+06,Big Stone,State Treasurer,,DFL,Michael McGrath,1599,53.86
+06,Big Stone,State Treasurer,,Other,,235,7.92
+06,Big Stone,State Treasurer,,R,Mike McGrath,1135,38.23
+06,Big Stone,U.S. Senate,,DFL,Ann Wynia,1340,45.13
+06,Big Stone,U.S. Senate,,Other,,175,5.89
+06,Big Stone,U.S. Senate,,R,Rod Grams,1454,48.97
+07,Blue Earth,Attorney General,,DFL,Hubert H. Humphrey III,12240,61.43
+07,Blue Earth,Attorney General,,Other,,1969,9.88
+07,Blue Earth,Attorney General,,R,Mike Hatch,5716,28.69
+07,Blue Earth,Governor,,DFL,John Marty,7383,37.05
+07,Blue Earth,Governor,,Other,,1854,9.30
+07,Blue Earth,Governor,,R,Arne Carlson,10688,53.64
+07,Blue Earth,Secretary of State,,DFL,John Lindner,11584,58.13
+07,Blue Earth,Secretary of State,,Other,,1211,6.08
+07,Blue Earth,Secretary of State,,R,Joanell Dyrstad,7133,35.79
+07,Blue Earth,State Auditor,,DFL,Mark Dayton,8688,43.60
+07,Blue Earth,State Auditor,,Other,,1987,9.97
+07,Blue Earth,State Auditor,,R,Judi Dutcher,9250,46.42
+07,Blue Earth,State Treasurer,,DFL,Michael McGrath,8628,43.30
+07,Blue Earth,State Treasurer,,Other,,2686,13.48
+07,Blue Earth,State Treasurer,,R,Mike McGrath,8611,43.22
+07,Blue Earth,U.S. Senate,,DFL,Ann Wynia,8085,40.58
+07,Blue Earth,U.S. Senate,,Other,,1365,6.85
+07,Blue Earth,U.S. Senate,,R,Rod Grams,10475,52.57
+08,Brown,Attorney General,,DFL,Hubert H. Humphrey III,5984,58.02
+08,Brown,Attorney General,,Other,,1010,9.79
+08,Brown,Attorney General,,R,Mike Hatch,3320,32.19
+08,Brown,Governor,,DFL,John Marty,2976,28.85
+08,Brown,Governor,,Other,,781,7.57
+08,Brown,Governor,,R,Arne Carlson,6557,63.57
+08,Brown,Secretary of State,,DFL,John Lindner,5569,53.99
+08,Brown,Secretary of State,,Other,,656,6.36
+08,Brown,Secretary of State,,R,Joanell Dyrstad,4089,39.65
+08,Brown,State Auditor,,DFL,Mark Dayton,4054,39.31
+08,Brown,State Auditor,,Other,,1011,9.80
+08,Brown,State Auditor,,R,Judi Dutcher,5249,50.89
+08,Brown,State Treasurer,,DFL,Michael McGrath,3743,36.29
+08,Brown,State Treasurer,,Other,,1339,12.98
+08,Brown,State Treasurer,,R,Mike McGrath,5232,50.73
+08,Brown,U.S. Senate,,DFL,Ann Wynia,3277,31.77
+08,Brown,U.S. Senate,,Other,,578,5.60
+08,Brown,U.S. Senate,,R,Rod Grams,6459,62.62
+09,Carlton,Attorney General,,DFL,Hubert H. Humphrey III,8799,72.62
+09,Carlton,Attorney General,,Other,,822,6.78
+09,Carlton,Attorney General,,R,Mike Hatch,2496,20.60
+09,Carlton,Governor,,DFL,John Marty,5892,48.63
+09,Carlton,Governor,,Other,,831,6.86
+09,Carlton,Governor,,R,Arne Carlson,5394,44.52
+09,Carlton,Secretary of State,,DFL,John Lindner,8234,67.95
+09,Carlton,Secretary of State,,Other,,679,5.60
+09,Carlton,Secretary of State,,R,Joanell Dyrstad,3204,26.44
+09,Carlton,State Auditor,,DFL,Mark Dayton,6956,57.41
+09,Carlton,State Auditor,,Other,,1230,10.15
+09,Carlton,State Auditor,,R,Judi Dutcher,3931,32.44
+09,Carlton,State Treasurer,,DFL,Michael McGrath,6862,56.63
+09,Carlton,State Treasurer,,Other,,1291,10.65
+09,Carlton,State Treasurer,,R,Mike McGrath,3964,32.71
+09,Carlton,U.S. Senate,,DFL,Ann Wynia,6366,52.54
+09,Carlton,U.S. Senate,,Other,,879,7.25
+09,Carlton,U.S. Senate,,R,Rod Grams,4872,40.21
+10,Carver,Attorney General,,DFL,Hubert H. Humphrey III,10836,51.99
+10,Carver,Attorney General,,Other,,2292,11.00
+10,Carver,Attorney General,,R,Mike Hatch,7716,37.02
+10,Carver,Governor,,DFL,John Marty,4309,20.67
+10,Carver,Governor,,Other,,1273,6.11
+10,Carver,Governor,,R,Arne Carlson,15262,73.22
+10,Carver,Secretary of State,,DFL,John Lindner,10162,48.75
+10,Carver,Secretary of State,,Other,,1272,6.10
+10,Carver,Secretary of State,,R,Joanell Dyrstad,9410,45.14
+10,Carver,State Auditor,,DFL,Mark Dayton,6455,30.97
+10,Carver,State Auditor,,Other,,2154,10.33
+10,Carver,State Auditor,,R,Judi Dutcher,12235,58.70
+10,Carver,State Treasurer,,DFL,Michael McGrath,6613,31.73
+10,Carver,State Treasurer,,Other,,2958,14.19
+10,Carver,State Treasurer,,R,Mike McGrath,11273,54.08
+10,Carver,U.S. Senate,,DFL,Ann Wynia,6490,31.14
+10,Carver,U.S. Senate,,Other,,1854,8.89
+10,Carver,U.S. Senate,,R,Rod Grams,12500,59.97
+11,Cass,Attorney General,,DFL,Hubert H. Humphrey III,5762,57.26
+11,Cass,Attorney General,,Other,,884,8.78
+11,Cass,Attorney General,,R,Mike Hatch,3417,33.96
+11,Cass,Governor,,DFL,John Marty,3342,33.21
+11,Cass,Governor,,Other,,569,5.65
+11,Cass,Governor,,R,Arne Carlson,6152,61.13
+11,Cass,Secretary of State,,DFL,John Lindner,5307,52.74
+11,Cass,Secretary of State,,Other,,590,5.86
+11,Cass,Secretary of State,,R,Joanell Dyrstad,4166,41.40
+11,Cass,State Auditor,,DFL,Mark Dayton,4376,43.49
+11,Cass,State Auditor,,Other,,1005,9.99
+11,Cass,State Auditor,,R,Judi Dutcher,4682,46.53
+11,Cass,State Treasurer,,DFL,Michael McGrath,4095,40.69
+11,Cass,State Treasurer,,Other,,1117,11.10
+11,Cass,State Treasurer,,R,Mike McGrath,4851,48.21
+11,Cass,U.S. Senate,,DFL,Ann Wynia,3898,38.74
+11,Cass,U.S. Senate,,Other,,650,6.46
+11,Cass,U.S. Senate,,R,Rod Grams,5515,54.80
+12,Chippewa,Attorney General,,DFL,Hubert H. Humphrey III,3628,64.41
+12,Chippewa,Attorney General,,Other,,412,7.31
+12,Chippewa,Attorney General,,R,Mike Hatch,1593,28.28
+12,Chippewa,Governor,,DFL,John Marty,1995,35.42
+12,Chippewa,Governor,,Other,,324,5.75
+12,Chippewa,Governor,,R,Arne Carlson,3314,58.83
+12,Chippewa,Secretary of State,,DFL,John Lindner,3405,60.45
+12,Chippewa,Secretary of State,,Other,,252,4.47
+12,Chippewa,Secretary of State,,R,Joanell Dyrstad,1976,35.08
+12,Chippewa,State Auditor,,DFL,Mark Dayton,2710,48.11
+12,Chippewa,State Auditor,,Other,,458,8.13
+12,Chippewa,State Auditor,,R,Judi Dutcher,2465,43.76
+12,Chippewa,State Treasurer,,DFL,Michael McGrath,2646,46.97
+12,Chippewa,State Treasurer,,Other,,593,10.53
+12,Chippewa,State Treasurer,,R,Mike McGrath,2394,42.50
+12,Chippewa,U.S. Senate,,DFL,Ann Wynia,2341,41.56
+12,Chippewa,U.S. Senate,,Other,,343,6.09
+12,Chippewa,U.S. Senate,,R,Rod Grams,2949,52.35
+13,Chisago,Attorney General,,DFL,Hubert H. Humphrey III,8511,61.07
+13,Chisago,Attorney General,,Other,,1478,10.60
+13,Chisago,Attorney General,,R,Mike Hatch,3948,28.33
+13,Chisago,Governor,,DFL,John Marty,4351,31.22
+13,Chisago,Governor,,Other,,897,6.44
+13,Chisago,Governor,,R,Arne Carlson,8689,62.34
+13,Chisago,Secretary of State,,DFL,John Lindner,8095,58.08
+13,Chisago,Secretary of State,,Other,,815,5.85
+13,Chisago,Secretary of State,,R,Joanell Dyrstad,5027,36.07
+13,Chisago,State Auditor,,DFL,Mark Dayton,6072,43.57
+13,Chisago,State Auditor,,Other,,1325,9.51
+13,Chisago,State Auditor,,R,Judi Dutcher,6540,46.93
+13,Chisago,State Treasurer,,DFL,Michael McGrath,6129,43.98
+13,Chisago,State Treasurer,,Other,,1661,11.92
+13,Chisago,State Treasurer,,R,Mike McGrath,6147,44.11
+13,Chisago,U.S. Senate,,DFL,Ann Wynia,5568,39.95
+13,Chisago,U.S. Senate,,Other,,1548,11.11
+13,Chisago,U.S. Senate,,R,Rod Grams,6821,48.94
+14,Clay,Attorney General,,DFL,Hubert H. Humphrey III,10605,66.48
+14,Clay,Attorney General,,Other,,1056,6.62
+14,Clay,Attorney General,,R,Mike Hatch,4290,26.89
+14,Clay,Governor,,DFL,John Marty,4437,27.82
+14,Clay,Governor,,Other,,792,4.97
+14,Clay,Governor,,R,Arne Carlson,10722,67.22
+14,Clay,Secretary of State,,DFL,John Lindner,9111,57.12
+14,Clay,Secretary of State,,Other,,839,5.26
+14,Clay,Secretary of State,,R,Joanell Dyrstad,6001,37.62
+14,Clay,State Auditor,,DFL,Mark Dayton,7360,46.14
+14,Clay,State Auditor,,Other,,1394,8.74
+14,Clay,State Auditor,,R,Judi Dutcher,7197,45.12
+14,Clay,State Treasurer,,DFL,Michael McGrath,6558,41.11
+14,Clay,State Treasurer,,Other,,1892,11.86
+14,Clay,State Treasurer,,R,Mike McGrath,7501,47.03
+14,Clay,U.S. Senate,,DFL,Ann Wynia,7163,44.91
+14,Clay,U.S. Senate,,Other,,805,5.05
+14,Clay,U.S. Senate,,R,Rod Grams,7983,50.05
+15,Clearwater,Attorney General,,DFL,Hubert H. Humphrey III,1797,55.95
+15,Clearwater,Attorney General,,Other,,297,9.25
+15,Clearwater,Attorney General,,R,Mike Hatch,1118,34.81
+15,Clearwater,Governor,,DFL,John Marty,1241,38.64
+15,Clearwater,Governor,,Other,,271,8.44
+15,Clearwater,Governor,,R,Arne Carlson,1700,52.93
+15,Clearwater,Secretary of State,,DFL,John Lindner,1765,54.95
+15,Clearwater,Secretary of State,,Other,,185,5.76
+15,Clearwater,Secretary of State,,R,Joanell Dyrstad,1262,39.29
+15,Clearwater,State Auditor,,DFL,Mark Dayton,1551,48.29
+15,Clearwater,State Auditor,,Other,,252,7.85
+15,Clearwater,State Auditor,,R,Judi Dutcher,1409,43.87
+15,Clearwater,State Treasurer,,DFL,Michael McGrath,1445,44.99
+15,Clearwater,State Treasurer,,Other,,362,11.27
+15,Clearwater,State Treasurer,,R,Mike McGrath,1405,43.74
+15,Clearwater,U.S. Senate,,DFL,Ann Wynia,1318,41.03
+15,Clearwater,U.S. Senate,,Other,,223,6.94
+15,Clearwater,U.S. Senate,,R,Rod Grams,1671,52.02
+16,Cook,Attorney General,,DFL,Hubert H. Humphrey III,1510,60.96
+16,Cook,Attorney General,,Other,,247,9.97
+16,Cook,Attorney General,,R,Mike Hatch,720,29.07
+16,Cook,Governor,,DFL,John Marty,943,38.07
+16,Cook,Governor,,Other,,200,8.07
+16,Cook,Governor,,R,Arne Carlson,1334,53.86
+16,Cook,Secretary of State,,DFL,John Lindner,1474,59.51
+16,Cook,Secretary of State,,Other,,174,7.02
+16,Cook,Secretary of State,,R,Joanell Dyrstad,829,33.47
+16,Cook,State Auditor,,DFL,Mark Dayton,1152,46.51
+16,Cook,State Auditor,,Other,,290,11.71
+16,Cook,State Auditor,,R,Judi Dutcher,1035,41.78
+16,Cook,State Treasurer,,DFL,Michael McGrath,1085,43.80
+16,Cook,State Treasurer,,Other,,346,13.97
+16,Cook,State Treasurer,,R,Mike McGrath,1046,42.23
+16,Cook,U.S. Senate,,DFL,Ann Wynia,1163,46.95
+16,Cook,U.S. Senate,,Other,,172,6.94
+16,Cook,U.S. Senate,,R,Rod Grams,1142,46.10
+17,Cottonwood,Attorney General,,DFL,Hubert H. Humphrey III,3105,57.39
+17,Cottonwood,Attorney General,,Other,,588,10.87
+17,Cottonwood,Attorney General,,R,Mike Hatch,1717,31.74
+17,Cottonwood,Governor,,DFL,John Marty,1847,34.14
+17,Cottonwood,Governor,,Other,,664,12.27
+17,Cottonwood,Governor,,R,Arne Carlson,2899,53.59
+17,Cottonwood,Secretary of State,,DFL,John Lindner,3004,55.53
+17,Cottonwood,Secretary of State,,Other,,298,5.51
+17,Cottonwood,Secretary of State,,R,Joanell Dyrstad,2108,38.96
+17,Cottonwood,State Auditor,,DFL,Mark Dayton,2059,38.06
+17,Cottonwood,State Auditor,,Other,,389,7.19
+17,Cottonwood,State Auditor,,R,Judi Dutcher,2962,54.75
+17,Cottonwood,State Treasurer,,DFL,Michael McGrath,2275,42.05
+17,Cottonwood,State Treasurer,,Other,,700,12.94
+17,Cottonwood,State Treasurer,,R,Mike McGrath,2435,45.01
+17,Cottonwood,U.S. Senate,,DFL,Ann Wynia,1970,36.41
+17,Cottonwood,U.S. Senate,,Other,,214,3.96
+17,Cottonwood,U.S. Senate,,R,Rod Grams,3226,59.63
+18,Crow Wing,Attorney General,,DFL,Hubert H. Humphrey III,12128,60.22
+18,Crow Wing,Attorney General,,Other,,1605,7.97
+18,Crow Wing,Attorney General,,R,Mike Hatch,6406,31.81
+18,Crow Wing,Governor,,DFL,John Marty,6694,33.24
+18,Crow Wing,Governor,,Other,,1131,5.62
+18,Crow Wing,Governor,,R,Arne Carlson,12314,61.15
+18,Crow Wing,Secretary of State,,DFL,John Lindner,10603,52.65
+18,Crow Wing,Secretary of State,,Other,,1088,5.40
+18,Crow Wing,Secretary of State,,R,Joanell Dyrstad,8448,41.95
+18,Crow Wing,State Auditor,,DFL,Mark Dayton,8698,43.19
+18,Crow Wing,State Auditor,,Other,,2219,11.02
+18,Crow Wing,State Auditor,,R,Judi Dutcher,9222,45.79
+18,Crow Wing,State Treasurer,,DFL,Michael McGrath,8212,40.78
+18,Crow Wing,State Treasurer,,Other,,2357,11.70
+18,Crow Wing,State Treasurer,,R,Mike McGrath,9570,47.52
+18,Crow Wing,U.S. Senate,,DFL,Ann Wynia,7630,37.89
+18,Crow Wing,U.S. Senate,,Other,,1295,6.43
+18,Crow Wing,U.S. Senate,,R,Rod Grams,11214,55.68
+19,Dakota,Attorney General,,DFL,Hubert H. Humphrey III,72615,61.65
+19,Dakota,Attorney General,,Other,,13129,11.15
+19,Dakota,Attorney General,,R,Mike Hatch,32047,27.21
+19,Dakota,Governor,,DFL,John Marty,29969,25.44
+19,Dakota,Governor,,Other,,6347,5.39
+19,Dakota,Governor,,R,Arne Carlson,81475,69.17
+19,Dakota,Secretary of State,,DFL,John Lindner,65725,55.80
+19,Dakota,Secretary of State,,Other,,7004,5.95
+19,Dakota,Secretary of State,,R,Joanell Dyrstad,45062,38.26
+19,Dakota,State Auditor,,DFL,Mark Dayton,44842,38.07
+19,Dakota,State Auditor,,Other,,11359,9.64
+19,Dakota,State Auditor,,R,Judi Dutcher,61590,52.29
+19,Dakota,State Treasurer,,DFL,Michael McGrath,46648,39.60
+19,Dakota,State Treasurer,,Other,,16786,14.25
+19,Dakota,State Treasurer,,R,Mike McGrath,54357,46.15
+19,Dakota,U.S. Senate,,DFL,Ann Wynia,48296,41.00
+19,Dakota,U.S. Senate,,Other,,10239,8.69
+19,Dakota,U.S. Senate,,R,Rod Grams,59256,50.31
+20,Dodge,Attorney General,,DFL,Hubert H. Humphrey III,3715,58.80
+20,Dodge,Attorney General,,Other,,495,7.83
+20,Dodge,Attorney General,,R,Mike Hatch,2108,33.36
+20,Dodge,Governor,,DFL,John Marty,1693,26.80
+20,Dodge,Governor,,Other,,422,6.68
+20,Dodge,Governor,,R,Arne Carlson,4203,66.52
+20,Dodge,Secretary of State,,DFL,John Lindner,3409,53.96
+20,Dodge,Secretary of State,,Other,,423,6.70
+20,Dodge,Secretary of State,,R,Joanell Dyrstad,2486,39.35
+20,Dodge,State Auditor,,DFL,Mark Dayton,2395,37.91
+20,Dodge,State Auditor,,Other,,721,11.41
+20,Dodge,State Auditor,,R,Judi Dutcher,3202,50.68
+20,Dodge,State Treasurer,,DFL,Michael McGrath,2359,37.34
+20,Dodge,State Treasurer,,Other,,790,12.50
+20,Dodge,State Treasurer,,R,Mike McGrath,3169,50.16
+20,Dodge,U.S. Senate,,DFL,Ann Wynia,2280,36.09
+20,Dodge,U.S. Senate,,Other,,498,7.88
+20,Dodge,U.S. Senate,,R,Rod Grams,3540,56.03
+21,Douglas,Attorney General,,DFL,Hubert H. Humphrey III,7015,56.69
+21,Douglas,Attorney General,,Other,,1015,8.20
+21,Douglas,Attorney General,,R,Mike Hatch,4344,35.11
+21,Douglas,Governor,,DFL,John Marty,3926,31.73
+21,Douglas,Governor,,Other,,622,5.03
+21,Douglas,Governor,,R,Arne Carlson,7826,63.25
+21,Douglas,Secretary of State,,DFL,John Lindner,6413,51.83
+21,Douglas,Secretary of State,,Other,,554,4.48
+21,Douglas,Secretary of State,,R,Joanell Dyrstad,5407,43.70
+21,Douglas,State Auditor,,DFL,Mark Dayton,4653,37.60
+21,Douglas,State Auditor,,Other,,943,7.62
+21,Douglas,State Auditor,,R,Judi Dutcher,6778,54.78
+21,Douglas,State Treasurer,,DFL,Michael McGrath,4497,36.34
+21,Douglas,State Treasurer,,Other,,1337,10.80
+21,Douglas,State Treasurer,,R,Mike McGrath,6540,52.85
+21,Douglas,U.S. Senate,,DFL,Ann Wynia,4041,32.66
+21,Douglas,U.S. Senate,,Other,,666,5.38
+21,Douglas,U.S. Senate,,R,Rod Grams,7667,61.96
+22,Faribault,Attorney General,,DFL,Hubert H. Humphrey III,4389,58.64
+22,Faribault,Attorney General,,Other,,535,7.15
+22,Faribault,Attorney General,,R,Mike Hatch,2561,34.22
+22,Faribault,Governor,,DFL,John Marty,2332,31.16
+22,Faribault,Governor,,Other,,420,5.61
+22,Faribault,Governor,,R,Arne Carlson,4733,63.23
+22,Faribault,Secretary of State,,DFL,John Lindner,4221,56.39
+22,Faribault,Secretary of State,,Other,,318,4.25
+22,Faribault,Secretary of State,,R,Joanell Dyrstad,2946,39.36
+22,Faribault,State Auditor,,DFL,Mark Dayton,3285,43.89
+22,Faribault,State Auditor,,Other,,500,6.68
+22,Faribault,State Auditor,,R,Judi Dutcher,3700,49.43
+22,Faribault,State Treasurer,,DFL,Michael McGrath,3218,42.99
+22,Faribault,State Treasurer,,Other,,648,8.66
+22,Faribault,State Treasurer,,R,Mike McGrath,3619,48.35
+22,Faribault,U.S. Senate,,DFL,Ann Wynia,2603,34.78
+22,Faribault,U.S. Senate,,Other,,462,6.17
+22,Faribault,U.S. Senate,,R,Rod Grams,4420,59.05
+23,Fillmore,Attorney General,,DFL,Hubert H. Humphrey III,4409,55.15
+23,Fillmore,Attorney General,,Other,,836,10.46
+23,Fillmore,Attorney General,,R,Mike Hatch,2750,34.40
+23,Fillmore,Governor,,DFL,John Marty,2001,25.03
+23,Fillmore,Governor,,Other,,577,7.22
+23,Fillmore,Governor,,R,Arne Carlson,5417,67.75
+23,Fillmore,Secretary of State,,DFL,John Lindner,4144,51.83
+23,Fillmore,Secretary of State,,Other,,506,6.33
+23,Fillmore,Secretary of State,,R,Joanell Dyrstad,3345,41.84
+23,Fillmore,State Auditor,,DFL,Mark Dayton,2974,37.20
+23,Fillmore,State Auditor,,Other,,876,10.96
+23,Fillmore,State Auditor,,R,Judi Dutcher,4145,51.84
+23,Fillmore,State Treasurer,,DFL,Michael McGrath,2932,36.67
+23,Fillmore,State Treasurer,,Other,,1130,14.13
+23,Fillmore,State Treasurer,,R,Mike McGrath,3933,49.19
+23,Fillmore,U.S. Senate,,DFL,Ann Wynia,3213,40.19
+23,Fillmore,U.S. Senate,,Other,,504,6.30
+23,Fillmore,U.S. Senate,,R,Rod Grams,4278,53.51
+24,Freeborn,Attorney General,,DFL,Hubert H. Humphrey III,9290,67.94
+24,Freeborn,Attorney General,,Other,,887,6.49
+24,Freeborn,Attorney General,,R,Mike Hatch,3496,25.57
+24,Freeborn,Governor,,DFL,John Marty,4592,33.58
+24,Freeborn,Governor,,Other,,608,4.45
+24,Freeborn,Governor,,R,Arne Carlson,8473,61.97
+24,Freeborn,Secretary of State,,DFL,John Lindner,8689,63.55
+24,Freeborn,Secretary of State,,Other,,553,4.04
+24,Freeborn,Secretary of State,,R,Joanell Dyrstad,4431,32.41
+24,Freeborn,State Auditor,,DFL,Mark Dayton,6458,47.23
+24,Freeborn,State Auditor,,Other,,1103,8.07
+24,Freeborn,State Auditor,,R,Judi Dutcher,6112,44.70
+24,Freeborn,State Treasurer,,DFL,Michael McGrath,6806,49.78
+24,Freeborn,State Treasurer,,Other,,1244,9.10
+24,Freeborn,State Treasurer,,R,Mike McGrath,5623,41.12
+24,Freeborn,U.S. Senate,,DFL,Ann Wynia,6293,46.03
+24,Freeborn,U.S. Senate,,Other,,898,6.57
+24,Freeborn,U.S. Senate,,R,Rod Grams,6482,47.41
+25,Goodhue,Attorney General,,DFL,Hubert H. Humphrey III,10159,61.88
+25,Goodhue,Attorney General,,Other,,1505,9.17
+25,Goodhue,Attorney General,,R,Mike Hatch,4752,28.95
+25,Goodhue,Governor,,DFL,John Marty,4398,26.79
+25,Goodhue,Governor,,Other,,819,4.99
+25,Goodhue,Governor,,R,Arne Carlson,11199,68.22
+25,Goodhue,Secretary of State,,DFL,John Lindner,9417,57.36
+25,Goodhue,Secretary of State,,Other,,797,4.86
+25,Goodhue,Secretary of State,,R,Joanell Dyrstad,6202,37.78
+25,Goodhue,State Auditor,,DFL,Mark Dayton,6451,39.30
+25,Goodhue,State Auditor,,Other,,1467,8.94
+25,Goodhue,State Auditor,,R,Judi Dutcher,8498,51.77
+25,Goodhue,State Treasurer,,DFL,Michael McGrath,6691,40.76
+25,Goodhue,State Treasurer,,Other,,1813,11.04
+25,Goodhue,State Treasurer,,R,Mike McGrath,7912,48.20
+25,Goodhue,U.S. Senate,,DFL,Ann Wynia,6419,39.10
+25,Goodhue,U.S. Senate,,Other,,1162,7.08
+25,Goodhue,U.S. Senate,,R,Rod Grams,8835,53.82
+26,Grant,Attorney General,,DFL,Hubert H. Humphrey III,2101,65.49
+26,Grant,Attorney General,,Other,,237,7.39
+26,Grant,Attorney General,,R,Mike Hatch,870,27.12
+26,Grant,Governor,,DFL,John Marty,1275,39.74
+26,Grant,Governor,,Other,,163,5.08
+26,Grant,Governor,,R,Arne Carlson,1770,55.17
+26,Grant,Secretary of State,,DFL,John Lindner,1964,61.22
+26,Grant,Secretary of State,,Other,,171,5.33
+26,Grant,Secretary of State,,R,Joanell Dyrstad,1073,33.45
+26,Grant,State Auditor,,DFL,Mark Dayton,1598,49.81
+26,Grant,State Auditor,,Other,,274,8.54
+26,Grant,State Auditor,,R,Judi Dutcher,1336,41.65
+26,Grant,State Treasurer,,DFL,Michael McGrath,1557,48.53
+26,Grant,State Treasurer,,Other,,370,11.53
+26,Grant,State Treasurer,,R,Mike McGrath,1281,39.93
+26,Grant,U.S. Senate,,DFL,Ann Wynia,1346,41.96
+26,Grant,U.S. Senate,,Other,,215,6.70
+26,Grant,U.S. Senate,,R,Rod Grams,1647,51.34
+27,Hennepin,Attorney General,,DFL,Hubert H. Humphrey III,263583,61.80
+27,Hennepin,Attorney General,,Other,,53749,12.60
+27,Hennepin,Attorney General,,R,Mike Hatch,109164,25.60
+27,Hennepin,Governor,,DFL,John Marty,131223,30.77
+27,Hennepin,Governor,,Other,,23106,5.42
+27,Hennepin,Governor,,R,Arne Carlson,272167,63.81
+27,Hennepin,Secretary of State,,DFL,John Lindner,248145,58.18
+27,Hennepin,Secretary of State,,Other,,31100,7.29
+27,Hennepin,Secretary of State,,R,Joanell Dyrstad,147251,34.53
+27,Hennepin,State Auditor,,DFL,Mark Dayton,171992,40.27
+27,Hennepin,State Auditor,,Other,,49859,11.67
+27,Hennepin,State Auditor,,R,Judi Dutcher,205241,48.06
+27,Hennepin,State Treasurer,,DFL,Michael McGrath,181167,42.48
+27,Hennepin,State Treasurer,,Other,,71988,16.88
+27,Hennepin,State Treasurer,,R,Mike McGrath,173341,40.64
+27,Hennepin,U.S. Senate,,DFL,Ann Wynia,204244,47.89
+27,Hennepin,U.S. Senate,,Other,,36455,8.55
+27,Hennepin,U.S. Senate,,R,Rod Grams,185797,43.56
+28,Houston,Attorney General,,DFL,Hubert H. Humphrey III,4036,48.75
+28,Houston,Attorney General,,Other,,993,11.99
+28,Houston,Attorney General,,R,Mike Hatch,3250,39.26
+28,Houston,Governor,,DFL,John Marty,2362,28.53
+28,Houston,Governor,,Other,,816,9.86
+28,Houston,Governor,,R,Arne Carlson,5101,61.61
+28,Houston,Secretary of State,,DFL,John Lindner,3777,45.62
+28,Houston,Secretary of State,,Other,,790,9.54
+28,Houston,Secretary of State,,R,Joanell Dyrstad,3712,44.84
+28,Houston,State Auditor,,DFL,Mark Dayton,3211,38.78
+28,Houston,State Auditor,,Other,,1110,13.41
+28,Houston,State Auditor,,R,Judi Dutcher,3958,47.81
+28,Houston,State Treasurer,,DFL,Michael McGrath,3006,36.31
+28,Houston,State Treasurer,,Other,,1264,15.27
+28,Houston,State Treasurer,,R,Mike McGrath,4009,48.42
+28,Houston,U.S. Senate,,DFL,Ann Wynia,2931,35.40
+28,Houston,U.S. Senate,,Other,,710,8.58
+28,Houston,U.S. Senate,,R,Rod Grams,4638,56.02
+29,Hubbard,Attorney General,,DFL,Hubert H. Humphrey III,4462,58.91
+29,Hubbard,Attorney General,,Other,,662,8.74
+29,Hubbard,Attorney General,,R,Mike Hatch,2450,32.35
+29,Hubbard,Governor,,DFL,John Marty,2627,34.68
+29,Hubbard,Governor,,Other,,551,7.27
+29,Hubbard,Governor,,R,Arne Carlson,4396,58.04
+29,Hubbard,Secretary of State,,DFL,John Lindner,3891,51.37
+29,Hubbard,Secretary of State,,Other,,457,6.03
+29,Hubbard,Secretary of State,,R,Joanell Dyrstad,3226,42.59
+29,Hubbard,State Auditor,,DFL,Mark Dayton,3201,42.26
+29,Hubbard,State Auditor,,Other,,711,9.39
+29,Hubbard,State Auditor,,R,Judi Dutcher,3662,48.35
+29,Hubbard,State Treasurer,,DFL,Michael McGrath,3022,39.90
+29,Hubbard,State Treasurer,,Other,,898,11.86
+29,Hubbard,State Treasurer,,R,Mike McGrath,3654,48.24
+29,Hubbard,U.S. Senate,,DFL,Ann Wynia,2821,37.25
+29,Hubbard,U.S. Senate,,Other,,484,6.39
+29,Hubbard,U.S. Senate,,R,Rod Grams,4269,56.36
+30,Isanti,Attorney General,,DFL,Hubert H. Humphrey III,6404,59.97
+30,Isanti,Attorney General,,Other,,1063,9.96
+30,Isanti,Attorney General,,R,Mike Hatch,3211,30.07
+30,Isanti,Governor,,DFL,John Marty,3680,34.46
+30,Isanti,Governor,,Other,,759,7.11
+30,Isanti,Governor,,R,Arne Carlson,6239,58.43
+30,Isanti,Secretary of State,,DFL,John Lindner,6161,57.70
+30,Isanti,Secretary of State,,Other,,640,5.99
+30,Isanti,Secretary of State,,R,Joanell Dyrstad,3877,36.31
+30,Isanti,State Auditor,,DFL,Mark Dayton,4634,43.40
+30,Isanti,State Auditor,,Other,,1016,9.51
+30,Isanti,State Auditor,,R,Judi Dutcher,5028,47.09
+30,Isanti,State Treasurer,,DFL,Michael McGrath,4736,44.35
+30,Isanti,State Treasurer,,Other,,1262,11.82
+30,Isanti,State Treasurer,,R,Mike McGrath,4680,43.83
+30,Isanti,U.S. Senate,,DFL,Ann Wynia,4087,38.27
+30,Isanti,U.S. Senate,,Other,,969,9.07
+30,Isanti,U.S. Senate,,R,Rod Grams,5622,52.65
+31,Itasca,Attorney General,,DFL,Hubert H. Humphrey III,12663,66.94
+31,Itasca,Attorney General,,Other,,1610,8.51
+31,Itasca,Attorney General,,R,Mike Hatch,4643,24.55
+31,Itasca,Governor,,DFL,John Marty,8515,45.01
+31,Itasca,Governor,,Other,,1311,6.93
+31,Itasca,Governor,,R,Arne Carlson,9090,48.05
+31,Itasca,Secretary of State,,DFL,John Lindner,11879,62.80
+31,Itasca,Secretary of State,,Other,,1414,7.48
+31,Itasca,Secretary of State,,R,Joanell Dyrstad,5623,29.73
+31,Itasca,State Auditor,,DFL,Mark Dayton,9974,52.73
+31,Itasca,State Auditor,,Other,,2053,10.85
+31,Itasca,State Auditor,,R,Judi Dutcher,6889,36.42
+31,Itasca,State Treasurer,,DFL,Michael McGrath,9717,51.37
+31,Itasca,State Treasurer,,Other,,2324,12.29
+31,Itasca,State Treasurer,,R,Mike McGrath,6875,36.34
+31,Itasca,U.S. Senate,,DFL,Ann Wynia,8453,44.69
+31,Itasca,U.S. Senate,,Other,,1681,8.89
+31,Itasca,U.S. Senate,,R,Rod Grams,8782,46.43
+32,Jackson,Attorney General,,DFL,Hubert H. Humphrey III,3288,63.68
+32,Jackson,Attorney General,,Other,,421,8.15
+32,Jackson,Attorney General,,R,Mike Hatch,1454,28.16
+32,Jackson,Governor,,DFL,John Marty,1891,36.63
+32,Jackson,Governor,,Other,,471,9.12
+32,Jackson,Governor,,R,Arne Carlson,2801,54.25
+32,Jackson,Secretary of State,,DFL,John Lindner,3151,61.03
+32,Jackson,Secretary of State,,Other,,272,5.27
+32,Jackson,Secretary of State,,R,Joanell Dyrstad,1740,33.70
+32,Jackson,State Auditor,,DFL,Mark Dayton,2221,43.02
+32,Jackson,State Auditor,,Other,,442,8.56
+32,Jackson,State Auditor,,R,Judi Dutcher,2500,48.42
+32,Jackson,State Treasurer,,DFL,Michael McGrath,2363,45.77
+32,Jackson,State Treasurer,,Other,,582,11.27
+32,Jackson,State Treasurer,,R,Mike McGrath,2218,42.96
+32,Jackson,U.S. Senate,,DFL,Ann Wynia,2023,39.18
+32,Jackson,U.S. Senate,,Other,,255,4.94
+32,Jackson,U.S. Senate,,R,Rod Grams,2885,55.88
+33,Kanabec,Attorney General,,DFL,Hubert H. Humphrey III,2902,59.69
+33,Kanabec,Attorney General,,Other,,418,8.60
+33,Kanabec,Attorney General,,R,Mike Hatch,1542,31.72
+33,Kanabec,Governor,,DFL,John Marty,1675,34.45
+33,Kanabec,Governor,,Other,,307,6.31
+33,Kanabec,Governor,,R,Arne Carlson,2880,59.23
+33,Kanabec,Secretary of State,,DFL,John Lindner,2750,56.56
+33,Kanabec,Secretary of State,,Other,,293,6.03
+33,Kanabec,Secretary of State,,R,Joanell Dyrstad,1819,37.41
+33,Kanabec,State Auditor,,DFL,Mark Dayton,2202,45.29
+33,Kanabec,State Auditor,,Other,,415,8.54
+33,Kanabec,State Auditor,,R,Judi Dutcher,2245,46.17
+33,Kanabec,State Treasurer,,DFL,Michael McGrath,2140,44.01
+33,Kanabec,State Treasurer,,Other,,497,10.22
+33,Kanabec,State Treasurer,,R,Mike McGrath,2225,45.76
+33,Kanabec,U.S. Senate,,DFL,Ann Wynia,1764,36.28
+33,Kanabec,U.S. Senate,,Other,,417,8.58
+33,Kanabec,U.S. Senate,,R,Rod Grams,2681,55.14
+34,Kandiyohi,Attorney General,,DFL,Hubert H. Humphrey III,10100,64.51
+34,Kandiyohi,Attorney General,,Other,,1369,8.74
+34,Kandiyohi,Attorney General,,R,Mike Hatch,4187,26.74
+34,Kandiyohi,Governor,,DFL,John Marty,5550,35.45
+34,Kandiyohi,Governor,,Other,,1232,7.87
+34,Kandiyohi,Governor,,R,Arne Carlson,8874,56.68
+34,Kandiyohi,Secretary of State,,DFL,John Lindner,9278,59.26
+34,Kandiyohi,Secretary of State,,Other,,819,5.23
+34,Kandiyohi,Secretary of State,,R,Joanell Dyrstad,5559,35.51
+34,Kandiyohi,State Auditor,,DFL,Mark Dayton,7190,45.92
+34,Kandiyohi,State Auditor,,Other,,1211,7.74
+34,Kandiyohi,State Auditor,,R,Judi Dutcher,7255,46.34
+34,Kandiyohi,State Treasurer,,DFL,Michael McGrath,6957,44.44
+34,Kandiyohi,State Treasurer,,Other,,1722,11.00
+34,Kandiyohi,State Treasurer,,R,Mike McGrath,6977,44.56
+34,Kandiyohi,U.S. Senate,,DFL,Ann Wynia,6671,42.61
+34,Kandiyohi,U.S. Senate,,Other,,796,5.08
+34,Kandiyohi,U.S. Senate,,R,Rod Grams,8190,52.31
+35,Kittson,Attorney General,,DFL,Hubert H. Humphrey III,1751,62.47
+35,Kittson,Attorney General,,Other,,187,6.67
+35,Kittson,Attorney General,,R,Mike Hatch,865,30.86
+35,Kittson,Governor,,DFL,John Marty,1174,41.88
+35,Kittson,Governor,,Other,,184,6.56
+35,Kittson,Governor,,R,Arne Carlson,1445,51.55
+35,Kittson,Secretary of State,,DFL,John Lindner,1746,62.29
+35,Kittson,Secretary of State,,Other,,166,5.92
+35,Kittson,Secretary of State,,R,Joanell Dyrstad,891,31.79
+35,Kittson,State Auditor,,DFL,Mark Dayton,1473,52.55
+35,Kittson,State Auditor,,Other,,230,8.21
+35,Kittson,State Auditor,,R,Judi Dutcher,1100,39.24
+35,Kittson,State Treasurer,,DFL,Michael McGrath,1336,47.66
+35,Kittson,State Treasurer,,Other,,256,9.13
+35,Kittson,State Treasurer,,R,Mike McGrath,1211,43.20
+35,Kittson,U.S. Senate,,DFL,Ann Wynia,1316,46.95
+35,Kittson,U.S. Senate,,Other,,193,6.89
+35,Kittson,U.S. Senate,,R,Rod Grams,1294,46.16
+36,Koochiching,Attorney General,,DFL,Hubert H. Humphrey III,3976,68.41
+36,Koochiching,Attorney General,,Other,,443,7.62
+36,Koochiching,Attorney General,,R,Mike Hatch,1393,23.97
+36,Koochiching,Governor,,DFL,John Marty,2672,45.97
+36,Koochiching,Governor,,Other,,384,6.61
+36,Koochiching,Governor,,R,Arne Carlson,2756,47.42
+36,Koochiching,Secretary of State,,DFL,John Lindner,3946,67.89
+36,Koochiching,Secretary of State,,Other,,347,5.97
+36,Koochiching,Secretary of State,,R,Joanell Dyrstad,1519,26.14
+36,Koochiching,State Auditor,,DFL,Mark Dayton,3206,55.16
+36,Koochiching,State Auditor,,Other,,562,9.67
+36,Koochiching,State Auditor,,R,Judi Dutcher,2044,35.17
+36,Koochiching,State Treasurer,,DFL,Michael McGrath,3213,55.28
+36,Koochiching,State Treasurer,,Other,,627,10.79
+36,Koochiching,State Treasurer,,R,Mike McGrath,1972,33.93
+36,Koochiching,U.S. Senate,,DFL,Ann Wynia,2683,46.16
+36,Koochiching,U.S. Senate,,Other,,439,7.55
+36,Koochiching,U.S. Senate,,R,Rod Grams,2690,46.28
+37,Lac qui Parle,Attorney General,,DFL,Hubert H. Humphrey III,2753,66.08
+37,Lac qui Parle,Attorney General,,Other,,267,6.41
+37,Lac qui Parle,Attorney General,,R,Mike Hatch,1146,27.51
+37,Lac qui Parle,Governor,,DFL,John Marty,1826,43.83
+37,Lac qui Parle,Governor,,Other,,175,4.20
+37,Lac qui Parle,Governor,,R,Arne Carlson,2165,51.97
+37,Lac qui Parle,Secretary of State,,DFL,John Lindner,2655,63.73
+37,Lac qui Parle,Secretary of State,,Other,,228,5.47
+37,Lac qui Parle,Secretary of State,,R,Joanell Dyrstad,1283,30.80
+37,Lac qui Parle,State Auditor,,DFL,Mark Dayton,2257,54.18
+37,Lac qui Parle,State Auditor,,Other,,306,7.35
+37,Lac qui Parle,State Auditor,,R,Judi Dutcher,1603,38.48
+37,Lac qui Parle,State Treasurer,,DFL,Michael McGrath,2191,52.59
+37,Lac qui Parle,State Treasurer,,Other,,388,9.31
+37,Lac qui Parle,State Treasurer,,R,Mike McGrath,1587,38.09
+37,Lac qui Parle,U.S. Senate,,DFL,Ann Wynia,1873,44.96
+37,Lac qui Parle,U.S. Senate,,Other,,282,6.77
+37,Lac qui Parle,U.S. Senate,,R,Rod Grams,2011,48.27
+38,Lake,Attorney General,,DFL,Hubert H. Humphrey III,4109,72.37
+38,Lake,Attorney General,,Other,,418,7.36
+38,Lake,Attorney General,,R,Mike Hatch,1151,20.27
+38,Lake,Governor,,DFL,John Marty,2837,49.96
+38,Lake,Governor,,Other,,338,5.95
+38,Lake,Governor,,R,Arne Carlson,2503,44.08
+38,Lake,Secretary of State,,DFL,John Lindner,3893,68.56
+38,Lake,Secretary of State,,Other,,335,5.90
+38,Lake,Secretary of State,,R,Joanell Dyrstad,1450,25.54
+38,Lake,State Auditor,,DFL,Mark Dayton,3382,59.56
+38,Lake,State Auditor,,Other,,554,9.76
+38,Lake,State Auditor,,R,Judi Dutcher,1742,30.68
+38,Lake,State Treasurer,,DFL,Michael McGrath,3343,58.88
+38,Lake,State Treasurer,,Other,,615,10.83
+38,Lake,State Treasurer,,R,Mike McGrath,1720,30.29
+38,Lake,U.S. Senate,,DFL,Ann Wynia,2975,52.40
+38,Lake,U.S. Senate,,Other,,465,8.19
+38,Lake,U.S. Senate,,R,Rod Grams,2238,39.42
+39,Lake of the Woods,Attorney General,,DFL,Hubert H. Humphrey III,941,52.08
+39,Lake of the Woods,Attorney General,,Other,,132,7.30
+39,Lake of the Woods,Attorney General,,R,Mike Hatch,734,40.62
+39,Lake of the Woods,Governor,,DFL,John Marty,653,36.14
+39,Lake of the Woods,Governor,,Other,,138,7.64
+39,Lake of the Woods,Governor,,R,Arne Carlson,1016,56.23
+39,Lake of the Woods,Secretary of State,,DFL,John Lindner,1043,57.72
+39,Lake of the Woods,Secretary of State,,Other,,94,5.20
+39,Lake of the Woods,Secretary of State,,R,Joanell Dyrstad,670,37.08
+39,Lake of the Woods,State Auditor,,DFL,Mark Dayton,835,46.21
+39,Lake of the Woods,State Auditor,,Other,,178,9.85
+39,Lake of the Woods,State Auditor,,R,Judi Dutcher,794,43.94
+39,Lake of the Woods,State Treasurer,,DFL,Michael McGrath,789,43.66
+39,Lake of the Woods,State Treasurer,,Other,,201,11.12
+39,Lake of the Woods,State Treasurer,,R,Mike McGrath,817,45.21
+39,Lake of the Woods,U.S. Senate,,DFL,Ann Wynia,750,41.51
+39,Lake of the Woods,U.S. Senate,,Other,,121,6.70
+39,Lake of the Woods,U.S. Senate,,R,Rod Grams,936,51.80
+40,Le Sueur,Attorney General,,DFL,Hubert H. Humphrey III,5978,62.30
+40,Le Sueur,Attorney General,,Other,,997,10.39
+40,Le Sueur,Attorney General,,R,Mike Hatch,2620,27.31
+40,Le Sueur,Governor,,DFL,John Marty,3475,36.22
+40,Le Sueur,Governor,,Other,,685,7.14
+40,Le Sueur,Governor,,R,Arne Carlson,5435,56.64
+40,Le Sueur,Secretary of State,,DFL,John Lindner,5626,58.63
+40,Le Sueur,Secretary of State,,Other,,539,5.62
+40,Le Sueur,Secretary of State,,R,Joanell Dyrstad,3430,35.75
+40,Le Sueur,State Auditor,,DFL,Mark Dayton,4301,44.83
+40,Le Sueur,State Auditor,,Other,,873,9.10
+40,Le Sueur,State Auditor,,R,Judi Dutcher,4421,46.08
+40,Le Sueur,State Treasurer,,DFL,Michael McGrath,4561,47.54
+40,Le Sueur,State Treasurer,,Other,,1058,11.03
+40,Le Sueur,State Treasurer,,R,Mike McGrath,3976,41.44
+40,Le Sueur,U.S. Senate,,DFL,Ann Wynia,3618,37.71
+40,Le Sueur,U.S. Senate,,Other,,684,7.13
+40,Le Sueur,U.S. Senate,,R,Rod Grams,5293,55.16
+41,Lincoln,Attorney General,,DFL,Hubert H. Humphrey III,1946,60.12
+41,Lincoln,Attorney General,,Other,,274,8.46
+41,Lincoln,Attorney General,,R,Mike Hatch,1017,31.42
+41,Lincoln,Governor,,DFL,John Marty,1275,39.39
+41,Lincoln,Governor,,Other,,249,7.69
+41,Lincoln,Governor,,R,Arne Carlson,1713,52.92
+41,Lincoln,Secretary of State,,DFL,John Lindner,1873,57.86
+41,Lincoln,Secretary of State,,Other,,160,4.94
+41,Lincoln,Secretary of State,,R,Joanell Dyrstad,1204,37.19
+41,Lincoln,State Auditor,,DFL,Mark Dayton,1594,49.24
+41,Lincoln,State Auditor,,Other,,286,8.84
+41,Lincoln,State Auditor,,R,Judi Dutcher,1357,41.92
+41,Lincoln,State Treasurer,,DFL,Michael McGrath,1522,47.02
+41,Lincoln,State Treasurer,,Other,,321,9.92
+41,Lincoln,State Treasurer,,R,Mike McGrath,1394,43.06
+41,Lincoln,U.S. Senate,,DFL,Ann Wynia,1312,40.53
+41,Lincoln,U.S. Senate,,Other,,195,6.02
+41,Lincoln,U.S. Senate,,R,Rod Grams,1730,53.44
+42,Lyon,Attorney General,,DFL,Hubert H. Humphrey III,5130,57.74
+42,Lyon,Attorney General,,Other,,795,8.95
+42,Lyon,Attorney General,,R,Mike Hatch,2960,33.31
+42,Lyon,Governor,,DFL,John Marty,2924,32.91
+42,Lyon,Governor,,Other,,657,7.39
+42,Lyon,Governor,,R,Arne Carlson,5304,59.70
+42,Lyon,Secretary of State,,DFL,John Lindner,4817,54.21
+42,Lyon,Secretary of State,,Other,,488,5.49
+42,Lyon,Secretary of State,,R,Joanell Dyrstad,3580,40.29
+42,Lyon,State Auditor,,DFL,Mark Dayton,3522,39.64
+42,Lyon,State Auditor,,Other,,751,8.45
+42,Lyon,State Auditor,,R,Judi Dutcher,4612,51.91
+42,Lyon,State Treasurer,,DFL,Michael McGrath,3566,40.14
+42,Lyon,State Treasurer,,Other,,953,10.73
+42,Lyon,State Treasurer,,R,Mike McGrath,4366,49.14
+42,Lyon,U.S. Senate,,DFL,Ann Wynia,3110,35.00
+42,Lyon,U.S. Senate,,Other,,481,5.41
+42,Lyon,U.S. Senate,,R,Rod Grams,5294,59.58
+44,Mahnomen,Attorney General,,DFL,Hubert H. Humphrey III,1211,59.89
+44,Mahnomen,Attorney General,,Other,,188,9.30
+44,Mahnomen,Attorney General,,R,Mike Hatch,623,30.81
+44,Mahnomen,Governor,,DFL,John Marty,711,35.16
+44,Mahnomen,Governor,,Other,,192,9.50
+44,Mahnomen,Governor,,R,Arne Carlson,1119,55.34
+44,Mahnomen,Secretary of State,,DFL,John Lindner,1118,55.29
+44,Mahnomen,Secretary of State,,Other,,163,8.06
+44,Mahnomen,Secretary of State,,R,Joanell Dyrstad,741,36.65
+44,Mahnomen,State Auditor,,DFL,Mark Dayton,998,49.36
+44,Mahnomen,State Auditor,,Other,,196,9.69
+44,Mahnomen,State Auditor,,R,Judi Dutcher,828,40.95
+44,Mahnomen,State Treasurer,,DFL,Michael McGrath,853,42.19
+44,Mahnomen,State Treasurer,,Other,,201,9.94
+44,Mahnomen,State Treasurer,,R,Mike McGrath,968,47.87
+44,Mahnomen,U.S. Senate,,DFL,Ann Wynia,889,43.97
+44,Mahnomen,U.S. Senate,,Other,,137,6.78
+44,Mahnomen,U.S. Senate,,R,Rod Grams,996,49.26
+45,Marshall,Attorney General,,DFL,Hubert H. Humphrey III,3131,63.20
+45,Marshall,Attorney General,,Other,,416,8.40
+45,Marshall,Attorney General,,R,Mike Hatch,1407,28.40
+45,Marshall,Governor,,DFL,John Marty,1982,40.01
+45,Marshall,Governor,,Other,,416,8.40
+45,Marshall,Governor,,R,Arne Carlson,2556,51.59
+45,Marshall,Secretary of State,,DFL,John Lindner,2925,59.04
+45,Marshall,Secretary of State,,Other,,320,6.46
+45,Marshall,Secretary of State,,R,Joanell Dyrstad,1709,34.50
+45,Marshall,State Auditor,,DFL,Mark Dayton,2667,53.84
+45,Marshall,State Auditor,,Other,,439,8.86
+45,Marshall,State Auditor,,R,Judi Dutcher,1848,37.30
+45,Marshall,State Treasurer,,DFL,Michael McGrath,2418,48.81
+45,Marshall,State Treasurer,,Other,,544,10.98
+45,Marshall,State Treasurer,,R,Mike McGrath,1992,40.21
+45,Marshall,U.S. Senate,,DFL,Ann Wynia,2114,42.67
+45,Marshall,U.S. Senate,,Other,,377,7.61
+45,Marshall,U.S. Senate,,R,Rod Grams,2463,49.72
+46,Martin,Attorney General,,DFL,Hubert H. Humphrey III,5342,56.64
+46,Martin,Attorney General,,Other,,984,10.43
+46,Martin,Attorney General,,R,Mike Hatch,3105,32.92
+46,Martin,Governor,,DFL,John Marty,2698,28.61
+46,Martin,Governor,,Other,,649,6.88
+46,Martin,Governor,,R,Arne Carlson,6084,64.51
+46,Martin,Secretary of State,,DFL,John Lindner,5085,53.92
+46,Martin,Secretary of State,,Other,,499,5.29
+46,Martin,Secretary of State,,R,Joanell Dyrstad,3847,40.79
+46,Martin,State Auditor,,DFL,Mark Dayton,3514,37.26
+46,Martin,State Auditor,,Other,,894,9.48
+46,Martin,State Auditor,,R,Judi Dutcher,5023,53.26
+46,Martin,State Treasurer,,DFL,Michael McGrath,3646,38.66
+46,Martin,State Treasurer,,Other,,1282,13.59
+46,Martin,State Treasurer,,R,Mike McGrath,4503,47.75
+46,Martin,U.S. Senate,,DFL,Ann Wynia,3448,36.56
+46,Martin,U.S. Senate,,Other,,512,5.43
+46,Martin,U.S. Senate,,R,Rod Grams,5471,58.01
+43,McLeod,Attorney General,,DFL,Hubert H. Humphrey III,6659,55.98
+43,McLeod,Attorney General,,Other,,1241,10.43
+43,McLeod,Attorney General,,R,Mike Hatch,3995,33.59
+43,McLeod,Governor,,DFL,John Marty,2908,24.45
+43,McLeod,Governor,,Other,,830,6.98
+43,McLeod,Governor,,R,Arne Carlson,8157,68.58
+43,McLeod,Secretary of State,,DFL,John Lindner,6283,52.82
+43,McLeod,Secretary of State,,Other,,683,5.74
+43,McLeod,Secretary of State,,R,Joanell Dyrstad,4929,41.44
+43,McLeod,State Auditor,,DFL,Mark Dayton,4335,36.44
+43,McLeod,State Auditor,,Other,,1067,8.97
+43,McLeod,State Auditor,,R,Judi Dutcher,6493,54.59
+43,McLeod,State Treasurer,,DFL,Michael McGrath,4276,35.95
+43,McLeod,State Treasurer,,Other,,1761,14.80
+43,McLeod,State Treasurer,,R,Mike McGrath,5858,49.25
+43,McLeod,U.S. Senate,,DFL,Ann Wynia,3472,29.19
+43,McLeod,U.S. Senate,,Other,,1028,8.64
+43,McLeod,U.S. Senate,,R,Rod Grams,7395,62.17
+61,Meeker,Attorney General,,DFL,Hubert H. Humphrey III,3334,63.23
+61,Meeker,Attorney General,,Other,,529,10.03
+61,Meeker,Attorney General,,R,Mike Hatch,1410,26.74
+61,Meeker,Governor,,DFL,John Marty,1855,35.18
+61,Meeker,Governor,,Other,,384,7.28
+61,Meeker,Governor,,R,Arne Carlson,3034,57.54
+61,Meeker,Secretary of State,,DFL,John Lindner,3165,60.02
+61,Meeker,Secretary of State,,Other,,380,7.21
+61,Meeker,Secretary of State,,R,Joanell Dyrstad,1728,32.77
+61,Meeker,State Auditor,,DFL,Mark Dayton,2565,48.64
+61,Meeker,State Auditor,,Other,,525,9.96
+61,Meeker,State Auditor,,R,Judi Dutcher,2183,41.40
+61,Meeker,State Treasurer,,DFL,Michael McGrath,2268,43.01
+61,Meeker,State Treasurer,,Other,,612,11.61
+61,Meeker,State Treasurer,,R,Mike McGrath,2393,45.38
+61,Meeker,U.S. Senate,,DFL,Ann Wynia,2123,40.26
+61,Meeker,U.S. Senate,,Other,,424,8.04
+61,Meeker,U.S. Senate,,R,Rod Grams,2726,51.70
+47,Mille Lacs,Attorney General,,DFL,Hubert H. Humphrey III,5206,60.48
+47,Mille Lacs,Attorney General,,Other,,812,9.43
+47,Mille Lacs,Attorney General,,R,Mike Hatch,2590,30.09
+47,Mille Lacs,Governor,,DFL,John Marty,2801,32.54
+47,Mille Lacs,Governor,,Other,,506,5.88
+47,Mille Lacs,Governor,,R,Arne Carlson,5301,61.58
+47,Mille Lacs,Secretary of State,,DFL,John Lindner,4878,56.67
+47,Mille Lacs,Secretary of State,,Other,,472,5.48
+47,Mille Lacs,Secretary of State,,R,Joanell Dyrstad,3258,37.85
+47,Mille Lacs,State Auditor,,DFL,Mark Dayton,3610,41.94
+47,Mille Lacs,State Auditor,,Other,,797,9.26
+47,Mille Lacs,State Auditor,,R,Judi Dutcher,4201,48.80
+47,Mille Lacs,State Treasurer,,DFL,Michael McGrath,3438,39.94
+47,Mille Lacs,State Treasurer,,Other,,1150,13.36
+47,Mille Lacs,State Treasurer,,R,Mike McGrath,4020,46.70
+47,Mille Lacs,U.S. Senate,,DFL,Ann Wynia,3055,35.49
+47,Mille Lacs,U.S. Senate,,Other,,619,7.19
+47,Mille Lacs,U.S. Senate,,R,Rod Grams,4934,57.32
+48,Morrison,Attorney General,,DFL,Hubert H. Humphrey III,4956,61.86
+48,Morrison,Attorney General,,Other,,807,10.07
+48,Morrison,Attorney General,,R,Mike Hatch,2248,28.06
+48,Morrison,Governor,,DFL,John Marty,2744,34.25
+48,Morrison,Governor,,Other,,599,7.48
+48,Morrison,Governor,,R,Arne Carlson,4668,58.27
+48,Morrison,Secretary of State,,DFL,John Lindner,4680,58.42
+48,Morrison,Secretary of State,,Other,,527,6.58
+48,Morrison,Secretary of State,,R,Joanell Dyrstad,2804,35.00
+48,Morrison,State Auditor,,DFL,Mark Dayton,3527,44.03
+48,Morrison,State Auditor,,Other,,894,11.16
+48,Morrison,State Auditor,,R,Judi Dutcher,3590,44.81
+48,Morrison,State Treasurer,,DFL,Michael McGrath,3415,42.63
+48,Morrison,State Treasurer,,Other,,1121,13.99
+48,Morrison,State Treasurer,,R,Mike McGrath,3475,43.38
+48,Morrison,U.S. Senate,,DFL,Ann Wynia,3145,39.26
+48,Morrison,U.S. Senate,,Other,,628,7.84
+48,Morrison,U.S. Senate,,R,Rod Grams,4238,52.90
+49,Mower,Attorney General,,DFL,Hubert H. Humphrey III,7032,62.52
+49,Mower,Attorney General,,Other,,1058,9.41
+49,Mower,Attorney General,,R,Mike Hatch,3158,28.08
+49,Mower,Governor,,DFL,John Marty,4494,39.95
+49,Mower,Governor,,Other,,961,8.54
+49,Mower,Governor,,R,Arne Carlson,5793,51.50
+49,Mower,Secretary of State,,DFL,John Lindner,6351,56.46
+49,Mower,Secretary of State,,Other,,797,7.09
+49,Mower,Secretary of State,,R,Joanell Dyrstad,4100,36.45
+49,Mower,State Auditor,,DFL,Mark Dayton,5257,46.74
+49,Mower,State Auditor,,Other,,1343,11.94
+49,Mower,State Auditor,,R,Judi Dutcher,4648,41.32
+49,Mower,State Treasurer,,DFL,Michael McGrath,5035,44.76
+49,Mower,State Treasurer,,Other,,1441,12.81
+49,Mower,State Treasurer,,R,Mike McGrath,4772,42.43
+49,Mower,U.S. Senate,,DFL,Ann Wynia,3707,32.96
+49,Mower,U.S. Senate,,Other,,732,6.51
+49,Mower,U.S. Senate,,R,Rod Grams,6809,60.54
+50,Murray,Attorney General,,DFL,Hubert H. Humphrey III,11785,71.52
+50,Murray,Attorney General,,Other,,969,5.88
+50,Murray,Attorney General,,R,Mike Hatch,3723,22.60
+50,Murray,Governor,,DFL,John Marty,6871,41.70
+50,Murray,Governor,,Other,,727,4.41
+50,Murray,Governor,,R,Arne Carlson,8879,53.89
+50,Murray,Secretary of State,,DFL,John Lindner,11135,67.58
+50,Murray,Secretary of State,,Other,,892,5.41
+50,Murray,Secretary of State,,R,Joanell Dyrstad,4450,27.01
+50,Murray,State Auditor,,DFL,Mark Dayton,8788,53.33
+50,Murray,State Auditor,,Other,,1303,7.91
+50,Murray,State Auditor,,R,Judi Dutcher,6386,38.76
+50,Murray,State Treasurer,,DFL,Michael McGrath,9161,55.60
+50,Murray,State Treasurer,,Other,,1528,9.27
+50,Murray,State Treasurer,,R,Mike McGrath,5788,35.13
+50,Murray,U.S. Senate,,DFL,Ann Wynia,8856,53.75
+50,Murray,U.S. Senate,,Other,,931,5.65
+50,Murray,U.S. Senate,,R,Rod Grams,6690,40.60
+51,Nicollet,Attorney General,,DFL,Hubert H. Humphrey III,2835,62.42
+51,Nicollet,Attorney General,,Other,,483,10.63
+51,Nicollet,Attorney General,,R,Mike Hatch,1224,26.95
+51,Nicollet,Governor,,DFL,John Marty,1745,38.42
+51,Nicollet,Governor,,Other,,541,11.91
+51,Nicollet,Governor,,R,Arne Carlson,2256,49.67
+51,Nicollet,Secretary of State,,DFL,John Lindner,2788,61.38
+51,Nicollet,Secretary of State,,Other,,313,6.89
+51,Nicollet,Secretary of State,,R,Joanell Dyrstad,1441,31.73
+51,Nicollet,State Auditor,,DFL,Mark Dayton,2155,47.45
+51,Nicollet,State Auditor,,Other,,535,11.78
+51,Nicollet,State Auditor,,R,Judi Dutcher,1852,40.77
+51,Nicollet,State Treasurer,,DFL,Michael McGrath,2155,47.45
+51,Nicollet,State Treasurer,,Other,,610,13.43
+51,Nicollet,State Treasurer,,R,Mike McGrath,1777,39.12
+51,Nicollet,U.S. Senate,,DFL,Ann Wynia,1806,39.76
+51,Nicollet,U.S. Senate,,Other,,298,6.56
+51,Nicollet,U.S. Senate,,R,Rod Grams,2438,53.68
+52,Nobles,Attorney General,,DFL,Hubert H. Humphrey III,7139,62.38
+52,Nobles,Attorney General,,Other,,1118,9.77
+52,Nobles,Attorney General,,R,Mike Hatch,3187,27.85
+52,Nobles,Governor,,DFL,John Marty,4044,35.34
+52,Nobles,Governor,,Other,,1063,9.29
+52,Nobles,Governor,,R,Arne Carlson,6337,55.37
+52,Nobles,Secretary of State,,DFL,John Lindner,6736,58.86
+52,Nobles,Secretary of State,,Other,,658,5.75
+52,Nobles,Secretary of State,,R,Joanell Dyrstad,4050,35.39
+52,Nobles,State Auditor,,DFL,Mark Dayton,4980,43.52
+52,Nobles,State Auditor,,Other,,1062,9.28
+52,Nobles,State Auditor,,R,Judi Dutcher,5402,47.20
+52,Nobles,State Treasurer,,DFL,Michael McGrath,4982,43.53
+52,Nobles,State Treasurer,,Other,,1456,12.72
+52,Nobles,State Treasurer,,R,Mike McGrath,5006,43.74
+52,Nobles,U.S. Senate,,DFL,Ann Wynia,4648,40.62
+52,Nobles,U.S. Senate,,Other,,759,6.63
+52,Nobles,U.S. Senate,,R,Rod Grams,6037,52.75
+53,Norman,Attorney General,,DFL,Hubert H. Humphrey III,5007,61.28
+53,Norman,Attorney General,,Other,,598,7.32
+53,Norman,Attorney General,,R,Mike Hatch,2566,31.40
+53,Norman,Governor,,DFL,John Marty,2881,35.26
+53,Norman,Governor,,Other,,894,10.94
+53,Norman,Governor,,R,Arne Carlson,4396,53.80
+53,Norman,Secretary of State,,DFL,John Lindner,4866,59.55
+53,Norman,Secretary of State,,Other,,591,7.23
+53,Norman,Secretary of State,,R,Joanell Dyrstad,2714,33.22
+53,Norman,State Auditor,,DFL,Mark Dayton,3698,45.26
+53,Norman,State Auditor,,Other,,760,9.30
+53,Norman,State Auditor,,R,Judi Dutcher,3713,45.44
+53,Norman,State Treasurer,,DFL,Michael McGrath,3648,44.65
+53,Norman,State Treasurer,,Other,,940,11.50
+53,Norman,State Treasurer,,R,Mike McGrath,3583,43.85
+53,Norman,U.S. Senate,,DFL,Ann Wynia,3193,39.08
+53,Norman,U.S. Senate,,Other,,472,5.78
+53,Norman,U.S. Senate,,R,Rod Grams,4506,55.15
+54,Olmsted,Attorney General,,DFL,Hubert H. Humphrey III,2388,66.46
+54,Olmsted,Attorney General,,Other,,239,6.65
+54,Olmsted,Attorney General,,R,Mike Hatch,966,26.89
+54,Olmsted,Governor,,DFL,John Marty,1265,35.21
+54,Olmsted,Governor,,Other,,229,6.37
+54,Olmsted,Governor,,R,Arne Carlson,2099,58.42
+54,Olmsted,Secretary of State,,DFL,John Lindner,2242,62.40
+54,Olmsted,Secretary of State,,Other,,212,5.90
+54,Olmsted,Secretary of State,,R,Joanell Dyrstad,1139,31.70
+54,Olmsted,State Auditor,,DFL,Mark Dayton,1905,53.02
+54,Olmsted,State Auditor,,Other,,295,8.21
+54,Olmsted,State Auditor,,R,Judi Dutcher,1393,38.77
+54,Olmsted,State Treasurer,,DFL,Michael McGrath,1610,44.81
+54,Olmsted,State Treasurer,,Other,,334,9.30
+54,Olmsted,State Treasurer,,R,Mike McGrath,1649,45.89
+54,Olmsted,U.S. Senate,,DFL,Ann Wynia,1736,48.32
+54,Olmsted,U.S. Senate,,Other,,219,6.10
+54,Olmsted,U.S. Senate,,R,Rod Grams,1638,45.59
+55,Otter Tail,Attorney General,,DFL,Hubert H. Humphrey III,22918,57.34
+55,Otter Tail,Attorney General,,Other,,3637,9.10
+55,Otter Tail,Attorney General,,R,Mike Hatch,13414,33.56
+55,Otter Tail,Governor,,DFL,John Marty,8693,21.75
+55,Otter Tail,Governor,,Other,,2158,5.40
+55,Otter Tail,Governor,,R,Arne Carlson,29118,72.85
+55,Otter Tail,Secretary of State,,DFL,John Lindner,19634,49.12
+55,Otter Tail,Secretary of State,,Other,,2664,6.67
+55,Otter Tail,Secretary of State,,R,Joanell Dyrstad,17671,44.21
+55,Otter Tail,State Auditor,,DFL,Mark Dayton,12863,32.18
+55,Otter Tail,State Auditor,,Other,,4338,10.85
+55,Otter Tail,State Auditor,,R,Judi Dutcher,22768,56.96
+55,Otter Tail,State Treasurer,,DFL,Michael McGrath,12867,32.19
+55,Otter Tail,State Treasurer,,Other,,5904,14.77
+55,Otter Tail,State Treasurer,,R,Mike McGrath,21198,53.04
+55,Otter Tail,U.S. Senate,,DFL,Ann Wynia,14854,37.16
+55,Otter Tail,U.S. Senate,,Other,,2224,5.56
+55,Otter Tail,U.S. Senate,,R,Rod Grams,22891,57.27
+56,Pennington,Attorney General,,DFL,Hubert H. Humphrey III,12044,57.74
+56,Pennington,Attorney General,,Other,,1769,8.48
+56,Pennington,Attorney General,,R,Mike Hatch,7046,33.78
+56,Pennington,Governor,,DFL,John Marty,6269,30.04
+56,Pennington,Governor,,Other,,1305,6.25
+56,Pennington,Governor,,R,Arne Carlson,13295,63.71
+56,Pennington,Secretary of State,,DFL,John Lindner,10473,50.18
+56,Pennington,Secretary of State,,Other,,1144,5.48
+56,Pennington,Secretary of State,,R,Joanell Dyrstad,9255,44.34
+56,Pennington,State Auditor,,DFL,Mark Dayton,8249,39.54
+56,Pennington,State Auditor,,Other,,1969,9.44
+56,Pennington,State Auditor,,R,Judi Dutcher,10644,51.02
+56,Pennington,State Treasurer,,DFL,Michael McGrath,7763,37.21
+56,Pennington,State Treasurer,,Other,,2428,11.64
+56,Pennington,State Treasurer,,R,Mike McGrath,10669,51.15
+56,Pennington,U.S. Senate,,DFL,Ann Wynia,7408,35.50
+56,Pennington,U.S. Senate,,Other,,1161,5.56
+56,Pennington,U.S. Senate,,R,Rod Grams,12300,58.94
+57,Pine,Attorney General,,DFL,Hubert H. Humphrey III,3039,62.22
+57,Pine,Attorney General,,Other,,345,7.06
+57,Pine,Attorney General,,R,Mike Hatch,1500,30.71
+57,Pine,Governor,,DFL,John Marty,1962,40.17
+57,Pine,Governor,,Other,,283,5.79
+57,Pine,Governor,,R,Arne Carlson,2639,54.03
+57,Pine,Secretary of State,,DFL,John Lindner,2872,58.80
+57,Pine,Secretary of State,,Other,,290,5.94
+57,Pine,Secretary of State,,R,Joanell Dyrstad,1722,35.26
+57,Pine,State Auditor,,DFL,Mark Dayton,2473,50.63
+57,Pine,State Auditor,,Other,,399,8.17
+57,Pine,State Auditor,,R,Judi Dutcher,2012,41.20
+57,Pine,State Treasurer,,DFL,Michael McGrath,2228,45.62
+57,Pine,State Treasurer,,Other,,466,9.54
+57,Pine,State Treasurer,,R,Mike McGrath,2190,44.84
+57,Pine,U.S. Senate,,DFL,Ann Wynia,2151,44.04
+57,Pine,U.S. Senate,,Other,,299,6.12
+57,Pine,U.S. Senate,,R,Rod Grams,2434,49.84
+58,Pipestone,Attorney General,,DFL,Hubert H. Humphrey III,5969,65.03
+58,Pipestone,Attorney General,,Other,,874,9.52
+58,Pipestone,Attorney General,,R,Mike Hatch,2336,25.45
+58,Pipestone,Governor,,DFL,John Marty,3758,40.94
+58,Pipestone,Governor,,Other,,626,6.82
+58,Pipestone,Governor,,R,Arne Carlson,4795,52.24
+58,Pipestone,Secretary of State,,DFL,John Lindner,5691,62.00
+58,Pipestone,Secretary of State,,Other,,576,6.28
+58,Pipestone,Secretary of State,,R,Joanell Dyrstad,2912,31.72
+58,Pipestone,State Auditor,,DFL,Mark Dayton,4659,50.76
+58,Pipestone,State Auditor,,Other,,837,9.12
+58,Pipestone,State Auditor,,R,Judi Dutcher,3683,40.12
+58,Pipestone,State Treasurer,,DFL,Michael McGrath,4644,50.51
+58,Pipestone,State Treasurer,,Other,,1057,11.50
+58,Pipestone,State Treasurer,,R,Mike McGrath,3493,37.99
+58,Pipestone,U.S. Senate,,DFL,Ann Wynia,3998,43.56
+58,Pipestone,U.S. Senate,,Other,,772,8.41
+58,Pipestone,U.S. Senate,,R,Rod Grams,4409,48.03
+59,Polk,Attorney General,,DFL,Hubert H. Humphrey III,2256,54.01
+59,Polk,Attorney General,,Other,,487,11.66
+59,Polk,Attorney General,,R,Mike Hatch,1434,34.33
+59,Polk,Governor,,DFL,John Marty,1508,36.10
+59,Polk,Governor,,Other,,530,12.69
+59,Polk,Governor,,R,Arne Carlson,2139,51.21
+59,Polk,Secretary of State,,DFL,John Lindner,2140,51.23
+59,Polk,Secretary of State,,Other,,298,7.13
+59,Polk,Secretary of State,,R,Joanell Dyrstad,1739,41.63
+59,Polk,State Auditor,,DFL,Mark Dayton,1755,42.02
+59,Polk,State Auditor,,Other,,502,12.02
+59,Polk,State Auditor,,R,Judi Dutcher,1920,45.97
+59,Polk,State Treasurer,,DFL,Michael McGrath,1651,39.53
+59,Polk,State Treasurer,,Other,,636,15.23
+59,Polk,State Treasurer,,R,Mike McGrath,1890,45.25
+59,Polk,U.S. Senate,,DFL,Ann Wynia,1592,38.11
+59,Polk,U.S. Senate,,Other,,303,7.25
+59,Polk,U.S. Senate,,R,Rod Grams,2282,54.63
+60,Pope,Attorney General,,DFL,Hubert H. Humphrey III,7140,61.05
+60,Pope,Attorney General,,Other,,788,6.74
+60,Pope,Attorney General,,R,Mike Hatch,3767,32.21
+60,Pope,Governor,,DFL,John Marty,4308,36.84
+60,Pope,Governor,,Other,,720,6.16
+60,Pope,Governor,,R,Arne Carlson,6667,57.01
+60,Pope,Secretary of State,,DFL,John Lindner,6728,57.53
+60,Pope,Secretary of State,,Other,,648,5.54
+60,Pope,Secretary of State,,R,Joanell Dyrstad,4319,36.93
+60,Pope,State Auditor,,DFL,Mark Dayton,5998,51.29
+60,Pope,State Auditor,,Other,,887,7.58
+60,Pope,State Auditor,,R,Judi Dutcher,4810,41.13
+60,Pope,State Treasurer,,DFL,Michael McGrath,4927,42.13
+60,Pope,State Treasurer,,Other,,1086,9.29
+60,Pope,State Treasurer,,R,Mike McGrath,5682,48.58
+60,Pope,U.S. Senate,,DFL,Ann Wynia,5153,44.06
+60,Pope,U.S. Senate,,Other,,689,5.89
+60,Pope,U.S. Senate,,R,Rod Grams,5853,50.05
+62,Ramsey,Attorney General,,DFL,Hubert H. Humphrey III,125368,66.93
+62,Ramsey,Attorney General,,Other,,24122,12.88
+62,Ramsey,Attorney General,,R,Mike Hatch,37822,20.19
+62,Ramsey,Governor,,DFL,John Marty,68095,36.35
+62,Ramsey,Governor,,Other,,11216,5.99
+62,Ramsey,Governor,,R,Arne Carlson,108001,57.66
+62,Ramsey,Secretary of State,,DFL,John Lindner,115767,61.80
+62,Ramsey,Secretary of State,,Other,,14327,7.65
+62,Ramsey,Secretary of State,,R,Joanell Dyrstad,57218,30.55
+62,Ramsey,State Auditor,,DFL,Mark Dayton,87949,46.95
+62,Ramsey,State Auditor,,Other,,22063,11.78
+62,Ramsey,State Auditor,,R,Judi Dutcher,77300,41.27
+62,Ramsey,State Treasurer,,DFL,Michael McGrath,91000,48.58
+62,Ramsey,State Treasurer,,Other,,31084,16.59
+62,Ramsey,State Treasurer,,R,Mike McGrath,65228,34.82
+62,Ramsey,U.S. Senate,,DFL,Ann Wynia,98339,52.50
+62,Ramsey,U.S. Senate,,Other,,15709,8.39
+62,Ramsey,U.S. Senate,,R,Rod Grams,73264,39.11
+63,Red Lake,Attorney General,,DFL,Hubert H. Humphrey III,1370,66.31
+63,Red Lake,Attorney General,,Other,,142,6.87
+63,Red Lake,Attorney General,,R,Mike Hatch,554,26.82
+63,Red Lake,Governor,,DFL,John Marty,910,44.05
+63,Red Lake,Governor,,Other,,164,7.94
+63,Red Lake,Governor,,R,Arne Carlson,992,48.02
+63,Red Lake,Secretary of State,,DFL,John Lindner,1293,62.58
+63,Red Lake,Secretary of State,,Other,,144,6.97
+63,Red Lake,Secretary of State,,R,Joanell Dyrstad,629,30.45
+63,Red Lake,State Auditor,,DFL,Mark Dayton,1216,58.86
+63,Red Lake,State Auditor,,Other,,177,8.57
+63,Red Lake,State Auditor,,R,Judi Dutcher,673,32.58
+63,Red Lake,State Treasurer,,DFL,Michael McGrath,1086,52.57
+63,Red Lake,State Treasurer,,Other,,194,9.39
+63,Red Lake,State Treasurer,,R,Mike McGrath,786,38.04
+63,Red Lake,U.S. Senate,,DFL,Ann Wynia,943,45.64
+63,Red Lake,U.S. Senate,,Other,,158,7.65
+63,Red Lake,U.S. Senate,,R,Rod Grams,965,46.71
+64,Redwood,Attorney General,,DFL,Hubert H. Humphrey III,3899,53.00
+64,Redwood,Attorney General,,Other,,807,10.97
+64,Redwood,Attorney General,,R,Mike Hatch,2651,36.03
+64,Redwood,Governor,,DFL,John Marty,1927,26.19
+64,Redwood,Governor,,Other,,447,6.08
+64,Redwood,Governor,,R,Arne Carlson,4983,67.73
+64,Redwood,Secretary of State,,DFL,John Lindner,3711,50.44
+64,Redwood,Secretary of State,,Other,,424,5.76
+64,Redwood,Secretary of State,,R,Joanell Dyrstad,3222,43.80
+64,Redwood,State Auditor,,DFL,Mark Dayton,2524,34.31
+64,Redwood,State Auditor,,Other,,748,10.17
+64,Redwood,State Auditor,,R,Judi Dutcher,4085,55.53
+64,Redwood,State Treasurer,,DFL,Michael McGrath,2372,32.24
+64,Redwood,State Treasurer,,Other,,1005,13.66
+64,Redwood,State Treasurer,,R,Mike McGrath,3980,54.10
+64,Redwood,U.S. Senate,,DFL,Ann Wynia,1970,26.78
+64,Redwood,U.S. Senate,,Other,,391,5.31
+64,Redwood,U.S. Senate,,R,Rod Grams,4996,67.91
+65,Renville,Attorney General,,DFL,Hubert H. Humphrey III,4859,63.85
+65,Renville,Attorney General,,Other,,580,7.62
+65,Renville,Attorney General,,R,Mike Hatch,2171,28.53
+65,Renville,Governor,,DFL,John Marty,2508,32.96
+65,Renville,Governor,,Other,,403,5.30
+65,Renville,Governor,,R,Arne Carlson,4699,61.75
+65,Renville,Secretary of State,,DFL,John Lindner,4620,60.71
+65,Renville,Secretary of State,,Other,,478,6.28
+65,Renville,Secretary of State,,R,Joanell Dyrstad,2512,33.01
+65,Renville,State Auditor,,DFL,Mark Dayton,3297,43.32
+65,Renville,State Auditor,,Other,,859,11.29
+65,Renville,State Auditor,,R,Judi Dutcher,3454,45.39
+65,Renville,State Treasurer,,DFL,Michael McGrath,3241,42.59
+65,Renville,State Treasurer,,Other,,843,11.08
+65,Renville,State Treasurer,,R,Mike McGrath,3526,46.33
+65,Renville,U.S. Senate,,DFL,Ann Wynia,2811,36.94
+65,Renville,U.S. Senate,,Other,,490,6.44
+65,Renville,U.S. Senate,,R,Rod Grams,4309,56.62
+66,Rice,Attorney General,,DFL,Hubert H. Humphrey III,11881,64.39
+66,Rice,Attorney General,,Other,,2629,14.25
+66,Rice,Attorney General,,R,Mike Hatch,3942,21.36
+66,Rice,Governor,,DFL,John Marty,7072,38.33
+66,Rice,Governor,,Other,,1100,5.96
+66,Rice,Governor,,R,Arne Carlson,10280,55.71
+66,Rice,Secretary of State,,DFL,John Lindner,11234,60.88
+66,Rice,Secretary of State,,Other,,1345,7.29
+66,Rice,Secretary of State,,R,Joanell Dyrstad,5873,31.83
+66,Rice,State Auditor,,DFL,Mark Dayton,8123,44.02
+66,Rice,State Auditor,,Other,,2530,13.71
+66,Rice,State Auditor,,R,Judi Dutcher,7799,42.27
+66,Rice,State Treasurer,,DFL,Michael McGrath,8585,46.53
+66,Rice,State Treasurer,,Other,,2811,15.23
+66,Rice,State Treasurer,,R,Mike McGrath,7056,38.24
+66,Rice,U.S. Senate,,DFL,Ann Wynia,8405,45.55
+66,Rice,U.S. Senate,,Other,,1464,7.93
+66,Rice,U.S. Senate,,R,Rod Grams,8583,46.52
+67,Rock,Attorney General,,DFL,Hubert H. Humphrey III,2077,53.05
+67,Rock,Attorney General,,Other,,417,10.65
+67,Rock,Attorney General,,R,Mike Hatch,1421,36.30
+67,Rock,Governor,,DFL,John Marty,1317,33.64
+67,Rock,Governor,,Other,,484,12.36
+67,Rock,Governor,,R,Arne Carlson,2114,54.00
+67,Rock,Secretary of State,,DFL,John Lindner,1959,50.04
+67,Rock,Secretary of State,,Other,,256,6.54
+67,Rock,Secretary of State,,R,Joanell Dyrstad,1700,43.42
+67,Rock,State Auditor,,DFL,Mark Dayton,1576,40.26
+67,Rock,State Auditor,,Other,,370,9.45
+67,Rock,State Auditor,,R,Judi Dutcher,1969,50.29
+67,Rock,State Treasurer,,DFL,Michael McGrath,1550,39.59
+67,Rock,State Treasurer,,Other,,462,11.80
+67,Rock,State Treasurer,,R,Mike McGrath,1903,48.61
+67,Rock,U.S. Senate,,DFL,Ann Wynia,1540,39.34
+67,Rock,U.S. Senate,,Other,,224,5.72
+67,Rock,U.S. Senate,,R,Rod Grams,2151,54.94
+68,Roseau,Attorney General,,DFL,Hubert H. Humphrey III,3064,48.21
+68,Roseau,Attorney General,,Other,,567,8.92
+68,Roseau,Attorney General,,R,Mike Hatch,2725,42.87
+68,Roseau,Governor,,DFL,John Marty,2217,34.88
+68,Roseau,Governor,,Other,,607,9.55
+68,Roseau,Governor,,R,Arne Carlson,3532,55.57
+68,Roseau,Secretary of State,,DFL,John Lindner,3374,53.08
+68,Roseau,Secretary of State,,Other,,349,5.49
+68,Roseau,Secretary of State,,R,Joanell Dyrstad,2633,41.43
+68,Roseau,State Auditor,,DFL,Mark Dayton,2735,43.03
+68,Roseau,State Auditor,,Other,,497,7.82
+68,Roseau,State Auditor,,R,Judi Dutcher,3124,49.15
+68,Roseau,State Treasurer,,DFL,Michael McGrath,2719,42.78
+68,Roseau,State Treasurer,,Other,,627,9.86
+68,Roseau,State Treasurer,,R,Mike McGrath,3010,47.36
+68,Roseau,U.S. Senate,,DFL,Ann Wynia,2274,35.78
+68,Roseau,U.S. Senate,,Other,,407,6.40
+68,Roseau,U.S. Senate,,R,Rod Grams,3675,57.82
+70,Scott,Attorney General,,DFL,Hubert H. Humphrey III,13829,55.15
+70,Scott,Attorney General,,Other,,2815,11.23
+70,Scott,Attorney General,,R,Mike Hatch,8431,33.62
+70,Scott,Governor,,DFL,John Marty,6376,25.43
+70,Scott,Governor,,Other,,1559,6.22
+70,Scott,Governor,,R,Arne Carlson,17140,68.35
+70,Scott,Secretary of State,,DFL,John Lindner,13465,53.70
+70,Scott,Secretary of State,,Other,,1689,6.74
+70,Scott,Secretary of State,,R,Joanell Dyrstad,9921,39.57
+70,Scott,State Auditor,,DFL,Mark Dayton,9230,36.81
+70,Scott,State Auditor,,Other,,2663,10.62
+70,Scott,State Auditor,,R,Judi Dutcher,13182,52.57
+70,Scott,State Treasurer,,DFL,Michael McGrath,9651,38.49
+70,Scott,State Treasurer,,Other,,3493,13.93
+70,Scott,State Treasurer,,R,Mike McGrath,11931,47.58
+70,Scott,U.S. Senate,,DFL,Ann Wynia,8727,34.80
+70,Scott,U.S. Senate,,Other,,2586,10.31
+70,Scott,U.S. Senate,,R,Rod Grams,13762,54.88
+71,Sherburne,Attorney General,,DFL,Hubert H. Humphrey III,10024,57.67
+71,Sherburne,Attorney General,,Other,,1914,11.01
+71,Sherburne,Attorney General,,R,Mike Hatch,5443,31.32
+71,Sherburne,Governor,,DFL,John Marty,5002,28.78
+71,Sherburne,Governor,,Other,,1207,6.94
+71,Sherburne,Governor,,R,Arne Carlson,11172,64.28
+71,Sherburne,Secretary of State,,DFL,John Lindner,9454,54.39
+71,Sherburne,Secretary of State,,Other,,1106,6.36
+71,Sherburne,Secretary of State,,R,Joanell Dyrstad,6821,39.24
+71,Sherburne,State Auditor,,DFL,Mark Dayton,6551,37.69
+71,Sherburne,State Auditor,,Other,,1918,11.04
+71,Sherburne,State Auditor,,R,Judi Dutcher,8912,51.27
+71,Sherburne,State Treasurer,,DFL,Michael McGrath,6774,38.97
+71,Sherburne,State Treasurer,,Other,,2492,14.34
+71,Sherburne,State Treasurer,,R,Mike McGrath,8115,46.69
+71,Sherburne,U.S. Senate,,DFL,Ann Wynia,6120,35.21
+71,Sherburne,U.S. Senate,,Other,,1619,9.31
+71,Sherburne,U.S. Senate,,R,Rod Grams,9642,55.47
+72,Sibley,Attorney General,,DFL,Hubert H. Humphrey III,3114,54.92
+72,Sibley,Attorney General,,Other,,577,10.18
+72,Sibley,Attorney General,,R,Mike Hatch,1979,34.90
+72,Sibley,Governor,,DFL,John Marty,1614,28.47
+72,Sibley,Governor,,Other,,403,7.11
+72,Sibley,Governor,,R,Arne Carlson,3653,64.43
+72,Sibley,Secretary of State,,DFL,John Lindner,3011,53.10
+72,Sibley,Secretary of State,,Other,,381,6.72
+72,Sibley,Secretary of State,,R,Joanell Dyrstad,2278,40.18
+72,Sibley,State Auditor,,DFL,Mark Dayton,2151,37.94
+72,Sibley,State Auditor,,Other,,571,10.07
+72,Sibley,State Auditor,,R,Judi Dutcher,2948,51.99
+72,Sibley,State Treasurer,,DFL,Michael McGrath,2129,37.55
+72,Sibley,State Treasurer,,Other,,725,12.79
+72,Sibley,State Treasurer,,R,Mike McGrath,2816,49.66
+72,Sibley,U.S. Senate,,DFL,Ann Wynia,1711,30.18
+72,Sibley,U.S. Senate,,Other,,401,7.07
+72,Sibley,U.S. Senate,,R,Rod Grams,3558,62.75
+69,St. Louis,Attorney General,,DFL,Hubert H. Humphrey III,62960,73.74
+69,St. Louis,Attorney General,,Other,,6016,7.05
+69,St. Louis,Attorney General,,R,Mike Hatch,16405,19.21
+69,St. Louis,Governor,,DFL,John Marty,43589,51.05
+69,St. Louis,Governor,,Other,,5085,5.96
+69,St. Louis,Governor,,R,Arne Carlson,36710,42.99
+69,St. Louis,Secretary of State,,DFL,John Lindner,59291,69.44
+69,St. Louis,Secretary of State,,Other,,5507,6.45
+69,St. Louis,Secretary of State,,R,Joanell Dyrstad,20585,24.11
+69,St. Louis,State Auditor,,DFL,Mark Dayton,51047,59.79
+69,St. Louis,State Auditor,,Other,,8223,9.63
+69,St. Louis,State Auditor,,R,Judi Dutcher,26113,30.58
+69,St. Louis,State Treasurer,,DFL,Michael McGrath,50227,58.83
+69,St. Louis,State Treasurer,,Other,,9815,11.50
+69,St. Louis,State Treasurer,,R,Mike McGrath,25341,29.68
+69,St. Louis,U.S. Senate,,DFL,Ann Wynia,47925,56.13
+69,St. Louis,U.S. Senate,,Other,,7219,8.46
+69,St. Louis,U.S. Senate,,R,Rod Grams,30231,35.41
+73,Stearns,Attorney General,,DFL,Hubert H. Humphrey III,26594,58.98
+73,Stearns,Attorney General,,Other,,4217,9.35
+73,Stearns,Attorney General,,R,Mike Hatch,14276,31.66
+73,Stearns,Governor,,DFL,John Marty,14542,32.25
+73,Stearns,Governor,,Other,,3420,7.59
+73,Stearns,Governor,,R,Arne Carlson,27125,60.16
+73,Stearns,Secretary of State,,DFL,John Lindner,24823,55.06
+73,Stearns,Secretary of State,,Other,,3136,6.96
+73,Stearns,Secretary of State,,R,Joanell Dyrstad,17128,37.99
+73,Stearns,State Auditor,,DFL,Mark Dayton,17760,39.39
+73,Stearns,State Auditor,,Other,,5209,11.55
+73,Stearns,State Auditor,,R,Judi Dutcher,22118,49.06
+73,Stearns,State Treasurer,,DFL,Michael McGrath,17410,38.61
+73,Stearns,State Treasurer,,Other,,6284,13.94
+73,Stearns,State Treasurer,,R,Mike McGrath,21393,47.45
+73,Stearns,U.S. Senate,,DFL,Ann Wynia,15768,34.97
+73,Stearns,U.S. Senate,,Other,,3062,6.79
+73,Stearns,U.S. Senate,,R,Rod Grams,26257,58.24
+74,Steele,Attorney General,,DFL,Hubert H. Humphrey III,7819,56.74
+74,Steele,Attorney General,,Other,,1443,10.47
+74,Steele,Attorney General,,R,Mike Hatch,4519,32.79
+74,Steele,Governor,,DFL,John Marty,3743,27.16
+74,Steele,Governor,,Other,,781,5.67
+74,Steele,Governor,,R,Arne Carlson,9257,67.17
+74,Steele,Secretary of State,,DFL,John Lindner,7507,54.47
+74,Steele,Secretary of State,,Other,,921,6.68
+74,Steele,Secretary of State,,R,Joanell Dyrstad,5353,38.84
+74,Steele,State Auditor,,DFL,Mark Dayton,5219,37.87
+74,Steele,State Auditor,,Other,,1472,10.68
+74,Steele,State Auditor,,R,Judi Dutcher,7090,51.45
+74,Steele,State Treasurer,,DFL,Michael McGrath,5438,39.46
+74,Steele,State Treasurer,,Other,,1909,13.85
+74,Steele,State Treasurer,,R,Mike McGrath,6434,46.69
+74,Steele,U.S. Senate,,DFL,Ann Wynia,4887,35.46
+74,Steele,U.S. Senate,,Other,,1052,7.63
+74,Steele,U.S. Senate,,R,Rod Grams,7842,56.90
+75,Stevens,Attorney General,,DFL,Hubert H. Humphrey III,2580,61.24
+75,Stevens,Attorney General,,Other,,336,7.98
+75,Stevens,Attorney General,,R,Mike Hatch,1297,30.79
+75,Stevens,Governor,,DFL,John Marty,1552,36.84
+75,Stevens,Governor,,Other,,309,7.33
+75,Stevens,Governor,,R,Arne Carlson,2352,55.83
+75,Stevens,Secretary of State,,DFL,John Lindner,2411,57.23
+75,Stevens,Secretary of State,,Other,,226,5.36
+75,Stevens,Secretary of State,,R,Joanell Dyrstad,1576,37.41
+75,Stevens,State Auditor,,DFL,Mark Dayton,1858,44.10
+75,Stevens,State Auditor,,Other,,355,8.43
+75,Stevens,State Auditor,,R,Judi Dutcher,2000,47.47
+75,Stevens,State Treasurer,,DFL,Michael McGrath,1835,43.56
+75,Stevens,State Treasurer,,Other,,433,10.28
+75,Stevens,State Treasurer,,R,Mike McGrath,1945,46.17
+75,Stevens,U.S. Senate,,DFL,Ann Wynia,1609,38.19
+75,Stevens,U.S. Senate,,Other,,224,5.32
+75,Stevens,U.S. Senate,,R,Rod Grams,2380,56.49
+76,Swift,Attorney General,,DFL,Hubert H. Humphrey III,3109,68.16
+76,Swift,Attorney General,,Other,,339,7.43
+76,Swift,Attorney General,,R,Mike Hatch,1113,24.40
+76,Swift,Governor,,DFL,John Marty,2130,46.70
+76,Swift,Governor,,Other,,280,6.14
+76,Swift,Governor,,R,Arne Carlson,2151,47.16
+76,Swift,Secretary of State,,DFL,John Lindner,2827,61.98
+76,Swift,Secretary of State,,Other,,223,4.89
+76,Swift,Secretary of State,,R,Joanell Dyrstad,1511,33.13
+76,Swift,State Auditor,,DFL,Mark Dayton,2471,54.18
+76,Swift,State Auditor,,Other,,323,7.08
+76,Swift,State Auditor,,R,Judi Dutcher,1767,38.74
+76,Swift,State Treasurer,,DFL,Michael McGrath,2457,53.87
+76,Swift,State Treasurer,,Other,,457,10.02
+76,Swift,State Treasurer,,R,Mike McGrath,1647,36.11
+76,Swift,U.S. Senate,,DFL,Ann Wynia,2161,47.38
+76,Swift,U.S. Senate,,Other,,234,5.13
+76,Swift,U.S. Senate,,R,Rod Grams,2166,47.49
+77,Todd,Attorney General,,DFL,Hubert H. Humphrey III,5690,58.76
+77,Todd,Attorney General,,Other,,943,9.74
+77,Todd,Attorney General,,R,Mike Hatch,3051,31.51
+77,Todd,Governor,,DFL,John Marty,3537,36.52
+77,Todd,Governor,,Other,,889,9.18
+77,Todd,Governor,,R,Arne Carlson,5258,54.30
+77,Todd,Secretary of State,,DFL,John Lindner,5180,53.49
+77,Todd,Secretary of State,,Other,,613,6.33
+77,Todd,Secretary of State,,R,Joanell Dyrstad,3891,40.18
+77,Todd,State Auditor,,DFL,Mark Dayton,4232,43.70
+77,Todd,State Auditor,,Other,,950,9.81
+77,Todd,State Auditor,,R,Judi Dutcher,4502,46.49
+77,Todd,State Treasurer,,DFL,Michael McGrath,4168,43.04
+77,Todd,State Treasurer,,Other,,1153,11.91
+77,Todd,State Treasurer,,R,Mike McGrath,4363,45.05
+77,Todd,U.S. Senate,,DFL,Ann Wynia,3153,32.56
+77,Todd,U.S. Senate,,Other,,719,7.42
+77,Todd,U.S. Senate,,R,Rod Grams,5812,60.02
+78,Traverse,Attorney General,,DFL,Hubert H. Humphrey III,1131,61.07
+78,Traverse,Attorney General,,Other,,183,9.88
+78,Traverse,Attorney General,,R,Mike Hatch,538,29.05
+78,Traverse,Governor,,DFL,John Marty,731,39.47
+78,Traverse,Governor,,Other,,138,7.45
+78,Traverse,Governor,,R,Arne Carlson,983,53.08
+78,Traverse,Secretary of State,,DFL,John Lindner,1087,58.69
+78,Traverse,Secretary of State,,Other,,78,4.21
+78,Traverse,Secretary of State,,R,Joanell Dyrstad,687,37.10
+78,Traverse,State Auditor,,DFL,Mark Dayton,929,50.16
+78,Traverse,State Auditor,,Other,,136,7.34
+78,Traverse,State Auditor,,R,Judi Dutcher,787,42.49
+78,Traverse,State Treasurer,,DFL,Michael McGrath,841,45.41
+78,Traverse,State Treasurer,,Other,,218,11.77
+78,Traverse,State Treasurer,,R,Mike McGrath,793,42.82
+78,Traverse,U.S. Senate,,DFL,Ann Wynia,740,39.96
+78,Traverse,U.S. Senate,,Other,,110,5.94
+78,Traverse,U.S. Senate,,R,Rod Grams,1002,54.10
+79,Wabasha,Attorney General,,DFL,Hubert H. Humphrey III,4871,59.79
+79,Wabasha,Attorney General,,Other,,674,8.27
+79,Wabasha,Attorney General,,R,Mike Hatch,2602,31.94
+79,Wabasha,Governor,,DFL,John Marty,2453,30.11
+79,Wabasha,Governor,,Other,,423,5.19
+79,Wabasha,Governor,,R,Arne Carlson,5271,64.70
+79,Wabasha,Secretary of State,,DFL,John Lindner,4384,53.81
+79,Wabasha,Secretary of State,,Other,,550,6.75
+79,Wabasha,Secretary of State,,R,Joanell Dyrstad,3213,39.44
+79,Wabasha,State Auditor,,DFL,Mark Dayton,3259,40.00
+79,Wabasha,State Auditor,,Other,,824,10.11
+79,Wabasha,State Auditor,,R,Judi Dutcher,4064,49.88
+79,Wabasha,State Treasurer,,DFL,Michael McGrath,3432,42.13
+79,Wabasha,State Treasurer,,Other,,967,11.87
+79,Wabasha,State Treasurer,,R,Mike McGrath,3748,46.00
+79,Wabasha,U.S. Senate,,DFL,Ann Wynia,3027,37.15
+79,Wabasha,U.S. Senate,,Other,,612,7.51
+79,Wabasha,U.S. Senate,,R,Rod Grams,4508,55.33
+80,Wadena,Attorney General,,DFL,Hubert H. Humphrey III,2873,54.58
+80,Wadena,Attorney General,,Other,,507,9.63
+80,Wadena,Attorney General,,R,Mike Hatch,1884,35.79
+80,Wadena,Governor,,DFL,John Marty,1822,34.61
+80,Wadena,Governor,,Other,,414,7.86
+80,Wadena,Governor,,R,Arne Carlson,3028,57.52
+80,Wadena,Secretary of State,,DFL,John Lindner,2583,49.07
+80,Wadena,Secretary of State,,Other,,266,5.05
+80,Wadena,Secretary of State,,R,Joanell Dyrstad,2415,45.88
+80,Wadena,State Auditor,,DFL,Mark Dayton,2105,39.99
+80,Wadena,State Auditor,,Other,,411,7.81
+80,Wadena,State Auditor,,R,Judi Dutcher,2748,52.20
+80,Wadena,State Treasurer,,DFL,Michael McGrath,2022,38.41
+80,Wadena,State Treasurer,,Other,,611,11.61
+80,Wadena,State Treasurer,,R,Mike McGrath,2631,49.98
+80,Wadena,U.S. Senate,,DFL,Ann Wynia,1735,32.96
+80,Wadena,U.S. Senate,,Other,,320,6.08
+80,Wadena,U.S. Senate,,R,Rod Grams,3209,60.96
+81,Waseca,Attorney General,,DFL,Hubert H. Humphrey III,4282,59.09
+81,Waseca,Attorney General,,Other,,643,8.87
+81,Waseca,Attorney General,,R,Mike Hatch,2322,32.04
+81,Waseca,Governor,,DFL,John Marty,2261,31.20
+81,Waseca,Governor,,Other,,436,6.02
+81,Waseca,Governor,,R,Arne Carlson,4550,62.78
+81,Waseca,Secretary of State,,DFL,John Lindner,4112,56.74
+81,Waseca,Secretary of State,,Other,,404,5.57
+81,Waseca,Secretary of State,,R,Joanell Dyrstad,2731,37.68
+81,Waseca,State Auditor,,DFL,Mark Dayton,2847,39.29
+81,Waseca,State Auditor,,Other,,670,9.25
+81,Waseca,State Auditor,,R,Judi Dutcher,3730,51.47
+81,Waseca,State Treasurer,,DFL,Michael McGrath,2940,40.57
+81,Waseca,State Treasurer,,Other,,826,11.40
+81,Waseca,State Treasurer,,R,Mike McGrath,3481,48.03
+81,Waseca,U.S. Senate,,DFL,Ann Wynia,2519,34.76
+81,Waseca,U.S. Senate,,Other,,447,6.17
+81,Waseca,U.S. Senate,,R,Rod Grams,4281,59.07
+82,Washington,Attorney General,,DFL,Hubert H. Humphrey III,44272,62.77
+82,Washington,Attorney General,,Other,,8123,11.52
+82,Washington,Attorney General,,R,Mike Hatch,18131,25.71
+82,Washington,Governor,,DFL,John Marty,18979,26.91
+82,Washington,Governor,,Other,,3742,5.31
+82,Washington,Governor,,R,Arne Carlson,47805,67.78
+82,Washington,Secretary of State,,DFL,John Lindner,40209,57.01
+82,Washington,Secretary of State,,Other,,4863,6.90
+82,Washington,Secretary of State,,R,Joanell Dyrstad,25454,36.09
+82,Washington,State Auditor,,DFL,Mark Dayton,27938,39.61
+82,Washington,State Auditor,,Other,,7489,10.62
+82,Washington,State Auditor,,R,Judi Dutcher,35099,49.77
+82,Washington,State Treasurer,,DFL,Michael McGrath,29363,41.63
+82,Washington,State Treasurer,,Other,,10637,15.08
+82,Washington,State Treasurer,,R,Mike McGrath,30526,43.28
+82,Washington,U.S. Senate,,DFL,Ann Wynia,30263,42.91
+82,Washington,U.S. Senate,,Other,,6522,9.25
+82,Washington,U.S. Senate,,R,Rod Grams,33741,47.84
+83,Watonwan,Attorney General,,DFL,Hubert H. Humphrey III,2752,59.48
+83,Watonwan,Attorney General,,Other,,370,8.00
+83,Watonwan,Attorney General,,R,Mike Hatch,1505,32.53
+83,Watonwan,Governor,,DFL,John Marty,1666,36.01
+83,Watonwan,Governor,,Other,,369,7.97
+83,Watonwan,Governor,,R,Arne Carlson,2592,56.02
+83,Watonwan,Secretary of State,,DFL,John Lindner,2676,57.83
+83,Watonwan,Secretary of State,,Other,,207,4.47
+83,Watonwan,Secretary of State,,R,Joanell Dyrstad,1744,37.69
+83,Watonwan,State Auditor,,DFL,Mark Dayton,2056,44.43
+83,Watonwan,State Auditor,,Other,,347,7.50
+83,Watonwan,State Auditor,,R,Judi Dutcher,2224,48.07
+83,Watonwan,State Treasurer,,DFL,Michael McGrath,1981,42.81
+83,Watonwan,State Treasurer,,Other,,468,10.11
+83,Watonwan,State Treasurer,,R,Mike McGrath,2178,47.07
+83,Watonwan,U.S. Senate,,DFL,Ann Wynia,1732,37.43
+83,Watonwan,U.S. Senate,,Other,,266,5.75
+83,Watonwan,U.S. Senate,,R,Rod Grams,2629,56.82
+84,Wilkin,Attorney General,,DFL,Hubert H. Humphrey III,1627,58.65
+84,Wilkin,Attorney General,,Other,,265,9.55
+84,Wilkin,Attorney General,,R,Mike Hatch,882,31.80
+84,Wilkin,Governor,,DFL,John Marty,710,25.59
+84,Wilkin,Governor,,Other,,187,6.74
+84,Wilkin,Governor,,R,Arne Carlson,1877,67.66
+84,Wilkin,Secretary of State,,DFL,John Lindner,1439,51.87
+84,Wilkin,Secretary of State,,Other,,188,6.78
+84,Wilkin,Secretary of State,,R,Joanell Dyrstad,1147,41.35
+84,Wilkin,State Auditor,,DFL,Mark Dayton,1075,38.75
+84,Wilkin,State Auditor,,Other,,317,11.43
+84,Wilkin,State Auditor,,R,Judi Dutcher,1382,49.82
+84,Wilkin,State Treasurer,,DFL,Michael McGrath,993,35.80
+84,Wilkin,State Treasurer,,Other,,374,13.48
+84,Wilkin,State Treasurer,,R,Mike McGrath,1407,50.72
+84,Wilkin,U.S. Senate,,DFL,Ann Wynia,975,35.15
+84,Wilkin,U.S. Senate,,Other,,177,6.38
+84,Wilkin,U.S. Senate,,R,Rod Grams,1622,58.47
+85,Winona,Attorney General,,DFL,Hubert H. Humphrey III,10049,57.05
+85,Winona,Attorney General,,Other,,1695,9.62
+85,Winona,Attorney General,,R,Mike Hatch,5869,33.32
+85,Winona,Governor,,DFL,John Marty,5962,33.85
+85,Winona,Governor,,Other,,1322,7.51
+85,Winona,Governor,,R,Arne Carlson,10329,58.64
+85,Winona,Secretary of State,,DFL,John Lindner,9336,53.01
+85,Winona,Secretary of State,,Other,,1348,7.65
+85,Winona,Secretary of State,,R,Joanell Dyrstad,6929,39.34
+85,Winona,State Auditor,,DFL,Mark Dayton,7377,41.88
+85,Winona,State Auditor,,Other,,2084,11.83
+85,Winona,State Auditor,,R,Judi Dutcher,8152,46.28
+85,Winona,State Treasurer,,DFL,Michael McGrath,7322,41.57
+85,Winona,State Treasurer,,Other,,2388,13.56
+85,Winona,State Treasurer,,R,Mike McGrath,7903,44.87
+85,Winona,U.S. Senate,,DFL,Ann Wynia,7389,41.95
+85,Winona,U.S. Senate,,Other,,1111,6.31
+85,Winona,U.S. Senate,,R,Rod Grams,9113,51.74
+86,Wright,Attorney General,,DFL,Hubert H. Humphrey III,15473,56.74
+86,Wright,Attorney General,,Other,,2840,10.41
+86,Wright,Attorney General,,R,Mike Hatch,8956,32.84
+86,Wright,Governor,,DFL,John Marty,7954,29.17
+86,Wright,Governor,,Other,,1735,6.36
+86,Wright,Governor,,R,Arne Carlson,17580,64.47
+86,Wright,Secretary of State,,DFL,John Lindner,14778,54.19
+86,Wright,Secretary of State,,Other,,1676,6.15
+86,Wright,Secretary of State,,R,Joanell Dyrstad,10815,39.66
+86,Wright,State Auditor,,DFL,Mark Dayton,10513,38.55
+86,Wright,State Auditor,,Other,,2716,9.96
+86,Wright,State Auditor,,R,Judi Dutcher,14040,51.49
+86,Wright,State Treasurer,,DFL,Michael McGrath,10714,39.29
+86,Wright,State Treasurer,,Other,,3724,13.66
+86,Wright,State Treasurer,,R,Mike McGrath,12831,47.05
+86,Wright,U.S. Senate,,DFL,Ann Wynia,9212,33.78
+86,Wright,U.S. Senate,,Other,,3226,11.83
+86,Wright,U.S. Senate,,R,Rod Grams,14831,54.39
+87,Yellow Medicine,Attorney General,,DFL,Hubert H. Humphrey III,3013,61.13
+87,Yellow Medicine,Attorney General,,Other,,359,7.28
+87,Yellow Medicine,Attorney General,,R,Mike Hatch,1557,31.59
+87,Yellow Medicine,Governor,,DFL,John Marty,1943,39.42
+87,Yellow Medicine,Governor,,Other,,265,5.38
+87,Yellow Medicine,Governor,,R,Arne Carlson,2721,55.20
+87,Yellow Medicine,Secretary of State,,DFL,John Lindner,2887,58.57
+87,Yellow Medicine,Secretary of State,,Other,,175,3.55
+87,Yellow Medicine,Secretary of State,,R,Joanell Dyrstad,1867,37.88
+87,Yellow Medicine,State Auditor,,DFL,Mark Dayton,2297,46.60
+87,Yellow Medicine,State Auditor,,Other,,332,6.74
+87,Yellow Medicine,State Auditor,,R,Judi Dutcher,2300,46.66
+87,Yellow Medicine,State Treasurer,,DFL,Michael McGrath,2299,46.64
+87,Yellow Medicine,State Treasurer,,Other,,460,9.33
+87,Yellow Medicine,State Treasurer,,R,Mike McGrath,2170,44.03
+87,Yellow Medicine,U.S. Senate,,DFL,Ann Wynia,2016,40.90
+87,Yellow Medicine,U.S. Senate,,Other,,233,4.73
+87,Yellow Medicine,U.S. Senate,,R,Rod Grams,2680,54.37

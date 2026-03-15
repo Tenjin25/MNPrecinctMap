@@ -1,0 +1,262 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,President,,DFL,Bill Clinton,3400,44.72
+01,Aitkin,President,,Other,Ross Perot,2052,26.99
+01,Aitkin,President,,R,George H.W. Bush,2151,28.29
+02,Anoka,President,,DFL,Bill Clinton,54621,41.94
+02,Anoka,President,,Other,Ross Perot,36153,27.76
+02,Anoka,President,,R,George H.W. Bush,39458,30.30
+03,Becker,President,,DFL,Bill Clinton,4958,35.61
+03,Becker,President,,Other,Ross Perot,3535,25.39
+03,Becker,President,,R,George H.W. Bush,5430,39.00
+04,Beltrami,President,,DFL,Bill Clinton,7210,44.61
+04,Beltrami,President,,Other,Ross Perot,3748,23.19
+04,Beltrami,President,,R,George H.W. Bush,5204,32.20
+05,Benton,President,,DFL,Bill Clinton,5156,35.27
+05,Benton,President,,Other,Ross Perot,4408,30.16
+05,Benton,President,,R,George H.W. Bush,5053,34.57
+06,Big Stone,President,,DFL,Bill Clinton,1610,46.60
+06,Big Stone,President,,Other,Ross Perot,793,22.95
+06,Big Stone,President,,R,George H.W. Bush,1052,30.45
+07,Blue Earth,President,,DFL,Bill Clinton,11531,41.09
+07,Blue Earth,President,,Other,Ross Perot,7720,27.51
+07,Blue Earth,President,,R,George H.W. Bush,8813,31.40
+08,Brown,President,,DFL,Bill Clinton,4278,30.93
+08,Brown,President,,Other,Ross Perot,4162,30.09
+08,Brown,President,,R,George H.W. Bush,5390,38.97
+09,Carlton,President,,DFL,Bill Clinton,7736,51.85
+09,Carlton,President,,Other,Ross Perot,3261,21.86
+09,Carlton,President,,R,George H.W. Bush,3922,26.29
+10,Carver,President,,DFL,Bill Clinton,8349,31.13
+10,Carver,President,,Other,Ross Perot,8270,30.84
+10,Carver,President,,R,George H.W. Bush,10201,38.04
+11,Cass,President,,DFL,Bill Clinton,4901,39.67
+11,Cass,President,,Other,Ross Perot,3178,25.72
+11,Cass,President,,R,George H.W. Bush,4276,34.61
+12,Chippewa,President,,DFL,Bill Clinton,2929,43.56
+12,Chippewa,President,,Other,Ross Perot,1652,24.57
+12,Chippewa,President,,R,George H.W. Bush,2143,31.87
+13,Chisago,President,,DFL,Bill Clinton,7077,41.20
+13,Chisago,President,,Other,Ross Perot,5287,30.78
+13,Chisago,President,,R,George H.W. Bush,4813,28.02
+14,Clay,President,,DFL,Bill Clinton,9845,41.46
+14,Clay,President,,Other,Ross Perot,4234,17.83
+14,Clay,President,,R,George H.W. Bush,9666,40.71
+15,Clearwater,President,,DFL,Bill Clinton,1587,41.70
+15,Clearwater,President,,Other,Ross Perot,904,23.75
+15,Clearwater,President,,R,George H.W. Bush,1315,34.55
+16,Cook,President,,DFL,Bill Clinton,1005,38.24
+16,Cook,President,,Other,Ross Perot,745,28.35
+16,Cook,President,,R,George H.W. Bush,878,33.41
+17,Cottonwood,President,,DFL,Bill Clinton,2382,35.55
+17,Cottonwood,President,,Other,Ross Perot,1838,27.43
+17,Cottonwood,President,,R,George H.W. Bush,2481,37.02
+18,Crow Wing,President,,DFL,Bill Clinton,8896,35.90
+18,Crow Wing,President,,Other,Ross Perot,6771,27.33
+18,Crow Wing,President,,R,George H.W. Bush,9112,36.77
+19,Dakota,President,,DFL,Bill Clinton,63660,40.82
+19,Dakota,President,,Other,Ross Perot,39976,25.63
+19,Dakota,President,,R,George H.W. Bush,52312,33.54
+20,Dodge,President,,DFL,Bill Clinton,2620,32.60
+20,Dodge,President,,Other,Ross Perot,2367,29.45
+20,Dodge,President,,R,George H.W. Bush,3049,37.94
+21,Douglas,President,,DFL,Bill Clinton,5252,32.93
+21,Douglas,President,,Other,Ross Perot,4341,27.22
+21,Douglas,President,,R,George H.W. Bush,6356,39.85
+22,Faribault,President,,DFL,Bill Clinton,3339,36.12
+22,Faribault,President,,Other,Ross Perot,2467,26.68
+22,Faribault,President,,R,George H.W. Bush,3439,37.20
+23,Fillmore,President,,DFL,Bill Clinton,3977,37.06
+23,Fillmore,President,,Other,Ross Perot,3172,29.56
+23,Fillmore,President,,R,George H.W. Bush,3583,33.39
+24,Freeborn,President,,DFL,Bill Clinton,7759,43.17
+24,Freeborn,President,,Other,Ross Perot,5125,28.51
+24,Freeborn,President,,R,George H.W. Bush,5089,28.31
+25,Goodhue,President,,DFL,Bill Clinton,7916,36.66
+25,Goodhue,President,,Other,Ross Perot,6356,29.44
+25,Goodhue,President,,R,George H.W. Bush,7321,33.90
+26,Grant,President,,DFL,Bill Clinton,1561,42.33
+26,Grant,President,,Other,Ross Perot,926,25.11
+26,Grant,President,,R,George H.W. Bush,1201,32.57
+27,Hennepin,President,,DFL,Bill Clinton,278648,47.69
+27,Hennepin,President,,Other,Ross Perot,126003,21.57
+27,Hennepin,President,,R,George H.W. Bush,179581,30.74
+28,Houston,President,,DFL,Bill Clinton,3744,35.50
+28,Houston,President,,Other,Ross Perot,2950,27.97
+28,Houston,President,,R,George H.W. Bush,3853,36.53
+29,Hubbard,President,,DFL,Bill Clinton,3362,38.82
+29,Hubbard,President,,Other,Ross Perot,2071,23.91
+29,Hubbard,President,,R,George H.W. Bush,3227,37.26
+30,Isanti,President,,DFL,Bill Clinton,5386,40.02
+30,Isanti,President,,Other,Ross Perot,4084,30.35
+30,Isanti,President,,R,George H.W. Bush,3988,29.63
+31,Itasca,President,,DFL,Bill Clinton,9621,44.54
+31,Itasca,President,,Other,Ross Perot,6029,27.91
+31,Itasca,President,,R,George H.W. Bush,5952,27.55
+32,Jackson,President,,DFL,Bill Clinton,2481,39.37
+32,Jackson,President,,Other,Ross Perot,1997,31.69
+32,Jackson,President,,R,George H.W. Bush,1824,28.94
+33,Kanabec,President,,DFL,Bill Clinton,2532,40.11
+33,Kanabec,President,,Other,Ross Perot,1905,30.18
+33,Kanabec,President,,R,George H.W. Bush,1876,29.72
+34,Kandiyohi,President,,DFL,Bill Clinton,7914,40.09
+34,Kandiyohi,President,,Other,Ross Perot,5044,25.55
+34,Kandiyohi,President,,R,George H.W. Bush,6784,34.36
+35,Kittson,President,,DFL,Bill Clinton,1307,43.16
+35,Kittson,President,,Other,Ross Perot,623,20.57
+35,Kittson,President,,R,George H.W. Bush,1098,36.26
+36,Koochiching,President,,DFL,Bill Clinton,3474,46.32
+36,Koochiching,President,,Other,Ross Perot,2072,27.63
+36,Koochiching,President,,R,George H.W. Bush,1954,26.05
+37,Lac qui Parle,President,,DFL,Bill Clinton,2342,46.81
+37,Lac qui Parle,President,,Other,Ross Perot,1226,24.51
+37,Lac qui Parle,President,,R,George H.W. Bush,1435,28.68
+38,Lake,President,,DFL,Bill Clinton,3415,53.48
+38,Lake,President,,Other,Ross Perot,1505,23.57
+38,Lake,President,,R,George H.W. Bush,1465,22.94
+39,Lake of the Woods,President,,DFL,Bill Clinton,794,35.75
+39,Lake of the Woods,President,,Other,Ross Perot,665,29.94
+39,Lake of the Woods,President,,R,George H.W. Bush,762,34.31
+40,Le Sueur,President,,DFL,Bill Clinton,4662,38.66
+40,Le Sueur,President,,Other,Ross Perot,3539,29.35
+40,Le Sueur,President,,R,George H.W. Bush,3858,31.99
+41,Lincoln,President,,DFL,Bill Clinton,1555,42.26
+41,Lincoln,President,,Other,Ross Perot,1041,28.29
+41,Lincoln,President,,R,George H.W. Bush,1084,29.46
+42,Lyon,President,,DFL,Bill Clinton,4481,36.04
+42,Lyon,President,,Other,Ross Perot,3360,27.03
+42,Lyon,President,,R,George H.W. Bush,4591,36.93
+44,Mahnomen,President,,DFL,Bill Clinton,1035,43.07
+44,Mahnomen,President,,Other,Ross Perot,514,21.39
+44,Mahnomen,President,,R,George H.W. Bush,854,35.54
+45,Marshall,President,,DFL,Bill Clinton,2309,39.46
+45,Marshall,President,,Other,Ross Perot,1406,24.03
+45,Marshall,President,,R,George H.W. Bush,2136,36.51
+46,Martin,President,,DFL,Bill Clinton,4019,34.36
+46,Martin,President,,Other,Ross Perot,3240,27.70
+46,Martin,President,,R,George H.W. Bush,4438,37.94
+43,McLeod,President,,DFL,Bill Clinton,4919,31.68
+43,McLeod,President,,Other,Ross Perot,5185,33.40
+43,McLeod,President,,R,George H.W. Bush,5422,34.92
+61,Meeker,President,,DFL,Bill Clinton,2619,43.38
+61,Meeker,President,,Other,Ross Perot,1533,25.39
+61,Meeker,President,,R,George H.W. Bush,1886,31.24
+47,Mille Lacs,President,,DFL,Bill Clinton,3861,36.39
+47,Mille Lacs,President,,Other,Ross Perot,3253,30.66
+47,Mille Lacs,President,,R,George H.W. Bush,3497,32.96
+48,Morrison,President,,DFL,Bill Clinton,3648,37.90
+48,Morrison,President,,Other,Ross Perot,3163,32.86
+48,Morrison,President,,R,George H.W. Bush,2814,29.24
+49,Mower,President,,DFL,Bill Clinton,5588,38.37
+49,Mower,President,,Other,Ross Perot,3939,27.04
+49,Mower,President,,R,George H.W. Bush,5038,34.59
+50,Murray,President,,DFL,Bill Clinton,9935,48.45
+50,Murray,President,,Other,Ross Perot,5424,26.45
+50,Murray,President,,R,George H.W. Bush,5147,25.10
+51,Nicollet,President,,DFL,Bill Clinton,1993,37.88
+51,Nicollet,President,,Other,Ross Perot,1660,31.55
+51,Nicollet,President,,R,George H.W. Bush,1609,30.58
+52,Nobles,President,,DFL,Bill Clinton,6055,40.11
+52,Nobles,President,,Other,Ross Perot,3949,26.16
+52,Nobles,President,,R,George H.W. Bush,5091,33.73
+53,Norman,President,,DFL,Bill Clinton,3756,37.09
+53,Norman,President,,Other,Ross Perot,2824,27.88
+53,Norman,President,,R,George H.W. Bush,3548,35.03
+54,Olmsted,President,,DFL,Bill Clinton,1784,42.86
+54,Olmsted,President,,Other,Ross Perot,837,20.11
+54,Olmsted,President,,R,George H.W. Bush,1541,37.03
+55,Otter Tail,President,,DFL,Bill Clinton,19039,33.48
+55,Otter Tail,President,,Other,Ross Perot,14420,25.36
+55,Otter Tail,President,,R,George H.W. Bush,23404,41.16
+56,Pennington,President,,DFL,Bill Clinton,9176,34.14
+56,Pennington,President,,Other,Ross Perot,6624,24.65
+56,Pennington,President,,R,George H.W. Bush,11074,41.21
+57,Pine,President,,DFL,Bill Clinton,2578,39.97
+57,Pine,President,,Other,Ross Perot,1717,26.62
+57,Pine,President,,R,George H.W. Bush,2155,33.41
+58,Pipestone,President,,DFL,Bill Clinton,4929,45.32
+58,Pipestone,President,,Other,Ross Perot,3105,28.55
+58,Pipestone,President,,R,George H.W. Bush,2841,26.12
+59,Polk,President,,DFL,Bill Clinton,1773,33.69
+59,Polk,President,,Other,Ross Perot,1537,29.20
+59,Polk,President,,R,George H.W. Bush,1953,37.11
+60,Pope,President,,DFL,Bill Clinton,5850,38.19
+60,Pope,President,,Other,Ross Perot,3651,23.83
+60,Pope,President,,R,George H.W. Bush,5817,37.97
+62,Ramsey,President,,DFL,Bill Clinton,130932,51.79
+62,Ramsey,President,,Other,Ross Perot,53668,21.23
+62,Ramsey,President,,R,George H.W. Bush,68206,26.98
+63,Red Lake,President,,DFL,Bill Clinton,1020,45.74
+63,Red Lake,President,,Other,Ross Perot,519,23.27
+63,Red Lake,President,,R,George H.W. Bush,691,30.99
+64,Redwood,President,,DFL,Bill Clinton,2740,30.60
+64,Redwood,President,,Other,Ross Perot,2806,31.34
+64,Redwood,President,,R,George H.W. Bush,3408,38.06
+65,Renville,President,,DFL,Bill Clinton,3414,38.08
+65,Renville,President,,Other,Ross Perot,2700,30.11
+65,Renville,President,,R,George H.W. Bush,2852,31.81
+66,Rice,President,,DFL,Bill Clinton,10908,44.62
+66,Rice,President,,Other,Ross Perot,6521,26.68
+66,Rice,President,,R,George H.W. Bush,7015,28.70
+67,Rock,President,,DFL,Bill Clinton,2006,37.32
+67,Rock,President,,Other,Ross Perot,1304,24.26
+67,Rock,President,,R,George H.W. Bush,2065,38.42
+68,Roseau,President,,DFL,Bill Clinton,2346,31.96
+68,Roseau,President,,Other,Ross Perot,2210,30.10
+68,Roseau,President,,R,George H.W. Bush,2785,37.94
+70,Scott,President,,DFL,Bill Clinton,11225,36.56
+70,Scott,President,,Other,Ross Perot,8544,27.83
+70,Scott,President,,R,George H.W. Bush,10936,35.62
+71,Sherburne,President,,DFL,Bill Clinton,7843,34.06
+71,Sherburne,President,,Other,Ross Perot,7846,34.07
+71,Sherburne,President,,R,George H.W. Bush,7339,31.87
+72,Sibley,President,,DFL,Bill Clinton,2421,33.31
+72,Sibley,President,,Other,Ross Perot,2531,34.83
+72,Sibley,President,,R,George H.W. Bush,2315,31.86
+69,St. Louis,President,,DFL,Bill Clinton,61813,56.35
+69,St. Louis,President,,Other,Ross Perot,23311,21.25
+69,St. Louis,President,,R,George H.W. Bush,24579,22.41
+73,Stearns,President,,DFL,Bill Clinton,21451,35.96
+73,Stearns,President,,Other,Ross Perot,15699,26.32
+73,Stearns,President,,R,George H.W. Bush,22502,37.72
+74,Steele,President,,DFL,Bill Clinton,5152,31.97
+74,Steele,President,,Other,Ross Perot,5000,31.03
+74,Steele,President,,R,George H.W. Bush,5964,37.01
+75,Stevens,President,,DFL,Bill Clinton,2466,42.03
+75,Stevens,President,,Other,Ross Perot,1172,19.98
+75,Stevens,President,,R,George H.W. Bush,2229,37.99
+76,Swift,President,,DFL,Bill Clinton,2980,49.37
+76,Swift,President,,Other,Ross Perot,1453,24.07
+76,Swift,President,,R,George H.W. Bush,1603,26.56
+77,Todd,President,,DFL,Bill Clinton,4059,36.29
+77,Todd,President,,Other,Ross Perot,3137,28.04
+77,Todd,President,,R,George H.W. Bush,3990,35.67
+78,Traverse,President,,DFL,Bill Clinton,1053,42.04
+78,Traverse,President,,Other,Ross Perot,611,24.39
+78,Traverse,President,,R,George H.W. Bush,841,33.57
+79,Wabasha,President,,DFL,Bill Clinton,3736,36.16
+79,Wabasha,President,,Other,Ross Perot,3200,30.97
+79,Wabasha,President,,R,George H.W. Bush,3397,32.88
+80,Wadena,President,,DFL,Bill Clinton,2340,36.30
+80,Wadena,President,,Other,Ross Perot,1614,25.04
+80,Wadena,President,,R,George H.W. Bush,2492,38.66
+81,Waseca,President,,DFL,Bill Clinton,3146,34.23
+81,Waseca,President,,Other,Ross Perot,2928,31.85
+81,Waseca,President,,R,George H.W. Bush,3118,33.92
+82,Washington,President,,DFL,Bill Clinton,35820,41.78
+82,Washington,President,,Other,Ross Perot,23352,27.24
+82,Washington,President,,R,George H.W. Bush,26568,30.99
+83,Watonwan,President,,DFL,Bill Clinton,2100,37.39
+83,Watonwan,President,,Other,Ross Perot,1646,29.30
+83,Watonwan,President,,R,George H.W. Bush,1871,33.31
+84,Wilkin,President,,DFL,Bill Clinton,1122,31.61
+84,Wilkin,President,,Other,Ross Perot,802,22.59
+84,Wilkin,President,,R,George H.W. Bush,1626,45.80
+85,Winona,President,,DFL,Bill Clinton,9707,39.35
+85,Winona,President,,Other,Ross Perot,6374,25.84
+85,Winona,President,,R,George H.W. Bush,8585,34.80
+86,Wright,President,,DFL,Bill Clinton,12465,35.25
+86,Wright,President,,Other,Ross Perot,11249,31.81
+86,Wright,President,,R,George H.W. Bush,11650,32.94
+87,Yellow Medicine,President,,DFL,Bill Clinton,2593,41.48
+87,Yellow Medicine,President,,Other,Ross Perot,1749,27.98
+87,Yellow Medicine,President,,R,George H.W. Bush,1909,30.54

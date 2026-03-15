@@ -1,0 +1,610 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,President,,DFL,Bill Clinton,3810,51.29
+01,Aitkin,President,,Other,Other,136,1.83
+01,Aitkin,President,,R,Bob Dole,2327,31.33
+01,Aitkin,President,,RP,Ross Perot,1155,15.55
+01,Aitkin,U.S. Senate,,DFL,Paul Wellstone,3828,51.53
+01,Aitkin,U.S. Senate,,Other,,806,10.85
+01,Aitkin,U.S. Senate,,R,Rudy Boschwitz,2794,37.61
+02,Anoka,President,,DFL,Bill Clinton,63756,51.25
+02,Anoka,President,,Other,Other,2446,1.97
+02,Anoka,President,,R,Bob Dole,41745,33.56
+02,Anoka,President,,RP,Ross Perot,16448,13.22
+02,Anoka,U.S. Senate,,DFL,Paul Wellstone,60204,48.40
+02,Anoka,U.S. Senate,,Other,,15319,12.31
+02,Anoka,U.S. Senate,,R,Rudy Boschwitz,48872,39.29
+03,Becker,President,,DFL,Bill Clinton,5911,43.11
+03,Becker,President,,Other,Other,527,3.84
+03,Becker,President,,R,Bob Dole,5461,39.83
+03,Becker,President,,RP,Ross Perot,1813,13.22
+03,Becker,U.S. Senate,,DFL,Paul Wellstone,5854,43.73
+03,Becker,U.S. Senate,,Other,,827,6.18
+03,Becker,U.S. Senate,,R,Rudy Boschwitz,6705,50.09
+04,Beltrami,President,,DFL,Bill Clinton,8006,50.10
+04,Beltrami,President,,Other,Other,532,3.33
+04,Beltrami,President,,R,Bob Dole,5806,36.34
+04,Beltrami,President,,RP,Ross Perot,1635,10.23
+04,Beltrami,U.S. Senate,,DFL,Paul Wellstone,8304,51.97
+04,Beltrami,U.S. Senate,,Other,,1119,7.00
+04,Beltrami,U.S. Senate,,R,Rudy Boschwitz,6556,41.03
+05,Benton,President,,DFL,Bill Clinton,6006,44.98
+05,Benton,President,,Other,Other,380,2.85
+05,Benton,President,,R,Bob Dole,4835,36.21
+05,Benton,President,,RP,Ross Perot,2133,15.97
+05,Benton,U.S. Senate,,DFL,Paul Wellstone,5707,42.74
+05,Benton,U.S. Senate,,Other,,1565,11.72
+05,Benton,U.S. Senate,,R,Rudy Boschwitz,6082,45.54
+06,Big Stone,President,,DFL,Bill Clinton,1619,53.36
+06,Big Stone,President,,Other,Other,57,1.88
+06,Big Stone,President,,R,Bob Dole,990,32.63
+06,Big Stone,President,,RP,Ross Perot,368,12.13
+06,Big Stone,U.S. Senate,,DFL,Paul Wellstone,1625,53.56
+06,Big Stone,U.S. Senate,,Other,,216,7.12
+06,Big Stone,U.S. Senate,,R,Rudy Boschwitz,1193,39.32
+07,Blue Earth,President,,DFL,Bill Clinton,12420,48.78
+07,Blue Earth,President,,Other,Other,637,2.50
+07,Blue Earth,President,,R,Bob Dole,9082,35.67
+07,Blue Earth,President,,RP,Ross Perot,3324,13.05
+07,Blue Earth,U.S. Senate,,DFL,Paul Wellstone,12843,50.44
+07,Blue Earth,U.S. Senate,,Other,,1926,7.56
+07,Blue Earth,U.S. Senate,,R,Rudy Boschwitz,10694,42.00
+08,Brown,President,,DFL,Bill Clinton,4864,38.95
+08,Brown,President,,Other,Other,258,2.07
+08,Brown,President,,R,Bob Dole,5580,44.68
+08,Brown,President,,RP,Ross Perot,1786,14.30
+08,Brown,U.S. Senate,,DFL,Paul Wellstone,4916,39.37
+08,Brown,U.S. Senate,,Other,,1041,8.34
+08,Brown,U.S. Senate,,R,Rudy Boschwitz,6531,52.30
+09,Carlton,President,,DFL,Bill Clinton,8052,57.15
+09,Carlton,President,,Other,Other,413,2.93
+09,Carlton,President,,R,Bob Dole,4034,28.63
+09,Carlton,President,,RP,Ross Perot,1591,11.29
+09,Carlton,U.S. Senate,,DFL,Paul Wellstone,8577,60.87
+09,Carlton,U.S. Senate,,Other,,1036,7.35
+09,Carlton,U.S. Senate,,R,Rudy Boschwitz,4477,31.77
+10,Carver,President,,DFL,Bill Clinton,11554,40.79
+10,Carver,President,,Other,Other,612,2.16
+10,Carver,President,,R,Bob Dole,12380,43.70
+10,Carver,President,,RP,Ross Perot,3781,13.35
+10,Carver,U.S. Senate,,DFL,Paul Wellstone,10683,37.71
+10,Carver,U.S. Senate,,Other,,3038,10.72
+10,Carver,U.S. Senate,,R,Rudy Boschwitz,14606,51.56
+11,Cass,President,,DFL,Bill Clinton,5437,44.83
+11,Cass,President,,Other,Other,279,2.30
+11,Cass,President,,R,Bob Dole,4791,39.51
+11,Cass,President,,RP,Ross Perot,1620,13.36
+11,Cass,U.S. Senate,,DFL,Paul Wellstone,5384,44.40
+11,Cass,U.S. Senate,,Other,,1211,9.99
+11,Cass,U.S. Senate,,R,Rudy Boschwitz,5532,45.62
+12,Chippewa,President,,DFL,Bill Clinton,3178,51.19
+12,Chippewa,President,,Other,Other,129,2.08
+12,Chippewa,President,,R,Bob Dole,2119,34.13
+12,Chippewa,President,,RP,Ross Perot,782,12.60
+12,Chippewa,U.S. Senate,,DFL,Paul Wellstone,3183,51.27
+12,Chippewa,U.S. Senate,,Other,,437,7.04
+12,Chippewa,U.S. Senate,,R,Rudy Boschwitz,2588,41.69
+13,Chisago,President,,DFL,Bill Clinton,8611,48.29
+13,Chisago,President,,Other,Other,424,2.38
+13,Chisago,President,,R,Bob Dole,5984,33.56
+13,Chisago,President,,RP,Ross Perot,2812,15.77
+13,Chisago,U.S. Senate,,DFL,Paul Wellstone,8503,47.69
+13,Chisago,U.S. Senate,,Other,,2182,12.24
+13,Chisago,U.S. Senate,,R,Rudy Boschwitz,7146,40.08
+14,Clay,President,,DFL,Bill Clinton,10476,48.55
+14,Clay,President,,Other,Other,605,2.80
+14,Clay,President,,R,Bob Dole,8764,40.62
+14,Clay,President,,RP,Ross Perot,1733,8.03
+14,Clay,U.S. Senate,,DFL,Paul Wellstone,10313,47.79
+14,Clay,U.S. Senate,,Other,,936,4.34
+14,Clay,U.S. Senate,,R,Rudy Boschwitz,10329,47.87
+15,Clearwater,President,,DFL,Bill Clinton,1578,44.45
+15,Clearwater,President,,Other,Other,78,2.20
+15,Clearwater,President,,R,Bob Dole,1423,40.08
+15,Clearwater,President,,RP,Ross Perot,471,13.27
+15,Clearwater,U.S. Senate,,DFL,Paul Wellstone,1622,45.68
+15,Clearwater,U.S. Senate,,Other,,242,6.81
+15,Clearwater,U.S. Senate,,R,Rudy Boschwitz,1687,47.51
+16,Cook,President,,DFL,Bill Clinton,1169,45.97
+16,Cook,President,,Other,Other,118,4.64
+16,Cook,President,,R,Bob Dole,1010,39.72
+16,Cook,President,,RP,Ross Perot,246,9.67
+16,Cook,U.S. Senate,,DFL,Paul Wellstone,1168,45.93
+16,Cook,U.S. Senate,,Other,,200,7.86
+16,Cook,U.S. Senate,,R,Rudy Boschwitz,1175,46.21
+17,Cottonwood,President,,DFL,Bill Clinton,2737,44.07
+17,Cottonwood,President,,Other,Other,100,1.61
+17,Cottonwood,President,,R,Bob Dole,2633,42.39
+17,Cottonwood,President,,RP,Ross Perot,741,11.93
+17,Cottonwood,U.S. Senate,,DFL,Paul Wellstone,2848,45.85
+17,Cottonwood,U.S. Senate,,Other,,333,5.36
+17,Cottonwood,U.S. Senate,,R,Rudy Boschwitz,3030,48.78
+18,Crow Wing,President,,DFL,Bill Clinton,11156,44.32
+18,Crow Wing,President,,Other,Other,497,1.97
+18,Crow Wing,President,,R,Bob Dole,10095,40.11
+18,Crow Wing,President,,RP,Ross Perot,3423,13.60
+18,Crow Wing,U.S. Senate,,DFL,Paul Wellstone,11233,44.63
+18,Crow Wing,U.S. Senate,,Other,,2099,8.34
+18,Crow Wing,U.S. Senate,,R,Rudy Boschwitz,11839,47.03
+19,Dakota,President,,DFL,Bill Clinton,77297,49.91
+19,Dakota,President,,Other,Other,3248,2.10
+19,Dakota,President,,R,Bob Dole,57244,36.96
+19,Dakota,President,,RP,Ross Perot,17095,11.04
+19,Dakota,U.S. Senate,,DFL,Paul Wellstone,73470,47.44
+19,Dakota,U.S. Senate,,Other,,15658,10.11
+19,Dakota,U.S. Senate,,R,Rudy Boschwitz,65756,42.45
+20,Dodge,President,,DFL,Bill Clinton,3233,42.93
+20,Dodge,President,,Other,Other,186,2.47
+20,Dodge,President,,R,Bob Dole,2888,38.35
+20,Dodge,President,,RP,Ross Perot,1223,16.24
+20,Dodge,U.S. Senate,,DFL,Paul Wellstone,3174,42.16
+20,Dodge,U.S. Senate,,Other,,548,7.28
+20,Dodge,U.S. Senate,,R,Rudy Boschwitz,3807,50.56
+21,Douglas,President,,DFL,Bill Clinton,6450,41.44
+21,Douglas,President,,Other,Other,276,1.77
+21,Douglas,President,,R,Bob Dole,6747,43.34
+21,Douglas,President,,RP,Ross Perot,2093,13.45
+21,Douglas,U.S. Senate,,DFL,Paul Wellstone,6436,41.35
+21,Douglas,U.S. Senate,,Other,,1435,9.22
+21,Douglas,U.S. Senate,,R,Rudy Boschwitz,7695,49.43
+22,Faribault,President,,DFL,Bill Clinton,3817,45.78
+22,Faribault,President,,Other,Other,145,1.74
+22,Faribault,President,,R,Bob Dole,3272,39.25
+22,Faribault,President,,RP,Ross Perot,1103,13.23
+22,Faribault,U.S. Senate,,DFL,Paul Wellstone,3755,45.04
+22,Faribault,U.S. Senate,,Other,,538,6.45
+22,Faribault,U.S. Senate,,R,Rudy Boschwitz,4044,48.51
+23,Fillmore,President,,DFL,Bill Clinton,4732,47.64
+23,Fillmore,President,,Other,Other,159,1.60
+23,Fillmore,President,,R,Bob Dole,3466,34.90
+23,Fillmore,President,,RP,Ross Perot,1575,15.86
+23,Fillmore,U.S. Senate,,DFL,Paul Wellstone,4649,46.81
+23,Fillmore,U.S. Senate,,Other,,510,5.13
+23,Fillmore,U.S. Senate,,R,Rudy Boschwitz,4773,48.06
+24,Freeborn,President,,DFL,Bill Clinton,8458,52.32
+24,Freeborn,President,,Other,Other,316,1.95
+24,Freeborn,President,,R,Bob Dole,5166,31.96
+24,Freeborn,President,,RP,Ross Perot,2226,13.77
+24,Freeborn,U.S. Senate,,DFL,Paul Wellstone,8147,50.40
+24,Freeborn,U.S. Senate,,Other,,932,5.77
+24,Freeborn,U.S. Senate,,R,Rudy Boschwitz,7087,43.84
+25,Goodhue,President,,DFL,Bill Clinton,9931,48.62
+25,Goodhue,President,,Other,Other,395,1.93
+25,Goodhue,President,,R,Bob Dole,7293,35.71
+25,Goodhue,President,,RP,Ross Perot,2806,13.74
+25,Goodhue,U.S. Senate,,DFL,Paul Wellstone,9420,46.12
+25,Goodhue,U.S. Senate,,Other,,1813,8.88
+25,Goodhue,U.S. Senate,,R,Rudy Boschwitz,9192,45.00
+26,Grant,President,,DFL,Bill Clinton,1806,50.33
+26,Grant,President,,Other,Other,64,1.78
+26,Grant,President,,R,Bob Dole,1284,35.79
+26,Grant,President,,RP,Ross Perot,434,12.10
+26,Grant,U.S. Senate,,DFL,Paul Wellstone,1843,51.37
+26,Grant,U.S. Senate,,Other,,260,7.25
+26,Grant,U.S. Senate,,R,Rudy Boschwitz,1485,41.39
+27,Hennepin,President,,DFL,Bill Clinton,285126,53.72
+27,Hennepin,President,,Other,Other,24099,4.54
+27,Hennepin,President,,R,Bob Dole,173887,32.76
+27,Hennepin,President,,RP,Ross Perot,47663,8.98
+27,Hennepin,U.S. Senate,,DFL,Paul Wellstone,279378,52.64
+27,Hennepin,U.S. Senate,,Other,,55005,10.36
+27,Hennepin,U.S. Senate,,R,Rudy Boschwitz,196392,37.00
+28,Houston,President,,DFL,Bill Clinton,4153,43.63
+28,Houston,President,,Other,Other,252,2.65
+28,Houston,President,,R,Bob Dole,3674,38.60
+28,Houston,President,,RP,Ross Perot,1439,15.12
+28,Houston,U.S. Senate,,DFL,Paul Wellstone,3957,41.57
+28,Houston,U.S. Senate,,Other,,584,6.14
+28,Houston,U.S. Senate,,R,Rudy Boschwitz,4977,52.29
+29,Hubbard,President,,DFL,Bill Clinton,3802,43.43
+29,Hubbard,President,,Other,Other,218,2.49
+29,Hubbard,President,,R,Bob Dole,3593,41.04
+29,Hubbard,President,,RP,Ross Perot,1141,13.03
+29,Hubbard,U.S. Senate,,DFL,Paul Wellstone,3898,44.53
+29,Hubbard,U.S. Senate,,Other,,748,8.54
+29,Hubbard,U.S. Senate,,R,Rudy Boschwitz,4108,46.93
+30,Isanti,President,,DFL,Bill Clinton,6041,46.39
+30,Isanti,President,,Other,Other,289,2.22
+30,Isanti,President,,R,Bob Dole,4450,34.17
+30,Isanti,President,,RP,Ross Perot,2242,17.22
+30,Isanti,U.S. Senate,,DFL,Paul Wellstone,6183,47.48
+30,Isanti,U.S. Senate,,Other,,1549,11.90
+30,Isanti,U.S. Senate,,R,Rudy Boschwitz,5290,40.62
+31,Itasca,President,,DFL,Bill Clinton,10706,51.50
+31,Itasca,President,,Other,Other,687,3.30
+31,Itasca,President,,R,Bob Dole,6506,31.30
+31,Itasca,President,,RP,Ross Perot,2889,13.90
+31,Itasca,U.S. Senate,,DFL,Paul Wellstone,11188,53.82
+31,Itasca,U.S. Senate,,Other,,1888,9.08
+31,Itasca,U.S. Senate,,R,Rudy Boschwitz,7712,37.10
+32,Jackson,President,,DFL,Bill Clinton,2727,46.17
+32,Jackson,President,,Other,Other,119,2.01
+32,Jackson,President,,R,Bob Dole,2153,36.45
+32,Jackson,President,,RP,Ross Perot,908,15.37
+32,Jackson,U.S. Senate,,DFL,Paul Wellstone,2837,48.03
+32,Jackson,U.S. Senate,,Other,,373,6.31
+32,Jackson,U.S. Senate,,R,Rudy Boschwitz,2697,45.66
+33,Kanabec,President,,DFL,Bill Clinton,2927,48.80
+33,Kanabec,President,,Other,Other,151,2.52
+33,Kanabec,President,,R,Bob Dole,1924,32.08
+33,Kanabec,President,,RP,Ross Perot,996,16.61
+33,Kanabec,U.S. Senate,,DFL,Paul Wellstone,2901,48.37
+33,Kanabec,U.S. Senate,,Other,,744,12.40
+33,Kanabec,U.S. Senate,,R,Rudy Boschwitz,2353,39.23
+34,Kandiyohi,President,,DFL,Bill Clinton,9009,48.06
+34,Kandiyohi,President,,Other,Other,388,2.07
+34,Kandiyohi,President,,R,Bob Dole,7119,37.98
+34,Kandiyohi,President,,RP,Ross Perot,2229,11.89
+34,Kandiyohi,U.S. Senate,,DFL,Paul Wellstone,8735,46.60
+34,Kandiyohi,U.S. Senate,,Other,,1664,8.88
+34,Kandiyohi,U.S. Senate,,R,Rudy Boschwitz,8346,44.52
+35,Kittson,President,,DFL,Bill Clinton,1394,50.23
+35,Kittson,President,,Other,Other,56,2.02
+35,Kittson,President,,R,Bob Dole,1055,38.02
+35,Kittson,President,,RP,Ross Perot,270,9.73
+35,Kittson,U.S. Senate,,DFL,Paul Wellstone,1384,49.87
+35,Kittson,U.S. Senate,,Other,,125,4.50
+35,Kittson,U.S. Senate,,R,Rudy Boschwitz,1266,45.62
+36,Koochiching,President,,DFL,Bill Clinton,3472,51.15
+36,Koochiching,President,,Other,Other,138,2.03
+36,Koochiching,President,,R,Bob Dole,2080,30.64
+36,Koochiching,President,,RP,Ross Perot,1098,16.18
+36,Koochiching,U.S. Senate,,DFL,Paul Wellstone,3571,52.61
+36,Koochiching,U.S. Senate,,Other,,628,9.25
+36,Koochiching,U.S. Senate,,R,Rudy Boschwitz,2589,38.14
+37,Lac qui Parle,President,,DFL,Bill Clinton,2420,53.63
+37,Lac qui Parle,President,,Other,Other,84,1.86
+37,Lac qui Parle,President,,R,Bob Dole,1447,32.07
+37,Lac qui Parle,President,,RP,Ross Perot,561,12.43
+37,Lac qui Parle,U.S. Senate,,DFL,Paul Wellstone,2439,54.06
+37,Lac qui Parle,U.S. Senate,,Other,,368,8.16
+37,Lac qui Parle,U.S. Senate,,R,Rudy Boschwitz,1705,37.79
+38,Lake,President,,DFL,Bill Clinton,3388,55.84
+38,Lake,President,,Other,Other,243,4.01
+38,Lake,President,,R,Bob Dole,1684,27.76
+38,Lake,President,,RP,Ross Perot,752,12.39
+38,Lake,U.S. Senate,,DFL,Paul Wellstone,3607,59.45
+38,Lake,U.S. Senate,,Other,,505,8.32
+38,Lake,U.S. Senate,,R,Rudy Boschwitz,1955,32.22
+39,Lake of the Woods,President,,DFL,Bill Clinton,888,43.61
+39,Lake of the Woods,President,,Other,Other,47,2.31
+39,Lake of the Woods,President,,R,Bob Dole,814,39.98
+39,Lake of the Woods,President,,RP,Ross Perot,287,14.10
+39,Lake of the Woods,U.S. Senate,,DFL,Paul Wellstone,858,42.14
+39,Lake of the Woods,U.S. Senate,,Other,,139,6.83
+39,Lake of the Woods,U.S. Senate,,R,Rudy Boschwitz,1039,51.03
+40,Le Sueur,President,,DFL,Bill Clinton,5457,48.30
+40,Le Sueur,President,,Other,Other,239,2.12
+40,Le Sueur,President,,R,Bob Dole,3902,34.54
+40,Le Sueur,President,,RP,Ross Perot,1699,15.04
+40,Le Sueur,U.S. Senate,,DFL,Paul Wellstone,5379,47.61
+40,Le Sueur,U.S. Senate,,Other,,971,8.60
+40,Le Sueur,U.S. Senate,,R,Rudy Boschwitz,4947,43.79
+41,Lincoln,President,,DFL,Bill Clinton,1641,48.12
+41,Lincoln,President,,Other,Other,66,1.94
+41,Lincoln,President,,R,Bob Dole,1199,35.16
+41,Lincoln,President,,RP,Ross Perot,504,14.78
+41,Lincoln,U.S. Senate,,DFL,Paul Wellstone,1703,49.94
+41,Lincoln,U.S. Senate,,Other,,245,7.18
+41,Lincoln,U.S. Senate,,R,Rudy Boschwitz,1462,42.87
+42,Lyon,President,,DFL,Bill Clinton,5062,43.72
+42,Lyon,President,,Other,Other,233,2.01
+42,Lyon,President,,R,Bob Dole,4932,42.60
+42,Lyon,President,,RP,Ross Perot,1351,11.67
+42,Lyon,U.S. Senate,,DFL,Paul Wellstone,5144,44.43
+42,Lyon,U.S. Senate,,Other,,789,6.81
+42,Lyon,U.S. Senate,,R,Rudy Boschwitz,5645,48.76
+44,Mahnomen,President,,DFL,Bill Clinton,1026,45.84
+44,Mahnomen,President,,Other,Other,65,2.90
+44,Mahnomen,President,,R,Bob Dole,877,39.19
+44,Mahnomen,President,,RP,Ross Perot,270,12.06
+44,Mahnomen,U.S. Senate,,DFL,Paul Wellstone,980,43.79
+44,Mahnomen,U.S. Senate,,Other,,161,7.19
+44,Mahnomen,U.S. Senate,,R,Rudy Boschwitz,1097,49.02
+45,Marshall,President,,DFL,Bill Clinton,2333,44.45
+45,Marshall,President,,Other,Other,138,2.63
+45,Marshall,President,,R,Bob Dole,2068,39.40
+45,Marshall,President,,RP,Ross Perot,710,13.53
+45,Marshall,U.S. Senate,,DFL,Paul Wellstone,2429,46.28
+45,Marshall,U.S. Senate,,Other,,293,5.58
+45,Marshall,U.S. Senate,,R,Rudy Boschwitz,2527,48.14
+46,Martin,President,,DFL,Bill Clinton,4718,44.48
+46,Martin,President,,Other,Other,182,1.72
+46,Martin,President,,R,Bob Dole,4303,40.56
+46,Martin,President,,RP,Ross Perot,1405,13.24
+46,Martin,U.S. Senate,,DFL,Paul Wellstone,4546,42.85
+46,Martin,U.S. Senate,,Other,,703,6.63
+46,Martin,U.S. Senate,,R,Rudy Boschwitz,5359,50.52
+43,McLeod,President,,DFL,Bill Clinton,6027,42.61
+43,McLeod,President,,Other,Other,243,1.72
+43,McLeod,President,,R,Bob Dole,5474,38.70
+43,McLeod,President,,RP,Ross Perot,2402,16.98
+43,McLeod,U.S. Senate,,DFL,Paul Wellstone,5646,39.91
+43,McLeod,U.S. Senate,,Other,,1660,11.73
+43,McLeod,U.S. Senate,,R,Rudy Boschwitz,6840,48.35
+61,Meeker,President,,DFL,Bill Clinton,2803,49.24
+61,Meeker,President,,Other,Other,232,4.08
+61,Meeker,President,,R,Bob Dole,1992,35.00
+61,Meeker,President,,RP,Ross Perot,665,11.68
+61,Meeker,U.S. Senate,,DFL,Paul Wellstone,2684,47.15
+61,Meeker,U.S. Senate,,Other,,611,10.73
+61,Meeker,U.S. Senate,,R,Rudy Boschwitz,2397,42.11
+47,Mille Lacs,President,,DFL,Bill Clinton,4531,46.61
+47,Mille Lacs,President,,Other,Other,191,1.96
+47,Mille Lacs,President,,R,Bob Dole,3428,35.26
+47,Mille Lacs,President,,RP,Ross Perot,1571,16.16
+47,Mille Lacs,U.S. Senate,,DFL,Paul Wellstone,4244,43.66
+47,Mille Lacs,U.S. Senate,,Other,,1075,11.06
+47,Mille Lacs,U.S. Senate,,R,Rudy Boschwitz,4402,45.28
+48,Morrison,President,,DFL,Bill Clinton,4336,48.42
+48,Morrison,President,,Other,Other,204,2.28
+48,Morrison,President,,R,Bob Dole,2948,32.92
+48,Morrison,President,,RP,Ross Perot,1467,16.38
+48,Morrison,U.S. Senate,,DFL,Paul Wellstone,4167,46.53
+48,Morrison,U.S. Senate,,Other,,1038,11.59
+48,Morrison,U.S. Senate,,R,Rudy Boschwitz,3750,41.88
+49,Mower,President,,DFL,Bill Clinton,5728,42.64
+49,Mower,President,,Other,Other,340,2.53
+49,Mower,President,,R,Bob Dole,5054,37.63
+49,Mower,President,,RP,Ross Perot,2310,17.20
+49,Mower,U.S. Senate,,DFL,Paul Wellstone,5290,39.38
+49,Mower,U.S. Senate,,Other,,1370,10.20
+49,Mower,U.S. Senate,,R,Rudy Boschwitz,6773,50.42
+50,Murray,President,,DFL,Bill Clinton,10413,57.11
+50,Murray,President,,Other,Other,363,1.99
+50,Murray,President,,R,Bob Dole,4994,27.39
+50,Murray,President,,RP,Ross Perot,2464,13.51
+50,Murray,U.S. Senate,,DFL,Paul Wellstone,10043,55.08
+50,Murray,U.S. Senate,,Other,,1031,5.65
+50,Murray,U.S. Senate,,R,Rudy Boschwitz,7160,39.27
+51,Nicollet,President,,DFL,Bill Clinton,2173,43.98
+51,Nicollet,President,,Other,Other,108,2.19
+51,Nicollet,President,,R,Bob Dole,1907,38.60
+51,Nicollet,President,,RP,Ross Perot,753,15.24
+51,Nicollet,U.S. Senate,,DFL,Paul Wellstone,2221,44.95
+51,Nicollet,U.S. Senate,,Other,,338,6.84
+51,Nicollet,U.S. Senate,,R,Rudy Boschwitz,2382,48.21
+52,Nobles,President,,DFL,Bill Clinton,6772,48.70
+52,Nobles,President,,Other,Other,340,2.44
+52,Nobles,President,,R,Bob Dole,5057,36.37
+52,Nobles,President,,RP,Ross Perot,1737,12.49
+52,Nobles,U.S. Senate,,DFL,Paul Wellstone,6947,49.96
+52,Nobles,U.S. Senate,,Other,,974,7.00
+52,Nobles,U.S. Senate,,R,Rudy Boschwitz,5985,43.04
+53,Norman,President,,DFL,Bill Clinton,4106,44.41
+53,Norman,President,,Other,Other,239,2.58
+53,Norman,President,,R,Bob Dole,3769,40.76
+53,Norman,President,,RP,Ross Perot,1132,12.24
+53,Norman,U.S. Senate,,DFL,Paul Wellstone,4018,43.46
+53,Norman,U.S. Senate,,Other,,597,6.46
+53,Norman,U.S. Senate,,R,Rudy Boschwitz,4631,50.09
+54,Olmsted,President,,DFL,Bill Clinton,1875,49.89
+54,Olmsted,President,,Other,Other,66,1.76
+54,Olmsted,President,,R,Bob Dole,1392,37.04
+54,Olmsted,President,,RP,Ross Perot,425,11.31
+54,Olmsted,U.S. Senate,,DFL,Paul Wellstone,1841,48.99
+54,Olmsted,U.S. Senate,,Other,,190,5.06
+54,Olmsted,U.S. Senate,,R,Rudy Boschwitz,1727,45.96
+55,Otter Tail,President,,DFL,Bill Clinton,22857,43.69
+55,Otter Tail,President,,Other,Other,960,1.83
+55,Otter Tail,President,,R,Bob Dole,22860,43.70
+55,Otter Tail,President,,RP,Ross Perot,5640,10.78
+55,Otter Tail,U.S. Senate,,DFL,Paul Wellstone,22283,42.59
+55,Otter Tail,U.S. Senate,,Other,,3413,6.52
+55,Otter Tail,U.S. Senate,,R,Rudy Boschwitz,26621,50.88
+56,Pennington,President,,DFL,Bill Clinton,10519,40.41
+56,Pennington,President,,Other,Other,513,1.97
+56,Pennington,President,,R,Bob Dole,11808,45.36
+56,Pennington,President,,RP,Ross Perot,3191,12.26
+56,Pennington,U.S. Senate,,DFL,Paul Wellstone,10450,40.14
+56,Pennington,U.S. Senate,,Other,,1672,6.42
+56,Pennington,U.S. Senate,,R,Rudy Boschwitz,13909,53.43
+57,Pine,President,,DFL,Bill Clinton,2814,47.18
+57,Pine,President,,Other,Other,112,1.88
+57,Pine,President,,R,Bob Dole,2129,35.69
+57,Pine,President,,RP,Ross Perot,910,15.26
+57,Pine,U.S. Senate,,DFL,Paul Wellstone,2868,48.08
+57,Pine,U.S. Senate,,Other,,316,5.30
+57,Pine,U.S. Senate,,R,Rudy Boschwitz,2781,46.62
+58,Pipestone,President,,DFL,Bill Clinton,5432,52.29
+58,Pipestone,President,,Other,Other,279,2.69
+58,Pipestone,President,,R,Bob Dole,3080,29.65
+58,Pipestone,President,,RP,Ross Perot,1597,15.37
+58,Pipestone,U.S. Senate,,DFL,Paul Wellstone,5517,53.11
+58,Pipestone,U.S. Senate,,Other,,1115,10.73
+58,Pipestone,U.S. Senate,,R,Rudy Boschwitz,3756,36.16
+59,Polk,President,,DFL,Bill Clinton,1999,41.60
+59,Polk,President,,Other,Other,111,2.31
+59,Polk,President,,R,Bob Dole,2096,43.62
+59,Polk,President,,RP,Ross Perot,599,12.47
+59,Polk,U.S. Senate,,DFL,Paul Wellstone,1924,40.04
+59,Polk,U.S. Senate,,Other,,318,6.62
+59,Polk,U.S. Senate,,R,Rudy Boschwitz,2563,53.34
+60,Pope,President,,DFL,Bill Clinton,6369,45.99
+60,Pope,President,,Other,Other,414,2.99
+60,Pope,President,,R,Bob Dole,5563,40.17
+60,Pope,President,,RP,Ross Perot,1502,10.85
+60,Pope,U.S. Senate,,DFL,Paul Wellstone,6324,45.67
+60,Pope,U.S. Senate,,Other,,695,5.02
+60,Pope,U.S. Senate,,R,Rudy Boschwitz,6829,49.31
+62,Ramsey,President,,DFL,Bill Clinton,133878,58.16
+62,Ramsey,President,,Other,Other,8992,3.91
+62,Ramsey,President,,R,Bob Dole,66954,29.09
+62,Ramsey,President,,RP,Ross Perot,20351,8.84
+62,Ramsey,U.S. Senate,,DFL,Paul Wellstone,131943,57.32
+62,Ramsey,U.S. Senate,,Other,,23461,10.19
+62,Ramsey,U.S. Senate,,R,Rudy Boschwitz,74771,32.48
+63,Red Lake,President,,DFL,Bill Clinton,1053,49.46
+63,Red Lake,President,,Other,Other,47,2.21
+63,Red Lake,President,,R,Bob Dole,695,32.64
+63,Red Lake,President,,RP,Ross Perot,334,15.69
+63,Red Lake,U.S. Senate,,DFL,Paul Wellstone,1086,51.01
+63,Red Lake,U.S. Senate,,Other,,128,6.01
+63,Red Lake,U.S. Senate,,R,Rudy Boschwitz,915,42.98
+64,Redwood,President,,DFL,Bill Clinton,2997,37.85
+64,Redwood,President,,Other,Other,169,2.13
+64,Redwood,President,,R,Bob Dole,3700,46.72
+64,Redwood,President,,RP,Ross Perot,1053,13.30
+64,Redwood,U.S. Senate,,DFL,Paul Wellstone,3028,38.24
+64,Redwood,U.S. Senate,,Other,,576,7.27
+64,Redwood,U.S. Senate,,R,Rudy Boschwitz,4315,54.49
+65,Renville,President,,DFL,Bill Clinton,3956,43.64
+65,Renville,President,,Other,Other,911,10.05
+65,Renville,President,,R,Bob Dole,2887,31.85
+65,Renville,President,,RP,Ross Perot,1311,14.46
+65,Renville,U.S. Senate,,DFL,Paul Wellstone,3947,43.54
+65,Renville,U.S. Senate,,Other,,1569,17.31
+65,Renville,U.S. Senate,,R,Rudy Boschwitz,3549,39.15
+66,Rice,President,,DFL,Bill Clinton,12821,54.19
+66,Rice,President,,Other,Other,951,4.02
+66,Rice,President,,R,Bob Dole,7016,29.65
+66,Rice,President,,RP,Ross Perot,2872,12.14
+66,Rice,U.S. Senate,,DFL,Paul Wellstone,12859,54.35
+66,Rice,U.S. Senate,,Other,,2042,8.63
+66,Rice,U.S. Senate,,R,Rudy Boschwitz,8759,37.02
+67,Rock,President,,DFL,Bill Clinton,2142,43.31
+67,Rock,President,,Other,Other,81,1.64
+67,Rock,President,,R,Bob Dole,2169,43.85
+67,Rock,President,,RP,Ross Perot,554,11.20
+67,Rock,U.S. Senate,,DFL,Paul Wellstone,2088,42.22
+67,Rock,U.S. Senate,,Other,,278,5.62
+67,Rock,U.S. Senate,,R,Rudy Boschwitz,2580,52.16
+68,Roseau,President,,DFL,Bill Clinton,2759,39.54
+68,Roseau,President,,Other,Other,150,2.15
+68,Roseau,President,,R,Bob Dole,2988,42.82
+68,Roseau,President,,RP,Ross Perot,1081,15.49
+68,Roseau,U.S. Senate,,DFL,Paul Wellstone,2811,40.28
+68,Roseau,U.S. Senate,,Other,,409,5.86
+68,Roseau,U.S. Senate,,R,Rudy Boschwitz,3758,53.85
+70,Scott,President,,DFL,Bill Clinton,14657,44.42
+70,Scott,President,,Other,Other,717,2.17
+70,Scott,President,,R,Bob Dole,12734,38.59
+70,Scott,President,,RP,Ross Perot,4886,14.81
+70,Scott,U.S. Senate,,DFL,Paul Wellstone,13915,42.17
+70,Scott,U.S. Senate,,Other,,3768,11.42
+70,Scott,U.S. Senate,,R,Rudy Boschwitz,15311,46.41
+71,Sherburne,President,,DFL,Bill Clinton,10551,45.11
+71,Sherburne,President,,Other,Other,476,2.03
+71,Sherburne,President,,R,Bob Dole,8699,37.19
+71,Sherburne,President,,RP,Ross Perot,3665,15.67
+71,Sherburne,U.S. Senate,,DFL,Paul Wellstone,9998,42.74
+71,Sherburne,U.S. Senate,,Other,,2924,12.50
+71,Sherburne,U.S. Senate,,R,Rudy Boschwitz,10469,44.76
+72,Sibley,President,,DFL,Bill Clinton,2769,41.31
+72,Sibley,President,,Other,Other,118,1.76
+72,Sibley,President,,R,Bob Dole,2590,38.64
+72,Sibley,President,,RP,Ross Perot,1226,18.29
+72,Sibley,U.S. Senate,,DFL,Paul Wellstone,2763,41.22
+72,Sibley,U.S. Senate,,Other,,677,10.10
+72,Sibley,U.S. Senate,,R,Rudy Boschwitz,3263,48.68
+69,St. Louis,President,,DFL,Bill Clinton,60736,60.10
+69,St. Louis,President,,Other,Other,3453,3.42
+69,St. Louis,President,,R,Bob Dole,25553,25.29
+69,St. Louis,President,,RP,Ross Perot,11308,11.19
+69,St. Louis,U.S. Senate,,DFL,Paul Wellstone,64414,63.76
+69,St. Louis,U.S. Senate,,Other,,8230,8.15
+69,St. Louis,U.S. Senate,,R,Rudy Boschwitz,28388,28.10
+73,Stearns,President,,DFL,Bill Clinton,24238,43.69
+73,Stearns,President,,Other,Other,1611,2.90
+73,Stearns,President,,R,Bob Dole,21474,38.71
+73,Stearns,President,,RP,Ross Perot,8150,14.69
+73,Stearns,U.S. Senate,,DFL,Paul Wellstone,23020,41.50
+73,Stearns,U.S. Senate,,Other,,5650,10.19
+73,Stearns,U.S. Senate,,R,Rudy Boschwitz,26803,48.32
+74,Steele,President,,DFL,Bill Clinton,6974,46.29
+74,Steele,President,,Other,Other,277,1.84
+74,Steele,President,,R,Bob Dole,5617,37.29
+74,Steele,President,,RP,Ross Perot,2197,14.58
+74,Steele,U.S. Senate,,DFL,Paul Wellstone,6264,41.58
+74,Steele,U.S. Senate,,Other,,1341,8.90
+74,Steele,U.S. Senate,,R,Rudy Boschwitz,7460,49.52
+75,Stevens,President,,DFL,Bill Clinton,2741,49.92
+75,Stevens,President,,Other,Other,142,2.59
+75,Stevens,President,,R,Bob Dole,2141,38.99
+75,Stevens,President,,RP,Ross Perot,467,8.50
+75,Stevens,U.S. Senate,,DFL,Paul Wellstone,2694,49.06
+75,Stevens,U.S. Senate,,Other,,348,6.34
+75,Stevens,U.S. Senate,,R,Rudy Boschwitz,2449,44.60
+76,Swift,President,,DFL,Bill Clinton,3054,57.07
+76,Swift,President,,Other,Other,66,1.23
+76,Swift,President,,R,Bob Dole,1541,28.80
+76,Swift,President,,RP,Ross Perot,690,12.89
+76,Swift,U.S. Senate,,DFL,Paul Wellstone,2993,55.93
+76,Swift,U.S. Senate,,Other,,407,7.61
+76,Swift,U.S. Senate,,R,Rudy Boschwitz,1951,36.46
+77,Todd,President,,DFL,Bill Clinton,4520,41.81
+77,Todd,President,,Other,Other,255,2.36
+77,Todd,President,,R,Bob Dole,4078,37.72
+77,Todd,President,,RP,Ross Perot,1958,18.11
+77,Todd,U.S. Senate,,DFL,Paul Wellstone,4344,40.18
+77,Todd,U.S. Senate,,Other,,1212,11.21
+77,Todd,U.S. Senate,,R,Rudy Boschwitz,5255,48.61
+78,Traverse,President,,DFL,Bill Clinton,1135,49.91
+78,Traverse,President,,Other,Other,69,3.03
+78,Traverse,President,,R,Bob Dole,775,34.08
+78,Traverse,President,,RP,Ross Perot,295,12.97
+78,Traverse,U.S. Senate,,DFL,Paul Wellstone,1152,50.66
+78,Traverse,U.S. Senate,,Other,,165,7.26
+78,Traverse,U.S. Senate,,R,Rudy Boschwitz,957,42.08
+79,Wabasha,President,,DFL,Bill Clinton,4523,46.46
+79,Wabasha,President,,Other,Other,286,2.94
+79,Wabasha,President,,R,Bob Dole,3452,35.46
+79,Wabasha,President,,RP,Ross Perot,1474,15.14
+79,Wabasha,U.S. Senate,,DFL,Paul Wellstone,4310,44.27
+79,Wabasha,U.S. Senate,,Other,,835,8.58
+79,Wabasha,U.S. Senate,,R,Rudy Boschwitz,4590,47.15
+80,Wadena,President,,DFL,Bill Clinton,2480,40.67
+80,Wadena,President,,Other,Other,121,1.98
+80,Wadena,President,,R,Bob Dole,2696,44.21
+80,Wadena,President,,RP,Ross Perot,801,13.14
+80,Wadena,U.S. Senate,,DFL,Paul Wellstone,2416,39.62
+80,Wadena,U.S. Senate,,Other,,550,9.02
+80,Wadena,U.S. Senate,,R,Rudy Boschwitz,3132,51.36
+81,Waseca,President,,DFL,Bill Clinton,3819,44.80
+81,Waseca,President,,Other,Other,149,1.75
+81,Waseca,President,,R,Bob Dole,3171,37.20
+81,Waseca,President,,RP,Ross Perot,1385,16.25
+81,Waseca,U.S. Senate,,DFL,Paul Wellstone,3802,44.60
+81,Waseca,U.S. Senate,,Other,,664,7.79
+81,Waseca,U.S. Senate,,R,Rudy Boschwitz,4058,47.61
+82,Washington,President,,DFL,Bill Clinton,45119,51.03
+82,Washington,President,,Other,Other,1965,2.22
+82,Washington,President,,R,Bob Dole,31219,35.31
+82,Washington,President,,RP,Ross Perot,10106,11.43
+82,Washington,U.S. Senate,,DFL,Paul Wellstone,42314,47.86
+82,Washington,U.S. Senate,,Other,,9849,11.14
+82,Washington,U.S. Senate,,R,Rudy Boschwitz,36246,41.00
+83,Watonwan,President,,DFL,Bill Clinton,2534,47.33
+83,Watonwan,President,,Other,Other,112,2.09
+83,Watonwan,President,,R,Bob Dole,1997,37.30
+83,Watonwan,President,,RP,Ross Perot,711,13.28
+83,Watonwan,U.S. Senate,,DFL,Paul Wellstone,2509,46.86
+83,Watonwan,U.S. Senate,,Other,,429,8.01
+83,Watonwan,U.S. Senate,,R,Rudy Boschwitz,2416,45.13
+84,Wilkin,President,,DFL,Bill Clinton,1319,40.37
+84,Wilkin,President,,Other,Other,82,2.51
+84,Wilkin,President,,R,Bob Dole,1508,46.16
+84,Wilkin,President,,RP,Ross Perot,358,10.96
+84,Wilkin,U.S. Senate,,DFL,Paul Wellstone,1220,37.34
+84,Wilkin,U.S. Senate,,Other,,158,4.84
+84,Wilkin,U.S. Senate,,R,Rudy Boschwitz,1889,57.82
+85,Winona,President,,DFL,Bill Clinton,10272,47.08
+85,Winona,President,,Other,Other,685,3.14
+85,Winona,President,,R,Bob Dole,7955,36.46
+85,Winona,President,,RP,Ross Perot,2907,13.32
+85,Winona,U.S. Senate,,DFL,Paul Wellstone,10105,46.31
+85,Winona,U.S. Senate,,Other,,1375,6.30
+85,Winona,U.S. Senate,,R,Rudy Boschwitz,10339,47.39
+86,Wright,President,,DFL,Bill Clinton,15542,44.29
+86,Wright,President,,Other,Other,773,2.20
+86,Wright,President,,R,Bob Dole,13224,37.69
+86,Wright,President,,RP,Ross Perot,5550,15.82
+86,Wright,U.S. Senate,,DFL,Paul Wellstone,14329,40.84
+86,Wright,U.S. Senate,,Other,,5104,14.55
+86,Wright,U.S. Senate,,R,Rudy Boschwitz,15656,44.62
+87,Yellow Medicine,President,,DFL,Bill Clinton,2741,48.28
+87,Yellow Medicine,President,,Other,Other,112,1.97
+87,Yellow Medicine,President,,R,Bob Dole,2006,35.34
+87,Yellow Medicine,President,,RP,Ross Perot,818,14.41
+87,Yellow Medicine,U.S. Senate,,DFL,Paul Wellstone,2896,51.01
+87,Yellow Medicine,U.S. Senate,,Other,,425,7.49
+87,Yellow Medicine,U.S. Senate,,R,Rudy Boschwitz,2356,41.50

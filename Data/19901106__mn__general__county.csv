@@ -1,0 +1,1306 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,U.S. Senate,,DFL,Paul David Wellstone,3393,52.16
+01,Aitkin,U.S. Senate,,IR,Rudy Boschwitz,2974,45.72
+01,Aitkin,U.S. Senate,,GRP,Russell B. Bentley,138,2.12
+02,Anoka,U.S. Senate,,DFL,Paul David Wellstone,48002,52.61
+02,Anoka,U.S. Senate,,IR,Rudy Boschwitz,41617,45.61
+02,Anoka,U.S. Senate,,GRP,Russell B. Bentley,1625,1.78
+03,Becker,U.S. Senate,,DFL,Paul David Wellstone,5246,46.91
+03,Becker,U.S. Senate,,IR,Rudy Boschwitz,5732,51.26
+03,Becker,U.S. Senate,,GRP,Russell B. Bentley,205,1.83
+04,Beltrami,U.S. Senate,,DFL,Paul David Wellstone,6270,53.10
+04,Beltrami,U.S. Senate,,IR,Rudy Boschwitz,5355,45.35
+04,Beltrami,U.S. Senate,,GRP,Russell B. Bentley,183,1.55
+05,Benton,U.S. Senate,,DFL,Paul David Wellstone,4985,45.31
+05,Benton,U.S. Senate,,IR,Rudy Boschwitz,5750,52.26
+05,Benton,U.S. Senate,,GRP,Russell B. Bentley,267,2.43
+06,Big Stone,U.S. Senate,,DFL,Paul David Wellstone,1647,50.69
+06,Big Stone,U.S. Senate,,IR,Rudy Boschwitz,1551,47.74
+06,Big Stone,U.S. Senate,,GRP,Russell B. Bentley,51,1.57
+07,Blue Earth,U.S. Senate,,DFL,Paul David Wellstone,9542,44.79
+07,Blue Earth,U.S. Senate,,IR,Rudy Boschwitz,11353,53.29
+07,Blue Earth,U.S. Senate,,GRP,Russell B. Bentley,408,1.92
+08,Brown,U.S. Senate,,DFL,Paul David Wellstone,3779,37.19
+08,Brown,U.S. Senate,,IR,Rudy Boschwitz,6217,61.18
+08,Brown,U.S. Senate,,GRP,Russell B. Bentley,165,1.62
+09,Carlton,U.S. Senate,,DFL,Paul David Wellstone,7153,62.18
+09,Carlton,U.S. Senate,,IR,Rudy Boschwitz,4123,35.84
+09,Carlton,U.S. Senate,,GRP,Russell B. Bentley,227,1.97
+10,Carver,U.S. Senate,,DFL,Paul David Wellstone,7955,41.42
+10,Carver,U.S. Senate,,IR,Rudy Boschwitz,10889,56.70
+10,Carver,U.S. Senate,,GRP,Russell B. Bentley,361,1.88
+11,Cass,U.S. Senate,,DFL,Paul David Wellstone,4674,46.61
+11,Cass,U.S. Senate,,IR,Rudy Boschwitz,5134,51.20
+11,Cass,U.S. Senate,,GRP,Russell B. Bentley,220,2.19
+12,Chippewa,U.S. Senate,,DFL,Paul David Wellstone,2705,48.43
+12,Chippewa,U.S. Senate,,IR,Rudy Boschwitz,2797,50.08
+12,Chippewa,U.S. Senate,,GRP,Russell B. Bentley,83,1.49
+13,Chisago,U.S. Senate,,DFL,Paul David Wellstone,6957,53.02
+13,Chisago,U.S. Senate,,IR,Rudy Boschwitz,5917,45.09
+13,Chisago,U.S. Senate,,GRP,Russell B. Bentley,248,1.89
+14,Clay,U.S. Senate,,DFL,Paul David Wellstone,7568,43.81
+14,Clay,U.S. Senate,,IR,Rudy Boschwitz,9510,55.05
+14,Clay,U.S. Senate,,GRP,Russell B. Bentley,197,1.14
+15,Clearwater,U.S. Senate,,DFL,Paul David Wellstone,1652,49.04
+15,Clearwater,U.S. Senate,,IR,Rudy Boschwitz,1647,48.89
+15,Clearwater,U.S. Senate,,GRP,Russell B. Bentley,70,2.08
+16,Cook,U.S. Senate,,DFL,Paul David Wellstone,1019,53.66
+16,Cook,U.S. Senate,,IR,Rudy Boschwitz,846,44.55
+16,Cook,U.S. Senate,,GRP,Russell B. Bentley,34,1.79
+17,Cottonwood,U.S. Senate,,DFL,Paul David Wellstone,2491,43.72
+17,Cottonwood,U.S. Senate,,IR,Rudy Boschwitz,3103,54.47
+17,Cottonwood,U.S. Senate,,GRP,Russell B. Bentley,103,1.81
+18,Crow Wing,U.S. Senate,,DFL,Paul David Wellstone,8947,44.50
+18,Crow Wing,U.S. Senate,,IR,Rudy Boschwitz,10736,53.40
+18,Crow Wing,U.S. Senate,,GRP,Russell B. Bentley,422,2.10
+19,Dakota,U.S. Senate,,DFL,Paul David Wellstone,55272,49.39
+19,Dakota,U.S. Senate,,IR,Rudy Boschwitz,54964,49.12
+19,Dakota,U.S. Senate,,GRP,Russell B. Bentley,1663,1.49
+20,Dodge,U.S. Senate,,DFL,Paul David Wellstone,2246,37.74
+20,Dodge,U.S. Senate,,IR,Rudy Boschwitz,3539,59.46
+20,Dodge,U.S. Senate,,GRP,Russell B. Bentley,167,2.81
+21,Douglas,U.S. Senate,,DFL,Paul David Wellstone,5398,40.97
+21,Douglas,U.S. Senate,,IR,Rudy Boschwitz,7596,57.65
+21,Douglas,U.S. Senate,,GRP,Russell B. Bentley,182,1.38
+22,Faribault,U.S. Senate,,DFL,Paul David Wellstone,2903,36.35
+22,Faribault,U.S. Senate,,IR,Rudy Boschwitz,4928,61.71
+22,Faribault,U.S. Senate,,GRP,Russell B. Bentley,155,1.94
+23,Fillmore,U.S. Senate,,DFL,Paul David Wellstone,3093,39.41
+23,Fillmore,U.S. Senate,,IR,Rudy Boschwitz,4625,58.92
+23,Fillmore,U.S. Senate,,GRP,Russell B. Bentley,131,1.67
+24,Freeborn,U.S. Senate,,DFL,Paul David Wellstone,5822,44.91
+24,Freeborn,U.S. Senate,,IR,Rudy Boschwitz,6892,53.17
+24,Freeborn,U.S. Senate,,GRP,Russell B. Bentley,249,1.92
+25,Goodhue,U.S. Senate,,DFL,Paul David Wellstone,7174,43.86
+25,Goodhue,U.S. Senate,,IR,Rudy Boschwitz,8893,54.37
+25,Goodhue,U.S. Senate,,GRP,Russell B. Bentley,289,1.77
+26,Grant,U.S. Senate,,DFL,Paul David Wellstone,1703,50.31
+26,Grant,U.S. Senate,,IR,Rudy Boschwitz,1630,48.15
+26,Grant,U.S. Senate,,GRP,Russell B. Bentley,52,1.54
+27,Hennepin,U.S. Senate,,DFL,Paul David Wellstone,240818,52.97
+27,Hennepin,U.S. Senate,,IR,Rudy Boschwitz,206917,45.51
+27,Hennepin,U.S. Senate,,GRP,Russell B. Bentley,6894,1.52
+28,Houston,U.S. Senate,,DFL,Paul David Wellstone,2946,37.87
+28,Houston,U.S. Senate,,IR,Rudy Boschwitz,4648,59.75
+28,Houston,U.S. Senate,,GRP,Russell B. Bentley,185,2.38
+29,Hubbard,U.S. Senate,,DFL,Paul David Wellstone,3239,46.75
+29,Hubbard,U.S. Senate,,IR,Rudy Boschwitz,3553,51.28
+29,Hubbard,U.S. Senate,,GRP,Russell B. Bentley,137,1.98
+30,Isanti,U.S. Senate,,DFL,Paul David Wellstone,5351,50.59
+30,Isanti,U.S. Senate,,IR,Rudy Boschwitz,5053,47.77
+30,Isanti,U.S. Senate,,GRP,Russell B. Bentley,173,1.64
+31,Itasca,U.S. Senate,,DFL,Paul David Wellstone,9583,55.40
+31,Itasca,U.S. Senate,,IR,Rudy Boschwitz,7357,42.53
+31,Itasca,U.S. Senate,,GRP,Russell B. Bentley,359,2.08
+32,Jackson,U.S. Senate,,DFL,Paul David Wellstone,2232,41.01
+32,Jackson,U.S. Senate,,IR,Rudy Boschwitz,3133,57.57
+32,Jackson,U.S. Senate,,GRP,Russell B. Bentley,77,1.41
+33,Kanabec,U.S. Senate,,DFL,Paul David Wellstone,2458,47.94
+33,Kanabec,U.S. Senate,,IR,Rudy Boschwitz,2566,50.05
+33,Kanabec,U.S. Senate,,GRP,Russell B. Bentley,103,2.01
+34,Kandiyohi,U.S. Senate,,DFL,Paul David Wellstone,7105,45.90
+34,Kandiyohi,U.S. Senate,,IR,Rudy Boschwitz,8142,52.60
+34,Kandiyohi,U.S. Senate,,GRP,Russell B. Bentley,231,1.49
+35,Kittson,U.S. Senate,,DFL,Paul David Wellstone,1253,49.98
+35,Kittson,U.S. Senate,,IR,Rudy Boschwitz,1229,49.02
+35,Kittson,U.S. Senate,,GRP,Russell B. Bentley,25,1.00
+36,Koochiching,U.S. Senate,,DFL,Paul David Wellstone,3344,54.97
+36,Koochiching,U.S. Senate,,IR,Rudy Boschwitz,2637,43.35
+36,Koochiching,U.S. Senate,,GRP,Russell B. Bentley,102,1.68
+37,Lac qui Parle,U.S. Senate,,DFL,Paul David Wellstone,2320,51.19
+37,Lac qui Parle,U.S. Senate,,IR,Rudy Boschwitz,2126,46.91
+37,Lac qui Parle,U.S. Senate,,GRP,Russell B. Bentley,86,1.90
+38,Lake,U.S. Senate,,DFL,Paul David Wellstone,3648,64.58
+38,Lake,U.S. Senate,,IR,Rudy Boschwitz,1910,33.81
+38,Lake,U.S. Senate,,GRP,Russell B. Bentley,91,1.61
+39,Lake of the Woods,U.S. Senate,,DFL,Paul David Wellstone,806,46.83
+39,Lake of the Woods,U.S. Senate,,IR,Rudy Boschwitz,885,51.42
+39,Lake of the Woods,U.S. Senate,,GRP,Russell B. Bentley,30,1.74
+40,Le Sueur,U.S. Senate,,DFL,Paul David Wellstone,4327,43.52
+40,Le Sueur,U.S. Senate,,IR,Rudy Boschwitz,5478,55.09
+40,Le Sueur,U.S. Senate,,GRP,Russell B. Bentley,138,1.39
+41,Lincoln,U.S. Senate,,DFL,Paul David Wellstone,1501,50.05
+41,Lincoln,U.S. Senate,,IR,Rudy Boschwitz,1422,47.42
+41,Lincoln,U.S. Senate,,GRP,Russell B. Bentley,76,2.53
+42,Lyon,U.S. Senate,,DFL,Paul David Wellstone,4466,44.18
+42,Lyon,U.S. Senate,,IR,Rudy Boschwitz,5484,54.25
+42,Lyon,U.S. Senate,,GRP,Russell B. Bentley,159,1.57
+43,McLeod,U.S. Senate,,DFL,Paul David Wellstone,4648,39.26
+43,McLeod,U.S. Senate,,IR,Rudy Boschwitz,7009,59.21
+43,McLeod,U.S. Senate,,GRP,Russell B. Bentley,181,1.53
+44,Mahnomen,U.S. Senate,,DFL,Paul David Wellstone,1180,48.64
+44,Mahnomen,U.S. Senate,,IR,Rudy Boschwitz,1191,49.09
+44,Mahnomen,U.S. Senate,,GRP,Russell B. Bentley,55,2.27
+45,Marshall,U.S. Senate,,DFL,Paul David Wellstone,2297,47.20
+45,Marshall,U.S. Senate,,IR,Rudy Boschwitz,2491,51.18
+45,Marshall,U.S. Senate,,GRP,Russell B. Bentley,79,1.62
+46,Martin,U.S. Senate,,DFL,Paul David Wellstone,3466,38.03
+46,Martin,U.S. Senate,,IR,Rudy Boschwitz,5523,60.60
+46,Martin,U.S. Senate,,GRP,Russell B. Bentley,125,1.37
+61,Meeker,U.S. Senate,,DFL,Paul David Wellstone,4030,44.11
+61,Meeker,U.S. Senate,,IR,Rudy Boschwitz,4936,54.03
+61,Meeker,U.S. Senate,,GRP,Russell B. Bentley,170,1.86
+47,Mille Lacs,U.S. Senate,,DFL,Paul David Wellstone,3756,49.54
+47,Mille Lacs,U.S. Senate,,IR,Rudy Boschwitz,3687,48.63
+47,Mille Lacs,U.S. Senate,,GRP,Russell B. Bentley,139,1.83
+48,Morrison,U.S. Senate,,DFL,Paul David Wellstone,5038,43.70
+48,Morrison,U.S. Senate,,IR,Rudy Boschwitz,6231,54.05
+48,Morrison,U.S. Senate,,GRP,Russell B. Bentley,260,2.26
+49,Mower,U.S. Senate,,DFL,Paul David Wellstone,7906,53.13
+49,Mower,U.S. Senate,,IR,Rudy Boschwitz,6701,45.03
+49,Mower,U.S. Senate,,GRP,Russell B. Bentley,274,1.84
+50,Murray,U.S. Senate,,DFL,Paul David Wellstone,2239,47.23
+50,Murray,U.S. Senate,,IR,Rudy Boschwitz,2388,50.37
+50,Murray,U.S. Senate,,GRP,Russell B. Bentley,114,2.40
+51,Nicollet,U.S. Senate,,DFL,Paul David Wellstone,5433,44.57
+51,Nicollet,U.S. Senate,,IR,Rudy Boschwitz,6563,53.83
+51,Nicollet,U.S. Senate,,GRP,Russell B. Bentley,195,1.60
+52,Nobles,U.S. Senate,,DFL,Paul David Wellstone,3255,42.10
+52,Nobles,U.S. Senate,,IR,Rudy Boschwitz,4311,55.76
+52,Nobles,U.S. Senate,,GRP,Russell B. Bentley,165,2.13
+53,Norman,U.S. Senate,,DFL,Paul David Wellstone,1748,47.49
+53,Norman,U.S. Senate,,IR,Rudy Boschwitz,1863,50.61
+53,Norman,U.S. Senate,,GRP,Russell B. Bentley,70,1.90
+54,Olmsted,U.S. Senate,,DFL,Paul David Wellstone,15243,37.61
+54,Olmsted,U.S. Senate,,IR,Rudy Boschwitz,24627,60.76
+54,Olmsted,U.S. Senate,,GRP,Russell B. Bentley,660,1.63
+55,Otter Tail,U.S. Senate,,DFL,Paul David Wellstone,8924,41.38
+55,Otter Tail,U.S. Senate,,IR,Rudy Boschwitz,12336,57.20
+55,Otter Tail,U.S. Senate,,GRP,Russell B. Bentley,308,1.43
+56,Pennington,U.S. Senate,,DFL,Paul David Wellstone,2295,46.68
+56,Pennington,U.S. Senate,,IR,Rudy Boschwitz,2563,52.14
+56,Pennington,U.S. Senate,,GRP,Russell B. Bentley,58,1.18
+57,Pine,U.S. Senate,,DFL,Paul David Wellstone,4540,51.40
+57,Pine,U.S. Senate,,IR,Rudy Boschwitz,4085,46.25
+57,Pine,U.S. Senate,,GRP,Russell B. Bentley,207,2.34
+58,Pipestone,U.S. Senate,,DFL,Paul David Wellstone,1687,43.04
+58,Pipestone,U.S. Senate,,IR,Rudy Boschwitz,2169,55.33
+58,Pipestone,U.S. Senate,,GRP,Russell B. Bentley,64,1.63
+59,Polk,U.S. Senate,,DFL,Paul David Wellstone,4839,44.49
+59,Polk,U.S. Senate,,IR,Rudy Boschwitz,5887,54.12
+59,Polk,U.S. Senate,,GRP,Russell B. Bentley,151,1.39
+60,Pope,U.S. Senate,,DFL,Paul David Wellstone,2210,44.25
+60,Pope,U.S. Senate,,IR,Rudy Boschwitz,2702,54.10
+60,Pope,U.S. Senate,,GRP,Russell B. Bentley,82,1.64
+62,Ramsey,U.S. Senate,,DFL,Paul David Wellstone,117972,58.84
+62,Ramsey,U.S. Senate,,IR,Rudy Boschwitz,79525,39.66
+62,Ramsey,U.S. Senate,,GRP,Russell B. Bentley,3009,1.50
+63,Red Lake,U.S. Senate,,DFL,Paul David Wellstone,1073,44.69
+63,Red Lake,U.S. Senate,,IR,Rudy Boschwitz,1287,53.60
+63,Red Lake,U.S. Senate,,GRP,Russell B. Bentley,41,1.71
+64,Redwood,U.S. Senate,,DFL,Paul David Wellstone,2691,36.72
+64,Redwood,U.S. Senate,,IR,Rudy Boschwitz,4491,61.29
+64,Redwood,U.S. Senate,,GRP,Russell B. Bentley,146,1.99
+65,Renville,U.S. Senate,,DFL,Paul David Wellstone,3725,47.37
+65,Renville,U.S. Senate,,IR,Rudy Boschwitz,3990,50.74
+65,Renville,U.S. Senate,,GRP,Russell B. Bentley,148,1.88
+66,Rice,U.S. Senate,,DFL,Paul David Wellstone,9624,53.24
+66,Rice,U.S. Senate,,IR,Rudy Boschwitz,8243,45.60
+66,Rice,U.S. Senate,,GRP,Russell B. Bentley,209,1.16
+67,Rock,U.S. Senate,,DFL,Paul David Wellstone,1659,37.35
+67,Rock,U.S. Senate,,IR,Rudy Boschwitz,2733,61.53
+67,Rock,U.S. Senate,,GRP,Russell B. Bentley,50,1.13
+68,Roseau,U.S. Senate,,DFL,Paul David Wellstone,2605,45.22
+68,Roseau,U.S. Senate,,IR,Rudy Boschwitz,3032,52.63
+68,Roseau,U.S. Senate,,GRP,Russell B. Bentley,124,2.15
+69,St. Louis,U.S. Senate,,DFL,Paul David Wellstone,56638,67.48
+69,St. Louis,U.S. Senate,,IR,Rudy Boschwitz,26043,31.03
+69,St. Louis,U.S. Senate,,GRP,Russell B. Bentley,1250,1.49
+70,Scott,U.S. Senate,,DFL,Paul David Wellstone,10413,46.01
+70,Scott,U.S. Senate,,IR,Rudy Boschwitz,11831,52.28
+70,Scott,U.S. Senate,,GRP,Russell B. Bentley,388,1.71
+71,Sherburne,U.S. Senate,,DFL,Paul David Wellstone,7092,47.06
+71,Sherburne,U.S. Senate,,IR,Rudy Boschwitz,7723,51.24
+71,Sherburne,U.S. Senate,,GRP,Russell B. Bentley,256,1.70
+72,Sibley,U.S. Senate,,DFL,Paul David Wellstone,2377,40.17
+72,Sibley,U.S. Senate,,IR,Rudy Boschwitz,3454,58.36
+72,Sibley,U.S. Senate,,GRP,Russell B. Bentley,87,1.47
+73,Stearns,U.S. Senate,,DFL,Paul David Wellstone,19073,42.11
+73,Stearns,U.S. Senate,,IR,Rudy Boschwitz,25276,55.81
+73,Stearns,U.S. Senate,,GRP,Russell B. Bentley,943,2.08
+74,Steele,U.S. Senate,,DFL,Paul David Wellstone,4094,35.01
+74,Steele,U.S. Senate,,IR,Rudy Boschwitz,7434,63.57
+74,Steele,U.S. Senate,,GRP,Russell B. Bentley,167,1.43
+75,Stevens,U.S. Senate,,DFL,Paul David Wellstone,2118,43.74
+75,Stevens,U.S. Senate,,IR,Rudy Boschwitz,2665,55.04
+75,Stevens,U.S. Senate,,GRP,Russell B. Bentley,59,1.22
+76,Swift,U.S. Senate,,DFL,Paul David Wellstone,2698,51.60
+76,Swift,U.S. Senate,,IR,Rudy Boschwitz,2438,46.62
+76,Swift,U.S. Senate,,GRP,Russell B. Bentley,93,1.78
+77,Todd,U.S. Senate,,DFL,Paul David Wellstone,4038,42.92
+77,Todd,U.S. Senate,,IR,Rudy Boschwitz,5132,54.55
+77,Todd,U.S. Senate,,GRP,Russell B. Bentley,238,2.53
+78,Traverse,U.S. Senate,,DFL,Paul David Wellstone,1046,47.81
+78,Traverse,U.S. Senate,,IR,Rudy Boschwitz,1114,50.91
+78,Traverse,U.S. Senate,,GRP,Russell B. Bentley,28,1.28
+79,Wabasha,U.S. Senate,,DFL,Paul David Wellstone,3360,40.30
+79,Wabasha,U.S. Senate,,IR,Rudy Boschwitz,4763,57.13
+79,Wabasha,U.S. Senate,,GRP,Russell B. Bentley,214,2.57
+80,Wadena,U.S. Senate,,DFL,Paul David Wellstone,2455,41.50
+80,Wadena,U.S. Senate,,IR,Rudy Boschwitz,3336,56.39
+80,Wadena,U.S. Senate,,GRP,Russell B. Bentley,125,2.11
+81,Waseca,U.S. Senate,,DFL,Paul David Wellstone,2954,39.76
+81,Waseca,U.S. Senate,,IR,Rudy Boschwitz,4328,58.25
+81,Waseca,U.S. Senate,,GRP,Russell B. Bentley,148,1.99
+82,Washington,U.S. Senate,,DFL,Paul David Wellstone,31391,52.01
+82,Washington,U.S. Senate,,IR,Rudy Boschwitz,28007,46.40
+82,Washington,U.S. Senate,,GRP,Russell B. Bentley,962,1.59
+83,Watonwan,U.S. Senate,,DFL,Paul David Wellstone,2124,42.69
+83,Watonwan,U.S. Senate,,IR,Rudy Boschwitz,2783,55.94
+83,Watonwan,U.S. Senate,,GRP,Russell B. Bentley,68,1.37
+84,Wilkin,U.S. Senate,,DFL,Paul David Wellstone,1025,36.14
+84,Wilkin,U.S. Senate,,IR,Rudy Boschwitz,1770,62.41
+84,Wilkin,U.S. Senate,,GRP,Russell B. Bentley,41,1.45
+85,Winona,U.S. Senate,,DFL,Paul David Wellstone,6931,44.68
+85,Winona,U.S. Senate,,IR,Rudy Boschwitz,8290,53.44
+85,Winona,U.S. Senate,,GRP,Russell B. Bentley,291,1.88
+86,Wright,U.S. Senate,,DFL,Paul David Wellstone,12262,45.99
+86,Wright,U.S. Senate,,IR,Rudy Boschwitz,13870,52.02
+86,Wright,U.S. Senate,,GRP,Russell B. Bentley,531,1.99
+87,Yellow Medicine,U.S. Senate,,DFL,Paul David Wellstone,2834,50.46
+87,Yellow Medicine,U.S. Senate,,IR,Rudy Boschwitz,2696,48.01
+87,Yellow Medicine,U.S. Senate,,GRP,Russell B. Bentley,86,1.53
+01,Aitkin,Governor,,DFL,Rudy Perpich,3313,54.62
+01,Aitkin,Governor,,IR,Arne Carlson,2753,45.38
+02,Anoka,Governor,,DFL,Rudy Perpich,45029,51.16
+02,Anoka,Governor,,IR,Arne Carlson,42993,48.84
+03,Becker,Governor,,DFL,Rudy Perpich,5503,52.18
+03,Becker,Governor,,IR,Arne Carlson,5043,47.82
+04,Beltrami,Governor,,DFL,Rudy Perpich,5896,52.63
+04,Beltrami,Governor,,IR,Arne Carlson,5306,47.37
+05,Benton,Governor,,DFL,Rudy Perpich,5517,53.34
+05,Benton,Governor,,IR,Arne Carlson,4826,46.66
+06,Big Stone,Governor,,DFL,Rudy Perpich,1759,56.82
+06,Big Stone,Governor,,IR,Arne Carlson,1337,43.18
+07,Blue Earth,Governor,,DFL,Rudy Perpich,8949,44.04
+07,Blue Earth,Governor,,IR,Arne Carlson,11372,55.96
+08,Brown,Governor,,DFL,Rudy Perpich,4251,43.32
+08,Brown,Governor,,IR,Arne Carlson,5562,56.68
+09,Carlton,Governor,,DFL,Rudy Perpich,8806,75.48
+09,Carlton,Governor,,IR,Arne Carlson,2860,24.52
+10,Carver,Governor,,DFL,Rudy Perpich,7614,40.76
+10,Carver,Governor,,IR,Arne Carlson,11065,59.24
+11,Cass,Governor,,DFL,Rudy Perpich,4510,48.33
+11,Cass,Governor,,IR,Arne Carlson,4821,51.67
+12,Chippewa,Governor,,DFL,Rudy Perpich,2655,48.67
+12,Chippewa,Governor,,IR,Arne Carlson,2800,51.33
+13,Chisago,Governor,,DFL,Rudy Perpich,6197,49.75
+13,Chisago,Governor,,IR,Arne Carlson,6260,50.25
+14,Clay,Governor,,DFL,Rudy Perpich,9471,55.66
+14,Clay,Governor,,IR,Arne Carlson,7544,44.34
+15,Clearwater,Governor,,DFL,Rudy Perpich,1892,59.38
+15,Clearwater,Governor,,IR,Arne Carlson,1294,40.62
+16,Cook,Governor,,DFL,Rudy Perpich,962,55.51
+16,Cook,Governor,,IR,Arne Carlson,771,44.49
+17,Cottonwood,Governor,,DFL,Rudy Perpich,2352,43.64
+17,Cottonwood,Governor,,IR,Arne Carlson,3037,56.36
+18,Crow Wing,Governor,,DFL,Rudy Perpich,9305,48.40
+18,Crow Wing,Governor,,IR,Arne Carlson,9920,51.60
+19,Dakota,Governor,,DFL,Rudy Perpich,44230,41.11
+19,Dakota,Governor,,IR,Arne Carlson,63354,58.89
+20,Dodge,Governor,,DFL,Rudy Perpich,2574,44.20
+20,Dodge,Governor,,IR,Arne Carlson,3249,55.80
+21,Douglas,Governor,,DFL,Rudy Perpich,6093,49.58
+21,Douglas,Governor,,IR,Arne Carlson,6196,50.42
+22,Faribault,Governor,,DFL,Rudy Perpich,3209,42.22
+22,Faribault,Governor,,IR,Arne Carlson,4391,57.78
+23,Fillmore,Governor,,DFL,Rudy Perpich,3168,41.53
+23,Fillmore,Governor,,IR,Arne Carlson,4461,58.47
+24,Freeborn,Governor,,DFL,Rudy Perpich,6199,48.65
+24,Freeborn,Governor,,IR,Arne Carlson,6542,51.35
+25,Goodhue,Governor,,DFL,Rudy Perpich,6008,37.14
+25,Goodhue,Governor,,IR,Arne Carlson,10167,62.86
+26,Grant,Governor,,DFL,Rudy Perpich,1741,54.05
+26,Grant,Governor,,IR,Arne Carlson,1480,45.95
+27,Hennepin,Governor,,DFL,Rudy Perpich,189861,43.53
+27,Hennepin,Governor,,IR,Arne Carlson,246340,56.47
+28,Houston,Governor,,DFL,Rudy Perpich,4002,52.90
+28,Houston,Governor,,IR,Arne Carlson,3563,47.10
+29,Hubbard,Governor,,DFL,Rudy Perpich,3009,45.70
+29,Hubbard,Governor,,IR,Arne Carlson,3575,54.30
+30,Isanti,Governor,,DFL,Rudy Perpich,5855,58.59
+30,Isanti,Governor,,IR,Arne Carlson,4139,41.41
+31,Itasca,Governor,,DFL,Rudy Perpich,11874,70.32
+31,Itasca,Governor,,IR,Arne Carlson,5011,29.68
+32,Jackson,Governor,,DFL,Rudy Perpich,2678,51.36
+32,Jackson,Governor,,IR,Arne Carlson,2536,48.64
+33,Kanabec,Governor,,DFL,Rudy Perpich,2704,55.58
+33,Kanabec,Governor,,IR,Arne Carlson,2161,44.42
+34,Kandiyohi,Governor,,DFL,Rudy Perpich,7955,53.63
+34,Kandiyohi,Governor,,IR,Arne Carlson,6878,46.37
+35,Kittson,Governor,,DFL,Rudy Perpich,1366,57.47
+35,Kittson,Governor,,IR,Arne Carlson,1011,42.53
+36,Koochiching,Governor,,DFL,Rudy Perpich,3560,62.12
+36,Koochiching,Governor,,IR,Arne Carlson,2171,37.88
+37,Lac qui Parle,Governor,,DFL,Rudy Perpich,2360,53.42
+37,Lac qui Parle,Governor,,IR,Arne Carlson,2058,46.58
+38,Lake,Governor,,DFL,Rudy Perpich,4209,77.44
+38,Lake,Governor,,IR,Arne Carlson,1226,22.56
+39,Lake of the Woods,Governor,,DFL,Rudy Perpich,983,61.75
+39,Lake of the Woods,Governor,,IR,Arne Carlson,609,38.25
+40,Le Sueur,Governor,,DFL,Rudy Perpich,5007,52.15
+40,Le Sueur,Governor,,IR,Arne Carlson,4595,47.85
+41,Lincoln,Governor,,DFL,Rudy Perpich,1406,48.17
+41,Lincoln,Governor,,IR,Arne Carlson,1513,51.83
+42,Lyon,Governor,,DFL,Rudy Perpich,4016,41.80
+42,Lyon,Governor,,IR,Arne Carlson,5591,58.20
+43,McLeod,Governor,,DFL,Rudy Perpich,3395,38.98
+43,McLeod,Governor,,IR,Arne Carlson,5314,61.02
+44,Mahnomen,Governor,,DFL,Rudy Perpich,4818,42.55
+44,Mahnomen,Governor,,IR,Arne Carlson,6504,57.45
+45,Marshall,Governor,,DFL,Rudy Perpich,1538,68.51
+45,Marshall,Governor,,IR,Arne Carlson,707,31.49
+46,Martin,Governor,,DFL,Rudy Perpich,3004,64.12
+46,Martin,Governor,,IR,Arne Carlson,1681,35.88
+61,Meeker,Governor,,DFL,Rudy Perpich,4171,48.37
+61,Meeker,Governor,,IR,Arne Carlson,4453,51.63
+47,Mille Lacs,Governor,,DFL,Rudy Perpich,4219,55.89
+47,Mille Lacs,Governor,,IR,Arne Carlson,3330,44.11
+48,Morrison,Governor,,DFL,Rudy Perpich,6438,59.19
+48,Morrison,Governor,,IR,Arne Carlson,4438,40.81
+49,Mower,Governor,,DFL,Rudy Perpich,7935,54.76
+49,Mower,Governor,,IR,Arne Carlson,6555,45.24
+50,Murray,Governor,,DFL,Rudy Perpich,2419,54.32
+50,Murray,Governor,,IR,Arne Carlson,2034,45.68
+51,Nicollet,Governor,,DFL,Rudy Perpich,4704,41.02
+51,Nicollet,Governor,,IR,Arne Carlson,6763,58.98
+52,Nobles,Governor,,DFL,Rudy Perpich,4340,58.66
+52,Nobles,Governor,,IR,Arne Carlson,3059,41.34
+53,Norman,Governor,,DFL,Rudy Perpich,2123,60.40
+53,Norman,Governor,,IR,Arne Carlson,1392,39.60
+54,Olmsted,Governor,,DFL,Rudy Perpich,15605,40.12
+54,Olmsted,Governor,,IR,Arne Carlson,23294,59.88
+55,Otter Tail,Governor,,DFL,Rudy Perpich,10169,49.44
+55,Otter Tail,Governor,,IR,Arne Carlson,10398,50.56
+56,Pennington,Governor,,DFL,Rudy Perpich,3030,62.72
+56,Pennington,Governor,,IR,Arne Carlson,1801,37.28
+57,Pine,Governor,,DFL,Rudy Perpich,5176,62.35
+57,Pine,Governor,,IR,Arne Carlson,3125,37.65
+58,Pipestone,Governor,,DFL,Rudy Perpich,1984,53.19
+58,Pipestone,Governor,,IR,Arne Carlson,1746,46.81
+59,Polk,Governor,,DFL,Rudy Perpich,6617,60.13
+59,Polk,Governor,,IR,Arne Carlson,4387,39.87
+60,Pope,Governor,,DFL,Rudy Perpich,2444,51.03
+60,Pope,Governor,,IR,Arne Carlson,2345,48.97
+62,Ramsey,Governor,,DFL,Rudy Perpich,83672,43.85
+62,Ramsey,Governor,,IR,Arne Carlson,107125,56.15
+63,Red Lake,Governor,,DFL,Rudy Perpich,1664,73.82
+63,Red Lake,Governor,,IR,Arne Carlson,590,26.18
+64,Redwood,Governor,,DFL,Rudy Perpich,2709,39.64
+64,Redwood,Governor,,IR,Arne Carlson,4125,60.36
+65,Renville,Governor,,DFL,Rudy Perpich,3365,44.55
+65,Renville,Governor,,IR,Arne Carlson,4189,55.45
+66,Rice,Governor,,DFL,Rudy Perpich,8503,48.32
+66,Rice,Governor,,IR,Arne Carlson,9095,51.68
+67,Rock,Governor,,DFL,Rudy Perpich,2097,49.06
+67,Rock,Governor,,IR,Arne Carlson,2177,50.94
+68,Roseau,Governor,,DFL,Rudy Perpich,3355,61.17
+68,Roseau,Governor,,IR,Arne Carlson,2130,38.83
+69,St. Louis,Governor,,DFL,Rudy Perpich,62149,75.66
+69,St. Louis,Governor,,IR,Arne Carlson,19996,24.34
+70,Scott,Governor,,DFL,Rudy Perpich,10377,47.80
+70,Scott,Governor,,IR,Arne Carlson,11332,52.20
+71,Sherburne,Governor,,DFL,Rudy Perpich,7448,51.98
+71,Sherburne,Governor,,IR,Arne Carlson,6880,48.02
+72,Sibley,Governor,,DFL,Rudy Perpich,2288,40.92
+72,Sibley,Governor,,IR,Arne Carlson,3303,59.08
+73,Stearns,Governor,,DFL,Rudy Perpich,22046,52.82
+73,Stearns,Governor,,IR,Arne Carlson,19694,47.18
+74,Steele,Governor,,DFL,Rudy Perpich,4934,43.04
+74,Steele,Governor,,IR,Arne Carlson,6529,56.96
+75,Stevens,Governor,,DFL,Rudy Perpich,2360,51.38
+75,Stevens,Governor,,IR,Arne Carlson,2233,48.62
+76,Swift,Governor,,DFL,Rudy Perpich,2999,59.57
+76,Swift,Governor,,IR,Arne Carlson,2035,40.43
+77,Todd,Governor,,DFL,Rudy Perpich,5145,58.46
+77,Todd,Governor,,IR,Arne Carlson,3656,41.54
+78,Traverse,Governor,,DFL,Rudy Perpich,1052,50.38
+78,Traverse,Governor,,IR,Arne Carlson,1036,49.62
+79,Wabasha,Governor,,DFL,Rudy Perpich,3575,44.87
+79,Wabasha,Governor,,IR,Arne Carlson,4393,55.13
+80,Wadena,Governor,,DFL,Rudy Perpich,2528,46.19
+80,Wadena,Governor,,IR,Arne Carlson,2945,53.81
+81,Waseca,Governor,,DFL,Rudy Perpich,3180,43.44
+81,Waseca,Governor,,IR,Arne Carlson,4141,56.56
+82,Washington,Governor,,DFL,Rudy Perpich,22049,37.66
+82,Washington,Governor,,IR,Arne Carlson,36506,62.34
+83,Watonwan,Governor,,DFL,Rudy Perpich,2075,43.29
+83,Watonwan,Governor,,IR,Arne Carlson,2718,56.71
+84,Wilkin,Governor,,DFL,Rudy Perpich,1497,55.08
+84,Wilkin,Governor,,IR,Arne Carlson,1221,44.92
+85,Winona,Governor,,DFL,Rudy Perpich,7229,48.66
+85,Winona,Governor,,IR,Arne Carlson,7626,51.34
+86,Wright,Governor,,DFL,Rudy Perpich,13293,53.15
+86,Wright,Governor,,IR,Arne Carlson,11715,46.85
+87,Yellow Medicine,Governor,,DFL,Rudy Perpich,2452,45.74
+87,Yellow Medicine,Governor,,IR,Arne Carlson,2909,54.26
+01,Aitkin,Secretary of State,,DFL,Joan Anderson Growe,4124,63.84
+01,Aitkin,Secretary of State,,IR,David Jennings,2166,33.53
+01,Aitkin,Secretary of State,,GRP,Candice Sjostrom,170,2.63
+02,Anoka,Secretary of State,,DFL,Joan Anderson Growe,57715,64.18
+02,Anoka,Secretary of State,,IR,David Jennings,29825,33.17
+02,Anoka,Secretary of State,,GRP,Candice Sjostrom,2385,2.65
+03,Becker,Secretary of State,,DFL,Joan Anderson Growe,6788,62.12
+03,Becker,Secretary of State,,IR,David Jennings,3914,35.82
+03,Becker,Secretary of State,,GRP,Candice Sjostrom,225,2.06
+04,Beltrami,Secretary of State,,DFL,Joan Anderson Growe,7643,65.93
+04,Beltrami,Secretary of State,,IR,David Jennings,3696,31.88
+04,Beltrami,Secretary of State,,GRP,Candice Sjostrom,253,2.18
+05,Benton,Secretary of State,,DFL,Joan Anderson Growe,6945,64.25
+05,Benton,Secretary of State,,IR,David Jennings,3565,32.98
+05,Benton,Secretary of State,,GRP,Candice Sjostrom,300,2.78
+06,Big Stone,Secretary of State,,DFL,Joan Anderson Growe,2194,68.67
+06,Big Stone,Secretary of State,,IR,David Jennings,960,30.05
+06,Big Stone,Secretary of State,,GRP,Candice Sjostrom,41,1.28
+07,Blue Earth,Secretary of State,,DFL,Joan Anderson Growe,12274,58.01
+07,Blue Earth,Secretary of State,,IR,David Jennings,8215,38.82
+07,Blue Earth,Secretary of State,,GRP,Candice Sjostrom,671,3.17
+08,Brown,Secretary of State,,DFL,Joan Anderson Growe,5309,54.43
+08,Brown,Secretary of State,,IR,David Jennings,4279,43.87
+08,Brown,Secretary of State,,GRP,Candice Sjostrom,166,1.70
+09,Carlton,Secretary of State,,DFL,Joan Anderson Growe,8417,74.07
+09,Carlton,Secretary of State,,IR,David Jennings,2672,23.51
+09,Carlton,Secretary of State,,GRP,Candice Sjostrom,274,2.41
+10,Carver,Secretary of State,,DFL,Joan Anderson Growe,10150,53.60
+10,Carver,Secretary of State,,IR,David Jennings,8314,43.90
+10,Carver,Secretary of State,,GRP,Candice Sjostrom,473,2.50
+11,Cass,Secretary of State,,DFL,Joan Anderson Growe,5971,60.39
+11,Cass,Secretary of State,,IR,David Jennings,3682,37.24
+11,Cass,Secretary of State,,GRP,Candice Sjostrom,235,2.38
+12,Chippewa,Secretary of State,,DFL,Joan Anderson Growe,3443,62.61
+12,Chippewa,Secretary of State,,IR,David Jennings,1986,36.12
+12,Chippewa,Secretary of State,,GRP,Candice Sjostrom,70,1.27
+13,Chisago,Secretary of State,,DFL,Joan Anderson Growe,8149,62.74
+13,Chisago,Secretary of State,,IR,David Jennings,4529,34.87
+13,Chisago,Secretary of State,,GRP,Candice Sjostrom,311,2.39
+14,Clay,Secretary of State,,DFL,Joan Anderson Growe,10886,63.81
+14,Clay,Secretary of State,,IR,David Jennings,5829,34.17
+14,Clay,Secretary of State,,GRP,Candice Sjostrom,346,2.03
+15,Clearwater,Secretary of State,,DFL,Joan Anderson Growe,2161,65.09
+15,Clearwater,Secretary of State,,IR,David Jennings,1094,32.95
+15,Clearwater,Secretary of State,,GRP,Candice Sjostrom,65,1.96
+16,Cook,Secretary of State,,DFL,Joan Anderson Growe,1136,60.75
+16,Cook,Secretary of State,,IR,David Jennings,667,35.67
+16,Cook,Secretary of State,,GRP,Candice Sjostrom,67,3.58
+17,Cottonwood,Secretary of State,,DFL,Joan Anderson Growe,3187,56.97
+17,Cottonwood,Secretary of State,,IR,David Jennings,2340,41.83
+17,Cottonwood,Secretary of State,,GRP,Candice Sjostrom,67,1.20
+18,Crow Wing,Secretary of State,,DFL,Joan Anderson Growe,11900,59.82
+18,Crow Wing,Secretary of State,,IR,David Jennings,7521,37.81
+18,Crow Wing,Secretary of State,,GRP,Candice Sjostrom,473,2.38
+19,Dakota,Secretary of State,,DFL,Joan Anderson Growe,63712,58.33
+19,Dakota,Secretary of State,,IR,David Jennings,43158,39.51
+19,Dakota,Secretary of State,,GRP,Candice Sjostrom,2356,2.16
+20,Dodge,Secretary of State,,DFL,Joan Anderson Growe,3336,58.04
+20,Dodge,Secretary of State,,IR,David Jennings,2264,39.39
+20,Dodge,Secretary of State,,GRP,Candice Sjostrom,148,2.57
+21,Douglas,Secretary of State,,DFL,Joan Anderson Growe,7486,57.92
+21,Douglas,Secretary of State,,IR,David Jennings,5237,40.52
+21,Douglas,Secretary of State,,GRP,Candice Sjostrom,202,1.56
+22,Faribault,Secretary of State,,DFL,Joan Anderson Growe,4442,56.49
+22,Faribault,Secretary of State,,IR,David Jennings,3307,42.05
+22,Faribault,Secretary of State,,GRP,Candice Sjostrom,115,1.46
+23,Fillmore,Secretary of State,,DFL,Joan Anderson Growe,4240,54.79
+23,Fillmore,Secretary of State,,IR,David Jennings,3376,43.63
+23,Fillmore,Secretary of State,,GRP,Candice Sjostrom,122,1.58
+24,Freeborn,Secretary of State,,DFL,Joan Anderson Growe,7581,64.34
+24,Freeborn,Secretary of State,,IR,David Jennings,3995,33.91
+24,Freeborn,Secretary of State,,GRP,Candice Sjostrom,206,1.75
+25,Goodhue,Secretary of State,,DFL,Joan Anderson Growe,9994,61.30
+25,Goodhue,Secretary of State,,IR,David Jennings,5972,36.63
+25,Goodhue,Secretary of State,,GRP,Candice Sjostrom,337,2.07
+26,Grant,Secretary of State,,DFL,Joan Anderson Growe,2219,66.50
+26,Grant,Secretary of State,,IR,David Jennings,1063,31.85
+26,Grant,Secretary of State,,GRP,Candice Sjostrom,55,1.65
+27,Hennepin,Secretary of State,,DFL,Joan Anderson Growe,268565,60.80
+27,Hennepin,Secretary of State,,IR,David Jennings,159954,36.21
+27,Hennepin,Secretary of State,,GRP,Candice Sjostrom,13216,2.99
+28,Houston,Secretary of State,,DFL,Joan Anderson Growe,3721,48.88
+28,Houston,Secretary of State,,IR,David Jennings,3721,48.88
+28,Houston,Secretary of State,,GRP,Candice Sjostrom,171,2.25
+29,Hubbard,Secretary of State,,DFL,Joan Anderson Growe,4184,60.43
+29,Hubbard,Secretary of State,,IR,David Jennings,2598,37.52
+29,Hubbard,Secretary of State,,GRP,Candice Sjostrom,142,2.05
+30,Isanti,Secretary of State,,DFL,Joan Anderson Growe,6862,65.40
+30,Isanti,Secretary of State,,IR,David Jennings,3377,32.19
+30,Isanti,Secretary of State,,GRP,Candice Sjostrom,253,2.41
+31,Itasca,Secretary of State,,DFL,Joan Anderson Growe,11726,69.35
+31,Itasca,Secretary of State,,IR,David Jennings,4695,27.77
+31,Itasca,Secretary of State,,GRP,Candice Sjostrom,488,2.89
+32,Jackson,Secretary of State,,DFL,Joan Anderson Growe,3311,61.46
+32,Jackson,Secretary of State,,IR,David Jennings,2010,37.31
+32,Jackson,Secretary of State,,GRP,Candice Sjostrom,66,1.23
+33,Kanabec,Secretary of State,,DFL,Joan Anderson Growe,3188,62.87
+33,Kanabec,Secretary of State,,IR,David Jennings,1772,34.94
+33,Kanabec,Secretary of State,,GRP,Candice Sjostrom,111,2.19
+34,Kandiyohi,Secretary of State,,DFL,Joan Anderson Growe,9468,63.10
+34,Kandiyohi,Secretary of State,,IR,David Jennings,5304,35.35
+34,Kandiyohi,Secretary of State,,GRP,Candice Sjostrom,233,1.55
+35,Kittson,Secretary of State,,DFL,Joan Anderson Growe,1661,67.30
+35,Kittson,Secretary of State,,IR,David Jennings,753,30.51
+35,Kittson,Secretary of State,,GRP,Candice Sjostrom,54,2.19
+36,Koochiching,Secretary of State,,DFL,Joan Anderson Growe,4441,73.69
+36,Koochiching,Secretary of State,,IR,David Jennings,1466,24.32
+36,Koochiching,Secretary of State,,GRP,Candice Sjostrom,120,1.99
+37,Lac qui Parle,Secretary of State,,DFL,Joan Anderson Growe,3054,66.51
+37,Lac qui Parle,Secretary of State,,IR,David Jennings,1463,31.86
+37,Lac qui Parle,Secretary of State,,GRP,Candice Sjostrom,75,1.63
+38,Lake,Secretary of State,,DFL,Joan Anderson Growe,4223,75.91
+38,Lake,Secretary of State,,IR,David Jennings,1192,21.43
+38,Lake,Secretary of State,,GRP,Candice Sjostrom,148,2.66
+39,Lake of the Woods,Secretary of State,,DFL,Joan Anderson Growe,1073,63.60
+39,Lake of the Woods,Secretary of State,,IR,David Jennings,571,33.85
+39,Lake of the Woods,Secretary of State,,GRP,Candice Sjostrom,43,2.55
+40,Le Sueur,Secretary of State,,DFL,Joan Anderson Growe,6164,62.67
+40,Le Sueur,Secretary of State,,IR,David Jennings,3504,35.62
+40,Le Sueur,Secretary of State,,GRP,Candice Sjostrom,168,1.71
+41,Lincoln,Secretary of State,,DFL,Joan Anderson Growe,1907,64.47
+41,Lincoln,Secretary of State,,IR,David Jennings,983,33.23
+41,Lincoln,Secretary of State,,GRP,Candice Sjostrom,68,2.30
+42,Lyon,Secretary of State,,DFL,Joan Anderson Growe,5979,59.88
+42,Lyon,Secretary of State,,IR,David Jennings,3856,38.62
+42,Lyon,Secretary of State,,GRP,Candice Sjostrom,150,1.50
+43,McLeod,Secretary of State,,DFL,Joan Anderson Growe,3970,43.67
+43,McLeod,Secretary of State,,IR,David Jennings,5023,55.25
+43,McLeod,Secretary of State,,GRP,Candice Sjostrom,98,1.08
+44,Mahnomen,Secretary of State,,DFL,Joan Anderson Growe,6343,54.50
+44,Mahnomen,Secretary of State,,IR,David Jennings,5139,44.15
+44,Mahnomen,Secretary of State,,GRP,Candice Sjostrom,157,1.35
+45,Marshall,Secretary of State,,DFL,Joan Anderson Growe,1593,68.02
+45,Marshall,Secretary of State,,IR,David Jennings,691,29.50
+45,Marshall,Secretary of State,,GRP,Candice Sjostrom,58,2.48
+46,Martin,Secretary of State,,DFL,Joan Anderson Growe,3267,68.38
+46,Martin,Secretary of State,,IR,David Jennings,1394,29.18
+46,Martin,Secretary of State,,GRP,Candice Sjostrom,117,2.45
+61,Meeker,Secretary of State,,DFL,Joan Anderson Growe,5511,61.19
+61,Meeker,Secretary of State,,IR,David Jennings,3339,37.08
+61,Meeker,Secretary of State,,GRP,Candice Sjostrom,156,1.73
+47,Mille Lacs,Secretary of State,,DFL,Joan Anderson Growe,4917,63.49
+47,Mille Lacs,Secretary of State,,IR,David Jennings,2630,33.96
+47,Mille Lacs,Secretary of State,,GRP,Candice Sjostrom,198,2.56
+48,Morrison,Secretary of State,,DFL,Joan Anderson Growe,7360,65.59
+48,Morrison,Secretary of State,,IR,David Jennings,3581,31.91
+48,Morrison,Secretary of State,,GRP,Candice Sjostrom,280,2.50
+49,Mower,Secretary of State,,DFL,Joan Anderson Growe,9129,66.75
+49,Mower,Secretary of State,,IR,David Jennings,4250,31.07
+49,Mower,Secretary of State,,GRP,Candice Sjostrom,298,2.18
+50,Murray,Secretary of State,,DFL,Joan Anderson Growe,3022,65.82
+50,Murray,Secretary of State,,IR,David Jennings,1477,32.17
+50,Murray,Secretary of State,,GRP,Candice Sjostrom,92,2.00
+51,Nicollet,Secretary of State,,DFL,Joan Anderson Growe,7118,59.07
+51,Nicollet,Secretary of State,,IR,David Jennings,4653,38.61
+51,Nicollet,Secretary of State,,GRP,Candice Sjostrom,279,2.32
+52,Nobles,Secretary of State,,DFL,Joan Anderson Growe,4770,62.71
+52,Nobles,Secretary of State,,IR,David Jennings,2699,35.48
+52,Nobles,Secretary of State,,GRP,Candice Sjostrom,138,1.81
+53,Norman,Secretary of State,,DFL,Joan Anderson Growe,2422,67.84
+53,Norman,Secretary of State,,IR,David Jennings,1086,30.42
+53,Norman,Secretary of State,,GRP,Candice Sjostrom,62,1.74
+54,Olmsted,Secretary of State,,DFL,Joan Anderson Growe,20334,51.61
+54,Olmsted,Secretary of State,,IR,David Jennings,18280,46.39
+54,Olmsted,Secretary of State,,GRP,Candice Sjostrom,787,2.00
+55,Otter Tail,Secretary of State,,DFL,Joan Anderson Growe,12279,57.75
+55,Otter Tail,Secretary of State,,IR,David Jennings,8565,40.29
+55,Otter Tail,Secretary of State,,GRP,Candice Sjostrom,417,1.96
+56,Pennington,Secretary of State,,DFL,Joan Anderson Growe,3267,67.36
+56,Pennington,Secretary of State,,IR,David Jennings,1477,30.45
+56,Pennington,Secretary of State,,GRP,Candice Sjostrom,106,2.19
+57,Pine,Secretary of State,,DFL,Joan Anderson Growe,5895,67.32
+57,Pine,Secretary of State,,IR,David Jennings,2624,29.96
+57,Pine,Secretary of State,,GRP,Candice Sjostrom,238,2.72
+58,Pipestone,Secretary of State,,DFL,Joan Anderson Growe,2220,57.75
+58,Pipestone,Secretary of State,,IR,David Jennings,1552,40.37
+58,Pipestone,Secretary of State,,GRP,Candice Sjostrom,72,1.87
+59,Polk,Secretary of State,,DFL,Joan Anderson Growe,7053,64.51
+59,Polk,Secretary of State,,IR,David Jennings,3644,33.33
+59,Polk,Secretary of State,,GRP,Candice Sjostrom,237,2.17
+60,Pope,Secretary of State,,DFL,Joan Anderson Growe,3204,64.53
+60,Pope,Secretary of State,,IR,David Jennings,1667,33.58
+60,Pope,Secretary of State,,GRP,Candice Sjostrom,94,1.89
+62,Ramsey,Secretary of State,,DFL,Joan Anderson Growe,126890,64.94
+62,Ramsey,Secretary of State,,IR,David Jennings,62792,32.14
+62,Ramsey,Secretary of State,,GRP,Candice Sjostrom,5714,2.92
+63,Red Lake,Secretary of State,,DFL,Joan Anderson Growe,1688,71.53
+63,Red Lake,Secretary of State,,IR,David Jennings,611,25.89
+63,Red Lake,Secretary of State,,GRP,Candice Sjostrom,61,2.58
+64,Redwood,Secretary of State,,DFL,Joan Anderson Growe,3636,50.21
+64,Redwood,Secretary of State,,IR,David Jennings,3493,48.24
+64,Redwood,Secretary of State,,GRP,Candice Sjostrom,112,1.55
+65,Renville,Secretary of State,,DFL,Joan Anderson Growe,4834,61.95
+65,Renville,Secretary of State,,IR,David Jennings,2819,36.13
+65,Renville,Secretary of State,,GRP,Candice Sjostrom,150,1.92
+66,Rice,Secretary of State,,DFL,Joan Anderson Growe,11337,65.02
+66,Rice,Secretary of State,,IR,David Jennings,5703,32.71
+66,Rice,Secretary of State,,GRP,Candice Sjostrom,397,2.28
+67,Rock,Secretary of State,,DFL,Joan Anderson Growe,2525,57.98
+67,Rock,Secretary of State,,IR,David Jennings,1769,40.62
+67,Rock,Secretary of State,,GRP,Candice Sjostrom,61,1.40
+68,Roseau,Secretary of State,,DFL,Joan Anderson Growe,3453,60.90
+68,Roseau,Secretary of State,,IR,David Jennings,2074,36.58
+68,Roseau,Secretary of State,,GRP,Candice Sjostrom,143,2.52
+69,St. Louis,Secretary of State,,DFL,Joan Anderson Growe,62045,76.16
+69,St. Louis,Secretary of State,,IR,David Jennings,17414,21.38
+69,St. Louis,Secretary of State,,GRP,Candice Sjostrom,2004,2.46
+70,Scott,Secretary of State,,DFL,Joan Anderson Growe,13472,60.39
+70,Scott,Secretary of State,,IR,David Jennings,8393,37.62
+70,Scott,Secretary of State,,GRP,Candice Sjostrom,443,1.99
+71,Sherburne,Secretary of State,,DFL,Joan Anderson Growe,9217,61.97
+71,Sherburne,Secretary of State,,IR,David Jennings,5296,35.61
+71,Sherburne,Secretary of State,,GRP,Candice Sjostrom,360,2.42
+72,Sibley,Secretary of State,,DFL,Joan Anderson Growe,3278,56.23
+72,Sibley,Secretary of State,,IR,David Jennings,2435,41.77
+72,Sibley,Secretary of State,,GRP,Candice Sjostrom,117,2.01
+73,Stearns,Secretary of State,,DFL,Joan Anderson Growe,26934,61.16
+73,Stearns,Secretary of State,,IR,David Jennings,16024,36.39
+73,Stearns,Secretary of State,,GRP,Candice Sjostrom,1082,2.46
+74,Steele,Secretary of State,,DFL,Joan Anderson Growe,6061,55.29
+74,Steele,Secretary of State,,IR,David Jennings,4731,43.16
+74,Steele,Secretary of State,,GRP,Candice Sjostrom,170,1.55
+75,Stevens,Secretary of State,,DFL,Joan Anderson Growe,3104,65.16
+75,Stevens,Secretary of State,,IR,David Jennings,1569,32.93
+75,Stevens,Secretary of State,,GRP,Candice Sjostrom,91,1.91
+76,Swift,Secretary of State,,DFL,Joan Anderson Growe,3608,69.67
+76,Swift,Secretary of State,,IR,David Jennings,1492,28.81
+76,Swift,Secretary of State,,GRP,Candice Sjostrom,79,1.53
+77,Todd,Secretary of State,,DFL,Joan Anderson Growe,5867,63.63
+77,Todd,Secretary of State,,IR,David Jennings,3147,34.13
+77,Todd,Secretary of State,,GRP,Candice Sjostrom,207,2.24
+78,Traverse,Secretary of State,,DFL,Joan Anderson Growe,1469,68.36
+78,Traverse,Secretary of State,,IR,David Jennings,650,30.25
+78,Traverse,Secretary of State,,GRP,Candice Sjostrom,30,1.40
+79,Wabasha,Secretary of State,,DFL,Joan Anderson Growe,4529,55.51
+79,Wabasha,Secretary of State,,IR,David Jennings,3403,41.71
+79,Wabasha,Secretary of State,,GRP,Candice Sjostrom,227,2.78
+80,Wadena,Secretary of State,,DFL,Joan Anderson Growe,3300,56.48
+80,Wadena,Secretary of State,,IR,David Jennings,2427,41.54
+80,Wadena,Secretary of State,,GRP,Candice Sjostrom,116,1.99
+81,Waseca,Secretary of State,,DFL,Joan Anderson Growe,4141,59.69
+81,Waseca,Secretary of State,,IR,David Jennings,2667,38.44
+81,Waseca,Secretary of State,,GRP,Candice Sjostrom,130,1.87
+82,Washington,Secretary of State,,DFL,Joan Anderson Growe,35571,60.20
+82,Washington,Secretary of State,,IR,David Jennings,21965,37.17
+82,Washington,Secretary of State,,GRP,Candice Sjostrom,1550,2.62
+83,Watonwan,Secretary of State,,DFL,Joan Anderson Growe,2496,50.55
+83,Watonwan,Secretary of State,,IR,David Jennings,2382,48.24
+83,Watonwan,Secretary of State,,GRP,Candice Sjostrom,60,1.22
+84,Wilkin,Secretary of State,,DFL,Joan Anderson Growe,1668,60.46
+84,Wilkin,Secretary of State,,IR,David Jennings,1043,37.80
+84,Wilkin,Secretary of State,,GRP,Candice Sjostrom,48,1.74
+85,Winona,Secretary of State,,DFL,Joan Anderson Growe,8600,56.22
+85,Winona,Secretary of State,,IR,David Jennings,6339,41.44
+85,Winona,Secretary of State,,GRP,Candice Sjostrom,359,2.35
+86,Wright,Secretary of State,,DFL,Joan Anderson Growe,16793,63.83
+86,Wright,Secretary of State,,IR,David Jennings,9003,34.22
+86,Wright,Secretary of State,,GRP,Candice Sjostrom,512,1.95
+87,Yellow Medicine,Secretary of State,,DFL,Joan Anderson Growe,3579,64.06
+87,Yellow Medicine,Secretary of State,,IR,David Jennings,1942,34.76
+87,Yellow Medicine,Secretary of State,,GRP,Candice Sjostrom,66,1.18
+01,Aitkin,State Auditor,,DFL,Mark Dayton,3972,61.94
+01,Aitkin,State Auditor,,IR,Bob Heinrich,2441,38.06
+01,Aitkin,State Treasurer,,DFL,Michael A. McGrath,3598,56.57
+01,Aitkin,State Treasurer,,IR,John Bonniwell,2473,38.88
+01,Aitkin,State Treasurer,,GRP,Colleen Burger,289,4.54
+01,Aitkin,Attorney General,,DFL,Hubert H. Humphrey III,4161,64.40
+01,Aitkin,Attorney General,,IR,Kevin E. Johnson,2300,35.60
+02,Anoka,State Auditor,,DFL,Mark Dayton,53078,59.52
+02,Anoka,State Auditor,,IR,Bob Heinrich,36094,40.48
+02,Anoka,State Treasurer,,DFL,Michael A. McGrath,48071,55.07
+02,Anoka,State Treasurer,,IR,John Bonniwell,34802,39.87
+02,Anoka,State Treasurer,,GRP,Colleen Burger,4424,5.07
+02,Anoka,Attorney General,,DFL,Hubert H. Humphrey III,57998,64.80
+02,Anoka,Attorney General,,IR,Kevin E. Johnson,31499,35.20
+03,Becker,State Auditor,,DFL,Mark Dayton,6268,57.17
+03,Becker,State Auditor,,IR,Bob Heinrich,4695,42.83
+03,Becker,State Treasurer,,DFL,Michael A. McGrath,5675,52.26
+03,Becker,State Treasurer,,IR,John Bonniwell,4714,43.41
+03,Becker,State Treasurer,,GRP,Colleen Burger,470,4.33
+03,Becker,Attorney General,,DFL,Hubert H. Humphrey III,7011,63.41
+03,Becker,Attorney General,,IR,Kevin E. Johnson,4046,36.59
+04,Beltrami,State Auditor,,DFL,Mark Dayton,7284,62.74
+04,Beltrami,State Auditor,,IR,Bob Heinrich,4326,37.26
+04,Beltrami,State Treasurer,,DFL,Michael A. McGrath,6630,57.71
+04,Beltrami,State Treasurer,,IR,John Bonniwell,4381,38.13
+04,Beltrami,State Treasurer,,GRP,Colleen Burger,478,4.16
+04,Beltrami,Attorney General,,DFL,Hubert H. Humphrey III,7928,67.06
+04,Beltrami,Attorney General,,IR,Kevin E. Johnson,3894,32.94
+05,Benton,State Auditor,,DFL,Mark Dayton,6116,57.55
+05,Benton,State Auditor,,IR,Bob Heinrich,4512,42.45
+05,Benton,State Treasurer,,DFL,Michael A. McGrath,5487,52.85
+05,Benton,State Treasurer,,IR,John Bonniwell,4320,41.61
+05,Benton,State Treasurer,,GRP,Colleen Burger,575,5.54
+05,Benton,Attorney General,,DFL,Hubert H. Humphrey III,6854,63.97
+05,Benton,Attorney General,,IR,Kevin E. Johnson,3861,36.03
+06,Big Stone,State Auditor,,DFL,Mark Dayton,2054,64.47
+06,Big Stone,State Auditor,,IR,Bob Heinrich,1132,35.53
+06,Big Stone,State Treasurer,,DFL,Michael A. McGrath,1948,61.55
+06,Big Stone,State Treasurer,,IR,John Bonniwell,1128,35.64
+06,Big Stone,State Treasurer,,GRP,Colleen Burger,89,2.81
+06,Big Stone,Attorney General,,DFL,Hubert H. Humphrey III,2266,70.00
+06,Big Stone,Attorney General,,IR,Kevin E. Johnson,971,30.00
+07,Blue Earth,State Auditor,,DFL,Mark Dayton,11743,56.41
+07,Blue Earth,State Auditor,,IR,Bob Heinrich,9073,43.59
+07,Blue Earth,State Treasurer,,DFL,Michael A. McGrath,10014,48.76
+07,Blue Earth,State Treasurer,,IR,John Bonniwell,9444,45.99
+07,Blue Earth,State Treasurer,,GRP,Colleen Burger,1078,5.25
+07,Blue Earth,Attorney General,,DFL,Hubert H. Humphrey III,12652,60.00
+07,Blue Earth,Attorney General,,IR,Kevin E. Johnson,8433,40.00
+08,Brown,State Auditor,,DFL,Mark Dayton,4653,46.46
+08,Brown,State Auditor,,IR,Bob Heinrich,5362,53.54
+08,Brown,State Treasurer,,DFL,Michael A. McGrath,4320,43.83
+08,Brown,State Treasurer,,IR,John Bonniwell,5134,52.08
+08,Brown,State Treasurer,,GRP,Colleen Burger,403,4.09
+08,Brown,Attorney General,,DFL,Hubert H. Humphrey III,5725,56.68
+08,Brown,Attorney General,,IR,Kevin E. Johnson,4376,43.32
+09,Carlton,State Auditor,,DFL,Mark Dayton,8370,72.54
+09,Carlton,State Auditor,,IR,Bob Heinrich,3169,27.46
+09,Carlton,State Treasurer,,DFL,Michael A. McGrath,7741,67.87
+09,Carlton,State Treasurer,,IR,John Bonniwell,3128,27.42
+09,Carlton,State Treasurer,,GRP,Colleen Burger,537,4.71
+09,Carlton,Attorney General,,DFL,Hubert H. Humphrey III,8874,75.63
+09,Carlton,Attorney General,,IR,Kevin E. Johnson,2860,24.37
+10,Carver,State Auditor,,DFL,Mark Dayton,8799,46.14
+10,Carver,State Auditor,,IR,Bob Heinrich,10273,53.86
+10,Carver,State Treasurer,,DFL,Michael A. McGrath,7492,40.06
+10,Carver,State Treasurer,,IR,John Bonniwell,10285,54.99
+10,Carver,State Treasurer,,GRP,Colleen Burger,926,4.95
+10,Carver,Attorney General,,DFL,Hubert H. Humphrey III,10357,53.65
+10,Carver,Attorney General,,IR,Kevin E. Johnson,8946,46.35
+11,Cass,State Auditor,,DFL,Mark Dayton,5528,56.27
+11,Cass,State Auditor,,IR,Bob Heinrich,4296,43.73
+11,Cass,State Treasurer,,DFL,Michael A. McGrath,4951,50.99
+11,Cass,State Treasurer,,IR,John Bonniwell,4303,44.32
+11,Cass,State Treasurer,,GRP,Colleen Burger,455,4.69
+11,Cass,Attorney General,,DFL,Hubert H. Humphrey III,6037,60.69
+11,Cass,Attorney General,,IR,Kevin E. Johnson,3910,39.31
+12,Chippewa,State Auditor,,DFL,Mark Dayton,3097,55.20
+12,Chippewa,State Auditor,,IR,Bob Heinrich,2514,44.80
+12,Chippewa,State Treasurer,,DFL,Michael A. McGrath,2859,51.61
+12,Chippewa,State Treasurer,,IR,John Bonniwell,2468,44.55
+12,Chippewa,State Treasurer,,GRP,Colleen Burger,213,3.84
+12,Chippewa,Attorney General,,DFL,Hubert H. Humphrey III,3541,62.22
+12,Chippewa,Attorney General,,IR,Kevin E. Johnson,2150,37.78
+13,Chisago,State Auditor,,DFL,Mark Dayton,7746,59.99
+13,Chisago,State Auditor,,IR,Bob Heinrich,5166,40.01
+13,Chisago,State Treasurer,,DFL,Michael A. McGrath,7371,57.89
+13,Chisago,State Treasurer,,IR,John Bonniwell,4785,37.58
+13,Chisago,State Treasurer,,GRP,Colleen Burger,577,4.53
+13,Chisago,Attorney General,,DFL,Hubert H. Humphrey III,8542,65.68
+13,Chisago,Attorney General,,IR,Kevin E. Johnson,4464,34.32
+14,Clay,State Auditor,,DFL,Mark Dayton,10345,60.58
+14,Clay,State Auditor,,IR,Bob Heinrich,6731,39.42
+14,Clay,State Treasurer,,DFL,Michael A. McGrath,9089,54.08
+14,Clay,State Treasurer,,IR,John Bonniwell,6962,41.42
+14,Clay,State Treasurer,,GRP,Colleen Burger,757,4.50
+14,Clay,Attorney General,,DFL,Hubert H. Humphrey III,11801,67.47
+14,Clay,Attorney General,,IR,Kevin E. Johnson,5689,32.53
+15,Clearwater,State Auditor,,DFL,Mark Dayton,2037,62.29
+15,Clearwater,State Auditor,,IR,Bob Heinrich,1233,37.71
+15,Clearwater,State Treasurer,,DFL,Michael A. McGrath,1929,59.08
+15,Clearwater,State Treasurer,,IR,John Bonniwell,1213,37.15
+15,Clearwater,State Treasurer,,GRP,Colleen Burger,123,3.77
+15,Clearwater,Attorney General,,DFL,Hubert H. Humphrey III,2174,65.19
+15,Clearwater,Attorney General,,IR,Kevin E. Johnson,1161,34.81
+16,Cook,State Auditor,,DFL,Mark Dayton,1022,55.60
+16,Cook,State Auditor,,IR,Bob Heinrich,816,44.40
+16,Cook,State Treasurer,,DFL,Michael A. McGrath,933,51.38
+16,Cook,State Treasurer,,IR,John Bonniwell,765,42.13
+16,Cook,State Treasurer,,GRP,Colleen Burger,118,6.50
+16,Cook,Attorney General,,DFL,Hubert H. Humphrey III,1132,60.79
+16,Cook,Attorney General,,IR,Kevin E. Johnson,730,39.21
+17,Cottonwood,State Auditor,,DFL,Mark Dayton,2960,53.23
+17,Cottonwood,State Auditor,,IR,Bob Heinrich,2601,46.77
+17,Cottonwood,State Treasurer,,DFL,Michael A. McGrath,2758,50.36
+17,Cottonwood,State Treasurer,,IR,John Bonniwell,2603,47.53
+17,Cottonwood,State Treasurer,,GRP,Colleen Burger,116,2.12
+17,Cottonwood,Attorney General,,DFL,Hubert H. Humphrey III,3218,56.89
+17,Cottonwood,Attorney General,,IR,Kevin E. Johnson,2439,43.11
+18,Crow Wing,State Auditor,,DFL,Mark Dayton,11221,56.20
+18,Crow Wing,State Auditor,,IR,Bob Heinrich,8745,43.80
+18,Crow Wing,State Treasurer,,DFL,Michael A. McGrath,9801,49.76
+18,Crow Wing,State Treasurer,,IR,John Bonniwell,8820,44.78
+18,Crow Wing,State Treasurer,,GRP,Colleen Burger,1076,5.46
+18,Crow Wing,Attorney General,,DFL,Hubert H. Humphrey III,12583,61.95
+18,Crow Wing,Attorney General,,IR,Kevin E. Johnson,7728,38.05
+19,Dakota,State Auditor,,DFL,Mark Dayton,57133,52.87
+19,Dakota,State Auditor,,IR,Bob Heinrich,50925,47.13
+19,Dakota,State Treasurer,,DFL,Michael A. McGrath,50432,48.09
+19,Dakota,State Treasurer,,IR,John Bonniwell,49652,47.35
+19,Dakota,State Treasurer,,GRP,Colleen Burger,4778,4.56
+19,Dakota,Attorney General,,DFL,Hubert H. Humphrey III,65192,59.55
+19,Dakota,Attorney General,,IR,Kevin E. Johnson,44280,40.45
+20,Dodge,State Auditor,,DFL,Mark Dayton,2941,52.68
+20,Dodge,State Auditor,,IR,Bob Heinrich,2642,47.32
+20,Dodge,State Treasurer,,DFL,Michael A. McGrath,2595,47.15
+20,Dodge,State Treasurer,,IR,John Bonniwell,2659,48.31
+20,Dodge,State Treasurer,,GRP,Colleen Burger,250,4.54
+20,Dodge,Attorney General,,DFL,Hubert H. Humphrey III,3453,59.12
+20,Dodge,Attorney General,,IR,Kevin E. Johnson,2388,40.88
+21,Douglas,State Auditor,,DFL,Mark Dayton,6288,48.80
+21,Douglas,State Auditor,,IR,Bob Heinrich,6597,51.20
+21,Douglas,State Treasurer,,DFL,Michael A. McGrath,5981,47.07
+21,Douglas,State Treasurer,,IR,John Bonniwell,6274,49.37
+21,Douglas,State Treasurer,,GRP,Colleen Burger,452,3.56
+21,Douglas,Attorney General,,DFL,Hubert H. Humphrey III,7551,58.00
+21,Douglas,Attorney General,,IR,Kevin E. Johnson,5469,42.00
+22,Faribault,State Auditor,,DFL,Mark Dayton,4256,54.49
+22,Faribault,State Auditor,,IR,Bob Heinrich,3554,45.51
+22,Faribault,State Treasurer,,DFL,Michael A. McGrath,3910,50.45
+22,Faribault,State Treasurer,,IR,John Bonniwell,3616,46.66
+22,Faribault,State Treasurer,,GRP,Colleen Burger,224,2.89
+22,Faribault,Attorney General,,DFL,Hubert H. Humphrey III,4523,56.89
+22,Faribault,Attorney General,,IR,Kevin E. Johnson,3427,43.11
+23,Fillmore,State Auditor,,DFL,Mark Dayton,3792,49.56
+23,Fillmore,State Auditor,,IR,Bob Heinrich,3859,50.44
+23,Fillmore,State Treasurer,,DFL,Michael A. McGrath,3513,46.43
+23,Fillmore,State Treasurer,,IR,John Bonniwell,3814,50.40
+23,Fillmore,State Treasurer,,GRP,Colleen Burger,240,3.17
+23,Fillmore,Attorney General,,DFL,Hubert H. Humphrey III,4346,55.70
+23,Fillmore,Attorney General,,IR,Kevin E. Johnson,3457,44.30
+24,Freeborn,State Auditor,,DFL,Mark Dayton,7607,58.58
+24,Freeborn,State Auditor,,IR,Bob Heinrich,5378,41.42
+24,Freeborn,State Treasurer,,DFL,Michael A. McGrath,6991,54.77
+24,Freeborn,State Treasurer,,IR,John Bonniwell,5277,41.34
+24,Freeborn,State Treasurer,,GRP,Colleen Burger,496,3.89
+24,Freeborn,Attorney General,,DFL,Hubert H. Humphrey III,8100,61.65
+24,Freeborn,Attorney General,,IR,Kevin E. Johnson,5039,38.35
+25,Goodhue,State Auditor,,DFL,Mark Dayton,8788,53.62
+25,Goodhue,State Auditor,,IR,Bob Heinrich,7601,46.38
+25,Goodhue,State Treasurer,,DFL,Michael A. McGrath,7667,47.46
+25,Goodhue,State Treasurer,,IR,John Bonniwell,7796,48.26
+25,Goodhue,State Treasurer,,GRP,Colleen Burger,692,4.28
+25,Goodhue,Attorney General,,DFL,Hubert H. Humphrey III,10112,60.55
+25,Goodhue,Attorney General,,IR,Kevin E. Johnson,6589,39.45
+26,Grant,State Auditor,,DFL,Mark Dayton,2055,61.77
+26,Grant,State Auditor,,IR,Bob Heinrich,1272,38.23
+26,Grant,State Treasurer,,DFL,Michael A. McGrath,1923,58.56
+26,Grant,State Treasurer,,IR,John Bonniwell,1273,38.76
+26,Grant,State Treasurer,,GRP,Colleen Burger,88,2.68
+26,Grant,Attorney General,,DFL,Hubert H. Humphrey III,2300,68.47
+26,Grant,Attorney General,,IR,Kevin E. Johnson,1059,31.53
+27,Hennepin,State Auditor,,DFL,Mark Dayton,249045,56.82
+27,Hennepin,State Auditor,,IR,Bob Heinrich,189230,43.18
+27,Hennepin,State Treasurer,,DFL,Michael A. McGrath,213207,49.92
+27,Hennepin,State Treasurer,,IR,John Bonniwell,189198,44.30
+27,Hennepin,State Treasurer,,GRP,Colleen Burger,24721,5.79
+27,Hennepin,Attorney General,,DFL,Hubert H. Humphrey III,275230,61.78
+27,Hennepin,Attorney General,,IR,Kevin E. Johnson,170236,38.22
+28,Houston,State Auditor,,DFL,Mark Dayton,3872,51.77
+28,Houston,State Auditor,,IR,Bob Heinrich,3607,48.23
+28,Houston,State Treasurer,,DFL,Michael A. McGrath,3584,48.08
+28,Houston,State Treasurer,,IR,John Bonniwell,3561,47.77
+28,Houston,State Treasurer,,GRP,Colleen Burger,310,4.16
+28,Houston,Attorney General,,DFL,Hubert H. Humphrey III,4312,56.98
+28,Houston,Attorney General,,IR,Kevin E. Johnson,3255,43.02
+29,Hubbard,State Auditor,,DFL,Mark Dayton,3750,54.51
+29,Hubbard,State Auditor,,IR,Bob Heinrich,3129,45.49
+29,Hubbard,State Treasurer,,DFL,Michael A. McGrath,3431,50.47
+29,Hubbard,State Treasurer,,IR,John Bonniwell,3099,45.59
+29,Hubbard,State Treasurer,,GRP,Colleen Burger,268,3.94
+29,Hubbard,Attorney General,,DFL,Hubert H. Humphrey III,4170,59.85
+29,Hubbard,Attorney General,,IR,Kevin E. Johnson,2798,40.15
+30,Isanti,State Auditor,,DFL,Mark Dayton,6262,60.22
+30,Isanti,State Auditor,,IR,Bob Heinrich,4137,39.78
+30,Isanti,State Treasurer,,DFL,Michael A. McGrath,5787,56.37
+30,Isanti,State Treasurer,,IR,John Bonniwell,4005,39.01
+30,Isanti,State Treasurer,,GRP,Colleen Burger,475,4.63
+30,Isanti,Attorney General,,DFL,Hubert H. Humphrey III,6851,65.09
+30,Isanti,Attorney General,,IR,Kevin E. Johnson,3674,34.91
+31,Itasca,State Auditor,,DFL,Mark Dayton,11650,67.05
+31,Itasca,State Auditor,,IR,Bob Heinrich,5726,32.95
+31,Itasca,State Treasurer,,DFL,Michael A. McGrath,10719,62.95
+31,Itasca,State Treasurer,,IR,John Bonniwell,5427,31.87
+31,Itasca,State Treasurer,,GRP,Colleen Burger,882,5.18
+31,Itasca,Attorney General,,DFL,Hubert H. Humphrey III,12742,72.50
+31,Itasca,Attorney General,,IR,Kevin E. Johnson,4832,27.50
+32,Jackson,State Auditor,,DFL,Mark Dayton,3182,59.52
+32,Jackson,State Auditor,,IR,Bob Heinrich,2164,40.48
+32,Jackson,State Treasurer,,DFL,Michael A. McGrath,2962,55.82
+32,Jackson,State Treasurer,,IR,John Bonniwell,2169,40.88
+32,Jackson,State Treasurer,,GRP,Colleen Burger,175,3.30
+32,Jackson,Attorney General,,DFL,Hubert H. Humphrey III,3530,65.05
+32,Jackson,Attorney General,,IR,Kevin E. Johnson,1897,34.95
+33,Kanabec,State Auditor,,DFL,Mark Dayton,3126,61.78
+33,Kanabec,State Auditor,,IR,Bob Heinrich,1934,38.22
+33,Kanabec,State Treasurer,,DFL,Michael A. McGrath,2802,55.95
+33,Kanabec,State Treasurer,,IR,John Bonniwell,1991,39.76
+33,Kanabec,State Treasurer,,GRP,Colleen Burger,215,4.29
+33,Kanabec,Attorney General,,DFL,Hubert H. Humphrey III,3230,63.43
+33,Kanabec,Attorney General,,IR,Kevin E. Johnson,1862,36.57
+34,Kandiyohi,State Auditor,,DFL,Mark Dayton,8364,56.43
+34,Kandiyohi,State Auditor,,IR,Bob Heinrich,6458,43.57
+34,Kandiyohi,State Treasurer,,DFL,Michael A. McGrath,7700,52.48
+34,Kandiyohi,State Treasurer,,IR,John Bonniwell,6543,44.60
+34,Kandiyohi,State Treasurer,,GRP,Colleen Burger,428,2.92
+34,Kandiyohi,Attorney General,,DFL,Hubert H. Humphrey III,9545,63.14
+34,Kandiyohi,Attorney General,,IR,Kevin E. Johnson,5572,36.86
+35,Kittson,State Auditor,,DFL,Mark Dayton,1608,65.31
+35,Kittson,State Auditor,,IR,Bob Heinrich,854,34.69
+35,Kittson,State Treasurer,,DFL,Michael A. McGrath,1507,61.64
+35,Kittson,State Treasurer,,IR,John Bonniwell,871,35.62
+35,Kittson,State Treasurer,,GRP,Colleen Burger,67,2.74
+35,Kittson,Attorney General,,DFL,Hubert H. Humphrey III,1666,66.80
+35,Kittson,Attorney General,,IR,Kevin E. Johnson,828,33.20
+36,Koochiching,State Auditor,,DFL,Mark Dayton,4217,70.37
+36,Koochiching,State Auditor,,IR,Bob Heinrich,1776,29.63
+36,Koochiching,State Treasurer,,DFL,Michael A. McGrath,4028,68.08
+36,Koochiching,State Treasurer,,IR,John Bonniwell,1691,28.58
+36,Koochiching,State Treasurer,,GRP,Colleen Burger,198,3.35
+36,Koochiching,Attorney General,,DFL,Hubert H. Humphrey III,4277,70.78
+36,Koochiching,Attorney General,,IR,Kevin E. Johnson,1766,29.22
+37,Lac qui Parle,State Auditor,,DFL,Mark Dayton,2634,57.69
+37,Lac qui Parle,State Auditor,,IR,Bob Heinrich,1932,42.31
+37,Lac qui Parle,State Treasurer,,DFL,Michael A. McGrath,2632,58.17
+37,Lac qui Parle,State Treasurer,,IR,John Bonniwell,1768,39.07
+37,Lac qui Parle,State Treasurer,,GRP,Colleen Burger,125,2.76
+37,Lac qui Parle,Attorney General,,DFL,Hubert H. Humphrey III,3072,66.71
+37,Lac qui Parle,Attorney General,,IR,Kevin E. Johnson,1533,33.29
+38,Lake,State Auditor,,DFL,Mark Dayton,4100,74.72
+38,Lake,State Auditor,,IR,Bob Heinrich,1387,25.28
+38,Lake,State Treasurer,,DFL,Michael A. McGrath,3849,70.70
+38,Lake,State Treasurer,,IR,John Bonniwell,1344,24.69
+38,Lake,State Treasurer,,GRP,Colleen Burger,251,4.61
+38,Lake,Attorney General,,DFL,Hubert H. Humphrey III,4282,76.71
+38,Lake,Attorney General,,IR,Kevin E. Johnson,1300,23.29
+39,Lake of the Woods,State Auditor,,DFL,Mark Dayton,1011,61.42
+39,Lake of the Woods,State Auditor,,IR,Bob Heinrich,635,38.58
+39,Lake of the Woods,State Treasurer,,DFL,Michael A. McGrath,958,57.75
+39,Lake of the Woods,State Treasurer,,IR,John Bonniwell,628,37.85
+39,Lake of the Woods,State Treasurer,,GRP,Colleen Burger,73,4.40
+39,Lake of the Woods,Attorney General,,DFL,Hubert H. Humphrey III,1036,61.16
+39,Lake of the Woods,Attorney General,,IR,Kevin E. Johnson,658,38.84
+40,Le Sueur,State Auditor,,DFL,Mark Dayton,5733,59.05
+40,Le Sueur,State Auditor,,IR,Bob Heinrich,3976,40.95
+40,Le Sueur,State Treasurer,,DFL,Michael A. McGrath,5432,56.42
+40,Le Sueur,State Treasurer,,IR,John Bonniwell,3897,40.48
+40,Le Sueur,State Treasurer,,GRP,Colleen Burger,298,3.10
+40,Le Sueur,Attorney General,,DFL,Hubert H. Humphrey III,6387,64.90
+40,Le Sueur,Attorney General,,IR,Kevin E. Johnson,3454,35.10
+41,Lincoln,State Auditor,,DFL,Mark Dayton,1730,58.60
+41,Lincoln,State Auditor,,IR,Bob Heinrich,1222,41.40
+41,Lincoln,State Treasurer,,DFL,Michael A. McGrath,1731,59.20
+41,Lincoln,State Treasurer,,IR,John Bonniwell,1105,37.79
+41,Lincoln,State Treasurer,,GRP,Colleen Burger,88,3.01
+41,Lincoln,Attorney General,,DFL,Hubert H. Humphrey III,1881,63.50
+41,Lincoln,Attorney General,,IR,Kevin E. Johnson,1081,36.50
+42,Lyon,State Auditor,,DFL,Mark Dayton,5377,54.27
+42,Lyon,State Auditor,,IR,Bob Heinrich,4530,45.73
+42,Lyon,State Treasurer,,DFL,Michael A. McGrath,4977,50.96
+42,Lyon,State Treasurer,,IR,John Bonniwell,4518,46.26
+42,Lyon,State Treasurer,,GRP,Colleen Burger,271,2.77
+42,Lyon,Attorney General,,DFL,Hubert H. Humphrey III,5955,59.53
+42,Lyon,Attorney General,,IR,Kevin E. Johnson,4048,40.47
+43,McLeod,State Auditor,,DFL,Mark Dayton,4308,48.13
+43,McLeod,State Auditor,,IR,Bob Heinrich,4642,51.87
+43,McLeod,State Treasurer,,DFL,Michael A. McGrath,3749,42.35
+43,McLeod,State Treasurer,,IR,John Bonniwell,4855,54.85
+43,McLeod,State Treasurer,,GRP,Colleen Burger,248,2.80
+43,McLeod,Attorney General,,DFL,Hubert H. Humphrey III,4835,53.34
+43,McLeod,Attorney General,,IR,Kevin E. Johnson,4229,46.66
+44,Mahnomen,State Auditor,,DFL,Mark Dayton,5506,47.76
+44,Mahnomen,State Auditor,,IR,Bob Heinrich,6022,52.24
+44,Mahnomen,State Treasurer,,DFL,Michael A. McGrath,4751,41.73
+44,Mahnomen,State Treasurer,,IR,John Bonniwell,6127,53.82
+44,Mahnomen,State Treasurer,,GRP,Colleen Burger,507,4.45
+44,Mahnomen,Attorney General,,DFL,Hubert H. Humphrey III,6529,56.03
+44,Mahnomen,Attorney General,,IR,Kevin E. Johnson,5123,43.97
+45,Marshall,State Auditor,,DFL,Mark Dayton,1457,62.72
+45,Marshall,State Auditor,,IR,Bob Heinrich,866,37.28
+45,Marshall,State Treasurer,,DFL,Michael A. McGrath,1413,61.87
+45,Marshall,State Treasurer,,IR,John Bonniwell,783,34.28
+45,Marshall,State Treasurer,,GRP,Colleen Burger,88,3.85
+45,Marshall,Attorney General,,DFL,Hubert H. Humphrey III,1625,68.19
+45,Marshall,Attorney General,,IR,Kevin E. Johnson,758,31.81
+46,Martin,State Auditor,,DFL,Mark Dayton,3021,64.06
+46,Martin,State Auditor,,IR,Bob Heinrich,1695,35.94
+46,Martin,State Treasurer,,DFL,Michael A. McGrath,2977,63.54
+46,Martin,State Treasurer,,IR,John Bonniwell,1545,32.98
+46,Martin,State Treasurer,,GRP,Colleen Burger,163,3.48
+46,Martin,Attorney General,,DFL,Hubert H. Humphrey III,3299,68.63
+46,Martin,Attorney General,,IR,Kevin E. Johnson,1508,31.37
+61,Meeker,State Auditor,,DFL,Mark Dayton,4897,54.79
+61,Meeker,State Auditor,,IR,Bob Heinrich,4040,45.21
+61,Meeker,State Treasurer,,DFL,Michael A. McGrath,4279,48.47
+61,Meeker,State Treasurer,,IR,John Bonniwell,4138,46.87
+61,Meeker,State Treasurer,,GRP,Colleen Burger,412,4.67
+61,Meeker,Attorney General,,DFL,Hubert H. Humphrey III,5490,60.66
+61,Meeker,Attorney General,,IR,Kevin E. Johnson,3561,39.34
+47,Mille Lacs,State Auditor,,DFL,Mark Dayton,4543,59.95
+47,Mille Lacs,State Auditor,,IR,Bob Heinrich,3035,40.05
+47,Mille Lacs,State Treasurer,,DFL,Michael A. McGrath,3915,52.53
+47,Mille Lacs,State Treasurer,,IR,John Bonniwell,3117,41.82
+47,Mille Lacs,State Treasurer,,GRP,Colleen Burger,421,5.65
+47,Mille Lacs,Attorney General,,DFL,Hubert H. Humphrey III,4967,64.56
+47,Mille Lacs,Attorney General,,IR,Kevin E. Johnson,2727,35.44
+48,Morrison,State Auditor,,DFL,Mark Dayton,6663,60.22
+48,Morrison,State Auditor,,IR,Bob Heinrich,4402,39.78
+48,Morrison,State Treasurer,,DFL,Michael A. McGrath,6238,57.19
+48,Morrison,State Treasurer,,IR,John Bonniwell,4125,37.82
+48,Morrison,State Treasurer,,GRP,Colleen Burger,545,5.00
+48,Morrison,Attorney General,,DFL,Hubert H. Humphrey III,7623,66.95
+48,Morrison,Attorney General,,IR,Kevin E. Johnson,3763,33.05
+49,Mower,State Auditor,,DFL,Mark Dayton,9711,65.78
+49,Mower,State Auditor,,IR,Bob Heinrich,5052,34.22
+49,Mower,State Treasurer,,DFL,Michael A. McGrath,9121,62.40
+49,Mower,State Treasurer,,IR,John Bonniwell,4898,33.51
+49,Mower,State Treasurer,,GRP,Colleen Burger,597,4.08
+49,Mower,Attorney General,,DFL,Hubert H. Humphrey III,10176,67.95
+49,Mower,Attorney General,,IR,Kevin E. Johnson,4800,32.05
+50,Murray,State Auditor,,DFL,Mark Dayton,2718,58.98
+50,Murray,State Auditor,,IR,Bob Heinrich,1890,41.02
+50,Murray,State Treasurer,,DFL,Michael A. McGrath,2644,58.07
+50,Murray,State Treasurer,,IR,John Bonniwell,1734,38.08
+50,Murray,State Treasurer,,GRP,Colleen Burger,175,3.84
+50,Murray,Attorney General,,DFL,Hubert H. Humphrey III,2929,62.63
+50,Murray,Attorney General,,IR,Kevin E. Johnson,1748,37.37
+51,Nicollet,State Auditor,,DFL,Mark Dayton,6435,54.18
+51,Nicollet,State Auditor,,IR,Bob Heinrich,5442,45.82
+51,Nicollet,State Treasurer,,DFL,Michael A. McGrath,5675,48.39
+51,Nicollet,State Treasurer,,IR,John Bonniwell,5525,47.11
+51,Nicollet,State Treasurer,,GRP,Colleen Burger,527,4.49
+51,Nicollet,Attorney General,,DFL,Hubert H. Humphrey III,7291,60.60
+51,Nicollet,Attorney General,,IR,Kevin E. Johnson,4741,39.40
+52,Nobles,State Auditor,,DFL,Mark Dayton,4381,57.40
+52,Nobles,State Auditor,,IR,Bob Heinrich,3251,42.60
+52,Nobles,State Treasurer,,DFL,Michael A. McGrath,4296,56.83
+52,Nobles,State Treasurer,,IR,John Bonniwell,2950,39.03
+52,Nobles,State Treasurer,,GRP,Colleen Burger,313,4.14
+52,Nobles,Attorney General,,DFL,Hubert H. Humphrey III,5043,64.71
+52,Nobles,Attorney General,,IR,Kevin E. Johnson,2750,35.29
+53,Norman,State Auditor,,DFL,Mark Dayton,2263,64.38
+53,Norman,State Auditor,,IR,Bob Heinrich,1252,35.62
+53,Norman,State Treasurer,,DFL,Michael A. McGrath,2107,60.17
+53,Norman,State Treasurer,,IR,John Bonniwell,1281,36.58
+53,Norman,State Treasurer,,GRP,Colleen Burger,114,3.26
+53,Norman,Attorney General,,DFL,Hubert H. Humphrey III,2480,68.97
+53,Norman,Attorney General,,IR,Kevin E. Johnson,1116,31.03
+54,Olmsted,State Auditor,,DFL,Mark Dayton,17907,46.07
+54,Olmsted,State Auditor,,IR,Bob Heinrich,20965,53.93
+54,Olmsted,State Treasurer,,DFL,Michael A. McGrath,15716,41.43
+54,Olmsted,State Treasurer,,IR,John Bonniwell,20620,54.35
+54,Olmsted,State Treasurer,,GRP,Colleen Burger,1600,4.22
+54,Olmsted,Attorney General,,DFL,Hubert H. Humphrey III,21780,54.91
+54,Olmsted,Attorney General,,IR,Kevin E. Johnson,17886,45.09
+55,Otter Tail,State Auditor,,DFL,Mark Dayton,10690,51.09
+55,Otter Tail,State Auditor,,IR,Bob Heinrich,10232,48.91
+55,Otter Tail,State Treasurer,,DFL,Michael A. McGrath,9508,46.04
+55,Otter Tail,State Treasurer,,IR,John Bonniwell,10278,49.77
+55,Otter Tail,State Treasurer,,GRP,Colleen Burger,866,4.19
+55,Otter Tail,Attorney General,,DFL,Hubert H. Humphrey III,12473,58.26
+55,Otter Tail,Attorney General,,IR,Kevin E. Johnson,8935,41.74
+56,Pennington,State Auditor,,DFL,Mark Dayton,3131,64.13
+56,Pennington,State Auditor,,IR,Bob Heinrich,1751,35.87
+56,Pennington,State Treasurer,,DFL,Michael A. McGrath,2900,60.08
+56,Pennington,State Treasurer,,IR,John Bonniwell,1749,36.23
+56,Pennington,State Treasurer,,GRP,Colleen Burger,178,3.69
+56,Pennington,Attorney General,,DFL,Hubert H. Humphrey III,3380,68.66
+56,Pennington,Attorney General,,IR,Kevin E. Johnson,1543,31.34
+57,Pine,State Auditor,,DFL,Mark Dayton,5664,65.61
+57,Pine,State Auditor,,IR,Bob Heinrich,2969,34.39
+57,Pine,State Treasurer,,DFL,Michael A. McGrath,5240,61.45
+57,Pine,State Treasurer,,IR,John Bonniwell,2876,33.73
+57,Pine,State Treasurer,,GRP,Colleen Burger,411,4.82
+57,Pine,Attorney General,,DFL,Hubert H. Humphrey III,6119,69.68
+57,Pine,Attorney General,,IR,Kevin E. Johnson,2663,30.32
+58,Pipestone,State Auditor,,DFL,Mark Dayton,2045,53.60
+58,Pipestone,State Auditor,,IR,Bob Heinrich,1770,46.40
+58,Pipestone,State Treasurer,,DFL,Michael A. McGrath,1993,52.71
+58,Pipestone,State Treasurer,,IR,John Bonniwell,1678,44.38
+58,Pipestone,State Treasurer,,GRP,Colleen Burger,110,2.91
+58,Pipestone,Attorney General,,DFL,Hubert H. Humphrey III,2282,58.97
+58,Pipestone,Attorney General,,IR,Kevin E. Johnson,1588,41.03
+59,Polk,State Auditor,,DFL,Mark Dayton,6462,59.01
+59,Polk,State Auditor,,IR,Bob Heinrich,4488,40.99
+59,Polk,State Treasurer,,DFL,Michael A. McGrath,6107,56.63
+59,Polk,State Treasurer,,IR,John Bonniwell,4257,39.48
+59,Polk,State Treasurer,,GRP,Colleen Burger,420,3.89
+59,Polk,Attorney General,,DFL,Hubert H. Humphrey III,7112,64.08
+59,Polk,Attorney General,,IR,Kevin E. Johnson,3986,35.92
+60,Pope,State Auditor,,DFL,Mark Dayton,2831,57.49
+60,Pope,State Auditor,,IR,Bob Heinrich,2093,42.51
+60,Pope,State Treasurer,,DFL,Michael A. McGrath,2660,54.49
+60,Pope,State Treasurer,,IR,John Bonniwell,2052,42.03
+60,Pope,State Treasurer,,GRP,Colleen Burger,170,3.48
+60,Pope,Attorney General,,DFL,Hubert H. Humphrey III,3266,65.86
+60,Pope,Attorney General,,IR,Kevin E. Johnson,1693,34.14
+62,Ramsey,State Auditor,,DFL,Mark Dayton,117775,61.11
+62,Ramsey,State Auditor,,IR,Bob Heinrich,74954,38.89
+62,Ramsey,State Treasurer,,DFL,Michael A. McGrath,106665,57.03
+62,Ramsey,State Treasurer,,IR,John Bonniwell,69083,36.94
+62,Ramsey,State Treasurer,,GRP,Colleen Burger,11272,6.03
+62,Ramsey,Attorney General,,DFL,Hubert H. Humphrey III,130886,66.90
+62,Ramsey,Attorney General,,IR,Kevin E. Johnson,64751,33.10
+63,Red Lake,State Auditor,,DFL,Mark Dayton,1610,69.07
+63,Red Lake,State Auditor,,IR,Bob Heinrich,721,30.93
+63,Red Lake,State Treasurer,,DFL,Michael A. McGrath,1552,67.48
+63,Red Lake,State Treasurer,,IR,John Bonniwell,669,29.09
+63,Red Lake,State Treasurer,,GRP,Colleen Burger,79,3.43
+63,Red Lake,Attorney General,,DFL,Hubert H. Humphrey III,1754,74.48
+63,Red Lake,Attorney General,,IR,Kevin E. Johnson,601,25.52
+64,Redwood,State Auditor,,DFL,Mark Dayton,3140,43.51
+64,Redwood,State Auditor,,IR,Bob Heinrich,4077,56.49
+64,Redwood,State Treasurer,,DFL,Michael A. McGrath,3009,42.32
+64,Redwood,State Treasurer,,IR,John Bonniwell,3850,54.15
+64,Redwood,State Treasurer,,GRP,Colleen Burger,251,3.53
+64,Redwood,Attorney General,,DFL,Hubert H. Humphrey III,3740,51.65
+64,Redwood,Attorney General,,IR,Kevin E. Johnson,3501,48.35
+65,Renville,State Auditor,,DFL,Mark Dayton,4291,55.23
+65,Renville,State Auditor,,IR,Bob Heinrich,3479,44.77
+65,Renville,State Treasurer,,DFL,Michael A. McGrath,3987,51.90
+65,Renville,State Treasurer,,IR,John Bonniwell,3416,44.47
+65,Renville,State Treasurer,,GRP,Colleen Burger,279,3.63
+65,Renville,Attorney General,,DFL,Hubert H. Humphrey III,4874,62.34
+65,Renville,Attorney General,,IR,Kevin E. Johnson,2945,37.66
+66,Rice,State Auditor,,DFL,Mark Dayton,10436,60.78
+66,Rice,State Auditor,,IR,Bob Heinrich,6733,39.22
+66,Rice,State Treasurer,,DFL,Michael A. McGrath,9439,56.30
+66,Rice,State Treasurer,,IR,John Bonniwell,6603,39.39
+66,Rice,State Treasurer,,GRP,Colleen Burger,723,4.31
+66,Rice,Attorney General,,DFL,Hubert H. Humphrey III,11788,66.44
+66,Rice,Attorney General,,IR,Kevin E. Johnson,5953,33.56
+67,Rock,State Auditor,,DFL,Mark Dayton,2293,53.01
+67,Rock,State Auditor,,IR,Bob Heinrich,2033,46.99
+67,Rock,State Treasurer,,DFL,Michael A. McGrath,2121,49.50
+67,Rock,State Treasurer,,IR,John Bonniwell,2035,47.49
+67,Rock,State Treasurer,,GRP,Colleen Burger,129,3.01
+67,Rock,Attorney General,,DFL,Hubert H. Humphrey III,2579,58.95
+67,Rock,Attorney General,,IR,Kevin E. Johnson,1796,41.05
+68,Roseau,State Auditor,,DFL,Mark Dayton,3223,57.41
+68,Roseau,State Auditor,,IR,Bob Heinrich,2391,42.59
+68,Roseau,State Treasurer,,DFL,Michael A. McGrath,3093,55.58
+68,Roseau,State Treasurer,,IR,John Bonniwell,2260,40.61
+68,Roseau,State Treasurer,,GRP,Colleen Burger,212,3.81
+68,Roseau,Attorney General,,DFL,Hubert H. Humphrey III,3272,57.88
+68,Roseau,Attorney General,,IR,Kevin E. Johnson,2381,42.12
+69,St. Louis,State Auditor,,DFL,Mark Dayton,60672,75.18
+69,St. Louis,State Auditor,,IR,Bob Heinrich,20028,24.82
+69,St. Louis,State Treasurer,,DFL,Michael A. McGrath,56164,69.67
+69,St. Louis,State Treasurer,,IR,John Bonniwell,20654,25.62
+69,St. Louis,State Treasurer,,GRP,Colleen Burger,3798,4.71
+69,St. Louis,Attorney General,,DFL,Hubert H. Humphrey III,65043,78.14
+69,St. Louis,Attorney General,,IR,Kevin E. Johnson,18196,21.86
+70,Scott,State Auditor,,DFL,Mark Dayton,11840,53.64
+70,Scott,State Auditor,,IR,Bob Heinrich,10235,46.36
+70,Scott,State Treasurer,,DFL,Michael A. McGrath,10821,49.97
+70,Scott,State Treasurer,,IR,John Bonniwell,9958,45.98
+70,Scott,State Treasurer,,GRP,Colleen Burger,878,4.05
+70,Scott,Attorney General,,DFL,Hubert H. Humphrey III,12837,57.41
+70,Scott,Attorney General,,IR,Kevin E. Johnson,9525,42.59
+71,Sherburne,State Auditor,,DFL,Mark Dayton,8288,56.23
+71,Sherburne,State Auditor,,IR,Bob Heinrich,6452,43.77
+71,Sherburne,State Treasurer,,DFL,Michael A. McGrath,7424,51.19
+71,Sherburne,State Treasurer,,IR,John Bonniwell,6363,43.87
+71,Sherburne,State Treasurer,,GRP,Colleen Burger,717,4.94
+71,Sherburne,Attorney General,,DFL,Hubert H. Humphrey III,9190,61.58
+71,Sherburne,Attorney General,,IR,Kevin E. Johnson,5734,38.42
+72,Sibley,State Auditor,,DFL,Mark Dayton,2797,48.41
+72,Sibley,State Auditor,,IR,Bob Heinrich,2981,51.59
+72,Sibley,State Treasurer,,DFL,Michael A. McGrath,2593,45.62
+72,Sibley,State Treasurer,,IR,John Bonniwell,2876,50.60
+72,Sibley,State Treasurer,,GRP,Colleen Burger,215,3.78
+72,Sibley,Attorney General,,DFL,Hubert H. Humphrey III,3395,58.05
+72,Sibley,Attorney General,,IR,Kevin E. Johnson,2453,41.95
+73,Stearns,State Auditor,,DFL,Mark Dayton,23468,54.02
+73,Stearns,State Auditor,,IR,Bob Heinrich,19977,45.98
+73,Stearns,State Treasurer,,DFL,Michael A. McGrath,21156,49.44
+73,Stearns,State Treasurer,,IR,John Bonniwell,19211,44.90
+73,Stearns,State Treasurer,,GRP,Colleen Burger,2421,5.66
+73,Stearns,Attorney General,,DFL,Hubert H. Humphrey III,27512,61.81
+73,Stearns,Attorney General,,IR,Kevin E. Johnson,17001,38.19
+74,Steele,State Auditor,,DFL,Mark Dayton,5716,49.95
+74,Steele,State Auditor,,IR,Bob Heinrich,5727,50.05
+74,Steele,State Treasurer,,DFL,Michael A. McGrath,4988,44.20
+74,Steele,State Treasurer,,IR,John Bonniwell,5864,51.97
+74,Steele,State Treasurer,,GRP,Colleen Burger,432,3.83
+74,Steele,Attorney General,,DFL,Hubert H. Humphrey III,6783,58.15
+74,Steele,Attorney General,,IR,Kevin E. Johnson,4881,41.85
+75,Stevens,State Auditor,,DFL,Mark Dayton,2625,56.70
+75,Stevens,State Auditor,,IR,Bob Heinrich,2005,43.30
+75,Stevens,State Treasurer,,DFL,Michael A. McGrath,2511,53.81
+75,Stevens,State Treasurer,,IR,John Bonniwell,1958,41.96
+75,Stevens,State Treasurer,,GRP,Colleen Burger,197,4.22
+75,Stevens,Attorney General,,DFL,Hubert H. Humphrey III,3196,66.61
+75,Stevens,Attorney General,,IR,Kevin E. Johnson,1602,33.39
+76,Swift,State Auditor,,DFL,Mark Dayton,3358,65.08
+76,Swift,State Auditor,,IR,Bob Heinrich,1802,34.92
+76,Swift,State Treasurer,,DFL,Michael A. McGrath,3238,63.55
+76,Swift,State Treasurer,,IR,John Bonniwell,1692,33.21
+76,Swift,State Treasurer,,GRP,Colleen Burger,165,3.24
+76,Swift,Attorney General,,DFL,Hubert H. Humphrey III,3713,71.32
+76,Swift,Attorney General,,IR,Kevin E. Johnson,1493,28.68
+77,Todd,State Auditor,,DFL,Mark Dayton,5278,57.89
+77,Todd,State Auditor,,IR,Bob Heinrich,3840,42.11
+77,Todd,State Treasurer,,DFL,Michael A. McGrath,4925,55.15
+77,Todd,State Treasurer,,IR,John Bonniwell,3624,40.58
+77,Todd,State Treasurer,,GRP,Colleen Burger,381,4.27
+77,Todd,Attorney General,,DFL,Hubert H. Humphrey III,5939,64.58
+77,Todd,Attorney General,,IR,Kevin E. Johnson,3258,35.42
+78,Traverse,State Auditor,,DFL,Mark Dayton,1332,61.98
+78,Traverse,State Auditor,,IR,Bob Heinrich,817,38.02
+78,Traverse,State Treasurer,,DFL,Michael A. McGrath,1250,59.19
+78,Traverse,State Treasurer,,IR,John Bonniwell,785,37.17
+78,Traverse,State Treasurer,,GRP,Colleen Burger,77,3.65
+78,Traverse,Attorney General,,DFL,Hubert H. Humphrey III,1397,67.00
+78,Traverse,Attorney General,,IR,Kevin E. Johnson,688,33.00
+79,Wabasha,State Auditor,,DFL,Mark Dayton,4255,52.63
+79,Wabasha,State Auditor,,IR,Bob Heinrich,3829,47.37
+79,Wabasha,State Treasurer,,DFL,Michael A. McGrath,3758,46.76
+79,Wabasha,State Treasurer,,IR,John Bonniwell,3884,48.33
+79,Wabasha,State Treasurer,,GRP,Colleen Burger,395,4.91
+79,Wabasha,Attorney General,,DFL,Hubert H. Humphrey III,4787,58.25
+79,Wabasha,Attorney General,,IR,Kevin E. Johnson,3431,41.75
+80,Wadena,State Auditor,,DFL,Mark Dayton,2980,51.45
+80,Wadena,State Auditor,,IR,Bob Heinrich,2812,48.55
+80,Wadena,State Treasurer,,DFL,Michael A. McGrath,2735,47.52
+80,Wadena,State Treasurer,,IR,John Bonniwell,2804,48.71
+80,Wadena,State Treasurer,,GRP,Colleen Burger,217,3.77
+80,Wadena,Attorney General,,DFL,Hubert H. Humphrey III,3318,56.59
+80,Wadena,Attorney General,,IR,Kevin E. Johnson,2545,43.41
+81,Waseca,State Auditor,,DFL,Mark Dayton,4007,54.19
+81,Waseca,State Auditor,,IR,Bob Heinrich,3387,45.81
+81,Waseca,State Treasurer,,DFL,Michael A. McGrath,3503,47.95
+81,Waseca,State Treasurer,,IR,John Bonniwell,3507,48.00
+81,Waseca,State Treasurer,,GRP,Colleen Burger,296,4.05
+81,Waseca,Attorney General,,DFL,Hubert H. Humphrey III,4535,61.15
+81,Waseca,Attorney General,,IR,Kevin E. Johnson,2881,38.85
+82,Washington,State Auditor,,DFL,Mark Dayton,31988,53.87
+82,Washington,State Auditor,,IR,Bob Heinrich,27391,46.13
+82,Washington,State Treasurer,,DFL,Michael A. McGrath,29362,50.43
+82,Washington,State Treasurer,,IR,John Bonniwell,25843,44.39
+82,Washington,State Treasurer,,GRP,Colleen Burger,3013,5.18
+82,Washington,Attorney General,,DFL,Hubert H. Humphrey III,36530,60.72
+82,Washington,Attorney General,,IR,Kevin E. Johnson,23629,39.28
+83,Watonwan,State Auditor,,DFL,Mark Dayton,2604,53.35
+83,Watonwan,State Auditor,,IR,Bob Heinrich,2277,46.65
+83,Watonwan,State Treasurer,,DFL,Michael A. McGrath,2376,49.20
+83,Watonwan,State Treasurer,,IR,John Bonniwell,2313,47.90
+83,Watonwan,State Treasurer,,GRP,Colleen Burger,140,2.90
+83,Watonwan,Attorney General,,DFL,Hubert H. Humphrey III,2799,56.81
+83,Watonwan,Attorney General,,IR,Kevin E. Johnson,2128,43.19
+84,Wilkin,State Auditor,,DFL,Mark Dayton,1453,53.24
+84,Wilkin,State Auditor,,IR,Bob Heinrich,1276,46.76
+84,Wilkin,State Treasurer,,DFL,Michael A. McGrath,1320,50.23
+84,Wilkin,State Treasurer,,IR,John Bonniwell,1210,46.04
+84,Wilkin,State Treasurer,,GRP,Colleen Burger,98,3.73
+84,Wilkin,Attorney General,,DFL,Hubert H. Humphrey III,1652,60.96
+84,Wilkin,Attorney General,,IR,Kevin E. Johnson,1058,39.04
+85,Winona,State Auditor,,DFL,Mark Dayton,8226,54.58
+85,Winona,State Auditor,,IR,Bob Heinrich,6845,45.42
+85,Winona,State Treasurer,,DFL,Michael A. McGrath,7669,51.41
+85,Winona,State Treasurer,,IR,John Bonniwell,6603,44.26
+85,Winona,State Treasurer,,GRP,Colleen Burger,645,4.32
+85,Winona,Attorney General,,DFL,Hubert H. Humphrey III,9495,61.76
+85,Winona,Attorney General,,IR,Kevin E. Johnson,5879,38.24
+86,Wright,State Auditor,,DFL,Mark Dayton,14848,56.60
+86,Wright,State Auditor,,IR,Bob Heinrich,11384,43.40
+86,Wright,State Treasurer,,DFL,Michael A. McGrath,13694,53.09
+86,Wright,State Treasurer,,IR,John Bonniwell,10991,42.61
+86,Wright,State Treasurer,,GRP,Colleen Burger,1111,4.31
+86,Wright,Attorney General,,DFL,Hubert H. Humphrey III,16492,62.38
+86,Wright,Attorney General,,IR,Kevin E. Johnson,9944,37.62
+87,Yellow Medicine,State Auditor,,DFL,Mark Dayton,3174,57.20
+87,Yellow Medicine,State Auditor,,IR,Bob Heinrich,2375,42.80
+87,Yellow Medicine,State Treasurer,,DFL,Michael A. McGrath,3083,55.99
+87,Yellow Medicine,State Treasurer,,IR,John Bonniwell,2284,41.48
+87,Yellow Medicine,State Treasurer,,GRP,Colleen Burger,139,2.52
+87,Yellow Medicine,Attorney General,,DFL,Hubert H. Humphrey III,3645,65.14
+87,Yellow Medicine,Attorney General,,IR,Kevin E. Johnson,1951,34.86

@@ -1,0 +1,1078 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,President,,DFL,Kamala Harris,3524,33.82
+01,Aitkin,President,,G,Jill Stein,25,0.24
+01,Aitkin,President,,IND,Other Independent,15,0.14
+01,Aitkin,President,,JFA,Robert F. Kennedy Jr.,1,0.01
+01,Aitkin,President,,LIB,Chase Oliver,31,0.30
+01,Aitkin,President,,R,Donald Trump,6741,64.70
+01,Aitkin,President,,WTP,Cornel West,82,0.79
+01,Aitkin,U.S. Senate,,DFL,Amy Klobuchar,4135,40.25
+01,Aitkin,U.S. Senate,,IA,Steve Carlson,131,1.28
+01,Aitkin,U.S. Senate,,LIB,Rebecca Whiting,151,1.47
+01,Aitkin,U.S. Senate,,R,Royce White,5857,57.01
+02,Anoka,President,,DFL,Kamala Harris,97667,46.58
+02,Anoka,President,,G,Jill Stein,1725,0.82
+02,Anoka,President,,IND,Other Independent,204,0.10
+02,Anoka,President,,JFA,Robert F. Kennedy Jr.,191,0.09
+02,Anoka,President,,LIB,Chase Oliver,1137,0.54
+02,Anoka,President,,R,Donald Trump,106974,51.02
+02,Anoka,President,,SLP,Claudia De la Cruz,145,0.07
+02,Anoka,President,,SWP,Rachele Fruit,22,0.01
+02,Anoka,President,,WTP,Cornel West,1591,0.76
+02,Anoka,U.S. Senate,,DFL,Amy Klobuchar,106871,51.92
+02,Anoka,U.S. Senate,,IA,Steve Carlson,3464,1.68
+02,Anoka,U.S. Senate,,LIB,Rebecca Whiting,4140,2.01
+02,Anoka,U.S. Senate,,R,Royce White,91380,44.39
+03,Becker,President,,DFL,Kamala Harris,6435,32.67
+03,Becker,President,,G,Jill Stein,31,0.16
+03,Becker,President,,IND,Other Independent,18,0.09
+03,Becker,President,,JFA,Robert F. Kennedy Jr.,8,0.04
+03,Becker,President,,LIB,Chase Oliver,58,0.29
+03,Becker,President,,R,Donald Trump,12961,65.81
+03,Becker,President,,SLP,Claudia De la Cruz,1,0.01
+03,Becker,President,,SWP,Rachele Fruit,2,0.01
+03,Becker,President,,WTP,Cornel West,182,0.92
+03,Becker,U.S. Senate,,DFL,Amy Klobuchar,7539,38.73
+03,Becker,U.S. Senate,,IA,Steve Carlson,233,1.20
+03,Becker,U.S. Senate,,LIB,Rebecca Whiting,206,1.06
+03,Becker,U.S. Senate,,R,Royce White,11489,59.02
+04,Beltrami,President,,DFL,Kamala Harris,11493,46.33
+04,Beltrami,President,,G,Jill Stein,62,0.25
+04,Beltrami,President,,IND,Other Independent,28,0.11
+04,Beltrami,President,,JFA,Robert F. Kennedy Jr.,19,0.08
+04,Beltrami,President,,LIB,Chase Oliver,97,0.39
+04,Beltrami,President,,R,Donald Trump,12898,51.99
+04,Beltrami,President,,SLP,Claudia De la Cruz,13,0.05
+04,Beltrami,President,,SWP,Rachele Fruit,5,0.02
+04,Beltrami,President,,WTP,Cornel West,192,0.77
+04,Beltrami,U.S. Senate,,DFL,Amy Klobuchar,12390,50.47
+04,Beltrami,U.S. Senate,,IA,Steve Carlson,436,1.78
+04,Beltrami,U.S. Senate,,LIB,Rebecca Whiting,447,1.82
+04,Beltrami,U.S. Senate,,R,Royce White,11278,45.94
+05,Benton,President,,DFL,Kamala Harris,7084,31.12
+05,Benton,President,,G,Jill Stein,75,0.33
+05,Benton,President,,IND,Other Independent,10,0.04
+05,Benton,President,,JFA,Robert F. Kennedy Jr.,4,0.02
+05,Benton,President,,LIB,Chase Oliver,118,0.52
+05,Benton,President,,R,Donald Trump,15260,67.04
+05,Benton,President,,SLP,Claudia De la Cruz,14,0.06
+05,Benton,President,,SWP,Rachele Fruit,3,0.01
+05,Benton,President,,WTP,Cornel West,195,0.86
+05,Benton,U.S. Senate,,DFL,Amy Klobuchar,8435,37.84
+05,Benton,U.S. Senate,,IA,Steve Carlson,355,1.59
+05,Benton,U.S. Senate,,LIB,Rebecca Whiting,455,2.04
+05,Benton,U.S. Senate,,R,Royce White,13048,58.53
+06,Big Stone,President,,DFL,Kamala Harris,964,34.23
+06,Big Stone,President,,G,Jill Stein,3,0.11
+06,Big Stone,President,,IND,Other Independent,3,0.11
+06,Big Stone,President,,LIB,Chase Oliver,6,0.21
+06,Big Stone,President,,R,Donald Trump,1796,63.78
+06,Big Stone,President,,WTP,Cornel West,44,1.56
+06,Big Stone,U.S. Senate,,DFL,Amy Klobuchar,1225,43.72
+06,Big Stone,U.S. Senate,,IA,Steve Carlson,29,1.03
+06,Big Stone,U.S. Senate,,LIB,Rebecca Whiting,32,1.14
+06,Big Stone,U.S. Senate,,R,Royce White,1516,54.10
+07,Blue Earth,President,,DFL,Kamala Harris,17558,48.33
+07,Blue Earth,President,,G,Jill Stein,140,0.39
+07,Blue Earth,President,,IND,Other Independent,44,0.12
+07,Blue Earth,President,,JFA,Robert F. Kennedy Jr.,24,0.07
+07,Blue Earth,President,,LIB,Chase Oliver,160,0.44
+07,Blue Earth,President,,R,Donald Trump,18001,49.55
+07,Blue Earth,President,,SLP,Claudia De la Cruz,40,0.11
+07,Blue Earth,President,,SWP,Rachele Fruit,8,0.02
+07,Blue Earth,President,,WTP,Cornel West,351,0.97
+07,Blue Earth,U.S. Senate,,DFL,Amy Klobuchar,19135,53.66
+07,Blue Earth,U.S. Senate,,IA,Steve Carlson,618,1.73
+07,Blue Earth,U.S. Senate,,LIB,Rebecca Whiting,723,2.03
+07,Blue Earth,U.S. Senate,,R,Royce White,15185,42.58
+08,Brown,President,,DFL,Kamala Harris,4576,31.50
+08,Brown,President,,G,Jill Stein,27,0.19
+08,Brown,President,,IND,Other Independent,21,0.14
+08,Brown,President,,JFA,Robert F. Kennedy Jr.,7,0.05
+08,Brown,President,,LIB,Chase Oliver,67,0.46
+08,Brown,President,,R,Donald Trump,9692,66.72
+08,Brown,President,,SLP,Claudia De la Cruz,5,0.03
+08,Brown,President,,WTP,Cornel West,131,0.90
+08,Brown,U.S. Senate,,DFL,Amy Klobuchar,5851,40.70
+08,Brown,U.S. Senate,,IA,Steve Carlson,196,1.36
+08,Brown,U.S. Senate,,LIB,Rebecca Whiting,192,1.34
+08,Brown,U.S. Senate,,R,Royce White,8137,56.60
+09,Carlton,President,,DFL,Kamala Harris,9905,47.74
+09,Carlton,President,,G,Jill Stein,52,0.25
+09,Carlton,President,,IND,Other Independent,27,0.13
+09,Carlton,President,,JFA,Robert F. Kennedy Jr.,10,0.05
+09,Carlton,President,,LIB,Chase Oliver,79,0.38
+09,Carlton,President,,R,Donald Trump,10435,50.30
+09,Carlton,President,,SLP,Claudia De la Cruz,5,0.02
+09,Carlton,President,,SWP,Rachele Fruit,4,0.02
+09,Carlton,President,,WTP,Cornel West,229,1.10
+09,Carlton,U.S. Senate,,DFL,Amy Klobuchar,11056,54.24
+09,Carlton,U.S. Senate,,IA,Steve Carlson,345,1.69
+09,Carlton,U.S. Senate,,LIB,Rebecca Whiting,334,1.64
+09,Carlton,U.S. Senate,,R,Royce White,8650,42.43
+10,Carver,President,,DFL,Kamala Harris,31869,46.32
+10,Carver,President,,G,Jill Stein,262,0.38
+10,Carver,President,,IND,Other Independent,53,0.08
+10,Carver,President,,JFA,Robert F. Kennedy Jr.,30,0.04
+10,Carver,President,,LIB,Chase Oliver,413,0.60
+10,Carver,President,,R,Donald Trump,35586,51.72
+10,Carver,President,,SLP,Claudia De la Cruz,23,0.03
+10,Carver,President,,SWP,Rachele Fruit,7,0.01
+10,Carver,President,,WTP,Cornel West,561,0.82
+10,Carver,U.S. Senate,,DFL,Amy Klobuchar,34470,50.63
+10,Carver,U.S. Senate,,IA,Steve Carlson,737,1.08
+10,Carver,U.S. Senate,,LIB,Rebecca Whiting,1160,1.70
+10,Carver,U.S. Senate,,R,Royce White,31720,46.59
+11,Cass,President,,DFL,Kamala Harris,6300,32.62
+11,Cass,President,,G,Jill Stein,34,0.18
+11,Cass,President,,IND,Other Independent,10,0.05
+11,Cass,President,,JFA,Robert F. Kennedy Jr.,11,0.06
+11,Cass,President,,LIB,Chase Oliver,54,0.28
+11,Cass,President,,R,Donald Trump,12759,66.05
+11,Cass,President,,SLP,Claudia De la Cruz,3,0.02
+11,Cass,President,,WTP,Cornel West,145,0.75
+11,Cass,U.S. Senate,,DFL,Amy Klobuchar,7294,38.31
+11,Cass,U.S. Senate,,IA,Steve Carlson,250,1.31
+11,Cass,U.S. Senate,,LIB,Rebecca Whiting,238,1.25
+11,Cass,U.S. Senate,,R,Royce White,11259,59.13
+12,Chippewa,President,,DFL,Kamala Harris,2026,32.16
+12,Chippewa,President,,G,Jill Stein,11,0.17
+12,Chippewa,President,,IND,Other Independent,7,0.11
+12,Chippewa,President,,JFA,Robert F. Kennedy Jr.,4,0.06
+12,Chippewa,President,,LIB,Chase Oliver,16,0.25
+12,Chippewa,President,,R,Donald Trump,4175,66.27
+12,Chippewa,President,,SLP,Claudia De la Cruz,4,0.06
+12,Chippewa,President,,WTP,Cornel West,57,0.90
+12,Chippewa,U.S. Senate,,DFL,Amy Klobuchar,2748,44.11
+12,Chippewa,U.S. Senate,,IA,Steve Carlson,80,1.28
+12,Chippewa,U.S. Senate,,LIB,Rebecca Whiting,82,1.32
+12,Chippewa,U.S. Senate,,R,Royce White,3320,53.29
+13,Chisago,President,,DFL,Kamala Harris,11894,33.50
+13,Chisago,President,,G,Jill Stein,67,0.19
+13,Chisago,President,,IND,Other Independent,33,0.09
+13,Chisago,President,,JFA,Robert F. Kennedy Jr.,14,0.04
+13,Chisago,President,,LIB,Chase Oliver,185,0.52
+13,Chisago,President,,R,Donald Trump,23047,64.92
+13,Chisago,President,,SLP,Claudia De la Cruz,4,0.01
+13,Chisago,President,,SWP,Rachele Fruit,3,0.01
+13,Chisago,President,,WTP,Cornel West,255,0.72
+13,Chisago,U.S. Senate,,DFL,Amy Klobuchar,13673,39.18
+13,Chisago,U.S. Senate,,IA,Steve Carlson,455,1.30
+13,Chisago,U.S. Senate,,LIB,Rebecca Whiting,563,1.61
+13,Chisago,U.S. Senate,,R,Royce White,20205,57.90
+14,Clay,President,,DFL,Kamala Harris,16121,49.25
+14,Clay,President,,G,Jill Stein,115,0.35
+14,Clay,President,,IND,Other Independent,27,0.08
+14,Clay,President,,JFA,Robert F. Kennedy Jr.,24,0.07
+14,Clay,President,,LIB,Chase Oliver,141,0.43
+14,Clay,President,,R,Donald Trump,15965,48.77
+14,Clay,President,,SLP,Claudia De la Cruz,26,0.08
+14,Clay,President,,SWP,Rachele Fruit,6,0.02
+14,Clay,President,,WTP,Cornel West,309,0.94
+14,Clay,U.S. Senate,,DFL,Amy Klobuchar,17750,55.28
+14,Clay,U.S. Senate,,IA,Steve Carlson,551,1.72
+14,Clay,U.S. Senate,,LIB,Rebecca Whiting,587,1.83
+14,Clay,U.S. Senate,,R,Royce White,13220,41.17
+15,Clearwater,President,,DFL,Kamala Harris,1169,24.33
+15,Clearwater,President,,G,Jill Stein,8,0.17
+15,Clearwater,President,,IND,Other Independent,4,0.08
+15,Clearwater,President,,JFA,Robert F. Kennedy Jr.,4,0.08
+15,Clearwater,President,,LIB,Chase Oliver,16,0.33
+15,Clearwater,President,,R,Donald Trump,3575,74.40
+15,Clearwater,President,,WTP,Cornel West,29,0.60
+15,Clearwater,U.S. Senate,,DFL,Amy Klobuchar,1379,29.27
+15,Clearwater,U.S. Senate,,IA,Steve Carlson,58,1.23
+15,Clearwater,U.S. Senate,,LIB,Rebecca Whiting,71,1.51
+15,Clearwater,U.S. Senate,,R,Royce White,3203,67.99
+16,Cook,President,,DFL,Kamala Harris,2416,66.36
+16,Cook,President,,G,Jill Stein,26,0.71
+16,Cook,President,,IND,Other Independent,4,0.11
+16,Cook,President,,JFA,Robert F. Kennedy Jr.,5,0.14
+16,Cook,President,,LIB,Chase Oliver,12,0.33
+16,Cook,President,,R,Donald Trump,1142,31.37
+16,Cook,President,,SLP,Claudia De la Cruz,4,0.11
+16,Cook,President,,WTP,Cornel West,32,0.88
+16,Cook,U.S. Senate,,DFL,Amy Klobuchar,2517,69.70
+16,Cook,U.S. Senate,,IA,Steve Carlson,49,1.36
+16,Cook,U.S. Senate,,LIB,Rebecca Whiting,45,1.25
+16,Cook,U.S. Senate,,R,Royce White,1000,27.69
+17,Cottonwood,President,,DFL,Kamala Harris,1705,28.58
+17,Cottonwood,President,,G,Jill Stein,8,0.13
+17,Cottonwood,President,,IND,Other Independent,5,0.08
+17,Cottonwood,President,,JFA,Robert F. Kennedy Jr.,4,0.07
+17,Cottonwood,President,,LIB,Chase Oliver,15,0.25
+17,Cottonwood,President,,R,Donald Trump,4157,69.69
+17,Cottonwood,President,,SLP,Claudia De la Cruz,4,0.07
+17,Cottonwood,President,,WTP,Cornel West,67,1.12
+17,Cottonwood,U.S. Senate,,DFL,Amy Klobuchar,2405,40.68
+17,Cottonwood,U.S. Senate,,IA,Steve Carlson,97,1.64
+17,Cottonwood,U.S. Senate,,LIB,Rebecca Whiting,82,1.39
+17,Cottonwood,U.S. Senate,,R,Royce White,3328,56.29
+18,Crow Wing,President,,DFL,Kamala Harris,14173,33.58
+18,Crow Wing,President,,G,Jill Stein,91,0.22
+18,Crow Wing,President,,IND,Other Independent,30,0.07
+18,Crow Wing,President,,JFA,Robert F. Kennedy Jr.,9,0.02
+18,Crow Wing,President,,LIB,Chase Oliver,157,0.37
+18,Crow Wing,President,,R,Donald Trump,27423,64.96
+18,Crow Wing,President,,SLP,Claudia De la Cruz,11,0.03
+18,Crow Wing,President,,SWP,Rachele Fruit,5,0.01
+18,Crow Wing,President,,WTP,Cornel West,313,0.74
+18,Crow Wing,U.S. Senate,,DFL,Amy Klobuchar,16451,39.51
+18,Crow Wing,U.S. Senate,,IA,Steve Carlson,604,1.45
+18,Crow Wing,U.S. Senate,,LIB,Rebecca Whiting,630,1.51
+18,Crow Wing,U.S. Senate,,R,Royce White,23953,57.53
+19,Dakota,President,,DFL,Kamala Harris,143267,55.40
+19,Dakota,President,,G,Jill Stein,1499,0.58
+19,Dakota,President,,IND,Other Independent,272,0.11
+19,Dakota,President,,JFA,Robert F. Kennedy Jr.,235,0.09
+19,Dakota,President,,LIB,Chase Oliver,1346,0.52
+19,Dakota,President,,R,Donald Trump,109995,42.54
+19,Dakota,President,,SLP,Claudia De la Cruz,173,0.07
+19,Dakota,President,,SWP,Rachele Fruit,26,0.01
+19,Dakota,President,,WTP,Cornel West,1777,0.69
+19,Dakota,U.S. Senate,,DFL,Amy Klobuchar,153609,60.25
+19,Dakota,U.S. Senate,,IA,Steve Carlson,3621,1.42
+19,Dakota,U.S. Senate,,LIB,Rebecca Whiting,4545,1.78
+19,Dakota,U.S. Senate,,R,Royce White,93160,36.54
+20,Dodge,President,,DFL,Kamala Harris,4108,33.00
+20,Dodge,President,,G,Jill Stein,29,0.23
+20,Dodge,President,,IND,Other Independent,12,0.10
+20,Dodge,President,,JFA,Robert F. Kennedy Jr.,9,0.07
+20,Dodge,President,,LIB,Chase Oliver,50,0.40
+20,Dodge,President,,R,Donald Trump,8095,65.03
+20,Dodge,President,,SLP,Claudia De la Cruz,6,0.05
+20,Dodge,President,,SWP,Rachele Fruit,2,0.02
+20,Dodge,President,,WTP,Cornel West,137,1.10
+20,Dodge,U.S. Senate,,DFL,Amy Klobuchar,4905,39.90
+20,Dodge,U.S. Senate,,IA,Steve Carlson,191,1.55
+20,Dodge,U.S. Senate,,LIB,Rebecca Whiting,206,1.68
+20,Dodge,U.S. Senate,,R,Royce White,6992,56.87
+21,Douglas,President,,DFL,Kamala Harris,7938,31.73
+21,Douglas,President,,G,Jill Stein,47,0.19
+21,Douglas,President,,IND,Other Independent,25,0.10
+21,Douglas,President,,JFA,Robert F. Kennedy Jr.,11,0.04
+21,Douglas,President,,LIB,Chase Oliver,72,0.29
+21,Douglas,President,,R,Donald Trump,16726,66.85
+21,Douglas,President,,SLP,Claudia De la Cruz,7,0.03
+21,Douglas,President,,WTP,Cornel West,193,0.77
+21,Douglas,U.S. Senate,,DFL,Amy Klobuchar,10179,41.42
+21,Douglas,U.S. Senate,,IA,Steve Carlson,267,1.09
+21,Douglas,U.S. Senate,,LIB,Rebecca Whiting,389,1.58
+21,Douglas,U.S. Senate,,R,Royce White,13741,55.91
+22,Faribault,President,,DFL,Kamala Harris,2352,30.39
+22,Faribault,President,,G,Jill Stein,14,0.18
+22,Faribault,President,,IND,Other Independent,13,0.17
+22,Faribault,President,,JFA,Robert F. Kennedy Jr.,6,0.08
+22,Faribault,President,,LIB,Chase Oliver,23,0.30
+22,Faribault,President,,R,Donald Trump,5247,67.80
+22,Faribault,President,,SLP,Claudia De la Cruz,1,0.01
+22,Faribault,President,,SWP,Rachele Fruit,1,0.01
+22,Faribault,President,,WTP,Cornel West,82,1.06
+22,Faribault,U.S. Senate,,DFL,Amy Klobuchar,3091,40.33
+22,Faribault,U.S. Senate,,IA,Steve Carlson,139,1.81
+22,Faribault,U.S. Senate,,LIB,Rebecca Whiting,129,1.68
+22,Faribault,U.S. Senate,,R,Royce White,4305,56.17
+23,Fillmore,President,,DFL,Kamala Harris,4491,36.41
+23,Fillmore,President,,G,Jill Stein,28,0.23
+23,Fillmore,President,,IND,Other Independent,18,0.15
+23,Fillmore,President,,JFA,Robert F. Kennedy Jr.,4,0.03
+23,Fillmore,President,,LIB,Chase Oliver,40,0.32
+23,Fillmore,President,,R,Donald Trump,7638,61.92
+23,Fillmore,President,,SLP,Claudia De la Cruz,1,0.01
+23,Fillmore,President,,SWP,Rachele Fruit,3,0.02
+23,Fillmore,President,,WTP,Cornel West,112,0.91
+23,Fillmore,U.S. Senate,,DFL,Amy Klobuchar,5428,44.56
+23,Fillmore,U.S. Senate,,IA,Steve Carlson,169,1.39
+23,Fillmore,U.S. Senate,,LIB,Rebecca Whiting,167,1.37
+23,Fillmore,U.S. Senate,,R,Royce White,6417,52.68
+24,Freeborn,President,,DFL,Kamala Harris,6448,38.68
+24,Freeborn,President,,G,Jill Stein,29,0.17
+24,Freeborn,President,,IND,Other Independent,9,0.05
+24,Freeborn,President,,JFA,Robert F. Kennedy Jr.,7,0.04
+24,Freeborn,President,,LIB,Chase Oliver,46,0.28
+24,Freeborn,President,,R,Donald Trump,10003,60.01
+24,Freeborn,President,,SLP,Claudia De la Cruz,3,0.02
+24,Freeborn,President,,SWP,Rachele Fruit,1,0.01
+24,Freeborn,President,,WTP,Cornel West,124,0.74
+24,Freeborn,U.S. Senate,,DFL,Amy Klobuchar,7818,47.85
+24,Freeborn,U.S. Senate,,IA,Steve Carlson,273,1.67
+24,Freeborn,U.S. Senate,,LIB,Rebecca Whiting,233,1.43
+24,Freeborn,U.S. Senate,,R,Royce White,8013,49.05
+25,Goodhue,President,,DFL,Kamala Harris,11731,40.81
+25,Goodhue,President,,G,Jill Stein,75,0.26
+25,Goodhue,President,,IND,Other Independent,35,0.12
+25,Goodhue,President,,JFA,Robert F. Kennedy Jr.,18,0.06
+25,Goodhue,President,,LIB,Chase Oliver,157,0.55
+25,Goodhue,President,,R,Donald Trump,16461,57.26
+25,Goodhue,President,,SLP,Claudia De la Cruz,11,0.04
+25,Goodhue,President,,SWP,Rachele Fruit,3,0.01
+25,Goodhue,President,,WTP,Cornel West,255,0.89
+25,Goodhue,U.S. Senate,,DFL,Amy Klobuchar,13629,48.05
+25,Goodhue,U.S. Senate,,IA,Steve Carlson,345,1.22
+25,Goodhue,U.S. Senate,,LIB,Rebecca Whiting,446,1.57
+25,Goodhue,U.S. Senate,,R,Royce White,13947,49.17
+26,Grant,President,,DFL,Kamala Harris,1187,33.62
+26,Grant,President,,G,Jill Stein,5,0.14
+26,Grant,President,,IND,Other Independent,3,0.08
+26,Grant,President,,LIB,Chase Oliver,11,0.31
+26,Grant,President,,R,Donald Trump,2266,64.17
+26,Grant,President,,SLP,Claudia De la Cruz,2,0.06
+26,Grant,President,,WTP,Cornel West,57,1.61
+26,Grant,U.S. Senate,,DFL,Amy Klobuchar,1576,45.00
+26,Grant,U.S. Senate,,IA,Steve Carlson,89,2.54
+26,Grant,U.S. Senate,,LIB,Rebecca Whiting,46,1.31
+26,Grant,U.S. Senate,,R,Royce White,1791,51.14
+27,Hennepin,President,,DFL,Kamala Harris,502710,70.15
+27,Hennepin,President,,G,Jill Stein,5522,0.77
+27,Hennepin,President,,IND,Other Independent,574,0.08
+27,Hennepin,President,,JFA,Robert F. Kennedy Jr.,1234,0.17
+27,Hennepin,President,,LIB,Chase Oliver,3585,0.50
+27,Hennepin,President,,R,Donald Trump,197244,27.53
+27,Hennepin,President,,SLP,Claudia De la Cruz,1370,0.19
+27,Hennepin,President,,SWP,Rachele Fruit,143,0.02
+27,Hennepin,President,,WTP,Cornel West,4209,0.59
+27,Hennepin,U.S. Senate,,DFL,Amy Klobuchar,513644,72.90
+27,Hennepin,U.S. Senate,,IA,Steve Carlson,9824,1.39
+27,Hennepin,U.S. Senate,,LIB,Rebecca Whiting,12196,1.73
+27,Hennepin,U.S. Senate,,R,Royce White,168903,23.97
+28,Houston,President,,DFL,Kamala Harris,4667,40.96
+28,Houston,President,,G,Jill Stein,31,0.27
+28,Houston,President,,IND,Other Independent,9,0.08
+28,Houston,President,,JFA,Robert F. Kennedy Jr.,3,0.03
+28,Houston,President,,LIB,Chase Oliver,43,0.38
+28,Houston,President,,R,Donald Trump,6547,57.46
+28,Houston,President,,SWP,Rachele Fruit,3,0.03
+28,Houston,President,,WTP,Cornel West,91,0.80
+28,Houston,U.S. Senate,,DFL,Amy Klobuchar,4811,43.01
+28,Houston,U.S. Senate,,IA,Steve Carlson,163,1.46
+28,Houston,U.S. Senate,,LIB,Rebecca Whiting,175,1.56
+28,Houston,U.S. Senate,,R,Royce White,6036,53.97
+29,Hubbard,President,,DFL,Kamala Harris,4536,33.43
+29,Hubbard,President,,G,Jill Stein,32,0.24
+29,Hubbard,President,,IND,Other Independent,14,0.10
+29,Hubbard,President,,JFA,Robert F. Kennedy Jr.,5,0.04
+29,Hubbard,President,,LIB,Chase Oliver,54,0.40
+29,Hubbard,President,,R,Donald Trump,8809,64.92
+29,Hubbard,President,,SLP,Claudia De la Cruz,4,0.03
+29,Hubbard,President,,SWP,Rachele Fruit,1,0.01
+29,Hubbard,President,,WTP,Cornel West,115,0.85
+29,Hubbard,U.S. Senate,,DFL,Amy Klobuchar,5208,38.72
+29,Hubbard,U.S. Senate,,IA,Steve Carlson,148,1.10
+29,Hubbard,U.S. Senate,,LIB,Rebecca Whiting,210,1.56
+29,Hubbard,U.S. Senate,,R,Royce White,7886,58.62
+30,Isanti,President,,DFL,Kamala Harris,7384,28.59
+30,Isanti,President,,G,Jill Stein,56,0.22
+30,Isanti,President,,IND,Other Independent,24,0.09
+30,Isanti,President,,JFA,Robert F. Kennedy Jr.,14,0.05
+30,Isanti,President,,LIB,Chase Oliver,108,0.42
+30,Isanti,President,,R,Donald Trump,18027,69.79
+30,Isanti,President,,SLP,Claudia De la Cruz,4,0.02
+30,Isanti,President,,SWP,Rachele Fruit,1,0.00
+30,Isanti,President,,WTP,Cornel West,211,0.82
+30,Isanti,U.S. Senate,,DFL,Amy Klobuchar,8837,34.87
+30,Isanti,U.S. Senate,,IA,Steve Carlson,407,1.61
+30,Isanti,U.S. Senate,,LIB,Rebecca Whiting,457,1.80
+30,Isanti,U.S. Senate,,R,Royce White,15642,61.72
+31,Itasca,President,,DFL,Kamala Harris,10467,39.11
+31,Itasca,President,,G,Jill Stein,51,0.19
+31,Itasca,President,,IND,Other Independent,16,0.06
+31,Itasca,President,,JFA,Robert F. Kennedy Jr.,9,0.03
+31,Itasca,President,,LIB,Chase Oliver,95,0.36
+31,Itasca,President,,R,Donald Trump,15863,59.28
+31,Itasca,President,,SLP,Claudia De la Cruz,5,0.02
+31,Itasca,President,,WTP,Cornel West,254,0.95
+31,Itasca,U.S. Senate,,DFL,Amy Klobuchar,11741,44.42
+31,Itasca,U.S. Senate,,IA,Steve Carlson,268,1.01
+31,Itasca,U.S. Senate,,LIB,Rebecca Whiting,358,1.35
+31,Itasca,U.S. Senate,,R,Royce White,14065,53.21
+32,Jackson,President,,DFL,Kamala Harris,1581,28.11
+32,Jackson,President,,G,Jill Stein,4,0.07
+32,Jackson,President,,IND,Other Independent,11,0.20
+32,Jackson,President,,JFA,Robert F. Kennedy Jr.,1,0.02
+32,Jackson,President,,LIB,Chase Oliver,12,0.21
+32,Jackson,President,,R,Donald Trump,3949,70.20
+32,Jackson,President,,SLP,Claudia De la Cruz,1,0.02
+32,Jackson,President,,SWP,Rachele Fruit,1,0.02
+32,Jackson,President,,WTP,Cornel West,65,1.16
+32,Jackson,U.S. Senate,,DFL,Amy Klobuchar,2076,37.42
+32,Jackson,U.S. Senate,,IA,Steve Carlson,68,1.23
+32,Jackson,U.S. Senate,,LIB,Rebecca Whiting,77,1.39
+32,Jackson,U.S. Senate,,R,Royce White,3327,59.97
+33,Kanabec,President,,DFL,Kamala Harris,2718,28.07
+33,Kanabec,President,,G,Jill Stein,23,0.24
+33,Kanabec,President,,IND,Other Independent,11,0.11
+33,Kanabec,President,,JFA,Robert F. Kennedy Jr.,3,0.03
+33,Kanabec,President,,LIB,Chase Oliver,36,0.37
+33,Kanabec,President,,R,Donald Trump,6818,70.42
+33,Kanabec,President,,SLP,Claudia De la Cruz,3,0.03
+33,Kanabec,President,,SWP,Rachele Fruit,2,0.02
+33,Kanabec,President,,WTP,Cornel West,68,0.70
+33,Kanabec,U.S. Senate,,DFL,Amy Klobuchar,3371,35.61
+33,Kanabec,U.S. Senate,,IA,Steve Carlson,136,1.44
+33,Kanabec,U.S. Senate,,LIB,Rebecca Whiting,162,1.71
+33,Kanabec,U.S. Senate,,R,Royce White,5797,61.24
+34,Kandiyohi,President,,DFL,Kamala Harris,7814,33.66
+34,Kandiyohi,President,,G,Jill Stein,63,0.27
+34,Kandiyohi,President,,IND,Other Independent,19,0.08
+34,Kandiyohi,President,,JFA,Robert F. Kennedy Jr.,22,0.09
+34,Kandiyohi,President,,LIB,Chase Oliver,96,0.41
+34,Kandiyohi,President,,R,Donald Trump,15014,64.68
+34,Kandiyohi,President,,SLP,Claudia De la Cruz,10,0.04
+34,Kandiyohi,President,,SWP,Rachele Fruit,1,0.00
+34,Kandiyohi,President,,WTP,Cornel West,174,0.75
+34,Kandiyohi,U.S. Senate,,DFL,Amy Klobuchar,9522,41.56
+34,Kandiyohi,U.S. Senate,,IA,Steve Carlson,263,1.15
+34,Kandiyohi,U.S. Senate,,LIB,Rebecca Whiting,327,1.43
+34,Kandiyohi,U.S. Senate,,R,Royce White,12797,55.86
+35,Kittson,President,,DFL,Kamala Harris,911,36.51
+35,Kittson,President,,G,Jill Stein,3,0.12
+35,Kittson,President,,IND,Other Independent,1,0.04
+35,Kittson,President,,JFA,Robert F. Kennedy Jr.,3,0.12
+35,Kittson,President,,LIB,Chase Oliver,18,0.72
+35,Kittson,President,,R,Donald Trump,1535,61.52
+35,Kittson,President,,WTP,Cornel West,24,0.96
+35,Kittson,U.S. Senate,,DFL,Amy Klobuchar,1189,48.31
+35,Kittson,U.S. Senate,,IA,Steve Carlson,28,1.14
+35,Kittson,U.S. Senate,,LIB,Rebecca Whiting,18,0.73
+35,Kittson,U.S. Senate,,R,Royce White,1226,49.82
+36,Koochiching,President,,DFL,Kamala Harris,2465,36.38
+36,Koochiching,President,,G,Jill Stein,20,0.30
+36,Koochiching,President,,IND,Other Independent,6,0.09
+36,Koochiching,President,,JFA,Robert F. Kennedy Jr.,1,0.01
+36,Koochiching,President,,LIB,Chase Oliver,25,0.37
+36,Koochiching,President,,R,Donald Trump,4204,62.04
+36,Koochiching,President,,SLP,Claudia De la Cruz,2,0.03
+36,Koochiching,President,,SWP,Rachele Fruit,1,0.01
+36,Koochiching,President,,WTP,Cornel West,52,0.77
+36,Koochiching,U.S. Senate,,DFL,Amy Klobuchar,2940,44.20
+36,Koochiching,U.S. Senate,,IA,Steve Carlson,86,1.29
+36,Koochiching,U.S. Senate,,LIB,Rebecca Whiting,88,1.32
+36,Koochiching,U.S. Senate,,R,Royce White,3537,53.18
+37,Lac qui Parle,President,,DFL,Kamala Harris,1314,32.94
+37,Lac qui Parle,President,,G,Jill Stein,10,0.25
+37,Lac qui Parle,President,,IND,Other Independent,5,0.13
+37,Lac qui Parle,President,,JFA,Robert F. Kennedy Jr.,5,0.13
+37,Lac qui Parle,President,,LIB,Chase Oliver,15,0.38
+37,Lac qui Parle,President,,R,Donald Trump,2600,65.18
+37,Lac qui Parle,President,,SLP,Claudia De la Cruz,2,0.05
+37,Lac qui Parle,President,,WTP,Cornel West,38,0.95
+37,Lac qui Parle,U.S. Senate,,DFL,Amy Klobuchar,1790,45.42
+37,Lac qui Parle,U.S. Senate,,IA,Steve Carlson,53,1.34
+37,Lac qui Parle,U.S. Senate,,LIB,Rebecca Whiting,50,1.27
+37,Lac qui Parle,U.S. Senate,,R,Royce White,2048,51.97
+38,Lake,President,,DFL,Kamala Harris,3534,51.00
+38,Lake,President,,G,Jill Stein,30,0.43
+38,Lake,President,,IND,Other Independent,6,0.09
+38,Lake,President,,JFA,Robert F. Kennedy Jr.,5,0.07
+38,Lake,President,,LIB,Chase Oliver,28,0.40
+38,Lake,President,,R,Donald Trump,3265,47.12
+38,Lake,President,,SLP,Claudia De la Cruz,4,0.06
+38,Lake,President,,WTP,Cornel West,57,0.82
+38,Lake,U.S. Senate,,DFL,Amy Klobuchar,3916,57.25
+38,Lake,U.S. Senate,,IA,Steve Carlson,78,1.14
+38,Lake,U.S. Senate,,LIB,Rebecca Whiting,99,1.45
+38,Lake,U.S. Senate,,R,Royce White,2747,40.16
+39,Lake of the Woods,President,,DFL,Kamala Harris,604,25.75
+39,Lake of the Woods,President,,G,Jill Stein,4,0.17
+39,Lake of the Woods,President,,LIB,Chase Oliver,11,0.47
+39,Lake of the Woods,President,,R,Donald Trump,1710,72.89
+39,Lake of the Woods,President,,WTP,Cornel West,17,0.72
+39,Lake of the Woods,U.S. Senate,,DFL,Amy Klobuchar,721,31.44
+39,Lake of the Woods,U.S. Senate,,IA,Steve Carlson,32,1.40
+39,Lake of the Woods,U.S. Senate,,LIB,Rebecca Whiting,26,1.13
+39,Lake of the Woods,U.S. Senate,,R,Royce White,1514,66.03
+40,Le Sueur,President,,DFL,Kamala Harris,5636,32.35
+40,Le Sueur,President,,G,Jill Stein,38,0.22
+40,Le Sueur,President,,IND,Other Independent,15,0.09
+40,Le Sueur,President,,JFA,Robert F. Kennedy Jr.,5,0.03
+40,Le Sueur,President,,LIB,Chase Oliver,57,0.33
+40,Le Sueur,President,,R,Donald Trump,11503,66.03
+40,Le Sueur,President,,SLP,Claudia De la Cruz,9,0.05
+40,Le Sueur,President,,SWP,Rachele Fruit,1,0.01
+40,Le Sueur,President,,WTP,Cornel West,158,0.91
+40,Le Sueur,U.S. Senate,,DFL,Amy Klobuchar,6994,40.89
+40,Le Sueur,U.S. Senate,,IA,Steve Carlson,265,1.55
+40,Le Sueur,U.S. Senate,,LIB,Rebecca Whiting,277,1.62
+40,Le Sueur,U.S. Senate,,R,Royce White,9570,55.95
+41,Lincoln,President,,DFL,Kamala Harris,972,30.13
+41,Lincoln,President,,G,Jill Stein,6,0.19
+41,Lincoln,President,,IND,Other Independent,5,0.15
+41,Lincoln,President,,LIB,Chase Oliver,13,0.40
+41,Lincoln,President,,R,Donald Trump,2190,67.89
+41,Lincoln,President,,SLP,Claudia De la Cruz,2,0.06
+41,Lincoln,President,,WTP,Cornel West,38,1.18
+41,Lincoln,U.S. Senate,,DFL,Amy Klobuchar,1258,39.61
+41,Lincoln,U.S. Senate,,IA,Steve Carlson,58,1.83
+41,Lincoln,U.S. Senate,,LIB,Rebecca Whiting,45,1.42
+41,Lincoln,U.S. Senate,,R,Royce White,1815,57.15
+42,Lyon,President,,DFL,Kamala Harris,4284,33.09
+42,Lyon,President,,G,Jill Stein,25,0.19
+42,Lyon,President,,IND,Other Independent,13,0.10
+42,Lyon,President,,JFA,Robert F. Kennedy Jr.,7,0.05
+42,Lyon,President,,LIB,Chase Oliver,64,0.49
+42,Lyon,President,,R,Donald Trump,8400,64.88
+42,Lyon,President,,SLP,Claudia De la Cruz,3,0.02
+42,Lyon,President,,SWP,Rachele Fruit,1,0.01
+42,Lyon,President,,WTP,Cornel West,149,1.15
+42,Lyon,U.S. Senate,,DFL,Amy Klobuchar,5436,42.44
+42,Lyon,U.S. Senate,,IA,Steve Carlson,210,1.64
+42,Lyon,U.S. Senate,,LIB,Rebecca Whiting,188,1.47
+42,Lyon,U.S. Senate,,R,Royce White,6976,54.46
+44,Mahnomen,President,,DFL,Kamala Harris,975,44.81
+44,Mahnomen,President,,G,Jill Stein,3,0.14
+44,Mahnomen,President,,IND,Other Independent,2,0.09
+44,Mahnomen,President,,JFA,Robert F. Kennedy Jr.,1,0.05
+44,Mahnomen,President,,LIB,Chase Oliver,1,0.05
+44,Mahnomen,President,,R,Donald Trump,1165,53.54
+44,Mahnomen,President,,SLP,Claudia De la Cruz,1,0.05
+44,Mahnomen,President,,SWP,Rachele Fruit,1,0.05
+44,Mahnomen,President,,WTP,Cornel West,27,1.24
+44,Mahnomen,U.S. Senate,,DFL,Amy Klobuchar,1084,50.68
+44,Mahnomen,U.S. Senate,,IA,Steve Carlson,35,1.64
+44,Mahnomen,U.S. Senate,,LIB,Rebecca Whiting,23,1.08
+44,Mahnomen,U.S. Senate,,R,Royce White,997,46.61
+45,Marshall,President,,DFL,Kamala Harris,1177,23.43
+45,Marshall,President,,G,Jill Stein,6,0.12
+45,Marshall,President,,IND,Other Independent,4,0.08
+45,Marshall,President,,LIB,Chase Oliver,15,0.30
+45,Marshall,President,,R,Donald Trump,3774,75.12
+45,Marshall,President,,SLP,Claudia De la Cruz,1,0.02
+45,Marshall,President,,WTP,Cornel West,47,0.94
+45,Marshall,U.S. Senate,,DFL,Amy Klobuchar,1764,35.94
+45,Marshall,U.S. Senate,,IA,Steve Carlson,64,1.30
+45,Marshall,U.S. Senate,,LIB,Rebecca Whiting,70,1.43
+45,Marshall,U.S. Senate,,R,Royce White,3010,61.33
+46,Martin,President,,DFL,Kamala Harris,3171,29.46
+46,Martin,President,,G,Jill Stein,15,0.14
+46,Martin,President,,IND,Other Independent,11,0.10
+46,Martin,President,,JFA,Robert F. Kennedy Jr.,3,0.03
+46,Martin,President,,LIB,Chase Oliver,28,0.26
+46,Martin,President,,R,Donald Trump,7442,69.13
+46,Martin,President,,WTP,Cornel West,95,0.88
+46,Martin,U.S. Senate,,DFL,Amy Klobuchar,4065,38.29
+46,Martin,U.S. Senate,,IA,Steve Carlson,139,1.31
+46,Martin,U.S. Senate,,LIB,Rebecca Whiting,141,1.33
+46,Martin,U.S. Senate,,R,Royce White,6272,59.08
+43,McLeod,President,,DFL,Kamala Harris,6374,30.16
+43,McLeod,President,,G,Jill Stein,42,0.20
+43,McLeod,President,,IND,Other Independent,35,0.17
+43,McLeod,President,,JFA,Robert F. Kennedy Jr.,10,0.05
+43,McLeod,President,,LIB,Chase Oliver,84,0.40
+43,McLeod,President,,R,Donald Trump,14394,68.12
+43,McLeod,President,,SLP,Claudia De la Cruz,9,0.04
+43,McLeod,President,,SWP,Rachele Fruit,3,0.01
+43,McLeod,President,,WTP,Cornel West,180,0.85
+43,McLeod,U.S. Senate,,DFL,Amy Klobuchar,8209,39.29
+43,McLeod,U.S. Senate,,IA,Steve Carlson,330,1.58
+43,McLeod,U.S. Senate,,LIB,Rebecca Whiting,370,1.77
+43,McLeod,U.S. Senate,,R,Royce White,11985,57.36
+61,Meeker,President,,DFL,Kamala Harris,3802,27.86
+61,Meeker,President,,G,Jill Stein,23,0.17
+61,Meeker,President,,IND,Other Independent,8,0.06
+61,Meeker,President,,LIB,Chase Oliver,49,0.36
+61,Meeker,President,,R,Donald Trump,9645,70.67
+61,Meeker,President,,SLP,Claudia De la Cruz,5,0.04
+61,Meeker,President,,SWP,Rachele Fruit,2,0.01
+61,Meeker,President,,WTP,Cornel West,113,0.83
+61,Meeker,U.S. Senate,,DFL,Amy Klobuchar,4791,35.47
+61,Meeker,U.S. Senate,,IA,Steve Carlson,179,1.33
+61,Meeker,U.S. Senate,,LIB,Rebecca Whiting,233,1.72
+61,Meeker,U.S. Senate,,R,Royce White,8306,61.48
+47,Mille Lacs,President,,DFL,Kamala Harris,4374,28.85
+47,Mille Lacs,President,,G,Jill Stein,26,0.17
+47,Mille Lacs,President,,IND,Other Independent,13,0.09
+47,Mille Lacs,President,,JFA,Robert F. Kennedy Jr.,5,0.03
+47,Mille Lacs,President,,LIB,Chase Oliver,57,0.38
+47,Mille Lacs,President,,R,Donald Trump,10570,69.71
+47,Mille Lacs,President,,SLP,Claudia De la Cruz,8,0.05
+47,Mille Lacs,President,,SWP,Rachele Fruit,2,0.01
+47,Mille Lacs,President,,WTP,Cornel West,108,0.71
+47,Mille Lacs,U.S. Senate,,DFL,Amy Klobuchar,5184,34.90
+47,Mille Lacs,U.S. Senate,,IA,Steve Carlson,273,1.84
+47,Mille Lacs,U.S. Senate,,LIB,Rebecca Whiting,299,2.01
+47,Mille Lacs,U.S. Senate,,R,Royce White,9099,61.25
+48,Morrison,President,,DFL,Kamala Harris,4306,21.24
+48,Morrison,President,,G,Jill Stein,37,0.18
+48,Morrison,President,,IND,Other Independent,15,0.07
+48,Morrison,President,,JFA,Robert F. Kennedy Jr.,6,0.03
+48,Morrison,President,,LIB,Chase Oliver,64,0.32
+48,Morrison,President,,R,Donald Trump,15666,77.28
+48,Morrison,President,,SLP,Claudia De la Cruz,5,0.02
+48,Morrison,President,,SWP,Rachele Fruit,2,0.01
+48,Morrison,President,,WTP,Cornel West,171,0.84
+48,Morrison,U.S. Senate,,DFL,Amy Klobuchar,5793,29.15
+48,Morrison,U.S. Senate,,IA,Steve Carlson,302,1.52
+48,Morrison,U.S. Senate,,LIB,Rebecca Whiting,283,1.42
+48,Morrison,U.S. Senate,,R,Royce White,13495,67.91
+49,Mower,President,,DFL,Kamala Harris,8312,43.92
+49,Mower,President,,G,Jill Stein,39,0.21
+49,Mower,President,,IND,Other Independent,23,0.12
+49,Mower,President,,JFA,Robert F. Kennedy Jr.,5,0.03
+49,Mower,President,,LIB,Chase Oliver,54,0.29
+49,Mower,President,,R,Donald Trump,10297,54.41
+49,Mower,President,,SLP,Claudia De la Cruz,9,0.05
+49,Mower,President,,SWP,Rachele Fruit,2,0.01
+49,Mower,President,,WTP,Cornel West,185,0.98
+49,Mower,U.S. Senate,,DFL,Amy Klobuchar,9386,50.60
+49,Mower,U.S. Senate,,IA,Steve Carlson,418,2.25
+49,Mower,U.S. Senate,,LIB,Rebecca Whiting,332,1.79
+49,Mower,U.S. Senate,,R,Royce White,8415,45.36
+50,Murray,President,,DFL,Kamala Harris,1329,27.95
+50,Murray,President,,G,Jill Stein,5,0.11
+50,Murray,President,,IND,Other Independent,4,0.08
+50,Murray,President,,LIB,Chase Oliver,15,0.32
+50,Murray,President,,R,Donald Trump,3346,70.37
+50,Murray,President,,SLP,Claudia De la Cruz,2,0.04
+50,Murray,President,,WTP,Cornel West,54,1.14
+50,Murray,U.S. Senate,,DFL,Amy Klobuchar,1760,37.57
+50,Murray,U.S. Senate,,IA,Steve Carlson,78,1.66
+50,Murray,U.S. Senate,,LIB,Rebecca Whiting,51,1.09
+50,Murray,U.S. Senate,,R,Royce White,2796,59.68
+51,Nicollet,President,,DFL,Kamala Harris,9441,48.78
+51,Nicollet,President,,G,Jill Stein,48,0.25
+51,Nicollet,President,,IND,Other Independent,18,0.09
+51,Nicollet,President,,JFA,Robert F. Kennedy Jr.,18,0.09
+51,Nicollet,President,,LIB,Chase Oliver,81,0.42
+51,Nicollet,President,,R,Donald Trump,9540,49.29
+51,Nicollet,President,,SLP,Claudia De la Cruz,13,0.07
+51,Nicollet,President,,SWP,Rachele Fruit,2,0.01
+51,Nicollet,President,,WTP,Cornel West,193,1.00
+51,Nicollet,U.S. Senate,,DFL,Amy Klobuchar,10408,54.52
+51,Nicollet,U.S. Senate,,IA,Steve Carlson,270,1.41
+51,Nicollet,U.S. Senate,,LIB,Rebecca Whiting,317,1.66
+51,Nicollet,U.S. Senate,,R,Royce White,8094,42.40
+52,Nobles,President,,DFL,Kamala Harris,2599,31.47
+52,Nobles,President,,G,Jill Stein,9,0.11
+52,Nobles,President,,IND,Other Independent,6,0.07
+52,Nobles,President,,JFA,Robert F. Kennedy Jr.,3,0.04
+52,Nobles,President,,LIB,Chase Oliver,15,0.18
+52,Nobles,President,,R,Donald Trump,5541,67.10
+52,Nobles,President,,SLP,Claudia De la Cruz,1,0.01
+52,Nobles,President,,SWP,Rachele Fruit,2,0.02
+52,Nobles,President,,WTP,Cornel West,82,0.99
+52,Nobles,U.S. Senate,,DFL,Amy Klobuchar,3103,38.66
+52,Nobles,U.S. Senate,,IA,Steve Carlson,139,1.73
+52,Nobles,U.S. Senate,,LIB,Rebecca Whiting,130,1.62
+52,Nobles,U.S. Senate,,R,Royce White,4654,57.99
+53,Norman,President,,DFL,Kamala Harris,1233,37.53
+53,Norman,President,,G,Jill Stein,10,0.30
+53,Norman,President,,IND,Other Independent,7,0.21
+53,Norman,President,,JFA,Robert F. Kennedy Jr.,1,0.03
+53,Norman,President,,LIB,Chase Oliver,18,0.55
+53,Norman,President,,R,Donald Trump,1963,59.76
+53,Norman,President,,SWP,Rachele Fruit,3,0.09
+53,Norman,President,,WTP,Cornel West,50,1.52
+53,Norman,U.S. Senate,,DFL,Amy Klobuchar,1574,48.69
+53,Norman,U.S. Senate,,IA,Steve Carlson,55,1.70
+53,Norman,U.S. Senate,,LIB,Rebecca Whiting,55,1.70
+53,Norman,U.S. Senate,,R,Royce White,1549,47.91
+54,Olmsted,President,,DFL,Kamala Harris,49121,54.26
+54,Olmsted,President,,G,Jill Stein,521,0.58
+54,Olmsted,President,,IND,Other Independent,61,0.07
+54,Olmsted,President,,JFA,Robert F. Kennedy Jr.,90,0.10
+54,Olmsted,President,,LIB,Chase Oliver,494,0.55
+54,Olmsted,President,,R,Donald Trump,39467,43.60
+54,Olmsted,President,,SLP,Claudia De la Cruz,57,0.06
+54,Olmsted,President,,SWP,Rachele Fruit,13,0.01
+54,Olmsted,President,,WTP,Cornel West,700,0.77
+54,Olmsted,U.S. Senate,,DFL,Amy Klobuchar,52328,58.74
+54,Olmsted,U.S. Senate,,IA,Steve Carlson,1160,1.30
+54,Olmsted,U.S. Senate,,LIB,Rebecca Whiting,1520,1.71
+54,Olmsted,U.S. Senate,,R,Royce White,34077,38.25
+55,Otter Tail,President,,DFL,Kamala Harris,11752,32.10
+55,Otter Tail,President,,G,Jill Stein,71,0.19
+55,Otter Tail,President,,IND,Other Independent,27,0.07
+55,Otter Tail,President,,JFA,Robert F. Kennedy Jr.,13,0.04
+55,Otter Tail,President,,LIB,Chase Oliver,146,0.40
+55,Otter Tail,President,,R,Donald Trump,24276,66.31
+55,Otter Tail,President,,SLP,Claudia De la Cruz,10,0.03
+55,Otter Tail,President,,SWP,Rachele Fruit,6,0.02
+55,Otter Tail,President,,WTP,Cornel West,307,0.84
+55,Otter Tail,U.S. Senate,,DFL,Amy Klobuchar,14125,39.12
+55,Otter Tail,U.S. Senate,,IA,Steve Carlson,497,1.38
+55,Otter Tail,U.S. Senate,,LIB,Rebecca Whiting,398,1.10
+55,Otter Tail,U.S. Senate,,R,Royce White,21085,58.40
+56,Pennington,President,,DFL,Kamala Harris,2439,33.13
+56,Pennington,President,,G,Jill Stein,9,0.12
+56,Pennington,President,,IND,Other Independent,14,0.19
+56,Pennington,President,,JFA,Robert F. Kennedy Jr.,6,0.08
+56,Pennington,President,,LIB,Chase Oliver,39,0.53
+56,Pennington,President,,R,Donald Trump,4756,64.61
+56,Pennington,President,,SLP,Claudia De la Cruz,5,0.07
+56,Pennington,President,,SWP,Rachele Fruit,1,0.01
+56,Pennington,President,,WTP,Cornel West,92,1.25
+56,Pennington,U.S. Senate,,DFL,Amy Klobuchar,3162,43.43
+56,Pennington,U.S. Senate,,IA,Steve Carlson,122,1.68
+56,Pennington,U.S. Senate,,LIB,Rebecca Whiting,117,1.61
+56,Pennington,U.S. Senate,,R,Royce White,3879,53.28
+57,Pine,President,,DFL,Kamala Harris,5339,31.64
+57,Pine,President,,G,Jill Stein,36,0.21
+57,Pine,President,,IND,Other Independent,11,0.07
+57,Pine,President,,JFA,Robert F. Kennedy Jr.,4,0.02
+57,Pine,President,,LIB,Chase Oliver,62,0.37
+57,Pine,President,,R,Donald Trump,11274,66.80
+57,Pine,President,,SLP,Claudia De la Cruz,8,0.05
+57,Pine,President,,WTP,Cornel West,142,0.84
+57,Pine,U.S. Senate,,DFL,Amy Klobuchar,6527,39.54
+57,Pine,U.S. Senate,,IA,Steve Carlson,274,1.66
+57,Pine,U.S. Senate,,LIB,Rebecca Whiting,274,1.66
+57,Pine,U.S. Senate,,R,Royce White,9431,57.14
+58,Pipestone,President,,DFL,Kamala Harris,1215,25.17
+58,Pipestone,President,,G,Jill Stein,4,0.08
+58,Pipestone,President,,IND,Other Independent,2,0.04
+58,Pipestone,President,,JFA,Robert F. Kennedy Jr.,2,0.04
+58,Pipestone,President,,LIB,Chase Oliver,13,0.27
+58,Pipestone,President,,R,Donald Trump,3537,73.26
+58,Pipestone,President,,SLP,Claudia De la Cruz,2,0.04
+58,Pipestone,President,,WTP,Cornel West,53,1.10
+58,Pipestone,U.S. Senate,,DFL,Amy Klobuchar,1468,30.91
+58,Pipestone,U.S. Senate,,IA,Steve Carlson,67,1.41
+58,Pipestone,U.S. Senate,,LIB,Rebecca Whiting,61,1.28
+58,Pipestone,U.S. Senate,,R,Royce White,3154,66.40
+59,Polk,President,,DFL,Kamala Harris,4967,32.28
+59,Polk,President,,G,Jill Stein,27,0.18
+59,Polk,President,,IND,Other Independent,14,0.09
+59,Polk,President,,JFA,Robert F. Kennedy Jr.,10,0.06
+59,Polk,President,,LIB,Chase Oliver,52,0.34
+59,Polk,President,,R,Donald Trump,10162,66.04
+59,Polk,President,,SLP,Claudia De la Cruz,10,0.06
+59,Polk,President,,SWP,Rachele Fruit,2,0.01
+59,Polk,President,,WTP,Cornel West,143,0.93
+59,Polk,U.S. Senate,,DFL,Amy Klobuchar,6133,40.64
+59,Polk,U.S. Senate,,IA,Steve Carlson,171,1.13
+59,Polk,U.S. Senate,,LIB,Rebecca Whiting,228,1.51
+59,Polk,U.S. Senate,,R,Royce White,8558,56.71
+60,Pope,President,,DFL,Kamala Harris,2398,33.35
+60,Pope,President,,G,Jill Stein,10,0.14
+60,Pope,President,,IND,Other Independent,5,0.07
+60,Pope,President,,JFA,Robert F. Kennedy Jr.,6,0.08
+60,Pope,President,,LIB,Chase Oliver,23,0.32
+60,Pope,President,,R,Donald Trump,4677,65.04
+60,Pope,President,,SWP,Rachele Fruit,1,0.01
+60,Pope,President,,WTP,Cornel West,71,0.99
+60,Pope,U.S. Senate,,DFL,Amy Klobuchar,3160,44.34
+60,Pope,U.S. Senate,,IA,Steve Carlson,91,1.28
+60,Pope,U.S. Senate,,LIB,Rebecca Whiting,107,1.50
+60,Pope,U.S. Senate,,R,Royce White,3768,52.88
+62,Ramsey,President,,DFL,Kamala Harris,195168,70.52
+62,Ramsey,President,,G,Jill Stein,2127,0.77
+62,Ramsey,President,,IND,Other Independent,200,0.07
+62,Ramsey,President,,JFA,Robert F. Kennedy Jr.,469,0.17
+62,Ramsey,President,,LIB,Chase Oliver,1331,0.48
+62,Ramsey,President,,R,Donald Trump,75284,27.20
+62,Ramsey,President,,SLP,Claudia De la Cruz,549,0.20
+62,Ramsey,President,,SWP,Rachele Fruit,79,0.03
+62,Ramsey,President,,WTP,Cornel West,1529,0.55
+62,Ramsey,U.S. Senate,,DFL,Amy Klobuchar,198504,73.78
+62,Ramsey,U.S. Senate,,IA,Steve Carlson,4513,1.68
+62,Ramsey,U.S. Senate,,LIB,Rebecca Whiting,5314,1.98
+62,Ramsey,U.S. Senate,,R,Royce White,60719,22.57
+63,Red Lake,President,,DFL,Kamala Harris,642,30.43
+63,Red Lake,President,,G,Jill Stein,6,0.28
+63,Red Lake,President,,IND,Other Independent,1,0.05
+63,Red Lake,President,,LIB,Chase Oliver,7,0.33
+63,Red Lake,President,,R,Donald Trump,1425,67.54
+63,Red Lake,President,,SWP,Rachele Fruit,1,0.05
+63,Red Lake,President,,WTP,Cornel West,28,1.33
+63,Red Lake,U.S. Senate,,DFL,Amy Klobuchar,886,42.53
+63,Red Lake,U.S. Senate,,IA,Steve Carlson,33,1.58
+63,Red Lake,U.S. Senate,,LIB,Rebecca Whiting,37,1.78
+63,Red Lake,U.S. Senate,,R,Royce White,1127,54.10
+64,Redwood,President,,DFL,Kamala Harris,2300,27.71
+64,Redwood,President,,G,Jill Stein,8,0.10
+64,Redwood,President,,IND,Other Independent,3,0.04
+64,Redwood,President,,JFA,Robert F. Kennedy Jr.,3,0.04
+64,Redwood,President,,LIB,Chase Oliver,24,0.29
+64,Redwood,President,,R,Donald Trump,5895,71.03
+64,Redwood,President,,SLP,Claudia De la Cruz,1,0.01
+64,Redwood,President,,WTP,Cornel West,65,0.78
+64,Redwood,U.S. Senate,,DFL,Amy Klobuchar,3075,37.36
+64,Redwood,U.S. Senate,,IA,Steve Carlson,114,1.39
+64,Redwood,U.S. Senate,,LIB,Rebecca Whiting,104,1.26
+64,Redwood,U.S. Senate,,R,Royce White,4937,59.99
+65,Renville,President,,DFL,Kamala Harris,2280,28.35
+65,Renville,President,,G,Jill Stein,16,0.20
+65,Renville,President,,IND,Other Independent,12,0.15
+65,Renville,President,,JFA,Robert F. Kennedy Jr.,3,0.04
+65,Renville,President,,LIB,Chase Oliver,30,0.37
+65,Renville,President,,R,Donald Trump,5610,69.76
+65,Renville,President,,SLP,Claudia De la Cruz,4,0.05
+65,Renville,President,,WTP,Cornel West,87,1.08
+65,Renville,U.S. Senate,,DFL,Amy Klobuchar,3231,40.67
+65,Renville,U.S. Senate,,IA,Steve Carlson,129,1.62
+65,Renville,U.S. Senate,,LIB,Rebecca Whiting,96,1.21
+65,Renville,U.S. Senate,,R,Royce White,4488,56.50
+66,Rice,President,,DFL,Kamala Harris,17353,47.83
+66,Rice,President,,G,Jill Stein,139,0.38
+66,Rice,President,,IND,Other Independent,34,0.09
+66,Rice,President,,JFA,Robert F. Kennedy Jr.,21,0.06
+66,Rice,President,,LIB,Chase Oliver,155,0.43
+66,Rice,President,,R,Donald Trump,18264,50.34
+66,Rice,President,,SLP,Claudia De la Cruz,25,0.07
+66,Rice,President,,SWP,Rachele Fruit,4,0.01
+66,Rice,President,,WTP,Cornel West,289,0.80
+66,Rice,U.S. Senate,,DFL,Amy Klobuchar,19235,53.92
+66,Rice,U.S. Senate,,IA,Steve Carlson,478,1.34
+66,Rice,U.S. Senate,,LIB,Rebecca Whiting,595,1.67
+66,Rice,U.S. Senate,,R,Royce White,15362,43.07
+67,Rock,President,,DFL,Kamala Harris,1585,29.57
+67,Rock,President,,G,Jill Stein,9,0.17
+67,Rock,President,,IND,Other Independent,4,0.07
+67,Rock,President,,JFA,Robert F. Kennedy Jr.,2,0.04
+67,Rock,President,,LIB,Chase Oliver,22,0.41
+67,Rock,President,,R,Donald Trump,3690,68.83
+67,Rock,President,,SLP,Claudia De la Cruz,1,0.02
+67,Rock,President,,SWP,Rachele Fruit,2,0.04
+67,Rock,President,,WTP,Cornel West,46,0.86
+67,Rock,U.S. Senate,,DFL,Amy Klobuchar,1810,34.32
+67,Rock,U.S. Senate,,IA,Steve Carlson,93,1.76
+67,Rock,U.S. Senate,,LIB,Rebecca Whiting,88,1.67
+67,Rock,U.S. Senate,,R,Royce White,3283,62.25
+68,Roseau,President,,DFL,Kamala Harris,2093,24.66
+68,Roseau,President,,G,Jill Stein,15,0.18
+68,Roseau,President,,IND,Other Independent,10,0.12
+68,Roseau,President,,JFA,Robert F. Kennedy Jr.,4,0.05
+68,Roseau,President,,LIB,Chase Oliver,16,0.19
+68,Roseau,President,,R,Donald Trump,6279,73.99
+68,Roseau,President,,SLP,Claudia De la Cruz,1,0.01
+68,Roseau,President,,SWP,Rachele Fruit,2,0.02
+68,Roseau,President,,WTP,Cornel West,66,0.78
+68,Roseau,U.S. Senate,,DFL,Amy Klobuchar,2843,34.08
+68,Roseau,U.S. Senate,,IA,Steve Carlson,123,1.47
+68,Roseau,U.S. Senate,,LIB,Rebecca Whiting,115,1.38
+68,Roseau,U.S. Senate,,R,Royce White,5262,63.07
+70,Scott,President,,DFL,Kamala Harris,40214,44.78
+70,Scott,President,,G,Jill Stein,400,0.45
+70,Scott,President,,IND,Other Independent,81,0.09
+70,Scott,President,,JFA,Robert F. Kennedy Jr.,73,0.08
+70,Scott,President,,LIB,Chase Oliver,494,0.55
+70,Scott,President,,R,Donald Trump,47837,53.27
+70,Scott,President,,SLP,Claudia De la Cruz,28,0.03
+70,Scott,President,,SWP,Rachele Fruit,5,0.01
+70,Scott,President,,WTP,Cornel West,674,0.75
+70,Scott,U.S. Senate,,DFL,Amy Klobuchar,44408,50.28
+70,Scott,U.S. Senate,,IA,Steve Carlson,1289,1.46
+70,Scott,U.S. Senate,,LIB,Rebecca Whiting,1601,1.81
+70,Scott,U.S. Senate,,R,Royce White,41018,46.44
+71,Sherburne,President,,DFL,Kamala Harris,18329,31.72
+71,Sherburne,President,,G,Jill Stein,139,0.24
+71,Sherburne,President,,IND,Other Independent,52,0.09
+71,Sherburne,President,,JFA,Robert F. Kennedy Jr.,37,0.06
+71,Sherburne,President,,LIB,Chase Oliver,302,0.52
+71,Sherburne,President,,R,Donald Trump,38491,66.62
+71,Sherburne,President,,SLP,Claudia De la Cruz,25,0.04
+71,Sherburne,President,,SWP,Rachele Fruit,11,0.02
+71,Sherburne,President,,WTP,Cornel West,391,0.68
+71,Sherburne,U.S. Senate,,DFL,Amy Klobuchar,21183,37.44
+71,Sherburne,U.S. Senate,,IA,Steve Carlson,875,1.55
+71,Sherburne,U.S. Senate,,LIB,Rebecca Whiting,1172,2.07
+71,Sherburne,U.S. Senate,,R,Royce White,33341,58.94
+72,Sibley,President,,DFL,Kamala Harris,2351,27.62
+72,Sibley,President,,G,Jill Stein,18,0.21
+72,Sibley,President,,IND,Other Independent,8,0.09
+72,Sibley,President,,JFA,Robert F. Kennedy Jr.,3,0.04
+72,Sibley,President,,LIB,Chase Oliver,33,0.39
+72,Sibley,President,,R,Donald Trump,6014,70.65
+72,Sibley,President,,SLP,Claudia De la Cruz,4,0.05
+72,Sibley,President,,SWP,Rachele Fruit,3,0.04
+72,Sibley,President,,WTP,Cornel West,78,0.92
+72,Sibley,U.S. Senate,,DFL,Amy Klobuchar,3199,38.08
+72,Sibley,U.S. Senate,,IA,Steve Carlson,111,1.32
+72,Sibley,U.S. Senate,,LIB,Rebecca Whiting,142,1.69
+72,Sibley,U.S. Senate,,R,Royce White,4949,58.91
+69,St. Louis,President,,DFL,Kamala Harris,66335,55.94
+69,St. Louis,President,,G,Jill Stein,425,0.36
+69,St. Louis,President,,IND,Other Independent,106,0.09
+69,St. Louis,President,,JFA,Robert F. Kennedy Jr.,71,0.06
+69,St. Louis,President,,LIB,Chase Oliver,507,0.43
+69,St. Louis,President,,R,Donald Trump,50065,42.22
+69,St. Louis,President,,SLP,Claudia De la Cruz,85,0.07
+69,St. Louis,President,,SWP,Rachele Fruit,18,0.02
+69,St. Louis,President,,WTP,Cornel West,975,0.82
+69,St. Louis,U.S. Senate,,DFL,Amy Klobuchar,72294,61.71
+69,St. Louis,U.S. Senate,,IA,Steve Carlson,1534,1.31
+69,St. Louis,U.S. Senate,,LIB,Rebecca Whiting,2045,1.75
+69,St. Louis,U.S. Senate,,R,Royce White,41273,35.23
+73,Stearns,President,,DFL,Kamala Harris,30829,35.70
+73,Stearns,President,,G,Jill Stein,354,0.41
+73,Stearns,President,,IND,Other Independent,67,0.08
+73,Stearns,President,,JFA,Robert F. Kennedy Jr.,82,0.09
+73,Stearns,President,,LIB,Chase Oliver,338,0.39
+73,Stearns,President,,R,Donald Trump,53932,62.45
+73,Stearns,President,,SLP,Claudia De la Cruz,41,0.05
+73,Stearns,President,,SWP,Rachele Fruit,13,0.02
+73,Stearns,President,,WTP,Cornel West,705,0.82
+73,Stearns,U.S. Senate,,DFL,Amy Klobuchar,36587,43.31
+73,Stearns,U.S. Senate,,IA,Steve Carlson,1231,1.46
+73,Stearns,U.S. Senate,,LIB,Rebecca Whiting,1431,1.69
+73,Stearns,U.S. Senate,,R,Royce White,45225,53.54
+74,Steele,President,,DFL,Kamala Harris,7650,36.76
+74,Steele,President,,G,Jill Stein,62,0.30
+74,Steele,President,,IND,Other Independent,19,0.09
+74,Steele,President,,JFA,Robert F. Kennedy Jr.,27,0.13
+74,Steele,President,,LIB,Chase Oliver,89,0.43
+74,Steele,President,,R,Donald Trump,12742,61.23
+74,Steele,President,,SLP,Claudia De la Cruz,11,0.05
+74,Steele,President,,SWP,Rachele Fruit,1,0.00
+74,Steele,President,,WTP,Cornel West,208,1.00
+74,Steele,U.S. Senate,,DFL,Amy Klobuchar,9089,44.47
+74,Steele,U.S. Senate,,IA,Steve Carlson,386,1.89
+74,Steele,U.S. Senate,,LIB,Rebecca Whiting,362,1.77
+74,Steele,U.S. Senate,,R,Royce White,10601,51.87
+75,Stevens,President,,DFL,Kamala Harris,1827,35.67
+75,Stevens,President,,G,Jill Stein,9,0.18
+75,Stevens,President,,IND,Other Independent,6,0.12
+75,Stevens,President,,JFA,Robert F. Kennedy Jr.,4,0.08
+75,Stevens,President,,LIB,Chase Oliver,20,0.39
+75,Stevens,President,,R,Donald Trump,3213,62.73
+75,Stevens,President,,WTP,Cornel West,43,0.84
+75,Stevens,U.S. Senate,,DFL,Amy Klobuchar,2266,44.85
+75,Stevens,U.S. Senate,,IA,Steve Carlson,56,1.11
+75,Stevens,U.S. Senate,,LIB,Rebecca Whiting,63,1.25
+75,Stevens,U.S. Senate,,R,Royce White,2667,52.79
+76,Swift,President,,DFL,Kamala Harris,1618,32.10
+76,Swift,President,,G,Jill Stein,5,0.10
+76,Swift,President,,IND,Other Independent,5,0.10
+76,Swift,President,,JFA,Robert F. Kennedy Jr.,4,0.08
+76,Swift,President,,LIB,Chase Oliver,18,0.36
+76,Swift,President,,R,Donald Trump,3340,66.26
+76,Swift,President,,SLP,Claudia De la Cruz,1,0.02
+76,Swift,President,,WTP,Cornel West,50,0.99
+76,Swift,U.S. Senate,,DFL,Amy Klobuchar,2164,43.58
+76,Swift,U.S. Senate,,IA,Steve Carlson,74,1.49
+76,Swift,U.S. Senate,,LIB,Rebecca Whiting,61,1.23
+76,Swift,U.S. Senate,,R,Royce White,2667,53.71
+77,Todd,President,,DFL,Kamala Harris,3072,22.47
+77,Todd,President,,G,Jill Stein,28,0.20
+77,Todd,President,,IND,Other Independent,9,0.07
+77,Todd,President,,JFA,Robert F. Kennedy Jr.,7,0.05
+77,Todd,President,,LIB,Chase Oliver,46,0.34
+77,Todd,President,,R,Donald Trump,10392,76.01
+77,Todd,President,,SLP,Claudia De la Cruz,2,0.01
+77,Todd,President,,SWP,Rachele Fruit,1,0.01
+77,Todd,President,,WTP,Cornel West,115,0.84
+77,Todd,U.S. Senate,,DFL,Amy Klobuchar,4403,32.72
+77,Todd,U.S. Senate,,IA,Steve Carlson,219,1.63
+77,Todd,U.S. Senate,,LIB,Rebecca Whiting,184,1.37
+77,Todd,U.S. Senate,,R,Royce White,8651,64.29
+78,Traverse,President,,DFL,Kamala Harris,597,33.15
+78,Traverse,President,,G,Jill Stein,4,0.22
+78,Traverse,President,,IND,Other Independent,2,0.11
+78,Traverse,President,,LIB,Chase Oliver,5,0.28
+78,Traverse,President,,R,Donald Trump,1165,64.69
+78,Traverse,President,,SLP,Claudia De la Cruz,2,0.11
+78,Traverse,President,,SWP,Rachele Fruit,1,0.06
+78,Traverse,President,,WTP,Cornel West,25,1.39
+78,Traverse,U.S. Senate,,DFL,Amy Klobuchar,815,45.81
+78,Traverse,U.S. Senate,,IA,Steve Carlson,33,1.85
+78,Traverse,U.S. Senate,,LIB,Rebecca Whiting,25,1.41
+78,Traverse,U.S. Senate,,R,Royce White,906,50.93
+79,Wabasha,President,,DFL,Kamala Harris,4721,35.02
+79,Wabasha,President,,G,Jill Stein,32,0.24
+79,Wabasha,President,,IND,Other Independent,13,0.10
+79,Wabasha,President,,JFA,Robert F. Kennedy Jr.,3,0.02
+79,Wabasha,President,,LIB,Chase Oliver,57,0.42
+79,Wabasha,President,,R,Donald Trump,8523,63.22
+79,Wabasha,President,,SLP,Claudia De la Cruz,4,0.03
+79,Wabasha,President,,WTP,Cornel West,128,0.95
+79,Wabasha,U.S. Senate,,DFL,Amy Klobuchar,5730,43.02
+79,Wabasha,U.S. Senate,,IA,Steve Carlson,186,1.40
+79,Wabasha,U.S. Senate,,LIB,Rebecca Whiting,209,1.57
+79,Wabasha,U.S. Senate,,R,Royce White,7194,54.01
+80,Wadena,President,,DFL,Kamala Harris,1898,23.65
+80,Wadena,President,,G,Jill Stein,8,0.10
+80,Wadena,President,,IND,Other Independent,8,0.10
+80,Wadena,President,,JFA,Robert F. Kennedy Jr.,4,0.05
+80,Wadena,President,,LIB,Chase Oliver,11,0.14
+80,Wadena,President,,R,Donald Trump,6028,75.12
+80,Wadena,President,,SLP,Claudia De la Cruz,1,0.01
+80,Wadena,President,,SWP,Rachele Fruit,1,0.01
+80,Wadena,President,,WTP,Cornel West,65,0.81
+80,Wadena,U.S. Senate,,DFL,Amy Klobuchar,2398,30.39
+80,Wadena,U.S. Senate,,IA,Steve Carlson,94,1.19
+80,Wadena,U.S. Senate,,LIB,Rebecca Whiting,105,1.33
+80,Wadena,U.S. Senate,,R,Royce White,5295,67.09
+81,Waseca,President,,DFL,Kamala Harris,3402,32.83
+81,Waseca,President,,G,Jill Stein,28,0.27
+81,Waseca,President,,IND,Other Independent,9,0.09
+81,Waseca,President,,JFA,Robert F. Kennedy Jr.,3,0.03
+81,Waseca,President,,LIB,Chase Oliver,52,0.50
+81,Waseca,President,,R,Donald Trump,6770,65.34
+81,Waseca,President,,SLP,Claudia De la Cruz,4,0.04
+81,Waseca,President,,WTP,Cornel West,93,0.90
+81,Waseca,U.S. Senate,,DFL,Amy Klobuchar,4206,40.89
+81,Waseca,U.S. Senate,,IA,Steve Carlson,147,1.43
+81,Waseca,U.S. Senate,,LIB,Rebecca Whiting,144,1.40
+81,Waseca,U.S. Senate,,R,Royce White,5789,56.28
+82,Washington,President,,DFL,Kamala Harris,90324,53.53
+82,Washington,President,,G,Jill Stein,753,0.45
+82,Washington,President,,IND,Other Independent,165,0.10
+82,Washington,President,,JFA,Robert F. Kennedy Jr.,112,0.07
+82,Washington,President,,LIB,Chase Oliver,894,0.53
+82,Washington,President,,R,Donald Trump,75271,44.61
+82,Washington,President,,SLP,Claudia De la Cruz,78,0.05
+82,Washington,President,,SWP,Rachele Fruit,12,0.01
+82,Washington,President,,WTP,Cornel West,1134,0.67
+82,Washington,U.S. Senate,,DFL,Amy Klobuchar,96678,58.09
+82,Washington,U.S. Senate,,IA,Steve Carlson,2249,1.35
+82,Washington,U.S. Senate,,LIB,Rebecca Whiting,2942,1.77
+82,Washington,U.S. Senate,,R,Royce White,64562,38.79
+83,Watonwan,President,,DFL,Kamala Harris,1723,35.09
+83,Watonwan,President,,G,Jill Stein,13,0.26
+83,Watonwan,President,,IND,Other Independent,7,0.14
+83,Watonwan,President,,LIB,Chase Oliver,21,0.43
+83,Watonwan,President,,R,Donald Trump,3087,62.87
+83,Watonwan,President,,SLP,Claudia De la Cruz,2,0.04
+83,Watonwan,President,,WTP,Cornel West,57,1.16
+83,Watonwan,U.S. Senate,,DFL,Amy Klobuchar,2174,45.01
+83,Watonwan,U.S. Senate,,IA,Steve Carlson,89,1.84
+83,Watonwan,U.S. Senate,,LIB,Rebecca Whiting,79,1.64
+83,Watonwan,U.S. Senate,,R,Royce White,2488,51.51
+84,Wilkin,President,,DFL,Kamala Harris,986,29.49
+84,Wilkin,President,,G,Jill Stein,2,0.06
+84,Wilkin,President,,IND,Other Independent,8,0.24
+84,Wilkin,President,,JFA,Robert F. Kennedy Jr.,1,0.03
+84,Wilkin,President,,LIB,Chase Oliver,15,0.45
+84,Wilkin,President,,R,Donald Trump,2290,68.50
+84,Wilkin,President,,SLP,Claudia De la Cruz,3,0.09
+84,Wilkin,President,,WTP,Cornel West,38,1.14
+84,Wilkin,U.S. Senate,,DFL,Amy Klobuchar,1298,39.52
+84,Wilkin,U.S. Senate,,IA,Steve Carlson,59,1.80
+84,Wilkin,U.S. Senate,,LIB,Rebecca Whiting,52,1.58
+84,Wilkin,U.S. Senate,,R,Royce White,1875,57.10
+85,Winona,President,,DFL,Kamala Harris,12929,46.64
+85,Winona,President,,G,Jill Stein,95,0.34
+85,Winona,President,,IND,Other Independent,31,0.11
+85,Winona,President,,JFA,Robert F. Kennedy Jr.,13,0.05
+85,Winona,President,,LIB,Chase Oliver,93,0.34
+85,Winona,President,,R,Donald Trump,14288,51.54
+85,Winona,President,,SLP,Claudia De la Cruz,26,0.09
+85,Winona,President,,WTP,Cornel West,246,0.89
+85,Winona,U.S. Senate,,DFL,Amy Klobuchar,13474,49.69
+85,Winona,U.S. Senate,,IA,Steve Carlson,409,1.51
+85,Winona,U.S. Senate,,LIB,Rebecca Whiting,426,1.57
+85,Winona,U.S. Senate,,R,Royce White,12806,47.23
+86,Wright,President,,DFL,Kamala Harris,30883,34.43
+86,Wright,President,,G,Jill Stein,224,0.25
+86,Wright,President,,IND,Other Independent,80,0.09
+86,Wright,President,,JFA,Robert F. Kennedy Jr.,28,0.03
+86,Wright,President,,LIB,Chase Oliver,474,0.53
+86,Wright,President,,R,Donald Trump,57211,63.78
+86,Wright,President,,SLP,Claudia De la Cruz,27,0.03
+86,Wright,President,,SWP,Rachele Fruit,5,0.01
+86,Wright,President,,WTP,Cornel West,768,0.86
+86,Wright,U.S. Senate,,DFL,Amy Klobuchar,35333,40.25
+86,Wright,U.S. Senate,,IA,Steve Carlson,1255,1.43
+86,Wright,U.S. Senate,,LIB,Rebecca Whiting,1692,1.93
+86,Wright,U.S. Senate,,R,Royce White,49500,56.39
+87,Yellow Medicine,President,,DFL,Kamala Harris,1548,28.71
+87,Yellow Medicine,President,,G,Jill Stein,9,0.17
+87,Yellow Medicine,President,,IND,Other Independent,6,0.11
+87,Yellow Medicine,President,,JFA,Robert F. Kennedy Jr.,3,0.06
+87,Yellow Medicine,President,,LIB,Chase Oliver,24,0.45
+87,Yellow Medicine,President,,R,Donald Trump,3738,69.34
+87,Yellow Medicine,President,,WTP,Cornel West,63,1.17
+87,Yellow Medicine,U.S. Senate,,DFL,Amy Klobuchar,2121,39.58
+87,Yellow Medicine,U.S. Senate,,IA,Steve Carlson,65,1.21
+87,Yellow Medicine,U.S. Senate,,LIB,Rebecca Whiting,70,1.31
+87,Yellow Medicine,U.S. Senate,,R,Royce White,3103,57.90

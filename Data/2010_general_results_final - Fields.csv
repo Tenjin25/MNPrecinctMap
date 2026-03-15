@@ -1,0 +1,62 @@
+FIELD NAME,DEFINITION
+Precinct Name,Precinct Name
+Precinct Code,State Precinct Number
+CG,US Congressional District
+LEG,MN Legislative District
+CM,County Commissioner District
+JD,Judicial District
+SW,Soil and Water Conservation District
+FIPS,MCD's Federal Information Processing System number from U.S. Census
+CountyID,County Code
+County,County Name
+VSCode,"Voting System Code (1=Central Count, 2=Precinct Tabulator,3=Hand Count)"
+EquipmentModel,Model of optical scan voting equipment used for precinct
+MailBallot,Precincts using mail balloting for the 2010 General Election
+7AM,Number of voters registered in precinct as of 7AM on election day (pre-registered voters)
+EDR,Number of voters registering in the polling place on election day
+Signatures,Number of people voting in person (signatures on roster)
+RegMilAb,"Regular, and Uniformed and Overseas Citizens absentee ballots accepted"
+FedAb,Absentee ballots with federal offices only accepted (by citizens who are permanently or indefinitely overseas)
+PresAb,Absentee ballots cast for president only (by people who moved out of Minnesota within 30 days of the election)
+TotVoters,Number of voters casting ballots
+CONGIP,US Representative Independence Party candidate votes
+CONGR,US Representative Republican Party candidate votes
+CONGDFL,US Representative Democratic-Farmer-Labor Party candidate votes
+CONGWI,US Representative Write In candidate votes--includes registered and non-registered write-ins
+CONGTOT,US Representative total votes
+MNSENIP,MN Senator Independence Party candidate votes
+MNSENR,MN Senator Republican Party candidate votes
+MNSENDFL,MN Senator Democratic-Farmer-Labor Party candidate votes
+MNSENWI,MN Senator Write In candidate votes--includes registered and non-registered write-ins
+MNSENTOT,MN Senator total votes
+MNLEGIP,MN Representative Independence Party candidate votes
+MNLEGR,MN Representative Republican Party candidate votes
+MNLEGDFL,MN Representative Democratic-Farmer-Labor Party candidate votes
+MNLEGWI,MN Representative Write In candidate votes--includes registered and non-registered write-ins
+MNLEGTOT,MN Representative total votes
+GOVIP,MN Governor Independence Party candidate votes
+GOVR,MN Governor Republican Party candidate votes
+GOVDFL,MN Governor Democratic-Farmer-Labor Party candidate votes
+GOVGP,MN Governor Green Party candidate votes
+GOVTRP,MN Governor The Resource Party candidate votes
+GOVGR,MN Governor Grassroots Party candidate votes
+GOVEDP,MN Governor Ecology Democracy Party candidate votes
+GOVWI,MN Governor Write In candidate votes--includes registered and non-registered write-ins
+GOVTOT,MN Governor total votes
+SOSIP,MN Secretary of State Independence Party candidate votes
+SOSR,MN Secretary of State Republican Party candidate votes
+SOSDFL,MN Secretary of State Democratic-Farmer-Labor Party candidate votes
+SOSWI,MN Secretary of State Write In candidate votes--includes registered and non-registered write-ins
+SOSTOT,MN Secretary of State total votes
+STAUDR,MN State Auditor Republican Party candidate votes
+STAUDDFL,MN State Auditor Democratic-Farmer-Labor Party candidate votes
+STAUDGP,MN State Auditor Green Party candidate votes
+STAUDGR,MN State Auditor Grassroots Party candidate votes
+STAUDWI,MN State Auditor Write In candidate votes--includes registered and non-registered write-ins
+STAUDTOT,MN State Auditor total votes
+ATGENIP,MN Attorney General Independence Party candidate votes
+ATGENR,MN Attorney General Republican Party candidate votes
+ATGENDFL,MN Attorney General Democratic-Farmer-Labor Party candidate votes
+ATGENTRP,MN Attorney General The Resource Party candidate votes
+ATGENWI,MN Attorney General Write In candidate votes--includes registered and non-registered write-ins
+ATGENTOT,MN Attorney General total votes

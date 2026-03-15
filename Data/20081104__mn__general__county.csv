@@ -1,0 +1,1040 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,President,,CP,,22,0.23
+01,Aitkin,President,,DFL,Barack Obama,4595,48.96
+01,Aitkin,President,,GP,Cynthia McKinney,16,0.17
+01,Aitkin,President,,IND,Ralph Nader,132,1.41
+01,Aitkin,President,,LIB,Bob Barr,26,0.28
+01,Aitkin,President,,R,John McCain,4589,48.90
+01,Aitkin,President,,SWP,,5,0.05
+01,Aitkin,U.S. Senate,,CP,,32,0.34
+01,Aitkin,U.S. Senate,,DFL,Al Franken,3893,41.63
+01,Aitkin,U.S. Senate,,IND,Dean Barkley,1770,18.93
+01,Aitkin,U.S. Senate,,LIB,,40,0.43
+01,Aitkin,U.S. Senate,,R,Norm Coleman,3617,38.68
+02,Anoka,President,,CP,,390,0.21
+02,Anoka,President,,DFL,Barack Obama,86976,47.89
+02,Anoka,President,,GP,Cynthia McKinney,322,0.18
+02,Anoka,President,,IND,Ralph Nader,1954,1.08
+02,Anoka,President,,LIB,Bob Barr,594,0.33
+02,Anoka,President,,R,John McCain,91357,50.30
+02,Anoka,President,,SWP,,23,0.01
+02,Anoka,U.S. Senate,,CP,,536,0.30
+02,Anoka,U.S. Senate,,DFL,Al Franken,66800,36.92
+02,Anoka,U.S. Senate,,IND,Dean Barkley,30504,16.86
+02,Anoka,U.S. Senate,,LIB,,771,0.43
+02,Anoka,U.S. Senate,,R,Norm Coleman,82308,45.49
+03,Becker,President,,CP,,37,0.22
+03,Becker,President,,DFL,Barack Obama,7687,45.46
+03,Becker,President,,GP,Cynthia McKinney,35,0.21
+03,Becker,President,,IND,Ralph Nader,243,1.44
+03,Becker,President,,LIB,Bob Barr,47,0.28
+03,Becker,President,,R,John McCain,8851,52.34
+03,Becker,President,,SWP,,10,0.06
+03,Becker,U.S. Senate,,CP,,70,0.42
+03,Becker,U.S. Senate,,DFL,Al Franken,6016,35.71
+03,Becker,U.S. Senate,,IND,Dean Barkley,2226,13.21
+03,Becker,U.S. Senate,,LIB,,100,0.59
+03,Becker,U.S. Senate,,R,Norm Coleman,8437,50.07
+04,Beltrami,President,,CP,,58,0.26
+04,Beltrami,President,,DFL,Barack Obama,12019,54.20
+04,Beltrami,President,,GP,Cynthia McKinney,46,0.21
+04,Beltrami,President,,IND,Ralph Nader,218,0.98
+04,Beltrami,President,,LIB,Bob Barr,62,0.28
+04,Beltrami,President,,R,John McCain,9762,44.02
+04,Beltrami,President,,SWP,,9,0.04
+04,Beltrami,U.S. Senate,,CP,,94,0.43
+04,Beltrami,U.S. Senate,,DFL,Al Franken,10033,45.63
+04,Beltrami,U.S. Senate,,IND,Dean Barkley,2267,10.31
+04,Beltrami,U.S. Senate,,LIB,,139,0.63
+04,Beltrami,U.S. Senate,,R,Norm Coleman,9454,43.00
+05,Benton,President,,CP,,77,0.40
+05,Benton,President,,DFL,Barack Obama,8454,43.88
+05,Benton,President,,GP,Cynthia McKinney,42,0.22
+05,Benton,President,,IND,Ralph Nader,296,1.54
+05,Benton,President,,LIB,Bob Barr,53,0.28
+05,Benton,President,,R,John McCain,10338,53.66
+05,Benton,President,,SWP,,4,0.02
+05,Benton,U.S. Senate,,CP,,79,0.41
+05,Benton,U.S. Senate,,DFL,Al Franken,6485,33.79
+05,Benton,U.S. Senate,,IND,Dean Barkley,4071,21.21
+05,Benton,U.S. Senate,,LIB,,84,0.44
+05,Benton,U.S. Senate,,R,Norm Coleman,8473,44.15
+06,Big Stone,President,,CP,,4,0.13
+06,Big Stone,President,,DFL,Barack Obama,1552,52.01
+06,Big Stone,President,,GP,Cynthia McKinney,5,0.17
+06,Big Stone,President,,IND,Ralph Nader,44,1.47
+06,Big Stone,President,,LIB,Bob Barr,13,0.44
+06,Big Stone,President,,R,John McCain,1362,45.64
+06,Big Stone,President,,SWP,,4,0.13
+06,Big Stone,U.S. Senate,,CP,,8,0.27
+06,Big Stone,U.S. Senate,,DFL,Al Franken,1274,42.74
+06,Big Stone,U.S. Senate,,IND,Dean Barkley,476,15.97
+06,Big Stone,U.S. Senate,,LIB,,12,0.40
+06,Big Stone,U.S. Senate,,R,Norm Coleman,1211,40.62
+07,Blue Earth,President,,CP,,108,0.31
+07,Blue Earth,President,,DFL,Barack Obama,19325,55.33
+07,Blue Earth,President,,GP,Cynthia McKinney,90,0.26
+07,Blue Earth,President,,IND,Ralph Nader,475,1.36
+07,Blue Earth,President,,LIB,Bob Barr,132,0.38
+07,Blue Earth,President,,R,John McCain,14782,42.32
+07,Blue Earth,President,,SWP,,15,0.04
+07,Blue Earth,U.S. Senate,,CP,,121,0.35
+07,Blue Earth,U.S. Senate,,DFL,Al Franken,14483,41.78
+07,Blue Earth,U.S. Senate,,IND,Dean Barkley,6182,17.83
+07,Blue Earth,U.S. Senate,,LIB,,219,0.63
+07,Blue Earth,U.S. Senate,,R,Norm Coleman,13660,39.41
+08,Brown,President,,CP,,47,0.35
+08,Brown,President,,DFL,Barack Obama,5809,42.81
+08,Brown,President,,GP,Cynthia McKinney,30,0.22
+08,Brown,President,,IND,Ralph Nader,188,1.39
+08,Brown,President,,LIB,Bob Barr,36,0.27
+08,Brown,President,,R,John McCain,7456,54.94
+08,Brown,President,,SWP,,4,0.03
+08,Brown,U.S. Senate,,CP,,40,0.30
+08,Brown,U.S. Senate,,DFL,Al Franken,4435,32.73
+08,Brown,U.S. Senate,,IND,Dean Barkley,2684,19.81
+08,Brown,U.S. Senate,,LIB,,64,0.47
+08,Brown,U.S. Senate,,R,Norm Coleman,6329,46.70
+09,Carlton,President,,CP,,54,0.29
+09,Carlton,President,,DFL,Barack Obama,11501,62.66
+09,Carlton,President,,GP,Cynthia McKinney,31,0.17
+09,Carlton,President,,IND,Ralph Nader,178,0.97
+09,Carlton,President,,LIB,Bob Barr,40,0.22
+09,Carlton,President,,R,John McCain,6549,35.68
+09,Carlton,President,,SWP,,2,0.01
+09,Carlton,U.S. Senate,,CP,,72,0.39
+09,Carlton,U.S. Senate,,DFL,Al Franken,9521,51.94
+09,Carlton,U.S. Senate,,IND,Dean Barkley,2555,13.94
+09,Carlton,U.S. Senate,,LIB,,83,0.45
+09,Carlton,U.S. Senate,,R,Norm Coleman,6099,33.27
+10,Carver,President,,CP,,116,0.23
+10,Carver,President,,DFL,Barack Obama,20654,41.67
+10,Carver,President,,GP,Cynthia McKinney,62,0.13
+10,Carver,President,,IND,Ralph Nader,408,0.82
+10,Carver,President,,LIB,Bob Barr,165,0.33
+10,Carver,President,,R,John McCain,28156,56.80
+10,Carver,President,,SWP,,7,0.01
+10,Carver,U.S. Senate,,CP,,130,0.26
+10,Carver,U.S. Senate,,DFL,Al Franken,14102,28.61
+10,Carver,U.S. Senate,,IND,Dean Barkley,7875,15.98
+10,Carver,U.S. Senate,,LIB,,208,0.42
+10,Carver,U.S. Senate,,R,Norm Coleman,26968,54.72
+11,Cass,President,,CP,,41,0.25
+11,Cass,President,,DFL,Barack Obama,7276,44.73
+11,Cass,President,,GP,Cynthia McKinney,33,0.20
+11,Cass,President,,IND,Ralph Nader,217,1.33
+11,Cass,President,,LIB,Bob Barr,39,0.24
+11,Cass,President,,R,John McCain,8660,53.24
+11,Cass,President,,SWP,,1,0.01
+11,Cass,U.S. Senate,,CP,,60,0.37
+11,Cass,U.S. Senate,,DFL,Al Franken,5888,36.33
+11,Cass,U.S. Senate,,IND,Dean Barkley,2504,15.45
+11,Cass,U.S. Senate,,LIB,,68,0.42
+11,Cass,U.S. Senate,,R,Norm Coleman,7685,47.42
+12,Chippewa,President,,CP,,26,0.41
+12,Chippewa,President,,DFL,Barack Obama,3280,51.81
+12,Chippewa,President,,GP,Cynthia McKinney,13,0.21
+12,Chippewa,President,,IND,Ralph Nader,95,1.50
+12,Chippewa,President,,LIB,Bob Barr,7,0.11
+12,Chippewa,President,,R,John McCain,2907,45.92
+12,Chippewa,President,,SWP,,3,0.05
+12,Chippewa,U.S. Senate,,CP,,27,0.43
+12,Chippewa,U.S. Senate,,DFL,Al Franken,2559,40.51
+12,Chippewa,U.S. Senate,,IND,Dean Barkley,1283,20.31
+12,Chippewa,U.S. Senate,,LIB,,29,0.46
+12,Chippewa,U.S. Senate,,R,Norm Coleman,2419,38.29
+13,Chisago,President,,CP,,72,0.25
+13,Chisago,President,,DFL,Barack Obama,12783,43.77
+13,Chisago,President,,GP,Cynthia McKinney,62,0.21
+13,Chisago,President,,IND,Ralph Nader,388,1.33
+13,Chisago,President,,LIB,Bob Barr,104,0.36
+13,Chisago,President,,R,John McCain,15789,54.07
+13,Chisago,President,,SWP,,5,0.02
+13,Chisago,U.S. Senate,,CP,,78,0.27
+13,Chisago,U.S. Senate,,DFL,Al Franken,9833,33.76
+13,Chisago,U.S. Senate,,IND,Dean Barkley,5317,18.25
+13,Chisago,U.S. Senate,,LIB,,133,0.46
+13,Chisago,U.S. Senate,,R,Norm Coleman,13768,47.27
+14,Clay,President,,CP,,73,0.25
+14,Clay,President,,DFL,Barack Obama,16666,57.16
+14,Clay,President,,GP,Cynthia McKinney,41,0.14
+14,Clay,President,,IND,Ralph Nader,303,1.04
+14,Clay,President,,LIB,Bob Barr,91,0.31
+14,Clay,President,,R,John McCain,11978,41.08
+14,Clay,President,,SWP,,4,0.01
+14,Clay,U.S. Senate,,CP,,89,0.31
+14,Clay,U.S. Senate,,DFL,Al Franken,12067,41.89
+14,Clay,U.S. Senate,,IND,Dean Barkley,3431,11.91
+14,Clay,U.S. Senate,,LIB,,187,0.65
+14,Clay,U.S. Senate,,R,Norm Coleman,13032,45.24
+15,Clearwater,President,,CP,,12,0.28
+15,Clearwater,President,,DFL,Barack Obama,1877,44.22
+15,Clearwater,President,,GP,Cynthia McKinney,3,0.07
+15,Clearwater,President,,IND,Ralph Nader,52,1.22
+15,Clearwater,President,,LIB,Bob Barr,8,0.19
+15,Clearwater,President,,R,John McCain,2291,53.97
+15,Clearwater,President,,SWP,,2,0.05
+15,Clearwater,U.S. Senate,,CP,,15,0.36
+15,Clearwater,U.S. Senate,,DFL,Al Franken,1596,37.92
+15,Clearwater,U.S. Senate,,IND,Dean Barkley,460,10.93
+15,Clearwater,U.S. Senate,,LIB,,29,0.69
+15,Clearwater,U.S. Senate,,R,Norm Coleman,2109,50.11
+16,Cook,President,,CP,,22,0.66
+16,Cook,President,,DFL,Barack Obama,2019,60.50
+16,Cook,President,,GP,Cynthia McKinney,6,0.18
+16,Cook,President,,IND,Ralph Nader,33,0.99
+16,Cook,President,,LIB,Bob Barr,15,0.45
+16,Cook,President,,R,John McCain,1240,37.16
+16,Cook,President,,SWP,,2,0.06
+16,Cook,U.S. Senate,,CP,,20,0.60
+16,Cook,U.S. Senate,,DFL,Al Franken,1620,48.74
+16,Cook,U.S. Senate,,IND,Dean Barkley,458,13.78
+16,Cook,U.S. Senate,,LIB,,19,0.57
+16,Cook,U.S. Senate,,R,Norm Coleman,1207,36.31
+17,Cottonwood,President,,CP,,14,0.23
+17,Cottonwood,President,,DFL,Barack Obama,2759,45.87
+17,Cottonwood,President,,GP,Cynthia McKinney,12,0.20
+17,Cottonwood,President,,IND,Ralph Nader,59,0.98
+17,Cottonwood,President,,LIB,Bob Barr,11,0.18
+17,Cottonwood,President,,R,John McCain,3157,52.49
+17,Cottonwood,President,,SWP,,3,0.05
+17,Cottonwood,U.S. Senate,,CP,,29,0.48
+17,Cottonwood,U.S. Senate,,DFL,Al Franken,2131,35.44
+17,Cottonwood,U.S. Senate,,IND,Dean Barkley,1051,17.48
+17,Cottonwood,U.S. Senate,,LIB,,32,0.53
+17,Cottonwood,U.S. Senate,,R,Norm Coleman,2770,46.07
+18,Crow Wing,President,,CP,,77,0.22
+18,Crow Wing,President,,DFL,Barack Obama,15859,45.24
+18,Crow Wing,President,,GP,Cynthia McKinney,69,0.20
+18,Crow Wing,President,,IND,Ralph Nader,383,1.09
+18,Crow Wing,President,,LIB,Bob Barr,89,0.25
+18,Crow Wing,President,,R,John McCain,18567,52.96
+18,Crow Wing,President,,SWP,,13,0.04
+18,Crow Wing,U.S. Senate,,CP,,129,0.37
+18,Crow Wing,U.S. Senate,,DFL,Al Franken,13025,37.34
+18,Crow Wing,U.S. Senate,,IND,Dean Barkley,5474,15.69
+18,Crow Wing,U.S. Senate,,LIB,,149,0.43
+18,Crow Wing,U.S. Senate,,R,Norm Coleman,16107,46.17
+19,Dakota,President,,CP,,493,0.22
+19,Dakota,President,,DFL,Barack Obama,116778,51.98
+19,Dakota,President,,GP,Cynthia McKinney,309,0.14
+19,Dakota,President,,IND,Ralph Nader,1908,0.85
+19,Dakota,President,,LIB,Bob Barr,782,0.35
+19,Dakota,President,,R,John McCain,104364,46.45
+19,Dakota,President,,SWP,,44,0.02
+19,Dakota,U.S. Senate,,CP,,657,0.29
+19,Dakota,U.S. Senate,,DFL,Al Franken,85298,38.13
+19,Dakota,U.S. Senate,,IND,Dean Barkley,34066,15.23
+19,Dakota,U.S. Senate,,LIB,,981,0.44
+19,Dakota,U.S. Senate,,R,Norm Coleman,102701,45.91
+20,Dodge,President,,CP,,42,0.41
+20,Dodge,President,,DFL,Barack Obama,4463,43.86
+20,Dodge,President,,GP,Cynthia McKinney,31,0.30
+20,Dodge,President,,IND,Ralph Nader,130,1.28
+20,Dodge,President,,LIB,Bob Barr,38,0.37
+20,Dodge,President,,R,John McCain,5468,53.73
+20,Dodge,President,,SWP,,4,0.04
+20,Dodge,U.S. Senate,,CP,,53,0.52
+20,Dodge,U.S. Senate,,DFL,Al Franken,3384,33.45
+20,Dodge,U.S. Senate,,IND,Dean Barkley,1853,18.32
+20,Dodge,U.S. Senate,,LIB,,56,0.55
+20,Dodge,U.S. Senate,,R,Norm Coleman,4771,47.16
+21,Douglas,President,,CP,,37,0.18
+21,Douglas,President,,DFL,Barack Obama,9256,44.35
+21,Douglas,President,,GP,Cynthia McKinney,33,0.16
+21,Douglas,President,,IND,Ralph Nader,269,1.29
+21,Douglas,President,,LIB,Bob Barr,32,0.15
+21,Douglas,President,,R,John McCain,11241,53.86
+21,Douglas,President,,SWP,,4,0.02
+21,Douglas,U.S. Senate,,CP,,56,0.27
+21,Douglas,U.S. Senate,,DFL,Al Franken,6856,32.98
+21,Douglas,U.S. Senate,,IND,Dean Barkley,3723,17.91
+21,Douglas,U.S. Senate,,LIB,,75,0.36
+21,Douglas,U.S. Senate,,R,Norm Coleman,10077,48.48
+22,Faribault,President,,CP,,24,0.30
+22,Faribault,President,,DFL,Barack Obama,3736,45.96
+22,Faribault,President,,GP,Cynthia McKinney,15,0.18
+22,Faribault,President,,IND,Ralph Nader,134,1.65
+22,Faribault,President,,LIB,Bob Barr,18,0.22
+22,Faribault,President,,R,John McCain,4196,51.62
+22,Faribault,President,,SWP,,5,0.06
+22,Faribault,U.S. Senate,,CP,,27,0.33
+22,Faribault,U.S. Senate,,DFL,Al Franken,2911,35.94
+22,Faribault,U.S. Senate,,IND,Dean Barkley,1509,18.63
+22,Faribault,U.S. Senate,,LIB,,53,0.65
+22,Faribault,U.S. Senate,,R,Norm Coleman,3599,44.44
+23,Fillmore,President,,CP,,50,0.45
+23,Fillmore,President,,DFL,Barack Obama,5921,52.97
+23,Fillmore,President,,GP,Cynthia McKinney,18,0.16
+23,Fillmore,President,,IND,Ralph Nader,151,1.35
+23,Fillmore,President,,LIB,Bob Barr,40,0.36
+23,Fillmore,President,,R,John McCain,4993,44.66
+23,Fillmore,President,,SWP,,6,0.05
+23,Fillmore,U.S. Senate,,CP,,59,0.53
+23,Fillmore,U.S. Senate,,DFL,Al Franken,4630,41.62
+23,Fillmore,U.S. Senate,,IND,Dean Barkley,1604,14.42
+23,Fillmore,U.S. Senate,,LIB,,60,0.54
+23,Fillmore,U.S. Senate,,R,Norm Coleman,4772,42.89
+24,Freeborn,President,,CP,,36,0.21
+24,Freeborn,President,,DFL,Barack Obama,9915,57.57
+24,Freeborn,President,,GP,Cynthia McKinney,25,0.15
+24,Freeborn,President,,IND,Ralph Nader,245,1.42
+24,Freeborn,President,,LIB,Bob Barr,43,0.25
+24,Freeborn,President,,R,John McCain,6955,40.38
+24,Freeborn,President,,SWP,,3,0.02
+24,Freeborn,U.S. Senate,,CP,,66,0.39
+24,Freeborn,U.S. Senate,,DFL,Al Franken,7432,43.45
+24,Freeborn,U.S. Senate,,IND,Dean Barkley,2920,17.07
+24,Freeborn,U.S. Senate,,LIB,,122,0.71
+24,Freeborn,U.S. Senate,,R,Norm Coleman,6566,38.38
+25,Goodhue,President,,CP,,77,0.30
+25,Goodhue,President,,DFL,Barack Obama,12420,48.30
+25,Goodhue,President,,GP,Cynthia McKinney,55,0.21
+25,Goodhue,President,,IND,Ralph Nader,316,1.23
+25,Goodhue,President,,LIB,Bob Barr,61,0.24
+25,Goodhue,President,,R,John McCain,12775,49.68
+25,Goodhue,President,,SWP,,10,0.04
+25,Goodhue,U.S. Senate,,CP,,89,0.35
+25,Goodhue,U.S. Senate,,DFL,Al Franken,9242,36.01
+25,Goodhue,U.S. Senate,,IND,Dean Barkley,5047,19.67
+25,Goodhue,U.S. Senate,,LIB,,110,0.43
+25,Goodhue,U.S. Senate,,R,Norm Coleman,11176,43.55
+26,Grant,President,,CP,,11,0.31
+26,Grant,President,,DFL,Barack Obama,1850,51.52
+26,Grant,President,,GP,Cynthia McKinney,6,0.17
+26,Grant,President,,IND,Ralph Nader,60,1.67
+26,Grant,President,,LIB,Bob Barr,17,0.47
+26,Grant,President,,R,John McCain,1646,45.84
+26,Grant,President,,SWP,,1,0.03
+26,Grant,U.S. Senate,,CP,,7,0.19
+26,Grant,U.S. Senate,,DFL,Al Franken,1469,40.86
+26,Grant,U.S. Senate,,IND,Dean Barkley,630,17.52
+26,Grant,U.S. Senate,,LIB,,6,0.17
+26,Grant,U.S. Senate,,R,Norm Coleman,1483,41.25
+27,Hennepin,President,,CP,,1071,0.16
+27,Hennepin,President,,DFL,Barack Obama,420958,63.62
+27,Hennepin,President,,GP,Cynthia McKinney,1151,0.17
+27,Hennepin,President,,IND,Ralph Nader,4992,0.75
+27,Hennepin,President,,LIB,Bob Barr,2320,0.35
+27,Hennepin,President,,R,John McCain,231054,34.92
+27,Hennepin,President,,SWP,,161,0.02
+27,Hennepin,U.S. Senate,,CP,,1649,0.25
+27,Hennepin,U.S. Senate,,DFL,Al Franken,329616,50.18
+27,Hennepin,U.S. Senate,,IND,Dean Barkley,84912,12.93
+27,Hennepin,U.S. Senate,,LIB,,3019,0.46
+27,Hennepin,U.S. Senate,,R,Norm Coleman,237712,36.19
+28,Houston,President,,CP,,28,0.26
+28,Houston,President,,DFL,Barack Obama,5906,54.43
+28,Houston,President,,GP,Cynthia McKinney,22,0.20
+28,Houston,President,,IND,Ralph Nader,123,1.13
+28,Houston,President,,LIB,Bob Barr,25,0.23
+28,Houston,President,,R,John McCain,4743,43.71
+28,Houston,President,,SWP,,3,0.03
+28,Houston,U.S. Senate,,CP,,30,0.28
+28,Houston,U.S. Senate,,DFL,Al Franken,4597,43.08
+28,Houston,U.S. Senate,,IND,Dean Barkley,942,8.83
+28,Houston,U.S. Senate,,LIB,,74,0.69
+28,Houston,U.S. Senate,,R,Norm Coleman,5027,47.11
+29,Hubbard,President,,CP,,25,0.22
+29,Hubbard,President,,DFL,Barack Obama,4872,41.95
+29,Hubbard,President,,GP,Cynthia McKinney,24,0.21
+29,Hubbard,President,,IND,Ralph Nader,101,0.87
+29,Hubbard,President,,LIB,Bob Barr,29,0.25
+29,Hubbard,President,,R,John McCain,6558,56.47
+29,Hubbard,President,,SWP,,4,0.03
+29,Hubbard,U.S. Senate,,CP,,38,0.33
+29,Hubbard,U.S. Senate,,DFL,Al Franken,4024,34.80
+29,Hubbard,U.S. Senate,,IND,Dean Barkley,1692,14.63
+29,Hubbard,U.S. Senate,,LIB,,57,0.49
+29,Hubbard,U.S. Senate,,R,Norm Coleman,5751,49.74
+30,Isanti,President,,CP,,43,0.22
+30,Isanti,President,,DFL,Barack Obama,8248,41.27
+30,Isanti,President,,GP,Cynthia McKinney,32,0.16
+30,Isanti,President,,IND,Ralph Nader,282,1.41
+30,Isanti,President,,LIB,Bob Barr,51,0.26
+30,Isanti,President,,R,John McCain,11324,56.66
+30,Isanti,President,,SWP,,6,0.03
+30,Isanti,U.S. Senate,,CP,,60,0.30
+30,Isanti,U.S. Senate,,DFL,Al Franken,6557,32.91
+30,Isanti,U.S. Senate,,IND,Dean Barkley,3648,18.31
+30,Isanti,U.S. Senate,,LIB,,96,0.48
+30,Isanti,U.S. Senate,,R,Norm Coleman,9564,48.00
+31,Itasca,President,,CP,,96,0.40
+31,Itasca,President,,DFL,Barack Obama,13460,55.38
+31,Itasca,President,,GP,Cynthia McKinney,37,0.15
+31,Itasca,President,,IND,Ralph Nader,333,1.37
+31,Itasca,President,,LIB,Bob Barr,65,0.27
+31,Itasca,President,,R,John McCain,10309,42.42
+31,Itasca,President,,SWP,,3,0.01
+31,Itasca,U.S. Senate,,CP,,126,0.52
+31,Itasca,U.S. Senate,,DFL,Al Franken,11544,47.65
+31,Itasca,U.S. Senate,,IND,Dean Barkley,3183,13.14
+31,Itasca,U.S. Senate,,LIB,,112,0.46
+31,Itasca,U.S. Senate,,R,Norm Coleman,9263,38.23
+32,Jackson,President,,CP,,20,0.36
+32,Jackson,President,,DFL,Barack Obama,2618,46.69
+32,Jackson,President,,GP,Cynthia McKinney,19,0.34
+32,Jackson,President,,IND,Ralph Nader,62,1.11
+32,Jackson,President,,LIB,Bob Barr,26,0.46
+32,Jackson,President,,R,John McCain,2858,50.97
+32,Jackson,President,,SWP,,4,0.07
+32,Jackson,U.S. Senate,,CP,,23,0.41
+32,Jackson,U.S. Senate,,DFL,Al Franken,2145,38.17
+32,Jackson,U.S. Senate,,IND,Dean Barkley,930,16.55
+32,Jackson,U.S. Senate,,LIB,,44,0.78
+32,Jackson,U.S. Senate,,R,Norm Coleman,2478,44.09
+33,Kanabec,President,,CP,,39,0.46
+33,Kanabec,President,,DFL,Barack Obama,3743,44.17
+33,Kanabec,President,,GP,Cynthia McKinney,31,0.37
+33,Kanabec,President,,IND,Ralph Nader,142,1.68
+33,Kanabec,President,,LIB,Bob Barr,33,0.39
+33,Kanabec,President,,R,John McCain,4479,52.86
+33,Kanabec,President,,SWP,,7,0.08
+33,Kanabec,U.S. Senate,,CP,,50,0.59
+33,Kanabec,U.S. Senate,,DFL,Al Franken,2980,35.27
+33,Kanabec,U.S. Senate,,IND,Dean Barkley,1631,19.30
+33,Kanabec,U.S. Senate,,LIB,,44,0.52
+33,Kanabec,U.S. Senate,,R,Norm Coleman,3745,44.32
+34,Kandiyohi,President,,CP,,61,0.28
+34,Kandiyohi,President,,DFL,Barack Obama,10125,46.35
+34,Kandiyohi,President,,GP,Cynthia McKinney,37,0.17
+34,Kandiyohi,President,,IND,Ralph Nader,225,1.03
+34,Kandiyohi,President,,LIB,Bob Barr,73,0.33
+34,Kandiyohi,President,,R,John McCain,11319,51.81
+34,Kandiyohi,President,,SWP,,6,0.03
+34,Kandiyohi,U.S. Senate,,CP,,59,0.27
+34,Kandiyohi,U.S. Senate,,DFL,Al Franken,8007,36.77
+34,Kandiyohi,U.S. Senate,,IND,Dean Barkley,3378,15.51
+34,Kandiyohi,U.S. Senate,,LIB,,84,0.39
+34,Kandiyohi,U.S. Senate,,R,Norm Coleman,10246,47.06
+35,Kittson,President,,CP,,4,0.16
+35,Kittson,President,,DFL,Barack Obama,1492,58.14
+35,Kittson,President,,GP,Cynthia McKinney,6,0.23
+35,Kittson,President,,IND,Ralph Nader,43,1.68
+35,Kittson,President,,LIB,Bob Barr,5,0.19
+35,Kittson,President,,R,John McCain,1016,39.59
+35,Kittson,U.S. Senate,,CP,,10,0.39
+35,Kittson,U.S. Senate,,DFL,Al Franken,1168,45.79
+35,Kittson,U.S. Senate,,IND,Dean Barkley,278,10.90
+35,Kittson,U.S. Senate,,LIB,,18,0.71
+35,Kittson,U.S. Senate,,R,Norm Coleman,1077,42.22
+36,Koochiching,President,,CP,,35,0.52
+36,Koochiching,President,,DFL,Barack Obama,3649,53.84
+36,Koochiching,President,,GP,Cynthia McKinney,14,0.21
+36,Koochiching,President,,IND,Ralph Nader,88,1.30
+36,Koochiching,President,,LIB,Bob Barr,28,0.41
+36,Koochiching,President,,R,John McCain,2962,43.70
+36,Koochiching,President,,SWP,,2,0.03
+36,Koochiching,U.S. Senate,,CP,,32,0.48
+36,Koochiching,U.S. Senate,,DFL,Al Franken,3090,45.98
+36,Koochiching,U.S. Senate,,IND,Dean Barkley,721,10.73
+36,Koochiching,U.S. Senate,,LIB,,31,0.46
+36,Koochiching,U.S. Senate,,R,Norm Coleman,2847,42.36
+37,Lac qui Parle,President,,CP,,22,0.53
+37,Lac qui Parle,President,,DFL,Barack Obama,2160,51.74
+37,Lac qui Parle,President,,GP,Cynthia McKinney,5,0.12
+37,Lac qui Parle,President,,IND,Ralph Nader,66,1.58
+37,Lac qui Parle,President,,LIB,Bob Barr,6,0.14
+37,Lac qui Parle,President,,R,John McCain,1912,45.80
+37,Lac qui Parle,President,,SWP,,4,0.10
+37,Lac qui Parle,U.S. Senate,,CP,,12,0.29
+37,Lac qui Parle,U.S. Senate,,DFL,Al Franken,1746,41.90
+37,Lac qui Parle,U.S. Senate,,IND,Dean Barkley,779,18.69
+37,Lac qui Parle,U.S. Senate,,LIB,,19,0.46
+37,Lac qui Parle,U.S. Senate,,R,Norm Coleman,1611,38.66
+38,Lake,President,,CP,,17,0.24
+38,Lake,President,,DFL,Barack Obama,4174,60.14
+38,Lake,President,,GP,Cynthia McKinney,19,0.27
+38,Lake,President,,IND,Ralph Nader,75,1.08
+38,Lake,President,,LIB,Bob Barr,19,0.27
+38,Lake,President,,R,John McCain,2636,37.98
+38,Lake,U.S. Senate,,CP,,16,0.23
+38,Lake,U.S. Senate,,DFL,Al Franken,3549,51.50
+38,Lake,U.S. Senate,,IND,Dean Barkley,863,12.52
+38,Lake,U.S. Senate,,LIB,,31,0.45
+38,Lake,U.S. Senate,,R,Norm Coleman,2432,35.29
+39,Lake of the Woods,President,,CP,,5,0.22
+39,Lake of the Woods,President,,DFL,Barack Obama,971,42.14
+39,Lake of the Woods,President,,GP,Cynthia McKinney,6,0.26
+39,Lake of the Woods,President,,IND,Ralph Nader,30,1.30
+39,Lake of the Woods,President,,LIB,Bob Barr,11,0.48
+39,Lake of the Woods,President,,R,John McCain,1278,55.47
+39,Lake of the Woods,President,,SWP,,3,0.13
+39,Lake of the Woods,U.S. Senate,,CP,,19,0.84
+39,Lake of the Woods,U.S. Senate,,DFL,Al Franken,770,34.00
+39,Lake of the Woods,U.S. Senate,,IND,Dean Barkley,258,11.39
+39,Lake of the Woods,U.S. Senate,,LIB,,14,0.62
+39,Lake of the Woods,U.S. Senate,,R,Norm Coleman,1204,53.16
+40,Le Sueur,President,,CP,,32,0.21
+40,Le Sueur,President,,DFL,Barack Obama,6994,46.72
+40,Le Sueur,President,,GP,Cynthia McKinney,38,0.25
+40,Le Sueur,President,,IND,Ralph Nader,225,1.50
+40,Le Sueur,President,,LIB,Bob Barr,37,0.25
+40,Le Sueur,President,,R,John McCain,7636,51.01
+40,Le Sueur,President,,SWP,,9,0.06
+40,Le Sueur,U.S. Senate,,CP,,45,0.30
+40,Le Sueur,U.S. Senate,,DFL,Al Franken,5270,35.19
+40,Le Sueur,U.S. Senate,,IND,Dean Barkley,3268,21.82
+40,Le Sueur,U.S. Senate,,LIB,,72,0.48
+40,Le Sueur,U.S. Senate,,R,Norm Coleman,6321,42.21
+41,Lincoln,President,,CP,,32,1.03
+41,Lincoln,President,,DFL,Barack Obama,1517,48.73
+41,Lincoln,President,,GP,Cynthia McKinney,6,0.19
+41,Lincoln,President,,IND,Ralph Nader,60,1.93
+41,Lincoln,President,,LIB,Bob Barr,7,0.22
+41,Lincoln,President,,R,John McCain,1491,47.90
+41,Lincoln,U.S. Senate,,CP,,16,0.51
+41,Lincoln,U.S. Senate,,DFL,Al Franken,1272,40.91
+41,Lincoln,U.S. Senate,,IND,Dean Barkley,341,10.97
+41,Lincoln,U.S. Senate,,LIB,,16,0.51
+41,Lincoln,U.S. Senate,,R,Norm Coleman,1464,47.09
+42,Lyon,President,,CP,,43,0.34
+42,Lyon,President,,DFL,Barack Obama,6110,48.22
+42,Lyon,President,,GP,Cynthia McKinney,17,0.13
+42,Lyon,President,,IND,Ralph Nader,152,1.20
+42,Lyon,President,,LIB,Bob Barr,34,0.27
+42,Lyon,President,,R,John McCain,6315,49.83
+42,Lyon,President,,SWP,,1,0.01
+42,Lyon,U.S. Senate,,CP,,52,0.41
+42,Lyon,U.S. Senate,,DFL,Al Franken,4410,34.97
+42,Lyon,U.S. Senate,,IND,Dean Barkley,1994,15.81
+42,Lyon,U.S. Senate,,LIB,,65,0.52
+42,Lyon,U.S. Senate,,R,Norm Coleman,6089,48.29
+44,Mahnomen,President,,CP,,4,0.17
+44,Mahnomen,President,,DFL,Barack Obama,1436,61.50
+44,Mahnomen,President,,GP,Cynthia McKinney,2,0.09
+44,Mahnomen,President,,IND,Ralph Nader,42,1.80
+44,Mahnomen,President,,LIB,Bob Barr,8,0.34
+44,Mahnomen,President,,R,John McCain,843,36.10
+44,Mahnomen,U.S. Senate,,CP,,8,0.34
+44,Mahnomen,U.S. Senate,,DFL,Al Franken,1142,49.16
+44,Mahnomen,U.S. Senate,,IND,Dean Barkley,299,12.87
+44,Mahnomen,U.S. Senate,,LIB,,16,0.69
+44,Mahnomen,U.S. Senate,,R,Norm Coleman,858,36.93
+45,Marshall,President,,CP,,16,0.34
+45,Marshall,President,,DFL,Barack Obama,2311,48.98
+45,Marshall,President,,GP,Cynthia McKinney,13,0.28
+45,Marshall,President,,IND,Ralph Nader,84,1.78
+45,Marshall,President,,LIB,Bob Barr,8,0.17
+45,Marshall,President,,R,John McCain,2285,48.43
+45,Marshall,President,,SWP,,1,0.02
+45,Marshall,U.S. Senate,,CP,,13,0.28
+45,Marshall,U.S. Senate,,DFL,Al Franken,1752,37.21
+45,Marshall,U.S. Senate,,IND,Dean Barkley,598,12.70
+45,Marshall,U.S. Senate,,LIB,,24,0.51
+45,Marshall,U.S. Senate,,R,Norm Coleman,2322,49.31
+46,Martin,President,,CP,,28,0.26
+46,Martin,President,,DFL,Barack Obama,4413,41.16
+46,Martin,President,,GP,Cynthia McKinney,21,0.20
+46,Martin,President,,IND,Ralph Nader,180,1.68
+46,Martin,President,,LIB,Bob Barr,22,0.21
+46,Martin,President,,R,John McCain,6053,56.45
+46,Martin,President,,SWP,,5,0.05
+46,Martin,U.S. Senate,,CP,,40,0.37
+46,Martin,U.S. Senate,,DFL,Al Franken,3589,33.64
+46,Martin,U.S. Senate,,IND,Dean Barkley,1869,17.52
+46,Martin,U.S. Senate,,LIB,,64,0.60
+46,Martin,U.S. Senate,,R,Norm Coleman,5108,47.87
+43,McLeod,President,,CP,,96,0.51
+43,McLeod,President,,DFL,Barack Obama,7505,39.58
+43,McLeod,President,,GP,Cynthia McKinney,41,0.22
+43,McLeod,President,,IND,Ralph Nader,284,1.50
+43,McLeod,President,,LIB,Bob Barr,39,0.21
+43,McLeod,President,,R,John McCain,10993,57.98
+43,McLeod,President,,SWP,,2,0.01
+43,McLeod,U.S. Senate,,CP,,119,0.63
+43,McLeod,U.S. Senate,,DFL,Al Franken,5496,29.00
+43,McLeod,U.S. Senate,,IND,Dean Barkley,4147,21.89
+43,McLeod,U.S. Senate,,LIB,,94,0.50
+43,McLeod,U.S. Senate,,R,Norm Coleman,9093,47.99
+61,Meeker,President,,CP,,15,0.23
+61,Meeker,President,,DFL,Barack Obama,3317,50.90
+61,Meeker,President,,GP,Cynthia McKinney,9,0.14
+61,Meeker,President,,IND,Ralph Nader,95,1.46
+61,Meeker,President,,LIB,Bob Barr,11,0.17
+61,Meeker,President,,R,John McCain,3069,47.09
+61,Meeker,President,,SWP,,1,0.02
+61,Meeker,U.S. Senate,,CP,,20,0.31
+61,Meeker,U.S. Senate,,DFL,Al Franken,2559,39.24
+61,Meeker,U.S. Senate,,IND,Dean Barkley,1171,17.95
+61,Meeker,U.S. Senate,,LIB,,23,0.35
+61,Meeker,U.S. Senate,,R,Norm Coleman,2749,42.15
+47,Mille Lacs,President,,CP,,83,0.66
+47,Mille Lacs,President,,DFL,Barack Obama,5380,43.08
+47,Mille Lacs,President,,GP,Cynthia McKinney,27,0.22
+47,Mille Lacs,President,,IND,Ralph Nader,235,1.88
+47,Mille Lacs,President,,LIB,Bob Barr,21,0.17
+47,Mille Lacs,President,,R,John McCain,6737,53.94
+47,Mille Lacs,President,,SWP,,6,0.05
+47,Mille Lacs,U.S. Senate,,CP,,69,0.55
+47,Mille Lacs,U.S. Senate,,DFL,Al Franken,3870,30.98
+47,Mille Lacs,U.S. Senate,,IND,Dean Barkley,2797,22.39
+47,Mille Lacs,U.S. Senate,,LIB,,60,0.48
+47,Mille Lacs,U.S. Senate,,R,Norm Coleman,5697,45.60
+48,Morrison,President,,CP,,50,0.37
+48,Morrison,President,,DFL,Barack Obama,6072,45.01
+48,Morrison,President,,GP,Cynthia McKinney,39,0.29
+48,Morrison,President,,IND,Ralph Nader,236,1.75
+48,Morrison,President,,LIB,Bob Barr,33,0.24
+48,Morrison,President,,R,John McCain,7049,52.26
+48,Morrison,President,,SWP,,10,0.07
+48,Morrison,U.S. Senate,,CP,,69,0.51
+48,Morrison,U.S. Senate,,DFL,Al Franken,4801,35.70
+48,Morrison,U.S. Senate,,IND,Dean Barkley,2654,19.74
+48,Morrison,U.S. Senate,,LIB,,72,0.54
+48,Morrison,U.S. Senate,,R,Norm Coleman,5852,43.52
+49,Mower,President,,CP,,54,0.32
+49,Mower,President,,DFL,Barack Obama,6547,39.21
+49,Mower,President,,GP,Cynthia McKinney,36,0.22
+49,Mower,President,,IND,Ralph Nader,275,1.65
+49,Mower,President,,LIB,Bob Barr,43,0.26
+49,Mower,President,,R,John McCain,9735,58.30
+49,Mower,President,,SWP,,9,0.05
+49,Mower,U.S. Senate,,CP,,61,0.37
+49,Mower,U.S. Senate,,DFL,Al Franken,5424,32.53
+49,Mower,U.S. Senate,,IND,Dean Barkley,3274,19.64
+49,Mower,U.S. Senate,,LIB,,89,0.53
+49,Mower,U.S. Senate,,R,Norm Coleman,7826,46.94
+50,Murray,President,,CP,,42,0.22
+50,Murray,President,,DFL,Barack Obama,11605,60.72
+50,Murray,President,,GP,Cynthia McKinney,31,0.16
+50,Murray,President,,IND,Ralph Nader,309,1.62
+50,Murray,President,,LIB,Bob Barr,45,0.24
+50,Murray,President,,R,John McCain,7075,37.02
+50,Murray,President,,SWP,,6,0.03
+50,Murray,U.S. Senate,,CP,,74,0.39
+50,Murray,U.S. Senate,,DFL,Al Franken,9093,47.83
+50,Murray,U.S. Senate,,IND,Dean Barkley,2859,15.04
+50,Murray,U.S. Senate,,LIB,,142,0.75
+50,Murray,U.S. Senate,,R,Norm Coleman,6844,36.00
+51,Nicollet,President,,CP,,20,0.42
+51,Nicollet,President,,DFL,Barack Obama,2345,48.87
+51,Nicollet,President,,GP,Cynthia McKinney,13,0.27
+51,Nicollet,President,,IND,Ralph Nader,91,1.90
+51,Nicollet,President,,LIB,Bob Barr,8,0.17
+51,Nicollet,President,,R,John McCain,2320,48.35
+51,Nicollet,President,,SWP,,1,0.02
+51,Nicollet,U.S. Senate,,CP,,16,0.33
+51,Nicollet,U.S. Senate,,DFL,Al Franken,1866,38.91
+51,Nicollet,U.S. Senate,,IND,Dean Barkley,560,11.68
+51,Nicollet,U.S. Senate,,LIB,,20,0.42
+51,Nicollet,U.S. Senate,,R,Norm Coleman,2334,48.67
+52,Nobles,President,,CP,,41,0.23
+52,Nobles,President,,DFL,Barack Obama,9887,54.34
+52,Nobles,President,,GP,Cynthia McKinney,38,0.21
+52,Nobles,President,,IND,Ralph Nader,212,1.17
+52,Nobles,President,,LIB,Bob Barr,41,0.23
+52,Nobles,President,,R,John McCain,7968,43.79
+52,Nobles,President,,SWP,,8,0.04
+52,Nobles,U.S. Senate,,CP,,46,0.25
+52,Nobles,U.S. Senate,,DFL,Al Franken,7384,40.86
+52,Nobles,U.S. Senate,,IND,Dean Barkley,3312,18.33
+52,Nobles,U.S. Senate,,LIB,,92,0.51
+52,Nobles,U.S. Senate,,R,Norm Coleman,7237,40.05
+53,Norman,President,,CP,,28,0.32
+53,Norman,President,,DFL,Barack Obama,4244,48.33
+53,Norman,President,,GP,Cynthia McKinney,19,0.22
+53,Norman,President,,IND,Ralph Nader,104,1.18
+53,Norman,President,,LIB,Bob Barr,15,0.17
+53,Norman,President,,R,John McCain,4368,49.74
+53,Norman,President,,SWP,,4,0.05
+53,Norman,U.S. Senate,,CP,,45,0.52
+53,Norman,U.S. Senate,,DFL,Al Franken,3534,40.53
+53,Norman,U.S. Senate,,IND,Dean Barkley,903,10.36
+53,Norman,U.S. Senate,,LIB,,45,0.52
+53,Norman,U.S. Senate,,R,Norm Coleman,4192,48.08
+54,Olmsted,President,,CP,,10,0.29
+54,Olmsted,President,,DFL,Barack Obama,2129,62.23
+54,Olmsted,President,,GP,Cynthia McKinney,4,0.12
+54,Olmsted,President,,IND,Ralph Nader,60,1.75
+54,Olmsted,President,,LIB,Bob Barr,12,0.35
+54,Olmsted,President,,R,John McCain,1204,35.19
+54,Olmsted,President,,SWP,,2,0.06
+54,Olmsted,U.S. Senate,,CP,,12,0.35
+54,Olmsted,U.S. Senate,,DFL,Al Franken,1576,46.24
+54,Olmsted,U.S. Senate,,IND,Dean Barkley,460,13.50
+54,Olmsted,U.S. Senate,,LIB,,26,0.76
+54,Olmsted,U.S. Senate,,R,Norm Coleman,1334,39.14
+55,Otter Tail,President,,CP,,186,0.24
+55,Otter Tail,President,,DFL,Barack Obama,38711,50.80
+55,Otter Tail,President,,GP,Cynthia McKinney,104,0.14
+55,Otter Tail,President,,IND,Ralph Nader,678,0.89
+55,Otter Tail,President,,LIB,Bob Barr,306,0.40
+55,Otter Tail,President,,R,John McCain,36202,47.51
+55,Otter Tail,President,,SWP,,19,0.02
+55,Otter Tail,U.S. Senate,,CP,,230,0.31
+55,Otter Tail,U.S. Senate,,DFL,Al Franken,28589,37.96
+55,Otter Tail,U.S. Senate,,IND,Dean Barkley,10666,14.16
+55,Otter Tail,U.S. Senate,,LIB,,496,0.66
+55,Otter Tail,U.S. Senate,,R,Norm Coleman,35334,46.91
+56,Pennington,President,,CP,,68,0.21
+56,Pennington,President,,DFL,Barack Obama,13856,42.53
+56,Pennington,President,,GP,Cynthia McKinney,55,0.17
+56,Pennington,President,,IND,Ralph Nader,433,1.33
+56,Pennington,President,,LIB,Bob Barr,81,0.25
+56,Pennington,President,,R,John McCain,18077,55.48
+56,Pennington,President,,SWP,,10,0.03
+56,Pennington,U.S. Senate,,CP,,101,0.31
+56,Pennington,U.S. Senate,,DFL,Al Franken,10740,33.08
+56,Pennington,U.S. Senate,,IND,Dean Barkley,4263,13.13
+56,Pennington,U.S. Senate,,LIB,,167,0.51
+56,Pennington,U.S. Senate,,R,Norm Coleman,17199,52.97
+57,Pine,President,,CP,,19,0.28
+57,Pine,President,,DFL,Barack Obama,3394,49.95
+57,Pine,President,,GP,Cynthia McKinney,15,0.22
+57,Pine,President,,IND,Ralph Nader,92,1.35
+57,Pine,President,,LIB,Bob Barr,24,0.35
+57,Pine,President,,R,John McCain,3248,47.80
+57,Pine,President,,SWP,,3,0.04
+57,Pine,U.S. Senate,,CP,,24,0.36
+57,Pine,U.S. Senate,,DFL,Al Franken,2595,38.56
+57,Pine,U.S. Senate,,IND,Dean Barkley,822,12.22
+57,Pine,U.S. Senate,,LIB,,49,0.73
+57,Pine,U.S. Senate,,R,Norm Coleman,3239,48.13
+58,Pipestone,President,,CP,,47,0.33
+58,Pipestone,President,,DFL,Barack Obama,7084,49.46
+58,Pipestone,President,,GP,Cynthia McKinney,49,0.34
+58,Pipestone,President,,IND,Ralph Nader,234,1.63
+58,Pipestone,President,,LIB,Bob Barr,44,0.31
+58,Pipestone,President,,R,John McCain,6862,47.91
+58,Pipestone,President,,SWP,,4,0.03
+58,Pipestone,U.S. Senate,,CP,,71,0.50
+58,Pipestone,U.S. Senate,,DFL,Al Franken,6016,41.98
+58,Pipestone,U.S. Senate,,IND,Dean Barkley,2489,17.37
+58,Pipestone,U.S. Senate,,LIB,,71,0.50
+58,Pipestone,U.S. Senate,,R,Norm Coleman,5683,39.66
+59,Polk,President,,CP,,17,0.36
+59,Polk,President,,DFL,Barack Obama,2023,42.34
+59,Polk,President,,GP,Cynthia McKinney,6,0.13
+59,Polk,President,,IND,Ralph Nader,67,1.40
+59,Polk,President,,LIB,Bob Barr,12,0.25
+59,Polk,President,,R,John McCain,2652,55.50
+59,Polk,President,,SWP,,1,0.02
+59,Polk,U.S. Senate,,CP,,25,0.53
+59,Polk,U.S. Senate,,DFL,Al Franken,1681,35.50
+59,Polk,U.S. Senate,,IND,Dean Barkley,369,7.79
+59,Polk,U.S. Senate,,LIB,,23,0.49
+59,Polk,U.S. Senate,,R,Norm Coleman,2637,55.69
+60,Pope,President,,CP,,26,0.17
+60,Pope,President,,DFL,Barack Obama,7850,51.43
+60,Pope,President,,GP,Cynthia McKinney,25,0.16
+60,Pope,President,,IND,Ralph Nader,179,1.17
+60,Pope,President,,LIB,Bob Barr,32,0.21
+60,Pope,President,,R,John McCain,7148,46.83
+60,Pope,President,,SWP,,3,0.02
+60,Pope,U.S. Senate,,CP,,50,0.33
+60,Pope,U.S. Senate,,DFL,Al Franken,5926,39.16
+60,Pope,U.S. Senate,,IND,Dean Barkley,1715,11.33
+60,Pope,U.S. Senate,,LIB,,89,0.59
+60,Pope,U.S. Senate,,R,Norm Coleman,7353,48.59
+62,Ramsey,President,,CP,,515,0.19
+62,Ramsey,President,,DFL,Barack Obama,182974,66.17
+62,Ramsey,President,,GP,Cynthia McKinney,536,0.19
+62,Ramsey,President,,IND,Ralph Nader,2491,0.90
+62,Ramsey,President,,LIB,Bob Barr,963,0.35
+62,Ramsey,President,,R,John McCain,88942,32.17
+62,Ramsey,President,,SWP,,90,0.03
+62,Ramsey,U.S. Senate,,CP,,796,0.29
+62,Ramsey,U.S. Senate,,DFL,Al Franken,142251,51.91
+62,Ramsey,U.S. Senate,,IND,Dean Barkley,36708,13.39
+62,Ramsey,U.S. Senate,,LIB,,1342,0.49
+62,Ramsey,U.S. Senate,,R,Norm Coleman,92952,33.92
+63,Red Lake,President,,CP,,18,0.83
+63,Red Lake,President,,DFL,Barack Obama,1120,51.42
+63,Red Lake,President,,GP,Cynthia McKinney,7,0.32
+63,Red Lake,President,,IND,Ralph Nader,47,2.16
+63,Red Lake,President,,LIB,Bob Barr,3,0.14
+63,Red Lake,President,,R,John McCain,983,45.13
+63,Red Lake,U.S. Senate,,CP,,14,0.65
+63,Red Lake,U.S. Senate,,DFL,Al Franken,834,38.65
+63,Red Lake,U.S. Senate,,IND,Dean Barkley,311,14.41
+63,Red Lake,U.S. Senate,,LIB,,15,0.70
+63,Red Lake,U.S. Senate,,R,Norm Coleman,984,45.60
+64,Redwood,President,,CP,,67,0.86
+64,Redwood,President,,DFL,Barack Obama,3250,41.75
+64,Redwood,President,,GP,Cynthia McKinney,14,0.18
+64,Redwood,President,,IND,Ralph Nader,121,1.55
+64,Redwood,President,,LIB,Bob Barr,19,0.24
+64,Redwood,President,,R,John McCain,4308,55.34
+64,Redwood,President,,SWP,,5,0.06
+64,Redwood,U.S. Senate,,CP,,53,0.68
+64,Redwood,U.S. Senate,,DFL,Al Franken,2454,31.65
+64,Redwood,U.S. Senate,,IND,Dean Barkley,1569,20.24
+64,Redwood,U.S. Senate,,LIB,,35,0.45
+64,Redwood,U.S. Senate,,R,Norm Coleman,3642,46.98
+65,Renville,President,,CP,,24,0.30
+65,Renville,President,,DFL,Barack Obama,3904,48.10
+65,Renville,President,,GP,Cynthia McKinney,11,0.14
+65,Renville,President,,IND,Ralph Nader,196,2.41
+65,Renville,President,,LIB,Bob Barr,25,0.31
+65,Renville,President,,R,John McCain,3956,48.74
+65,Renville,President,,SWP,,1,0.01
+65,Renville,U.S. Senate,,CP,,25,0.31
+65,Renville,U.S. Senate,,DFL,Al Franken,2909,35.87
+65,Renville,U.S. Senate,,IND,Dean Barkley,1854,22.86
+65,Renville,U.S. Senate,,LIB,,46,0.57
+65,Renville,U.S. Senate,,R,Norm Coleman,3275,40.39
+66,Rice,President,,CP,,79,0.25
+66,Rice,President,,DFL,Barack Obama,17381,54.83
+66,Rice,President,,GP,Cynthia McKinney,45,0.14
+66,Rice,President,,IND,Ralph Nader,368,1.16
+66,Rice,President,,LIB,Bob Barr,96,0.30
+66,Rice,President,,R,John McCain,13723,43.29
+66,Rice,President,,SWP,,9,0.03
+66,Rice,U.S. Senate,,CP,,93,0.30
+66,Rice,U.S. Senate,,DFL,Al Franken,13680,43.57
+66,Rice,U.S. Senate,,IND,Dean Barkley,5428,17.29
+66,Rice,U.S. Senate,,LIB,,135,0.43
+66,Rice,U.S. Senate,,R,Norm Coleman,12061,38.41
+67,Rock,President,,CP,,10,0.20
+67,Rock,President,,DFL,Barack Obama,2079,42.01
+67,Rock,President,,GP,Cynthia McKinney,17,0.34
+67,Rock,President,,IND,Ralph Nader,52,1.05
+67,Rock,President,,LIB,Bob Barr,13,0.26
+67,Rock,President,,R,John McCain,2775,56.07
+67,Rock,President,,SWP,,3,0.06
+67,Rock,U.S. Senate,,CP,,19,0.39
+67,Rock,U.S. Senate,,DFL,Al Franken,1750,35.77
+67,Rock,U.S. Senate,,IND,Dean Barkley,426,8.71
+67,Rock,U.S. Senate,,LIB,,41,0.84
+67,Rock,U.S. Senate,,R,Norm Coleman,2656,54.29
+68,Roseau,President,,CP,,17,0.22
+68,Roseau,President,,DFL,Barack Obama,3097,40.34
+68,Roseau,President,,GP,Cynthia McKinney,14,0.18
+68,Roseau,President,,IND,Ralph Nader,93,1.21
+68,Roseau,President,,LIB,Bob Barr,16,0.21
+68,Roseau,President,,R,John McCain,4438,57.81
+68,Roseau,President,,SWP,,2,0.03
+68,Roseau,U.S. Senate,,CP,,32,0.42
+68,Roseau,U.S. Senate,,DFL,Al Franken,2421,31.70
+68,Roseau,U.S. Senate,,IND,Dean Barkley,743,9.73
+68,Roseau,U.S. Senate,,LIB,,48,0.63
+68,Roseau,U.S. Senate,,R,Norm Coleman,4394,57.53
+70,Scott,President,,CP,,122,0.18
+70,Scott,President,,DFL,Barack Obama,29208,43.63
+70,Scott,President,,GP,Cynthia McKinney,100,0.15
+70,Scott,President,,IND,Ralph Nader,535,0.80
+70,Scott,President,,LIB,Bob Barr,250,0.37
+70,Scott,President,,R,John McCain,36724,54.86
+70,Scott,President,,SWP,,8,0.01
+70,Scott,U.S. Senate,,CP,,184,0.28
+70,Scott,U.S. Senate,,DFL,Al Franken,20693,31.06
+70,Scott,U.S. Senate,,IND,Dean Barkley,11615,17.43
+70,Scott,U.S. Senate,,LIB,,291,0.44
+70,Scott,U.S. Senate,,R,Norm Coleman,33839,50.79
+71,Sherburne,President,,CP,,134,0.30
+71,Sherburne,President,,DFL,Barack Obama,17957,40.04
+71,Sherburne,President,,GP,Cynthia McKinney,61,0.14
+71,Sherburne,President,,IND,Ralph Nader,438,0.98
+71,Sherburne,President,,LIB,Bob Barr,113,0.25
+71,Sherburne,President,,R,John McCain,26140,58.28
+71,Sherburne,President,,SWP,,8,0.02
+71,Sherburne,U.S. Senate,,CP,,150,0.34
+71,Sherburne,U.S. Senate,,DFL,Al Franken,13405,30.00
+71,Sherburne,U.S. Senate,,IND,Dean Barkley,8066,18.05
+71,Sherburne,U.S. Senate,,LIB,,170,0.38
+71,Sherburne,U.S. Senate,,R,Norm Coleman,22887,51.23
+72,Sibley,President,,CP,,16,0.21
+72,Sibley,President,,DFL,Barack Obama,2998,38.88
+72,Sibley,President,,GP,Cynthia McKinney,19,0.25
+72,Sibley,President,,IND,Ralph Nader,168,2.18
+72,Sibley,President,,LIB,Bob Barr,17,0.22
+72,Sibley,President,,R,John McCain,4492,58.25
+72,Sibley,President,,SWP,,1,0.01
+72,Sibley,U.S. Senate,,CP,,29,0.38
+72,Sibley,U.S. Senate,,DFL,Al Franken,2158,28.01
+72,Sibley,U.S. Senate,,IND,Dean Barkley,1976,25.65
+72,Sibley,U.S. Senate,,LIB,,42,0.55
+72,Sibley,U.S. Senate,,R,Norm Coleman,3499,45.42
+69,St. Louis,President,,CP,,318,0.27
+69,St. Louis,President,,DFL,Barack Obama,77351,65.37
+69,St. Louis,President,,GP,Cynthia McKinney,219,0.19
+69,St. Louis,President,,IND,Ralph Nader,1311,1.11
+69,St. Louis,President,,LIB,Bob Barr,343,0.29
+69,St. Louis,President,,R,John McCain,38742,32.74
+69,St. Louis,President,,SWP,,49,0.04
+69,St. Louis,U.S. Senate,,CP,,349,0.30
+69,St. Louis,U.S. Senate,,DFL,Al Franken,64531,54.69
+69,St. Louis,U.S. Senate,,IND,Dean Barkley,14283,12.10
+69,St. Louis,U.S. Senate,,LIB,,521,0.44
+69,St. Louis,U.S. Senate,,R,Norm Coleman,38320,32.47
+73,Stearns,President,,CP,,219,0.28
+73,Stearns,President,,DFL,Barack Obama,35690,45.46
+73,Stearns,President,,GP,Cynthia McKinney,191,0.24
+73,Stearns,President,,IND,Ralph Nader,990,1.26
+73,Stearns,President,,LIB,Bob Barr,196,0.25
+73,Stearns,President,,R,John McCain,41194,52.47
+73,Stearns,President,,SWP,,26,0.03
+73,Stearns,U.S. Senate,,CP,,239,0.31
+73,Stearns,U.S. Senate,,DFL,Al Franken,26161,33.53
+73,Stearns,U.S. Senate,,IND,Dean Barkley,15003,19.23
+73,Stearns,U.S. Senate,,LIB,,395,0.51
+73,Stearns,U.S. Senate,,R,Norm Coleman,36224,46.43
+74,Steele,President,,CP,,77,0.39
+74,Steele,President,,DFL,Barack Obama,9016,46.06
+74,Steele,President,,GP,Cynthia McKinney,48,0.25
+74,Steele,President,,IND,Ralph Nader,299,1.53
+74,Steele,President,,LIB,Bob Barr,63,0.32
+74,Steele,President,,R,John McCain,10068,51.43
+74,Steele,President,,SWP,,5,0.03
+74,Steele,U.S. Senate,,CP,,63,0.32
+74,Steele,U.S. Senate,,DFL,Al Franken,6552,33.53
+74,Steele,U.S. Senate,,IND,Dean Barkley,4173,21.35
+74,Steele,U.S. Senate,,LIB,,107,0.55
+74,Steele,U.S. Senate,,R,Norm Coleman,8647,44.25
+75,Stevens,President,,CP,,18,0.32
+75,Stevens,President,,DFL,Barack Obama,2781,49.51
+75,Stevens,President,,GP,Cynthia McKinney,17,0.30
+75,Stevens,President,,IND,Ralph Nader,72,1.28
+75,Stevens,President,,LIB,Bob Barr,16,0.28
+75,Stevens,President,,R,John McCain,2710,48.25
+75,Stevens,President,,SWP,,3,0.05
+75,Stevens,U.S. Senate,,CP,,20,0.36
+75,Stevens,U.S. Senate,,DFL,Al Franken,2250,40.12
+75,Stevens,U.S. Senate,,IND,Dean Barkley,784,13.98
+75,Stevens,U.S. Senate,,LIB,,28,0.50
+75,Stevens,U.S. Senate,,R,Norm Coleman,2526,45.04
+76,Swift,President,,CP,,18,0.34
+76,Swift,President,,DFL,Barack Obama,2907,55.52
+76,Swift,President,,GP,Cynthia McKinney,10,0.19
+76,Swift,President,,IND,Ralph Nader,99,1.89
+76,Swift,President,,LIB,Bob Barr,14,0.27
+76,Swift,President,,R,John McCain,2184,41.71
+76,Swift,President,,SWP,,4,0.08
+76,Swift,U.S. Senate,,CP,,18,0.34
+76,Swift,U.S. Senate,,DFL,Al Franken,2294,43.90
+76,Swift,U.S. Senate,,IND,Dean Barkley,1007,19.27
+76,Swift,U.S. Senate,,LIB,,28,0.54
+76,Swift,U.S. Senate,,R,Norm Coleman,1879,35.95
+77,Todd,President,,CP,,45,0.37
+77,Todd,President,,DFL,Barack Obama,5277,43.17
+77,Todd,President,,GP,Cynthia McKinney,22,0.18
+77,Todd,President,,IND,Ralph Nader,208,1.70
+77,Todd,President,,LIB,Bob Barr,30,0.25
+77,Todd,President,,R,John McCain,6637,54.29
+77,Todd,President,,SWP,,6,0.05
+77,Todd,U.S. Senate,,CP,,52,0.43
+77,Todd,U.S. Senate,,DFL,Al Franken,4177,34.32
+77,Todd,U.S. Senate,,IND,Dean Barkley,2346,19.28
+77,Todd,U.S. Senate,,LIB,,58,0.48
+77,Todd,U.S. Senate,,R,Norm Coleman,5536,45.49
+78,Traverse,President,,CP,,11,0.54
+78,Traverse,President,,DFL,Barack Obama,1043,51.30
+78,Traverse,President,,GP,Cynthia McKinney,3,0.15
+78,Traverse,President,,IND,Ralph Nader,37,1.82
+78,Traverse,President,,LIB,Bob Barr,4,0.20
+78,Traverse,President,,R,John McCain,933,45.89
+78,Traverse,President,,SWP,,2,0.10
+78,Traverse,U.S. Senate,,CP,,3,0.15
+78,Traverse,U.S. Senate,,DFL,Al Franken,794,39.17
+78,Traverse,U.S. Senate,,IND,Dean Barkley,381,18.80
+78,Traverse,U.S. Senate,,LIB,,12,0.59
+78,Traverse,U.S. Senate,,R,Norm Coleman,837,41.29
+79,Wabasha,President,,CP,,15,0.13
+79,Wabasha,President,,DFL,Barack Obama,5646,47.62
+79,Wabasha,President,,GP,Cynthia McKinney,24,0.20
+79,Wabasha,President,,IND,Ralph Nader,201,1.70
+79,Wabasha,President,,LIB,Bob Barr,32,0.27
+79,Wabasha,President,,R,John McCain,5935,50.05
+79,Wabasha,President,,SWP,,4,0.03
+79,Wabasha,U.S. Senate,,CP,,25,0.21
+79,Wabasha,U.S. Senate,,DFL,Al Franken,4466,37.79
+79,Wabasha,U.S. Senate,,IND,Dean Barkley,2305,19.50
+79,Wabasha,U.S. Senate,,LIB,,64,0.54
+79,Wabasha,U.S. Senate,,R,Norm Coleman,4959,41.96
+80,Wadena,President,,CP,,15,0.21
+80,Wadena,President,,DFL,Barack Obama,2882,40.26
+80,Wadena,President,,GP,Cynthia McKinney,16,0.22
+80,Wadena,President,,IND,Ralph Nader,102,1.42
+80,Wadena,President,,LIB,Bob Barr,11,0.15
+80,Wadena,President,,R,John McCain,4128,57.67
+80,Wadena,President,,SWP,,4,0.06
+80,Wadena,U.S. Senate,,CP,,27,0.38
+80,Wadena,U.S. Senate,,DFL,Al Franken,2294,32.09
+80,Wadena,U.S. Senate,,IND,Dean Barkley,1107,15.49
+80,Wadena,U.S. Senate,,LIB,,37,0.52
+80,Wadena,U.S. Senate,,R,Norm Coleman,3683,51.52
+81,Waseca,President,,CP,,16,0.16
+81,Waseca,President,,DFL,Barack Obama,4401,44.65
+81,Waseca,President,,GP,Cynthia McKinney,24,0.24
+81,Waseca,President,,IND,Ralph Nader,173,1.76
+81,Waseca,President,,LIB,Bob Barr,26,0.26
+81,Waseca,President,,R,John McCain,5211,52.87
+81,Waseca,President,,SWP,,6,0.06
+81,Waseca,U.S. Senate,,CP,,24,0.24
+81,Waseca,U.S. Senate,,DFL,Al Franken,3261,33.08
+81,Waseca,U.S. Senate,,IND,Dean Barkley,2285,23.18
+81,Waseca,U.S. Senate,,LIB,,58,0.59
+81,Waseca,U.S. Senate,,R,Norm Coleman,4229,42.90
+82,Washington,President,,CP,,259,0.19
+82,Washington,President,,DFL,Barack Obama,70277,51.44
+82,Washington,President,,GP,Cynthia McKinney,177,0.13
+82,Washington,President,,IND,Ralph Nader,1097,0.80
+82,Washington,President,,LIB,Bob Barr,442,0.32
+82,Washington,President,,R,John McCain,64334,47.09
+82,Washington,President,,SWP,,21,0.02
+82,Washington,U.S. Senate,,CP,,332,0.24
+82,Washington,U.S. Senate,,DFL,Al Franken,50562,37.19
+82,Washington,U.S. Senate,,IND,Dean Barkley,20711,15.23
+82,Washington,U.S. Senate,,LIB,,556,0.41
+82,Washington,U.S. Senate,,R,Norm Coleman,63804,46.93
+83,Watonwan,President,,CP,,18,0.34
+83,Watonwan,President,,DFL,Barack Obama,2562,48.89
+83,Watonwan,President,,GP,Cynthia McKinney,15,0.29
+83,Watonwan,President,,IND,Ralph Nader,103,1.97
+83,Watonwan,President,,LIB,Bob Barr,11,0.21
+83,Watonwan,President,,R,John McCain,2526,48.21
+83,Watonwan,President,,SWP,,5,0.10
+83,Watonwan,U.S. Senate,,CP,,16,0.31
+83,Watonwan,U.S. Senate,,DFL,Al Franken,2019,38.57
+83,Watonwan,U.S. Senate,,IND,Dean Barkley,1065,20.35
+83,Watonwan,U.S. Senate,,LIB,,30,0.57
+83,Watonwan,U.S. Senate,,R,Norm Coleman,2104,40.20
+84,Wilkin,President,,CP,,7,0.21
+84,Wilkin,President,,DFL,Barack Obama,1550,45.51
+84,Wilkin,President,,GP,Cynthia McKinney,6,0.18
+84,Wilkin,President,,IND,Ralph Nader,44,1.29
+84,Wilkin,President,,LIB,Bob Barr,11,0.32
+84,Wilkin,President,,R,John McCain,1786,52.44
+84,Wilkin,President,,SWP,,2,0.06
+84,Wilkin,U.S. Senate,,CP,,10,0.30
+84,Wilkin,U.S. Senate,,DFL,Al Franken,1074,31.83
+84,Wilkin,U.S. Senate,,IND,Dean Barkley,453,13.43
+84,Wilkin,U.S. Senate,,LIB,,23,0.68
+84,Wilkin,U.S. Senate,,R,Norm Coleman,1814,53.76
+85,Winona,President,,CP,,75,0.27
+85,Winona,President,,DFL,Barack Obama,16308,58.61
+85,Winona,President,,GP,Cynthia McKinney,57,0.20
+85,Winona,President,,IND,Ralph Nader,295,1.06
+85,Winona,President,,LIB,Bob Barr,106,0.38
+85,Winona,President,,R,John McCain,10975,39.44
+85,Winona,President,,SWP,,8,0.03
+85,Winona,U.S. Senate,,CP,,102,0.37
+85,Winona,U.S. Senate,,DFL,Al Franken,12761,46.88
+85,Winona,U.S. Senate,,IND,Dean Barkley,2782,10.22
+85,Winona,U.S. Senate,,LIB,,259,0.95
+85,Winona,U.S. Senate,,R,Norm Coleman,11318,41.58
+86,Wright,President,,CP,,204,0.31
+86,Wright,President,,DFL,Barack Obama,26343,40.30
+86,Wright,President,,GP,Cynthia McKinney,90,0.14
+86,Wright,President,,IND,Ralph Nader,751,1.15
+86,Wright,President,,LIB,Bob Barr,194,0.30
+86,Wright,President,,R,John McCain,37779,57.79
+86,Wright,President,,SWP,,12,0.02
+86,Wright,U.S. Senate,,CP,,233,0.36
+86,Wright,U.S. Senate,,DFL,Al Franken,18664,28.64
+86,Wright,U.S. Senate,,IND,Dean Barkley,13010,19.96
+86,Wright,U.S. Senate,,LIB,,267,0.41
+86,Wright,U.S. Senate,,R,Norm Coleman,32999,50.63
+87,Yellow Medicine,President,,CP,,27,0.49
+87,Yellow Medicine,President,,DFL,Barack Obama,2816,50.71
+87,Yellow Medicine,President,,GP,Cynthia McKinney,10,0.18
+87,Yellow Medicine,President,,IND,Ralph Nader,93,1.67
+87,Yellow Medicine,President,,LIB,Bob Barr,23,0.41
+87,Yellow Medicine,President,,R,John McCain,2579,46.44
+87,Yellow Medicine,President,,SWP,,5,0.09
+87,Yellow Medicine,U.S. Senate,,CP,,24,0.43
+87,Yellow Medicine,U.S. Senate,,DFL,Al Franken,2174,39.10
+87,Yellow Medicine,U.S. Senate,,IND,Dean Barkley,1028,18.49
+87,Yellow Medicine,U.S. Senate,,LIB,,21,0.38
+87,Yellow Medicine,U.S. Senate,,R,Norm Coleman,2313,41.60

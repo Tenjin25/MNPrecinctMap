@@ -1,0 +1,59 @@
+Fieldname,Definition
+VTDID,Vote Tabulation District ID 
+PCTNAME,Precinct Name
+PCTCODE,Precinct Number (unique within county)
+MCDNAME,Name of Municipality or Unorganized Territory
+COUNTYNAME,County Name
+COUNTYCODE,County Number
+CONGDIST,US Representative (Congressional) District
+MNSENDIST,MN Senate District
+MNLEGDIST,MN Legislative District
+CTYCOMDIST,County Commissioner District
+JUDDIST,Judicial District
+SWCDIST,Soil and Water Conservation District (see Districts tab)
+WARD,City Ward
+HOSPDIST,Hospital District (see Districts tab)
+PARKDIST,Park District (see Districts tab)
+TABMODEL,Model of Vote Tabulating Equipment used for precinct
+MAILBALLOT,Precincts using mail balloting
+REG7AM,Number of voters registered in precinct as of 7AM on election day (pre-registered voters)
+EDR,"Number of voters registering when they vote (in the polling place on election day, or when absentee voting)"
+SIGNATURES,Number of people voting in person (signatures on polling place roster)
+AB_MB,"Regular, and Uniformed and Overseas Citizens absentee ballots accepted plus mail ballots accepted"
+FEDONLYAB,Absentee ballots with federal offices only that were accepted (by citizens who are permanently or indefinitely overseas)
+PRESONLYAB,Absentee ballots with US President office only that were accepted (by citizens who moved out of Minnesota within 30 days of the election)
+TOTVOTING,Number of voters casting ballots
+USPRSR,U.S. President Republican candidate votes
+USPRSDFL,U.S. President Democratic-Farmer-Labor candidate votes
+USPRSLIB,U.S. President Libertarian candidate votes
+USPRSWTP,U.S. President We The People candidate votes
+USPRSG,U.S. President Green candidate votes
+USPRSSLP,U.S. President Socialism and Liberation candidate votes
+USPRSSWP,U.S. President Socialist Workers candidate votes
+USPRSJFA,U.S. President Justice For All candidate votes
+USPRSIND,U.S. President Independent candidate votes
+USPRSWI,U.S. President Write In candidate votes--includes registered and non-registered write-ins
+USPRSTOTAL,U.S. President total votes
+USSENR,U.S. Senator Republican candidate votes
+USSENDFL,U.S. Senator Democratic-Farmer-Labor candidate votes
+USSENLIB,U.S. Senator Libertarian candidate votes
+USSENIA,U.S. Senator Independence-Alliance candidate votes
+USSENWI,U.S. Senator Write In candidate votes--includes registered and non-registered write-ins
+USSENTOTAL,U.S. Senator total votes
+USREPR,U.S. Representative Republican candidate votes
+USREPDFL,U.S. Representative Democratic-Farmer-Labor candidate votes
+USREPWI,U.S. Representative Write In candidate votes--includes registered and non-registered write-ins
+USREPTOTAL,U.S. Representative total votes
+MNSENR,MN Senator Republican candidate votes
+MNSENDFL,MN Senator Democratic-Farmer-Labor candidate votes
+MNSENWI,MN Senator Write In candidate votes--includes registered and non-registered write-ins
+MNSENTOTAL,MN Senator total votes
+MNLEGR,MN Representative Republican candidate votes
+MNLEGDFL,MN Representative Democratic-Farmer-Labor candidate votes
+MNLEGWI,MN Representative Write In candidate votes--includes registered and non-registered write-ins
+MNLEGTOTAL,MN Representative total votes
+MNCA1YES,Constitutional Amendment 1 Yes votes
+MNCA1NO,Constitutional Amendment 1 No votes
+MNCA1EST,Constitutional Amendment 1 Estimated Blanks
+MNCA1TOTAL,Constitutional Amendment 1 Total votes (=TOTVOTING)
+End of worksheet,

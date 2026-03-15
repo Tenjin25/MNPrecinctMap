@@ -1,0 +1,1306 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,Attorney General,,DFL,Lori Swanson,4386,56.87
+01,Aitkin,Attorney General,,IND,Independence Party,344,4.46
+01,Aitkin,Attorney General,,R,Jeff Johnson,2982,38.67
+01,Aitkin,Governor,,DFL,Mike Hatch,3992,49.88
+01,Aitkin,Governor,,IND,Peter Hutchinson,538,6.72
+01,Aitkin,Governor,,R,Tim Pawlenty,3473,43.40
+01,Aitkin,Secretary of State,,DFL,Mark Ritchie,4016,53.25
+01,Aitkin,Secretary of State,,IND,Independence Party,228,3.02
+01,Aitkin,Secretary of State,,R,Mary Kiffmeyer,3298,43.73
+01,Aitkin,State Auditor,,DFL,Rebecca Otto,4260,55.75
+01,Aitkin,State Auditor,,IND,Lucy Gerold,378,4.95
+01,Aitkin,State Auditor,,R,Patricia Anderson Awada,3003,39.30
+01,Aitkin,U.S. Senate,,DFL,Amy Klobuchar,4701,58.41
+01,Aitkin,U.S. Senate,,IND,Robert Fitzgerald,300,3.73
+01,Aitkin,U.S. Senate,,R,Mark Kennedy,3047,37.86
+02,Anoka,Attorney General,,DFL,Lori Swanson,63865,50.17
+02,Anoka,Attorney General,,IND,Independence Party,5244,4.12
+02,Anoka,Attorney General,,R,Jeff Johnson,58190,45.71
+02,Anoka,Governor,,DFL,Mike Hatch,55989,42.36
+02,Anoka,Governor,,IND,Peter Hutchinson,7752,5.87
+02,Anoka,Governor,,R,Tim Pawlenty,68422,51.77
+02,Anoka,Secretary of State,,DFL,Mark Ritchie,59043,47.26
+02,Anoka,Secretary of State,,IND,Independence Party,4104,3.29
+02,Anoka,Secretary of State,,R,Mary Kiffmeyer,61782,49.45
+02,Anoka,State Auditor,,DFL,Rebecca Otto,62721,50.10
+02,Anoka,State Auditor,,IND,Lucy Gerold,6315,5.04
+02,Anoka,State Auditor,,R,Patricia Anderson Awada,56161,44.86
+02,Anoka,U.S. Senate,,DFL,Amy Klobuchar,72660,54.87
+02,Anoka,U.S. Senate,,IND,Robert Fitzgerald,4373,3.30
+02,Anoka,U.S. Senate,,R,Mark Kennedy,55399,41.83
+03,Becker,Attorney General,,DFL,Lori Swanson,5890,45.98
+03,Becker,Attorney General,,IND,Independence Party,397,3.10
+03,Becker,Attorney General,,R,Jeff Johnson,6523,50.92
+03,Becker,Governor,,DFL,Mike Hatch,5588,42.55
+03,Becker,Governor,,IND,Peter Hutchinson,587,4.47
+03,Becker,Governor,,R,Tim Pawlenty,6959,52.98
+03,Becker,Secretary of State,,DFL,Mark Ritchie,5513,44.50
+03,Becker,Secretary of State,,IND,Independence Party,327,2.64
+03,Becker,Secretary of State,,R,Mary Kiffmeyer,6548,52.86
+03,Becker,State Auditor,,DFL,Rebecca Otto,5979,47.23
+03,Becker,State Auditor,,IND,Lucy Gerold,487,3.85
+03,Becker,State Auditor,,R,Patricia Anderson Awada,6194,48.93
+03,Becker,U.S. Senate,,DFL,Amy Klobuchar,6816,51.46
+03,Becker,U.S. Senate,,IND,Robert Fitzgerald,413,3.12
+03,Becker,U.S. Senate,,R,Mark Kennedy,6016,45.42
+04,Beltrami,Attorney General,,DFL,Lori Swanson,9046,56.76
+04,Beltrami,Attorney General,,IND,Independence Party,480,3.01
+04,Beltrami,Attorney General,,R,Jeff Johnson,6410,40.22
+04,Beltrami,Governor,,DFL,Mike Hatch,8603,51.89
+04,Beltrami,Governor,,IND,Peter Hutchinson,706,4.26
+04,Beltrami,Governor,,R,Tim Pawlenty,7270,43.85
+04,Beltrami,Secretary of State,,DFL,Mark Ritchie,8456,53.15
+04,Beltrami,Secretary of State,,IND,Independence Party,305,1.92
+04,Beltrami,Secretary of State,,R,Mary Kiffmeyer,7148,44.93
+04,Beltrami,State Auditor,,DFL,Rebecca Otto,8572,54.22
+04,Beltrami,State Auditor,,IND,Lucy Gerold,493,3.12
+04,Beltrami,State Auditor,,R,Patricia Anderson Awada,6745,42.66
+04,Beltrami,U.S. Senate,,DFL,Amy Klobuchar,9714,58.06
+04,Beltrami,U.S. Senate,,IND,Robert Fitzgerald,507,3.03
+04,Beltrami,U.S. Senate,,R,Mark Kennedy,6511,38.91
+05,Benton,Attorney General,,DFL,Lori Swanson,6413,47.81
+05,Benton,Attorney General,,IND,Independence Party,551,4.11
+05,Benton,Attorney General,,R,Jeff Johnson,6449,48.08
+05,Benton,Governor,,DFL,Mike Hatch,5625,39.96
+05,Benton,Governor,,IND,Peter Hutchinson,739,5.25
+05,Benton,Governor,,R,Tim Pawlenty,7712,54.79
+05,Benton,Secretary of State,,DFL,Mark Ritchie,5751,42.96
+05,Benton,Secretary of State,,IND,Independence Party,359,2.68
+05,Benton,Secretary of State,,R,Mary Kiffmeyer,7277,54.36
+05,Benton,State Auditor,,DFL,Rebecca Otto,6479,48.91
+05,Benton,State Auditor,,IND,Lucy Gerold,585,4.42
+05,Benton,State Auditor,,R,Patricia Anderson Awada,6184,46.68
+05,Benton,U.S. Senate,,DFL,Amy Klobuchar,7295,51.71
+05,Benton,U.S. Senate,,IND,Robert Fitzgerald,498,3.53
+05,Benton,U.S. Senate,,R,Mark Kennedy,6314,44.76
+06,Big Stone,Attorney General,,DFL,Lori Swanson,1495,57.70
+06,Big Stone,Attorney General,,IND,Independence Party,104,4.01
+06,Big Stone,Attorney General,,R,Jeff Johnson,992,38.29
+06,Big Stone,Governor,,DFL,Mike Hatch,1353,50.60
+06,Big Stone,Governor,,IND,Peter Hutchinson,131,4.90
+06,Big Stone,Governor,,R,Tim Pawlenty,1190,44.50
+06,Big Stone,Secretary of State,,DFL,Mark Ritchie,1315,51.23
+06,Big Stone,Secretary of State,,IND,Independence Party,59,2.30
+06,Big Stone,Secretary of State,,R,Mary Kiffmeyer,1193,46.47
+06,Big Stone,State Auditor,,DFL,Rebecca Otto,1451,56.07
+06,Big Stone,State Auditor,,IND,Lucy Gerold,90,3.48
+06,Big Stone,State Auditor,,R,Patricia Anderson Awada,1047,40.46
+06,Big Stone,U.S. Senate,,DFL,Amy Klobuchar,1558,57.73
+06,Big Stone,U.S. Senate,,IND,Robert Fitzgerald,92,3.41
+06,Big Stone,U.S. Senate,,R,Mark Kennedy,1049,38.87
+07,Blue Earth,Attorney General,,DFL,Lori Swanson,13219,55.39
+07,Blue Earth,Attorney General,,IND,Independence Party,1180,4.94
+07,Blue Earth,Attorney General,,R,Jeff Johnson,9465,39.66
+07,Blue Earth,Governor,,DFL,Mike Hatch,12137,48.57
+07,Blue Earth,Governor,,IND,Peter Hutchinson,1620,6.48
+07,Blue Earth,Governor,,R,Tim Pawlenty,11231,44.95
+07,Blue Earth,Secretary of State,,DFL,Mark Ritchie,11988,51.11
+07,Blue Earth,Secretary of State,,IND,Independence Party,887,3.78
+07,Blue Earth,Secretary of State,,R,Mary Kiffmeyer,10581,45.11
+07,Blue Earth,State Auditor,,DFL,Rebecca Otto,12645,53.59
+07,Blue Earth,State Auditor,,IND,Lucy Gerold,1269,5.38
+07,Blue Earth,State Auditor,,R,Patricia Anderson Awada,9683,41.03
+07,Blue Earth,U.S. Senate,,DFL,Amy Klobuchar,14955,59.34
+07,Blue Earth,U.S. Senate,,IND,Robert Fitzgerald,835,3.31
+07,Blue Earth,U.S. Senate,,R,Mark Kennedy,9411,37.34
+08,Brown,Attorney General,,DFL,Lori Swanson,5117,46.16
+08,Brown,Attorney General,,IND,Independence Party,607,5.48
+08,Brown,Attorney General,,R,Jeff Johnson,5361,48.36
+08,Brown,Governor,,DFL,Mike Hatch,4357,37.97
+08,Brown,Governor,,IND,Peter Hutchinson,768,6.69
+08,Brown,Governor,,R,Tim Pawlenty,6350,55.34
+08,Brown,Secretary of State,,DFL,Mark Ritchie,4496,41.82
+08,Brown,Secretary of State,,IND,Independence Party,428,3.98
+08,Brown,Secretary of State,,R,Mary Kiffmeyer,5828,54.20
+08,Brown,State Auditor,,DFL,Rebecca Otto,4900,44.83
+08,Brown,State Auditor,,IND,Lucy Gerold,573,5.24
+08,Brown,State Auditor,,R,Patricia Anderson Awada,5456,49.92
+08,Brown,U.S. Senate,,DFL,Amy Klobuchar,5852,50.64
+08,Brown,U.S. Senate,,IND,Robert Fitzgerald,413,3.57
+08,Brown,U.S. Senate,,R,Mark Kennedy,5292,45.79
+09,Carlton,Attorney General,,DFL,Lori Swanson,9498,69.48
+09,Carlton,Attorney General,,IND,Independence Party,455,3.33
+09,Carlton,Attorney General,,R,Jeff Johnson,3717,27.19
+09,Carlton,Governor,,DFL,Mike Hatch,8721,62.33
+09,Carlton,Governor,,IND,Peter Hutchinson,709,5.07
+09,Carlton,Governor,,R,Tim Pawlenty,4561,32.60
+09,Carlton,Secretary of State,,DFL,Mark Ritchie,8514,63.39
+09,Carlton,Secretary of State,,IND,Independence Party,281,2.09
+09,Carlton,Secretary of State,,R,Mary Kiffmeyer,4637,34.52
+09,Carlton,State Auditor,,DFL,Rebecca Otto,8728,64.34
+09,Carlton,State Auditor,,IND,Lucy Gerold,533,3.93
+09,Carlton,State Auditor,,R,Patricia Anderson Awada,4305,31.73
+09,Carlton,U.S. Senate,,DFL,Amy Klobuchar,9701,68.89
+09,Carlton,U.S. Senate,,IND,Robert Fitzgerald,366,2.60
+09,Carlton,U.S. Senate,,R,Mark Kennedy,4015,28.51
+10,Carver,Attorney General,,DFL,Lori Swanson,13559,39.61
+10,Carver,Attorney General,,IND,Independence Party,1220,3.56
+10,Carver,Attorney General,,R,Jeff Johnson,19455,56.83
+10,Carver,Governor,,DFL,Mike Hatch,10932,30.32
+10,Carver,Governor,,IND,Peter Hutchinson,2038,5.65
+10,Carver,Governor,,R,Tim Pawlenty,23082,64.02
+10,Carver,Secretary of State,,DFL,Mark Ritchie,12532,36.86
+10,Carver,Secretary of State,,IND,Independence Party,951,2.80
+10,Carver,Secretary of State,,R,Mary Kiffmeyer,20513,60.34
+10,Carver,State Auditor,,DFL,Rebecca Otto,13640,40.18
+10,Carver,State Auditor,,IND,Lucy Gerold,1404,4.14
+10,Carver,State Auditor,,R,Patricia Anderson Awada,18900,55.68
+10,Carver,U.S. Senate,,DFL,Amy Klobuchar,16476,45.67
+10,Carver,U.S. Senate,,IND,Robert Fitzgerald,1019,2.82
+10,Carver,U.S. Senate,,R,Mark Kennedy,18585,51.51
+11,Cass,Attorney General,,DFL,Lori Swanson,5710,47.81
+11,Cass,Attorney General,,IND,Independence Party,485,4.06
+11,Cass,Attorney General,,R,Jeff Johnson,5749,48.13
+11,Cass,Governor,,DFL,Mike Hatch,5231,42.27
+11,Cass,Governor,,IND,Peter Hutchinson,660,5.33
+11,Cass,Governor,,R,Tim Pawlenty,6483,52.39
+11,Cass,Secretary of State,,DFL,Mark Ritchie,5284,44.68
+11,Cass,Secretary of State,,IND,Independence Party,334,2.82
+11,Cass,Secretary of State,,R,Mary Kiffmeyer,6209,52.50
+11,Cass,State Auditor,,DFL,Rebecca Otto,5576,46.97
+11,Cass,State Auditor,,IND,Lucy Gerold,518,4.36
+11,Cass,State Auditor,,R,Patricia Anderson Awada,5778,48.67
+11,Cass,U.S. Senate,,DFL,Amy Klobuchar,6356,51.06
+11,Cass,U.S. Senate,,IND,Robert Fitzgerald,397,3.19
+11,Cass,U.S. Senate,,R,Mark Kennedy,5695,45.75
+12,Chippewa,Attorney General,,DFL,Lori Swanson,3065,58.03
+12,Chippewa,Attorney General,,IND,Independence Party,159,3.01
+12,Chippewa,Attorney General,,R,Jeff Johnson,2058,38.96
+12,Chippewa,Governor,,DFL,Mike Hatch,2787,51.18
+12,Chippewa,Governor,,IND,Peter Hutchinson,281,5.16
+12,Chippewa,Governor,,R,Tim Pawlenty,2378,43.67
+12,Chippewa,Secretary of State,,DFL,Mark Ritchie,2774,53.52
+12,Chippewa,Secretary of State,,IND,Independence Party,113,2.18
+12,Chippewa,Secretary of State,,R,Mary Kiffmeyer,2296,44.30
+12,Chippewa,State Auditor,,DFL,Rebecca Otto,2936,56.02
+12,Chippewa,State Auditor,,IND,Lucy Gerold,154,2.94
+12,Chippewa,State Auditor,,R,Patricia Anderson Awada,2151,41.04
+12,Chippewa,U.S. Senate,,DFL,Amy Klobuchar,3353,61.23
+12,Chippewa,U.S. Senate,,IND,Robert Fitzgerald,135,2.47
+12,Chippewa,U.S. Senate,,R,Mark Kennedy,1988,36.30
+13,Chisago,Attorney General,,DFL,Lori Swanson,10450,50.32
+13,Chisago,Attorney General,,IND,Independence Party,864,4.16
+13,Chisago,Attorney General,,R,Jeff Johnson,9453,45.52
+13,Chisago,Governor,,DFL,Mike Hatch,8940,41.28
+13,Chisago,Governor,,IND,Peter Hutchinson,1282,5.92
+13,Chisago,Governor,,R,Tim Pawlenty,11437,52.80
+13,Chisago,Secretary of State,,DFL,Mark Ritchie,9637,47.06
+13,Chisago,Secretary of State,,IND,Independence Party,561,2.74
+13,Chisago,Secretary of State,,R,Mary Kiffmeyer,10282,50.21
+13,Chisago,State Auditor,,DFL,Rebecca Otto,10582,51.20
+13,Chisago,State Auditor,,IND,Lucy Gerold,884,4.28
+13,Chisago,State Auditor,,R,Patricia Anderson Awada,9203,44.53
+13,Chisago,U.S. Senate,,DFL,Amy Klobuchar,11535,53.12
+13,Chisago,U.S. Senate,,IND,Robert Fitzgerald,729,3.36
+13,Chisago,U.S. Senate,,R,Mark Kennedy,9451,43.52
+14,Clay,Attorney General,,DFL,Lori Swanson,10513,56.59
+14,Clay,Attorney General,,IND,Independence Party,538,2.90
+14,Clay,Attorney General,,R,Jeff Johnson,7527,40.52
+14,Clay,Governor,,DFL,Mike Hatch,8527,44.09
+14,Clay,Governor,,IND,Peter Hutchinson,746,3.86
+14,Clay,Governor,,R,Tim Pawlenty,10065,52.05
+14,Clay,Secretary of State,,DFL,Mark Ritchie,9369,51.66
+14,Clay,Secretary of State,,IND,Independence Party,502,2.77
+14,Clay,Secretary of State,,R,Mary Kiffmeyer,8265,45.57
+14,Clay,State Auditor,,DFL,Rebecca Otto,9644,52.87
+14,Clay,State Auditor,,IND,Lucy Gerold,682,3.74
+14,Clay,State Auditor,,R,Patricia Anderson Awada,7914,43.39
+14,Clay,U.S. Senate,,DFL,Amy Klobuchar,11086,57.12
+14,Clay,U.S. Senate,,IND,Robert Fitzgerald,580,2.99
+14,Clay,U.S. Senate,,R,Mark Kennedy,7741,39.89
+15,Clearwater,Attorney General,,DFL,Lori Swanson,1846,52.32
+15,Clearwater,Attorney General,,IND,Independence Party,139,3.94
+15,Clearwater,Attorney General,,R,Jeff Johnson,1543,43.74
+15,Clearwater,Governor,,DFL,Mike Hatch,1795,48.70
+15,Clearwater,Governor,,IND,Peter Hutchinson,173,4.69
+15,Clearwater,Governor,,R,Tim Pawlenty,1718,46.61
+15,Clearwater,Secretary of State,,DFL,Mark Ritchie,1621,46.47
+15,Clearwater,Secretary of State,,IND,Independence Party,78,2.24
+15,Clearwater,Secretary of State,,R,Mary Kiffmeyer,1789,51.29
+15,Clearwater,State Auditor,,DFL,Rebecca Otto,1699,48.32
+15,Clearwater,State Auditor,,IND,Lucy Gerold,145,4.12
+15,Clearwater,State Auditor,,R,Patricia Anderson Awada,1672,47.55
+15,Clearwater,U.S. Senate,,DFL,Amy Klobuchar,1927,51.91
+15,Clearwater,U.S. Senate,,IND,Robert Fitzgerald,110,2.96
+15,Clearwater,U.S. Senate,,R,Mark Kennedy,1675,45.12
+16,Cook,Attorney General,,DFL,Lori Swanson,1666,61.96
+16,Cook,Attorney General,,IND,Independence Party,129,4.80
+16,Cook,Attorney General,,R,Jeff Johnson,894,33.25
+16,Cook,Governor,,DFL,Mike Hatch,1519,54.39
+16,Cook,Governor,,IND,Peter Hutchinson,223,7.98
+16,Cook,Governor,,R,Tim Pawlenty,1051,37.63
+16,Cook,Secretary of State,,DFL,Mark Ritchie,1450,53.84
+16,Cook,Secretary of State,,IND,Independence Party,119,4.42
+16,Cook,Secretary of State,,R,Mary Kiffmeyer,1124,41.74
+16,Cook,State Auditor,,DFL,Rebecca Otto,1479,56.04
+16,Cook,State Auditor,,IND,Lucy Gerold,147,5.57
+16,Cook,State Auditor,,R,Patricia Anderson Awada,1013,38.39
+16,Cook,U.S. Senate,,DFL,Amy Klobuchar,1835,64.73
+16,Cook,U.S. Senate,,IND,Robert Fitzgerald,111,3.92
+16,Cook,U.S. Senate,,R,Mark Kennedy,889,31.36
+17,Cottonwood,Attorney General,,DFL,Lori Swanson,2558,49.46
+17,Cottonwood,Attorney General,,IND,Independence Party,206,3.98
+17,Cottonwood,Attorney General,,R,Jeff Johnson,2408,46.56
+17,Cottonwood,Governor,,DFL,Mike Hatch,2320,43.90
+17,Cottonwood,Governor,,IND,Peter Hutchinson,265,5.01
+17,Cottonwood,Governor,,R,Tim Pawlenty,2700,51.09
+17,Cottonwood,Secretary of State,,DFL,Mark Ritchie,2165,43.15
+17,Cottonwood,Secretary of State,,IND,Independence Party,126,2.51
+17,Cottonwood,Secretary of State,,R,Mary Kiffmeyer,2726,54.34
+17,Cottonwood,State Auditor,,DFL,Rebecca Otto,2384,46.18
+17,Cottonwood,State Auditor,,IND,Lucy Gerold,198,3.84
+17,Cottonwood,State Auditor,,R,Patricia Anderson Awada,2580,49.98
+17,Cottonwood,U.S. Senate,,DFL,Amy Klobuchar,2771,52.11
+17,Cottonwood,U.S. Senate,,IND,Robert Fitzgerald,145,2.73
+17,Cottonwood,U.S. Senate,,R,Mark Kennedy,2402,45.17
+18,Crow Wing,Attorney General,,DFL,Lori Swanson,12714,48.63
+18,Crow Wing,Attorney General,,IND,Independence Party,1019,3.90
+18,Crow Wing,Attorney General,,R,Jeff Johnson,12414,47.48
+18,Crow Wing,Governor,,DFL,Mike Hatch,11651,42.89
+18,Crow Wing,Governor,,IND,Peter Hutchinson,1404,5.17
+18,Crow Wing,Governor,,R,Tim Pawlenty,14113,51.95
+18,Crow Wing,Secretary of State,,DFL,Mark Ritchie,11697,45.22
+18,Crow Wing,Secretary of State,,IND,Independence Party,662,2.56
+18,Crow Wing,Secretary of State,,R,Mary Kiffmeyer,13506,52.22
+18,Crow Wing,State Auditor,,DFL,Rebecca Otto,12664,48.81
+18,Crow Wing,State Auditor,,IND,Lucy Gerold,1196,4.61
+18,Crow Wing,State Auditor,,R,Patricia Anderson Awada,12085,46.58
+18,Crow Wing,U.S. Senate,,DFL,Amy Klobuchar,13775,50.47
+18,Crow Wing,U.S. Senate,,IND,Robert Fitzgerald,892,3.27
+18,Crow Wing,U.S. Senate,,R,Mark Kennedy,12624,46.26
+19,Dakota,Attorney General,,DFL,Lori Swanson,81298,51.24
+19,Dakota,Attorney General,,IND,Independence Party,6136,3.87
+19,Dakota,Attorney General,,R,Jeff Johnson,71224,44.89
+19,Dakota,Governor,,DFL,Mike Hatch,67939,41.02
+19,Dakota,Governor,,IND,Peter Hutchinson,10630,6.42
+19,Dakota,Governor,,R,Tim Pawlenty,87039,52.56
+19,Dakota,Secretary of State,,DFL,Mark Ritchie,75425,48.31
+19,Dakota,Secretary of State,,IND,Independence Party,4638,2.97
+19,Dakota,Secretary of State,,R,Mary Kiffmeyer,76054,48.72
+19,Dakota,State Auditor,,DFL,Rebecca Otto,78384,50.14
+19,Dakota,State Auditor,,IND,Lucy Gerold,6835,4.37
+19,Dakota,State Auditor,,R,Patricia Anderson Awada,71102,45.48
+19,Dakota,U.S. Senate,,DFL,Amy Klobuchar,93247,56.31
+19,Dakota,U.S. Senate,,IND,Robert Fitzgerald,5072,3.06
+19,Dakota,U.S. Senate,,R,Mark Kennedy,67289,40.63
+20,Dodge,Attorney General,,DFL,Lori Swanson,3382,46.55
+20,Dodge,Attorney General,,IND,Independence Party,410,5.64
+20,Dodge,Attorney General,,R,Jeff Johnson,3474,47.81
+20,Dodge,Governor,,DFL,Mike Hatch,2925,38.81
+20,Dodge,Governor,,IND,Peter Hutchinson,430,5.71
+20,Dodge,Governor,,R,Tim Pawlenty,4182,55.49
+20,Dodge,Secretary of State,,DFL,Mark Ritchie,2935,41.12
+20,Dodge,Secretary of State,,IND,Independence Party,266,3.73
+20,Dodge,Secretary of State,,R,Mary Kiffmeyer,3937,55.16
+20,Dodge,State Auditor,,DFL,Rebecca Otto,3147,43.59
+20,Dodge,State Auditor,,IND,Lucy Gerold,407,5.64
+20,Dodge,State Auditor,,R,Patricia Anderson Awada,3665,50.77
+20,Dodge,U.S. Senate,,DFL,Amy Klobuchar,3909,51.59
+20,Dodge,U.S. Senate,,IND,Robert Fitzgerald,326,4.30
+20,Dodge,U.S. Senate,,R,Mark Kennedy,3342,44.11
+21,Douglas,Attorney General,,DFL,Lori Swanson,7246,46.01
+21,Douglas,Attorney General,,IND,Independence Party,565,3.59
+21,Douglas,Attorney General,,R,Jeff Johnson,7937,50.40
+21,Douglas,Governor,,DFL,Mike Hatch,6222,37.94
+21,Douglas,Governor,,IND,Peter Hutchinson,946,5.77
+21,Douglas,Governor,,R,Tim Pawlenty,9233,56.30
+21,Douglas,Secretary of State,,DFL,Mark Ritchie,6074,39.06
+21,Douglas,Secretary of State,,IND,Independence Party,384,2.47
+21,Douglas,Secretary of State,,R,Mary Kiffmeyer,9092,58.47
+21,Douglas,State Auditor,,DFL,Rebecca Otto,6885,43.98
+21,Douglas,State Auditor,,IND,Lucy Gerold,642,4.10
+21,Douglas,State Auditor,,R,Patricia Anderson Awada,8129,51.92
+21,Douglas,U.S. Senate,,DFL,Amy Klobuchar,8429,51.29
+21,Douglas,U.S. Senate,,IND,Robert Fitzgerald,530,3.23
+21,Douglas,U.S. Senate,,R,Mark Kennedy,7474,45.48
+22,Faribault,Attorney General,,DFL,Lori Swanson,3492,50.46
+22,Faribault,Attorney General,,IND,Independence Party,370,5.35
+22,Faribault,Attorney General,,R,Jeff Johnson,3058,44.19
+22,Faribault,Governor,,DFL,Mike Hatch,3117,43.62
+22,Faribault,Governor,,IND,Peter Hutchinson,471,6.59
+22,Faribault,Governor,,R,Tim Pawlenty,3558,49.79
+22,Faribault,Secretary of State,,DFL,Mark Ritchie,2716,40.19
+22,Faribault,Secretary of State,,IND,Independence Party,218,3.23
+22,Faribault,Secretary of State,,R,Mary Kiffmeyer,3824,56.58
+22,Faribault,State Auditor,,DFL,Rebecca Otto,3002,43.72
+22,Faribault,State Auditor,,IND,Lucy Gerold,427,6.22
+22,Faribault,State Auditor,,R,Patricia Anderson Awada,3438,50.07
+22,Faribault,U.S. Senate,,DFL,Amy Klobuchar,3877,53.91
+22,Faribault,U.S. Senate,,IND,Robert Fitzgerald,271,3.77
+22,Faribault,U.S. Senate,,R,Mark Kennedy,3044,42.32
+23,Fillmore,Attorney General,,DFL,Lori Swanson,4855,55.00
+23,Fillmore,Attorney General,,IND,Independence Party,439,4.97
+23,Fillmore,Attorney General,,R,Jeff Johnson,3533,40.02
+23,Fillmore,Governor,,DFL,Mike Hatch,4475,48.78
+23,Fillmore,Governor,,IND,Peter Hutchinson,453,4.94
+23,Fillmore,Governor,,R,Tim Pawlenty,4245,46.28
+23,Fillmore,Secretary of State,,DFL,Mark Ritchie,4024,47.13
+23,Fillmore,Secretary of State,,IND,Independence Party,266,3.12
+23,Fillmore,Secretary of State,,R,Mary Kiffmeyer,4248,49.75
+23,Fillmore,State Auditor,,DFL,Rebecca Otto,4285,48.98
+23,Fillmore,State Auditor,,IND,Lucy Gerold,554,6.33
+23,Fillmore,State Auditor,,R,Patricia Anderson Awada,3909,44.68
+23,Fillmore,U.S. Senate,,DFL,Amy Klobuchar,5329,57.71
+23,Fillmore,U.S. Senate,,IND,Robert Fitzgerald,374,4.05
+23,Fillmore,U.S. Senate,,R,Mark Kennedy,3531,38.24
+24,Freeborn,Attorney General,,DFL,Lori Swanson,8688,59.99
+24,Freeborn,Attorney General,,IND,Independence Party,597,4.12
+24,Freeborn,Attorney General,,R,Jeff Johnson,5197,35.89
+24,Freeborn,Governor,,DFL,Mike Hatch,8155,54.91
+24,Freeborn,Governor,,IND,Peter Hutchinson,716,4.82
+24,Freeborn,Governor,,R,Tim Pawlenty,5980,40.27
+24,Freeborn,Secretary of State,,DFL,Mark Ritchie,7238,51.28
+24,Freeborn,Secretary of State,,IND,Independence Party,338,2.39
+24,Freeborn,Secretary of State,,R,Mary Kiffmeyer,6540,46.33
+24,Freeborn,State Auditor,,DFL,Rebecca Otto,7674,53.67
+24,Freeborn,State Auditor,,IND,Lucy Gerold,636,4.45
+24,Freeborn,State Auditor,,R,Patricia Anderson Awada,5988,41.88
+24,Freeborn,U.S. Senate,,DFL,Amy Klobuchar,9417,62.60
+24,Freeborn,U.S. Senate,,IND,Robert Fitzgerald,446,2.96
+24,Freeborn,U.S. Senate,,R,Mark Kennedy,5180,34.43
+25,Goodhue,Attorney General,,DFL,Lori Swanson,9670,49.91
+25,Goodhue,Attorney General,,IND,Independence Party,848,4.38
+25,Goodhue,Attorney General,,R,Jeff Johnson,8855,45.71
+25,Goodhue,Governor,,DFL,Mike Hatch,8115,40.56
+25,Goodhue,Governor,,IND,Peter Hutchinson,1352,6.76
+25,Goodhue,Governor,,R,Tim Pawlenty,10541,52.68
+25,Goodhue,Secretary of State,,DFL,Mark Ritchie,8805,46.18
+25,Goodhue,Secretary of State,,IND,Independence Party,624,3.27
+25,Goodhue,Secretary of State,,R,Mary Kiffmeyer,9638,50.55
+25,Goodhue,State Auditor,,DFL,Rebecca Otto,9717,50.56
+25,Goodhue,State Auditor,,IND,Lucy Gerold,856,4.45
+25,Goodhue,State Auditor,,R,Patricia Anderson Awada,8644,44.98
+25,Goodhue,U.S. Senate,,DFL,Amy Klobuchar,11031,54.96
+25,Goodhue,U.S. Senate,,IND,Robert Fitzgerald,686,3.42
+25,Goodhue,U.S. Senate,,R,Mark Kennedy,8353,41.62
+26,Grant,Attorney General,,DFL,Lori Swanson,1664,54.61
+26,Grant,Attorney General,,IND,Independence Party,109,3.58
+26,Grant,Attorney General,,R,Jeff Johnson,1274,41.81
+26,Grant,Governor,,DFL,Mike Hatch,1497,47.83
+26,Grant,Governor,,IND,Peter Hutchinson,173,5.53
+26,Grant,Governor,,R,Tim Pawlenty,1460,46.65
+26,Grant,Secretary of State,,DFL,Mark Ritchie,1414,47.75
+26,Grant,Secretary of State,,IND,Independence Party,96,3.24
+26,Grant,Secretary of State,,R,Mary Kiffmeyer,1451,49.00
+26,Grant,State Auditor,,DFL,Rebecca Otto,1518,50.13
+26,Grant,State Auditor,,IND,Lucy Gerold,124,4.10
+26,Grant,State Auditor,,R,Patricia Anderson Awada,1386,45.77
+26,Grant,U.S. Senate,,DFL,Amy Klobuchar,1827,58.26
+26,Grant,U.S. Senate,,IND,Robert Fitzgerald,114,3.64
+26,Grant,U.S. Senate,,R,Mark Kennedy,1195,38.11
+27,Hennepin,Attorney General,,DFL,Lori Swanson,270441,58.76
+27,Hennepin,Attorney General,,IND,Independence Party,18387,4.00
+27,Hennepin,Attorney General,,R,Jeff Johnson,171388,37.24
+27,Hennepin,Governor,,DFL,Mike Hatch,249244,51.27
+27,Hennepin,Governor,,IND,Peter Hutchinson,37021,7.62
+27,Hennepin,Governor,,R,Tim Pawlenty,199867,41.11
+27,Hennepin,Secretary of State,,DFL,Mark Ritchie,266383,57.66
+27,Hennepin,Secretary of State,,IND,Independence Party,15011,3.25
+27,Hennepin,Secretary of State,,R,Mary Kiffmeyer,180594,39.09
+27,Hennepin,State Auditor,,DFL,Rebecca Otto,264895,58.25
+27,Hennepin,State Auditor,,IND,Lucy Gerold,22984,5.05
+27,Hennepin,State Auditor,,R,Patricia Anderson Awada,166877,36.70
+27,Hennepin,U.S. Senate,,DFL,Amy Klobuchar,317234,65.03
+27,Hennepin,U.S. Senate,,IND,Robert Fitzgerald,15245,3.12
+27,Hennepin,U.S. Senate,,R,Mark Kennedy,155374,31.85
+28,Houston,Attorney General,,DFL,Lori Swanson,4375,51.74
+28,Houston,Attorney General,,IND,Independence Party,489,5.78
+28,Houston,Attorney General,,R,Jeff Johnson,3591,42.47
+28,Houston,Governor,,DFL,Mike Hatch,4009,45.78
+28,Houston,Governor,,IND,Peter Hutchinson,369,4.21
+28,Houston,Governor,,R,Tim Pawlenty,4379,50.01
+28,Houston,Secretary of State,,DFL,Mark Ritchie,4061,49.78
+28,Houston,Secretary of State,,IND,Independence Party,257,3.15
+28,Houston,Secretary of State,,R,Mary Kiffmeyer,3840,47.07
+28,Houston,State Auditor,,DFL,Rebecca Otto,3998,47.90
+28,Houston,State Auditor,,IND,Lucy Gerold,498,5.97
+28,Houston,State Auditor,,R,Patricia Anderson Awada,3850,46.13
+28,Houston,U.S. Senate,,DFL,Amy Klobuchar,4642,52.79
+28,Houston,U.S. Senate,,IND,Robert Fitzgerald,425,4.83
+28,Houston,U.S. Senate,,R,Mark Kennedy,3727,42.38
+29,Hubbard,Attorney General,,DFL,Lori Swanson,4456,47.56
+29,Hubbard,Attorney General,,IND,Independence Party,378,4.03
+29,Hubbard,Attorney General,,R,Jeff Johnson,4535,48.40
+29,Hubbard,Governor,,DFL,Mike Hatch,4371,45.11
+29,Hubbard,Governor,,IND,Peter Hutchinson,484,5.00
+29,Hubbard,Governor,,R,Tim Pawlenty,4834,49.89
+29,Hubbard,Secretary of State,,DFL,Mark Ritchie,4084,44.46
+29,Hubbard,Secretary of State,,IND,Independence Party,241,2.62
+29,Hubbard,Secretary of State,,R,Mary Kiffmeyer,4861,52.92
+29,Hubbard,State Auditor,,DFL,Rebecca Otto,4335,46.92
+29,Hubbard,State Auditor,,IND,Lucy Gerold,367,3.97
+29,Hubbard,State Auditor,,R,Patricia Anderson Awada,4538,49.11
+29,Hubbard,U.S. Senate,,DFL,Amy Klobuchar,4895,50.12
+29,Hubbard,U.S. Senate,,IND,Robert Fitzgerald,309,3.16
+29,Hubbard,U.S. Senate,,R,Mark Kennedy,4562,46.71
+30,Isanti,Attorney General,,DFL,Lori Swanson,6777,48.28
+30,Isanti,Attorney General,,IND,Independence Party,589,4.20
+30,Isanti,Attorney General,,R,Jeff Johnson,6672,47.53
+30,Isanti,Governor,,DFL,Mike Hatch,5859,40.33
+30,Isanti,Governor,,IND,Peter Hutchinson,841,5.79
+30,Isanti,Governor,,R,Tim Pawlenty,7829,53.89
+30,Isanti,Secretary of State,,DFL,Mark Ritchie,6304,45.76
+30,Isanti,Secretary of State,,IND,Independence Party,415,3.01
+30,Isanti,Secretary of State,,R,Mary Kiffmeyer,7056,51.22
+30,Isanti,State Auditor,,DFL,Rebecca Otto,6821,48.96
+30,Isanti,State Auditor,,IND,Lucy Gerold,679,4.87
+30,Isanti,State Auditor,,R,Patricia Anderson Awada,6432,46.17
+30,Isanti,U.S. Senate,,DFL,Amy Klobuchar,7468,51.26
+30,Isanti,U.S. Senate,,IND,Robert Fitzgerald,482,3.31
+30,Isanti,U.S. Senate,,R,Mark Kennedy,6620,45.44
+31,Itasca,Attorney General,,DFL,Lori Swanson,11616,62.68
+31,Itasca,Attorney General,,IND,Independence Party,683,3.69
+31,Itasca,Attorney General,,R,Jeff Johnson,6234,33.64
+31,Itasca,Governor,,DFL,Mike Hatch,10976,57.35
+31,Itasca,Governor,,IND,Peter Hutchinson,892,4.66
+31,Itasca,Governor,,R,Tim Pawlenty,7270,37.99
+31,Itasca,Secretary of State,,DFL,Mark Ritchie,10687,58.35
+31,Itasca,Secretary of State,,IND,Independence Party,514,2.81
+31,Itasca,Secretary of State,,R,Mary Kiffmeyer,7115,38.85
+31,Itasca,State Auditor,,DFL,Rebecca Otto,10797,58.84
+31,Itasca,State Auditor,,IND,Lucy Gerold,738,4.02
+31,Itasca,State Auditor,,R,Patricia Anderson Awada,6814,37.14
+31,Itasca,U.S. Senate,,DFL,Amy Klobuchar,12082,62.65
+31,Itasca,U.S. Senate,,IND,Robert Fitzgerald,573,2.97
+31,Itasca,U.S. Senate,,R,Mark Kennedy,6630,34.38
+32,Jackson,Attorney General,,DFL,Lori Swanson,2405,49.96
+32,Jackson,Attorney General,,IND,Independence Party,204,4.24
+32,Jackson,Attorney General,,R,Jeff Johnson,2205,45.80
+32,Jackson,Governor,,DFL,Mike Hatch,2312,46.99
+32,Jackson,Governor,,IND,Peter Hutchinson,234,4.76
+32,Jackson,Governor,,R,Tim Pawlenty,2374,48.25
+32,Jackson,Secretary of State,,DFL,Mark Ritchie,2228,47.67
+32,Jackson,Secretary of State,,IND,Independence Party,130,2.78
+32,Jackson,Secretary of State,,R,Mary Kiffmeyer,2316,49.55
+32,Jackson,State Auditor,,DFL,Rebecca Otto,2370,49.35
+32,Jackson,State Auditor,,IND,Lucy Gerold,226,4.71
+32,Jackson,State Auditor,,R,Patricia Anderson Awada,2206,45.94
+32,Jackson,U.S. Senate,,DFL,Amy Klobuchar,2675,53.83
+32,Jackson,U.S. Senate,,IND,Robert Fitzgerald,181,3.64
+32,Jackson,U.S. Senate,,R,Mark Kennedy,2113,42.52
+33,Kanabec,Attorney General,,DFL,Lori Swanson,3257,51.78
+33,Kanabec,Attorney General,,IND,Independence Party,240,3.82
+33,Kanabec,Attorney General,,R,Jeff Johnson,2793,44.40
+33,Kanabec,Governor,,DFL,Mike Hatch,2842,44.04
+33,Kanabec,Governor,,IND,Peter Hutchinson,421,6.52
+33,Kanabec,Governor,,R,Tim Pawlenty,3190,49.43
+33,Kanabec,Secretary of State,,DFL,Mark Ritchie,2933,47.65
+33,Kanabec,Secretary of State,,IND,Independence Party,188,3.05
+33,Kanabec,Secretary of State,,R,Mary Kiffmeyer,3034,49.29
+33,Kanabec,State Auditor,,DFL,Rebecca Otto,3183,51.06
+33,Kanabec,State Auditor,,IND,Lucy Gerold,292,4.68
+33,Kanabec,State Auditor,,R,Patricia Anderson Awada,2759,44.26
+33,Kanabec,U.S. Senate,,DFL,Amy Klobuchar,3499,53.92
+33,Kanabec,U.S. Senate,,IND,Robert Fitzgerald,196,3.02
+33,Kanabec,U.S. Senate,,R,Mark Kennedy,2794,43.06
+34,Kandiyohi,Attorney General,,DFL,Lori Swanson,8445,48.93
+34,Kandiyohi,Attorney General,,IND,Independence Party,620,3.59
+34,Kandiyohi,Attorney General,,R,Jeff Johnson,8193,47.47
+34,Kandiyohi,Governor,,DFL,Mike Hatch,7555,42.47
+34,Kandiyohi,Governor,,IND,Peter Hutchinson,986,5.54
+34,Kandiyohi,Governor,,R,Tim Pawlenty,9248,51.99
+34,Kandiyohi,Secretary of State,,DFL,Mark Ritchie,7432,43.96
+34,Kandiyohi,Secretary of State,,IND,Independence Party,472,2.79
+34,Kandiyohi,Secretary of State,,R,Mary Kiffmeyer,9004,53.25
+34,Kandiyohi,State Auditor,,DFL,Rebecca Otto,8285,48.50
+34,Kandiyohi,State Auditor,,IND,Lucy Gerold,672,3.93
+34,Kandiyohi,State Auditor,,R,Patricia Anderson Awada,8126,47.57
+34,Kandiyohi,U.S. Senate,,DFL,Amy Klobuchar,9483,53.16
+34,Kandiyohi,U.S. Senate,,IND,Robert Fitzgerald,442,2.48
+34,Kandiyohi,U.S. Senate,,R,Mark Kennedy,7913,44.36
+35,Kittson,Attorney General,,DFL,Lori Swanson,1370,65.33
+35,Kittson,Attorney General,,IND,Independence Party,63,3.00
+35,Kittson,Attorney General,,R,Jeff Johnson,664,31.66
+35,Kittson,Governor,,DFL,Mike Hatch,1229,56.90
+35,Kittson,Governor,,IND,Peter Hutchinson,85,3.94
+35,Kittson,Governor,,R,Tim Pawlenty,846,39.17
+35,Kittson,Secretary of State,,DFL,Mark Ritchie,1245,60.00
+35,Kittson,Secretary of State,,IND,Independence Party,38,1.83
+35,Kittson,Secretary of State,,R,Mary Kiffmeyer,792,38.17
+35,Kittson,State Auditor,,DFL,Rebecca Otto,1266,60.89
+35,Kittson,State Auditor,,IND,Lucy Gerold,63,3.03
+35,Kittson,State Auditor,,R,Patricia Anderson Awada,750,36.08
+35,Kittson,U.S. Senate,,DFL,Amy Klobuchar,1438,65.90
+35,Kittson,U.S. Senate,,IND,Robert Fitzgerald,51,2.34
+35,Kittson,U.S. Senate,,R,Mark Kennedy,693,31.76
+36,Koochiching,Attorney General,,DFL,Lori Swanson,3510,64.77
+36,Koochiching,Attorney General,,IND,Independence Party,232,4.28
+36,Koochiching,Attorney General,,R,Jeff Johnson,1677,30.95
+36,Koochiching,Governor,,DFL,Mike Hatch,3309,59.38
+36,Koochiching,Governor,,IND,Peter Hutchinson,275,4.93
+36,Koochiching,Governor,,R,Tim Pawlenty,1989,35.69
+36,Koochiching,Secretary of State,,DFL,Mark Ritchie,2927,55.30
+36,Koochiching,Secretary of State,,IND,Independence Party,142,2.68
+36,Koochiching,Secretary of State,,R,Mary Kiffmeyer,2224,42.02
+36,Koochiching,State Auditor,,DFL,Rebecca Otto,3154,59.06
+36,Koochiching,State Auditor,,IND,Lucy Gerold,262,4.91
+36,Koochiching,State Auditor,,R,Patricia Anderson Awada,1924,36.03
+36,Koochiching,U.S. Senate,,DFL,Amy Klobuchar,3635,64.78
+36,Koochiching,U.S. Senate,,IND,Robert Fitzgerald,159,2.83
+36,Koochiching,U.S. Senate,,R,Mark Kennedy,1817,32.38
+37,Lac qui Parle,Attorney General,,DFL,Lori Swanson,2175,58.00
+37,Lac qui Parle,Attorney General,,IND,Independence Party,137,3.65
+37,Lac qui Parle,Attorney General,,R,Jeff Johnson,1438,38.35
+37,Lac qui Parle,Governor,,DFL,Mike Hatch,1905,49.33
+37,Lac qui Parle,Governor,,IND,Peter Hutchinson,209,5.41
+37,Lac qui Parle,Governor,,R,Tim Pawlenty,1748,45.26
+37,Lac qui Parle,Secretary of State,,DFL,Mark Ritchie,1912,51.91
+37,Lac qui Parle,Secretary of State,,IND,Independence Party,103,2.80
+37,Lac qui Parle,Secretary of State,,R,Mary Kiffmeyer,1668,45.29
+37,Lac qui Parle,State Auditor,,DFL,Rebecca Otto,2014,53.95
+37,Lac qui Parle,State Auditor,,IND,Lucy Gerold,136,3.64
+37,Lac qui Parle,State Auditor,,R,Patricia Anderson Awada,1583,42.41
+37,Lac qui Parle,U.S. Senate,,DFL,Amy Klobuchar,2313,59.51
+37,Lac qui Parle,U.S. Senate,,IND,Robert Fitzgerald,119,3.06
+37,Lac qui Parle,U.S. Senate,,R,Mark Kennedy,1455,37.43
+38,Lake,Attorney General,,DFL,Lori Swanson,3928,69.06
+38,Lake,Attorney General,,IND,Independence Party,195,3.43
+38,Lake,Attorney General,,R,Jeff Johnson,1565,27.51
+38,Lake,Governor,,DFL,Mike Hatch,3632,61.80
+38,Lake,Governor,,IND,Peter Hutchinson,344,5.85
+38,Lake,Governor,,R,Tim Pawlenty,1901,32.35
+38,Lake,Secretary of State,,DFL,Mark Ritchie,3508,62.10
+38,Lake,Secretary of State,,IND,Independence Party,152,2.69
+38,Lake,Secretary of State,,R,Mary Kiffmeyer,1989,35.21
+38,Lake,State Auditor,,DFL,Rebecca Otto,3510,62.65
+38,Lake,State Auditor,,IND,Lucy Gerold,250,4.46
+38,Lake,State Auditor,,R,Patricia Anderson Awada,1843,32.89
+38,Lake,U.S. Senate,,DFL,Amy Klobuchar,4061,68.32
+38,Lake,U.S. Senate,,IND,Robert Fitzgerald,169,2.84
+38,Lake,U.S. Senate,,R,Mark Kennedy,1714,28.84
+39,Lake of the Woods,Attorney General,,DFL,Lori Swanson,928,51.56
+39,Lake of the Woods,Attorney General,,IND,Independence Party,102,5.67
+39,Lake of the Woods,Attorney General,,R,Jeff Johnson,770,42.78
+39,Lake of the Woods,Governor,,DFL,Mike Hatch,847,45.05
+39,Lake of the Woods,Governor,,IND,Peter Hutchinson,80,4.26
+39,Lake of the Woods,Governor,,R,Tim Pawlenty,953,50.69
+39,Lake of the Woods,Secretary of State,,DFL,Mark Ritchie,817,45.21
+39,Lake of the Woods,Secretary of State,,IND,Independence Party,66,3.65
+39,Lake of the Woods,Secretary of State,,R,Mary Kiffmeyer,924,51.13
+39,Lake of the Woods,State Auditor,,DFL,Rebecca Otto,880,48.78
+39,Lake of the Woods,State Auditor,,IND,Lucy Gerold,78,4.32
+39,Lake of the Woods,State Auditor,,R,Patricia Anderson Awada,846,46.90
+39,Lake of the Woods,U.S. Senate,,DFL,Amy Klobuchar,1032,53.89
+39,Lake of the Woods,U.S. Senate,,IND,Robert Fitzgerald,68,3.55
+39,Lake of the Woods,U.S. Senate,,R,Mark Kennedy,815,42.56
+40,Le Sueur,Attorney General,,DFL,Lori Swanson,5684,51.57
+40,Le Sueur,Attorney General,,IND,Independence Party,508,4.61
+40,Le Sueur,Attorney General,,R,Jeff Johnson,4830,43.82
+40,Le Sueur,Governor,,DFL,Mike Hatch,4752,41.86
+40,Le Sueur,Governor,,IND,Peter Hutchinson,727,6.40
+40,Le Sueur,Governor,,R,Tim Pawlenty,5874,51.74
+40,Le Sueur,Secretary of State,,DFL,Mark Ritchie,5262,49.04
+40,Le Sueur,Secretary of State,,IND,Independence Party,377,3.51
+40,Le Sueur,Secretary of State,,R,Mary Kiffmeyer,5091,47.45
+40,Le Sueur,State Auditor,,DFL,Rebecca Otto,5590,51.30
+40,Le Sueur,State Auditor,,IND,Lucy Gerold,571,5.24
+40,Le Sueur,State Auditor,,R,Patricia Anderson Awada,4736,43.46
+40,Le Sueur,U.S. Senate,,DFL,Amy Klobuchar,6328,55.49
+40,Le Sueur,U.S. Senate,,IND,Robert Fitzgerald,437,3.83
+40,Le Sueur,U.S. Senate,,R,Mark Kennedy,4638,40.67
+41,Lincoln,Attorney General,,DFL,Lori Swanson,1417,54.73
+41,Lincoln,Attorney General,,IND,Independence Party,121,4.67
+41,Lincoln,Attorney General,,R,Jeff Johnson,1051,40.59
+41,Lincoln,Governor,,DFL,Mike Hatch,1287,48.57
+41,Lincoln,Governor,,IND,Peter Hutchinson,129,4.87
+41,Lincoln,Governor,,R,Tim Pawlenty,1234,46.57
+41,Lincoln,Secretary of State,,DFL,Mark Ritchie,1225,49.34
+41,Lincoln,Secretary of State,,IND,Independence Party,71,2.86
+41,Lincoln,Secretary of State,,R,Mary Kiffmeyer,1187,47.81
+41,Lincoln,State Auditor,,DFL,Rebecca Otto,1355,53.05
+41,Lincoln,State Auditor,,IND,Lucy Gerold,114,4.46
+41,Lincoln,State Auditor,,R,Patricia Anderson Awada,1085,42.48
+41,Lincoln,U.S. Senate,,DFL,Amy Klobuchar,1471,55.32
+41,Lincoln,U.S. Senate,,IND,Robert Fitzgerald,96,3.61
+41,Lincoln,U.S. Senate,,R,Mark Kennedy,1092,41.07
+42,Lyon,Attorney General,,DFL,Lori Swanson,4350,47.64
+42,Lyon,Attorney General,,IND,Independence Party,345,3.78
+42,Lyon,Attorney General,,R,Jeff Johnson,4436,48.58
+42,Lyon,Governor,,DFL,Mike Hatch,3673,39.16
+42,Lyon,Governor,,IND,Peter Hutchinson,464,4.95
+42,Lyon,Governor,,R,Tim Pawlenty,5243,55.90
+42,Lyon,Secretary of State,,DFL,Mark Ritchie,3767,42.21
+42,Lyon,Secretary of State,,IND,Independence Party,243,2.72
+42,Lyon,Secretary of State,,R,Mary Kiffmeyer,4915,55.07
+42,Lyon,State Auditor,,DFL,Rebecca Otto,4165,46.07
+42,Lyon,State Auditor,,IND,Lucy Gerold,333,3.68
+42,Lyon,State Auditor,,R,Patricia Anderson Awada,4542,50.24
+42,Lyon,U.S. Senate,,DFL,Amy Klobuchar,4718,50.16
+42,Lyon,U.S. Senate,,IND,Robert Fitzgerald,274,2.91
+42,Lyon,U.S. Senate,,R,Mark Kennedy,4414,46.93
+44,Mahnomen,Attorney General,,DFL,Lori Swanson,1342,63.97
+44,Mahnomen,Attorney General,,IND,Independence Party,94,4.48
+44,Mahnomen,Attorney General,,R,Jeff Johnson,662,31.55
+44,Mahnomen,Governor,,DFL,Mike Hatch,1231,56.55
+44,Mahnomen,Governor,,IND,Peter Hutchinson,94,4.32
+44,Mahnomen,Governor,,R,Tim Pawlenty,852,39.14
+44,Mahnomen,Secretary of State,,DFL,Mark Ritchie,1213,59.81
+44,Mahnomen,Secretary of State,,IND,Independence Party,55,2.71
+44,Mahnomen,Secretary of State,,R,Mary Kiffmeyer,760,37.48
+44,Mahnomen,State Auditor,,DFL,Rebecca Otto,1300,62.11
+44,Mahnomen,State Auditor,,IND,Lucy Gerold,76,3.63
+44,Mahnomen,State Auditor,,R,Patricia Anderson Awada,717,34.26
+44,Mahnomen,U.S. Senate,,DFL,Amy Klobuchar,1435,64.73
+44,Mahnomen,U.S. Senate,,IND,Robert Fitzgerald,61,2.75
+44,Mahnomen,U.S. Senate,,R,Mark Kennedy,721,32.52
+45,Marshall,Attorney General,,DFL,Lori Swanson,2472,59.05
+45,Marshall,Attorney General,,IND,Independence Party,150,3.58
+45,Marshall,Attorney General,,R,Jeff Johnson,1564,37.36
+45,Marshall,Governor,,DFL,Mike Hatch,2096,48.33
+45,Marshall,Governor,,IND,Peter Hutchinson,181,4.17
+45,Marshall,Governor,,R,Tim Pawlenty,2060,47.50
+45,Marshall,Secretary of State,,DFL,Mark Ritchie,2050,49.55
+45,Marshall,Secretary of State,,IND,Independence Party,110,2.66
+45,Marshall,Secretary of State,,R,Mary Kiffmeyer,1977,47.79
+45,Marshall,State Auditor,,DFL,Rebecca Otto,2201,53.16
+45,Marshall,State Auditor,,IND,Lucy Gerold,149,3.60
+45,Marshall,State Auditor,,R,Patricia Anderson Awada,1790,43.24
+45,Marshall,U.S. Senate,,DFL,Amy Klobuchar,2571,58.58
+45,Marshall,U.S. Senate,,IND,Robert Fitzgerald,134,3.05
+45,Marshall,U.S. Senate,,R,Mark Kennedy,1684,38.37
+46,Martin,Attorney General,,DFL,Lori Swanson,3833,44.30
+46,Martin,Attorney General,,IND,Independence Party,378,4.37
+46,Martin,Attorney General,,R,Jeff Johnson,4441,51.33
+46,Martin,Governor,,DFL,Mike Hatch,3386,38.09
+46,Martin,Governor,,IND,Peter Hutchinson,456,5.13
+46,Martin,Governor,,R,Tim Pawlenty,5047,56.78
+46,Martin,Secretary of State,,DFL,Mark Ritchie,3404,40.40
+46,Martin,Secretary of State,,IND,Independence Party,243,2.88
+46,Martin,Secretary of State,,R,Mary Kiffmeyer,4779,56.72
+46,Martin,State Auditor,,DFL,Rebecca Otto,3525,41.18
+46,Martin,State Auditor,,IND,Lucy Gerold,404,4.72
+46,Martin,State Auditor,,R,Patricia Anderson Awada,4632,54.11
+46,Martin,U.S. Senate,,DFL,Amy Klobuchar,4344,48.53
+46,Martin,U.S. Senate,,IND,Robert Fitzgerald,292,3.26
+46,Martin,U.S. Senate,,R,Mark Kennedy,4315,48.21
+43,McLeod,Attorney General,,DFL,Lori Swanson,6238,44.57
+43,McLeod,Attorney General,,IND,Independence Party,622,4.44
+43,McLeod,Attorney General,,R,Jeff Johnson,7135,50.98
+43,McLeod,Governor,,DFL,Mike Hatch,4868,33.56
+43,McLeod,Governor,,IND,Peter Hutchinson,1057,7.29
+43,McLeod,Governor,,R,Tim Pawlenty,8580,59.15
+43,McLeod,Secretary of State,,DFL,Mark Ritchie,5314,39.01
+43,McLeod,Secretary of State,,IND,Independence Party,459,3.37
+43,McLeod,Secretary of State,,R,Mary Kiffmeyer,7849,57.62
+43,McLeod,State Auditor,,DFL,Rebecca Otto,6192,44.71
+43,McLeod,State Auditor,,IND,Lucy Gerold,672,4.85
+43,McLeod,State Auditor,,R,Patricia Anderson Awada,6985,50.44
+43,McLeod,U.S. Senate,,DFL,Amy Klobuchar,7016,48.35
+43,McLeod,U.S. Senate,,IND,Robert Fitzgerald,506,3.49
+43,McLeod,U.S. Senate,,R,Mark Kennedy,6988,48.16
+61,Meeker,Attorney General,,DFL,Lori Swanson,3024,54.16
+61,Meeker,Attorney General,,IND,Independence Party,238,4.26
+61,Meeker,Attorney General,,R,Jeff Johnson,2321,41.57
+61,Meeker,Governor,,DFL,Mike Hatch,2698,46.37
+61,Meeker,Governor,,IND,Peter Hutchinson,358,6.15
+61,Meeker,Governor,,R,Tim Pawlenty,2762,47.47
+61,Meeker,Secretary of State,,DFL,Mark Ritchie,2545,46.81
+61,Meeker,Secretary of State,,IND,Independence Party,151,2.78
+61,Meeker,Secretary of State,,R,Mary Kiffmeyer,2741,50.41
+61,Meeker,State Auditor,,DFL,Rebecca Otto,2800,50.30
+61,Meeker,State Auditor,,IND,Lucy Gerold,244,4.38
+61,Meeker,State Auditor,,R,Patricia Anderson Awada,2523,45.32
+61,Meeker,U.S. Senate,,DFL,Amy Klobuchar,3359,57.44
+61,Meeker,U.S. Senate,,IND,Robert Fitzgerald,216,3.69
+61,Meeker,U.S. Senate,,R,Mark Kennedy,2273,38.87
+47,Mille Lacs,Attorney General,,DFL,Lori Swanson,4666,46.51
+47,Mille Lacs,Attorney General,,IND,Independence Party,472,4.70
+47,Mille Lacs,Attorney General,,R,Jeff Johnson,4895,48.79
+47,Mille Lacs,Governor,,DFL,Mike Hatch,3976,38.48
+47,Mille Lacs,Governor,,IND,Peter Hutchinson,781,7.56
+47,Mille Lacs,Governor,,R,Tim Pawlenty,5576,53.96
+47,Mille Lacs,Secretary of State,,DFL,Mark Ritchie,4084,41.54
+47,Mille Lacs,Secretary of State,,IND,Independence Party,309,3.14
+47,Mille Lacs,Secretary of State,,R,Mary Kiffmeyer,5438,55.31
+47,Mille Lacs,State Auditor,,DFL,Rebecca Otto,4678,46.91
+47,Mille Lacs,State Auditor,,IND,Lucy Gerold,505,5.06
+47,Mille Lacs,State Auditor,,R,Patricia Anderson Awada,4789,48.02
+47,Mille Lacs,U.S. Senate,,DFL,Amy Klobuchar,5396,52.02
+47,Mille Lacs,U.S. Senate,,IND,Robert Fitzgerald,338,3.26
+47,Mille Lacs,U.S. Senate,,R,Mark Kennedy,4638,44.72
+48,Morrison,Attorney General,,DFL,Lori Swanson,5006,50.72
+48,Morrison,Attorney General,,IND,Independence Party,439,4.45
+48,Morrison,Attorney General,,R,Jeff Johnson,4425,44.83
+48,Morrison,Governor,,DFL,Mike Hatch,4508,44.21
+48,Morrison,Governor,,IND,Peter Hutchinson,508,4.98
+48,Morrison,Governor,,R,Tim Pawlenty,5180,50.80
+48,Morrison,Secretary of State,,DFL,Mark Ritchie,4619,47.50
+48,Morrison,Secretary of State,,IND,Independence Party,284,2.92
+48,Morrison,Secretary of State,,R,Mary Kiffmeyer,4822,49.58
+48,Morrison,State Auditor,,DFL,Rebecca Otto,5078,52.17
+48,Morrison,State Auditor,,IND,Lucy Gerold,458,4.71
+48,Morrison,State Auditor,,R,Patricia Anderson Awada,4197,43.12
+48,Morrison,U.S. Senate,,DFL,Amy Klobuchar,5581,54.49
+48,Morrison,U.S. Senate,,IND,Robert Fitzgerald,370,3.61
+48,Morrison,U.S. Senate,,R,Mark Kennedy,4291,41.90
+49,Mower,Attorney General,,DFL,Lori Swanson,6264,48.24
+49,Mower,Attorney General,,IND,Independence Party,579,4.46
+49,Mower,Attorney General,,R,Jeff Johnson,6142,47.30
+49,Mower,Governor,,DFL,Mike Hatch,5577,41.18
+49,Mower,Governor,,IND,Peter Hutchinson,664,4.90
+49,Mower,Governor,,R,Tim Pawlenty,7302,53.92
+49,Mower,Secretary of State,,DFL,Mark Ritchie,4932,37.89
+49,Mower,Secretary of State,,IND,Independence Party,347,2.67
+49,Mower,Secretary of State,,R,Mary Kiffmeyer,7739,59.45
+49,Mower,State Auditor,,DFL,Rebecca Otto,6029,47.00
+49,Mower,State Auditor,,IND,Lucy Gerold,630,4.91
+49,Mower,State Auditor,,R,Patricia Anderson Awada,6168,48.09
+49,Mower,U.S. Senate,,DFL,Amy Klobuchar,6941,50.91
+49,Mower,U.S. Senate,,IND,Robert Fitzgerald,465,3.41
+49,Mower,U.S. Senate,,R,Mark Kennedy,6229,45.68
+50,Murray,Attorney General,,DFL,Lori Swanson,9920,64.39
+50,Murray,Attorney General,,IND,Independence Party,596,3.87
+50,Murray,Attorney General,,R,Jeff Johnson,4890,31.74
+50,Murray,Governor,,DFL,Mike Hatch,9014,57.04
+50,Murray,Governor,,IND,Peter Hutchinson,761,4.82
+50,Murray,Governor,,R,Tim Pawlenty,6028,38.14
+50,Murray,Secretary of State,,DFL,Mark Ritchie,8567,57.16
+50,Murray,Secretary of State,,IND,Independence Party,441,2.94
+50,Murray,Secretary of State,,R,Mary Kiffmeyer,5979,39.89
+50,Murray,State Auditor,,DFL,Rebecca Otto,8857,58.03
+50,Murray,State Auditor,,IND,Lucy Gerold,652,4.27
+50,Murray,State Auditor,,R,Patricia Anderson Awada,5755,37.70
+50,Murray,U.S. Senate,,DFL,Amy Klobuchar,10450,65.83
+50,Murray,U.S. Senate,,IND,Robert Fitzgerald,519,3.27
+50,Murray,U.S. Senate,,R,Mark Kennedy,4906,30.90
+51,Nicollet,Attorney General,,DFL,Lori Swanson,2175,52.75
+51,Nicollet,Attorney General,,IND,Independence Party,168,4.07
+51,Nicollet,Attorney General,,R,Jeff Johnson,1780,43.17
+51,Nicollet,Governor,,DFL,Mike Hatch,2018,47.59
+51,Nicollet,Governor,,IND,Peter Hutchinson,138,3.25
+51,Nicollet,Governor,,R,Tim Pawlenty,2084,49.15
+51,Nicollet,Secretary of State,,DFL,Mark Ritchie,1873,46.21
+51,Nicollet,Secretary of State,,IND,Independence Party,106,2.62
+51,Nicollet,Secretary of State,,R,Mary Kiffmeyer,2074,51.17
+51,Nicollet,State Auditor,,DFL,Rebecca Otto,1963,47.65
+51,Nicollet,State Auditor,,IND,Lucy Gerold,179,4.34
+51,Nicollet,State Auditor,,R,Patricia Anderson Awada,1978,48.01
+51,Nicollet,U.S. Senate,,DFL,Amy Klobuchar,2331,54.42
+51,Nicollet,U.S. Senate,,IND,Robert Fitzgerald,148,3.46
+51,Nicollet,U.S. Senate,,R,Mark Kennedy,1804,42.12
+52,Nobles,Attorney General,,DFL,Lori Swanson,7502,55.08
+52,Nobles,Attorney General,,IND,Independence Party,572,4.20
+52,Nobles,Attorney General,,R,Jeff Johnson,5546,40.72
+52,Nobles,Governor,,DFL,Mike Hatch,6468,45.61
+52,Nobles,Governor,,IND,Peter Hutchinson,989,6.97
+52,Nobles,Governor,,R,Tim Pawlenty,6725,47.42
+52,Nobles,Secretary of State,,DFL,Mark Ritchie,6765,50.65
+52,Nobles,Secretary of State,,IND,Independence Party,456,3.41
+52,Nobles,Secretary of State,,R,Mary Kiffmeyer,6136,45.94
+52,Nobles,State Auditor,,DFL,Rebecca Otto,7283,53.90
+52,Nobles,State Auditor,,IND,Lucy Gerold,622,4.60
+52,Nobles,State Auditor,,R,Patricia Anderson Awada,5606,41.49
+52,Nobles,U.S. Senate,,DFL,Amy Klobuchar,8511,59.63
+52,Nobles,U.S. Senate,,IND,Robert Fitzgerald,426,2.98
+52,Nobles,U.S. Senate,,R,Mark Kennedy,5337,37.39
+53,Norman,Attorney General,,DFL,Lori Swanson,3742,51.35
+53,Norman,Attorney General,,IND,Independence Party,294,4.03
+53,Norman,Attorney General,,R,Jeff Johnson,3251,44.61
+53,Norman,Governor,,DFL,Mike Hatch,3475,46.77
+53,Norman,Governor,,IND,Peter Hutchinson,263,3.54
+53,Norman,Governor,,R,Tim Pawlenty,3692,49.69
+53,Norman,Secretary of State,,DFL,Mark Ritchie,3246,46.34
+53,Norman,Secretary of State,,IND,Independence Party,151,2.16
+53,Norman,Secretary of State,,R,Mary Kiffmeyer,3608,51.51
+53,Norman,State Auditor,,DFL,Rebecca Otto,3434,47.87
+53,Norman,State Auditor,,IND,Lucy Gerold,312,4.35
+53,Norman,State Auditor,,R,Patricia Anderson Awada,3427,47.78
+53,Norman,U.S. Senate,,DFL,Amy Klobuchar,3697,49.41
+53,Norman,U.S. Senate,,IND,Robert Fitzgerald,254,3.39
+53,Norman,U.S. Senate,,R,Mark Kennedy,3531,47.19
+54,Olmsted,Attorney General,,DFL,Lori Swanson,1801,65.32
+54,Olmsted,Attorney General,,IND,Independence Party,89,3.23
+54,Olmsted,Attorney General,,R,Jeff Johnson,867,31.45
+54,Olmsted,Governor,,DFL,Mike Hatch,1577,55.94
+54,Olmsted,Governor,,IND,Peter Hutchinson,118,4.19
+54,Olmsted,Governor,,R,Tim Pawlenty,1124,39.87
+54,Olmsted,Secretary of State,,DFL,Mark Ritchie,1608,59.71
+54,Olmsted,Secretary of State,,IND,Independence Party,68,2.53
+54,Olmsted,Secretary of State,,R,Mary Kiffmeyer,1017,37.76
+54,Olmsted,State Auditor,,DFL,Rebecca Otto,1674,61.43
+54,Olmsted,State Auditor,,IND,Lucy Gerold,102,3.74
+54,Olmsted,State Auditor,,R,Patricia Anderson Awada,949,34.83
+54,Olmsted,U.S. Senate,,DFL,Amy Klobuchar,1827,63.93
+54,Olmsted,U.S. Senate,,IND,Robert Fitzgerald,94,3.29
+54,Olmsted,U.S. Senate,,R,Mark Kennedy,937,32.79
+55,Otter Tail,Attorney General,,DFL,Lori Swanson,26035,49.31
+55,Otter Tail,Attorney General,,IND,Independence Party,2471,4.68
+55,Otter Tail,Attorney General,,R,Jeff Johnson,24294,46.01
+55,Otter Tail,Governor,,DFL,Mike Hatch,21833,39.17
+55,Otter Tail,Governor,,IND,Peter Hutchinson,3036,5.45
+55,Otter Tail,Governor,,R,Tim Pawlenty,30874,55.39
+55,Otter Tail,Secretary of State,,DFL,Mark Ritchie,22450,43.29
+55,Otter Tail,Secretary of State,,IND,Independence Party,1697,3.27
+55,Otter Tail,Secretary of State,,R,Mary Kiffmeyer,27717,53.44
+55,Otter Tail,State Auditor,,DFL,Rebecca Otto,23401,45.13
+55,Otter Tail,State Auditor,,IND,Lucy Gerold,2595,5.01
+55,Otter Tail,State Auditor,,R,Patricia Anderson Awada,25852,49.86
+55,Otter Tail,U.S. Senate,,DFL,Amy Klobuchar,30102,53.81
+55,Otter Tail,U.S. Senate,,IND,Robert Fitzgerald,1789,3.20
+55,Otter Tail,U.S. Senate,,R,Mark Kennedy,24054,43.00
+56,Pennington,Attorney General,,DFL,Lori Swanson,10979,45.60
+56,Pennington,Attorney General,,IND,Independence Party,834,3.46
+56,Pennington,Attorney General,,R,Jeff Johnson,12265,50.94
+56,Pennington,Governor,,DFL,Mike Hatch,9679,39.01
+56,Pennington,Governor,,IND,Peter Hutchinson,1113,4.49
+56,Pennington,Governor,,R,Tim Pawlenty,14017,56.50
+56,Pennington,Secretary of State,,DFL,Mark Ritchie,9398,40.20
+56,Pennington,Secretary of State,,IND,Independence Party,589,2.52
+56,Pennington,Secretary of State,,R,Mary Kiffmeyer,13390,57.28
+56,Pennington,State Auditor,,DFL,Rebecca Otto,10217,42.99
+56,Pennington,State Auditor,,IND,Lucy Gerold,986,4.15
+56,Pennington,State Auditor,,R,Patricia Anderson Awada,12562,52.86
+56,Pennington,U.S. Senate,,DFL,Amy Klobuchar,11754,47.10
+56,Pennington,U.S. Senate,,IND,Robert Fitzgerald,1161,4.65
+56,Pennington,U.S. Senate,,R,Mark Kennedy,12041,48.25
+57,Pine,Attorney General,,DFL,Lori Swanson,2938,59.63
+57,Pine,Attorney General,,IND,Independence Party,203,4.12
+57,Pine,Attorney General,,R,Jeff Johnson,1786,36.25
+57,Pine,Governor,,DFL,Mike Hatch,2501,49.26
+57,Pine,Governor,,IND,Peter Hutchinson,256,5.04
+57,Pine,Governor,,R,Tim Pawlenty,2320,45.70
+57,Pine,Secretary of State,,DFL,Mark Ritchie,2296,47.68
+57,Pine,Secretary of State,,IND,Independence Party,140,2.91
+57,Pine,Secretary of State,,R,Mary Kiffmeyer,2379,49.41
+57,Pine,State Auditor,,DFL,Rebecca Otto,2624,54.26
+57,Pine,State Auditor,,IND,Lucy Gerold,225,4.65
+57,Pine,State Auditor,,R,Patricia Anderson Awada,1987,41.09
+57,Pine,U.S. Senate,,DFL,Amy Klobuchar,3074,60.00
+57,Pine,U.S. Senate,,IND,Robert Fitzgerald,141,2.75
+57,Pine,U.S. Senate,,R,Mark Kennedy,1908,37.24
+58,Pipestone,Attorney General,,DFL,Lori Swanson,6133,56.92
+58,Pipestone,Attorney General,,IND,Independence Party,417,3.87
+58,Pipestone,Attorney General,,R,Jeff Johnson,4225,39.21
+58,Pipestone,Governor,,DFL,Mike Hatch,5531,50.13
+58,Pipestone,Governor,,IND,Peter Hutchinson,609,5.52
+58,Pipestone,Governor,,R,Tim Pawlenty,4894,44.35
+58,Pipestone,Secretary of State,,DFL,Mark Ritchie,5605,53.49
+58,Pipestone,Secretary of State,,IND,Independence Party,320,3.05
+58,Pipestone,Secretary of State,,R,Mary Kiffmeyer,4553,43.45
+58,Pipestone,State Auditor,,DFL,Rebecca Otto,5968,56.00
+58,Pipestone,State Auditor,,IND,Lucy Gerold,474,4.45
+58,Pipestone,State Auditor,,R,Patricia Anderson Awada,4216,39.56
+58,Pipestone,U.S. Senate,,DFL,Amy Klobuchar,6420,57.86
+58,Pipestone,U.S. Senate,,IND,Robert Fitzgerald,407,3.67
+58,Pipestone,U.S. Senate,,R,Mark Kennedy,4268,38.47
+59,Polk,Attorney General,,DFL,Lori Swanson,1727,43.50
+59,Polk,Attorney General,,IND,Independence Party,144,3.63
+59,Polk,Attorney General,,R,Jeff Johnson,2099,52.87
+59,Polk,Governor,,DFL,Mike Hatch,1629,39.98
+59,Polk,Governor,,IND,Peter Hutchinson,117,2.87
+59,Polk,Governor,,R,Tim Pawlenty,2329,57.15
+59,Polk,Secretary of State,,DFL,Mark Ritchie,1556,40.29
+59,Polk,Secretary of State,,IND,Independence Party,119,3.08
+59,Polk,Secretary of State,,R,Mary Kiffmeyer,2187,56.63
+59,Polk,State Auditor,,DFL,Rebecca Otto,1661,42.05
+59,Polk,State Auditor,,IND,Lucy Gerold,152,3.85
+59,Polk,State Auditor,,R,Patricia Anderson Awada,2137,54.10
+59,Polk,U.S. Senate,,DFL,Amy Klobuchar,1827,44.36
+59,Polk,U.S. Senate,,IND,Robert Fitzgerald,146,3.54
+59,Polk,U.S. Senate,,R,Mark Kennedy,2146,52.10
+60,Pope,Attorney General,,DFL,Lori Swanson,6581,57.40
+60,Pope,Attorney General,,IND,Independence Party,346,3.02
+60,Pope,Attorney General,,R,Jeff Johnson,4538,39.58
+60,Pope,Governor,,DFL,Mike Hatch,5776,48.57
+60,Pope,Governor,,IND,Peter Hutchinson,438,3.68
+60,Pope,Governor,,R,Tim Pawlenty,5678,47.75
+60,Pope,Secretary of State,,DFL,Mark Ritchie,5772,51.69
+60,Pope,Secretary of State,,IND,Independence Party,235,2.10
+60,Pope,Secretary of State,,R,Mary Kiffmeyer,5159,46.20
+60,Pope,State Auditor,,DFL,Rebecca Otto,5994,52.82
+60,Pope,State Auditor,,IND,Lucy Gerold,394,3.47
+60,Pope,State Auditor,,R,Patricia Anderson Awada,4959,43.70
+60,Pope,U.S. Senate,,DFL,Amy Klobuchar,6806,56.72
+60,Pope,U.S. Senate,,IND,Robert Fitzgerald,336,2.80
+60,Pope,U.S. Senate,,R,Mark Kennedy,4857,40.48
+62,Ramsey,Attorney General,,DFL,Lori Swanson,122576,63.23
+62,Ramsey,Attorney General,,IND,Independence Party,9496,4.90
+62,Ramsey,Attorney General,,R,Jeff Johnson,61776,31.87
+62,Ramsey,Governor,,DFL,Mike Hatch,110653,53.88
+62,Ramsey,Governor,,IND,Peter Hutchinson,19527,9.51
+62,Ramsey,Governor,,R,Tim Pawlenty,75171,36.61
+62,Ramsey,Secretary of State,,DFL,Mark Ritchie,117584,61.26
+62,Ramsey,Secretary of State,,IND,Independence Party,7818,4.07
+62,Ramsey,Secretary of State,,R,Mary Kiffmeyer,66546,34.67
+62,Ramsey,State Auditor,,DFL,Rebecca Otto,117881,62.06
+62,Ramsey,State Auditor,,IND,Lucy Gerold,10407,5.48
+62,Ramsey,State Auditor,,R,Patricia Anderson Awada,61655,32.46
+62,Ramsey,U.S. Senate,,DFL,Amy Klobuchar,137558,66.91
+62,Ramsey,U.S. Senate,,IND,Robert Fitzgerald,7740,3.76
+62,Ramsey,U.S. Senate,,R,Mark Kennedy,60290,29.33
+63,Red Lake,Attorney General,,DFL,Lori Swanson,1157,64.46
+63,Red Lake,Attorney General,,IND,Independence Party,82,4.57
+63,Red Lake,Attorney General,,R,Jeff Johnson,556,30.97
+63,Red Lake,Governor,,DFL,Mike Hatch,1007,54.20
+63,Red Lake,Governor,,IND,Peter Hutchinson,82,4.41
+63,Red Lake,Governor,,R,Tim Pawlenty,769,41.39
+63,Red Lake,Secretary of State,,DFL,Mark Ritchie,938,53.88
+63,Red Lake,Secretary of State,,IND,Independence Party,52,2.99
+63,Red Lake,Secretary of State,,R,Mary Kiffmeyer,751,43.14
+63,Red Lake,State Auditor,,DFL,Rebecca Otto,1060,59.52
+63,Red Lake,State Auditor,,IND,Lucy Gerold,86,4.83
+63,Red Lake,State Auditor,,R,Patricia Anderson Awada,635,35.65
+63,Red Lake,U.S. Senate,,DFL,Amy Klobuchar,1166,61.86
+63,Red Lake,U.S. Senate,,IND,Robert Fitzgerald,62,3.29
+63,Red Lake,U.S. Senate,,R,Mark Kennedy,657,34.85
+64,Redwood,Attorney General,,DFL,Lori Swanson,2742,43.63
+64,Redwood,Attorney General,,IND,Independence Party,287,4.57
+64,Redwood,Attorney General,,R,Jeff Johnson,3256,51.81
+64,Redwood,Governor,,DFL,Mike Hatch,2334,35.99
+64,Redwood,Governor,,IND,Peter Hutchinson,426,6.57
+64,Redwood,Governor,,R,Tim Pawlenty,3725,57.44
+64,Redwood,Secretary of State,,DFL,Mark Ritchie,2288,37.19
+64,Redwood,Secretary of State,,IND,Independence Party,163,2.65
+64,Redwood,Secretary of State,,R,Mary Kiffmeyer,3702,60.17
+64,Redwood,State Auditor,,DFL,Rebecca Otto,2585,41.59
+64,Redwood,State Auditor,,IND,Lucy Gerold,280,4.50
+64,Redwood,State Auditor,,R,Patricia Anderson Awada,3351,53.91
+64,Redwood,U.S. Senate,,DFL,Amy Klobuchar,3098,47.63
+64,Redwood,U.S. Senate,,IND,Robert Fitzgerald,225,3.46
+64,Redwood,U.S. Senate,,R,Mark Kennedy,3181,48.91
+65,Renville,Attorney General,,DFL,Lori Swanson,3396,52.10
+65,Renville,Attorney General,,IND,Independence Party,307,4.71
+65,Renville,Attorney General,,R,Jeff Johnson,2815,43.19
+65,Renville,Governor,,DFL,Mike Hatch,2843,42.45
+65,Renville,Governor,,IND,Peter Hutchinson,518,7.73
+65,Renville,Governor,,R,Tim Pawlenty,3337,49.82
+65,Renville,Secretary of State,,DFL,Mark Ritchie,2953,46.96
+65,Renville,Secretary of State,,IND,Independence Party,200,3.18
+65,Renville,Secretary of State,,R,Mary Kiffmeyer,3135,49.86
+65,Renville,State Auditor,,DFL,Rebecca Otto,3237,50.26
+65,Renville,State Auditor,,IND,Lucy Gerold,310,4.81
+65,Renville,State Auditor,,R,Patricia Anderson Awada,2894,44.93
+65,Renville,U.S. Senate,,DFL,Amy Klobuchar,3824,56.87
+65,Renville,U.S. Senate,,IND,Robert Fitzgerald,240,3.57
+65,Renville,U.S. Senate,,R,Mark Kennedy,2660,39.56
+66,Rice,Attorney General,,DFL,Lori Swanson,12839,55.97
+66,Rice,Attorney General,,IND,Independence Party,941,4.10
+66,Rice,Attorney General,,R,Jeff Johnson,9160,39.93
+66,Rice,Governor,,DFL,Mike Hatch,11681,48.40
+66,Rice,Governor,,IND,Peter Hutchinson,1682,6.97
+66,Rice,Governor,,R,Tim Pawlenty,10773,44.63
+66,Rice,Secretary of State,,DFL,Mark Ritchie,12572,55.16
+66,Rice,Secretary of State,,IND,Independence Party,675,2.96
+66,Rice,Secretary of State,,R,Mary Kiffmeyer,9546,41.88
+66,Rice,State Auditor,,DFL,Rebecca Otto,13121,57.64
+66,Rice,State Auditor,,IND,Lucy Gerold,1008,4.43
+66,Rice,State Auditor,,R,Patricia Anderson Awada,8636,37.94
+66,Rice,U.S. Senate,,DFL,Amy Klobuchar,14943,61.72
+66,Rice,U.S. Senate,,IND,Robert Fitzgerald,808,3.34
+66,Rice,U.S. Senate,,R,Mark Kennedy,8461,34.95
+67,Rock,Attorney General,,DFL,Lori Swanson,1751,43.76
+67,Rock,Attorney General,,IND,Independence Party,191,4.77
+67,Rock,Attorney General,,R,Jeff Johnson,2059,51.46
+67,Rock,Governor,,DFL,Mike Hatch,1585,38.72
+67,Rock,Governor,,IND,Peter Hutchinson,191,4.67
+67,Rock,Governor,,R,Tim Pawlenty,2318,56.62
+67,Rock,Secretary of State,,DFL,Mark Ritchie,1553,40.12
+67,Rock,Secretary of State,,IND,Independence Party,125,3.23
+67,Rock,Secretary of State,,R,Mary Kiffmeyer,2193,56.65
+67,Rock,State Auditor,,DFL,Rebecca Otto,1679,42.08
+67,Rock,State Auditor,,IND,Lucy Gerold,177,4.44
+67,Rock,State Auditor,,R,Patricia Anderson Awada,2134,53.48
+67,Rock,U.S. Senate,,DFL,Amy Klobuchar,1806,43.82
+67,Rock,U.S. Senate,,IND,Robert Fitzgerald,171,4.15
+67,Rock,U.S. Senate,,R,Mark Kennedy,2144,52.03
+68,Roseau,Attorney General,,DFL,Lori Swanson,2929,48.36
+68,Roseau,Attorney General,,IND,Independence Party,242,4.00
+68,Roseau,Attorney General,,R,Jeff Johnson,2886,47.65
+68,Roseau,Governor,,DFL,Mike Hatch,2469,39.47
+68,Roseau,Governor,,IND,Peter Hutchinson,214,3.42
+68,Roseau,Governor,,R,Tim Pawlenty,3573,57.11
+68,Roseau,Secretary of State,,DFL,Mark Ritchie,2365,40.45
+68,Roseau,Secretary of State,,IND,Independence Party,140,2.39
+68,Roseau,Secretary of State,,R,Mary Kiffmeyer,3342,57.16
+68,Roseau,State Auditor,,DFL,Rebecca Otto,2630,43.90
+68,Roseau,State Auditor,,IND,Lucy Gerold,264,4.41
+68,Roseau,State Auditor,,R,Patricia Anderson Awada,3097,51.69
+68,Roseau,U.S. Senate,,DFL,Amy Klobuchar,3140,49.75
+68,Roseau,U.S. Senate,,IND,Robert Fitzgerald,204,3.23
+68,Roseau,U.S. Senate,,R,Mark Kennedy,2967,47.01
+70,Scott,Attorney General,,DFL,Lori Swanson,19179,43.15
+70,Scott,Attorney General,,IND,Independence Party,1831,4.12
+70,Scott,Attorney General,,R,Jeff Johnson,23438,52.73
+70,Scott,Governor,,DFL,Mike Hatch,16046,34.43
+70,Scott,Governor,,IND,Peter Hutchinson,2561,5.49
+70,Scott,Governor,,R,Tim Pawlenty,28001,60.08
+70,Scott,Secretary of State,,DFL,Mark Ritchie,18124,41.25
+70,Scott,Secretary of State,,IND,Independence Party,1324,3.01
+70,Scott,Secretary of State,,R,Mary Kiffmeyer,24487,55.73
+70,Scott,State Auditor,,DFL,Rebecca Otto,19189,43.64
+70,Scott,State Auditor,,IND,Lucy Gerold,2127,4.84
+70,Scott,State Auditor,,R,Patricia Anderson Awada,22656,51.52
+70,Scott,U.S. Senate,,DFL,Amy Klobuchar,23135,49.60
+70,Scott,U.S. Senate,,IND,Robert Fitzgerald,1488,3.19
+70,Scott,U.S. Senate,,R,Mark Kennedy,22023,47.21
+71,Sherburne,Attorney General,,DFL,Lori Swanson,12924,42.64
+71,Sherburne,Attorney General,,IND,Independence Party,1151,3.80
+71,Sherburne,Attorney General,,R,Jeff Johnson,16232,53.56
+71,Sherburne,Governor,,DFL,Mike Hatch,11110,35.15
+71,Sherburne,Governor,,IND,Peter Hutchinson,1552,4.91
+71,Sherburne,Governor,,R,Tim Pawlenty,18944,59.94
+71,Sherburne,Secretary of State,,DFL,Mark Ritchie,11457,37.85
+71,Sherburne,Secretary of State,,IND,Independence Party,727,2.40
+71,Sherburne,Secretary of State,,R,Mary Kiffmeyer,18087,59.75
+71,Sherburne,State Auditor,,DFL,Rebecca Otto,13285,44.18
+71,Sherburne,State Auditor,,IND,Lucy Gerold,1251,4.16
+71,Sherburne,State Auditor,,R,Patricia Anderson Awada,15536,51.66
+71,Sherburne,U.S. Senate,,DFL,Amy Klobuchar,15049,47.43
+71,Sherburne,U.S. Senate,,IND,Robert Fitzgerald,940,2.96
+71,Sherburne,U.S. Senate,,R,Mark Kennedy,15737,49.60
+72,Sibley,Attorney General,,DFL,Lori Swanson,2853,47.52
+72,Sibley,Attorney General,,IND,Independence Party,317,5.28
+72,Sibley,Attorney General,,R,Jeff Johnson,2834,47.20
+72,Sibley,Governor,,DFL,Mike Hatch,2290,36.40
+72,Sibley,Governor,,IND,Peter Hutchinson,453,7.20
+72,Sibley,Governor,,R,Tim Pawlenty,3549,56.40
+72,Sibley,Secretary of State,,DFL,Mark Ritchie,2420,41.35
+72,Sibley,Secretary of State,,IND,Independence Party,214,3.66
+72,Sibley,Secretary of State,,R,Mary Kiffmeyer,3218,54.99
+72,Sibley,State Auditor,,DFL,Rebecca Otto,2728,45.62
+72,Sibley,State Auditor,,IND,Lucy Gerold,337,5.64
+72,Sibley,State Auditor,,R,Patricia Anderson Awada,2915,48.75
+72,Sibley,U.S. Senate,,DFL,Amy Klobuchar,3199,50.76
+72,Sibley,U.S. Senate,,IND,Robert Fitzgerald,268,4.25
+72,Sibley,U.S. Senate,,R,Mark Kennedy,2835,44.99
+69,St. Louis,Attorney General,,DFL,Lori Swanson,61600,72.09
+69,St. Louis,Attorney General,,IND,Independence Party,2732,3.20
+69,St. Louis,Attorney General,,R,Jeff Johnson,21116,24.71
+69,St. Louis,Governor,,DFL,Mike Hatch,58037,65.48
+69,St. Louis,Governor,,IND,Peter Hutchinson,4244,4.79
+69,St. Louis,Governor,,R,Tim Pawlenty,26351,29.73
+69,St. Louis,Secretary of State,,DFL,Mark Ritchie,55552,65.81
+69,St. Louis,Secretary of State,,IND,Independence Party,2271,2.69
+69,St. Louis,Secretary of State,,R,Mary Kiffmeyer,26584,31.50
+69,St. Louis,State Auditor,,DFL,Rebecca Otto,56387,66.76
+69,St. Louis,State Auditor,,IND,Lucy Gerold,3193,3.78
+69,St. Louis,State Auditor,,R,Patricia Anderson Awada,24877,29.46
+69,St. Louis,U.S. Senate,,DFL,Amy Klobuchar,63750,71.46
+69,St. Louis,U.S. Senate,,IND,Robert Fitzgerald,2177,2.44
+69,St. Louis,U.S. Senate,,R,Mark Kennedy,23281,26.10
+73,Stearns,Attorney General,,DFL,Lori Swanson,24397,45.25
+73,Stearns,Attorney General,,IND,Independence Party,2248,4.17
+73,Stearns,Attorney General,,R,Jeff Johnson,27267,50.58
+73,Stearns,Governor,,DFL,Mike Hatch,21557,38.14
+73,Stearns,Governor,,IND,Peter Hutchinson,3003,5.31
+73,Stearns,Governor,,R,Tim Pawlenty,31964,56.55
+73,Stearns,Secretary of State,,DFL,Mark Ritchie,22092,41.20
+73,Stearns,Secretary of State,,IND,Independence Party,1593,2.97
+73,Stearns,Secretary of State,,R,Mary Kiffmeyer,29935,55.83
+73,Stearns,State Auditor,,DFL,Rebecca Otto,24433,46.34
+73,Stearns,State Auditor,,IND,Lucy Gerold,2489,4.72
+73,Stearns,State Auditor,,R,Patricia Anderson Awada,25805,48.94
+73,Stearns,U.S. Senate,,DFL,Amy Klobuchar,28630,50.37
+73,Stearns,U.S. Senate,,IND,Robert Fitzgerald,1847,3.25
+73,Stearns,U.S. Senate,,R,Mark Kennedy,26358,46.38
+74,Steele,Attorney General,,DFL,Lori Swanson,6764,46.60
+74,Steele,Attorney General,,IND,Independence Party,750,5.17
+74,Steele,Attorney General,,R,Jeff Johnson,7000,48.23
+74,Steele,Governor,,DFL,Mike Hatch,5599,37.13
+74,Steele,Governor,,IND,Peter Hutchinson,906,6.01
+74,Steele,Governor,,R,Tim Pawlenty,8576,56.87
+74,Steele,Secretary of State,,DFL,Mark Ritchie,6035,42.63
+74,Steele,Secretary of State,,IND,Independence Party,505,3.57
+74,Steele,Secretary of State,,R,Mary Kiffmeyer,7616,53.80
+74,Steele,State Auditor,,DFL,Rebecca Otto,6705,46.74
+74,Steele,State Auditor,,IND,Lucy Gerold,746,5.20
+74,Steele,State Auditor,,R,Patricia Anderson Awada,6895,48.06
+74,Steele,U.S. Senate,,DFL,Amy Klobuchar,8107,53.75
+74,Steele,U.S. Senate,,IND,Robert Fitzgerald,543,3.60
+74,Steele,U.S. Senate,,R,Mark Kennedy,6434,42.65
+75,Stevens,Attorney General,,DFL,Lori Swanson,2277,50.62
+75,Stevens,Attorney General,,IND,Independence Party,196,4.36
+75,Stevens,Attorney General,,R,Jeff Johnson,2025,45.02
+75,Stevens,Governor,,DFL,Mike Hatch,2115,44.97
+75,Stevens,Governor,,IND,Peter Hutchinson,213,4.53
+75,Stevens,Governor,,R,Tim Pawlenty,2375,50.50
+75,Stevens,Secretary of State,,DFL,Mark Ritchie,2057,45.75
+75,Stevens,Secretary of State,,IND,Independence Party,136,3.02
+75,Stevens,Secretary of State,,R,Mary Kiffmeyer,2303,51.22
+75,Stevens,State Auditor,,DFL,Rebecca Otto,2183,48.65
+75,Stevens,State Auditor,,IND,Lucy Gerold,167,3.72
+75,Stevens,State Auditor,,R,Patricia Anderson Awada,2137,47.63
+75,Stevens,U.S. Senate,,DFL,Amy Klobuchar,2588,54.63
+75,Stevens,U.S. Senate,,IND,Robert Fitzgerald,213,4.50
+75,Stevens,U.S. Senate,,R,Mark Kennedy,1936,40.87
+76,Swift,Attorney General,,DFL,Lori Swanson,2724,60.15
+76,Swift,Attorney General,,IND,Independence Party,163,3.60
+76,Swift,Attorney General,,R,Jeff Johnson,1642,36.26
+76,Swift,Governor,,DFL,Mike Hatch,2373,50.80
+76,Swift,Governor,,IND,Peter Hutchinson,268,5.74
+76,Swift,Governor,,R,Tim Pawlenty,2030,43.46
+76,Swift,Secretary of State,,DFL,Mark Ritchie,2521,56.28
+76,Swift,Secretary of State,,IND,Independence Party,129,2.88
+76,Swift,Secretary of State,,R,Mary Kiffmeyer,1829,40.84
+76,Swift,State Auditor,,DFL,Rebecca Otto,2646,58.92
+76,Swift,State Auditor,,IND,Lucy Gerold,184,4.10
+76,Swift,State Auditor,,R,Patricia Anderson Awada,1661,36.99
+76,Swift,U.S. Senate,,DFL,Amy Klobuchar,2864,61.38
+76,Swift,U.S. Senate,,IND,Robert Fitzgerald,141,3.02
+76,Swift,U.S. Senate,,R,Mark Kennedy,1661,35.60
+77,Todd,Attorney General,,DFL,Lori Swanson,4796,49.88
+77,Todd,Attorney General,,IND,Independence Party,435,4.52
+77,Todd,Attorney General,,R,Jeff Johnson,4384,45.60
+77,Todd,Governor,,DFL,Mike Hatch,4183,41.51
+77,Todd,Governor,,IND,Peter Hutchinson,538,5.34
+77,Todd,Governor,,R,Tim Pawlenty,5357,53.16
+77,Todd,Secretary of State,,DFL,Mark Ritchie,4171,44.33
+77,Todd,Secretary of State,,IND,Independence Party,279,2.97
+77,Todd,Secretary of State,,R,Mary Kiffmeyer,4958,52.70
+77,Todd,State Auditor,,DFL,Rebecca Otto,4554,47.95
+77,Todd,State Auditor,,IND,Lucy Gerold,464,4.89
+77,Todd,State Auditor,,R,Patricia Anderson Awada,4480,47.17
+77,Todd,U.S. Senate,,DFL,Amy Klobuchar,5230,51.66
+77,Todd,U.S. Senate,,IND,Robert Fitzgerald,400,3.95
+77,Todd,U.S. Senate,,R,Mark Kennedy,4494,44.39
+78,Traverse,Attorney General,,DFL,Lori Swanson,1027,57.34
+78,Traverse,Attorney General,,IND,Independence Party,61,3.41
+78,Traverse,Attorney General,,R,Jeff Johnson,703,39.25
+78,Traverse,Governor,,DFL,Mike Hatch,916,49.57
+78,Traverse,Governor,,IND,Peter Hutchinson,80,4.33
+78,Traverse,Governor,,R,Tim Pawlenty,852,46.10
+78,Traverse,Secretary of State,,DFL,Mark Ritchie,889,50.66
+78,Traverse,Secretary of State,,IND,Independence Party,50,2.85
+78,Traverse,Secretary of State,,R,Mary Kiffmeyer,816,46.50
+78,Traverse,State Auditor,,DFL,Rebecca Otto,983,55.01
+78,Traverse,State Auditor,,IND,Lucy Gerold,77,4.31
+78,Traverse,State Auditor,,R,Patricia Anderson Awada,727,40.68
+78,Traverse,U.S. Senate,,DFL,Amy Klobuchar,1052,56.17
+78,Traverse,U.S. Senate,,IND,Robert Fitzgerald,51,2.72
+78,Traverse,U.S. Senate,,R,Mark Kennedy,770,41.11
+79,Wabasha,Attorney General,,DFL,Lori Swanson,4642,51.91
+79,Wabasha,Attorney General,,IND,Independence Party,418,4.67
+79,Wabasha,Attorney General,,R,Jeff Johnson,3882,43.41
+79,Wabasha,Governor,,DFL,Mike Hatch,3979,42.91
+79,Wabasha,Governor,,IND,Peter Hutchinson,497,5.36
+79,Wabasha,Governor,,R,Tim Pawlenty,4797,51.73
+79,Wabasha,Secretary of State,,DFL,Mark Ritchie,4098,47.24
+79,Wabasha,Secretary of State,,IND,Independence Party,263,3.03
+79,Wabasha,Secretary of State,,R,Mary Kiffmeyer,4313,49.72
+79,Wabasha,State Auditor,,DFL,Rebecca Otto,4441,49.93
+79,Wabasha,State Auditor,,IND,Lucy Gerold,429,4.82
+79,Wabasha,State Auditor,,R,Patricia Anderson Awada,4025,45.25
+79,Wabasha,U.S. Senate,,DFL,Amy Klobuchar,5204,55.72
+79,Wabasha,U.S. Senate,,IND,Robert Fitzgerald,349,3.74
+79,Wabasha,U.S. Senate,,R,Mark Kennedy,3787,40.55
+80,Wadena,Attorney General,,DFL,Lori Swanson,2543,45.33
+80,Wadena,Attorney General,,IND,Independence Party,202,3.60
+80,Wadena,Attorney General,,R,Jeff Johnson,2865,51.07
+80,Wadena,Governor,,DFL,Mike Hatch,2378,41.17
+80,Wadena,Governor,,IND,Peter Hutchinson,268,4.64
+80,Wadena,Governor,,R,Tim Pawlenty,3130,54.19
+80,Wadena,Secretary of State,,DFL,Mark Ritchie,2217,40.30
+80,Wadena,Secretary of State,,IND,Independence Party,138,2.51
+80,Wadena,Secretary of State,,R,Mary Kiffmeyer,3146,57.19
+80,Wadena,State Auditor,,DFL,Rebecca Otto,2454,44.01
+80,Wadena,State Auditor,,IND,Lucy Gerold,233,4.18
+80,Wadena,State Auditor,,R,Patricia Anderson Awada,2889,51.81
+80,Wadena,U.S. Senate,,DFL,Amy Klobuchar,2746,47.24
+80,Wadena,U.S. Senate,,IND,Robert Fitzgerald,177,3.04
+80,Wadena,U.S. Senate,,R,Mark Kennedy,2890,49.72
+81,Waseca,Attorney General,,DFL,Lori Swanson,3657,46.99
+81,Waseca,Attorney General,,IND,Independence Party,531,6.82
+81,Waseca,Attorney General,,R,Jeff Johnson,3594,46.18
+81,Waseca,Governor,,DFL,Mike Hatch,3070,38.32
+81,Waseca,Governor,,IND,Peter Hutchinson,735,9.17
+81,Waseca,Governor,,R,Tim Pawlenty,4207,52.51
+81,Waseca,Secretary of State,,DFL,Mark Ritchie,3192,42.67
+81,Waseca,Secretary of State,,IND,Independence Party,390,5.21
+81,Waseca,Secretary of State,,R,Mary Kiffmeyer,3898,52.11
+81,Waseca,State Auditor,,DFL,Rebecca Otto,3535,45.91
+81,Waseca,State Auditor,,IND,Lucy Gerold,626,8.13
+81,Waseca,State Auditor,,R,Patricia Anderson Awada,3539,45.96
+81,Waseca,U.S. Senate,,DFL,Amy Klobuchar,4307,53.50
+81,Waseca,U.S. Senate,,IND,Robert Fitzgerald,372,4.62
+81,Waseca,U.S. Senate,,R,Mark Kennedy,3371,41.88
+82,Washington,Attorney General,,DFL,Lori Swanson,50505,51.05
+82,Washington,Attorney General,,IND,Independence Party,4085,4.13
+82,Washington,Attorney General,,R,Jeff Johnson,44344,44.82
+82,Washington,Governor,,DFL,Mike Hatch,41692,40.24
+82,Washington,Governor,,IND,Peter Hutchinson,8041,7.76
+82,Washington,Governor,,R,Tim Pawlenty,53879,52.00
+82,Washington,Secretary of State,,DFL,Mark Ritchie,46139,47.80
+82,Washington,Secretary of State,,IND,Independence Party,3103,3.21
+82,Washington,Secretary of State,,R,Mary Kiffmeyer,47289,48.99
+82,Washington,State Auditor,,DFL,Rebecca Otto,51598,52.45
+82,Washington,State Auditor,,IND,Lucy Gerold,4023,4.09
+82,Washington,State Auditor,,R,Patricia Anderson Awada,42757,43.46
+82,Washington,U.S. Senate,,DFL,Amy Klobuchar,57563,55.47
+82,Washington,U.S. Senate,,IND,Robert Fitzgerald,3298,3.18
+82,Washington,U.S. Senate,,R,Mark Kennedy,42910,41.35
+83,Watonwan,Attorney General,,DFL,Lori Swanson,2249,51.44
+83,Watonwan,Attorney General,,IND,Independence Party,204,4.67
+83,Watonwan,Attorney General,,R,Jeff Johnson,1919,43.89
+83,Watonwan,Governor,,DFL,Mike Hatch,2026,44.91
+83,Watonwan,Governor,,IND,Peter Hutchinson,288,6.38
+83,Watonwan,Governor,,R,Tim Pawlenty,2197,48.70
+83,Watonwan,Secretary of State,,DFL,Mark Ritchie,1962,45.70
+83,Watonwan,Secretary of State,,IND,Independence Party,147,3.42
+83,Watonwan,Secretary of State,,R,Mary Kiffmeyer,2184,50.87
+83,Watonwan,State Auditor,,DFL,Rebecca Otto,2068,47.30
+83,Watonwan,State Auditor,,IND,Lucy Gerold,232,5.31
+83,Watonwan,State Auditor,,R,Patricia Anderson Awada,2072,47.39
+83,Watonwan,U.S. Senate,,DFL,Amy Klobuchar,2495,54.90
+83,Watonwan,U.S. Senate,,IND,Robert Fitzgerald,172,3.78
+83,Watonwan,U.S. Senate,,R,Mark Kennedy,1878,41.32
+84,Wilkin,Attorney General,,DFL,Lori Swanson,1303,49.13
+84,Wilkin,Attorney General,,IND,Independence Party,126,4.75
+84,Wilkin,Attorney General,,R,Jeff Johnson,1223,46.12
+84,Wilkin,Governor,,DFL,Mike Hatch,1037,37.36
+84,Wilkin,Governor,,IND,Peter Hutchinson,136,4.90
+84,Wilkin,Governor,,R,Tim Pawlenty,1603,57.74
+84,Wilkin,Secretary of State,,DFL,Mark Ritchie,1091,42.85
+84,Wilkin,Secretary of State,,IND,Independence Party,138,5.42
+84,Wilkin,Secretary of State,,R,Mary Kiffmeyer,1317,51.73
+84,Wilkin,State Auditor,,DFL,Rebecca Otto,1166,44.49
+84,Wilkin,State Auditor,,IND,Lucy Gerold,127,4.85
+84,Wilkin,State Auditor,,R,Patricia Anderson Awada,1328,50.67
+84,Wilkin,U.S. Senate,,DFL,Amy Klobuchar,1407,50.36
+84,Wilkin,U.S. Senate,,IND,Robert Fitzgerald,149,5.33
+84,Wilkin,U.S. Senate,,R,Mark Kennedy,1238,44.31
+85,Winona,Attorney General,,DFL,Lori Swanson,10078,54.83
+85,Winona,Attorney General,,IND,Independence Party,948,5.16
+85,Winona,Attorney General,,R,Jeff Johnson,7354,40.01
+85,Winona,Governor,,DFL,Mike Hatch,9670,50.11
+85,Winona,Governor,,IND,Peter Hutchinson,1197,6.20
+85,Winona,Governor,,R,Tim Pawlenty,8430,43.69
+85,Winona,Secretary of State,,DFL,Mark Ritchie,9134,50.98
+85,Winona,Secretary of State,,IND,Independence Party,578,3.23
+85,Winona,Secretary of State,,R,Mary Kiffmeyer,8205,45.79
+85,Winona,State Auditor,,DFL,Rebecca Otto,9382,51.59
+85,Winona,State Auditor,,IND,Lucy Gerold,1021,5.61
+85,Winona,State Auditor,,R,Patricia Anderson Awada,7784,42.80
+85,Winona,U.S. Senate,,DFL,Amy Klobuchar,11183,57.51
+85,Winona,U.S. Senate,,IND,Robert Fitzgerald,768,3.95
+85,Winona,U.S. Senate,,R,Mark Kennedy,7493,38.54
+86,Wright,Attorney General,,DFL,Lori Swanson,19154,42.57
+86,Wright,Attorney General,,IND,Independence Party,1908,4.24
+86,Wright,Attorney General,,R,Jeff Johnson,23929,53.19
+86,Wright,Governor,,DFL,Mike Hatch,16397,34.88
+86,Wright,Governor,,IND,Peter Hutchinson,2551,5.43
+86,Wright,Governor,,R,Tim Pawlenty,28065,59.70
+86,Wright,Secretary of State,,DFL,Mark Ritchie,17346,39.05
+86,Wright,Secretary of State,,IND,Independence Party,1247,2.81
+86,Wright,Secretary of State,,R,Mary Kiffmeyer,25831,58.15
+86,Wright,State Auditor,,DFL,Rebecca Otto,19557,43.77
+86,Wright,State Auditor,,IND,Lucy Gerold,2014,4.51
+86,Wright,State Auditor,,R,Patricia Anderson Awada,23110,51.72
+86,Wright,U.S. Senate,,DFL,Amy Klobuchar,22162,46.99
+86,Wright,U.S. Senate,,IND,Robert Fitzgerald,1480,3.14
+86,Wright,U.S. Senate,,R,Mark Kennedy,23518,49.87
+87,Yellow Medicine,Attorney General,,DFL,Lori Swanson,2595,55.48
+87,Yellow Medicine,Attorney General,,IND,Independence Party,186,3.98
+87,Yellow Medicine,Attorney General,,R,Jeff Johnson,1896,40.54
+87,Yellow Medicine,Governor,,DFL,Mike Hatch,2258,47.14
+87,Yellow Medicine,Governor,,IND,Peter Hutchinson,273,5.70
+87,Yellow Medicine,Governor,,R,Tim Pawlenty,2259,47.16
+87,Yellow Medicine,Secretary of State,,DFL,Mark Ritchie,2358,51.87
+87,Yellow Medicine,Secretary of State,,IND,Independence Party,130,2.86
+87,Yellow Medicine,Secretary of State,,R,Mary Kiffmeyer,2058,45.27
+87,Yellow Medicine,State Auditor,,DFL,Rebecca Otto,2505,53.82
+87,Yellow Medicine,State Auditor,,IND,Lucy Gerold,178,3.82
+87,Yellow Medicine,State Auditor,,R,Patricia Anderson Awada,1971,42.35
+87,Yellow Medicine,U.S. Senate,,DFL,Amy Klobuchar,2795,58.10
+87,Yellow Medicine,U.S. Senate,,IND,Robert Fitzgerald,148,3.08
+87,Yellow Medicine,U.S. Senate,,R,Mark Kennedy,1868,38.83

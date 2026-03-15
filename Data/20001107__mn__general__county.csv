@@ -1,0 +1,695 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,President,,DFL,Al Gore,3830,47.77
+01,Aitkin,President,,GP,Ralph Nader,403,5.03
+01,Aitkin,President,,LIB,Harry Browne,20,0.25
+01,Aitkin,President,,R,George W. Bush,3755,46.83
+01,Aitkin,President,,RP,Pat Buchanan,10,0.12
+01,Aitkin,U.S. Senate,,DFL,Mark Dayton,4306,53.66
+01,Aitkin,U.S. Senate,,IND,Jim Gibson,362,4.51
+01,Aitkin,U.S. Senate,,R,Rod Grams,3357,41.83
+02,Anoka,President,,DFL,Al Gore,68008,47.12
+02,Anoka,President,,GP,Ralph Nader,6616,4.58
+02,Anoka,President,,LIB,Harry Browne,286,0.20
+02,Anoka,President,,R,George W. Bush,69256,47.99
+02,Anoka,President,,RP,Pat Buchanan,150,0.10
+02,Anoka,U.S. Senate,,DFL,Mark Dayton,64681,45.59
+02,Anoka,U.S. Senate,,IND,Jim Gibson,9173,6.47
+02,Anoka,U.S. Senate,,R,Rod Grams,68018,47.94
+03,Becker,President,,DFL,Al Gore,5253,37.41
+03,Becker,President,,GP,Ralph Nader,591,4.21
+03,Becker,President,,LIB,Harry Browne,24,0.17
+03,Becker,President,,R,George W. Bush,8152,58.06
+03,Becker,President,,RP,Pat Buchanan,20,0.14
+03,Becker,U.S. Senate,,DFL,Mark Dayton,6022,43.26
+03,Becker,U.S. Senate,,IND,Jim Gibson,354,2.54
+03,Becker,U.S. Senate,,R,Rod Grams,7543,54.19
+04,Beltrami,President,,DFL,Al Gore,7301,43.01
+04,Beltrami,President,,GP,Ralph Nader,1269,7.48
+04,Beltrami,President,,LIB,Harry Browne,42,0.25
+04,Beltrami,President,,R,George W. Bush,8346,49.17
+04,Beltrami,President,,RP,Pat Buchanan,17,0.10
+04,Beltrami,U.S. Senate,,DFL,Mark Dayton,8123,48.91
+04,Beltrami,U.S. Senate,,IND,Jim Gibson,584,3.52
+04,Beltrami,U.S. Senate,,R,Rod Grams,7902,47.58
+05,Benton,President,,DFL,Al Gore,6009,41.20
+05,Benton,President,,GP,Ralph Nader,862,5.91
+05,Benton,President,,LIB,Harry Browne,35,0.24
+05,Benton,President,,R,George W. Bush,7663,52.54
+05,Benton,President,,RP,Pat Buchanan,17,0.12
+05,Benton,U.S. Senate,,DFL,Mark Dayton,6396,44.09
+05,Benton,U.S. Senate,,IND,Jim Gibson,955,6.58
+05,Benton,U.S. Senate,,R,Rod Grams,7157,49.33
+06,Big Stone,President,,DFL,Al Gore,1430,49.04
+06,Big Stone,President,,GP,Ralph Nader,109,3.74
+06,Big Stone,President,,LIB,Harry Browne,7,0.24
+06,Big Stone,President,,R,George W. Bush,1370,46.98
+06,Big Stone,U.S. Senate,,DFL,Mark Dayton,1621,55.72
+06,Big Stone,U.S. Senate,,IND,Jim Gibson,111,3.82
+06,Big Stone,U.S. Senate,,R,Rod Grams,1177,40.46
+07,Blue Earth,President,,DFL,Al Gore,12329,45.46
+07,Blue Earth,President,,GP,Ralph Nader,1761,6.49
+07,Blue Earth,President,,LIB,Harry Browne,58,0.21
+07,Blue Earth,President,,R,George W. Bush,12942,47.72
+07,Blue Earth,President,,RP,Pat Buchanan,28,0.10
+07,Blue Earth,U.S. Senate,,DFL,Mark Dayton,12657,47.98
+07,Blue Earth,U.S. Senate,,IND,Jim Gibson,1610,6.10
+07,Blue Earth,U.S. Senate,,R,Rod Grams,12110,45.91
+08,Brown,President,,DFL,Al Gore,4650,36.88
+08,Brown,President,,GP,Ralph Nader,561,4.45
+08,Brown,President,,LIB,Harry Browne,15,0.12
+08,Brown,President,,R,George W. Bush,7370,58.46
+08,Brown,President,,RP,Pat Buchanan,11,0.09
+08,Brown,U.S. Senate,,DFL,Mark Dayton,5295,42.23
+08,Brown,U.S. Senate,,IND,Jim Gibson,511,4.08
+08,Brown,U.S. Senate,,R,Rod Grams,6731,53.69
+09,Carlton,President,,DFL,Al Gore,8620,57.96
+09,Carlton,President,,GP,Ralph Nader,634,4.26
+09,Carlton,President,,LIB,Harry Browne,24,0.16
+09,Carlton,President,,R,George W. Bush,5578,37.51
+09,Carlton,President,,RP,Pat Buchanan,16,0.11
+09,Carlton,U.S. Senate,,DFL,Mark Dayton,9148,61.59
+09,Carlton,U.S. Senate,,IND,Jim Gibson,444,2.99
+09,Carlton,U.S. Senate,,R,Rod Grams,5261,35.42
+10,Carver,President,,DFL,Al Gore,12462,35.86
+10,Carver,President,,GP,Ralph Nader,1381,3.97
+10,Carver,President,,LIB,Harry Browne,82,0.24
+10,Carver,President,,R,George W. Bush,20790,59.83
+10,Carver,President,,RP,Pat Buchanan,32,0.09
+10,Carver,U.S. Senate,,DFL,Mark Dayton,12219,35.63
+10,Carver,U.S. Senate,,IND,Jim Gibson,2114,6.16
+10,Carver,U.S. Senate,,R,Rod Grams,19959,58.20
+11,Cass,President,,DFL,Al Gore,5534,41.41
+11,Cass,President,,GP,Ralph Nader,663,4.96
+11,Cass,President,,LIB,Harry Browne,20,0.15
+11,Cass,President,,R,George W. Bush,7134,53.38
+11,Cass,President,,RP,Pat Buchanan,14,0.10
+11,Cass,U.S. Senate,,DFL,Mark Dayton,6289,47.57
+11,Cass,U.S. Senate,,IND,Jim Gibson,510,3.86
+11,Cass,U.S. Senate,,R,Rod Grams,6422,48.57
+12,Chippewa,President,,DFL,Al Gore,2952,47.47
+12,Chippewa,President,,GP,Ralph Nader,268,4.31
+12,Chippewa,President,,LIB,Harry Browne,13,0.21
+12,Chippewa,President,,R,George W. Bush,2977,47.87
+12,Chippewa,President,,RP,Pat Buchanan,9,0.14
+12,Chippewa,U.S. Senate,,DFL,Mark Dayton,3294,52.79
+12,Chippewa,U.S. Senate,,IND,Jim Gibson,278,4.46
+12,Chippewa,U.S. Senate,,R,Rod Grams,2668,42.76
+13,Chisago,President,,DFL,Al Gore,9593,44.19
+13,Chisago,President,,GP,Ralph Nader,1116,5.14
+13,Chisago,President,,LIB,Harry Browne,44,0.20
+13,Chisago,President,,R,George W. Bush,10937,50.38
+13,Chisago,President,,RP,Pat Buchanan,18,0.08
+13,Chisago,U.S. Senate,,DFL,Mark Dayton,9289,43.37
+13,Chisago,U.S. Senate,,IND,Jim Gibson,1468,6.85
+13,Chisago,U.S. Senate,,R,Rod Grams,10663,49.78
+14,Clay,President,,DFL,Al Gore,10128,44.26
+14,Clay,President,,GP,Ralph Nader,963,4.21
+14,Clay,President,,LIB,Harry Browne,53,0.23
+14,Clay,President,,R,George W. Bush,11712,51.18
+14,Clay,President,,RP,Pat Buchanan,27,0.12
+14,Clay,U.S. Senate,,DFL,Mark Dayton,11647,51.65
+14,Clay,U.S. Senate,,IND,Jim Gibson,611,2.71
+14,Clay,U.S. Senate,,R,Rod Grams,10293,45.64
+15,Clearwater,President,,DFL,Al Gore,1466,39.14
+15,Clearwater,President,,GP,Ralph Nader,134,3.58
+15,Clearwater,President,,LIB,Harry Browne,4,0.11
+15,Clearwater,President,,R,George W. Bush,2137,57.05
+15,Clearwater,President,,RP,Pat Buchanan,5,0.13
+15,Clearwater,U.S. Senate,,DFL,Mark Dayton,1575,42.33
+15,Clearwater,U.S. Senate,,IND,Jim Gibson,77,2.07
+15,Clearwater,U.S. Senate,,R,Rod Grams,2069,55.60
+16,Cook,President,,DFL,Al Gore,1171,42.29
+16,Cook,President,,GP,Ralph Nader,290,10.47
+16,Cook,President,,LIB,Harry Browne,8,0.29
+16,Cook,President,,R,George W. Bush,1295,46.77
+16,Cook,President,,RP,Pat Buchanan,5,0.18
+16,Cook,U.S. Senate,,DFL,Mark Dayton,1377,51.25
+16,Cook,U.S. Senate,,IND,Jim Gibson,86,3.20
+16,Cook,U.S. Senate,,R,Rod Grams,1224,45.55
+17,Cottonwood,President,,DFL,Al Gore,2503,41.09
+17,Cottonwood,President,,GP,Ralph Nader,208,3.41
+17,Cottonwood,President,,LIB,Harry Browne,7,0.11
+17,Cottonwood,President,,R,George W. Bush,3369,55.31
+17,Cottonwood,President,,RP,Pat Buchanan,4,0.07
+17,Cottonwood,U.S. Senate,,DFL,Mark Dayton,2807,46.17
+17,Cottonwood,U.S. Senate,,IND,Jim Gibson,224,3.68
+17,Cottonwood,U.S. Senate,,R,Rod Grams,3049,50.15
+18,Crow Wing,President,,DFL,Al Gore,11255,40.67
+18,Crow Wing,President,,GP,Ralph Nader,1314,4.75
+18,Crow Wing,President,,LIB,Harry Browne,35,0.13
+18,Crow Wing,President,,R,George W. Bush,15035,54.33
+18,Crow Wing,President,,RP,Pat Buchanan,35,0.13
+18,Crow Wing,U.S. Senate,,DFL,Mark Dayton,13122,47.59
+18,Crow Wing,U.S. Senate,,IND,Jim Gibson,1251,4.54
+18,Crow Wing,U.S. Senate,,R,Rod Grams,13199,47.87
+19,Dakota,President,,DFL,Al Gore,85446,47.20
+19,Dakota,President,,GP,Ralph Nader,7799,4.31
+19,Dakota,President,,LIB,Harry Browne,381,0.21
+19,Dakota,President,,R,George W. Bush,87250,48.20
+19,Dakota,President,,RP,Pat Buchanan,138,0.08
+19,Dakota,U.S. Senate,,DFL,Mark Dayton,82412,46.36
+19,Dakota,U.S. Senate,,IND,Jim Gibson,11995,6.75
+19,Dakota,U.S. Senate,,R,Rod Grams,83356,46.89
+20,Dodge,President,,DFL,Al Gore,3370,42.46
+20,Dodge,President,,GP,Ralph Nader,327,4.12
+20,Dodge,President,,LIB,Harry Browne,18,0.23
+20,Dodge,President,,R,George W. Bush,4213,53.08
+20,Dodge,President,,RP,Pat Buchanan,9,0.11
+20,Dodge,U.S. Senate,,DFL,Mark Dayton,3491,44.36
+20,Dodge,U.S. Senate,,IND,Jim Gibson,281,3.57
+20,Dodge,U.S. Senate,,R,Rod Grams,4098,52.07
+21,Douglas,President,,DFL,Al Gore,6352,37.47
+21,Douglas,President,,GP,Ralph Nader,746,4.40
+21,Douglas,President,,LIB,Harry Browne,29,0.17
+21,Douglas,President,,R,George W. Bush,9811,57.88
+21,Douglas,President,,RP,Pat Buchanan,13,0.08
+21,Douglas,U.S. Senate,,DFL,Mark Dayton,7257,43.25
+21,Douglas,U.S. Senate,,IND,Jim Gibson,738,4.40
+21,Douglas,U.S. Senate,,R,Rod Grams,8783,52.35
+22,Faribault,President,,DFL,Al Gore,3624,43.74
+22,Faribault,President,,GP,Ralph Nader,309,3.73
+22,Faribault,President,,LIB,Harry Browne,6,0.07
+22,Faribault,President,,R,George W. Bush,4336,52.33
+22,Faribault,President,,RP,Pat Buchanan,11,0.13
+22,Faribault,U.S. Senate,,DFL,Mark Dayton,3949,47.99
+22,Faribault,U.S. Senate,,IND,Jim Gibson,312,3.79
+22,Faribault,U.S. Senate,,R,Rod Grams,3967,48.21
+23,Fillmore,President,,DFL,Al Gore,5020,49.62
+23,Fillmore,President,,GP,Ralph Nader,409,4.04
+23,Fillmore,President,,LIB,Harry Browne,32,0.32
+23,Fillmore,President,,R,George W. Bush,4646,45.92
+23,Fillmore,President,,RP,Pat Buchanan,10,0.10
+23,Fillmore,U.S. Senate,,DFL,Mark Dayton,4976,50.02
+23,Fillmore,U.S. Senate,,IND,Jim Gibson,225,2.26
+23,Fillmore,U.S. Senate,,R,Rod Grams,4747,47.72
+24,Freeborn,President,,DFL,Al Gore,8514,53.33
+24,Freeborn,President,,GP,Ralph Nader,555,3.48
+24,Freeborn,President,,LIB,Harry Browne,33,0.21
+24,Freeborn,President,,R,George W. Bush,6843,42.86
+24,Freeborn,President,,RP,Pat Buchanan,20,0.13
+24,Freeborn,U.S. Senate,,DFL,Mark Dayton,8642,54.42
+24,Freeborn,U.S. Senate,,IND,Jim Gibson,577,3.63
+24,Freeborn,U.S. Senate,,R,Rod Grams,6660,41.94
+25,Goodhue,President,,DFL,Al Gore,9981,45.41
+25,Goodhue,President,,GP,Ralph Nader,1093,4.97
+25,Goodhue,President,,LIB,Harry Browne,34,0.15
+25,Goodhue,President,,R,George W. Bush,10852,49.37
+25,Goodhue,President,,RP,Pat Buchanan,20,0.09
+25,Goodhue,U.S. Senate,,DFL,Mark Dayton,9939,45.58
+25,Goodhue,U.S. Senate,,IND,Jim Gibson,1187,5.44
+25,Goodhue,U.S. Senate,,R,Rod Grams,10679,48.98
+26,Grant,President,,DFL,Al Gore,1507,42.62
+26,Grant,President,,GP,Ralph Nader,214,6.05
+26,Grant,President,,LIB,Harry Browne,4,0.11
+26,Grant,President,,R,George W. Bush,1804,51.02
+26,Grant,President,,RP,Pat Buchanan,7,0.20
+26,Grant,U.S. Senate,,DFL,Mark Dayton,1787,50.39
+26,Grant,U.S. Senate,,IND,Jim Gibson,187,5.27
+26,Grant,U.S. Senate,,R,Rod Grams,1572,44.33
+27,Hennepin,President,,DFL,Al Gore,307599,53.88
+27,Hennepin,President,,GP,Ralph Nader,35584,6.23
+27,Hennepin,President,,LIB,Harry Browne,1537,0.27
+27,Hennepin,President,,R,George W. Bush,225657,39.53
+27,Hennepin,President,,RP,Pat Buchanan,486,0.09
+27,Hennepin,U.S. Senate,,DFL,Mark Dayton,298660,53.86
+27,Hennepin,U.S. Senate,,IND,Jim Gibson,43162,7.78
+27,Hennepin,U.S. Senate,,R,Rod Grams,212718,38.36
+28,Houston,President,,DFL,Al Gore,4502,44.85
+28,Houston,President,,GP,Ralph Nader,421,4.19
+28,Houston,President,,LIB,Harry Browne,28,0.28
+28,Houston,President,,R,George W. Bush,5077,50.58
+28,Houston,President,,RP,Pat Buchanan,9,0.09
+28,Houston,U.S. Senate,,DFL,Mark Dayton,4316,44.73
+28,Houston,U.S. Senate,,IND,Jim Gibson,227,2.35
+28,Houston,U.S. Senate,,R,Rod Grams,5106,52.92
+29,Hubbard,President,,DFL,Al Gore,3632,38.39
+29,Hubbard,President,,GP,Ralph Nader,484,5.12
+29,Hubbard,President,,LIB,Harry Browne,25,0.26
+29,Hubbard,President,,R,George W. Bush,5307,56.10
+29,Hubbard,President,,RP,Pat Buchanan,12,0.13
+29,Hubbard,U.S. Senate,,DFL,Mark Dayton,4119,44.29
+29,Hubbard,U.S. Senate,,IND,Jim Gibson,357,3.84
+29,Hubbard,U.S. Senate,,R,Rod Grams,4825,51.88
+30,Isanti,President,,DFL,Al Gore,6247,42.42
+30,Isanti,President,,GP,Ralph Nader,753,5.11
+30,Isanti,President,,LIB,Harry Browne,39,0.26
+30,Isanti,President,,R,George W. Bush,7668,52.07
+30,Isanti,President,,RP,Pat Buchanan,18,0.12
+30,Isanti,U.S. Senate,,DFL,Mark Dayton,5983,41.03
+30,Isanti,U.S. Senate,,IND,Jim Gibson,932,6.39
+30,Isanti,U.S. Senate,,R,Rod Grams,7666,52.58
+31,Itasca,President,,DFL,Al Gore,10583,49.57
+31,Itasca,President,,GP,Ralph Nader,1137,5.33
+31,Itasca,President,,LIB,Harry Browne,49,0.23
+31,Itasca,President,,R,George W. Bush,9545,44.71
+31,Itasca,President,,RP,Pat Buchanan,37,0.17
+31,Itasca,U.S. Senate,,DFL,Mark Dayton,11855,55.95
+31,Itasca,U.S. Senate,,IND,Jim Gibson,622,2.94
+31,Itasca,U.S. Senate,,R,Rod Grams,8710,41.11
+32,Jackson,President,,DFL,Al Gore,2364,44.21
+32,Jackson,President,,GP,Ralph Nader,194,3.63
+32,Jackson,President,,LIB,Harry Browne,6,0.11
+32,Jackson,President,,R,George W. Bush,2773,51.86
+32,Jackson,President,,RP,Pat Buchanan,10,0.19
+32,Jackson,U.S. Senate,,DFL,Mark Dayton,2614,49.10
+32,Jackson,U.S. Senate,,IND,Jim Gibson,178,3.34
+32,Jackson,U.S. Senate,,R,Rod Grams,2532,47.56
+33,Kanabec,President,,DFL,Al Gore,2831,42.36
+33,Kanabec,President,,GP,Ralph Nader,344,5.15
+33,Kanabec,President,,LIB,Harry Browne,17,0.25
+33,Kanabec,President,,R,George W. Bush,3480,52.07
+33,Kanabec,President,,RP,Pat Buchanan,11,0.16
+33,Kanabec,U.S. Senate,,DFL,Mark Dayton,2948,44.62
+33,Kanabec,U.S. Senate,,IND,Jim Gibson,370,5.60
+33,Kanabec,U.S. Senate,,R,Rod Grams,3289,49.78
+34,Kandiyohi,President,,DFL,Al Gore,8220,43.21
+34,Kandiyohi,President,,GP,Ralph Nader,734,3.86
+34,Kandiyohi,President,,LIB,Harry Browne,25,0.13
+34,Kandiyohi,President,,R,George W. Bush,10026,52.70
+34,Kandiyohi,President,,RP,Pat Buchanan,18,0.09
+34,Kandiyohi,U.S. Senate,,DFL,Mark Dayton,9120,48.10
+34,Kandiyohi,U.S. Senate,,IND,Jim Gibson,893,4.71
+34,Kandiyohi,U.S. Senate,,R,Rod Grams,8947,47.19
+35,Kittson,President,,DFL,Al Gore,1107,43.63
+35,Kittson,President,,GP,Ralph Nader,68,2.68
+35,Kittson,President,,LIB,Harry Browne,3,0.12
+35,Kittson,President,,R,George W. Bush,1353,53.33
+35,Kittson,President,,RP,Pat Buchanan,6,0.24
+35,Kittson,U.S. Senate,,DFL,Mark Dayton,1415,54.95
+35,Kittson,U.S. Senate,,IND,Jim Gibson,41,1.59
+35,Kittson,U.S. Senate,,R,Rod Grams,1119,43.46
+36,Koochiching,President,,DFL,Al Gore,2903,42.94
+36,Koochiching,President,,GP,Ralph Nader,302,4.47
+36,Koochiching,President,,LIB,Harry Browne,18,0.27
+36,Koochiching,President,,R,George W. Bush,3523,52.11
+36,Koochiching,President,,RP,Pat Buchanan,15,0.22
+36,Koochiching,U.S. Senate,,DFL,Mark Dayton,3323,49.46
+36,Koochiching,U.S. Senate,,IND,Jim Gibson,184,2.74
+36,Koochiching,U.S. Senate,,R,Rod Grams,3211,47.80
+37,Lac qui Parle,President,,DFL,Al Gore,2244,51.52
+37,Lac qui Parle,President,,GP,Ralph Nader,160,3.67
+37,Lac qui Parle,President,,LIB,Harry Browne,7,0.16
+37,Lac qui Parle,President,,R,George W. Bush,1941,44.56
+37,Lac qui Parle,President,,RP,Pat Buchanan,4,0.09
+37,Lac qui Parle,U.S. Senate,,DFL,Mark Dayton,2431,55.43
+37,Lac qui Parle,U.S. Senate,,IND,Jim Gibson,181,4.13
+37,Lac qui Parle,U.S. Senate,,R,Rod Grams,1774,40.45
+38,Lake,President,,DFL,Al Gore,3579,55.11
+38,Lake,President,,GP,Ralph Nader,426,6.56
+38,Lake,President,,LIB,Harry Browne,12,0.18
+38,Lake,President,,R,George W. Bush,2465,37.96
+38,Lake,President,,RP,Pat Buchanan,12,0.18
+38,Lake,U.S. Senate,,DFL,Mark Dayton,3731,58.19
+38,Lake,U.S. Senate,,IND,Jim Gibson,190,2.96
+38,Lake,U.S. Senate,,R,Rod Grams,2491,38.85
+39,Lake of the Woods,President,,DFL,Al Gore,848,39.50
+39,Lake of the Woods,President,,GP,Ralph Nader,74,3.45
+39,Lake of the Woods,President,,LIB,Harry Browne,4,0.19
+39,Lake of the Woods,President,,R,George W. Bush,1216,56.64
+39,Lake of the Woods,President,,RP,Pat Buchanan,5,0.23
+39,Lake of the Woods,U.S. Senate,,DFL,Mark Dayton,1001,46.84
+39,Lake of the Woods,U.S. Senate,,IND,Jim Gibson,51,2.39
+39,Lake of the Woods,U.S. Senate,,R,Rod Grams,1085,50.77
+40,Le Sueur,President,,DFL,Al Gore,5361,44.19
+40,Le Sueur,President,,GP,Ralph Nader,603,4.97
+40,Le Sueur,President,,LIB,Harry Browne,19,0.16
+40,Le Sueur,President,,R,George W. Bush,6138,50.59
+40,Le Sueur,President,,RP,Pat Buchanan,11,0.09
+40,Le Sueur,U.S. Senate,,DFL,Mark Dayton,5479,45.39
+40,Le Sueur,U.S. Senate,,IND,Jim Gibson,628,5.20
+40,Le Sueur,U.S. Senate,,R,Rod Grams,5964,49.41
+41,Lincoln,President,,DFL,Al Gore,1590,49.44
+41,Lincoln,President,,GP,Ralph Nader,105,3.26
+41,Lincoln,President,,LIB,Harry Browne,6,0.19
+41,Lincoln,President,,R,George W. Bush,1513,47.05
+41,Lincoln,President,,RP,Pat Buchanan,2,0.06
+41,Lincoln,U.S. Senate,,DFL,Mark Dayton,1629,50.59
+41,Lincoln,U.S. Senate,,IND,Jim Gibson,95,2.95
+41,Lincoln,U.S. Senate,,R,Rod Grams,1496,46.46
+42,Lyon,President,,DFL,Al Gore,4737,41.88
+42,Lyon,President,,GP,Ralph Nader,460,4.07
+42,Lyon,President,,LIB,Harry Browne,17,0.15
+42,Lyon,President,,R,George W. Bush,6087,53.81
+42,Lyon,President,,RP,Pat Buchanan,10,0.09
+42,Lyon,U.S. Senate,,DFL,Mark Dayton,5221,46.70
+42,Lyon,U.S. Senate,,IND,Jim Gibson,434,3.88
+42,Lyon,U.S. Senate,,R,Rod Grams,5525,49.42
+44,Mahnomen,President,,DFL,Al Gore,921,42.86
+44,Mahnomen,President,,GP,Ralph Nader,96,4.47
+44,Mahnomen,President,,LIB,Harry Browne,5,0.23
+44,Mahnomen,President,,R,George W. Bush,1122,52.21
+44,Mahnomen,President,,RP,Pat Buchanan,5,0.23
+44,Mahnomen,U.S. Senate,,DFL,Mark Dayton,1161,53.63
+44,Mahnomen,U.S. Senate,,IND,Jim Gibson,56,2.59
+44,Mahnomen,U.S. Senate,,R,Rod Grams,948,43.79
+45,Marshall,President,,DFL,Al Gore,1910,38.27
+45,Marshall,President,,GP,Ralph Nader,160,3.21
+45,Marshall,President,,LIB,Harry Browne,5,0.10
+45,Marshall,President,,R,George W. Bush,2912,58.35
+45,Marshall,President,,RP,Pat Buchanan,4,0.08
+45,Marshall,U.S. Senate,,DFL,Mark Dayton,2510,49.23
+45,Marshall,U.S. Senate,,IND,Jim Gibson,106,2.08
+45,Marshall,U.S. Senate,,R,Rod Grams,2482,48.69
+46,Martin,President,,DFL,Al Gore,4166,40.64
+46,Martin,President,,GP,Ralph Nader,376,3.67
+46,Martin,President,,LIB,Harry Browne,6,0.06
+46,Martin,President,,R,George W. Bush,5686,55.47
+46,Martin,President,,RP,Pat Buchanan,16,0.16
+46,Martin,U.S. Senate,,DFL,Mark Dayton,4631,45.32
+46,Martin,U.S. Senate,,IND,Jim Gibson,414,4.05
+46,Martin,U.S. Senate,,R,Rod Grams,5173,50.63
+43,McLeod,President,,DFL,Al Gore,5609,37.08
+43,McLeod,President,,GP,Ralph Nader,681,4.50
+43,McLeod,President,,LIB,Harry Browne,30,0.20
+43,McLeod,President,,R,George W. Bush,8782,58.06
+43,McLeod,President,,RP,Pat Buchanan,23,0.15
+43,McLeod,U.S. Senate,,DFL,Mark Dayton,5921,39.36
+43,McLeod,U.S. Senate,,IND,Jim Gibson,894,5.94
+43,McLeod,U.S. Senate,,R,Rod Grams,8228,54.70
+61,Meeker,President,,DFL,Al Gore,2771,47.31
+61,Meeker,President,,GP,Ralph Nader,264,4.51
+61,Meeker,President,,LIB,Harry Browne,8,0.14
+61,Meeker,President,,R,George W. Bush,2808,47.94
+61,Meeker,President,,RP,Pat Buchanan,6,0.10
+61,Meeker,U.S. Senate,,DFL,Mark Dayton,2942,49.87
+61,Meeker,U.S. Senate,,IND,Jim Gibson,304,5.15
+61,Meeker,U.S. Senate,,R,Rod Grams,2653,44.97
+47,Mille Lacs,President,,DFL,Al Gore,4402,42.10
+47,Mille Lacs,President,,GP,Ralph Nader,517,4.94
+47,Mille Lacs,President,,LIB,Harry Browne,8,0.08
+47,Mille Lacs,President,,R,George W. Bush,5520,52.79
+47,Mille Lacs,President,,RP,Pat Buchanan,9,0.09
+47,Mille Lacs,U.S. Senate,,DFL,Mark Dayton,4595,44.05
+47,Mille Lacs,U.S. Senate,,IND,Jim Gibson,552,5.29
+47,Mille Lacs,U.S. Senate,,R,Rod Grams,5284,50.66
+48,Morrison,President,,DFL,Al Gore,4376,43.43
+48,Morrison,President,,GP,Ralph Nader,448,4.45
+48,Morrison,President,,LIB,Harry Browne,20,0.20
+48,Morrison,President,,R,George W. Bush,5223,51.84
+48,Morrison,President,,RP,Pat Buchanan,9,0.09
+48,Morrison,U.S. Senate,,DFL,Mark Dayton,4457,44.43
+48,Morrison,U.S. Senate,,IND,Jim Gibson,598,5.96
+48,Morrison,U.S. Senate,,R,Rod Grams,4976,49.61
+49,Mower,President,,DFL,Al Gore,5274,37.28
+49,Mower,President,,GP,Ralph Nader,633,4.47
+49,Mower,President,,LIB,Harry Browne,24,0.17
+49,Mower,President,,R,George W. Bush,8197,57.94
+49,Mower,President,,RP,Pat Buchanan,19,0.13
+49,Mower,U.S. Senate,,DFL,Mark Dayton,6185,43.19
+49,Mower,U.S. Senate,,IND,Jim Gibson,645,4.50
+49,Mower,U.S. Senate,,R,Rod Grams,7489,52.30
+50,Murray,President,,DFL,Al Gore,10693,58.47
+50,Murray,President,,GP,Ralph Nader,678,3.71
+50,Murray,President,,LIB,Harry Browne,31,0.17
+50,Murray,President,,R,George W. Bush,6873,37.58
+50,Murray,President,,RP,Pat Buchanan,13,0.07
+50,Murray,U.S. Senate,,DFL,Mark Dayton,10997,60.87
+50,Murray,U.S. Senate,,IND,Jim Gibson,445,2.46
+50,Murray,U.S. Senate,,R,Rod Grams,6624,36.67
+51,Nicollet,President,,DFL,Al Gore,2093,44.90
+51,Nicollet,President,,GP,Ralph Nader,149,3.20
+51,Nicollet,President,,LIB,Harry Browne,7,0.15
+51,Nicollet,President,,R,George W. Bush,2407,51.64
+51,Nicollet,President,,RP,Pat Buchanan,5,0.11
+51,Nicollet,U.S. Senate,,DFL,Mark Dayton,2220,47.98
+51,Nicollet,U.S. Senate,,IND,Jim Gibson,174,3.76
+51,Nicollet,U.S. Senate,,R,Rod Grams,2233,48.26
+52,Nobles,President,,DFL,Al Gore,7041,46.51
+52,Nobles,President,,GP,Ralph Nader,842,5.56
+52,Nobles,President,,LIB,Harry Browne,25,0.17
+52,Nobles,President,,R,George W. Bush,7221,47.70
+52,Nobles,President,,RP,Pat Buchanan,10,0.07
+52,Nobles,U.S. Senate,,DFL,Mark Dayton,7154,48.07
+52,Nobles,U.S. Senate,,IND,Jim Gibson,863,5.80
+52,Nobles,U.S. Senate,,R,Rod Grams,6866,46.13
+53,Norman,President,,DFL,Al Gore,3760,42.80
+53,Norman,President,,GP,Ralph Nader,238,2.71
+53,Norman,President,,LIB,Harry Browne,15,0.17
+53,Norman,President,,R,George W. Bush,4766,54.25
+53,Norman,President,,RP,Pat Buchanan,6,0.07
+53,Norman,U.S. Senate,,DFL,Mark Dayton,3889,45.41
+53,Norman,U.S. Senate,,IND,Jim Gibson,292,3.41
+53,Norman,U.S. Senate,,R,Rod Grams,4384,51.19
+54,Olmsted,President,,DFL,Al Gore,1575,44.78
+54,Olmsted,President,,GP,Ralph Nader,123,3.50
+54,Olmsted,President,,LIB,Harry Browne,8,0.23
+54,Olmsted,President,,R,George W. Bush,1808,51.41
+54,Olmsted,President,,RP,Pat Buchanan,3,0.09
+54,Olmsted,U.S. Senate,,DFL,Mark Dayton,1948,54.61
+54,Olmsted,U.S. Senate,,IND,Jim Gibson,76,2.13
+54,Olmsted,U.S. Senate,,R,Rod Grams,1543,43.26
+55,Otter Tail,President,,DFL,Al Gore,25822,43.83
+55,Otter Tail,President,,GP,Ralph Nader,2198,3.73
+55,Otter Tail,President,,LIB,Harry Browne,209,0.35
+55,Otter Tail,President,,R,George W. Bush,30641,52.01
+55,Otter Tail,President,,RP,Pat Buchanan,42,0.07
+55,Otter Tail,U.S. Senate,,DFL,Mark Dayton,27073,47.04
+55,Otter Tail,U.S. Senate,,IND,Jim Gibson,2178,3.78
+55,Otter Tail,U.S. Senate,,R,Rod Grams,28300,49.17
+56,Pennington,President,,DFL,Al Gore,9844,35.16
+56,Pennington,President,,GP,Ralph Nader,1120,4.00
+56,Pennington,President,,LIB,Harry Browne,46,0.16
+56,Pennington,President,,R,George W. Bush,16963,60.59
+56,Pennington,President,,RP,Pat Buchanan,24,0.09
+56,Pennington,U.S. Senate,,DFL,Mark Dayton,11587,41.74
+56,Pennington,U.S. Senate,,IND,Jim Gibson,936,3.37
+56,Pennington,U.S. Senate,,R,Rod Grams,15235,54.89
+57,Pine,President,,DFL,Al Gore,2458,40.20
+57,Pine,President,,GP,Ralph Nader,255,4.17
+57,Pine,President,,LIB,Harry Browne,11,0.18
+57,Pine,President,,R,George W. Bush,3380,55.28
+57,Pine,President,,RP,Pat Buchanan,10,0.16
+57,Pine,U.S. Senate,,DFL,Mark Dayton,3187,51.92
+57,Pine,U.S. Senate,,IND,Jim Gibson,144,2.35
+57,Pine,U.S. Senate,,R,Rod Grams,2807,45.73
+58,Pipestone,President,,DFL,Al Gore,6148,48.11
+58,Pipestone,President,,GP,Ralph Nader,734,5.74
+58,Pipestone,President,,LIB,Harry Browne,29,0.23
+58,Pipestone,President,,R,George W. Bush,5854,45.81
+58,Pipestone,President,,RP,Pat Buchanan,15,0.12
+58,Pipestone,U.S. Senate,,DFL,Mark Dayton,6460,50.98
+58,Pipestone,U.S. Senate,,IND,Jim Gibson,718,5.67
+58,Pipestone,U.S. Senate,,R,Rod Grams,5494,43.36
+59,Polk,President,,DFL,Al Gore,1970,40.92
+59,Polk,President,,GP,Ralph Nader,140,2.91
+59,Polk,President,,LIB,Harry Browne,6,0.12
+59,Polk,President,,R,George W. Bush,2693,55.94
+59,Polk,President,,RP,Pat Buchanan,5,0.10
+59,Polk,U.S. Senate,,DFL,Mark Dayton,2076,44.34
+59,Polk,U.S. Senate,,IND,Jim Gibson,150,3.20
+59,Polk,U.S. Senate,,R,Rod Grams,2456,52.46
+60,Pope,President,,DFL,Al Gore,5764,41.84
+60,Pope,President,,GP,Ralph Nader,369,2.68
+60,Pope,President,,LIB,Harry Browne,20,0.15
+60,Pope,President,,R,George W. Bush,7609,55.23
+60,Pope,President,,RP,Pat Buchanan,14,0.10
+60,Pope,U.S. Senate,,DFL,Mark Dayton,6954,50.29
+60,Pope,U.S. Senate,,IND,Jim Gibson,271,1.96
+60,Pope,U.S. Senate,,R,Rod Grams,6602,47.75
+62,Ramsey,President,,DFL,Al Gore,138470,57.12
+62,Ramsey,President,,GP,Ralph Nader,15522,6.40
+62,Ramsey,President,,LIB,Harry Browne,555,0.23
+62,Ramsey,President,,R,George W. Bush,87669,36.16
+62,Ramsey,President,,RP,Pat Buchanan,222,0.09
+62,Ramsey,U.S. Senate,,DFL,Mark Dayton,135852,57.44
+62,Ramsey,U.S. Senate,,IND,Jim Gibson,17948,7.59
+62,Ramsey,U.S. Senate,,R,Rod Grams,82698,34.97
+63,Red Lake,President,,DFL,Al Gore,830,41.71
+63,Red Lake,President,,GP,Ralph Nader,68,3.42
+63,Red Lake,President,,LIB,Harry Browne,2,0.10
+63,Red Lake,President,,R,George W. Bush,1090,54.77
+63,Red Lake,U.S. Senate,,DFL,Mark Dayton,1115,54.36
+63,Red Lake,U.S. Senate,,IND,Jim Gibson,40,1.95
+63,Red Lake,U.S. Senate,,R,Rod Grams,896,43.69
+64,Redwood,President,,DFL,Al Gore,2681,35.27
+64,Redwood,President,,GP,Ralph Nader,314,4.13
+64,Redwood,President,,LIB,Harry Browne,14,0.18
+64,Redwood,President,,R,George W. Bush,4589,60.37
+64,Redwood,President,,RP,Pat Buchanan,4,0.05
+64,Redwood,U.S. Senate,,DFL,Mark Dayton,3005,39.57
+64,Redwood,U.S. Senate,,IND,Jim Gibson,338,4.45
+64,Redwood,U.S. Senate,,R,Rod Grams,4252,55.98
+65,Renville,President,,DFL,Al Gore,3533,44.52
+65,Renville,President,,GP,Ralph Nader,355,4.47
+65,Renville,President,,LIB,Harry Browne,5,0.06
+65,Renville,President,,R,George W. Bush,4036,50.86
+65,Renville,President,,RP,Pat Buchanan,6,0.08
+65,Renville,U.S. Senate,,DFL,Mark Dayton,3801,47.90
+65,Renville,U.S. Senate,,IND,Jim Gibson,398,5.02
+65,Renville,U.S. Senate,,R,Rod Grams,3737,47.09
+66,Rice,President,,DFL,Al Gore,13140,51.05
+66,Rice,President,,GP,Ralph Nader,1639,6.37
+66,Rice,President,,LIB,Harry Browne,62,0.24
+66,Rice,President,,R,George W. Bush,10876,42.26
+66,Rice,President,,RP,Pat Buchanan,20,0.08
+66,Rice,U.S. Senate,,DFL,Mark Dayton,12649,50.37
+66,Rice,U.S. Senate,,IND,Jim Gibson,1509,6.01
+66,Rice,U.S. Senate,,R,Rod Grams,10953,43.62
+67,Rock,President,,DFL,Al Gore,2081,41.82
+67,Rock,President,,GP,Ralph Nader,116,2.33
+67,Rock,President,,LIB,Harry Browne,5,0.10
+67,Rock,President,,R,George W. Bush,2772,55.71
+67,Rock,President,,RP,Pat Buchanan,2,0.04
+67,Rock,U.S. Senate,,DFL,Mark Dayton,2146,44.73
+67,Rock,U.S. Senate,,IND,Jim Gibson,164,3.42
+67,Rock,U.S. Senate,,R,Rod Grams,2488,51.85
+68,Roseau,President,,DFL,Al Gore,2128,30.27
+68,Roseau,President,,GP,Ralph Nader,176,2.50
+68,Roseau,President,,LIB,Harry Browne,24,0.34
+68,Roseau,President,,R,George W. Bush,4695,66.79
+68,Roseau,President,,RP,Pat Buchanan,6,0.09
+68,Roseau,U.S. Senate,,DFL,Mark Dayton,2783,39.63
+68,Roseau,U.S. Senate,,IND,Jim Gibson,127,1.81
+68,Roseau,U.S. Senate,,R,Rod Grams,4113,58.56
+70,Scott,President,,DFL,Al Gore,17503,40.31
+70,Scott,President,,GP,Ralph Nader,1829,4.21
+70,Scott,President,,LIB,Harry Browne,101,0.23
+70,Scott,President,,R,George W. Bush,23954,55.16
+70,Scott,President,,RP,Pat Buchanan,38,0.09
+70,Scott,U.S. Senate,,DFL,Mark Dayton,16939,39.54
+70,Scott,U.S. Senate,,IND,Jim Gibson,2627,6.13
+70,Scott,U.S. Senate,,R,Rod Grams,23271,54.32
+71,Sherburne,President,,DFL,Al Gore,12109,39.69
+71,Sherburne,President,,GP,Ralph Nader,1501,4.92
+71,Sherburne,President,,LIB,Harry Browne,51,0.17
+71,Sherburne,President,,R,George W. Bush,16813,55.11
+71,Sherburne,President,,RP,Pat Buchanan,33,0.11
+71,Sherburne,U.S. Senate,,DFL,Mark Dayton,11742,39.03
+71,Sherburne,U.S. Senate,,IND,Jim Gibson,1867,6.21
+71,Sherburne,U.S. Senate,,R,Rod Grams,16476,54.76
+72,Sibley,President,,DFL,Al Gore,2687,37.54
+72,Sibley,President,,GP,Ralph Nader,361,5.04
+72,Sibley,President,,LIB,Harry Browne,16,0.22
+72,Sibley,President,,R,George W. Bush,4087,57.10
+72,Sibley,President,,RP,Pat Buchanan,6,0.08
+72,Sibley,U.S. Senate,,DFL,Mark Dayton,3004,41.84
+72,Sibley,U.S. Senate,,IND,Jim Gibson,403,5.61
+72,Sibley,U.S. Senate,,R,Rod Grams,3773,52.55
+69,St. Louis,President,,DFL,Al Gore,64237,60.45
+69,St. Louis,President,,GP,Ralph Nader,6290,5.92
+69,St. Louis,President,,LIB,Harry Browne,227,0.21
+69,St. Louis,President,,R,George W. Bush,35420,33.33
+69,St. Louis,President,,RP,Pat Buchanan,87,0.08
+69,St. Louis,U.S. Senate,,DFL,Mark Dayton,67519,64.54
+69,St. Louis,U.S. Senate,,IND,Jim Gibson,3319,3.17
+69,St. Louis,U.S. Senate,,R,Rod Grams,33773,32.28
+73,Stearns,President,,DFL,Al Gore,24800,40.51
+73,Stearns,President,,GP,Ralph Nader,3820,6.24
+73,Stearns,President,,LIB,Harry Browne,129,0.21
+73,Stearns,President,,R,George W. Bush,32402,52.93
+73,Stearns,President,,RP,Pat Buchanan,68,0.11
+73,Stearns,U.S. Senate,,DFL,Mark Dayton,26343,43.67
+73,Stearns,U.S. Senate,,IND,Jim Gibson,3627,6.01
+73,Stearns,U.S. Senate,,R,Rod Grams,30348,50.31
+74,Steele,President,,DFL,Al Gore,6900,43.51
+74,Steele,President,,GP,Ralph Nader,697,4.39
+74,Steele,President,,LIB,Harry Browne,25,0.16
+74,Steele,President,,R,George W. Bush,8223,51.85
+74,Steele,President,,RP,Pat Buchanan,14,0.09
+74,Steele,U.S. Senate,,DFL,Mark Dayton,6946,44.37
+74,Steele,U.S. Senate,,IND,Jim Gibson,777,4.96
+74,Steele,U.S. Senate,,R,Rod Grams,7932,50.67
+75,Stevens,President,,DFL,Al Gore,2434,42.89
+75,Stevens,President,,GP,Ralph Nader,393,6.93
+75,Stevens,President,,LIB,Harry Browne,9,0.16
+75,Stevens,President,,R,George W. Bush,2831,49.89
+75,Stevens,President,,RP,Pat Buchanan,8,0.14
+75,Stevens,U.S. Senate,,DFL,Mark Dayton,2635,47.28
+75,Stevens,U.S. Senate,,IND,Jim Gibson,298,5.35
+75,Stevens,U.S. Senate,,R,Rod Grams,2640,47.37
+76,Swift,President,,DFL,Al Gore,2698,50.84
+76,Swift,President,,GP,Ralph Nader,218,4.11
+76,Swift,President,,LIB,Harry Browne,4,0.08
+76,Swift,President,,R,George W. Bush,2376,44.77
+76,Swift,President,,RP,Pat Buchanan,11,0.21
+76,Swift,U.S. Senate,,DFL,Mark Dayton,2925,54.98
+76,Swift,U.S. Senate,,IND,Jim Gibson,228,4.29
+76,Swift,U.S. Senate,,R,Rod Grams,2167,40.73
+77,Todd,President,,DFL,Al Gore,4132,38.69
+77,Todd,President,,GP,Ralph Nader,485,4.54
+77,Todd,President,,LIB,Harry Browne,17,0.16
+77,Todd,President,,R,George W. Bush,6031,56.48
+77,Todd,President,,RP,Pat Buchanan,14,0.13
+77,Todd,U.S. Senate,,DFL,Mark Dayton,4781,44.06
+77,Todd,U.S. Senate,,IND,Jim Gibson,371,3.42
+77,Todd,U.S. Senate,,R,Rod Grams,5699,52.52
+78,Traverse,President,,DFL,Al Gore,884,43.19
+78,Traverse,President,,GP,Ralph Nader,86,4.20
+78,Traverse,President,,LIB,Harry Browne,2,0.10
+78,Traverse,President,,R,George W. Bush,1074,52.47
+78,Traverse,President,,RP,Pat Buchanan,1,0.05
+78,Traverse,U.S. Senate,,DFL,Mark Dayton,1033,50.00
+78,Traverse,U.S. Senate,,IND,Jim Gibson,79,3.82
+78,Traverse,U.S. Senate,,R,Rod Grams,954,46.18
+79,Wabasha,President,,DFL,Al Gore,4522,43.59
+79,Wabasha,President,,GP,Ralph Nader,571,5.50
+79,Wabasha,President,,LIB,Harry Browne,29,0.28
+79,Wabasha,President,,R,George W. Bush,5245,50.56
+79,Wabasha,President,,RP,Pat Buchanan,6,0.06
+79,Wabasha,U.S. Senate,,DFL,Mark Dayton,4800,46.51
+79,Wabasha,U.S. Senate,,IND,Jim Gibson,432,4.19
+79,Wabasha,U.S. Senate,,R,Rod Grams,5088,49.30
+80,Wadena,President,,DFL,Al Gore,2251,36.00
+80,Wadena,President,,GP,Ralph Nader,253,4.05
+80,Wadena,President,,LIB,Harry Browne,8,0.13
+80,Wadena,President,,R,George W. Bush,3733,59.71
+80,Wadena,President,,RP,Pat Buchanan,7,0.11
+80,Wadena,U.S. Senate,,DFL,Mark Dayton,2599,41.74
+80,Wadena,U.S. Senate,,IND,Jim Gibson,240,3.85
+80,Wadena,U.S. Senate,,R,Rod Grams,3388,54.41
+81,Waseca,President,,DFL,Al Gore,3694,42.36
+81,Waseca,President,,GP,Ralph Nader,398,4.56
+81,Waseca,President,,LIB,Harry Browne,13,0.15
+81,Waseca,President,,R,George W. Bush,4608,52.84
+81,Waseca,President,,RP,Pat Buchanan,8,0.09
+81,Waseca,U.S. Senate,,DFL,Mark Dayton,3740,43.09
+81,Waseca,U.S. Senate,,IND,Jim Gibson,472,5.44
+81,Waseca,U.S. Senate,,R,Rod Grams,4468,51.47
+82,Washington,President,,DFL,Al Gore,49637,46.69
+82,Washington,President,,GP,Ralph Nader,4891,4.60
+82,Washington,President,,LIB,Harry Browne,199,0.19
+82,Washington,President,,R,George W. Bush,51502,48.45
+82,Washington,President,,RP,Pat Buchanan,74,0.07
+82,Washington,U.S. Senate,,DFL,Mark Dayton,48597,46.40
+82,Washington,U.S. Senate,,IND,Jim Gibson,6936,6.62
+82,Washington,U.S. Senate,,R,Rod Grams,49193,46.97
+83,Watonwan,President,,DFL,Al Gore,2258,44.78
+83,Watonwan,President,,GP,Ralph Nader,212,4.20
+83,Watonwan,President,,LIB,Harry Browne,4,0.08
+83,Watonwan,President,,R,George W. Bush,2562,50.81
+83,Watonwan,President,,RP,Pat Buchanan,6,0.12
+83,Watonwan,U.S. Senate,,DFL,Mark Dayton,2372,47.37
+83,Watonwan,U.S. Senate,,IND,Jim Gibson,245,4.89
+83,Watonwan,U.S. Senate,,R,Rod Grams,2390,47.73
+84,Wilkin,President,,DFL,Al Gore,1046,33.03
+84,Wilkin,President,,GP,Ralph Nader,77,2.43
+84,Wilkin,President,,LIB,Harry Browne,3,0.09
+84,Wilkin,President,,R,George W. Bush,2032,64.16
+84,Wilkin,President,,RP,Pat Buchanan,9,0.28
+84,Wilkin,U.S. Senate,,DFL,Mark Dayton,1389,43.15
+84,Wilkin,U.S. Senate,,IND,Jim Gibson,72,2.24
+84,Wilkin,U.S. Senate,,R,Rod Grams,1758,54.61
+85,Winona,President,,DFL,Al Gore,11069,46.75
+85,Winona,President,,GP,Ralph Nader,1750,7.39
+85,Winona,President,,LIB,Harry Browne,50,0.21
+85,Winona,President,,R,George W. Bush,10773,45.50
+85,Winona,President,,RP,Pat Buchanan,37,0.16
+85,Winona,U.S. Senate,,DFL,Mark Dayton,11261,49.92
+85,Winona,U.S. Senate,,IND,Jim Gibson,701,3.11
+85,Winona,U.S. Senate,,R,Rod Grams,10596,46.97
+86,Wright,President,,DFL,Al Gore,16762,39.22
+86,Wright,President,,GP,Ralph Nader,1977,4.63
+86,Wright,President,,LIB,Harry Browne,82,0.19
+86,Wright,President,,R,George W. Bush,23861,55.83
+86,Wright,President,,RP,Pat Buchanan,53,0.12
+86,Wright,U.S. Senate,,DFL,Mark Dayton,16663,39.34
+86,Wright,U.S. Senate,,IND,Jim Gibson,2573,6.07
+86,Wright,U.S. Senate,,R,Rod Grams,23123,54.59
+87,Yellow Medicine,President,,DFL,Al Gore,2528,47.09
+87,Yellow Medicine,President,,GP,Ralph Nader,232,4.32
+87,Yellow Medicine,President,,LIB,Harry Browne,7,0.13
+87,Yellow Medicine,President,,R,George W. Bush,2598,48.39
+87,Yellow Medicine,President,,RP,Pat Buchanan,4,0.07
+87,Yellow Medicine,U.S. Senate,,DFL,Mark Dayton,2801,51.79
+87,Yellow Medicine,U.S. Senate,,IND,Jim Gibson,206,3.81
+87,Yellow Medicine,U.S. Senate,,R,Rod Grams,2401,44.40

@@ -1,0 +1,749 @@
+county_code,county,office,district,party,candidate,votes,pct
+01,Aitkin,President,,BL,,75,0.79
+01,Aitkin,President,,C,,16,0.17
+01,Aitkin,President,,CF,,11,0.12
+01,Aitkin,President,,DFL,John Kerry,4539,48.09
+01,Aitkin,President,,GP,David Cobb,11,0.12
+01,Aitkin,President,,LIB,Michael Badnarik,14,0.15
+01,Aitkin,President,,R,George W. Bush,4768,50.51
+01,Aitkin,President,,SE,,2,0.02
+01,Aitkin,President,,SWP,,3,0.03
+02,Anoka,President,,BL,,978,0.56
+02,Anoka,President,,C,,197,0.11
+02,Anoka,President,,CF,,123,0.07
+02,Anoka,President,,DFL,John Kerry,80226,46.13
+02,Anoka,President,,GP,David Cobb,232,0.13
+02,Anoka,President,,LIB,Michael Badnarik,272,0.16
+02,Anoka,President,,R,George W. Bush,91853,52.81
+02,Anoka,President,,SE,,22,0.01
+02,Anoka,President,,SWP,,17,0.01
+03,Becker,President,,BL,,143,0.85
+03,Becker,President,,C,,23,0.14
+03,Becker,President,,CF,,17,0.10
+03,Becker,President,,DFL,John Kerry,6756,40.24
+03,Becker,President,,GP,David Cobb,21,0.13
+03,Becker,President,,LIB,Michael Badnarik,28,0.17
+03,Becker,President,,R,George W. Bush,9795,58.34
+03,Becker,President,,SE,,5,0.03
+03,Becker,President,,SWP,,2,0.01
+04,Beltrami,President,,BL,,131,0.62
+04,Beltrami,President,,C,,22,0.10
+04,Beltrami,President,,CF,,20,0.09
+04,Beltrami,President,,DFL,John Kerry,10592,50.17
+04,Beltrami,President,,GP,David Cobb,66,0.31
+04,Beltrami,President,,LIB,Michael Badnarik,32,0.15
+04,Beltrami,President,,R,George W. Bush,10237,48.49
+04,Beltrami,President,,SE,,7,0.03
+04,Beltrami,President,,SWP,,4,0.02
+05,Benton,President,,BL,,140,0.76
+05,Benton,President,,C,,26,0.14
+05,Benton,President,,CF,,19,0.10
+05,Benton,President,,DFL,John Kerry,8059,43.88
+05,Benton,President,,GP,David Cobb,40,0.22
+05,Benton,President,,LIB,Michael Badnarik,32,0.17
+05,Benton,President,,R,George W. Bush,10043,54.69
+05,Benton,President,,SE,,3,0.02
+05,Benton,President,,SWP,,2,0.01
+06,Big Stone,President,,BL,,26,0.85
+06,Big Stone,President,,C,,5,0.16
+06,Big Stone,President,,CF,,6,0.20
+06,Big Stone,President,,DFL,John Kerry,1536,50.15
+06,Big Stone,President,,GP,David Cobb,4,0.13
+06,Big Stone,President,,LIB,Michael Badnarik,3,0.10
+06,Big Stone,President,,R,George W. Bush,1483,48.42
+07,Blue Earth,President,,BL,,276,0.83
+07,Blue Earth,President,,C,,38,0.11
+07,Blue Earth,President,,CF,,39,0.12
+07,Blue Earth,President,,DFL,John Kerry,16865,50.99
+07,Blue Earth,President,,GP,David Cobb,65,0.20
+07,Blue Earth,President,,LIB,Michael Badnarik,49,0.15
+07,Blue Earth,President,,R,George W. Bush,15737,47.58
+07,Blue Earth,President,,SE,,8,0.02
+07,Blue Earth,President,,SWP,,1,0.00
+08,Brown,President,,BL,,117,0.85
+08,Brown,President,,C,,20,0.15
+08,Brown,President,,CF,,11,0.08
+08,Brown,President,,DFL,John Kerry,5158,37.50
+08,Brown,President,,GP,David Cobb,33,0.24
+08,Brown,President,,LIB,Michael Badnarik,13,0.09
+08,Brown,President,,R,George W. Bush,8395,61.03
+08,Brown,President,,SE,,4,0.03
+08,Brown,President,,SWP,,4,0.03
+09,Carlton,President,,BL,,118,0.64
+09,Carlton,President,,C,,24,0.13
+09,Carlton,President,,CF,,15,0.08
+09,Carlton,President,,DFL,John Kerry,11462,62.60
+09,Carlton,President,,GP,David Cobb,29,0.16
+09,Carlton,President,,LIB,Michael Badnarik,14,0.08
+09,Carlton,President,,R,George W. Bush,6642,36.28
+09,Carlton,President,,SE,,4,0.02
+09,Carlton,President,,SWP,,1,0.01
+10,Carver,President,,BL,,222,0.49
+10,Carver,President,,C,,28,0.06
+10,Carver,President,,CF,,16,0.04
+10,Carver,President,,DFL,John Kerry,16456,36.27
+10,Carver,President,,GP,David Cobb,65,0.14
+10,Carver,President,,LIB,Michael Badnarik,71,0.16
+10,Carver,President,,R,George W. Bush,28510,62.83
+10,Carver,President,,SE,,7,0.02
+10,Carver,President,,SWP,,1,0.00
+11,Cass,President,,BL,,113,0.71
+11,Cass,President,,C,,12,0.08
+11,Cass,President,,CF,,14,0.09
+11,Cass,President,,DFL,John Kerry,6835,43.00
+11,Cass,President,,GP,David Cobb,25,0.16
+11,Cass,President,,LIB,Michael Badnarik,17,0.11
+11,Cass,President,,R,George W. Bush,8875,55.83
+11,Cass,President,,SE,,2,0.01
+11,Cass,President,,SWP,,3,0.02
+12,Chippewa,President,,BL,,46,0.70
+12,Chippewa,President,,C,,6,0.09
+12,Chippewa,President,,CF,,14,0.21
+12,Chippewa,President,,DFL,John Kerry,3424,51.88
+12,Chippewa,President,,GP,David Cobb,12,0.18
+12,Chippewa,President,,LIB,Michael Badnarik,6,0.09
+12,Chippewa,President,,R,George W. Bush,3089,46.80
+12,Chippewa,President,,SE,,3,0.05
+13,Chisago,President,,BL,,166,0.59
+13,Chisago,President,,C,,41,0.15
+13,Chisago,President,,CF,,30,0.11
+13,Chisago,President,,DFL,John Kerry,12219,43.25
+13,Chisago,President,,GP,David Cobb,39,0.14
+13,Chisago,President,,LIB,Michael Badnarik,45,0.16
+13,Chisago,President,,R,George W. Bush,15705,55.59
+13,Chisago,President,,SE,,3,0.01
+13,Chisago,President,,SWP,,1,0.00
+14,Clay,President,,BL,,201,0.73
+14,Clay,President,,C,,28,0.10
+14,Clay,President,,CF,,17,0.06
+14,Clay,President,,DFL,John Kerry,12989,46.86
+14,Clay,President,,GP,David Cobb,65,0.23
+14,Clay,President,,LIB,Michael Badnarik,45,0.16
+14,Clay,President,,R,George W. Bush,14365,51.83
+14,Clay,President,,SE,,4,0.01
+14,Clay,President,,SWP,,2,0.01
+15,Clearwater,President,,BL,,34,0.78
+15,Clearwater,President,,C,,5,0.11
+15,Clearwater,President,,CF,,1,0.02
+15,Clearwater,President,,DFL,John Kerry,1871,42.94
+15,Clearwater,President,,GP,David Cobb,3,0.07
+15,Clearwater,President,,LIB,Michael Badnarik,4,0.09
+15,Clearwater,President,,R,George W. Bush,2438,55.96
+15,Clearwater,President,,SE,,1,0.02
+16,Cook,President,,BL,,41,1.24
+16,Cook,President,,C,,12,0.36
+16,Cook,President,,CF,,4,0.12
+16,Cook,President,,DFL,John Kerry,1733,52.56
+16,Cook,President,,GP,David Cobb,9,0.27
+16,Cook,President,,LIB,Michael Badnarik,8,0.24
+16,Cook,President,,R,George W. Bush,1489,45.16
+16,Cook,President,,SE,,1,0.03
+17,Cottonwood,President,,BL,,50,0.79
+17,Cottonwood,President,,C,,5,0.08
+17,Cottonwood,President,,CF,,8,0.13
+17,Cottonwood,President,,DFL,John Kerry,2726,42.84
+17,Cottonwood,President,,GP,David Cobb,10,0.16
+17,Cottonwood,President,,LIB,Michael Badnarik,2,0.03
+17,Cottonwood,President,,R,George W. Bush,3557,55.90
+17,Cottonwood,President,,SE,,1,0.02
+17,Cottonwood,President,,SWP,,4,0.06
+18,Crow Wing,President,,BL,,259,0.77
+18,Crow Wing,President,,C,,34,0.10
+18,Crow Wing,President,,CF,,15,0.04
+18,Crow Wing,President,,DFL,John Kerry,14005,41.77
+18,Crow Wing,President,,GP,David Cobb,55,0.16
+18,Crow Wing,President,,LIB,Michael Badnarik,49,0.15
+18,Crow Wing,President,,R,George W. Bush,19106,56.99
+18,Crow Wing,President,,SE,,4,0.01
+18,Crow Wing,President,,SWP,,1,0.00
+19,Dakota,President,,BL,,1109,0.51
+19,Dakota,President,,C,,204,0.09
+19,Dakota,President,,CF,,128,0.06
+19,Dakota,President,,DFL,John Kerry,104635,48.52
+19,Dakota,President,,GP,David Cobb,237,0.11
+19,Dakota,President,,LIB,Michael Badnarik,334,0.15
+19,Dakota,President,,R,George W. Bush,108959,50.52
+19,Dakota,President,,SE,,35,0.02
+19,Dakota,President,,SWP,,20,0.01
+20,Dodge,President,,BL,,87,0.88
+20,Dodge,President,,C,,29,0.29
+20,Dodge,President,,CF,,8,0.08
+20,Dodge,President,,DFL,John Kerry,4117,41.75
+20,Dodge,President,,GP,David Cobb,15,0.15
+20,Dodge,President,,LIB,Michael Badnarik,10,0.10
+20,Dodge,President,,R,George W. Bush,5593,56.71
+20,Dodge,President,,SE,,3,0.03
+21,Douglas,President,,BL,,195,0.96
+21,Douglas,President,,C,,11,0.05
+21,Douglas,President,,CF,,16,0.08
+21,Douglas,President,,DFL,John Kerry,8219,40.50
+21,Douglas,President,,GP,David Cobb,42,0.21
+21,Douglas,President,,LIB,Michael Badnarik,11,0.05
+21,Douglas,President,,R,George W. Bush,11793,58.11
+21,Douglas,President,,SE,,5,0.02
+21,Douglas,President,,SWP,,3,0.01
+22,Faribault,President,,BL,,59,0.68
+22,Faribault,President,,C,,21,0.24
+22,Faribault,President,,CF,,10,0.12
+22,Faribault,President,,DFL,John Kerry,3767,43.41
+22,Faribault,President,,GP,David Cobb,12,0.14
+22,Faribault,President,,LIB,Michael Badnarik,6,0.07
+22,Faribault,President,,R,George W. Bush,4794,55.24
+22,Faribault,President,,SE,,4,0.05
+22,Faribault,President,,SWP,,5,0.06
+23,Fillmore,President,,BL,,91,0.78
+23,Fillmore,President,,C,,32,0.27
+23,Fillmore,President,,CF,,17,0.15
+23,Fillmore,President,,DFL,John Kerry,5825,49.83
+23,Fillmore,President,,GP,David Cobb,16,0.14
+23,Fillmore,President,,LIB,Michael Badnarik,14,0.12
+23,Fillmore,President,,R,George W. Bush,5694,48.71
+24,Freeborn,President,,BL,,136,0.77
+24,Freeborn,President,,C,,18,0.10
+24,Freeborn,President,,CF,,20,0.11
+24,Freeborn,President,,DFL,John Kerry,9733,55.13
+24,Freeborn,President,,GP,David Cobb,36,0.20
+24,Freeborn,President,,LIB,Michael Badnarik,18,0.10
+24,Freeborn,President,,R,George W. Bush,7681,43.51
+24,Freeborn,President,,SE,,7,0.04
+24,Freeborn,President,,SWP,,5,0.03
+25,Goodhue,President,,BL,,209,0.82
+25,Goodhue,President,,C,,28,0.11
+25,Goodhue,President,,CF,,25,0.10
+25,Goodhue,President,,DFL,John Kerry,12103,47.29
+25,Goodhue,President,,GP,David Cobb,49,0.19
+25,Goodhue,President,,LIB,Michael Badnarik,37,0.14
+25,Goodhue,President,,R,George W. Bush,13134,51.31
+25,Goodhue,President,,SE,,4,0.02
+25,Goodhue,President,,SWP,,6,0.02
+26,Grant,President,,BL,,31,0.81
+26,Grant,President,,C,,11,0.29
+26,Grant,President,,CF,,1,0.03
+26,Grant,President,,DFL,John Kerry,1856,48.68
+26,Grant,President,,GP,David Cobb,12,0.31
+26,Grant,President,,LIB,Michael Badnarik,7,0.18
+26,Grant,President,,R,George W. Bush,1893,49.65
+26,Grant,President,,SE,,1,0.03
+26,Grant,President,,SWP,,1,0.03
+27,Hennepin,President,,BL,,4008,0.62
+27,Hennepin,President,,C,,428,0.07
+27,Hennepin,President,,CF,,402,0.06
+27,Hennepin,President,,DFL,John Kerry,383841,59.39
+27,Hennepin,President,,GP,David Cobb,942,0.15
+27,Hennepin,President,,LIB,Michael Badnarik,1380,0.21
+27,Hennepin,President,,R,George W. Bush,255133,39.47
+27,Hennepin,President,,SE,,103,0.02
+27,Hennepin,President,,SWP,,111,0.02
+28,Houston,President,,BL,,93,0.84
+28,Houston,President,,C,,26,0.23
+28,Houston,President,,CF,,11,0.10
+28,Houston,President,,DFL,John Kerry,5276,47.65
+28,Houston,President,,GP,David Cobb,16,0.14
+28,Houston,President,,LIB,Michael Badnarik,14,0.13
+28,Houston,President,,R,George W. Bush,5631,50.85
+28,Houston,President,,SE,,2,0.02
+28,Houston,President,,SWP,,4,0.04
+29,Hubbard,President,,BL,,92,0.81
+29,Hubbard,President,,C,,10,0.09
+29,Hubbard,President,,CF,,12,0.11
+29,Hubbard,President,,DFL,John Kerry,4741,41.83
+29,Hubbard,President,,GP,David Cobb,20,0.18
+29,Hubbard,President,,LIB,Michael Badnarik,11,0.10
+29,Hubbard,President,,R,George W. Bush,6444,56.86
+29,Hubbard,President,,SE,,4,0.04
+30,Isanti,President,,BL,,112,0.58
+30,Isanti,President,,C,,29,0.15
+30,Isanti,President,,CF,,19,0.10
+30,Isanti,President,,DFL,John Kerry,7883,40.86
+30,Isanti,President,,GP,David Cobb,25,0.13
+30,Isanti,President,,LIB,Michael Badnarik,31,0.16
+30,Isanti,President,,R,George W. Bush,11190,58.00
+30,Isanti,President,,SE,,2,0.01
+30,Isanti,President,,SWP,,3,0.02
+31,Itasca,President,,BL,,171,0.70
+31,Itasca,President,,C,,57,0.23
+31,Itasca,President,,CF,,29,0.12
+31,Itasca,President,,DFL,John Kerry,13290,54.57
+31,Itasca,President,,GP,David Cobb,56,0.23
+31,Itasca,President,,LIB,Michael Badnarik,38,0.16
+31,Itasca,President,,R,George W. Bush,10705,43.96
+31,Itasca,President,,SE,,5,0.02
+31,Itasca,President,,SWP,,3,0.01
+32,Jackson,President,,BL,,60,1.04
+32,Jackson,President,,C,,13,0.23
+32,Jackson,President,,CF,,10,0.17
+32,Jackson,President,,DFL,John Kerry,2652,45.91
+32,Jackson,President,,GP,David Cobb,4,0.07
+32,Jackson,President,,LIB,Michael Badnarik,7,0.12
+32,Jackson,President,,R,George W. Bush,3024,52.35
+32,Jackson,President,,SE,,3,0.05
+32,Jackson,President,,SWP,,3,0.05
+33,Kanabec,President,,BL,,58,0.70
+33,Kanabec,President,,C,,16,0.19
+33,Kanabec,President,,CF,,16,0.19
+33,Kanabec,President,,DFL,John Kerry,3592,43.58
+33,Kanabec,President,,GP,David Cobb,21,0.25
+33,Kanabec,President,,LIB,Michael Badnarik,12,0.15
+33,Kanabec,President,,R,George W. Bush,4527,54.92
+33,Kanabec,President,,SWP,,1,0.01
+34,Kandiyohi,President,,BL,,155,0.73
+34,Kandiyohi,President,,C,,22,0.10
+34,Kandiyohi,President,,CF,,31,0.15
+34,Kandiyohi,President,,DFL,John Kerry,9337,43.78
+34,Kandiyohi,President,,GP,David Cobb,33,0.15
+34,Kandiyohi,President,,LIB,Michael Badnarik,39,0.18
+34,Kandiyohi,President,,R,George W. Bush,11704,54.87
+34,Kandiyohi,President,,SE,,8,0.04
+35,Kittson,President,,BL,,26,0.97
+35,Kittson,President,,C,,3,0.11
+35,Kittson,President,,CF,,4,0.15
+35,Kittson,President,,DFL,John Kerry,1333,49.79
+35,Kittson,President,,GP,David Cobb,3,0.11
+35,Kittson,President,,LIB,Michael Badnarik,1,0.04
+35,Kittson,President,,R,George W. Bush,1307,48.82
+36,Koochiching,President,,BL,,56,0.77
+36,Koochiching,President,,C,,12,0.16
+36,Koochiching,President,,DFL,John Kerry,3662,50.15
+36,Koochiching,President,,GP,David Cobb,17,0.23
+36,Koochiching,President,,LIB,Michael Badnarik,15,0.21
+36,Koochiching,President,,R,George W. Bush,3539,48.47
+36,Koochiching,President,,SE,,1,0.01
+37,Lac qui Parle,President,,BL,,36,0.79
+37,Lac qui Parle,President,,C,,4,0.09
+37,Lac qui Parle,President,,CF,,4,0.09
+37,Lac qui Parle,President,,DFL,John Kerry,2390,52.63
+37,Lac qui Parle,President,,GP,David Cobb,8,0.18
+37,Lac qui Parle,President,,LIB,Michael Badnarik,5,0.11
+37,Lac qui Parle,President,,R,George W. Bush,2093,46.09
+37,Lac qui Parle,President,,SE,,1,0.02
+38,Lake,President,,BL,,44,0.62
+38,Lake,President,,C,,10,0.14
+38,Lake,President,,CF,,8,0.11
+38,Lake,President,,DFL,John Kerry,4212,59.62
+38,Lake,President,,GP,David Cobb,10,0.14
+38,Lake,President,,LIB,Michael Badnarik,9,0.13
+38,Lake,President,,R,George W. Bush,2769,39.19
+38,Lake,President,,SE,,1,0.01
+38,Lake,President,,SWP,,2,0.03
+39,Lake of the Woods,President,,BL,,27,1.13
+39,Lake of the Woods,President,,C,,5,0.21
+39,Lake of the Woods,President,,CF,,2,0.08
+39,Lake of the Woods,President,,DFL,John Kerry,921,38.47
+39,Lake of the Woods,President,,GP,David Cobb,6,0.25
+39,Lake of the Woods,President,,LIB,Michael Badnarik,4,0.17
+39,Lake of the Woods,President,,R,George W. Bush,1428,59.65
+39,Lake of the Woods,President,,SE,,1,0.04
+40,Le Sueur,President,,BL,,103,0.71
+40,Le Sueur,President,,C,,20,0.14
+40,Le Sueur,President,,CF,,10,0.07
+40,Le Sueur,President,,DFL,John Kerry,6466,44.87
+40,Le Sueur,President,,GP,David Cobb,38,0.26
+40,Le Sueur,President,,LIB,Michael Badnarik,17,0.12
+40,Le Sueur,President,,R,George W. Bush,7746,53.76
+40,Le Sueur,President,,SE,,3,0.02
+40,Le Sueur,President,,SWP,,6,0.04
+41,Lincoln,President,,BL,,27,0.81
+41,Lincoln,President,,C,,5,0.15
+41,Lincoln,President,,CF,,1,0.03
+41,Lincoln,President,,DFL,John Kerry,1558,46.66
+41,Lincoln,President,,GP,David Cobb,4,0.12
+41,Lincoln,President,,LIB,Michael Badnarik,5,0.15
+41,Lincoln,President,,R,George W. Bush,1736,51.99
+41,Lincoln,President,,SE,,2,0.06
+41,Lincoln,President,,SWP,,1,0.03
+42,Lyon,President,,BL,,88,0.69
+42,Lyon,President,,C,,23,0.18
+42,Lyon,President,,CF,,14,0.11
+42,Lyon,President,,DFL,John Kerry,5292,41.79
+42,Lyon,President,,GP,David Cobb,20,0.16
+42,Lyon,President,,LIB,Michael Badnarik,15,0.12
+42,Lyon,President,,R,George W. Bush,7203,56.89
+42,Lyon,President,,SE,,4,0.03
+42,Lyon,President,,SWP,,3,0.02
+44,Mahnomen,President,,BL,,18,0.72
+44,Mahnomen,President,,C,,2,0.08
+44,Mahnomen,President,,CF,,4,0.16
+44,Mahnomen,President,,DFL,John Kerry,1339,53.41
+44,Mahnomen,President,,GP,David Cobb,8,0.32
+44,Mahnomen,President,,LIB,Michael Badnarik,1,0.04
+44,Mahnomen,President,,R,George W. Bush,1132,45.15
+44,Mahnomen,President,,SE,,2,0.08
+44,Mahnomen,President,,SWP,,1,0.04
+45,Marshall,President,,BL,,36,0.65
+45,Marshall,President,,C,,6,0.11
+45,Marshall,President,,CF,,8,0.14
+45,Marshall,President,,DFL,John Kerry,2308,41.53
+45,Marshall,President,,GP,David Cobb,8,0.14
+45,Marshall,President,,R,George W. Bush,3187,57.34
+45,Marshall,President,,SE,,2,0.04
+45,Marshall,President,,SWP,,3,0.05
+46,Martin,President,,BL,,67,0.61
+46,Martin,President,,C,,24,0.22
+46,Martin,President,,CF,,17,0.15
+46,Martin,President,,DFL,John Kerry,4590,41.57
+46,Martin,President,,GP,David Cobb,20,0.18
+46,Martin,President,,LIB,Michael Badnarik,9,0.08
+46,Martin,President,,R,George W. Bush,6311,57.16
+46,Martin,President,,SE,,3,0.03
+43,McLeod,President,,BL,,132,0.72
+43,McLeod,President,,C,,62,0.34
+43,McLeod,President,,CF,,30,0.16
+43,McLeod,President,,DFL,John Kerry,6712,36.50
+43,McLeod,President,,GP,David Cobb,31,0.17
+43,McLeod,President,,LIB,Michael Badnarik,11,0.06
+43,McLeod,President,,R,George W. Bush,11407,62.03
+43,McLeod,President,,SE,,2,0.01
+43,McLeod,President,,SWP,,2,0.01
+61,Meeker,President,,BL,,51,0.76
+61,Meeker,President,,C,,5,0.07
+61,Meeker,President,,CF,,9,0.13
+61,Meeker,President,,DFL,John Kerry,3301,49.28
+61,Meeker,President,,GP,David Cobb,18,0.27
+61,Meeker,President,,LIB,Michael Badnarik,8,0.12
+61,Meeker,President,,R,George W. Bush,3303,49.31
+61,Meeker,President,,SE,,4,0.06
+47,Mille Lacs,President,,BL,,94,0.76
+47,Mille Lacs,President,,C,,43,0.35
+47,Mille Lacs,President,,CF,,14,0.11
+47,Mille Lacs,President,,DFL,John Kerry,5292,42.91
+47,Mille Lacs,President,,GP,David Cobb,17,0.14
+47,Mille Lacs,President,,LIB,Michael Badnarik,19,0.15
+47,Mille Lacs,President,,R,George W. Bush,6854,55.57
+47,Mille Lacs,President,,SE,,1,0.01
+48,Morrison,President,,BL,,110,0.84
+48,Morrison,President,,C,,19,0.15
+48,Morrison,President,,CF,,13,0.10
+48,Morrison,President,,DFL,John Kerry,5677,43.45
+48,Morrison,President,,GP,David Cobb,30,0.23
+48,Morrison,President,,LIB,Michael Badnarik,14,0.11
+48,Morrison,President,,R,George W. Bush,7194,55.06
+48,Morrison,President,,SE,,5,0.04
+48,Morrison,President,,SWP,,3,0.02
+49,Mower,President,,BL,,152,0.91
+49,Mower,President,,C,,24,0.14
+49,Mower,President,,CF,,20,0.12
+49,Mower,President,,DFL,John Kerry,6794,40.54
+49,Mower,President,,GP,David Cobb,32,0.19
+49,Mower,President,,LIB,Michael Badnarik,25,0.15
+49,Mower,President,,R,George W. Bush,9698,57.87
+49,Mower,President,,SE,,6,0.04
+49,Mower,President,,SWP,,6,0.04
+50,Murray,President,,BL,,153,0.76
+50,Murray,President,,C,,36,0.18
+50,Murray,President,,CF,,29,0.14
+50,Murray,President,,DFL,John Kerry,12334,61.05
+50,Murray,President,,GP,David Cobb,30,0.15
+50,Murray,President,,LIB,Michael Badnarik,23,0.11
+50,Murray,President,,R,George W. Bush,7591,37.57
+50,Murray,President,,SE,,5,0.02
+50,Murray,President,,SWP,,3,0.01
+51,Nicollet,President,,BL,,34,0.68
+51,Nicollet,President,,C,,3,0.06
+51,Nicollet,President,,CF,,6,0.12
+51,Nicollet,President,,DFL,John Kerry,2218,44.42
+51,Nicollet,President,,GP,David Cobb,10,0.20
+51,Nicollet,President,,LIB,Michael Badnarik,2,0.04
+51,Nicollet,President,,R,George W. Bush,2719,54.46
+51,Nicollet,President,,SE,,1,0.02
+52,Nobles,President,,BL,,130,0.73
+52,Nobles,President,,C,,12,0.07
+52,Nobles,President,,CF,,17,0.10
+52,Nobles,President,,DFL,John Kerry,8797,49.64
+52,Nobles,President,,GP,David Cobb,48,0.27
+52,Nobles,President,,LIB,Michael Badnarik,21,0.12
+52,Nobles,President,,R,George W. Bush,8689,49.03
+52,Nobles,President,,SE,,2,0.01
+52,Nobles,President,,SWP,,4,0.02
+53,Norman,President,,BL,,67,0.73
+53,Norman,President,,C,,3,0.03
+53,Norman,President,,CF,,29,0.32
+53,Norman,President,,DFL,John Kerry,3898,42.42
+53,Norman,President,,GP,David Cobb,20,0.22
+53,Norman,President,,LIB,Michael Badnarik,7,0.08
+53,Norman,President,,R,George W. Bush,5159,56.15
+53,Norman,President,,SE,,3,0.03
+53,Norman,President,,SWP,,2,0.02
+54,Olmsted,President,,BL,,28,0.74
+54,Olmsted,President,,C,,2,0.05
+54,Olmsted,President,,CF,,5,0.13
+54,Olmsted,President,,DFL,John Kerry,1954,51.38
+54,Olmsted,President,,GP,David Cobb,9,0.24
+54,Olmsted,President,,LIB,Michael Badnarik,10,0.26
+54,Olmsted,President,,R,George W. Bush,1794,47.17
+54,Olmsted,President,,SWP,,1,0.03
+55,Otter Tail,President,,BL,,492,0.69
+55,Otter Tail,President,,C,,68,0.10
+55,Otter Tail,President,,CF,,52,0.07
+55,Otter Tail,President,,DFL,John Kerry,33285,46.55
+55,Otter Tail,President,,GP,David Cobb,91,0.13
+55,Otter Tail,President,,LIB,Michael Badnarik,129,0.18
+55,Otter Tail,President,,R,George W. Bush,37371,52.26
+55,Otter Tail,President,,SE,,14,0.02
+55,Otter Tail,President,,SWP,,2,0.00
+56,Pennington,President,,BL,,217,0.68
+56,Pennington,President,,C,,29,0.09
+56,Pennington,President,,CF,,26,0.08
+56,Pennington,President,,DFL,John Kerry,12038,37.45
+56,Pennington,President,,GP,David Cobb,50,0.16
+56,Pennington,President,,LIB,Michael Badnarik,40,0.12
+56,Pennington,President,,R,George W. Bush,19734,61.39
+56,Pennington,President,,SE,,8,0.02
+56,Pennington,President,,SWP,,3,0.01
+57,Pine,President,,BL,,75,1.07
+57,Pine,President,,C,,7,0.10
+57,Pine,President,,CF,,10,0.14
+57,Pine,President,,DFL,John Kerry,3117,44.45
+57,Pine,President,,GP,David Cobb,22,0.31
+57,Pine,President,,LIB,Michael Badnarik,12,0.17
+57,Pine,President,,R,George W. Bush,3767,53.71
+57,Pine,President,,SE,,2,0.03
+57,Pine,President,,SWP,,1,0.01
+58,Pipestone,President,,BL,,119,0.82
+58,Pipestone,President,,C,,24,0.17
+58,Pipestone,President,,CF,,24,0.17
+58,Pipestone,President,,DFL,John Kerry,7228,49.86
+58,Pipestone,President,,GP,David Cobb,40,0.28
+58,Pipestone,President,,LIB,Michael Badnarik,22,0.15
+58,Pipestone,President,,R,George W. Bush,7033,48.51
+58,Pipestone,President,,SE,,5,0.03
+58,Pipestone,President,,SWP,,2,0.01
+59,Polk,President,,BL,,46,0.91
+59,Polk,President,,C,,7,0.14
+59,Polk,President,,CF,,3,0.06
+59,Polk,President,,DFL,John Kerry,1900,37.77
+59,Polk,President,,GP,David Cobb,3,0.06
+59,Polk,President,,LIB,Michael Badnarik,3,0.06
+59,Polk,President,,R,George W. Bush,3066,60.94
+59,Polk,President,,SE,,1,0.02
+59,Polk,President,,SWP,,2,0.04
+60,Pope,President,,BL,,122,0.78
+60,Pope,President,,C,,16,0.10
+60,Pope,President,,CF,,16,0.10
+60,Pope,President,,DFL,John Kerry,6729,43.00
+60,Pope,President,,GP,David Cobb,21,0.13
+60,Pope,President,,LIB,Michael Badnarik,16,0.10
+60,Pope,President,,R,George W. Bush,8724,55.75
+60,Pope,President,,SE,,1,0.01
+60,Pope,President,,SWP,,3,0.02
+62,Ramsey,President,,BL,,1764,0.65
+62,Ramsey,President,,C,,239,0.09
+62,Ramsey,President,,CF,,306,0.11
+62,Ramsey,President,,DFL,John Kerry,171846,63.11
+62,Ramsey,President,,GP,David Cobb,420,0.15
+62,Ramsey,President,,LIB,Michael Badnarik,540,0.20
+62,Ramsey,President,,R,George W. Bush,97096,35.66
+62,Ramsey,President,,SE,,47,0.02
+62,Ramsey,President,,SWP,,50,0.02
+63,Red Lake,President,,BL,,27,1.24
+63,Red Lake,President,,C,,9,0.41
+63,Red Lake,President,,CF,,2,0.09
+63,Red Lake,President,,DFL,John Kerry,963,44.28
+63,Red Lake,President,,GP,David Cobb,5,0.23
+63,Red Lake,President,,LIB,Michael Badnarik,3,0.14
+63,Red Lake,President,,R,George W. Bush,1164,53.52
+63,Red Lake,President,,SWP,,2,0.09
+64,Redwood,President,,BL,,71,0.87
+64,Redwood,President,,C,,37,0.45
+64,Redwood,President,,CF,,11,0.14
+64,Redwood,President,,DFL,John Kerry,3104,38.16
+64,Redwood,President,,GP,David Cobb,11,0.14
+64,Redwood,President,,LIB,Michael Badnarik,1,0.01
+64,Redwood,President,,R,George W. Bush,4898,60.22
+64,Redwood,President,,SE,,1,0.01
+65,Renville,President,,BL,,75,0.90
+65,Renville,President,,C,,12,0.14
+65,Renville,President,,CF,,14,0.17
+65,Renville,President,,DFL,John Kerry,3787,45.43
+65,Renville,President,,GP,David Cobb,4,0.05
+65,Renville,President,,LIB,Michael Badnarik,6,0.07
+65,Renville,President,,R,George W. Bush,4430,53.14
+65,Renville,President,,SE,,4,0.05
+65,Renville,President,,SWP,,4,0.05
+66,Rice,President,,BL,,255,0.83
+66,Rice,President,,C,,25,0.08
+66,Rice,President,,CF,,26,0.08
+66,Rice,President,,DFL,John Kerry,16425,53.46
+66,Rice,President,,GP,David Cobb,50,0.16
+66,Rice,President,,LIB,Michael Badnarik,52,0.17
+66,Rice,President,,R,George W. Bush,13881,45.18
+66,Rice,President,,SE,,7,0.02
+66,Rice,President,,SWP,,3,0.01
+67,Rock,President,,BL,,35,0.67
+67,Rock,President,,C,,7,0.13
+67,Rock,President,,CF,,13,0.25
+67,Rock,President,,DFL,John Kerry,2000,38.55
+67,Rock,President,,GP,David Cobb,7,0.13
+67,Rock,President,,LIB,Michael Badnarik,9,0.17
+67,Rock,President,,R,George W. Bush,3111,59.97
+67,Rock,President,,SE,,3,0.06
+67,Rock,President,,SWP,,3,0.06
+68,Roseau,President,,BL,,67,0.85
+68,Roseau,President,,C,,9,0.11
+68,Roseau,President,,CF,,7,0.09
+68,Roseau,President,,DFL,John Kerry,2442,30.88
+68,Roseau,President,,GP,David Cobb,16,0.20
+68,Roseau,President,,LIB,Michael Badnarik,10,0.13
+68,Roseau,President,,R,George W. Bush,5355,67.72
+68,Roseau,President,,SWP,,2,0.03
+70,Scott,President,,BL,,323,0.53
+70,Scott,President,,C,,44,0.07
+70,Scott,President,,CF,,38,0.06
+70,Scott,President,,DFL,John Kerry,23958,39.54
+70,Scott,President,,GP,David Cobb,67,0.11
+70,Scott,President,,LIB,Michael Badnarik,101,0.17
+70,Scott,President,,R,George W. Bush,36055,59.50
+70,Scott,President,,SE,,6,0.01
+70,Scott,President,,SWP,,1,0.00
+71,Sherburne,President,,BL,,239,0.58
+71,Sherburne,President,,C,,46,0.11
+71,Sherburne,President,,CF,,27,0.07
+71,Sherburne,President,,DFL,John Kerry,15816,38.19
+71,Sherburne,President,,GP,David Cobb,53,0.13
+71,Sherburne,President,,LIB,Michael Badnarik,48,0.12
+71,Sherburne,President,,R,George W. Bush,25182,60.80
+71,Sherburne,President,,SE,,5,0.01
+71,Sherburne,President,,SWP,,2,0.00
+72,Sibley,President,,BL,,96,1.21
+72,Sibley,President,,C,,18,0.23
+72,Sibley,President,,CF,,19,0.24
+72,Sibley,President,,DFL,John Kerry,3109,39.12
+72,Sibley,President,,GP,David Cobb,16,0.20
+72,Sibley,President,,LIB,Michael Badnarik,14,0.18
+72,Sibley,President,,R,George W. Bush,4669,58.74
+72,Sibley,President,,SE,,5,0.06
+72,Sibley,President,,SWP,,2,0.03
+69,St. Louis,President,,BL,,730,0.61
+69,St. Louis,President,,C,,113,0.09
+69,St. Louis,President,,CF,,104,0.09
+69,St. Louis,President,,DFL,John Kerry,77958,65.26
+69,St. Louis,President,,GP,David Cobb,215,0.18
+69,St. Louis,President,,LIB,Michael Badnarik,179,0.15
+69,St. Louis,President,,R,George W. Bush,40112,33.58
+69,St. Louis,President,,SE,,27,0.02
+69,St. Louis,President,,SWP,,19,0.02
+73,Stearns,President,,BL,,640,0.85
+73,Stearns,President,,C,,101,0.13
+73,Stearns,President,,CF,,76,0.10
+73,Stearns,President,,DFL,John Kerry,32659,43.25
+73,Stearns,President,,GP,David Cobb,164,0.22
+73,Stearns,President,,LIB,Michael Badnarik,95,0.13
+73,Stearns,President,,R,George W. Bush,41726,55.26
+73,Stearns,President,,SE,,30,0.04
+73,Stearns,President,,SWP,,22,0.03
+74,Steele,President,,BL,,129,0.69
+74,Steele,President,,C,,71,0.38
+74,Steele,President,,CF,,22,0.12
+74,Steele,President,,DFL,John Kerry,7994,42.79
+74,Steele,President,,GP,David Cobb,49,0.26
+74,Steele,President,,LIB,Michael Badnarik,17,0.09
+74,Steele,President,,R,George W. Bush,10389,55.62
+74,Steele,President,,SE,,5,0.03
+74,Steele,President,,SWP,,4,0.02
+75,Stevens,President,,BL,,49,0.82
+75,Stevens,President,,C,,2,0.03
+75,Stevens,President,,CF,,6,0.10
+75,Stevens,President,,DFL,John Kerry,2821,47.48
+75,Stevens,President,,GP,David Cobb,21,0.35
+75,Stevens,President,,LIB,Michael Badnarik,8,0.13
+75,Stevens,President,,R,George W. Bush,3030,51.00
+75,Stevens,President,,SE,,3,0.05
+75,Stevens,President,,SWP,,1,0.02
+76,Swift,President,,BL,,54,0.94
+76,Swift,President,,C,,9,0.16
+76,Swift,President,,CF,,2,0.03
+76,Swift,President,,DFL,John Kerry,3165,55.23
+76,Swift,President,,GP,David Cobb,11,0.19
+76,Swift,President,,LIB,Michael Badnarik,8,0.14
+76,Swift,President,,R,George W. Bush,2481,43.29
+76,Swift,President,,SE,,1,0.02
+77,Todd,President,,BL,,103,0.84
+77,Todd,President,,C,,47,0.39
+77,Todd,President,,CF,,25,0.20
+77,Todd,President,,DFL,John Kerry,5034,41.25
+77,Todd,President,,GP,David Cobb,27,0.22
+77,Todd,President,,LIB,Michael Badnarik,19,0.16
+77,Todd,President,,R,George W. Bush,6945,56.91
+77,Todd,President,,SE,,1,0.01
+77,Todd,President,,SWP,,3,0.02
+78,Traverse,President,,BL,,26,1.21
+78,Traverse,President,,C,,4,0.19
+78,Traverse,President,,DFL,John Kerry,1026,47.92
+78,Traverse,President,,GP,David Cobb,6,0.28
+78,Traverse,President,,LIB,Michael Badnarik,3,0.14
+78,Traverse,President,,R,George W. Bush,1076,50.26
+79,Wabasha,President,,BL,,97,0.82
+79,Wabasha,President,,C,,15,0.13
+79,Wabasha,President,,CF,,9,0.08
+79,Wabasha,President,,DFL,John Kerry,5548,46.91
+79,Wabasha,President,,GP,David Cobb,17,0.14
+79,Wabasha,President,,LIB,Michael Badnarik,20,0.17
+79,Wabasha,President,,R,George W. Bush,6120,51.74
+79,Wabasha,President,,SE,,2,0.02
+80,Wadena,President,,BL,,52,0.73
+80,Wadena,President,,C,,6,0.08
+80,Wadena,President,,CF,,6,0.08
+80,Wadena,President,,DFL,John Kerry,2791,39.38
+80,Wadena,President,,GP,David Cobb,9,0.13
+80,Wadena,President,,LIB,Michael Badnarik,9,0.13
+80,Wadena,President,,R,George W. Bush,4214,59.45
+80,Wadena,President,,SE,,1,0.01
+81,Waseca,President,,BL,,92,0.94
+81,Waseca,President,,C,,20,0.20
+81,Waseca,President,,CF,,12,0.12
+81,Waseca,President,,DFL,John Kerry,4179,42.70
+81,Waseca,President,,GP,David Cobb,14,0.14
+81,Waseca,President,,LIB,Michael Badnarik,8,0.08
+81,Waseca,President,,R,George W. Bush,5457,55.76
+81,Waseca,President,,SE,,3,0.03
+81,Waseca,President,,SWP,,1,0.01
+82,Washington,President,,BL,,661,0.52
+82,Washington,President,,C,,105,0.08
+82,Washington,President,,CF,,62,0.05
+82,Washington,President,,DFL,John Kerry,61395,47.84
+82,Washington,President,,GP,David Cobb,139,0.11
+82,Washington,President,,LIB,Michael Badnarik,200,0.16
+82,Washington,President,,R,George W. Bush,65751,51.23
+82,Washington,President,,SE,,14,0.01
+82,Washington,President,,SWP,,12,0.01
+83,Watonwan,President,,BL,,61,1.09
+83,Watonwan,President,,C,,6,0.11
+83,Watonwan,President,,CF,,9,0.16
+83,Watonwan,President,,DFL,John Kerry,2514,45.05
+83,Watonwan,President,,GP,David Cobb,18,0.32
+83,Watonwan,President,,LIB,Michael Badnarik,1,0.02
+83,Watonwan,President,,R,George W. Bush,2970,53.23
+83,Watonwan,President,,SE,,1,0.02
+84,Wilkin,President,,BL,,26,0.74
+84,Wilkin,President,,C,,5,0.14
+84,Wilkin,President,,CF,,3,0.09
+84,Wilkin,President,,DFL,John Kerry,1169,33.15
+84,Wilkin,President,,GP,David Cobb,7,0.20
+84,Wilkin,President,,LIB,Michael Badnarik,10,0.28
+84,Wilkin,President,,R,George W. Bush,2303,65.31
+84,Wilkin,President,,SE,,3,0.09
+85,Winona,President,,BL,,263,0.96
+85,Winona,President,,C,,41,0.15
+85,Winona,President,,CF,,42,0.15
+85,Winona,President,,DFL,John Kerry,14231,51.96
+85,Winona,President,,GP,David Cobb,50,0.18
+85,Winona,President,,LIB,Michael Badnarik,57,0.21
+85,Winona,President,,R,George W. Bush,12686,46.32
+85,Winona,President,,SE,,9,0.03
+85,Winona,President,,SWP,,9,0.03
+86,Wright,President,,BL,,352,0.59
+86,Wright,President,,C,,100,0.17
+86,Wright,President,,CF,,33,0.06
+86,Wright,President,,DFL,John Kerry,22618,38.03
+86,Wright,President,,GP,David Cobb,66,0.11
+86,Wright,President,,LIB,Michael Badnarik,103,0.17
+86,Wright,President,,R,George W. Bush,36176,60.82
+86,Wright,President,,SE,,14,0.02
+86,Wright,President,,SWP,,14,0.02
+87,Yellow Medicine,President,,BL,,44,0.77
+87,Yellow Medicine,President,,C,,13,0.23
+87,Yellow Medicine,President,,CF,,3,0.05
+87,Yellow Medicine,President,,DFL,John Kerry,2799,48.68
+87,Yellow Medicine,President,,GP,David Cobb,10,0.17
+87,Yellow Medicine,President,,LIB,Michael Badnarik,2,0.03
+87,Yellow Medicine,President,,R,George W. Bush,2878,50.05
+87,Yellow Medicine,President,,SWP,,1,0.02
