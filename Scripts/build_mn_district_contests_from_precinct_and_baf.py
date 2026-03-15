@@ -27,6 +27,9 @@ NON_GEO_TOKENS = (
     "CARE CENTER",
     "NURSING HOME",
     "FEDERAL BALLOTS",
+    "NO DATA",
+    "STATEWIDE",
+    "TOTAL",
 )
 
 STATEWIDE_OFFICE_TO_CONTEST = {
@@ -100,6 +103,7 @@ class CrosswalkNode:
     tuple_to_precinct_key: dict[tuple[str, str], str] = field(default_factory=dict)
     precinct_key_to_county: dict[str, str] = field(default_factory=dict)
     precinct_key_to_vtd: dict[str, str] = field(default_factory=dict)
+    county_district_weights: dict[str, list[tuple[str, float]]] = field(default_factory=dict)
 
 
 @dataclass
@@ -113,6 +117,7 @@ class DistrictAccumulator:
     total_input_votes: float = 0.0
     crosswalk_matched_votes: float = 0.0
     fallback_matched_votes: float = 0.0
+    county_fallback_votes: float = 0.0
     unmatched_votes: float = 0.0
 
 
@@ -174,22 +179,31 @@ def normalize_numeric_district(value: str | None) -> str:
     token = clean(value).upper()
     if token in {"", "NA"}:
         return ""
+    token = token.replace("DISTRICT", "").replace("DIST", "").strip()
     m = re.match(r"^0*([0-9]+)$", token)
     if m:
         return str(int(m.group(1)))
     m_float = re.match(r"^0*([0-9]+)\.0+$", token)
     if m_float:
         return str(int(m_float.group(1)))
+    m_any = re.search(r"([0-9]+)", token)
+    if m_any:
+        return str(int(m_any.group(1)))
     return ""
 
 
 def normalize_house_district(value: str | None) -> str:
-    token = clean(value).upper().replace("-", "").replace(" ", "")
+    token = clean(value).upper()
     if token in {"", "NA"}:
         return ""
+    token = token.replace("DISTRICT", "").replace("DIST", "").strip()
+    token = re.sub(r"[^A-Z0-9]+", "", token)
     m = re.match(r"^0*([0-9]+)([A-Z]?)$", token)
     if m:
         return f"{int(m.group(1))}{m.group(2)}"
+    m_any = re.search(r"0*([0-9]+)([A-Z])", token)
+    if m_any:
+        return f"{int(m_any.group(1))}{m_any.group(2)}"
     return ""
 
 
@@ -255,6 +269,13 @@ def is_non_geographic_precinct(value: str) -> bool:
     return any(flag in token for flag in NON_GEO_TOKENS)
 
 
+def is_non_geographic_county(value: str) -> bool:
+    token = clean(value).upper()
+    if token == "":
+        return True
+    return any(flag in token for flag in NON_GEO_TOKENS)
+
+
 def crosswalk_path_for_scope(scope: str, year: int, crosswalk_dir: Path) -> Path:
     if scope == "congressional":
         return crosswalk_dir / "precinct_to_cd118.csv"
@@ -273,6 +294,8 @@ def load_crosswalk(scope: str, path: Path) -> CrosswalkNode:
     tuple_to_precinct_key: dict[tuple[str, str], str] = {}
     precinct_key_to_county: dict[str, str] = {}
     precinct_key_to_vtd: dict[str, str] = {}
+    county_district_blocks: dict[str, dict[str, float]] = defaultdict(lambda: defaultdict(float))
+    county_block_totals: dict[str, float] = defaultdict(float)
 
     with path.open(newline="", encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
@@ -297,8 +320,27 @@ def load_crosswalk(scope: str, path: Path) -> CrosswalkNode:
             county_name = precinct_key_raw.split(" - ", 1)[0].strip() if " - " in precinct_key_raw else ""
             if county_name:
                 precinct_key_to_county[precinct_key] = county_name
+                county_norm = normalize_county_token(county_name)
+                block_count = float(clean(row.get("block_count")) or 0)
+                if block_count <= 0:
+                    total_blocks = float(clean(row.get("total_blocks")) or 0)
+                    if total_blocks > 0:
+                        block_count = float(weight) * total_blocks
+                if county_norm and block_count > 0:
+                    county_district_blocks[county_norm][district] += block_count
+                    county_block_totals[county_norm] += block_count
             if vtdst20:
                 precinct_key_to_vtd[precinct_key] = vtdst20
+
+    county_district_weights: dict[str, list[tuple[str, float]]] = {}
+    for county_norm, district_blocks in county_district_blocks.items():
+        total = county_block_totals.get(county_norm, 0.0)
+        if total <= 0:
+            continue
+        weights = [(d, b / total) for d, b in district_blocks.items() if b > 0]
+        weights.sort(key=lambda x: district_sort_key(x[0]))
+        if weights:
+            county_district_weights[county_norm] = weights
 
     return CrosswalkNode(
         scope=scope,
@@ -307,6 +349,7 @@ def load_crosswalk(scope: str, path: Path) -> CrosswalkNode:
         tuple_to_precinct_key=tuple_to_precinct_key,
         precinct_key_to_county=precinct_key_to_county,
         precinct_key_to_vtd=precinct_key_to_vtd,
+        county_district_weights=county_district_weights,
     )
 
 
@@ -530,6 +573,9 @@ def main() -> None:
                 if not county or not precinct or not contest_type:
                     continue
 
+                if is_non_geographic_county(county):
+                    continue
+
                 party = clean(row.get("party")).upper()
                 if party in SKIP_PARTIES:
                     continue
@@ -557,23 +603,30 @@ def main() -> None:
                     allocations: list[tuple[str, float]] = []
                     used_crosswalk = False
                     used_fallback = False
+                    used_county_fallback = False
 
-                    if precinct_key:
+                    is_scope_district_contest = (
+                        (scope == "congressional" and contest_type == "us_house")
+                        or (scope == "state_house" and contest_type == "state_house")
+                        or (scope == "state_senate" and contest_type == "state_senate")
+                    )
+
+                    if is_scope_district_contest:
+                        fallback_district = normalize_fallback_district(contest_type, district_raw)
+                        if fallback_district:
+                            allocations = [(fallback_district, 1.0)]
+                            used_fallback = True
+
+                    if not allocations and precinct_key:
                         allocations = cw.by_precinct.get(precinct_key, [])
                         if allocations:
                             used_crosswalk = True
 
-                    if not allocations:
-                        fallback_district = ""
-                        if (
-                            (scope == "congressional" and contest_type == "us_house")
-                            or (scope == "state_house" and contest_type == "state_house")
-                            or (scope == "state_senate" and contest_type == "state_senate")
-                        ):
-                            fallback_district = normalize_fallback_district(contest_type, district_raw)
-                        if fallback_district:
-                            allocations = [(fallback_district, 1.0)]
-                            used_fallback = True
+                    if not allocations and not is_scope_district_contest:
+                        county_alloc = cw.county_district_weights.get(normalize_county_token(county), [])
+                        if county_alloc:
+                            allocations = county_alloc
+                            used_county_fallback = True
 
                     if not allocations:
                         node.unmatched_votes += votes
@@ -583,6 +636,8 @@ def main() -> None:
                         node.crosswalk_matched_votes += votes
                     elif used_fallback:
                         node.fallback_matched_votes += votes
+                    elif used_county_fallback:
+                        node.county_fallback_votes += votes
 
                     for district_num, weight in allocations:
                         allocated_votes = votes * float(weight)
@@ -621,7 +676,7 @@ def main() -> None:
             if not results:
                 continue
 
-            matched_votes = node.crosswalk_matched_votes + node.fallback_matched_votes
+            matched_votes = node.crosswalk_matched_votes + node.fallback_matched_votes + node.county_fallback_votes
             coverage_pct = (matched_votes / node.total_input_votes) * 100.0 if node.total_input_votes > 0 else 0.0
             crosswalk_pct = (
                 (node.crosswalk_matched_votes / node.total_input_votes) * 100.0 if node.total_input_votes > 0 else 0.0
@@ -642,6 +697,7 @@ def main() -> None:
                     "total_input_votes": int(round(node.total_input_votes)),
                     "crosswalk_matched_votes": int(round(node.crosswalk_matched_votes)),
                     "fallback_matched_votes": int(round(node.fallback_matched_votes)),
+                    "county_fallback_votes": int(round(node.county_fallback_votes)),
                     "unmatched_votes": int(round(node.unmatched_votes)),
                     "match_coverage_pct": round(coverage_pct, 4),
                     "crosswalk_match_pct": round(crosswalk_pct, 4),
@@ -663,6 +719,10 @@ def main() -> None:
                     "major_party_contested": bool(dem_total > 0 and rep_total > 0),
                     "match_coverage_pct": round(coverage_pct, 4),
                     "crosswalk_match_pct": round(crosswalk_pct, 4),
+                    "county_fallback_pct": round(
+                        (node.county_fallback_votes / node.total_input_votes) * 100.0 if node.total_input_votes > 0 else 0.0,
+                        4,
+                    ),
                 }
             )
 

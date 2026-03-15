@@ -7927,11 +7927,6 @@ document.addEventListener('DOMContentLoaded', function() {
         (Array.isArray(districtManifest) && districtManifest.length > 0);
       const hasDistrictManifest = Array.isArray(districtManifest) && districtManifest.length > 0;
       let entries = null;
-      const districtPrimaryContestByScope = {
-        congressional: 'us_house',
-        state_house: 'state_house',
-        state_senate: 'state_senate'
-      };
 
       if (currentView === 'counties' || !currentView) {
         entries = contestManifest || [];
@@ -7940,8 +7935,7 @@ document.addEventListener('DOMContentLoaded', function() {
           ? 'congressional'
           : (currentView === 'state_house' ? 'state_house' : (currentView === 'state_senate' ? 'state_senate' : null));
         if (scope && hasDistrictManifest) {
-          const targetContest = districtPrimaryContestByScope[scope] || '';
-          entries = districtManifest.filter(e => e && e.scope === scope && (!targetContest || e.contest_type === targetContest));
+          entries = districtManifest.filter(e => e && e.scope === scope);
         } else if (Array.isArray(contestManifest) && contestManifest.length > 0) {
           entries = contestManifest;
         } else {
