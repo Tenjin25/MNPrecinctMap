@@ -1,8 +1,26 @@
-# MN Precinct Map Atlas
+# North Star Vote Atlas
 
-Interactive Minnesota election atlas for county, congressional, state house, and state senate views, with multi-year contest switching and district-level aggregation.
+Minnesota election atlas built for fast reporting, district trend checks, and late-night map nerding.
 
-This project is a static site (`index.html` + `Data/`) designed to run on GitHub Pages.
+If you are a data journalist or political junkie, this repo is meant to answer practical questions quickly:
+- Where did a district actually move since the last cycle?
+- Did this seat flip, or just tighten?
+- Is the margin pattern at county level the same story you see in state house or senate boundaries?
+
+This is a static GitHub Pages app (`index.html` + `Data/`) with no frontend build step.
+
+## Who This Is For
+
+- Data reporters writing local and statewide election stories.
+- Campaign and policy watchers tracking geographic shifts.
+- Civic nerds who want reproducible precinct-to-district aggregation logic.
+
+## What You Can Do Fast
+
+- Switch across county, congressional, state house, and state senate maps.
+- Toggle between `margins`, `winners`, `shift`, and `flips`.
+- Drill into a feature to inspect vote totals, winner, and change context.
+- Compare patterns across years from the same interface.
 
 ## Live Site (GitHub Pages)
 
@@ -10,7 +28,7 @@ This app is hosted from your Pages site. The app already handles subpath hosting
 
 If you move this to a different repo name or custom domain, keep the relative `./Data/...` layout unchanged.
 
-## What The App Includes
+## Election Coverage Strengths
 
 - Four map views:
   - Counties
@@ -27,6 +45,13 @@ If you move this to a different repo name or custom domain, keep the relative `.
 - Click-to-zoom on county, district, and precinct layers.
 - Colorblind mode toggle.
 - Crosswalk-based district carryover support for reallocated historical contests.
+
+## Reporting Angles You Can Support
+
+- Districts that changed party vs districts that only changed intensity.
+- Urban/rural or metro/non-metro movement between cycles.
+- House and senate split-ticket geography inside the same senate footprint.
+- Outlier districts where presidential and legislative coalitions diverge.
 
 ## Repository Layout
 
@@ -54,6 +79,13 @@ http://localhost:8000/
 ```
 
 3. Hard refresh after data changes (`Ctrl+F5`), especially when JSON files were cached.
+
+## Data Integrity Notes (For Publishing)
+
+- District-level historical carryover depends on crosswalk allocation from precinct geography.
+- Presidential district slices have source-specific rebuilds by cycle (see notes below).
+- If a district color looks wrong, regenerate contests and manifests first, then hard refresh.
+- Treat every rebuild as a versioned dataset update: commit data + manifest together.
 
 ## GitHub Pages Deployment
 
@@ -134,6 +166,13 @@ Current presidential district sourcing:
   - `Data/2016_general_precinct_official.xlsx`
 - 2020 district presidential slices currently remain based on existing precinct + crosswalk workflow because no equivalent `2020_general_precinct_official.xlsx` file is present in this repo.
 
+## Methodology At A Glance
+
+- Base unit is precinct-level election returns.
+- District aggregation is produced by precinct-to-district crosswalks.
+- Historical district views use carryover allocation when boundaries and cycles do not align cleanly.
+- Frontend colors are driven by computed winner + margin from prebuilt JSON slices.
+
 ## Interaction Summary
 
 - View buttons switch geometry layers (counties, congressional, house, senate).
@@ -156,6 +195,13 @@ Current presidential district sourcing:
 - Crosswalk mismatches:
   - Rebuild crosswalks and district contests in sequence (steps 3 then 4 above).
 
+## Suggested Story Workflow
+
+1. Pick contest + year and run `margins` to identify strongholds and close terrain.
+2. Switch to `shift` to find where coalition movement is largest.
+3. Switch to `flips` to isolate narrative districts.
+4. Validate suspicious districts against source precinct CSV rows before publishing.
+
 ## Maintenance Checklist
 
 When refreshing data:
@@ -165,4 +211,3 @@ When refreshing data:
 3. Spot-check known districts/counties in app.
 4. Commit both data files and manifest changes together.
 5. Push and hard-refresh the Pages site.
-
