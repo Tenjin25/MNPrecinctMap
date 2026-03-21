@@ -464,9 +464,9 @@
   <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6.5.0/turf.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
     <meta charset='utf-8'>
-    <title>Minnesota Election Atlas (2000-2024)</title>
+    <title>North Star Vote Atlas (2000-2024)</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover'>
-    <meta property="og:title" content="MN Election Atlas (2000-2024)">
+    <meta property="og:title" content="North Star Vote Atlas (2000-2024)">
     <meta property="og:description" content="Interactive visualization of Minnesota election trends from 2000 to 2024, with county and precinct views.">
     <meta property="og:image" content="preview.png">
     <meta name="twitter:card" content="summary_large_image">
@@ -5529,6 +5529,109 @@ body { height: var(--app-height); }
       bottom: 8px !important;
     }
   }
+
+  :root {
+    --mn-navy: #0b1f3a;
+    --mn-lake: #1f3f68;
+    --mn-sky: #8eb2d7;
+    --mn-gold: #d8ba6a;
+    --mn-ice: #e8f0f8;
+  }
+
+  .map-topbar {
+    background: linear-gradient(135deg, rgba(8, 20, 38, 0.94) 0%, rgba(22, 48, 82, 0.88) 100%);
+    border-color: rgba(142, 178, 215, 0.28);
+    box-shadow: 0 20px 52px rgba(8, 20, 38, 0.40);
+  }
+
+  .map-topbar-badge {
+    background: rgba(142, 178, 215, 0.18);
+    color: #e7f1ff;
+  }
+
+  .map-topbar-copy span {
+    color: rgba(232, 240, 248, 0.82);
+  }
+
+  .fly-search-field:focus-within {
+    border-color: var(--mn-sky);
+    box-shadow: 0 0 0 4px rgba(142, 178, 215, 0.24);
+  }
+
+  .fly-search-submit {
+    background: linear-gradient(135deg, var(--mn-lake), var(--mn-navy));
+    box-shadow: 0 8px 20px rgba(11, 31, 58, 0.32);
+  }
+
+  .main-controls::before {
+    background: linear-gradient(90deg, var(--mn-navy) 0%, var(--mn-sky) 55%, var(--mn-gold) 100%);
+  }
+
+  .controls-kicker,
+  .panel-eyebrow {
+    background: rgba(142, 178, 215, 0.20);
+    color: var(--mn-navy);
+  }
+
+  .controls-title-pill {
+    background: linear-gradient(135deg, rgba(11, 31, 58, 0.97) 0%, rgba(31, 63, 104, 0.93) 100%);
+    box-shadow: 0 14px 30px rgba(11, 31, 58, 0.30), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+
+  .controls-title-pill::before {
+    background: linear-gradient(135deg, #c9ab60 0%, #ebd49a 100%);
+    box-shadow: 0 0 0 4px rgba(216, 186, 106, 0.20);
+  }
+
+  .controls-collapsed-label {
+    background: linear-gradient(135deg, rgba(11, 31, 58, 0.96) 0%, rgba(31, 63, 104, 0.92) 100%);
+    box-shadow: 0 12px 26px rgba(11, 31, 58, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.14);
+  }
+
+  .controls-collapsed-label::before {
+    background: linear-gradient(135deg, #c9ab60 0%, #ebd49a 100%);
+    box-shadow: 0 0 0 4px rgba(216, 186, 106, 0.20);
+  }
+
+  .main-controls .control-group {
+    border-color: rgba(142, 178, 215, 0.22);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.94) 0%, rgba(232, 240, 248, 0.88) 100%);
+  }
+
+  .control-summary {
+    background: linear-gradient(135deg, rgba(8, 20, 38, 0.97) 0%, rgba(26, 52, 84, 0.93) 100%);
+    box-shadow: 0 16px 34px rgba(8, 20, 38, 0.32);
+  }
+
+  .control-summary-mode {
+    background: rgba(216, 186, 106, 0.20);
+    color: #f2e3b7;
+  }
+
+  .desktop-statewide-tag {
+    background: rgba(216, 186, 106, 0.20);
+    color: #5a4421;
+  }
+
+  .view-toggle-btn.active,
+  .viz-mode-btn.active {
+    background: linear-gradient(180deg, var(--mn-lake) 0%, var(--mn-navy) 100%);
+  }
+
+  .fly-search-option:hover,
+  .fly-search-option:focus-visible,
+  .region-jump-btn:hover {
+    background: var(--mn-ice);
+    border-color: rgba(31, 63, 104, 0.30);
+  }
+
+  #help-btn,
+  #accessibility-toggle,
+  #label-toggle {
+    background: linear-gradient(180deg, var(--mn-navy) 0%, #18365a 100%) !important;
+    border-color: rgba(216, 186, 106, 0.22) !important;
+    box-shadow: 0 10px 20px rgba(11, 31, 58, 0.26) !important;
+  }
     </style>
 </head>
 <body>
@@ -5682,7 +5785,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="desktop-ui-left">
   <div class="map-topbar" id="map-topbar">
     <div class="map-topbar-meta">
-      <div class="map-topbar-badge">Minnesota Election Atlas</div>
+      <div class="map-topbar-badge">North Star Vote Atlas</div>
       <div class="map-topbar-copy">
         <strong>Fly to a county, district, or precinct</strong>
         <span>Try Hennepin, CD 3, HD 61A, SD 55, or St. Louis 001.</span>
@@ -5791,11 +5894,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="controls-header">
             <div class="controls-heading">
               <span class="controls-kicker">Atlas controls</span>
-              <h3 class="controls-title-pill">Minnesota Election Atlas</h3>
+              <h3 class="controls-title-pill">North Star Vote Atlas</h3>
               <p class="controls-subtitle">Switch layers, jump to major regions, and compare contests without leaving the map.</p>
             </div>
             <div class="controls-actions">
-              <span class="controls-collapsed-label">Minnesota Election Atlas</span>
+              <span class="controls-collapsed-label">North Star Vote Atlas</span>
               <button id="help-btn" title="Help" type="button">?</button>
               <button class="minimize-btn" onclick="toggleMainControls()" id="controls-minimize-btn" title="Minimize controls">-</button>
             </div>
@@ -5816,6 +5919,26 @@ document.addEventListener('DOMContentLoaded', function() {
                   <button class="desktop-fly-chip" type="button" data-search-example="HD 61A">HD 61A</button>
                   <button class="desktop-fly-chip" type="button" data-search-example="SD 55">SD 55</button>
                   <button class="desktop-fly-chip" type="button" data-search-example="St. Louis 001">St. Louis 001</button>
+                </div>
+            </div>
+            <div class="control-group">
+                <span class="section-kicker">Contest</span>
+                <div class="contest-toolbar" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
+                  <label>Tools:</label>
+                  <button id="accessibility-toggle" title="Accessibility: Color Blind Mode" style="background:#1f2937;color:#fff;border-radius:50%;width:32px;height:32px;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.10);font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer;">&#9855;</button>
+                  <button id="label-toggle" title="Toggle County Labels" style="background:#1f2937;color:#fff;border-radius:50%;width:32px;height:32px;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.10);font-size:14px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-weight:bold;">Aa</button>
+                  <button id="precinct-toggle" title="Enable Precinct Overlay (Zoom 8.5+)" style="background:#065f46;color:#fff;border-radius:8px;height:32px;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.10);font-size:12px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-weight:bold;padding:0 10px;">Precincts Off</button>
+                </div>
+                <div class="contest-search-wrap">
+                  <input id="contestSearch" type="search" placeholder="Search contests (e.g., President, Senate, 2008)..." autocomplete="off" spellcheck="false" />
+                </div>
+                <div class="contest-select-wrap">
+                  <select id="contestSelect">
+                      <option value="">Select a Contest...</option>
+                  </select>
+                </div>
+                <div class="controls-panel-note">
+                  Tips: click a county or district for trends. Shortcuts: `P` precincts, `L` labels.
                 </div>
             </div>
             <div class="control-summary" id="control-summary">
@@ -5870,26 +5993,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 <button class="viz-mode-btn" data-mode="shift" type="button"><span>Shift</span></button>
                 <button class="viz-mode-btn" data-mode="flips" type="button"><span>Flips</span></button>
               </div>
-            </div>
-            <div class="control-group">
-                <span class="section-kicker">Contest</span>
-                <div class="contest-toolbar" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
-                  <label>Tools:</label>
-                  <button id="accessibility-toggle" title="Accessibility: Color Blind Mode" style="background:#1f2937;color:#fff;border-radius:50%;width:32px;height:32px;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.10);font-size:18px;display:flex;align-items:center;justify-content:center;cursor:pointer;">&#9855;</button>
-                  <button id="label-toggle" title="Toggle County Labels" style="background:#1f2937;color:#fff;border-radius:50%;width:32px;height:32px;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.10);font-size:14px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-weight:bold;">Aa</button>
-                  <button id="precinct-toggle" title="Enable Precinct Overlay (Zoom 8.5+)" style="background:#065f46;color:#fff;border-radius:8px;height:32px;border:none;box-shadow:0 2px 8px rgba(0,0,0,0.10);font-size:12px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-weight:bold;padding:0 10px;">Precincts Off</button>
-                </div>
-                <div class="contest-search-wrap">
-                  <input id="contestSearch" type="search" placeholder="Search contests (e.g., President, Senate, 2008)..." autocomplete="off" spellcheck="false" />
-                </div>
-                <div class="contest-select-wrap">
-                  <select id="contestSelect">
-                      <option value="">Select a Contest...</option>
-                  </select>
-                </div>
-                <div class="controls-panel-note">
-                  Tips: click a county or district for trends. Shortcuts: `P` precincts, `L` labels.
-                </div>
             </div>
         </div>
     </div>
@@ -7519,6 +7622,11 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
 
+    function isDistrictSpecificContestType(contestType) {
+      const t = (contestType || '').toString().trim().toLowerCase();
+      return t === 'us_house' || t === 'state_house' || t === 'state_senate';
+    }
+
     async function loadDistrictSlice(scope, contestType, year) {
       const key = `${scope}_${contestType}_${year}`;
       if (districtSliceCache.has(key)) return districtSliceCache.get(key);
@@ -8307,14 +8415,27 @@ document.addEventListener('DOMContentLoaded', function() {
       return (raw || '').toString().replace(/\s+/g, ' ').trim().toUpperCase();
     }
 
+    function getLegislativePlanYear(year = null) {
+      const y = Number(year);
+      if (!Number.isFinite(y) || y <= 0) return 2024;
+      return y > 2022 ? 2024 : 2022;
+    }
+
+    function getDistrictPlanLabel(scope, year = null) {
+      if (scope === 'congressional') return '118th congressional district lines';
+      if (scope === 'state_house' || scope === 'state_senate') {
+        return `court-ordered ${getLegislativePlanYear(year)} state legislative lines`;
+      }
+      return 'district lines';
+    }
+
     function getCarryoverCrosswalkPath(scope, year = null) {
       const crosswalks = CONFIG.paths?.crosswalks || {};
       if (scope === 'congressional') {
         return crosswalks.congressional || '';
       }
-      const y = Number(year) || 0;
-      // Current legislative layers use the court-ordered 2022 districts, which also cover the 2022 midterms.
-      const planYear = y > 2022 ? 2024 : 2022;
+      // Legislative contest slices are projected onto 2022 lines for <= 2022 and 2024 lines after that.
+      const planYear = getLegislativePlanYear(year);
       if (scope === 'state_house') {
         return crosswalks[`state_house_${planYear}`] || crosswalks.state_house_2022 || '';
       }
@@ -8551,7 +8672,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (view === 'state_house') {
         addStateHouseLayers();
       } else if (view === 'state_senate') {
-        addStateSenatelayers();
+        addStateSenateLayers();
       }
       
       // Repopulate contest selector
@@ -9235,7 +9356,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Older statewide district slices may omit candidate labels; recover from contest slice.
         let demCand = (r.dem_candidate || '').toString().trim();
         let repCand = (r.rep_candidate || '').toString().trim();
-        if ((!(demCand && repCand)) && contestType !== 'us_house') {
+        if ((!(demCand && repCand)) && !isDistrictSpecificContestType(contestType)) {
           try {
             const cand = await getContestCandidates(contestType, year);
             if (!demCand) demCand = cand.dem || '';
@@ -9890,15 +10011,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
       let demCandidate = (row.dem_candidate || '').toString().trim();
       let repCandidate = (row.rep_candidate || '').toString().trim();
-      if ((!(demCandidate && repCandidate)) && contestType !== 'us_house') {
+      if ((!(demCandidate && repCandidate)) && !isDistrictSpecificContestType(contestType)) {
         try {
           const cand = await getContestCandidates(contestType, year);
           if (!demCandidate) demCandidate = cand.dem || '';
           if (!repCandidate) repCandidate = cand.rep || '';
         } catch (_) {}
       }
-      if (!demCandidate) demCandidate = getCandidateName(year, formatContestName(contestType, year), 'Democrat');
-      if (!repCandidate) repCandidate = getCandidateName(year, formatContestName(contestType, year), 'Republican');
+      if (!demCandidate) demCandidate = (isDistrictSpecificContestType(contestType) && demVotes === 0)
+        ? 'Not on ballot'
+        : getCandidateName(year, formatContestName(contestType, year), 'Democrat');
+      if (!repCandidate) repCandidate = (isDistrictSpecificContestType(contestType) && repVotes === 0)
+        ? 'Not on ballot'
+        : getCandidateName(year, formatContestName(contestType, year), 'Republican');
       const subtitle = `${formatContestName(contestType, year)} ${year}`;
       setVoteCounterHoverState(
         `Hover: ${districtLabel} ${districtNum}`,
@@ -11425,7 +11550,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-    function addStateSenatelayers() {
+    function addStateSenateLayers() {
       if (!map.getSource('state-senate')) return;
       if (!map.getLayer('state-senate-fill')) {
         addLayerWithOptionalSourceLayer({ 
@@ -12511,8 +12636,8 @@ document.addEventListener('DOMContentLoaded', function() {
       let repCandidate = stripRunningMateName((row.rep_candidate || '').toString().trim());
       if (!demCandidate) demCandidate = stripRunningMateName((fallbackCandidates?.dem || '').toString().trim());
       if (!repCandidate) repCandidate = stripRunningMateName((fallbackCandidates?.rep || '').toString().trim());
-      if (!demCandidate) demCandidate = 'D';
-      if (!repCandidate) repCandidate = 'R';
+      if (!demCandidate) demCandidate = demVotes === 0 ? 'Not on ballot' : 'D';
+      if (!repCandidate) repCandidate = repVotes === 0 ? 'Not on ballot' : 'R';
 
       const demPct = (demVotes / totalVotes) * 100.0;
       const repPct = (repVotes / totalVotes) * 100.0;
@@ -12639,7 +12764,7 @@ document.addEventListener('DOMContentLoaded', function() {
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-election');
           let cand = null;
-          if (row && contestType !== 'us_house') {
+          if (row && !isDistrictSpecificContestType(contestType)) {
             const demBlank = !((row.dem_candidate || '').toString().trim());
             const repBlank = !((row.rep_candidate || '').toString().trim());
             if (demBlank || repBlank) cand = await getContestCandidates(contestType, year);
@@ -12725,7 +12850,7 @@ document.addEventListener('DOMContentLoaded', function() {
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-election');
           let cand = null;
-          if (row && contestType !== 'us_house') {
+          if (row && !isDistrictSpecificContestType(contestType)) {
             const demBlank = !((row.dem_candidate || '').toString().trim());
             const repBlank = !((row.rep_candidate || '').toString().trim());
             if (demBlank || repBlank) cand = await getContestCandidates(contestType, year);
@@ -14030,9 +14155,10 @@ document.addEventListener('DOMContentLoaded', function() {
           const coverageText = (coveragePct !== undefined && coveragePct !== null)
             ? ` | match coverage ${Number(coveragePct).toFixed(2)}%`
             : '';
-          setStatewideContestTitle(`${formatContestName(contestType, year)} (${year}) - Reallocated to court-ordered 2022 lines${coverageText}`);
+          const planLabel = getDistrictPlanLabel(districtScope, year);
+          setStatewideContestTitle(`${formatContestName(contestType, year)} (${year}) - Reallocated to ${planLabel}${coverageText}`);
           setStatus(`Applied district crosswalk results: ${formatContestName(contestType, year)} ${year} (${demPct.toFixed(2)}% D, ${repPct.toFixed(2)}% R, ${otherPct.toFixed(2)}% O)${coverageText}`);
-          setVoteCounterBaselineState('Statewide', `${formatContestName(contestType, year)} ${year} (2022 lines)`, totalDem, totalRep, totalOther, { kind: 'statewide', contestType, year: Number(year) });
+          setVoteCounterBaselineState('Statewide', `${formatContestName(contestType, year)} ${year} (${planLabel})`, totalDem, totalRep, totalOther, { kind: 'statewide', contestType, year: Number(year) });
           return;
         }
       }
