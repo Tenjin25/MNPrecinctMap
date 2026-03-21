@@ -5904,23 +5904,6 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
         <div class="controls-content" id="controls-content">
-            <div class="control-group control-group-search desktop-fly-group">
-                <label class="control-section-label" for="desktop-fly-search">Fly to</label>
-                <div class="desktop-fly-search-wrap">
-                  <div class="desktop-fly-search-field fly-search-field">
-                    <input id="desktop-fly-search" type="search" placeholder="Hennepin County, CD 3, HD 61A, SD 55, St. Louis 001" autocomplete="off" spellcheck="false" inputmode="search" />
-                  </div>
-                  <button id="desktop-fly-submit" class="desktop-fly-submit" type="button">Go</button>
-                </div>
-                <div class="desktop-fly-helper">Jump to counties, districts, or precincts without changing the selected contest.</div>
-                <div class="desktop-fly-chip-row" aria-label="Fly-to examples">
-                  <button class="desktop-fly-chip" type="button" data-search-example="Hennepin">Hennepin</button>
-                  <button class="desktop-fly-chip" type="button" data-search-example="CD 3">CD 3</button>
-                  <button class="desktop-fly-chip" type="button" data-search-example="HD 61A">HD 61A</button>
-                  <button class="desktop-fly-chip" type="button" data-search-example="SD 55">SD 55</button>
-                  <button class="desktop-fly-chip" type="button" data-search-example="St. Louis 001">St. Louis 001</button>
-                </div>
-            </div>
             <div class="control-group">
                 <span class="section-kicker">Contest</span>
                 <div class="contest-toolbar" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;">
@@ -5939,6 +5922,23 @@ document.addEventListener('DOMContentLoaded', function() {
                 </div>
                 <div class="controls-panel-note">
                   Tips: click a county or district for trends. Shortcuts: `P` precincts, `L` labels.
+                </div>
+            </div>
+            <div class="control-group control-group-search desktop-fly-group">
+                <label class="control-section-label" for="desktop-fly-search">Fly to</label>
+                <div class="desktop-fly-search-wrap">
+                  <div class="desktop-fly-search-field fly-search-field">
+                    <input id="desktop-fly-search" type="search" placeholder="Hennepin County, CD 3, HD 61A, SD 55, St. Louis 001" autocomplete="off" spellcheck="false" inputmode="search" />
+                  </div>
+                  <button id="desktop-fly-submit" class="desktop-fly-submit" type="button">Go</button>
+                </div>
+                <div class="desktop-fly-helper">Jump to counties, districts, or precincts without changing the selected contest.</div>
+                <div class="desktop-fly-chip-row" aria-label="Fly-to examples">
+                  <button class="desktop-fly-chip" type="button" data-search-example="Hennepin">Hennepin</button>
+                  <button class="desktop-fly-chip" type="button" data-search-example="CD 3">CD 3</button>
+                  <button class="desktop-fly-chip" type="button" data-search-example="HD 61A">HD 61A</button>
+                  <button class="desktop-fly-chip" type="button" data-search-example="SD 55">SD 55</button>
+                  <button class="desktop-fly-chip" type="button" data-search-example="St. Louis 001">St. Louis 001</button>
                 </div>
             </div>
             <div class="control-summary" id="control-summary">
@@ -9518,6 +9518,45 @@ document.addEventListener('DOMContentLoaded', function() {
       try { map.setFeatureState({ source: 'precincts', id }, { hover: true }); } catch (_) {}
     }
 
+    function extendBoundsWithCoords(bounds, coords) {
+      if (!bounds || !Array.isArray(coords) || coords.length === 0) return;
+      if (typeof coords[0] === 'number' && typeof coords[1] === 'number') {
+        const lng = Number(coords[0]);
+        const lat = Number(coords[1]);
+        if (Number.isFinite(lng) && Number.isFinite(lat)) bounds.extend([lng, lat]);
+        return;
+      }
+      coords.forEach(child => extendBoundsWithCoords(bounds, child));
+    }
+
+    function zoomToFeature(feature, opts = {}) {
+      if (!feature?.geometry || !map) return;
+      const geometry = feature.geometry || {};
+      const type = (geometry.type || '').toString();
+      const coords = geometry.coordinates;
+      if (!coords) return;
+
+      const maxZoom = Number.isFinite(Number(opts.maxZoom)) ? Number(opts.maxZoom) : 10;
+      const padding = Number.isFinite(Number(opts.padding))
+        ? Number(opts.padding)
+        : (isMobileViewportNow() ? 28 : 56);
+      const duration = Number.isFinite(Number(opts.duration)) ? Number(opts.duration) : 520;
+
+      if (type === 'Point') {
+        const lng = Number(coords[0]);
+        const lat = Number(coords[1]);
+        if (!Number.isFinite(lng) || !Number.isFinite(lat)) return;
+        map.easeTo({ center: [lng, lat], zoom: maxZoom, duration, essential: true });
+        return;
+      }
+
+      const bounds = new mapboxgl.LngLatBounds();
+      extendBoundsWithCoords(bounds, coords);
+      if (!bounds.isEmpty()) {
+        map.fitBounds(bounds, { padding, maxZoom, duration, essential: true });
+      }
+    }
+
     function buildAnyPropertyMatchFilter(keys, districtNum) {
       const raw = (districtNum || '').toString().trim();
       if (!raw) return ['==', 1, 0];
@@ -10902,6 +10941,7 @@ document.addEventListener('DOMContentLoaded', function() {
           if (e.features && e.features[0] && e.features[0].properties) {
             const countyName = e.features[0].properties.precinct_name || e.features[0].properties.NAME20 || e.features[0].properties.CountyName || e.features[0].properties.county_nam || e.features[0].properties.COUNTYNAME || e.features[0].properties.County || e.features[0].properties.NAME || e.features[0].properties.name;
             if (countyName) {
+              try { zoomToFeature(e.features[0], { maxZoom: 8.8 }); } catch (_) {}
               showCountyDetails(countyName);
               lastSelectedCounty = countyName;
               setCountyHoverOutline(countyName);
@@ -11038,6 +11078,7 @@ document.addEventListener('DOMContentLoaded', function() {
       map.on('click', 'precinct-fill', (e) => {
         const props = e.features?.[0]?.properties || {};
         const countyName = props.county_nam || '';
+        try { zoomToFeature(e.features?.[0], { maxZoom: 12, padding: isMobileViewportNow() ? 24 : 38 }); } catch (_) {}
         if (countyName) {
           showCountyDetails(countyName);
           lastSelectedCounty = countyName;
@@ -11262,6 +11303,7 @@ document.addEventListener('DOMContentLoaded', function() {
           try {
             const f = e?.features?.[0];
             if (!f) return;
+            zoomToFeature(f, { maxZoom: 12, padding: isMobileViewportNow() ? 24 : 36 });
             setTooltipPinned(false);
             renderPrecinctHoverAtPoint(e.point, f, { forceTooltip: true });
             if (isTouchInteractionMode()) setTooltipPinned(true);
@@ -11374,6 +11416,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const props = e.features[0].properties;
             const districtNum = normalizeDistrictNumber(props.DISTRICT || props.CD118FP || props.district_id || props.district);
             if (districtNum) {
+              try { zoomToFeature(e.features[0], { maxZoom: 9.8 }); } catch (_) {}
               // Show detailed sidebar (results + trends).
               showDistrictDetails(districtNum);
               lastSelectedCounty = `District ${districtNum}`;
@@ -11479,6 +11522,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const props = e.features[0].properties;
             const districtNum = normalizeDistrictNumber(props.DISTRICT || props.SLDLST || props.district_id || props.district);
             if (districtNum) {
+              try { zoomToFeature(e.features[0], { maxZoom: 10.6 }); } catch (_) {}
               // Show detailed sidebar (results + trends).
               showStateDistrictDetails(districtNum, 'house');
               lastSelectedCounty = `State House District ${districtNum}`;
@@ -11582,6 +11626,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const props = e.features[0].properties;
             const districtNum = normalizeDistrictNumber(props.DISTRICT || props.SLDUST || props.district_id || props.district);
             if (districtNum) {
+              try { zoomToFeature(e.features[0], { maxZoom: 10.2 }); } catch (_) {}
               // Show detailed sidebar (results + trends).
               showStateDistrictDetails(districtNum, 'senate');
               lastSelectedCounty = `State Senate District ${districtNum}`;
