@@ -6754,6 +6754,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const contestType = (meta?.contestType || '').toString().trim();
       const year = meta?.year !== undefined && meta?.year !== null ? String(meta.year) : '';
       const shouldLookupContestCandidates = !!(contestType && year)
+        && !isDistrictSpecificContestType(contestType)
         && !(meta?.kind === 'statewide' && contestType === 'us_house' && !demCandidate && !repCandidate);
       if (shouldLookupContestCandidates) {
         const officeName = formatContestName(contestType, year);
@@ -7627,19 +7628,141 @@ document.addEventListener('DOMContentLoaded', function() {
       return t === 'us_house' || t === 'state_house' || t === 'state_senate';
     }
 
+    function districtSliceResultCount(payload) {
+      const results = payload?.general?.results;
+      if (!results || typeof results !== 'object') return 0;
+      return Object.keys(results).length;
+    }
+
+    function finalizeDistrictAggregateRow(node) {
+      const dem = Number(node?.dem_votes || 0);
+      const rep = Number(node?.rep_votes || 0);
+      const other = Number(node?.other_votes || 0);
+      const total = Number(node?.total_votes || 0);
+      const signedMarginPct = total > 0 ? ((rep - dem) / total) * 100 : 0;
+      node.margin = Math.abs(rep - dem);
+      node.margin_pct = signedMarginPct;
+      node.winner = rep > dem ? 'REPUBLICAN' : (dem > rep ? 'DEMOCRAT' : 'TIE');
+      return node;
+    }
+
+    async function deriveStateSenateFromStateHouseSlice(year) {
+      const source = await loadDistrictSlice('state_house', 'state_house', year);
+      const sourceResults = source?.general?.results || null;
+      if (!sourceResults || typeof sourceResults !== 'object') return null;
+
+      const derived = {};
+      Object.entries(sourceResults).forEach(([houseDistrict, row]) => {
+        const houseKey = normalizeDistrictNumber(houseDistrict);
+        const match = houseKey.match(/^([0-9]+)[A-Z]$/);
+        if (!match) return;
+        const senateDistrict = String(Number(match[1]));
+        if (!derived[senateDistrict]) {
+          derived[senateDistrict] = {
+            dem_votes: 0,
+            rep_votes: 0,
+            other_votes: 0,
+            total_votes: 0,
+            dem_candidate: '',
+            rep_candidate: ''
+          };
+        }
+        const target = derived[senateDistrict];
+        target.dem_votes += Number(row?.dem_votes || 0);
+        target.rep_votes += Number(row?.rep_votes || 0);
+        target.other_votes += Number(row?.other_votes || 0);
+        target.total_votes += Number(row?.total_votes || 0);
+      });
+
+      Object.keys(derived).forEach(d => finalizeDistrictAggregateRow(derived[d]));
+      if (!Object.keys(derived).length) return null;
+
+      return {
+        meta: {
+          year: Number(year),
+          scope: 'state_senate',
+          contest_type: 'state_house',
+          derived_from: 'state_house_state_house',
+          derived_method: 'sum_house_a_b_to_senate'
+        },
+        general: { results: derived }
+      };
+    }
+
+    async function deriveStateHouseFromStateSenateSlice(year) {
+      const source = await loadDistrictSlice('state_senate', 'state_senate', year);
+      const sourceResults = source?.general?.results || null;
+      if (!sourceResults || typeof sourceResults !== 'object') return null;
+
+      const derived = {};
+      Object.entries(sourceResults).forEach(([senateDistrict, row]) => {
+        const senateKey = normalizeDistrictNumber(senateDistrict);
+        const match = senateKey.match(/^([0-9]+)$/);
+        if (!match) return;
+        const base = String(Number(match[1]));
+        ['A', 'B'].forEach(suffix => {
+          const houseDistrict = `${base}${suffix}`;
+          const dem = Number(row?.dem_votes || 0);
+          const rep = Number(row?.rep_votes || 0);
+          const other = Number(row?.other_votes || 0);
+          const total = Number(row?.total_votes || (dem + rep + other));
+          derived[houseDistrict] = finalizeDistrictAggregateRow({
+            dem_votes: dem,
+            rep_votes: rep,
+            other_votes: other,
+            total_votes: total,
+            dem_candidate: '',
+            rep_candidate: ''
+          });
+        });
+      });
+
+      if (!Object.keys(derived).length) return null;
+
+      return {
+        meta: {
+          year: Number(year),
+          scope: 'state_house',
+          contest_type: 'state_senate',
+          derived_from: 'state_senate_state_senate',
+          derived_method: 'copy_senate_to_house_a_b'
+        },
+        general: { results: derived }
+      };
+    }
+
+    async function deriveCrossChamberDistrictSlice(scope, contestType, year) {
+      if (scope === 'state_senate' && contestType === 'state_house') {
+        return deriveStateSenateFromStateHouseSlice(year);
+      }
+      if (scope === 'state_house' && contestType === 'state_senate') {
+        return deriveStateHouseFromStateSenateSlice(year);
+      }
+      return null;
+    }
+
     async function loadDistrictSlice(scope, contestType, year) {
       const key = `${scope}_${contestType}_${year}`;
       if (districtSliceCache.has(key)) return districtSliceCache.get(key);
 
+      let payload = null;
       try {
-        const payload = await loadJSON(`${CONFIG.paths.district_contests_dir}/${key}.json`);
+        payload = await loadJSON(`${CONFIG.paths.district_contests_dir}/${key}.json`);
+      } catch (_) {}
+
+      if (districtSliceResultCount(payload) > 0) {
         districtSliceCache.set(key, payload);
         return payload;
-      } catch (_) {
-        const fallback = districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null;
-        districtSliceCache.set(key, fallback);
-        return fallback;
       }
+
+      let fallback = districtElectionDataJSON?.results_by_year?.[year]?.[scope]?.[contestType] || null;
+      if (districtSliceResultCount(fallback) === 0) {
+        fallback = await deriveCrossChamberDistrictSlice(scope, contestType, year);
+      }
+
+      const out = districtSliceResultCount(fallback) > 0 ? fallback : null;
+      districtSliceCache.set(key, out);
+      return out;
     }
 
     function parseCSV(csvText) {
@@ -8541,6 +8664,24 @@ document.addEventListener('DOMContentLoaded', function() {
       if (scope === 'state_house') return 'house';
       if (scope === 'state_senate') return 'senate';
       return 'congressional';
+    }
+
+    function getLegislativePairingLabel(scope, districtNum) {
+      const d = normalizeDistrictNumber(districtNum);
+      if (!d) return '';
+      if (scope === 'state_house') {
+        const m = d.match(/^0*([0-9]+)[A-Z]$/);
+        if (!m) return '';
+        const base = String(Number(m[1]));
+        return `Pairs with State Senate District ${base}.`;
+      }
+      if (scope === 'state_senate') {
+        const m = d.match(/^0*([0-9]+)$/);
+        if (!m) return '';
+        const base = String(Number(m[1]));
+        return `Covers State House Districts ${base}A and ${base}B.`;
+      }
+      return '';
     }
 
     async function showAndPinDistrictSelection(scope, districtNum, contestValue = '') {
@@ -10059,11 +10200,11 @@ document.addEventListener('DOMContentLoaded', function() {
           if (!repCandidate) repCandidate = cand.rep || '';
         } catch (_) {}
       }
-      if (!demCandidate) demCandidate = (isDistrictSpecificContestType(contestType) && demVotes === 0)
-        ? 'Not on ballot'
+      if (!demCandidate) demCandidate = isDistrictSpecificContestType(contestType)
+        ? (demVotes === 0 ? 'Not on ballot' : 'D')
         : getCandidateName(year, formatContestName(contestType, year), 'Democrat');
-      if (!repCandidate) repCandidate = (isDistrictSpecificContestType(contestType) && repVotes === 0)
-        ? 'Not on ballot'
+      if (!repCandidate) repCandidate = isDistrictSpecificContestType(contestType)
+        ? (repVotes === 0 ? 'Not on ballot' : 'R')
         : getCandidateName(year, formatContestName(contestType, year), 'Republican');
       const subtitle = `${formatContestName(contestType, year)} ${year}`;
       setVoteCounterHoverState(
