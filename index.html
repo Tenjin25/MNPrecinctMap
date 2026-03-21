@@ -8956,24 +8956,18 @@ document.addEventListener('DOMContentLoaded', function() {
       return `${marginPctValue(repVotes, demVotes, totalVotes).toFixed(2)}%`;
     }
 
-    // Prefix with party for the vote-counter Lead pill only (R+ / D+).
+    // Percentage-only label for the vote-counter Lead pill.
     function focusLeadMarginLabel(repVotes, demVotes, totalVotes) {
       const margin = Number(repVotes || 0) - Number(demVotes || 0);
       if (!margin) return 'Tie';
-      const party = margin > 0 ? 'R' : 'D';
-      return `${party}+${marginPctValue(repVotes, demVotes, totalVotes).toFixed(2)}%`;
+      return `${marginPctValue(repVotes, demVotes, totalVotes).toFixed(2)}%`;
     }
 
     function compactWinnerMarginLabel(repVotes, demVotes, totalVotes, repCandidate, demCandidate) {
       const margin = Number(repVotes || 0) - Number(demVotes || 0);
       const pctLabel = `${marginPctValue(repVotes, demVotes, totalVotes).toFixed(2)}%`;
-      if (margin > 0) {
-        return `${shortCandidateLabel(repCandidate, 'R')} +${pctLabel}`;
-      }
-      if (margin < 0) {
-        return `${shortCandidateLabel(demCandidate, 'D')} +${pctLabel}`;
-      }
-      return 'Tie';
+      if (!margin) return 'Tie';
+      return pctLabel;
     }
 
     function winnerMarginLabel(repVotes, demVotes, totalVotes, repCandidate, demCandidate) {
@@ -9013,7 +9007,7 @@ document.addEventListener('DOMContentLoaded', function() {
           winnerName: fullCandidateLabel(repCandidate, 'Republican'),
           shortLabel: shortCandidateLabel(repCandidate, 'Republican'),
           marginPct,
-          text: `${shortCandidateLabel(repCandidate, 'Republican')} +${marginPct.toFixed(2)}`
+          text: `${marginPct.toFixed(2)}%`
         };
       }
       if (demVotes > repVotes) {
@@ -9022,7 +9016,7 @@ document.addEventListener('DOMContentLoaded', function() {
           winnerName: fullCandidateLabel(demCandidate, 'Democratic'),
           shortLabel: shortCandidateLabel(demCandidate, 'Democratic'),
           marginPct,
-          text: `${shortCandidateLabel(demCandidate, 'Democratic')} +${marginPct.toFixed(2)}`
+          text: `${marginPct.toFixed(2)}%`
         };
       }
       return {
@@ -12695,7 +12689,7 @@ document.addEventListener('DOMContentLoaded', function() {
               <div style="margin-bottom: 16px;">
                 <h5>Margin</h5>
                 <p style="color: ${winner === 'Republican' ? '#dc2626' : '#2563eb'}; font-weight: bold; font-size: 18px;">
-                  ${winner} +${marginPct.toFixed(2)}%
+                  ${marginPct.toFixed(2)}%
                 </p>
               </div>
               <div style="margin-bottom: 16px;">
@@ -13081,7 +13075,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         return `<div class="quick-tooltip">
           <strong>${countyName} County</strong><br>
-          ${recent.year}: ${winner}+${marginAbs.toFixed(2)}%<br>
+          ${recent.year}: ${marginAbs.toFixed(2)}%<br>
           <em>Click for full trends</em>
         </div>`;
       }
@@ -13158,13 +13152,12 @@ document.addEventListener('DOMContentLoaded', function() {
           const demPct = (recent.us_house_dem / recent.us_house_total) * 100;
           const repPct = (recent.us_house_rep / recent.us_house_total) * 100;
           const margin = demPct - repPct;
-          const winner = margin > 0 ? 'D' : 'R';
           const marginAbs = Math.abs(margin);
           
           return `<div class="quick-tooltip">
             <strong>${displayName}</strong><br>
             ${desc ? `<span style="color:#64748b;font-weight:700;">${desc}</span><br>` : ''}
-            ${recent.year}: ${winner}+${marginAbs.toFixed(2)}%<br>
+            ${recent.year}: ${marginAbs.toFixed(2)}%<br>
             <em>Click for full trends</em>
           </div>`;
         }
