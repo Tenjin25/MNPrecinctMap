@@ -1,72 +1,396 @@
 # North Star Vote Atlas
 
-Minnesota election atlas built for fast reporting, district trend checks, and late-night map nerding.
+Minnesota election atlas for district-level analysis, classroom use, and public-facing election explainers.
 
-If you are a data journalist or political junkie, this repo is meant to answer practical questions quickly:
-- Where did a district actually move since the last cycle?
-- Did this seat flip, or just tighten?
-- Is the margin pattern at county level the same story you see in state house or senate boundaries?
-
-This is a static GitHub Pages app (`index.html` + `Data/`) with no frontend build step.
+This repository contains:
+- A static web app (`index.html`) designed for GitHub Pages.
+- Source election files and district geometry under `Data/`.
+- Python scripts in `Scripts/` that generate map-ready contest slices and manifests.
 
 ## Who This Is For
 
-- Data reporters writing local and statewide election stories.
-- Campaign and policy watchers tracking geographic shifts.
-- Civic nerds who want reproducible precinct-to-district aggregation logic.
+### Students
 
-## What You Can Do Fast
+Use this as a reproducible election data lab:
+- Learn how raw precinct returns become district-level summaries.
+- Compare descriptive mapping (`winners`) vs analytical mapping (`shift`, `flips`).
+- Validate claims by tracing from rendered map color back to source rows.
 
-- Switch across county, congressional, state house, and state senate maps.
-- Toggle between `margins`, `winners`, `shift`, and `flips`.
-- Drill into a feature to inspect vote totals, winner, and change context.
-- Compare patterns across years from the same interface.
+### General Public
 
-## Live Site (GitHub Pages)
+Use this to answer local questions quickly:
+- Who won where?
+- Was that win narrow or decisive?
+- Did my district shift compared with previous cycles?
 
-This app is hosted from your Pages site. The app already handles subpath hosting (for example `https://<user>.github.io/<repo>/`) through the `withBase()` path resolver in [`index.html`](./index.html).
+### Political Junkies and Data Journalists
 
-If you move this to a different repo name or custom domain, keep the relative `./Data/...` layout unchanged.
+Use this for fast comparative analysis:
+- Identify coalition movement by geography.
+- Separate true flips from simple margin compression.
+- Compare county patterns against state house/state senate boundaries.
+- Build defensible election narratives with transparent data lineage.
 
-## Election Coverage Strengths
+## What The App Covers
 
-- Four map views:
-  - Counties
-  - Congressional districts
-  - State house districts
-  - State senate districts
-- Contest selector with year support.
-- Visualization modes:
-  - Margins
-  - Winners
-  - Shift
-  - Flips
-- Hover + click detail panels with vote breakdowns and trend context.
-- Click-to-zoom on county, district, and precinct layers.
+### Geography Layers
+
+- Counties
+- Congressional districts
+- State house districts
+- State senate districts
+
+### Visualization Modes
+
+- `margins`: color intensity by absolute margin.
+- `winners`: winner-only party coloration.
+- `shift`: movement versus prior available cycle.
+- `flips`: highlights places where party winner changed.
+
+### Interaction
+
+- Contest/year dropdown loads from generated manifests.
+- Click-to-zoom for all map layers.
+- Feature details panel with vote totals, winner, and margin.
 - Colorblind mode toggle.
-- Crosswalk-based district carryover support for reallocated historical contests.
 
-## Reporting Angles You Can Support
+## Scope and Coverage
 
-- Districts that changed party vs districts that only changed intensity.
-- Urban/rural or metro/non-metro movement between cycles.
-- House and senate split-ticket geography inside the same senate footprint.
-- Outlier districts where presidential and legislative coalitions diverge.
+Coverage is data-driven by generated manifests:
+- `Data/contests/manifest.json`
+- `Data/district_contests/manifest.json`
+
+In practice, current files support:
+- Statewide/county/precinct contest slices primarily from 2000-2024 (varies by office/year).
+- District contest slices for congressional, state house, and state senate with strongest recent-cycle coverage.
+
+For authoritative coverage, check manifest entries rather than assumptions.
+
+## Core Questions This Atlas Can Answer
+
+- Did a district flip or just move closer?
+- Where are durable strongholds vs persuasion zones?
+- How does district behavior differ from county behavior?
+- Do congressional, house, and senate views tell the same story?
+- Which places break statewide trend lines?
 
 ## Repository Layout
 
-- [`index.html`](./index.html): App UI, map logic, data loading, and interaction behavior.
-- [`Data/`](./Data): GeoJSON boundaries, contests, district contest slices, crosswalks, and source election files.
-- [`Data/contests/`](./Data/contests): County/precinct contest slices + manifest.
-- [`Data/district_contests/`](./Data/district_contests): District contest slices + manifest.
-- [`Data/crosswalks/`](./Data/crosswalks): Precinct-to-district carryover crosswalk CSVs.
-- [`Scripts/`](./Scripts): Data build and transformation scripts.
+- `index.html`: app shell, map logic, style, contest loading, UI state.
+- `Data/`: election inputs, boundaries, crosswalks, generated JSON outputs.
+- `Data/contests/`: statewide/county/precinct contest slices + manifest.
+- `Data/district_contests/`: district contest slices + manifest.
+- `Data/crosswalks/`: precinct-to-district allocation tables.
+- `Scripts/`: data conversion and build pipeline scripts.
 
-## Local Development
+## Data Pipeline (High Level)
 
-No frontend build step is required.
+1. Normalize or convert source election files into consistent precinct/county CSV format.
+2. Build precinct/county contest slices (`Data/contests/*.json`).
+3. Build precinct-to-district crosswalks (`Data/crosswalks/*.csv`).
+4. Build district contest slices (`Data/district_contests/*.json`).
+5. Publish static site + generated data to GitHub Pages.
 
-1. Start a local static server from repo root:
+## Methodology
+
+### Party Bucketing
+
+Major party mapping used by builders:
+- Democratic bucket: `DFL`, `DEM`, `D`
+- Republican bucket: `R`, `REP`
+- Other bucket: all remaining parties
+
+Rows with party markers like `DIST`, `TOTAL`, `TOT`, `EST` are skipped in district aggregation workflows.
+
+### Winner and Margin Calculation
+
+For each unit (precinct/county/district):
+- `margin = rep_votes - dem_votes`
+- `margin_pct = (margin / total_votes) * 100`
+- winner:
+  - `REPUBLICAN` when margin > 0
+  - `DEMOCRAT` when margin < 0
+  - `TIE` when margin = 0
+
+### Color Scale Buckets
+
+Color thresholds are applied to absolute margin percentage:
+- `>= 40`
+- `>= 30`
+- `>= 20`
+- `>= 10`
+- `>= 5.5`
+- `>= 1.0`
+- `>= 0.5`
+- else neutral
+
+Republican shades use reds and Democratic shades use blues.
+
+### District Aggregation and Fallback Logic
+
+District builder: `Scripts/build_mn_district_contests_from_precinct_and_baf.py`
+
+Primary allocation path:
+- Resolve `(county, precinct)` to canonical precinct key.
+- Use crosswalk weights from `Data/crosswalks/*.csv`.
+
+Plan selection logic:
+- Congressional uses `precinct_to_cd118.csv`.
+- State house/senate use:
+  - 2022 plan for years `<= 2022`
+  - 2024 plan for years `>= 2024`
+
+Fallback behavior:
+- For district-native races (`us_house`, `state_house`, `state_senate`), direct district code fallback is attempted first.
+- If precinct mapping fails for non-district-native contests, county-level weighted fallback can be used.
+- Unmatched votes are tracked in output metadata.
+
+### Candidate Name Selection
+
+Dem/Rep candidate labels in generated outputs are chosen as top-vote names within each aggregated unit (excluding write-ins).
+
+## Data Dictionary
+
+### Canonical Input Schema (`*__mn__general__precinct.csv`)
+
+Common columns used by builders:
+- `county`
+- `precinct`
+- `office`
+- `district`
+- `candidate`
+- `party`
+- `votes`
+
+Example file:
+- `Data/20201103__mn__general__precinct.csv`
+
+### 2024 Official Field Reference
+
+Reference dictionary:
+- `Data/2024-general-federal-state-results-by-precinct-official - Fields.csv`
+
+Important geography and contest fields include:
+- `VTDID`, `PCTNAME`, `COUNTYNAME`
+- `CONGDIST`, `MNSENDIST`, `MNLEGDIST`
+- `USPRSR`, `USPRSDFL`, `USPRSTOTAL`
+- `MNSENR`, `MNSENDFL`, `MNSENTOTAL`
+- `MNLEGR`, `MNLEGDFL`, `MNLEGTOTAL`
+
+### Crosswalk Schema (`Data/crosswalks/*.csv`)
+
+Columns:
+- `precinct_key`
+- `district_num`
+- `district_code`
+- `area_weight`
+- `block_count`
+- `total_blocks`
+- `countyfp`
+- `vtdst20`
+
+Interpretation:
+- `area_weight` is the share allocated from a precinct key to a district.
+- Weights should sum to approximately 1.0 by precinct key.
+
+### Contest Slice Output Schema (`Data/contests/*.json`)
+
+Top-level fields:
+- `contest_type`
+- `year`
+- `state`
+- `rows`
+- `meta`
+
+Per-row fields:
+- `county` (precinct-key label for precinct-derived slices)
+- `dem_votes`
+- `rep_votes`
+- `other_votes`
+- `total_votes`
+- `dem_candidate`
+- `rep_candidate`
+- `margin`
+- `margin_pct`
+- `winner`
+- `color`
+
+### District Slice Output Schema (`Data/district_contests/*.json`)
+
+Top-level fields:
+- `scope`
+- `contest_type`
+- `year`
+- `state`
+- `general.results`
+- `meta`
+
+Per-district fields:
+- `district`
+- `dem_votes`
+- `rep_votes`
+- `other_votes`
+- `total_votes`
+- `dem_candidate`
+- `rep_candidate`
+- `margin`
+- `margin_pct`
+- `winner`
+- `color`
+
+District metadata includes QA-critical fields:
+- `total_input_votes`
+- `crosswalk_matched_votes`
+- `fallback_matched_votes`
+- `county_fallback_votes`
+- `unmatched_votes`
+- `match_coverage_pct`
+- `crosswalk_match_pct`
+
+### Manifest Schema
+
+`Data/contests/manifest.json` entries include:
+- `contest_type`
+- `year`
+- `file`
+- `rows`
+- `dem_total`
+- `rep_total`
+- `other_total`
+- `major_party_contested`
+- `match_coverage_pct`
+
+`Data/district_contests/manifest.json` entries include:
+- `scope`
+- `contest_type`
+- `year`
+- `file`
+- `rows`
+- `districts`
+- `dem_total`
+- `rep_total`
+- `other_total`
+- `major_party_contested`
+- `match_coverage_pct`
+- `crosswalk_match_pct`
+- `county_fallback_pct`
+
+## Validation and QA
+
+Run these checks after rebuilding:
+
+1. Manifest files exist:
+
+```powershell
+Test-Path Data/contests/manifest.json; Test-Path Data/district_contests/manifest.json
+```
+
+2. Expected 2024 presidential district row counts:
+
+```powershell
+rg '"scope":"state_house","contest_type":"president","year":2024,"file":"state_house_president_2024.json","rows":134' Data/district_contests/manifest.json
+rg '"scope":"state_senate","contest_type":"president","year":2024,"file":"state_senate_president_2024.json","rows":67' Data/district_contests/manifest.json
+```
+
+3. Inspect specific districts directly in output JSON before assuming UI bug:
+
+```powershell
+Get-Content Data/district_contests/state_house_president_2024.json -TotalCount 80
+```
+
+4. If colors/winners look stale, rebuild in this order:
+- `build_mn_contests_from_precinct_csv.py`
+- `build_mn_district_carry_crosswalks.py`
+- `build_mn_district_contests_from_precinct_and_baf.py`
+
+Then hard refresh (`Ctrl+F5`).
+
+## Known Limitations
+
+- Coverage varies by year and office; manifests are the source of truth.
+- Some cycles depend more heavily on fallback allocation when precinct matching is incomplete.
+- District-native race availability is uneven in some years.
+- No repository-wide license file is currently included.
+
+## Transparency Notes For Public Presentation
+
+When showing this to a class, newsroom, or public audience:
+- Report both winner and margin, not winner only.
+- Mention when a map value is crosswalk-allocated rather than direct district reporting.
+- Cite the exact source file and build date from JSON `meta`.
+- Keep screenshots tied to a specific contest, year, and mode.
+
+## Suggested Storytelling Workflows
+
+### Classroom Exercise Workflow
+
+1. Open one district in `winners`.
+2. Switch same district to `margins`.
+3. Switch to `shift` and explain movement.
+4. Validate with output JSON and identify top candidate labels.
+
+### Public Explainer Workflow
+
+1. Start with county map for orientation.
+2. Move to state house/senate to show local detail.
+3. Use `flips` and `shift` for intuitive change framing.
+4. Close with caveats from `Known Limitations`.
+
+### Political Analysis Workflow
+
+1. Use `margins` to classify safe vs competitive territory.
+2. Use `shift` to identify movement clusters.
+3. Cross-check suspicious districts in raw JSON.
+4. Track whether movement persists across presidential and midterm cycles.
+
+## Build Commands
+
+Run commands from repository root.
+
+### 1) Prepare precinct layers (optional but recommended)
+
+```powershell
+python Scripts/prepare_mn_precinct_layers.py
+```
+
+### 2) Build county contest slices
+
+```powershell
+python Scripts/build_mn_contests_from_county_csv.py --year-min 2000 --year-max 2024
+```
+
+### 3) Build precinct contest slices
+
+```powershell
+python Scripts/build_mn_contests_from_precinct_csv.py --year-min 2000 --year-max 2024
+```
+
+### 4) Build crosswalks
+
+```powershell
+python Scripts/build_mn_district_carry_crosswalks.py
+```
+
+### 5) Build district contest slices
+
+```powershell
+python Scripts/build_mn_district_contests_from_precinct_and_baf.py --year-min 2012 --year-max 2024
+```
+
+## Recent Project Updates
+
+- `1003e6f`: fixed legislative candidate labels and Minnesota-themed UI refresh.
+- `7bd9aa7`: fixed state house district color-match padding.
+- `3e5b4e6`: improved legislative layer UX and click-to-zoom behavior.
+- `a9bdaa9`: fixed legislative cross-chamber aggregation and district fallback labels.
+- `58d5dc6`: rebuilt 2024 presidential district slices from aligned precinct data.
+- `1bacd68`: rebuilt 2012/2016 presidential district slices from official workbooks.
+
+## How To Run (Local and Pages)
+
+### Local
+
+1. Start a static server from repo root:
 
 ```powershell
 python -m http.server 8000
@@ -78,136 +402,12 @@ python -m http.server 8000
 http://localhost:8000/
 ```
 
-3. Hard refresh after data changes (`Ctrl+F5`), especially when JSON files were cached.
+3. After data changes, hard refresh:
+- `Ctrl+F5`
 
-## Data Integrity Notes (For Publishing)
+### GitHub Pages
 
-- District-level historical carryover depends on crosswalk allocation from precinct geography.
-- Presidential district slices have source-specific rebuilds by cycle (see notes below).
-- If a district color looks wrong, regenerate contests and manifests first, then hard refresh.
-- Treat every rebuild as a versioned dataset update: commit data + manifest together.
-
-## GitHub Pages Deployment
-
-This repo is static, so deployment is standard Pages publishing:
-
-1. Push changes to the branch configured for Pages (currently `main`).
-2. Wait for Pages to rebuild.
-3. Hard refresh browser cache.
-
-Notes:
-- Keep `index.html` at repo root.
-- Keep the `Data/` directory at repo root.
-- Do not convert relative paths to absolute root paths unless you also change `withBase()` logic.
-
-## Data Build Workflows
-
-All script paths below are under `Scripts/` (capital `S`).
-
-### 1. Build County Contest Slices
-
-Input: `Data/*__mn__general__county.csv`  
-Output: `Data/contests/*.json` + `Data/contests/manifest.json`
-
-```powershell
-python Scripts/build_mn_contests_from_county_csv.py --year-min 2000 --year-max 2024
-```
-
-### 2. Build Precinct Contest Slices
-
-Input: `Data/*__mn__general__precinct.csv` and `Data/precincts.geojson`  
-Output: `Data/contests/*.json` + `Data/contests/manifest.json`
-
-```powershell
-python Scripts/build_mn_contests_from_precinct_csv.py --year-min 2000 --year-max 2024
-```
-
-### 3. Build District Carryover Crosswalks
-
-Input:
-- `Data/BlockAssign_ST27_MN.zip`
-- `Data/precincts.geojson`
-- `Data/nhgis_blk2020_blk2010_27.zip` (optional validation check)
-
-Output:
-- `Data/crosswalks/precinct_to_cd118.csv`
-- `Data/crosswalks/precinct_to_2022_state_house.csv`
-- `Data/crosswalks/precinct_to_2024_state_house.csv`
-- `Data/crosswalks/precinct_to_2022_state_senate.csv`
-- `Data/crosswalks/precinct_to_2024_state_senate.csv`
-
-```powershell
-python Scripts/build_mn_district_carry_crosswalks.py
-```
-
-### 4. Build District Contest Slices
-
-Input:
-- `Data/*__mn__general__precinct.csv`
-- `Data/crosswalks/*.csv`
-- `Data/precincts.geojson`
-
-Output:
-- `Data/district_contests/*.json`
-- `Data/district_contests/manifest.json`
-
-```powershell
-python Scripts/build_mn_district_contests_from_precinct_and_baf.py --year-min 2012 --year-max 2024
-```
-
-## Presidential District Data Notes
-
-Current presidential district sourcing:
-
-- 2024 district presidential slices were rebuilt from:
-  - `Data/2024-general-federal-state-results-by-precinct-official - Precinct-Results - aligned.csv`
-- 2012 and 2016 district presidential slices were rebuilt from:
-  - `Data/2012_general_precinct_official.xlsx`
-  - `Data/2016_general_precinct_official.xlsx`
-- 2020 district presidential slices currently remain based on existing precinct + crosswalk workflow because no equivalent `2020_general_precinct_official.xlsx` file is present in this repo.
-
-## Methodology At A Glance
-
-- Base unit is precinct-level election returns.
-- District aggregation is produced by precinct-to-district crosswalks.
-- Historical district views use carryover allocation when boundaries and cycles do not align cleanly.
-- Frontend colors are driven by computed winner + margin from prebuilt JSON slices.
-
-## Interaction Summary
-
-- View buttons switch geometry layers (counties, congressional, house, senate).
-- Contest dropdown controls vote data source by office/year.
-- Viz mode controls coloring logic:
-  - `margins`: intensity by margin
-  - `winners`: binary party winner colors
-  - `shift`: movement versus previous available cycle
-  - `flips`: only flipped districts highlighted
-- Click on map features to pin context and zoom to feature extent.
-
-## Troubleshooting
-
-- Map loads but no data colors:
-  - Confirm `Data/contests/manifest.json` and `Data/district_contests/manifest.json` exist and include target year.
-- Wrong values after update:
-  - Hard refresh (`Ctrl+F5`) and verify JSON files changed on Pages.
-- 404s on Pages:
-  - Ensure files are committed in correct case-sensitive paths (`Scripts/` vs `scripts/`, `Data/`).
-- Crosswalk mismatches:
-  - Rebuild crosswalks and district contests in sequence (steps 3 then 4 above).
-
-## Suggested Story Workflow
-
-1. Pick contest + year and run `margins` to identify strongholds and close terrain.
-2. Switch to `shift` to find where coalition movement is largest.
-3. Switch to `flips` to isolate narrative districts.
-4. Validate suspicious districts against source precinct CSV rows before publishing.
-
-## Maintenance Checklist
-
-When refreshing data:
-
-1. Rebuild the relevant JSON slices.
-2. Verify manifests were regenerated or updated.
-3. Spot-check known districts/counties in app.
-4. Commit both data files and manifest changes together.
-5. Push and hard-refresh the Pages site.
+1. Keep `index.html` and `Data/` at repo root.
+2. Push commits to the branch configured for Pages (currently `main`).
+3. Wait for deploy completion.
+4. Open the site and hard refresh once.
