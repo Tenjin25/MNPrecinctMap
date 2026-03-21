@@ -9524,11 +9524,13 @@ document.addEventListener('DOMContentLoaded', function() {
       const upperRaw = raw.toUpperCase();
       const variants = new Set([upperRaw]);
       const num = Number(upperRaw);
+      const padWidths = [2, 3, 4];
 
       const numericOnly = upperRaw.match(/^0*([0-9]+)$/);
       if (numericOnly) {
-        variants.add(String(Number(numericOnly[1])));
-        variants.add(String(Number(numericOnly[1])).padStart(3, '0'));
+        const base = String(Number(numericOnly[1]));
+        variants.add(base);
+        padWidths.forEach(w => variants.add(base.padStart(w, '0')));
       }
 
       const withSuffix = upperRaw.match(/^0*([0-9]+)([A-Z])$/);
@@ -9536,7 +9538,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const base = String(Number(withSuffix[1]));
         const suffix = withSuffix[2];
         variants.add(`${base}${suffix}`);
-        variants.add(`${base.padStart(3, '0')}${suffix}`);
+        padWidths.forEach(w => variants.add(`${base.padStart(w, '0')}${suffix}`));
       }
 
       const clauses = [];
