@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"governor","year":2022,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":133241,"rep_votes":155563,"other_votes":8852,"total_votes":297656,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":22322,"margin_pct":7.499261,"winner":"REPUBLICAN","color":"#fb6a4a"},"2":{"district":"2","dem_votes":170819,"rep_votes":144932,"other_votes":8939,"total_votes":324690,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":-25887,"margin_pct":-7.972836,"winner":"DEMOCRAT","color":"#9ecae1"},"3":{"district":"3","dem_votes":198561,"rep_votes":127350,"other_votes":8663,"total_votes":334574,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":-71211,"margin_pct":-21.284081,"winner":"DEMOCRAT","color":"#3182bd"},"4":{"district":"4","dem_votes":201756,"rep_votes":87878,"other_votes":9424,"total_votes":299058,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":-113878,"margin_pct":-38.078901,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":237747,"rep_votes":47924,"other_votes":9569,"total_votes":295240,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":-189823,"margin_pct":-64.294472,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":129117,"rep_votes":182326,"other_votes":10032,"total_votes":321475,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":53209,"margin_pct":16.55152,"winner":"REPUBLICAN","color":"#ef3b2c"},"7":{"district":"7","dem_votes":96200,"rep_votes":201310,"other_votes":10081,"total_votes":307591,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":105110,"margin_pct":34.172001,"winner":"REPUBLICAN","color":"#a50f15"},"8":{"district":"8","dem_votes":144907,"rep_votes":172659,"other_votes":12811,"total_votes":330377,"dem_candidate":"Tim Walz and Peggy Flanagan","rep_candidate":"Scott Jensen and Matt Birk","margin":27752,"margin_pct":8.4001,"winner":"REPUBLICAN","color":"#fb6a4a"}}},"meta":{"source_file":"20221108__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:25Z","total_input_votes":2510661,"crosswalk_matched_votes":2189590,"fallback_matched_votes":321071,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":87.2117}}
+{
+  "scope": "congressional",
+  "contest_type": "governor",
+  "year": 2022,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 133241,
+        "rep_votes": 155563,
+        "other_votes": 8852,
+        "total_votes": 297656,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": 22322,
+        "margin_pct": 7.499261,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 170819,
+        "rep_votes": 144932,
+        "other_votes": 8939,
+        "total_votes": 324690,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": -25887,
+        "margin_pct": -7.972836,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 198561,
+        "rep_votes": 127350,
+        "other_votes": 8663,
+        "total_votes": 334574,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": -71211,
+        "margin_pct": -21.284081,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 201756,
+        "rep_votes": 87878,
+        "other_votes": 9424,
+        "total_votes": 299058,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": -113878,
+        "margin_pct": -38.078901,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 237747,
+        "rep_votes": 47924,
+        "other_votes": 9569,
+        "total_votes": 295240,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": -189823,
+        "margin_pct": -64.294472,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 129117,
+        "rep_votes": 182326,
+        "other_votes": 10032,
+        "total_votes": 321475,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": 53209,
+        "margin_pct": 16.55152,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 96200,
+        "rep_votes": 201310,
+        "other_votes": 10081,
+        "total_votes": 307591,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": 105110,
+        "margin_pct": 34.172001,
+        "winner": "REPUBLICAN",
+        "color": "#a50f15"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 144907,
+        "rep_votes": 172659,
+        "other_votes": 12811,
+        "total_votes": 330377,
+        "dem_candidate": "Tim Walz and Peggy Flanagan",
+        "rep_candidate": "Scott Jensen and Matt Birk",
+        "margin": 27752,
+        "margin_pct": 8.4001,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20221108__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:43:04Z",
+    "total_input_votes": 2510661,
+    "crosswalk_matched_votes": 2189590,
+    "fallback_matched_votes": 321071,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 87.2117
+  }
+}

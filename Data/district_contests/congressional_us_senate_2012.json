@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"us_senate","year":2012,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":218211,"rep_votes":111970,"other_votes":18751,"total_votes":348932,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-106241,"margin_pct":-30.44748,"winner":"DEMOCRAT","color":"#08519c"},"2":{"district":"2","dem_votes":216244,"rep_votes":121270,"other_votes":13797,"total_votes":351311,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-94974,"margin_pct":-27.034166,"winner":"DEMOCRAT","color":"#3182bd"},"3":{"district":"3","dem_votes":241219,"rep_votes":126815,"other_votes":12176,"total_votes":380210,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-114404,"margin_pct":-30.089687,"winner":"DEMOCRAT","color":"#08519c"},"4":{"district":"4","dem_votes":251882,"rep_votes":86496,"other_votes":14803,"total_votes":353181,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-165386,"margin_pct":-46.827547,"winner":"DEMOCRAT","color":"#08306b"},"5":{"district":"5","dem_votes":276475,"rep_votes":59085,"other_votes":15295,"total_votes":350855,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-217390,"margin_pct":-61.960069,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":197654,"rep_votes":128802,"other_votes":14603,"total_votes":341059,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-68852,"margin_pct":-20.187709,"winner":"DEMOCRAT","color":"#3182bd"},"7":{"district":"7","dem_votes":211828,"rep_votes":121619,"other_votes":16300,"total_votes":349747,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-90209,"margin_pct":-25.792644,"winner":"DEMOCRAT","color":"#3182bd"},"8":{"district":"8","dem_votes":241081,"rep_votes":111917,"other_votes":14914,"total_votes":367912,"dem_candidate":"AMY KLOBUCHAR","rep_candidate":"KURT BILLS","margin":-129164,"margin_pct":-35.107308,"winner":"DEMOCRAT","color":"#08519c"}}},"meta":{"source_file":"20121106__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:30:41Z","total_input_votes":2843207,"crosswalk_matched_votes":2704202,"fallback_matched_votes":139005,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":95.111}}
+{
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "year": 2012,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 218211,
+        "rep_votes": 111970,
+        "other_votes": 18751,
+        "total_votes": 348932,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -106241,
+        "margin_pct": -30.44748,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 216244,
+        "rep_votes": 121270,
+        "other_votes": 13797,
+        "total_votes": 351311,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -94974,
+        "margin_pct": -27.034166,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 241219,
+        "rep_votes": 126815,
+        "other_votes": 12176,
+        "total_votes": 380210,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -114404,
+        "margin_pct": -30.089687,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 251882,
+        "rep_votes": 86496,
+        "other_votes": 14803,
+        "total_votes": 353181,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -165386,
+        "margin_pct": -46.827547,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 276475,
+        "rep_votes": 59085,
+        "other_votes": 15295,
+        "total_votes": 350855,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -217390,
+        "margin_pct": -61.960069,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 197654,
+        "rep_votes": 128802,
+        "other_votes": 14603,
+        "total_votes": 341059,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -68852,
+        "margin_pct": -20.187709,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 211828,
+        "rep_votes": 121619,
+        "other_votes": 16300,
+        "total_votes": 349747,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -90209,
+        "margin_pct": -25.792644,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 241081,
+        "rep_votes": 111917,
+        "other_votes": 14914,
+        "total_votes": 367912,
+        "dem_candidate": "AMY KLOBUCHAR",
+        "rep_candidate": "KURT BILLS",
+        "margin": -129164,
+        "margin_pct": -35.107308,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20121106__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:08Z",
+    "total_input_votes": 2843207,
+    "crosswalk_matched_votes": 2704202,
+    "fallback_matched_votes": 139005,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 95.111
+  }
+}

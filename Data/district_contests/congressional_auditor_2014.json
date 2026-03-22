@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"auditor","year":2014,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":104429,"rep_votes":103254,"other_votes":22947,"total_votes":230630,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":-1175,"margin_pct":-0.509474,"winner":"DEMOCRAT","color":"#e1f5fe"},"2":{"district":"2","dem_votes":112031,"rep_votes":98989,"other_votes":18150,"total_votes":229170,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":-13042,"margin_pct":-5.690972,"winner":"DEMOCRAT","color":"#9ecae1"},"3":{"district":"3","dem_votes":125060,"rep_votes":111052,"other_votes":17523,"total_votes":253635,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":-14008,"margin_pct":-5.522897,"winner":"DEMOCRAT","color":"#9ecae1"},"4":{"district":"4","dem_votes":141532,"rep_votes":73067,"other_votes":19033,"total_votes":233632,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":-68465,"margin_pct":-29.304633,"winner":"DEMOCRAT","color":"#3182bd"},"5":{"district":"5","dem_votes":156924,"rep_votes":45420,"other_votes":20754,"total_votes":223098,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":-111504,"margin_pct":-49.979829,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":94386,"rep_votes":111203,"other_votes":18871,"total_votes":224460,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":16817,"margin_pct":7.492204,"winner":"REPUBLICAN","color":"#fb6a4a"},"7":{"district":"7","dem_votes":113220,"rep_votes":117936,"other_votes":22218,"total_votes":253374,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":4716,"margin_pct":1.86128,"winner":"REPUBLICAN","color":"#fcae91"},"8":{"district":"8","dem_votes":140520,"rep_votes":105893,"other_votes":23677,"total_votes":270090,"dem_candidate":"REBECCA OTTO","rep_candidate":"RANDY GILBERT","margin":-34627,"margin_pct":-12.820541,"winner":"DEMOCRAT","color":"#6baed6"}}},"meta":{"source_file":"20141104__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:30:53Z","total_input_votes":1918090,"crosswalk_matched_votes":1864370,"fallback_matched_votes":53720,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":97.1993}}
+{
+  "scope": "congressional",
+  "contest_type": "auditor",
+  "year": 2014,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 104429,
+        "rep_votes": 103254,
+        "other_votes": 22947,
+        "total_votes": 230630,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": -1175,
+        "margin_pct": -0.509474,
+        "winner": "DEMOCRAT",
+        "color": "#e1f5fe"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 112031,
+        "rep_votes": 98989,
+        "other_votes": 18150,
+        "total_votes": 229170,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": -13042,
+        "margin_pct": -5.690972,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 125060,
+        "rep_votes": 111052,
+        "other_votes": 17523,
+        "total_votes": 253635,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": -14008,
+        "margin_pct": -5.522897,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 141532,
+        "rep_votes": 73067,
+        "other_votes": 19033,
+        "total_votes": 233632,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": -68465,
+        "margin_pct": -29.304633,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 156924,
+        "rep_votes": 45420,
+        "other_votes": 20754,
+        "total_votes": 223098,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": -111504,
+        "margin_pct": -49.979829,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 94386,
+        "rep_votes": 111203,
+        "other_votes": 18871,
+        "total_votes": 224460,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": 16817,
+        "margin_pct": 7.492204,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 113220,
+        "rep_votes": 117936,
+        "other_votes": 22218,
+        "total_votes": 253374,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": 4716,
+        "margin_pct": 1.86128,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 140520,
+        "rep_votes": 105893,
+        "other_votes": 23677,
+        "total_votes": 270090,
+        "dem_candidate": "REBECCA OTTO",
+        "rep_candidate": "RANDY GILBERT",
+        "margin": -34627,
+        "margin_pct": -12.820541,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20141104__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:25Z",
+    "total_input_votes": 1918090,
+    "crosswalk_matched_votes": 1864370,
+    "fallback_matched_votes": 53720,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 97.1993
+  }
+}

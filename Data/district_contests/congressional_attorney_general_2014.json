@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"attorney_general","year":2014,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":111522,"rep_votes":100175,"other_votes":20479,"total_votes":232176,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":-11347,"margin_pct":-4.887241,"winner":"DEMOCRAT","color":"#c6dbef"},"2":{"district":"2","dem_votes":116154,"rep_votes":97204,"other_votes":17206,"total_votes":230564,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":-18950,"margin_pct":-8.218976,"winner":"DEMOCRAT","color":"#9ecae1"},"3":{"district":"3","dem_votes":131129,"rep_votes":108545,"other_votes":16263,"total_votes":255937,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":-22584,"margin_pct":-8.824047,"winner":"DEMOCRAT","color":"#9ecae1"},"4":{"district":"4","dem_votes":140510,"rep_votes":72142,"other_votes":22311,"total_votes":234963,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":-68368,"margin_pct":-29.097347,"winner":"DEMOCRAT","color":"#3182bd"},"5":{"district":"5","dem_votes":155675,"rep_votes":43924,"other_votes":25853,"total_votes":225452,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":-111751,"margin_pct":-49.567535,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":98018,"rep_votes":109796,"other_votes":17476,"total_votes":225290,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":11778,"margin_pct":5.227928,"winner":"REPUBLICAN","color":"#fcae91"},"7":{"district":"7","dem_votes":115507,"rep_votes":118390,"other_votes":19921,"total_votes":253818,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":2883,"margin_pct":1.135853,"winner":"REPUBLICAN","color":"#fcae91"},"8":{"district":"8","dem_votes":146198,"rep_votes":102366,"other_votes":22213,"total_votes":270777,"dem_candidate":"LORI SWANSON","rep_candidate":"SCOTT NEWMAN","margin":-43832,"margin_pct":-16.18749,"winner":"DEMOCRAT","color":"#6baed6"}}},"meta":{"source_file":"20141104__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:30:53Z","total_input_votes":1928980,"crosswalk_matched_votes":1874937,"fallback_matched_votes":54043,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":97.1984}}
+{
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "year": 2014,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 111522,
+        "rep_votes": 100175,
+        "other_votes": 20479,
+        "total_votes": 232176,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": -11347,
+        "margin_pct": -4.887241,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 116154,
+        "rep_votes": 97204,
+        "other_votes": 17206,
+        "total_votes": 230564,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": -18950,
+        "margin_pct": -8.218976,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 131129,
+        "rep_votes": 108545,
+        "other_votes": 16263,
+        "total_votes": 255937,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": -22584,
+        "margin_pct": -8.824047,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 140510,
+        "rep_votes": 72142,
+        "other_votes": 22311,
+        "total_votes": 234963,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": -68368,
+        "margin_pct": -29.097347,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 155675,
+        "rep_votes": 43924,
+        "other_votes": 25853,
+        "total_votes": 225452,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": -111751,
+        "margin_pct": -49.567535,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 98018,
+        "rep_votes": 109796,
+        "other_votes": 17476,
+        "total_votes": 225290,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": 11778,
+        "margin_pct": 5.227928,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 115507,
+        "rep_votes": 118390,
+        "other_votes": 19921,
+        "total_votes": 253818,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": 2883,
+        "margin_pct": 1.135853,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 146198,
+        "rep_votes": 102366,
+        "other_votes": 22213,
+        "total_votes": 270777,
+        "dem_candidate": "LORI SWANSON",
+        "rep_candidate": "SCOTT NEWMAN",
+        "margin": -43832,
+        "margin_pct": -16.18749,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20141104__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:25Z",
+    "total_input_votes": 1928980,
+    "crosswalk_matched_votes": 1874937,
+    "fallback_matched_votes": 54043,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 97.1984
+  }
+}

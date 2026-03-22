@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"president","year":2020,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":172313,"rep_votes":208083,"other_votes":9377,"total_votes":389773,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":35770,"margin_pct":9.177136,"winner":"REPUBLICAN","color":"#fb6a4a"},"2":{"district":"2","dem_votes":221016,"rep_votes":190823,"other_votes":10238,"total_votes":422077,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":-30193,"margin_pct":-7.153434,"winner":"DEMOCRAT","color":"#9ecae1"},"3":{"district":"3","dem_votes":258344,"rep_votes":167149,"other_votes":10048,"total_votes":435541,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":-91195,"margin_pct":-20.938327,"winner":"DEMOCRAT","color":"#3182bd"},"4":{"district":"4","dem_votes":268995,"rep_votes":119749,"other_votes":9284,"total_votes":398028,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":-149246,"margin_pct":-37.496357,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":319390,"rep_votes":69144,"other_votes":9450,"total_votes":397984,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":-250246,"margin_pct":-62.878407,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":166060,"rep_votes":239111,"other_votes":10220,"total_votes":415391,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":73051,"margin_pct":17.586082,"winner":"REPUBLICAN","color":"#ef3b2c"},"7":{"district":"7","dem_votes":128560,"rep_votes":260031,"other_votes":8077,"total_votes":396668,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":131471,"margin_pct":33.143838,"winner":"REPUBLICAN","color":"#a50f15"},"8":{"district":"8","dem_votes":182399,"rep_votes":229975,"other_votes":9335,"total_votes":421709,"dem_candidate":"Joseph R. Biden and Kamala Harris","rep_candidate":"Donald J. Trump and Michael R. Pence","margin":47576,"margin_pct":11.281713,"winner":"REPUBLICAN","color":"#ef3b2c"}}},"meta":{"source_file":"20201103__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:15Z","total_input_votes":3277171,"crosswalk_matched_votes":3277168,"fallback_matched_votes":3,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":99.9999}}
+{
+  "scope": "congressional",
+  "contest_type": "president",
+  "year": 2020,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 172313,
+        "rep_votes": 208083,
+        "other_votes": 9377,
+        "total_votes": 389773,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": 35770,
+        "margin_pct": 9.177136,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 221016,
+        "rep_votes": 190823,
+        "other_votes": 10238,
+        "total_votes": 422077,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": -30193,
+        "margin_pct": -7.153434,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 258344,
+        "rep_votes": 167149,
+        "other_votes": 10048,
+        "total_votes": 435541,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": -91195,
+        "margin_pct": -20.938327,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 268995,
+        "rep_votes": 119749,
+        "other_votes": 9284,
+        "total_votes": 398028,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": -149246,
+        "margin_pct": -37.496357,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 319390,
+        "rep_votes": 69144,
+        "other_votes": 9450,
+        "total_votes": 397984,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": -250246,
+        "margin_pct": -62.878407,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 166060,
+        "rep_votes": 239111,
+        "other_votes": 10220,
+        "total_votes": 415391,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": 73051,
+        "margin_pct": 17.586082,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 128560,
+        "rep_votes": 260031,
+        "other_votes": 8077,
+        "total_votes": 396668,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": 131471,
+        "margin_pct": 33.143838,
+        "winner": "REPUBLICAN",
+        "color": "#a50f15"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 182399,
+        "rep_votes": 229975,
+        "other_votes": 9335,
+        "total_votes": 421709,
+        "dem_candidate": "Joseph R. Biden and Kamala Harris",
+        "rep_candidate": "Donald J. Trump and Michael R. Pence",
+        "margin": 47576,
+        "margin_pct": 11.281713,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20201103__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:53Z",
+    "total_input_votes": 3277171,
+    "crosswalk_matched_votes": 3277168,
+    "fallback_matched_votes": 3,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 99.9999
+  }
+}

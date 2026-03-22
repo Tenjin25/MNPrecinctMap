@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"us_senate","year":2020,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":161570,"rep_votes":188923,"other_votes":31080,"total_votes":381573,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":27353,"margin_pct":7.168484,"winner":"REPUBLICAN","color":"#fb6a4a"},"2":{"district":"2","dem_votes":199202,"rep_votes":184401,"other_votes":31719,"total_votes":415322,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":-14801,"margin_pct":-3.563741,"winner":"DEMOCRAT","color":"#c6dbef"},"3":{"district":"3","dem_votes":230395,"rep_votes":167442,"other_votes":30154,"total_votes":427991,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":-62953,"margin_pct":-14.708954,"winner":"DEMOCRAT","color":"#6baed6"},"4":{"district":"4","dem_votes":240540,"rep_votes":115742,"other_votes":31868,"total_votes":388150,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":-124798,"margin_pct":-32.152003,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":287048,"rep_votes":70384,"other_votes":32130,"total_votes":389562,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":-216664,"margin_pct":-55.617334,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":150524,"rep_votes":223666,"other_votes":33325,"total_votes":407515,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":73142,"margin_pct":17.948296,"winner":"REPUBLICAN","color":"#ef3b2c"},"7":{"district":"7","dem_votes":126768,"rep_votes":236715,"other_votes":26737,"total_votes":390220,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":109947,"margin_pct":28.175645,"winner":"REPUBLICAN","color":"#cb181d"},"8":{"district":"8","dem_votes":170475,"rep_votes":210872,"other_votes":32576,"total_votes":413923,"dem_candidate":"Tina Smith","rep_candidate":"Jason Lewis","margin":40397,"margin_pct":9.759545,"winner":"REPUBLICAN","color":"#fb6a4a"}}},"meta":{"source_file":"20201103__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:15Z","total_input_votes":3214256,"crosswalk_matched_votes":3214254,"fallback_matched_votes":2,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":99.9999}}
+{
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "year": 2020,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 161570,
+        "rep_votes": 188923,
+        "other_votes": 31080,
+        "total_votes": 381573,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": 27353,
+        "margin_pct": 7.168484,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 199202,
+        "rep_votes": 184401,
+        "other_votes": 31719,
+        "total_votes": 415322,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": -14801,
+        "margin_pct": -3.563741,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 230395,
+        "rep_votes": 167442,
+        "other_votes": 30154,
+        "total_votes": 427991,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": -62953,
+        "margin_pct": -14.708954,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 240540,
+        "rep_votes": 115742,
+        "other_votes": 31868,
+        "total_votes": 388150,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": -124798,
+        "margin_pct": -32.152003,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 287048,
+        "rep_votes": 70384,
+        "other_votes": 32130,
+        "total_votes": 389562,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": -216664,
+        "margin_pct": -55.617334,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 150524,
+        "rep_votes": 223666,
+        "other_votes": 33325,
+        "total_votes": 407515,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": 73142,
+        "margin_pct": 17.948296,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 126768,
+        "rep_votes": 236715,
+        "other_votes": 26737,
+        "total_votes": 390220,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": 109947,
+        "margin_pct": 28.175645,
+        "winner": "REPUBLICAN",
+        "color": "#cb181d"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 170475,
+        "rep_votes": 210872,
+        "other_votes": 32576,
+        "total_votes": 413923,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Jason Lewis",
+        "margin": 40397,
+        "margin_pct": 9.759545,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20201103__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:53Z",
+    "total_input_votes": 3214256,
+    "crosswalk_matched_votes": 3214254,
+    "fallback_matched_votes": 2,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 99.9999
+  }
+}

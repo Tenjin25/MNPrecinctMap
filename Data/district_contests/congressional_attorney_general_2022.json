@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"attorney_general","year":2022,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":128048,"rep_votes":166786,"other_votes":180,"total_votes":295014,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":38738,"margin_pct":13.130902,"winner":"REPUBLICAN","color":"#ef3b2c"},"2":{"district":"2","dem_votes":160114,"rep_votes":161728,"other_votes":311,"total_votes":322153,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":1614,"margin_pct":0.501004,"winner":"REPUBLICAN","color":"#fee8c8"},"3":{"district":"3","dem_votes":184974,"rep_votes":146411,"other_votes":325,"total_votes":331710,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":-38563,"margin_pct":-11.625516,"winner":"DEMOCRAT","color":"#6baed6"},"4":{"district":"4","dem_votes":193478,"rep_votes":101716,"other_votes":379,"total_votes":295573,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":-91762,"margin_pct":-31.045461,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":233946,"rep_votes":58855,"other_votes":426,"total_votes":293227,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":-175091,"margin_pct":-59.711759,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":120293,"rep_votes":198602,"other_votes":246,"total_votes":319141,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":78309,"margin_pct":24.53743,"winner":"REPUBLICAN","color":"#cb181d"},"7":{"district":"7","dem_votes":94023,"rep_votes":210930,"other_votes":207,"total_votes":305160,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":116907,"margin_pct":38.310067,"winner":"REPUBLICAN","color":"#a50f15"},"8":{"district":"8","dem_votes":139495,"rep_votes":188528,"other_votes":301,"total_votes":328324,"dem_candidate":"Keith Ellison","rep_candidate":"Jim Schultz","margin":49033,"margin_pct":14.934333,"winner":"REPUBLICAN","color":"#ef3b2c"}}},"meta":{"source_file":"20221108__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:25Z","total_input_votes":2490301,"crosswalk_matched_votes":2172019,"fallback_matched_votes":318282,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":87.2191}}
+{
+  "scope": "congressional",
+  "contest_type": "attorney_general",
+  "year": 2022,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 128048,
+        "rep_votes": 166786,
+        "other_votes": 180,
+        "total_votes": 295014,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": 38738,
+        "margin_pct": 13.130902,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 160114,
+        "rep_votes": 161728,
+        "other_votes": 311,
+        "total_votes": 322153,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": 1614,
+        "margin_pct": 0.501004,
+        "winner": "REPUBLICAN",
+        "color": "#fee8c8"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 184974,
+        "rep_votes": 146411,
+        "other_votes": 325,
+        "total_votes": 331710,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": -38563,
+        "margin_pct": -11.625516,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 193478,
+        "rep_votes": 101716,
+        "other_votes": 379,
+        "total_votes": 295573,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": -91762,
+        "margin_pct": -31.045461,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 233946,
+        "rep_votes": 58855,
+        "other_votes": 426,
+        "total_votes": 293227,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": -175091,
+        "margin_pct": -59.711759,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 120293,
+        "rep_votes": 198602,
+        "other_votes": 246,
+        "total_votes": 319141,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": 78309,
+        "margin_pct": 24.53743,
+        "winner": "REPUBLICAN",
+        "color": "#cb181d"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 94023,
+        "rep_votes": 210930,
+        "other_votes": 207,
+        "total_votes": 305160,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": 116907,
+        "margin_pct": 38.310067,
+        "winner": "REPUBLICAN",
+        "color": "#a50f15"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 139495,
+        "rep_votes": 188528,
+        "other_votes": 301,
+        "total_votes": 328324,
+        "dem_candidate": "Keith Ellison",
+        "rep_candidate": "Jim Schultz",
+        "margin": 49033,
+        "margin_pct": 14.934333,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20221108__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:43:04Z",
+    "total_input_votes": 2490301,
+    "crosswalk_matched_votes": 2172019,
+    "fallback_matched_votes": 318282,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 87.2191
+  }
+}

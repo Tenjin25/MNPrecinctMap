@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"us_senate","year":2014,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":118392,"rep_votes":107892,"other_votes":12719,"total_votes":239003,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":-10500,"margin_pct":-4.39325,"winner":"DEMOCRAT","color":"#c6dbef"},"2":{"district":"2","dem_votes":115083,"rep_votes":113085,"other_votes":8242,"total_votes":236410,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":-1998,"margin_pct":-0.845142,"winner":"DEMOCRAT","color":"#e1f5fe"},"3":{"district":"3","dem_votes":130329,"rep_votes":124450,"other_votes":7573,"total_votes":262352,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":-5879,"margin_pct":-2.240882,"winner":"DEMOCRAT","color":"#c6dbef"},"4":{"district":"4","dem_votes":148951,"rep_votes":84545,"other_votes":7946,"total_votes":241442,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":-64406,"margin_pct":-26.675558,"winner":"DEMOCRAT","color":"#3182bd"},"5":{"district":"5","dem_votes":172648,"rep_votes":52184,"other_votes":7499,"total_votes":232331,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":-120464,"margin_pct":-51.850162,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":96775,"rep_votes":125762,"other_votes":9113,"total_votes":231650,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":28987,"margin_pct":12.513274,"winner":"REPUBLICAN","color":"#ef3b2c"},"7":{"district":"7","dem_votes":121529,"rep_votes":126350,"other_votes":13218,"total_votes":261097,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":4821,"margin_pct":1.84644,"winner":"REPUBLICAN","color":"#fcae91"},"8":{"district":"8","dem_votes":149498,"rep_votes":115960,"other_votes":11787,"total_votes":277245,"dem_candidate":"AL FRANKEN","rep_candidate":"MIKE MCFADDEN","margin":-33538,"margin_pct":-12.096882,"winner":"DEMOCRAT","color":"#6baed6"}}},"meta":{"source_file":"20141104__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:30:53Z","total_input_votes":1981528,"crosswalk_matched_votes":1926213,"fallback_matched_votes":55315,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":97.2085}}
+{
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "year": 2014,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 118392,
+        "rep_votes": 107892,
+        "other_votes": 12719,
+        "total_votes": 239003,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": -10500,
+        "margin_pct": -4.39325,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 115083,
+        "rep_votes": 113085,
+        "other_votes": 8242,
+        "total_votes": 236410,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": -1998,
+        "margin_pct": -0.845142,
+        "winner": "DEMOCRAT",
+        "color": "#e1f5fe"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 130329,
+        "rep_votes": 124450,
+        "other_votes": 7573,
+        "total_votes": 262352,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": -5879,
+        "margin_pct": -2.240882,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 148951,
+        "rep_votes": 84545,
+        "other_votes": 7946,
+        "total_votes": 241442,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": -64406,
+        "margin_pct": -26.675558,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 172648,
+        "rep_votes": 52184,
+        "other_votes": 7499,
+        "total_votes": 232331,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": -120464,
+        "margin_pct": -51.850162,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 96775,
+        "rep_votes": 125762,
+        "other_votes": 9113,
+        "total_votes": 231650,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": 28987,
+        "margin_pct": 12.513274,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 121529,
+        "rep_votes": 126350,
+        "other_votes": 13218,
+        "total_votes": 261097,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": 4821,
+        "margin_pct": 1.84644,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 149498,
+        "rep_votes": 115960,
+        "other_votes": 11787,
+        "total_votes": 277245,
+        "dem_candidate": "AL FRANKEN",
+        "rep_candidate": "MIKE MCFADDEN",
+        "margin": -33538,
+        "margin_pct": -12.096882,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20141104__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:25Z",
+    "total_input_votes": 1981528,
+    "crosswalk_matched_votes": 1926213,
+    "fallback_matched_votes": 55315,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 97.2085
+  }
+}

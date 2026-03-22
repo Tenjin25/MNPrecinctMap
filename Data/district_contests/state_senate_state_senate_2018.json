@@ -1,1 +1,61 @@
-{"scope":"state_senate","contest_type":"state_senate","year":2018,"state":"MN","general":{"results":{"12":{"district":"12","dem_votes":25,"rep_votes":109,"other_votes":0,"total_votes":134,"dem_candidate":"Joe Perske","rep_candidate":"Jeff Howe","margin":84,"margin_pct":62.686567,"winner":"REPUBLICAN","color":"#67000d"},"13":{"district":"13","dem_votes":15299,"rep_votes":20901,"other_votes":19,"total_votes":36219,"dem_candidate":"Joe Perske","rep_candidate":"Jeff Howe","margin":5602,"margin_pct":15.46702,"winner":"REPUBLICAN","color":"#ef3b2c"},"14":{"district":"14","dem_votes":784,"rep_votes":704,"other_votes":1,"total_votes":1489,"dem_candidate":"Joe Perske","rep_candidate":"Jeff Howe","margin":-80,"margin_pct":-5.372733,"winner":"DEMOCRAT","color":"#c6dbef"}}},"meta":{"source_file":"20181106__mn__general__precinct.csv","crosswalk_file":"precinct_to_2022_state_senate.csv","generated_at_utc":"2026-03-22T20:31:08Z","total_input_votes":37842,"crosswalk_matched_votes":37842,"fallback_matched_votes":0,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":100.0}}
+{
+  "scope": "state_senate",
+  "contest_type": "state_senate",
+  "year": 2018,
+  "state": "MN",
+  "general": {
+    "results": {
+      "12": {
+        "district": "12",
+        "dem_votes": 25,
+        "rep_votes": 109,
+        "other_votes": 0,
+        "total_votes": 134,
+        "dem_candidate": "Joe Perske",
+        "rep_candidate": "Jeff Howe",
+        "margin": 84,
+        "margin_pct": 62.686567,
+        "winner": "REPUBLICAN",
+        "color": "#67000d"
+      },
+      "13": {
+        "district": "13",
+        "dem_votes": 15299,
+        "rep_votes": 20901,
+        "other_votes": 19,
+        "total_votes": 36219,
+        "dem_candidate": "Joe Perske",
+        "rep_candidate": "Jeff Howe",
+        "margin": 5602,
+        "margin_pct": 15.46702,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "14": {
+        "district": "14",
+        "dem_votes": 784,
+        "rep_votes": 704,
+        "other_votes": 1,
+        "total_votes": 1489,
+        "dem_candidate": "Joe Perske",
+        "rep_candidate": "Jeff Howe",
+        "margin": -80,
+        "margin_pct": -5.372733,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20181106__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_2022_state_senate.csv",
+    "generated_at_utc": "2026-03-22T20:42:46Z",
+    "total_input_votes": 37842,
+    "crosswalk_matched_votes": 37842,
+    "fallback_matched_votes": 0,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 100.0
+  }
+}

@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"us_house","year":2018,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":152371,"rep_votes":152752,"other_votes":591,"total_votes":305714,"dem_candidate":"Dan Feehan","rep_candidate":"Jim Hagedorn","margin":381,"margin_pct":0.124626,"winner":"REPUBLICAN","color":"#f7f7f7"},"2":{"district":"2","dem_votes":171648,"rep_votes":152499,"other_votes":644,"total_votes":324791,"dem_candidate":"Angie Craig","rep_candidate":"Jason Lewis","margin":-19149,"margin_pct":-5.895791,"winner":"DEMOCRAT","color":"#9ecae1"},"3":{"district":"3","dem_votes":197439,"rep_votes":151322,"other_votes":731,"total_votes":349492,"dem_candidate":"Dean Phillips","rep_candidate":"Erik Paulsen","margin":-46117,"margin_pct":-13.195438,"winner":"DEMOCRAT","color":"#6baed6"},"4":{"district":"4","dem_votes":214163,"rep_votes":95225,"other_votes":224,"total_votes":309612,"dem_candidate":"Betty McCollum","rep_candidate":"Greg Ryan","margin":-118938,"margin_pct":-38.415178,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":260676,"rep_votes":71142,"other_votes":1180,"total_votes":332998,"dem_candidate":"Ilhan Omar","rep_candidate":"Jennifer Zielinski","margin":-189534,"margin_pct":-56.917459,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":121935,"rep_votes":184729,"other_votes":449,"total_votes":307113,"dem_candidate":"Ian Todd","rep_candidate":"Tom Emmer","margin":62794,"margin_pct":20.446546,"winner":"REPUBLICAN","color":"#cb181d"},"7":{"district":"7","dem_votes":147413,"rep_votes":154167,"other_votes":183,"total_votes":301763,"dem_candidate":"Collin C. Peterson","rep_candidate":"Dave Hughes","margin":6754,"margin_pct":2.23818,"winner":"REPUBLICAN","color":"#fcae91"},"8":{"district":"8","dem_votes":155124,"rep_votes":163695,"other_votes":175,"total_votes":318994,"dem_candidate":"Joe Radinovich","rep_candidate":"Pete Stauber","margin":8571,"margin_pct":2.686884,"winner":"REPUBLICAN","color":"#fcae91"}}},"meta":{"source_file":"20181106__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:08Z","total_input_votes":2550479,"crosswalk_matched_votes":2532362,"fallback_matched_votes":18117,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":99.2897}}
+{
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "year": 2018,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 152371,
+        "rep_votes": 152752,
+        "other_votes": 591,
+        "total_votes": 305714,
+        "dem_candidate": "Dan Feehan",
+        "rep_candidate": "Jim Hagedorn",
+        "margin": 381,
+        "margin_pct": 0.124626,
+        "winner": "REPUBLICAN",
+        "color": "#f7f7f7"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 171648,
+        "rep_votes": 152499,
+        "other_votes": 644,
+        "total_votes": 324791,
+        "dem_candidate": "Angie Craig",
+        "rep_candidate": "Jason Lewis",
+        "margin": -19149,
+        "margin_pct": -5.895791,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 197439,
+        "rep_votes": 151322,
+        "other_votes": 731,
+        "total_votes": 349492,
+        "dem_candidate": "Dean Phillips",
+        "rep_candidate": "Erik Paulsen",
+        "margin": -46117,
+        "margin_pct": -13.195438,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 214163,
+        "rep_votes": 95225,
+        "other_votes": 224,
+        "total_votes": 309612,
+        "dem_candidate": "Betty McCollum",
+        "rep_candidate": "Greg Ryan",
+        "margin": -118938,
+        "margin_pct": -38.415178,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 260676,
+        "rep_votes": 71142,
+        "other_votes": 1180,
+        "total_votes": 332998,
+        "dem_candidate": "Ilhan Omar",
+        "rep_candidate": "Jennifer Zielinski",
+        "margin": -189534,
+        "margin_pct": -56.917459,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 121935,
+        "rep_votes": 184729,
+        "other_votes": 449,
+        "total_votes": 307113,
+        "dem_candidate": "Ian Todd",
+        "rep_candidate": "Tom Emmer",
+        "margin": 62794,
+        "margin_pct": 20.446546,
+        "winner": "REPUBLICAN",
+        "color": "#cb181d"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 147413,
+        "rep_votes": 154167,
+        "other_votes": 183,
+        "total_votes": 301763,
+        "dem_candidate": "Collin C. Peterson",
+        "rep_candidate": "Dave Hughes",
+        "margin": 6754,
+        "margin_pct": 2.23818,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 155124,
+        "rep_votes": 163695,
+        "other_votes": 175,
+        "total_votes": 318994,
+        "dem_candidate": "Joe Radinovich",
+        "rep_candidate": "Pete Stauber",
+        "margin": 8571,
+        "margin_pct": 2.686884,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20181106__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:46Z",
+    "total_input_votes": 2550479,
+    "crosswalk_matched_votes": 2532362,
+    "fallback_matched_votes": 18117,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 99.2897
+  }
+}

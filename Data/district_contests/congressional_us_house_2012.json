@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"us_house","year":2012,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":198705,"rep_votes":152588,"other_votes":513,"total_votes":351806,"dem_candidate":"TIM WALZ","rep_candidate":"ALLEN QUIST","margin":-46117,"margin_pct":-13.108645,"winner":"DEMOCRAT","color":"#6baed6"},"2":{"district":"2","dem_votes":159302,"rep_votes":183329,"other_votes":800,"total_votes":343431,"dem_candidate":"MIKE OBERMUELLER","rep_candidate":"JOHN KLINE","margin":24027,"margin_pct":6.996165,"winner":"REPUBLICAN","color":"#fb6a4a"},"3":{"district":"3","dem_votes":160937,"rep_votes":210061,"other_votes":465,"total_votes":371463,"dem_candidate":"BRIAN BARNES","rep_candidate":"ERIK PAULSEN","margin":49124,"margin_pct":13.224467,"winner":"REPUBLICAN","color":"#ef3b2c"},"4":{"district":"4","dem_votes":214157,"rep_votes":107359,"other_votes":21250,"total_votes":342766,"dem_candidate":"BETTY MCCOLLUM","rep_candidate":"TONY HERNANDEZ","margin":-106798,"margin_pct":-31.157699,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":255302,"rep_votes":84975,"other_votes":1085,"total_votes":341362,"dem_candidate":"KEITH ELLISON","rep_candidate":"CHRIS FIELDS","margin":-170327,"margin_pct":-49.896298,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":163416,"rep_votes":176951,"other_votes":899,"total_votes":341266,"dem_candidate":"JIM GRAVES","rep_candidate":"MICHELE BACHMANN","margin":13535,"margin_pct":3.966114,"winner":"REPUBLICAN","color":"#fcae91"},"7":{"district":"7","dem_votes":203318,"rep_votes":132668,"other_votes":14819,"total_votes":350805,"dem_candidate":"COLLIN C. PETERSON","rep_candidate":"LEE BYBERG","margin":-70650,"margin_pct":-20.139394,"winner":"DEMOCRAT","color":"#3182bd"},"8":{"district":"8","dem_votes":205848,"rep_votes":162479,"other_votes":2159,"total_votes":370486,"dem_candidate":"RICHARD NOLAN","rep_candidate":"CHIP CRAVAACK","margin":-43369,"margin_pct":-11.705975,"winner":"DEMOCRAT","color":"#6baed6"}}},"meta":{"source_file":"20121106__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:30:41Z","total_input_votes":2813383,"crosswalk_matched_votes":2675917,"fallback_matched_votes":137466,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":95.1139}}
+{
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "year": 2012,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 198705,
+        "rep_votes": 152588,
+        "other_votes": 513,
+        "total_votes": 351806,
+        "dem_candidate": "TIM WALZ",
+        "rep_candidate": "ALLEN QUIST",
+        "margin": -46117,
+        "margin_pct": -13.108645,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 159302,
+        "rep_votes": 183329,
+        "other_votes": 800,
+        "total_votes": 343431,
+        "dem_candidate": "MIKE OBERMUELLER",
+        "rep_candidate": "JOHN KLINE",
+        "margin": 24027,
+        "margin_pct": 6.996165,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 160937,
+        "rep_votes": 210061,
+        "other_votes": 465,
+        "total_votes": 371463,
+        "dem_candidate": "BRIAN BARNES",
+        "rep_candidate": "ERIK PAULSEN",
+        "margin": 49124,
+        "margin_pct": 13.224467,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 214157,
+        "rep_votes": 107359,
+        "other_votes": 21250,
+        "total_votes": 342766,
+        "dem_candidate": "BETTY MCCOLLUM",
+        "rep_candidate": "TONY HERNANDEZ",
+        "margin": -106798,
+        "margin_pct": -31.157699,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 255302,
+        "rep_votes": 84975,
+        "other_votes": 1085,
+        "total_votes": 341362,
+        "dem_candidate": "KEITH ELLISON",
+        "rep_candidate": "CHRIS FIELDS",
+        "margin": -170327,
+        "margin_pct": -49.896298,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 163416,
+        "rep_votes": 176951,
+        "other_votes": 899,
+        "total_votes": 341266,
+        "dem_candidate": "JIM GRAVES",
+        "rep_candidate": "MICHELE BACHMANN",
+        "margin": 13535,
+        "margin_pct": 3.966114,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 203318,
+        "rep_votes": 132668,
+        "other_votes": 14819,
+        "total_votes": 350805,
+        "dem_candidate": "COLLIN C. PETERSON",
+        "rep_candidate": "LEE BYBERG",
+        "margin": -70650,
+        "margin_pct": -20.139394,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 205848,
+        "rep_votes": 162479,
+        "other_votes": 2159,
+        "total_votes": 370486,
+        "dem_candidate": "RICHARD NOLAN",
+        "rep_candidate": "CHIP CRAVAACK",
+        "margin": -43369,
+        "margin_pct": -11.705975,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20121106__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:08Z",
+    "total_input_votes": 2813383,
+    "crosswalk_matched_votes": 2675917,
+    "fallback_matched_votes": 137466,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 95.1139
+  }
+}

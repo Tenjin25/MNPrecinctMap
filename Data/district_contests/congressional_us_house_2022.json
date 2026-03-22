@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"us_house","year":2022,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":125457,"rep_votes":159621,"other_votes":11469,"total_votes":296547,"dem_candidate":"Jeff Ettinger","rep_candidate":"Brad Finstad","margin":34164,"margin_pct":11.520602,"winner":"REPUBLICAN","color":"#ef3b2c"},"2":{"district":"2","dem_votes":164973,"rep_votes":148119,"other_votes":11283,"total_votes":324375,"dem_candidate":"Angie Craig","rep_candidate":"Tyler Kistner","margin":-16854,"margin_pct":-5.195838,"winner":"DEMOCRAT","color":"#c6dbef"},"3":{"district":"3","dem_votes":197792,"rep_votes":135193,"other_votes":319,"total_votes":333304,"dem_candidate":"Dean Phillips","rep_candidate":"Tom Weiler","margin":-62599,"margin_pct":-18.781353,"winner":"DEMOCRAT","color":"#6baed6"},"4":{"district":"4","dem_votes":200761,"rep_votes":96069,"other_votes":452,"total_votes":297282,"dem_candidate":"Betty McCollum","rep_candidate":"May Lor Xiong","margin":-104692,"margin_pct":-35.216394,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":215356,"rep_votes":70383,"other_votes":3203,"total_votes":288942,"dem_candidate":"Ilhan Omar","rep_candidate":"Cicely Davis","margin":-144973,"margin_pct":-50.173737,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":120795,"rep_votes":198042,"other_votes":771,"total_votes":319608,"dem_candidate":"Jeanne Hendricks","rep_candidate":"Tom Emmer","margin":77247,"margin_pct":24.169295,"winner":"REPUBLICAN","color":"#cb181d"},"7":{"district":"7","dem_votes":84455,"rep_votes":204766,"other_votes":16645,"total_votes":305866,"dem_candidate":"Jill Abahsain","rep_candidate":"Michelle Fischbach","margin":120311,"margin_pct":39.334545,"winner":"REPUBLICAN","color":"#a50f15"},"8":{"district":"8","dem_votes":140929,"rep_votes":188662,"other_votes":316,"total_votes":329907,"dem_candidate":"Jen Schultz","rep_candidate":"Pete Stauber","margin":47733,"margin_pct":14.468623,"winner":"REPUBLICAN","color":"#ef3b2c"}}},"meta":{"source_file":"20221108__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:25Z","total_input_votes":2495832,"crosswalk_matched_votes":2176897,"fallback_matched_votes":318935,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":87.2213}}
+{
+  "scope": "congressional",
+  "contest_type": "us_house",
+  "year": 2022,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 125457,
+        "rep_votes": 159621,
+        "other_votes": 11469,
+        "total_votes": 296547,
+        "dem_candidate": "Jeff Ettinger",
+        "rep_candidate": "Brad Finstad",
+        "margin": 34164,
+        "margin_pct": 11.520602,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 164973,
+        "rep_votes": 148119,
+        "other_votes": 11283,
+        "total_votes": 324375,
+        "dem_candidate": "Angie Craig",
+        "rep_candidate": "Tyler Kistner",
+        "margin": -16854,
+        "margin_pct": -5.195838,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 197792,
+        "rep_votes": 135193,
+        "other_votes": 319,
+        "total_votes": 333304,
+        "dem_candidate": "Dean Phillips",
+        "rep_candidate": "Tom Weiler",
+        "margin": -62599,
+        "margin_pct": -18.781353,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 200761,
+        "rep_votes": 96069,
+        "other_votes": 452,
+        "total_votes": 297282,
+        "dem_candidate": "Betty McCollum",
+        "rep_candidate": "May Lor Xiong",
+        "margin": -104692,
+        "margin_pct": -35.216394,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 215356,
+        "rep_votes": 70383,
+        "other_votes": 3203,
+        "total_votes": 288942,
+        "dem_candidate": "Ilhan Omar",
+        "rep_candidate": "Cicely Davis",
+        "margin": -144973,
+        "margin_pct": -50.173737,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 120795,
+        "rep_votes": 198042,
+        "other_votes": 771,
+        "total_votes": 319608,
+        "dem_candidate": "Jeanne Hendricks",
+        "rep_candidate": "Tom Emmer",
+        "margin": 77247,
+        "margin_pct": 24.169295,
+        "winner": "REPUBLICAN",
+        "color": "#cb181d"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 84455,
+        "rep_votes": 204766,
+        "other_votes": 16645,
+        "total_votes": 305866,
+        "dem_candidate": "Jill Abahsain",
+        "rep_candidate": "Michelle Fischbach",
+        "margin": 120311,
+        "margin_pct": 39.334545,
+        "winner": "REPUBLICAN",
+        "color": "#a50f15"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 140929,
+        "rep_votes": 188662,
+        "other_votes": 316,
+        "total_votes": 329907,
+        "dem_candidate": "Jen Schultz",
+        "rep_candidate": "Pete Stauber",
+        "margin": 47733,
+        "margin_pct": 14.468623,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20221108__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:43:04Z",
+    "total_input_votes": 2495832,
+    "crosswalk_matched_votes": 2176897,
+    "fallback_matched_votes": 318935,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 87.2213
+  }
+}

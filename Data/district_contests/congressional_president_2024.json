@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"president","year":2024,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":167186,"rep_votes":213794,"other_votes":8577,"total_votes":389557,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":46608,"margin_pct":11.96436,"winner":"REPUBLICAN","color":"#ef3b2c"},"2":{"district":"2","dem_votes":219530,"rep_votes":195116,"other_votes":10269,"total_votes":424915,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":-24414,"margin_pct":-5.74562,"winner":"DEMOCRAT","color":"#9ecae1"},"3":{"district":"3","dem_votes":251734,"rep_votes":161590,"other_votes":11195,"total_votes":424519,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":-90144,"margin_pct":-21.234385,"winner":"DEMOCRAT","color":"#3182bd"},"4":{"district":"4","dem_votes":252644,"rep_votes":117860,"other_votes":10079,"total_votes":380583,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":-134784,"margin_pct":-35.415139,"winner":"DEMOCRAT","color":"#08519c"},"5":{"district":"5","dem_votes":292965,"rep_votes":65743,"other_votes":11329,"total_votes":370037,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":-227222,"margin_pct":-61.405211,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":168465,"rep_votes":253094,"other_votes":10143,"total_votes":431702,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":84629,"margin_pct":19.603569,"winner":"REPUBLICAN","color":"#ef3b2c"},"7":{"district":"7","dem_votes":123652,"rep_votes":269504,"other_votes":7852,"total_votes":401008,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":145852,"margin_pct":36.371344,"winner":"REPUBLICAN","color":"#a50f15"},"8":{"district":"8","dem_votes":180804,"rep_votes":242330,"other_votes":8464,"total_votes":431598,"dem_candidate":"Kamala Harris","rep_candidate":"Donald Trump","margin":61526,"margin_pct":14.255395,"winner":"REPUBLICAN","color":"#ef3b2c"}}},"meta":{"source_file":"20241105__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:31Z","total_input_votes":3253920,"crosswalk_matched_votes":2838108,"fallback_matched_votes":415812,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":87.2212}}
+{
+  "scope": "congressional",
+  "contest_type": "president",
+  "year": 2024,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 167186,
+        "rep_votes": 213794,
+        "other_votes": 8577,
+        "total_votes": 389557,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": 46608,
+        "margin_pct": 11.96436,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 219530,
+        "rep_votes": 195116,
+        "other_votes": 10269,
+        "total_votes": 424915,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": -24414,
+        "margin_pct": -5.74562,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 251734,
+        "rep_votes": 161590,
+        "other_votes": 11195,
+        "total_votes": 424519,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": -90144,
+        "margin_pct": -21.234385,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 252644,
+        "rep_votes": 117860,
+        "other_votes": 10079,
+        "total_votes": 380583,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": -134784,
+        "margin_pct": -35.415139,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 292965,
+        "rep_votes": 65743,
+        "other_votes": 11329,
+        "total_votes": 370037,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": -227222,
+        "margin_pct": -61.405211,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 168465,
+        "rep_votes": 253094,
+        "other_votes": 10143,
+        "total_votes": 431702,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": 84629,
+        "margin_pct": 19.603569,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 123652,
+        "rep_votes": 269504,
+        "other_votes": 7852,
+        "total_votes": 401008,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": 145852,
+        "margin_pct": 36.371344,
+        "winner": "REPUBLICAN",
+        "color": "#a50f15"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 180804,
+        "rep_votes": 242330,
+        "other_votes": 8464,
+        "total_votes": 431598,
+        "dem_candidate": "Kamala Harris",
+        "rep_candidate": "Donald Trump",
+        "margin": 61526,
+        "margin_pct": 14.255395,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20241105__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:43:14Z",
+    "total_input_votes": 3253920,
+    "crosswalk_matched_votes": 2838108,
+    "fallback_matched_votes": 415812,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 87.2212
+  }
+}

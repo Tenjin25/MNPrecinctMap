@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"us_senate","year":2024,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":188283,"rep_votes":181605,"other_votes":12316,"total_votes":382204,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":-6678,"margin_pct":-1.747234,"winner":"DEMOCRAT","color":"#c6dbef"},"2":{"district":"2","dem_votes":237858,"rep_votes":165471,"other_votes":13835,"total_votes":417164,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":-72387,"margin_pct":-17.352168,"winner":"DEMOCRAT","color":"#6baed6"},"3":{"district":"3","dem_votes":264015,"rep_votes":140082,"other_votes":13485,"total_votes":417582,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":-123933,"margin_pct":-29.678722,"winner":"DEMOCRAT","color":"#3182bd"},"4":{"district":"4","dem_votes":259445,"rep_votes":97566,"other_votes":13466,"total_votes":370477,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":-161879,"margin_pct":-43.69475,"winner":"DEMOCRAT","color":"#08306b"},"5":{"district":"5","dem_votes":294256,"rep_votes":53797,"other_votes":12940,"total_votes":360993,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":-240459,"margin_pct":-66.610433,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":189073,"rep_votes":218677,"other_votes":14447,"total_votes":422197,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":29604,"margin_pct":7.011893,"winner":"REPUBLICAN","color":"#fb6a4a"},"7":{"district":"7","dem_votes":156530,"rep_votes":226489,"other_votes":11403,"total_votes":394422,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":69959,"margin_pct":17.737094,"winner":"REPUBLICAN","color":"#ef3b2c"},"8":{"district":"8","dem_votes":202980,"rep_votes":208025,"other_votes":13277,"total_votes":424282,"dem_candidate":"Amy Klobuchar","rep_candidate":"Royce White","margin":5045,"margin_pct":1.189068,"winner":"REPUBLICAN","color":"#fcae91"}}},"meta":{"source_file":"20241105__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:31:31Z","total_input_votes":3189323,"crosswalk_matched_votes":2781349,"fallback_matched_votes":407974,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":87.2081}}
+{
+  "scope": "congressional",
+  "contest_type": "us_senate",
+  "year": 2024,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 188283,
+        "rep_votes": 181605,
+        "other_votes": 12316,
+        "total_votes": 382204,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": -6678,
+        "margin_pct": -1.747234,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 237858,
+        "rep_votes": 165471,
+        "other_votes": 13835,
+        "total_votes": 417164,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": -72387,
+        "margin_pct": -17.352168,
+        "winner": "DEMOCRAT",
+        "color": "#6baed6"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 264015,
+        "rep_votes": 140082,
+        "other_votes": 13485,
+        "total_votes": 417582,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": -123933,
+        "margin_pct": -29.678722,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 259445,
+        "rep_votes": 97566,
+        "other_votes": 13466,
+        "total_votes": 370477,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": -161879,
+        "margin_pct": -43.69475,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 294256,
+        "rep_votes": 53797,
+        "other_votes": 12940,
+        "total_votes": 360993,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": -240459,
+        "margin_pct": -66.610433,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 189073,
+        "rep_votes": 218677,
+        "other_votes": 14447,
+        "total_votes": 422197,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": 29604,
+        "margin_pct": 7.011893,
+        "winner": "REPUBLICAN",
+        "color": "#fb6a4a"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 156530,
+        "rep_votes": 226489,
+        "other_votes": 11403,
+        "total_votes": 394422,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": 69959,
+        "margin_pct": 17.737094,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 202980,
+        "rep_votes": 208025,
+        "other_votes": 13277,
+        "total_votes": 424282,
+        "dem_candidate": "Amy Klobuchar",
+        "rep_candidate": "Royce White",
+        "margin": 5045,
+        "margin_pct": 1.189068,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20241105__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:43:14Z",
+    "total_input_votes": 3189323,
+    "crosswalk_matched_votes": 2781349,
+    "fallback_matched_votes": 407974,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 87.2081
+  }
+}

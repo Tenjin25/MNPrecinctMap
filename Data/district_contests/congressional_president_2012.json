@@ -1,1 +1,126 @@
-{"scope":"congressional","contest_type":"president","year":2012,"state":"MN","general":{"results":{"1":{"district":"1","dem_votes":179375,"rep_votes":172962,"other_votes":9623,"total_votes":361960,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":-6413,"margin_pct":-1.771743,"winner":"DEMOCRAT","color":"#c6dbef"},"2":{"district":"2","dem_votes":176797,"rep_votes":177420,"other_votes":8086,"total_votes":362303,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":623,"margin_pct":0.171956,"winner":"REPUBLICAN","color":"#f7f7f7"},"3":{"district":"3","dem_votes":197536,"rep_votes":185751,"other_votes":7509,"total_votes":390796,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":-11785,"margin_pct":-3.01564,"winner":"DEMOCRAT","color":"#c6dbef"},"4":{"district":"4","dem_votes":228886,"rep_votes":128751,"other_votes":8679,"total_votes":366316,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":-100135,"margin_pct":-27.335688,"winner":"DEMOCRAT","color":"#3182bd"},"5":{"district":"5","dem_votes":267537,"rep_votes":85737,"other_votes":10455,"total_votes":363729,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":-181800,"margin_pct":-49.982267,"winner":"DEMOCRAT","color":"#08306b"},"6":{"district":"6","dem_votes":145161,"rep_votes":198419,"other_votes":8159,"total_votes":351739,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":53258,"margin_pct":15.141341,"winner":"REPUBLICAN","color":"#ef3b2c"},"7":{"district":"7","dem_votes":152713,"rep_votes":198528,"other_votes":8353,"total_votes":359594,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":45815,"margin_pct":12.740758,"winner":"REPUBLICAN","color":"#ef3b2c"},"8":{"district":"8","dem_votes":198162,"rep_votes":172658,"other_votes":9306,"total_votes":380126,"dem_candidate":"BARACK OBAMA AND JOE BIDEN","rep_candidate":"MITT ROMNEY AND PAUL RYAN","margin":-25504,"margin_pct":-6.709354,"winner":"DEMOCRAT","color":"#9ecae1"}}},"meta":{"source_file":"20121106__mn__general__precinct.csv","crosswalk_file":"precinct_to_cd118.csv","generated_at_utc":"2026-03-22T20:30:41Z","total_input_votes":2936561,"crosswalk_matched_votes":2793301,"fallback_matched_votes":143260,"county_fallback_votes":0,"unmatched_votes":0,"match_coverage_pct":100.0,"crosswalk_match_pct":95.1215}}
+{
+  "scope": "congressional",
+  "contest_type": "president",
+  "year": 2012,
+  "state": "MN",
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 179375,
+        "rep_votes": 172962,
+        "other_votes": 9623,
+        "total_votes": 361960,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": -6413,
+        "margin_pct": -1.771743,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 176797,
+        "rep_votes": 177420,
+        "other_votes": 8086,
+        "total_votes": 362303,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": 623,
+        "margin_pct": 0.171956,
+        "winner": "REPUBLICAN",
+        "color": "#f7f7f7"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 197536,
+        "rep_votes": 185751,
+        "other_votes": 7509,
+        "total_votes": 390796,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": -11785,
+        "margin_pct": -3.01564,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 228886,
+        "rep_votes": 128751,
+        "other_votes": 8679,
+        "total_votes": 366316,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": -100135,
+        "margin_pct": -27.335688,
+        "winner": "DEMOCRAT",
+        "color": "#3182bd"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 267537,
+        "rep_votes": 85737,
+        "other_votes": 10455,
+        "total_votes": 363729,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": -181800,
+        "margin_pct": -49.982267,
+        "winner": "DEMOCRAT",
+        "color": "#08306b"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 145161,
+        "rep_votes": 198419,
+        "other_votes": 8159,
+        "total_votes": 351739,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": 53258,
+        "margin_pct": 15.141341,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 152713,
+        "rep_votes": 198528,
+        "other_votes": 8353,
+        "total_votes": 359594,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": 45815,
+        "margin_pct": 12.740758,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 198162,
+        "rep_votes": 172658,
+        "other_votes": 9306,
+        "total_votes": 380126,
+        "dem_candidate": "BARACK OBAMA AND JOE BIDEN",
+        "rep_candidate": "MITT ROMNEY AND PAUL RYAN",
+        "margin": -25504,
+        "margin_pct": -6.709354,
+        "winner": "DEMOCRAT",
+        "color": "#9ecae1"
+      }
+    }
+  },
+  "meta": {
+    "source_file": "20121106__mn__general__precinct.csv",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "generated_at_utc": "2026-03-22T20:42:08Z",
+    "total_input_votes": 2936561,
+    "crosswalk_matched_votes": 2793301,
+    "fallback_matched_votes": 143260,
+    "county_fallback_votes": 0,
+    "unmatched_votes": 0,
+    "match_coverage_pct": 100.0,
+    "crosswalk_match_pct": 95.1215
+  }
+}

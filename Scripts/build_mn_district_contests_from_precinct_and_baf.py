@@ -786,7 +786,7 @@ def main() -> None:
                     "crosswalk_match_pct": round(crosswalk_pct, 4),
                 },
             }
-            out_file.write_text(json.dumps(payload, separators=(",", ":")), encoding="utf-8")
+            out_file.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
 
             manifest_entries.append(
                 {
@@ -819,7 +819,7 @@ def main() -> None:
     )
 
     manifest_path = args.out_dir / "manifest.json"
-    manifest_path.write_text(json.dumps({"files": manifest_entries}, separators=(",", ":")), encoding="utf-8")
+    manifest_path.write_text(json.dumps({"files": manifest_entries}, indent=2) + "\n", encoding="utf-8")
 
     print(
         f"Wrote {len(manifest_entries)} district contest slices "
