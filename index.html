@@ -8987,6 +8987,12 @@ document.addEventListener('DOMContentLoaded', function() {
     function stripRunningMateName(name) {
       const raw = (name || '').toString().trim();
       if (!raw) return '';
+      // OpenElections often stores tickets as "Candidate and Running Mate".
+      const andSplit = raw.match(/^(.+?)\s+\band\b\s+.+$/i);
+      if (andSplit && andSplit[1]) {
+        const left = andSplit[1].trim();
+        if (left) return left;
+      }
       // Common presidential ticket separators.
       const seps = [' / ', '/', ' & ', '&', ' + ', '+', ' - ', ' – ', ' — '];
       for (const sep of seps) {
