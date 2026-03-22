@@ -6996,13 +6996,7 @@ document.addEventListener('DOMContentLoaded', function() {
         : (winnerParty === 'dem'
           ? formatVoteCounterCandidateLabel(resolvedCandidates.demCandidate, 'D', 'Democratic')
           : 'Tie');
-      const leadLabel = compactWinnerMarginLabel(
-        r,
-        d,
-        total,
-        resolvedCandidates.repCandidate,
-        resolvedCandidates.demCandidate
-      );
+      const leadLabel = focusLeadMarginLabel(r, d, total);
 
       winnerEl.textContent = winnerLabel;
       winnerEl.className = `focus-pill-value ${winnerParty}`;
@@ -9312,13 +9306,7 @@ document.addEventListener('DOMContentLoaded', function() {
         : (winnerParty === 'dem'
           ? formatVoteCounterCandidateLabel(resolvedCandidates.demCandidate, 'D', 'Democratic')
           : 'Tie');
-      const leadLabel = compactWinnerMarginLabel(
-        r,
-        d,
-        total,
-        resolvedCandidates.repCandidate,
-        resolvedCandidates.demCandidate
-      );
+      const leadLabel = focusLeadMarginLabel(r, d, total);
 
       winnerEl.textContent = winnerLabel;
       winnerEl.className = `focus-pill-value ${winnerParty}`;
