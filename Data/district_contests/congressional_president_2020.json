@@ -114,11 +114,11 @@
   "meta": {
     "source_file": "20201103__mn__general__precinct.csv",
     "crosswalk_file": "precinct_to_cd118.csv",
-    "generated_at_utc": "2026-03-22T20:42:53Z",
+    "generated_at_utc": "2026-03-22T20:52:51Z",
     "total_input_votes": 3277171,
     "crosswalk_matched_votes": 3277168,
-    "fallback_matched_votes": 3,
-    "county_fallback_votes": 0,
+    "fallback_matched_votes": 0,
+    "county_fallback_votes": 3,
     "unmatched_votes": 0,
     "match_coverage_pct": 100.0,
     "crosswalk_match_pct": 99.9999

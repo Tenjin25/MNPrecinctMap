@@ -9,11 +9,11 @@
       "districts": 8,
       "dem_total": 1546167,
       "rep_total": 1320226,
-      "other_total": 70170,
+      "other_total": 70169,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 95.1215,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 4.8785
     },
     {
       "scope": "congressional",
@@ -23,12 +23,12 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 1367716,
-      "rep_total": 1322950,
-      "other_total": 254146,
+      "rep_total": 1322951,
+      "other_total": 254147,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 96.7302,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 3.2698
     },
     {
       "scope": "congressional",
@@ -43,7 +43,7 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.9999,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.0001
     },
     {
       "scope": "congressional",
@@ -67,13 +67,13 @@
       "file": "congressional_us_senate_2012.json",
       "rows": 8,
       "districts": 8,
-      "dem_total": 1854594,
-      "rep_total": 867974,
+      "dem_total": 1854595,
+      "rep_total": 867972,
       "other_total": 120639,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 95.111,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 4.889
     },
     {
       "scope": "congressional",
@@ -83,12 +83,12 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 1053205,
-      "rep_total": 850228,
-      "other_total": 78097,
+      "rep_total": 850226,
+      "other_total": 78095,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.2085,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.7915
     },
     {
       "scope": "congressional",
@@ -97,13 +97,13 @@
       "file": "congressional_us_senate_2018.json",
       "rows": 8,
       "districts": 8,
-      "dem_total": 1566174,
-      "rep_total": 940436,
+      "dem_total": 1566173,
+      "rep_total": 940437,
       "other_total": 90268,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2937,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7063
     },
     {
       "scope": "congressional",
@@ -118,7 +118,7 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.9999,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.0001
     },
     {
       "scope": "congressional",
@@ -142,13 +142,13 @@
       "file": "congressional_governor_2014.json",
       "rows": 8,
       "districts": 8,
-      "dem_total": 989112,
+      "dem_total": 989114,
       "rep_total": 879256,
-      "other_total": 107036,
+      "other_total": 107034,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.2071,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.7929
     },
     {
       "scope": "congressional",
@@ -159,11 +159,11 @@
       "districts": 8,
       "dem_total": 1393095,
       "rep_total": 1097705,
-      "other_total": 96488,
+      "other_total": 96487,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2929,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7071
     },
     {
       "scope": "congressional",
@@ -187,13 +187,13 @@
       "file": "congressional_attorney_general_2014.json",
       "rows": 8,
       "districts": 8,
-      "dem_total": 1014713,
-      "rep_total": 752542,
-      "other_total": 161722,
+      "dem_total": 1014714,
+      "rep_total": 752543,
+      "other_total": 161723,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.1984,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.8016
     },
     {
       "scope": "congressional",
@@ -203,12 +203,12 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 1249407,
-      "rep_total": 1150459,
+      "rep_total": 1150460,
       "other_total": 151905,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2946,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7054
     },
     {
       "scope": "congressional",
@@ -233,12 +233,12 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 901451,
-      "rep_total": 879022,
-      "other_total": 135928,
+      "rep_total": 879024,
+      "other_total": 135927,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.1964,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.8036
     },
     {
       "scope": "congressional",
@@ -247,13 +247,13 @@
       "file": "congressional_secretary_of_state_2018.json",
       "rows": 8,
       "districts": 8,
-      "dem_total": 1328501,
+      "dem_total": 1328502,
       "rep_total": 1109092,
       "other_total": 104927,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2952,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7048
     },
     {
       "scope": "congressional",
@@ -279,11 +279,11 @@
       "districts": 8,
       "dem_total": 988102,
       "rep_total": 766814,
-      "other_total": 163173,
+      "other_total": 163172,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.1993,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.8007
     },
     {
       "scope": "congressional",
@@ -298,7 +298,7 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2947,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7053
     },
     {
       "scope": "congressional",
@@ -322,12 +322,12 @@
       "file": "congressional_us_house_2012.json",
       "rows": 8,
       "districts": 8,
-      "dem_total": 1560985,
-      "rep_total": 1210410,
+      "dem_total": 1560984,
+      "rep_total": 1210409,
       "other_total": 41990,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 95.1139,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -338,11 +338,11 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 985760,
-      "rep_total": 913540,
+      "rep_total": 913539,
       "other_total": 52790,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 97.2114,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -353,11 +353,11 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 1434590,
-      "rep_total": 1334685,
+      "rep_total": 1334686,
       "other_total": 4376,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 96.7053,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -368,11 +368,11 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 1420769,
-      "rep_total": 1125531,
+      "rep_total": 1125533,
       "other_total": 4177,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 99.2897,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -382,12 +382,12 @@
       "file": "congressional_us_house_2020.json",
       "rows": 8,
       "districts": 8,
-      "dem_total": 1554372,
-      "rep_total": 1474819,
+      "dem_total": 1554373,
+      "rep_total": 1474820,
       "other_total": 164616,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 99.9999,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -399,10 +399,10 @@
       "districts": 8,
       "dem_total": 1250518,
       "rep_total": 1200855,
-      "other_total": 44458,
+      "other_total": 44459,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 87.2213,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -413,11 +413,11 @@
       "rows": 8,
       "districts": 8,
       "dem_total": 1579742,
-      "rep_total": 1550498,
+      "rep_total": 1550499,
       "other_total": 7029,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 87.224,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -427,13 +427,13 @@
       "file": "state_house_president_2012.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1546165,
-      "rep_total": 1320227,
-      "other_total": 70169,
+      "dem_total": 1546158,
+      "rep_total": 1320223,
+      "other_total": 70170,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 95.1215,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 4.8785
     },
     {
       "scope": "state_house",
@@ -442,13 +442,13 @@
       "file": "state_house_president_2016.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1367715,
-      "rep_total": 1322950,
-      "other_total": 254144,
+      "dem_total": 1367716,
+      "rep_total": 1322948,
+      "other_total": 254143,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 96.7302,
-      "county_fallback_pct": 0.1005
+      "county_fallback_pct": 3.2698
     },
     {
       "scope": "state_house",
@@ -458,12 +458,12 @@
       "rows": 134,
       "districts": 134,
       "dem_total": 1717075,
-      "rep_total": 1484063,
+      "rep_total": 1484062,
       "other_total": 76025,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.9999,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.0001
     },
     {
       "scope": "state_house",
@@ -487,13 +487,13 @@
       "file": "state_house_us_senate_2012.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1854597,
-      "rep_total": 867970,
-      "other_total": 120639,
+      "dem_total": 1854599,
+      "rep_total": 867975,
+      "other_total": 120640,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 95.111,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 4.889
     },
     {
       "scope": "state_house",
@@ -502,13 +502,13 @@
       "file": "state_house_us_senate_2014.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1053204,
-      "rep_total": 850225,
-      "other_total": 78102,
+      "dem_total": 1053210,
+      "rep_total": 850230,
+      "other_total": 78101,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.2085,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.7915
     },
     {
       "scope": "state_house",
@@ -519,11 +519,11 @@
       "districts": 134,
       "dem_total": 1566178,
       "rep_total": 940438,
-      "other_total": 90266,
+      "other_total": 90265,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2937,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7063
     },
     {
       "scope": "state_house",
@@ -532,13 +532,13 @@
       "file": "state_house_us_senate_2020.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1566527,
+      "dem_total": 1566528,
       "rep_total": 1398147,
       "other_total": 249588,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.9999,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.0001
     },
     {
       "scope": "state_house",
@@ -563,12 +563,12 @@
       "rows": 134,
       "districts": 134,
       "dem_total": 989111,
-      "rep_total": 879261,
-      "other_total": 107030,
+      "rep_total": 879262,
+      "other_total": 107035,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.2071,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.7929
     },
     {
       "scope": "state_house",
@@ -577,13 +577,13 @@
       "file": "state_house_governor_2018.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1393094,
-      "rep_total": 1097705,
-      "other_total": 96484,
+      "dem_total": 1393096,
+      "rep_total": 1097704,
+      "other_total": 96483,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2929,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7071
     },
     {
       "scope": "state_house",
@@ -607,13 +607,13 @@
       "file": "state_house_attorney_general_2014.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1014711,
-      "rep_total": 752542,
-      "other_total": 161723,
+      "dem_total": 1014710,
+      "rep_total": 752541,
+      "other_total": 161722,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.1984,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.8016
     },
     {
       "scope": "state_house",
@@ -622,13 +622,13 @@
       "file": "state_house_attorney_general_2018.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1249405,
+      "dem_total": 1249410,
       "rep_total": 1150457,
-      "other_total": 151910,
+      "other_total": 151911,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2946,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7054
     },
     {
       "scope": "state_house",
@@ -652,13 +652,13 @@
       "file": "state_house_secretary_of_state_2014.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 901450,
-      "rep_total": 879020,
-      "other_total": 135925,
+      "dem_total": 901448,
+      "rep_total": 879019,
+      "other_total": 135930,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.1964,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.8036
     },
     {
       "scope": "state_house",
@@ -667,13 +667,13 @@
       "file": "state_house_secretary_of_state_2018.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1328500,
-      "rep_total": 1109088,
+      "dem_total": 1328502,
+      "rep_total": 1109089,
       "other_total": 104927,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2952,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7048
     },
     {
       "scope": "state_house",
@@ -697,13 +697,13 @@
       "file": "state_house_auditor_2014.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 988102,
-      "rep_total": 766809,
-      "other_total": 163172,
+      "dem_total": 988101,
+      "rep_total": 766811,
+      "other_total": 163174,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 97.1993,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 2.8007
     },
     {
       "scope": "state_house",
@@ -713,12 +713,12 @@
       "rows": 134,
       "districts": 134,
       "dem_total": 1250527,
-      "rep_total": 1095308,
+      "rep_total": 1095310,
       "other_total": 188110,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.2947,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.7053
     },
     {
       "scope": "state_house",
@@ -742,12 +742,12 @@
       "file": "state_house_state_house_2012.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1468367,
-      "rep_total": 1233218,
-      "other_total": 23505,
+      "dem_total": 1468364,
+      "rep_total": 1233214,
+      "other_total": 23503,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 95.1146,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -757,12 +757,12 @@
       "file": "state_house_state_house_2014.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 944955,
-      "rep_total": 958668,
-      "other_total": 9303,
+      "dem_total": 944961,
+      "rep_total": 958667,
+      "other_total": 9301,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 97.2221,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -770,14 +770,14 @@
       "contest_type": "state_house",
       "year": 2016,
       "file": "state_house_state_house_2016.json",
-      "rows": 134,
-      "districts": 134,
-      "dem_total": 1366377,
+      "rows": 133,
+      "districts": 133,
+      "dem_total": 1366375,
       "rep_total": 1400587,
-      "other_total": 6733,
+      "other_total": 6734,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 96.7738,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -787,12 +787,12 @@
       "file": "state_house_state_house_2018.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1388939,
-      "rep_total": 1151134,
-      "other_total": 3926,
+      "dem_total": 1388938,
+      "rep_total": 1151135,
+      "other_total": 3925,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 99.2907,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -803,11 +803,11 @@
       "rows": 134,
       "districts": 134,
       "dem_total": 1602023,
-      "rep_total": 1511546,
+      "rep_total": 1511548,
       "other_total": 24234,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 100.0,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -817,12 +817,12 @@
       "file": "state_house_state_house_2022.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1237521,
-      "rep_total": 1173657,
-      "other_total": 19396,
+      "dem_total": 1237520,
+      "rep_total": 1173659,
+      "other_total": 19394,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 87.1969,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -832,12 +832,12 @@
       "file": "state_house_state_house_2024.json",
       "rows": 134,
       "districts": 134,
-      "dem_total": 1545214,
-      "rep_total": 1519273,
-      "other_total": 7813,
+      "dem_total": 1545212,
+      "rep_total": 1519279,
+      "other_total": 7814,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 87.202,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -847,13 +847,13 @@
       "file": "state_senate_president_2012.json",
       "rows": 67,
       "districts": 67,
-      "dem_total": 1546169,
-      "rep_total": 1320225,
-      "other_total": 70168,
+      "dem_total": 1546173,
+      "rep_total": 1320220,
+      "other_total": 70170,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 95.1215,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 4.8785
     },
     {
       "scope": "state_senate",
@@ -862,13 +862,13 @@
       "file": "state_senate_president_2016.json",
       "rows": 67,
       "districts": 67,
-      "dem_total": 1367719,
-      "rep_total": 1322949,
-      "other_total": 254148,
+      "dem_total": 1367713,
+      "rep_total": 1322954,
+      "other_total": 254146,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 96.7302,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 3.2698
     },
     {
       "scope": "state_senate",
@@ -883,7 +883,7 @@
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.9999,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.0001
     },
     {
       "scope": "state_senate",
@@ -907,13 +907,13 @@
       "file": "state_senate_us_senate_2012.json",
       "rows": 67,
       "districts": 67,
-      "dem_total": 1854596,
-      "rep_total": 867973,
-      "other_total": 120639,
+      "dem_total": 1854595,
+      "rep_total": 867975,
+      "other_total": 120637,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 95.111,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 4.889
     },
     {
       "scope": "state_senate",
@@ -953,12 +953,12 @@
       "rows": 67,
       "districts": 67,
       "dem_total": 1566520,
-      "rep_total": 1398147,
+      "rep_total": 1398146,
       "other_total": 249589,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
       "crosswalk_match_pct": 99.9999,
-      "county_fallback_pct": 0.0
+      "county_fallback_pct": 0.0001
     },
     {
       "scope": "state_senate",
@@ -1162,12 +1162,12 @@
       "file": "state_senate_state_senate_2012.json",
       "rows": 67,
       "districts": 67,
-      "dem_total": 1532067,
-      "rep_total": 1193354,
-      "other_total": 13354,
+      "dem_total": 1532065,
+      "rep_total": 1193356,
+      "other_total": 13353,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 95.0869,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -1177,12 +1177,12 @@
       "file": "state_senate_state_senate_2016.json",
       "rows": 67,
       "districts": 67,
-      "dem_total": 1409771,
-      "rep_total": 1377129,
-      "other_total": 5963,
+      "dem_total": 1409775,
+      "rep_total": 1377128,
+      "other_total": 5964,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 96.7193,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -1190,14 +1190,14 @@
       "contest_type": "state_senate",
       "year": 2018,
       "file": "state_senate_state_senate_2018.json",
-      "rows": 3,
-      "districts": 3,
+      "rows": 1,
+      "districts": 1,
       "dem_total": 16108,
       "rep_total": 21714,
       "other_total": 20,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 100.0,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -1207,12 +1207,12 @@
       "file": "state_senate_state_senate_2020.json",
       "rows": 67,
       "districts": 67,
-      "dem_total": 1578276,
-      "rep_total": 1533022,
-      "other_total": 56629,
+      "dem_total": 1578278,
+      "rep_total": 1533021,
+      "other_total": 56630,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 99.9999,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -1223,11 +1223,11 @@
       "rows": 67,
       "districts": 67,
       "dem_total": 1239682,
-      "rep_total": 1180255,
-      "other_total": 25145,
+      "rep_total": 1180254,
+      "other_total": 25143,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 87.207,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     },
     {
@@ -1235,14 +1235,14 @@
       "contest_type": "state_senate",
       "year": 2024,
       "file": "state_senate_state_senate_2024.json",
-      "rows": 3,
-      "districts": 3,
+      "rows": 1,
+      "districts": 1,
       "dem_total": 29791,
-      "rep_total": 26968,
-      "other_total": 57,
+      "rep_total": 26969,
+      "other_total": 58,
       "major_party_contested": true,
       "match_coverage_pct": 100.0,
-      "crosswalk_match_pct": 85.7598,
+      "crosswalk_match_pct": 0.0,
       "county_fallback_pct": 0.0
     }
   ]

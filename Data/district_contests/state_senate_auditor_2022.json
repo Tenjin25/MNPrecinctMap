@@ -881,7 +881,7 @@
   "meta": {
     "source_file": "20221108__mn__general__precinct.csv",
     "crosswalk_file": "precinct_to_2022_state_senate.csv",
-    "generated_at_utc": "2026-03-22T20:43:04Z",
+    "generated_at_utc": "2026-03-22T20:53:06Z",
     "total_input_votes": 2460932,
     "crosswalk_matched_votes": 2146566,
     "fallback_matched_votes": 314366,

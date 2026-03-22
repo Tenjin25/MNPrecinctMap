@@ -687,6 +687,12 @@ def main() -> None:
                         or (scope == "state_senate" and contest_type == "state_senate")
                     )
 
+                    if is_scope_district_contest:
+                        fallback_district = normalize_fallback_district(contest_type, district_raw)
+                        if fallback_district:
+                            allocations = [(fallback_district, 1.0)]
+                            used_fallback = True
+
                     if not allocations and precinct_key:
                         allocations = cw.by_precinct.get(precinct_key, [])
                         if allocations:
@@ -699,7 +705,7 @@ def main() -> None:
                             used_fallback = True
 
                     if not allocations and not is_scope_district_contest:
-                        if precinct_alias:
+                        if precinct_alias and year >= 2022:
                             native_alloc = native_precinct_fallbacks.get(scope, {}).get(precinct_alias, [])
                             if native_alloc:
                                 allocations = native_alloc
