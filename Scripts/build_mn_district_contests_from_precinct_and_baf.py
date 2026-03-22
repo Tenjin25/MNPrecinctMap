@@ -81,6 +81,12 @@ SCOPE_CONTESTS = {
     },
 }
 
+NATIVE_CONTEST_BY_SCOPE = {
+    "congressional": "us_house",
+    "state_house": "state_house",
+    "state_senate": "state_senate",
+}
+
 SCOPE_ORDER = {"congressional": 0, "state_house": 1, "state_senate": 2}
 CONTEST_ORDER = {
     "president": 0,
@@ -151,9 +157,13 @@ def normalize_precinct_token(value: str | None) -> str:
     if token == "":
         return ""
     token = token.replace("&", " AND ")
+    token = re.sub(r"\bSAINT\b", "ST", token)
+    token = re.sub(r"\bSTE\.?\b", "ST", token)
     token = token.replace("TOWNSHIP", "TWP")
     token = token.replace("TWP.", "TWP")
     token = token.replace("UNORGANIZED", "UNORG")
+    token = re.sub(r"\bHEIGHTS\b", "HTS", token)
+    token = re.sub(r"\bCITY\b", "", token)
     token = re.sub(r"\bWARD\b", "W", token)
     token = re.sub(r"\bPRECINCT\b", "P", token)
     token = re.sub(r"\bPCT\b", "P", token)
@@ -454,6 +464,67 @@ def resolve_precinct_key(county: str, precinct: str, alias_map: dict[str, str]) 
     return ""
 
 
+def build_native_precinct_fallback_weights(
+    precinct_csv: Path,
+    *,
+    include_non_geographic: bool,
+) -> dict[str, dict[str, list[tuple[str, float]]]]:
+    votes_by_scope_precinct_district: dict[str, dict[str, dict[str, float]]] = {
+        scope: defaultdict(lambda: defaultdict(float)) for scope in NATIVE_CONTEST_BY_SCOPE
+    }
+
+    with precinct_csv.open(newline="", encoding="utf-8-sig") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            county = clean(row.get("county"))
+            precinct = clean(row.get("precinct"))
+            office = normalize_office(row.get("office"))
+            contest_type = OFFICE_TO_CONTEST.get(office)
+            if not county or not precinct or not contest_type:
+                continue
+
+            if is_non_geographic_county(county):
+                continue
+
+            party = clean(row.get("party")).upper()
+            if party in SKIP_PARTIES:
+                continue
+
+            votes = parse_int(row.get("votes"))
+            if votes <= 0:
+                continue
+
+            if (not include_non_geographic) and is_non_geographic_precinct(precinct):
+                continue
+
+            precinct_alias = make_alias_key(county, precinct)
+            if precinct_alias == "":
+                continue
+
+            district_raw = clean(row.get("district"))
+            for scope, native_contest in NATIVE_CONTEST_BY_SCOPE.items():
+                if contest_type != native_contest:
+                    continue
+                district = normalize_fallback_district(contest_type, district_raw)
+                if district == "":
+                    continue
+                votes_by_scope_precinct_district[scope][precinct_alias][district] += votes
+
+    out: dict[str, dict[str, list[tuple[str, float]]]] = {}
+    for scope, precinct_bucket in votes_by_scope_precinct_district.items():
+        scope_allocs: dict[str, list[tuple[str, float]]] = {}
+        for precinct_alias, district_votes in precinct_bucket.items():
+            total = sum(district_votes.values())
+            if total <= 0:
+                continue
+            allocs = [(district, votes / total) for district, votes in district_votes.items() if votes > 0]
+            allocs.sort(key=lambda x: district_sort_key(x[0]))
+            if allocs:
+                scope_allocs[precinct_alias] = allocs
+        out[scope] = scope_allocs
+    return out
+
+
 def load_year_files(data_dir: Path, year_min: int, year_max: int) -> list[Path]:
     out: list[Path] = []
     for path in sorted(data_dir.glob("*__mn__general__precinct.csv")):
@@ -556,6 +627,10 @@ def main() -> None:
     for precinct_csv in year_files:
         year = int(precinct_csv.name[:4])
         accum: dict[tuple[str, str], DistrictAccumulator] = {}
+        native_precinct_fallbacks = build_native_precinct_fallback_weights(
+            precinct_csv,
+            include_non_geographic=args.include_non_geographic,
+        )
 
         def get_acc(scope: str, contest_type: str) -> DistrictAccumulator:
             key = (scope, contest_type)
@@ -590,6 +665,7 @@ def main() -> None:
                 bucket = classify_party(party)
                 candidate = clean(row.get("candidate"))
                 district_raw = clean(row.get("district"))
+                precinct_alias = make_alias_key(county, precinct)
                 precinct_key = resolve_precinct_key(county, precinct, alias_map)
 
                 for scope, allowed in SCOPE_CONTESTS.items():
@@ -611,16 +687,23 @@ def main() -> None:
                         or (scope == "state_senate" and contest_type == "state_senate")
                     )
 
-                    if is_scope_district_contest:
+                    if not allocations and precinct_key:
+                        allocations = cw.by_precinct.get(precinct_key, [])
+                        if allocations:
+                            used_crosswalk = True
+
+                    if not allocations and is_scope_district_contest:
                         fallback_district = normalize_fallback_district(contest_type, district_raw)
                         if fallback_district:
                             allocations = [(fallback_district, 1.0)]
                             used_fallback = True
 
-                    if not allocations and precinct_key:
-                        allocations = cw.by_precinct.get(precinct_key, [])
-                        if allocations:
-                            used_crosswalk = True
+                    if not allocations and not is_scope_district_contest:
+                        if precinct_alias:
+                            native_alloc = native_precinct_fallbacks.get(scope, {}).get(precinct_alias, [])
+                            if native_alloc:
+                                allocations = native_alloc
+                                used_fallback = True
 
                     if not allocations and not is_scope_district_contest:
                         county_alloc = cw.county_district_weights.get(normalize_county_token(county), [])
