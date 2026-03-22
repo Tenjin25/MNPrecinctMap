@@ -6996,7 +6996,13 @@ document.addEventListener('DOMContentLoaded', function() {
         : (winnerParty === 'dem'
           ? formatVoteCounterCandidateLabel(resolvedCandidates.demCandidate, 'D', 'Democratic')
           : 'Tie');
-      const leadLabel = focusLeadMarginLabel(r, d, total);
+      const leadLabel = compactWinnerMarginLabel(
+        r,
+        d,
+        total,
+        resolvedCandidates.repCandidate,
+        resolvedCandidates.demCandidate
+      );
 
       winnerEl.textContent = winnerLabel;
       winnerEl.className = `focus-pill-value ${winnerParty}`;
@@ -9023,10 +9029,13 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function compactWinnerMarginLabel(repVotes, demVotes, totalVotes, repCandidate, demCandidate) {
-      const margin = Number(repVotes || 0) - Number(demVotes || 0);
-      const pctLabel = `${marginPctValue(repVotes, demVotes, totalVotes).toFixed(2)}%`;
+      const rep = Number(repVotes || 0);
+      const dem = Number(demVotes || 0);
+      const margin = rep - dem;
       if (!margin) return 'Tie';
-      return pctLabel;
+      const pctLabel = `${marginPctValue(rep, dem, totalVotes).toFixed(2)}%`;
+      if (margin > 0) return `${shortCandidateLabel(repCandidate, 'Republican')} +${pctLabel}`;
+      return `${shortCandidateLabel(demCandidate, 'Democratic')} +${pctLabel}`;
     }
 
     function winnerMarginLabel(repVotes, demVotes, totalVotes, repCandidate, demCandidate) {
@@ -9303,7 +9312,13 @@ document.addEventListener('DOMContentLoaded', function() {
         : (winnerParty === 'dem'
           ? formatVoteCounterCandidateLabel(resolvedCandidates.demCandidate, 'D', 'Democratic')
           : 'Tie');
-      const leadLabel = focusLeadMarginLabel(r, d, total);
+      const leadLabel = compactWinnerMarginLabel(
+        r,
+        d,
+        total,
+        resolvedCandidates.repCandidate,
+        resolvedCandidates.demCandidate
+      );
 
       winnerEl.textContent = winnerLabel;
       winnerEl.className = `focus-pill-value ${winnerParty}`;
@@ -13522,7 +13537,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function getPreviousContestSlice(contestType, year) {
       const y = Number(year);
-      const candidates = [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
+      // Prefer the most recent prior cycle first for flip/shift baselines.
+      const candidates = [y - 2, y - 4, y - 6, y - 8, y - 12].filter(v => v >= 2000);
       for (const cy of candidates) {
         const rows = await tryLoadContestSliceStrict(contestType, cy);
         if (rows && rows.length) return { year: cy, rows };
@@ -13703,7 +13719,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     async function getPreviousDistrictSlice(scope, contestType, year) {
       const y = Number(year);
-      const candidates = [y - 4, y - 6, y - 2, y - 8, y - 12].filter(v => v >= 2000);
+      // Prefer the most recent prior cycle first for flip/shift baselines.
+      const candidates = [y - 2, y - 4, y - 6, y - 8, y - 12].filter(v => v >= 2000);
       for (const cy of candidates) {
         const node = await tryLoadDistrictSliceStrict(scope, contestType, cy);
         const results = node?.general?.results || null;
