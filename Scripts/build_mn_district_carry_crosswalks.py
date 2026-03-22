@@ -10,6 +10,11 @@ from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 
+import shapefile
+from shapely.geometry import Point
+from shapely.geometry import shape as shapely_shape
+from shapely.strtree import STRtree
+
 
 @dataclass(frozen=True)
 class VtdRef:
@@ -58,12 +63,9 @@ def read_pipe_rows(zf: zipfile.ZipFile, member_name: str) -> list[dict[str, str]
     return rows
 
 
-def load_blockassign_maps(blockassign_zip: Path) -> tuple[dict[str, VtdRef], dict[str, str], dict[str, str], dict[str, str]]:
+def load_vtd_by_block(blockassign_zip: Path) -> dict[str, VtdRef]:
     with zipfile.ZipFile(blockassign_zip) as zf:
         vtd_rows = read_pipe_rows(zf, "BlockAssign_ST27_MN_VTD.txt")
-        cd_rows = read_pipe_rows(zf, "BlockAssign_ST27_MN_CD.txt")
-        sldl_rows = read_pipe_rows(zf, "BlockAssign_ST27_MN_SLDL.txt")
-        sldu_rows = read_pipe_rows(zf, "BlockAssign_ST27_MN_SLDU.txt")
 
     vtd_by_block: dict[str, VtdRef] = {}
     for row in vtd_rows:
@@ -73,24 +75,108 @@ def load_blockassign_maps(blockassign_zip: Path) -> tuple[dict[str, VtdRef], dic
         if block and countyfp and vtd:
             vtd_by_block[block] = VtdRef(countyfp=countyfp, vtdst20=vtd)
 
-    def dist_map(rows: list[dict[str, str]], normalize: str) -> dict[str, str]:
-        out: dict[str, str] = {}
-        for row in rows:
-            block = clean(row.get("BLOCKID"))
-            district = clean(row.get("DISTRICT"))
-            if not block or not district:
-                continue
-            if normalize == "int":
-                district = str(int(district))
-            elif normalize == "upper":
-                district = district.upper()
-            out[block] = district
-        return out
+    return vtd_by_block
 
-    cd_by_block = dist_map(cd_rows, "int")
-    sldl_by_block = dist_map(sldl_rows, "upper")
-    sldu_by_block = dist_map(sldu_rows, "int")
-    return vtd_by_block, cd_by_block, sldl_by_block, sldu_by_block
+
+@dataclass(frozen=True)
+class DistrictIndex:
+    geometries: list[object]
+    districts: list[str]
+    tree: STRtree
+
+
+def normalize_district_value(value: str, mode: str) -> str:
+    token = clean(value)
+    if token == "":
+        return ""
+    if mode == "int":
+        return str(int(token))
+    if mode == "upper":
+        return token.upper()
+    return token
+
+
+def load_district_index(shapefile_zip: Path, district_field: str, normalize_mode: str) -> DistrictIndex:
+    reader = shapefile.Reader(str(shapefile_zip))
+    fields = [f[0] for f in reader.fields[1:]]
+    if district_field not in fields:
+        raise ValueError(f"{district_field} not found in {shapefile_zip}")
+    dist_idx = fields.index(district_field)
+
+    geometries: list[object] = []
+    districts: list[str] = []
+    for shape_rec in reader.iterShapeRecords():
+        district = normalize_district_value(str(shape_rec.record[dist_idx]), normalize_mode)
+        if district == "":
+            continue
+        geom = shapely_shape(shape_rec.shape.__geo_interface__)
+        if geom.is_empty:
+            continue
+        geometries.append(geom)
+        districts.append(district)
+    return DistrictIndex(geometries=geometries, districts=districts, tree=STRtree(geometries))
+
+
+def locate_district(point: Point, index: DistrictIndex) -> str:
+    for idx in index.tree.query(point):
+        i = int(idx)
+        if index.geometries[i].covers(point):
+            return index.districts[i]
+    nearest = index.tree.query_nearest(point)
+    if getattr(nearest, "size", 0) > 0:
+        return index.districts[int(nearest[0])]
+    return ""
+
+
+def load_district_maps_from_tabblocks(
+    tabblocks_zip: Path,
+    vtd_by_block: dict[str, VtdRef],
+    cd_index: DistrictIndex,
+    house_index: DistrictIndex,
+    senate_index: DistrictIndex,
+) -> tuple[dict[str, str], dict[str, str], dict[str, str], dict[str, int]]:
+    reader = shapefile.Reader(str(tabblocks_zip))
+    fields = [f[0] for f in reader.fields[1:]]
+    geoid_idx = fields.index("GEOID20")
+    lon_idx = fields.index("INTPTLON20")
+    lat_idx = fields.index("INTPTLAT20")
+
+    cd_by_block: dict[str, str] = {}
+    house_by_block: dict[str, str] = {}
+    senate_by_block: dict[str, str] = {}
+    misses = {"cd": 0, "house": 0, "senate": 0}
+
+    for rec in reader.iterRecords():
+        block = clean(str(rec[geoid_idx]))
+        if block == "" or block not in vtd_by_block:
+            continue
+        try:
+            x = float(rec[lon_idx])
+            y = float(rec[lat_idx])
+        except (TypeError, ValueError):
+            continue
+
+        pt = Point(x, y)
+
+        cd = locate_district(pt, cd_index)
+        if cd:
+            cd_by_block[block] = cd
+        else:
+            misses["cd"] += 1
+
+        house = locate_district(pt, house_index)
+        if house:
+            house_by_block[block] = house
+        else:
+            misses["house"] += 1
+
+        senate = locate_district(pt, senate_index)
+        if senate:
+            senate_by_block[block] = senate
+        else:
+            misses["senate"] += 1
+
+    return cd_by_block, house_by_block, senate_by_block, misses
 
 
 def load_nhgis_2020_block_set(nhgis_zip: Path) -> set[str]:
@@ -185,16 +271,33 @@ def validate_weights(rows: list[dict[str, str]]) -> tuple[int, int]:
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Build MN precinct-to-district carryover crosswalk CSVs from Census BlockAssign files."
+        description=(
+            "Build MN precinct-to-district carryover crosswalk CSVs using BlockAssign for block->VTD "
+            "and current district geometries for district assignment."
+        )
     )
     parser.add_argument("--blockassign-zip", type=Path, default=Path("Data/BlockAssign_ST27_MN.zip"))
+    parser.add_argument("--tabblocks-zip", type=Path, default=Path("Data/tl_2020_27_tabblock20.zip"))
+    parser.add_argument("--cd-shapefile", type=Path, default=Path("Data/tl_2022_27_cd118.zip"))
+    parser.add_argument("--state-house-shapefile", type=Path, default=Path("Data/tl_2024_27_sldl.zip"))
+    parser.add_argument("--state-senate-shapefile", type=Path, default=Path("Data/tl_2024_27_sldu.zip"))
     parser.add_argument("--precincts-geojson", type=Path, default=Path("Data/precincts.geojson"))
     parser.add_argument("--nhgis-2020-2010-zip", type=Path, default=Path("Data/nhgis_blk2020_blk2010_27.zip"))
     parser.add_argument("--out-dir", type=Path, default=Path("Data/crosswalks"))
     args = parser.parse_args()
 
     precinct_key_map = load_precinct_key_map(args.precincts_geojson)
-    vtd_by_block, cd_by_block, sldl_by_block, sldu_by_block = load_blockassign_maps(args.blockassign_zip)
+    vtd_by_block = load_vtd_by_block(args.blockassign_zip)
+    cd_index = load_district_index(args.cd_shapefile, "CD118FP", "int")
+    house_index = load_district_index(args.state_house_shapefile, "SLDLST", "upper")
+    senate_index = load_district_index(args.state_senate_shapefile, "SLDUST", "int")
+    cd_by_block, sldl_by_block, sldu_by_block, misses = load_district_maps_from_tabblocks(
+        tabblocks_zip=args.tabblocks_zip,
+        vtd_by_block=vtd_by_block,
+        cd_index=cd_index,
+        house_index=house_index,
+        senate_index=senate_index,
+    )
 
     cd_rows = build_crosswalk_rows(vtd_by_block, cd_by_block, precinct_key_map)
     house_rows = build_crosswalk_rows(vtd_by_block, sldl_by_block, precinct_key_map)
@@ -224,7 +327,8 @@ def main() -> None:
         f"  precinct_to_2022_state_house.csv rows={len(house_rows)} precincts_ok={h_ok} precincts_bad={h_bad}\n"
         f"  precinct_to_2024_state_house.csv rows={len(house_rows)} precincts_ok={h_ok} precincts_bad={h_bad}\n"
         f"  precinct_to_2022_state_senate.csv rows={len(senate_rows)} precincts_ok={s_ok} precincts_bad={s_bad}\n"
-        f"  precinct_to_2024_state_senate.csv rows={len(senate_rows)} precincts_ok={s_ok} precincts_bad={s_bad}"
+        f"  precinct_to_2024_state_senate.csv rows={len(senate_rows)} precincts_ok={s_ok} precincts_bad={s_bad}\n"
+        f"  block-centroid misses: cd={misses['cd']} house={misses['house']} senate={misses['senate']}"
         f"{nhgis_note}"
     )
 
