@@ -9302,19 +9302,19 @@ document.addEventListener('DOMContentLoaded', function() {
         color = normalizedParty === 'rep' ? '#7f1d1d' : '#1e3a8a';
       } else if (pct >= 30) {
         tier = 'Dominant';
-        color = normalizedParty === 'rep' ? '#b91c1c' : '#1d4ed8';
+        color = normalizedParty === 'rep' ? '#7f1d1d' : '#1e3a8a';
       } else if (pct >= 20) {
         tier = 'Stronghold';
         color = normalizedParty === 'rep' ? '#dc2626' : '#2563eb';
       } else if (pct >= 10) {
         tier = 'Safe';
-        color = normalizedParty === 'rep' ? '#ef4444' : '#3b82f6';
+        color = normalizedParty === 'rep' ? '#dc2626' : '#3b82f6';
       } else if (pct >= 5.5) {
         tier = 'Likely';
-        color = normalizedParty === 'rep' ? '#f87171' : '#60a5fa';
+        color = normalizedParty === 'rep' ? '#ef4444' : '#60a5fa';
       } else if (pct >= 1.0) {
         tier = 'Lean';
-        color = normalizedParty === 'rep' ? '#fecaca' : '#93c5fd';
+        color = normalizedParty === 'rep' ? '#f87171' : '#93c5fd';
       } else if (pct >= 0.5) {
         tier = 'Tilt';
         color = normalizedParty === 'rep' ? '#fff1f2' : '#dbeafe';
@@ -9894,10 +9894,28 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function tierChipHTML(tierMeta) {
-      if (!tierMeta || !tierMeta.shortLabel) return '';
+      if (!tierMeta || !tierMeta.label) return '';
       const partyClass = tierMeta.party === 'rep' ? 'rep' : (tierMeta.party === 'dem' ? 'dem' : 'tie');
       const title = `${tierMeta.label} (${Number(tierMeta.marginPct || 0).toFixed(2)}%)`;
-      return `<span class="meta-chip tier ${partyClass}" title="${escapeHtml(title)}"><span class="dot"></span>${escapeHtml(tierMeta.shortLabel)}</span>`;
+      const chipColor = String(tierMeta.color || '#94a3b8').trim();
+      const hex = chipColor.replace('#', '');
+      let r = 148;
+      let g = 163;
+      let b = 184;
+      if (/^[0-9a-fA-F]{3}$/.test(hex)) {
+        r = parseInt(hex[0] + hex[0], 16);
+        g = parseInt(hex[1] + hex[1], 16);
+        b = parseInt(hex[2] + hex[2], 16);
+      } else if (/^[0-9a-fA-F]{6}$/.test(hex)) {
+        r = parseInt(hex.slice(0, 2), 16);
+        g = parseInt(hex.slice(2, 4), 16);
+        b = parseInt(hex.slice(4, 6), 16);
+      }
+      const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
+      const textColor = yiq >= 165 ? '#0f172a' : '#f8fafc';
+      const dotColor = yiq >= 165 ? 'rgba(15,23,42,0.78)' : 'rgba(248,250,252,0.96)';
+      const style = `background:${chipColor};border-color:${chipColor};color:${textColor};`;
+      return `<span class="meta-chip tier ${partyClass}" title="${escapeHtml(title)}" style="${style}"><span class="dot" style="background:${dotColor};"></span>${escapeHtml(tierMeta.label)}</span>`;
     }
 
     // Hover outline (stroke-only highlight) helpers.
