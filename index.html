@@ -9896,26 +9896,10 @@ document.addEventListener('DOMContentLoaded', function() {
     function tierChipHTML(tierMeta) {
       if (!tierMeta || !tierMeta.label) return '';
       const partyClass = tierMeta.party === 'rep' ? 'rep' : (tierMeta.party === 'dem' ? 'dem' : 'tie');
-      const title = `${tierMeta.label} (${Number(tierMeta.marginPct || 0).toFixed(2)}%)`;
-      const chipColor = String(tierMeta.color || '#94a3b8').trim();
-      const hex = chipColor.replace('#', '');
-      let r = 148;
-      let g = 163;
-      let b = 184;
-      if (/^[0-9a-fA-F]{3}$/.test(hex)) {
-        r = parseInt(hex[0] + hex[0], 16);
-        g = parseInt(hex[1] + hex[1], 16);
-        b = parseInt(hex[2] + hex[2], 16);
-      } else if (/^[0-9a-fA-F]{6}$/.test(hex)) {
-        r = parseInt(hex.slice(0, 2), 16);
-        g = parseInt(hex.slice(2, 4), 16);
-        b = parseInt(hex.slice(4, 6), 16);
-      }
-      const yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
-      const textColor = yiq >= 165 ? '#0f172a' : '#f8fafc';
-      const dotColor = yiq >= 165 ? 'rgba(15,23,42,0.78)' : 'rgba(248,250,252,0.96)';
-      const style = `background:${chipColor};border-color:${chipColor};color:${textColor};`;
-      return `<span class="meta-chip tier ${partyClass}" title="${escapeHtml(title)}" style="${style}"><span class="dot" style="background:${dotColor};"></span>${escapeHtml(tierMeta.label)}</span>`;
+      const pct = Math.abs(Number(tierMeta.marginPct || 0));
+      const winner = partyClass === 'rep' ? 'R' : (partyClass === 'dem' ? 'D' : 'T');
+      const dotColor = winner === 'T' ? '#9ca3af' : colorForMarginMode(pct, winner);
+      return `<span class="meta-chip tier"><span class="dot" style="background:${dotColor};"></span>${escapeHtml(tierMeta.label)}</span>`;
     }
 
     // Hover outline (stroke-only highlight) helpers.
