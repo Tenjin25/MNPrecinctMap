@@ -11984,8 +11984,15 @@ document.addEventListener('DOMContentLoaded', function() {
         const hasTextField = !!(layer.layout && Object.prototype.hasOwnProperty.call(layer.layout, 'text-field'));
         if (!hasTextField) return;
         const id = String(layer.id || '').toLowerCase();
-        const isSettlementLabel = /(settlement|place|city|town|village|locality|hamlet)/.test(id);
-        const isCountyLabel = /(county-label|(^|[-_])county([-_]|$)|(^|[-_])counties([-_]|$))/.test(id);
+        const sourceLayer = String(layer['source-layer'] || '').toLowerCase();
+        // Mapbox base styles usually put towns/cities in composite source-layers like `settlement_label` / `place_label`.
+        // Keep the id-regex match too, since some layers encode this directly in their ids.
+        const isSettlementLabel = /(settlement|place|city|town|village|locality|hamlet)/.test(id)
+          || /(settlement|place)[-_]?label/.test(sourceLayer)
+          || /(^|[-_])place(_|[-]|$)/.test(sourceLayer)
+          || /(^|[-_])settlement(_|[-]|$)/.test(sourceLayer);
+        const isCountyLabel = /(county-label|(^|[-_])county([-_]|$)|(^|[-_])counties([-_]|$))/.test(id)
+          || /(^|[-_])county(_|[-]|$)/.test(sourceLayer);
         if (!isSettlementLabel && !isCountyLabel) return;
         try {
           if (isSettlementLabel) {
