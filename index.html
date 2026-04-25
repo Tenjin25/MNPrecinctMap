@@ -6654,6 +6654,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let currentVizMode = 'margins'; // 'margins', 'winners', 'shift', 'flips'
     let previousElectionData = null; // For shift mode
     let precinctsEnabled = false;
+    // Match NCMap styling: default to the "focus" overlay opacity preset.
+    let overlayOpacityPreset = 'focus'; // reveal | balanced | focus
     let precinctSourceLoaded = false;
     let precinctLoadInFlight = false;
     let lastPrecinctFillExpr = null; // Cached fill-color expression for precinct overlay.
@@ -6673,6 +6675,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let hoverSuppressedUntil = 0;
     let appReady = false;
     let vizShiftCache = null; // { contestType, year, prevYear, prevPrecinctMarginByNorm: Map, prevCountyTotals: Object }
+    let labelHaloIdleQueued = false;
     const vizDistrictShiftCache = new Map(); // key: `${scope}_${contestType}_${year}` -> { prevYear, prevNode }
     let vizPrevCache = null; // { contestType, year, prevYear, prevPrecinctMarginByNorm: Map, prevCountyTotals: Object }
     const vizPrevDistrictCache = new Map(); // key: `${scope}_${contestType}_${year}` -> { prevYear, prevNode }
@@ -11832,13 +11835,11 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function isDataFocusModeForLabels() {
-      if (!hasActiveContestSelection()) return false;
-      const view = String(currentView || '').toLowerCase();
-      if (view === 'counties') return !precinctsEnabled;
-      return true;
+      return hasActiveContestSelection() && ((currentView === 'counties' && !precinctsEnabled) || (currentView !== 'counties'));
     }
 
-    function getOverlayOpacityPresetConfig(presetKey = 'reveal') {
+    function getOverlayOpacityPresetConfig(presetKey = null) {
+      const preset = String(presetKey || overlayOpacityPreset || 'reveal').toLowerCase();
       const presets = {
         reveal: {
           countyActive: 0.65,
@@ -11868,40 +11869,55 @@ document.addEventListener('DOMContentLoaded', function() {
           precinctDot: 0.88
         }
       };
-      return presets[String(presetKey || 'reveal').toLowerCase()] || presets.reveal;
+      return presets[preset] || presets.reveal;
     }
 
     function applyLayerOpacityTuning() {
       if (!map || !map.getLayer) return;
+      const preset = getOverlayOpacityPresetConfig();
       const contestIsActive = hasActiveContestSelection();
-      // Match NCMap "data focus" defaults: keep the map in focus-opacity mode even before a contest is selected.
-      const presetKey = 'focus';
-      const cfg = getOverlayOpacityPresetConfig(presetKey);
+      const useTurnoutOpacity = false;
+      let countyBaseOpacity = precinctsEnabled ? preset.countyWithPrecinct : preset.countyActive;
+      let districtBaseOpacity = preset.district;
+      let houseBaseOpacity = preset.house;
+      let senateBaseOpacity = preset.senate;
+      let precinctFillBaseOpacity = preset.precinctFill;
+      let precinctDotBaseOpacity = preset.precinctDot;
 
-      const countyOpacity = precinctsEnabled ? cfg.countyWithPrecinct : cfg.countyActive;
+      // Mirror NCMap: when no contest is active, keep fills faint so the basemap reads cleanly.
+      if (!contestIsActive) {
+        countyBaseOpacity = precinctsEnabled ? 0.04 : 0.08;
+        districtBaseOpacity = 0.10;
+        houseBaseOpacity = 0.10;
+        senateBaseOpacity = 0.10;
+        precinctFillBaseOpacity = 0.22;
+        precinctDotBaseOpacity = 0.62;
+      }
+
       if (map.getLayer('county-fill')) {
         if (!contestIsActive) {
           try { map.setPaintProperty('county-fill', 'fill-color', '#d9e3ef'); } catch (_) {}
         }
+        const countyOpacity = useTurnoutOpacity && !precinctsEnabled ? countyBaseOpacity : countyBaseOpacity;
         try {
           map.setPaintProperty('county-fill', 'fill-opacity', countyOpacity);
-          updateCountyLabelHaloForFillOpacity(countyOpacity);
+          updateCountyLabelHaloForFillOpacity(countyBaseOpacity);
         } catch (_) {}
       }
       if (map.getLayer('district-fill')) {
-        try { map.setPaintProperty('district-fill', 'fill-opacity', cfg.district); } catch (_) {}
+        try { map.setPaintProperty('district-fill', 'fill-opacity', useTurnoutOpacity ? districtBaseOpacity : districtBaseOpacity); } catch (_) {}
       }
       if (map.getLayer('state-house-fill')) {
-        try { map.setPaintProperty('state-house-fill', 'fill-opacity', cfg.house); } catch (_) {}
+        try { map.setPaintProperty('state-house-fill', 'fill-opacity', useTurnoutOpacity ? houseBaseOpacity : houseBaseOpacity); } catch (_) {}
       }
       if (map.getLayer('state-senate-fill')) {
-        try { map.setPaintProperty('state-senate-fill', 'fill-opacity', cfg.senate); } catch (_) {}
+        try { map.setPaintProperty('state-senate-fill', 'fill-opacity', useTurnoutOpacity ? senateBaseOpacity : senateBaseOpacity); } catch (_) {}
       }
       if (map.getLayer('precinct-fill')) {
         if (!contestIsActive) {
           try { map.setPaintProperty('precinct-fill', 'fill-color', '#cbd5e1'); } catch (_) {}
         }
-        try { map.setPaintProperty('precinct-fill', 'fill-opacity', cfg.precinctFill); } catch (_) {}
+        try { map.setPaintProperty('precinct-fill', 'fill-opacity', useTurnoutOpacity ? precinctFillBaseOpacity : precinctFillBaseOpacity); } catch (_) {}
       }
       if (map.getLayer('precinct-dot')) {
         if (!contestIsActive) {
@@ -11910,9 +11926,24 @@ document.addEventListener('DOMContentLoaded', function() {
             try { map.setPaintProperty('precinct-dot-missing', 'circle-color', '#94a3b8'); } catch (_) {}
           }
         }
-        try { map.setPaintProperty('precinct-dot', 'circle-opacity', cfg.precinctDot); } catch (_) {}
+        try { map.setPaintProperty('precinct-dot', 'circle-opacity', precinctDotBaseOpacity); } catch (_) {}
         if (map.getLayer('precinct-dot-missing')) {
-          try { map.setPaintProperty('precinct-dot-missing', 'circle-opacity', Math.min(1, cfg.precinctDot + 0.03)); } catch (_) {}
+          try { map.setPaintProperty('precinct-dot-missing', 'circle-opacity', Math.min(1, precinctDotBaseOpacity + 0.03)); } catch (_) {}
+        }
+      }
+
+      try { reinforceMapLabelHalos(); } catch (_) {}
+      try { reinforceDistrictLineStyles(); } catch (_) {}
+      if (!labelHaloIdleQueued && map && typeof map.once === 'function') {
+        labelHaloIdleQueued = true;
+        try {
+          map.once('idle', () => {
+            labelHaloIdleQueued = false;
+            try { reinforceMapLabelHalos(); } catch (_) {}
+            try { reinforceDistrictLineStyles(); } catch (_) {}
+          });
+        } catch (_) {
+          labelHaloIdleQueued = false;
         }
       }
     }
@@ -11932,9 +11963,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function reinforceMapLabelHalos() {
-      // Match NCMap "data focus" defaults: keep stronger label halos on by default.
-      // (If you later add an overlay preset selector, this can key off that state.)
-      const heavyOverlay = true;
+      const heavyOverlay = isDataFocusModeForLabels();
       const settlementTextColor = 'rgba(15, 23, 42, 0.94)';
       const settlementTextOpacity = heavyOverlay ? 1.0 : 0.96;
       const settlementHaloColor = heavyOverlay ? 'rgba(255, 255, 255, 0.97)' : 'rgba(255, 255, 255, 0.92)';
@@ -11974,9 +12003,6 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         } catch (_) {}
       });
-
-      try { reinforceDistrictLineStyles(); } catch (_) {}
-      try { applyLayerOpacityTuning(); } catch (_) {}
     }
 
     async function togglePrecinctOverlay() {
@@ -14299,7 +14325,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!contestKey) {
         lastCompletedContestSelection = '';
         updateContextBanner();
-        try { reinforceMapLabelHalos(); } catch (_) {}
+        try { applyLayerOpacityTuning(); } catch (_) {}
         return setStatus('Select a contest');
       }
 
@@ -14342,7 +14368,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (isStaleSelection()) return;
       updateContextBanner();
       await refreshHoverAtPointer();
-      try { reinforceMapLabelHalos(); } catch (_) {}
+      try { applyLayerOpacityTuning(); } catch (_) {}
       try { saveUIState(); } catch (_) {}
     }
 
