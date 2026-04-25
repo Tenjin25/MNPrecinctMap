@@ -53,6 +53,12 @@ Use this for fast comparative analysis:
 - Click-to-zoom for all map layers.
 - Feature details panel with vote totals, winner, and margin.
 - Colorblind mode toggle.
+- Precinct overlay can inherit county colors when a precinct key is unmatched (helps avoid gray “holes” when precinct IDs differ between sources).
+
+### Map Styling Notes
+
+- Town/city label halos are reinforced for readability over data fills (stronger opacity when a contest is selected).
+- District boundaries use a two-stroke “casing + inner line” treatment (congressional, state house, state senate) with zoom-scaled opacity/width for cleaner readability.
 
 ## Scope and Coverage
 

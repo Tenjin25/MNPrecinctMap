@@ -9020,6 +9020,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (map.getLayer(`${type}-fill`)) {
           map.removeLayer(`${type}-fill`);
         }
+        if (map.getLayer(`${type}-stroke-casing`)) {
+          map.removeLayer(`${type}-stroke-casing`);
+        }
         if (map.getLayer(`${type}-stroke`)) {
           map.removeLayer(`${type}-stroke`);
         }
@@ -9042,6 +9045,8 @@ document.addEventListener('DOMContentLoaded', function() {
       } else if (view === 'state_senate') {
         addStateSenateLayers();
       }
+      try { reinforceMapLabelHalos(); } catch (_) {}
+      try { reinforceDistrictLineStyles(); } catch (_) {}
       
       // Repopulate contest selector
       updateContestSelectForCurrentView();
@@ -11556,6 +11561,11 @@ document.addEventListener('DOMContentLoaded', function() {
             precinctCentroidsData.features = (precinctCentroidsData.features || []).map(f => {
               const p = f.properties || {};
               const county = (p.county_nam || p.COUNTYNAME || p.County || p.NAME || '').toString().trim();
+              const countyNorm = (county || '').toString()
+                .replace(/[^a-z0-9 .\-]/gi, '')
+                .replace(/\s+/g, ' ')
+                .trim()
+                .toUpperCase();
               const prec = (p.prec_id || p.PREC_ID || '').toString().trim();
               const norm = (p.precinct_norm || (county && prec ? `${county} - ${prec}` : '')).toString()
                 .replace(/[^a-z0-9 .\-]/gi, '')
@@ -11565,6 +11575,7 @@ document.addEventListener('DOMContentLoaded', function() {
               f.properties = {
                 ...p,
                 county_nam: county || p.county_nam || '',
+                county_norm: countyNorm,
                 prec_id: prec || p.prec_id || '',
                 precinct_norm: norm,
                 has_polygon: !!(norm && precinctPolygonNormSet && precinctPolygonNormSet.has(norm))
@@ -11814,6 +11825,68 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
+    function hasActiveContestSelection() {
+      const key = (document.getElementById('contestSelect')?.value || '').toString().trim();
+      return !!key;
+    }
+
+    function updateCountyLabelHaloForFillOpacity(fillOpacity) {
+      if (!map.getLayer('county-label')) return;
+      const oRaw = Number(fillOpacity);
+      const o = Number.isFinite(oRaw) ? Math.max(0, Math.min(1, oRaw)) : 0.82;
+      const haloAlpha = o >= 0.6 ? 0.86 : (o >= 0.25 ? 0.72 : 0.58);
+      const haloWidth = o >= 0.6 ? 1.8 : (o >= 0.25 ? 1.4 : 1.05);
+      const haloBlur = o >= 0.6 ? 0.55 : 0.45;
+      try {
+        map.setPaintProperty('county-label', 'text-halo-color', `rgba(255, 255, 255, ${haloAlpha})`);
+        map.setPaintProperty('county-label', 'text-halo-width', haloWidth);
+        map.setPaintProperty('county-label', 'text-halo-blur', haloBlur);
+      } catch (_) {}
+    }
+
+    function reinforceMapLabelHalos() {
+      const dataFocus = hasActiveContestSelection();
+      const settlementTextColor = 'rgba(15, 23, 42, 0.94)';
+      const settlementTextOpacity = dataFocus ? 1.0 : 0.96;
+      const settlementHaloColor = dataFocus ? 'rgba(255, 255, 255, 0.97)' : 'rgba(255, 255, 255, 0.92)';
+      const settlementHaloWidth = dataFocus ? 2.25 : 1.9;
+      const settlementHaloBlur = dataFocus ? 0.7 : 0.58;
+      const countyTextColor = 'rgba(15, 23, 42, 0.96)';
+      const countyTextOpacity = 1.0;
+      const countyHaloColor = dataFocus ? 'rgba(255, 255, 255, 0.94)' : 'rgba(255, 255, 255, 0.88)';
+      const countyHaloWidth = dataFocus ? 2.0 : 1.7;
+      const countyHaloBlur = dataFocus ? 0.62 : 0.52;
+
+      let layers = [];
+      try { layers = map.getStyle()?.layers || []; } catch (_) { layers = []; }
+      if (!layers.length) return;
+
+      layers.forEach(layer => {
+        if (!layer || layer.type !== 'symbol') return;
+        const hasTextField = !!(layer.layout && Object.prototype.hasOwnProperty.call(layer.layout, 'text-field'));
+        if (!hasTextField) return;
+        const id = String(layer.id || '').toLowerCase();
+        const isSettlementLabel = /(settlement|place|city|town|village|locality|hamlet)/.test(id);
+        const isCountyLabel = /(county-label|(^|[-_])county([-_]|$)|(^|[-_])counties([-_]|$))/.test(id);
+        if (!isSettlementLabel && !isCountyLabel) return;
+        try {
+          if (isSettlementLabel) {
+            map.setPaintProperty(layer.id, 'text-color', settlementTextColor);
+            map.setPaintProperty(layer.id, 'text-opacity', settlementTextOpacity);
+            map.setPaintProperty(layer.id, 'text-halo-color', settlementHaloColor);
+            map.setPaintProperty(layer.id, 'text-halo-width', settlementHaloWidth);
+            map.setPaintProperty(layer.id, 'text-halo-blur', settlementHaloBlur);
+          } else {
+            map.setPaintProperty(layer.id, 'text-color', countyTextColor);
+            map.setPaintProperty(layer.id, 'text-opacity', countyTextOpacity);
+            map.setPaintProperty(layer.id, 'text-halo-color', countyHaloColor);
+            map.setPaintProperty(layer.id, 'text-halo-width', countyHaloWidth);
+            map.setPaintProperty(layer.id, 'text-halo-blur', countyHaloBlur);
+          }
+        } catch (_) {}
+      });
+    }
+
     async function togglePrecinctOverlay() {
       precinctsEnabled = !precinctsEnabled;
       if (precinctsEnabled) {
@@ -11835,6 +11908,7 @@ document.addEventListener('DOMContentLoaded', function() {
       updatePrecinctVisibility();
       const contestKey = document.getElementById('contestSelect')?.value;
       if (contestKey) await applyContest(contestKey);
+      try { reinforceMapLabelHalos(); } catch (_) {}
       saveUIState();
     }
 
@@ -11845,21 +11919,29 @@ document.addEventListener('DOMContentLoaded', function() {
           id: 'district-fill', 
           type: 'fill', 
           source: 'districts', 
-          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.7 } 
+          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.58 } 
+        });
+        addLayerWithOptionalSourceLayer({ 
+          id: 'district-stroke-casing', 
+          type: 'line', 
+          source: 'districts', 
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: DISTRICT_LINE_STYLE.congressional.casing
         });
         addLayerWithOptionalSourceLayer({ 
           id: 'district-stroke', 
           type: 'line', 
           source: 'districts', 
-          paint: { 'line-color': '#1f2937', 'line-width': 2 } 
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: DISTRICT_LINE_STYLE.congressional.base
         });
         addLayerWithOptionalSourceLayer({ 
           id: 'district-stroke-hover', 
           type: 'line', 
           source: 'districts',
-          layout: { visibility: 'none' },
+          layout: { visibility: 'none', 'line-join': 'round', 'line-cap': 'round' },
           filter: ['==', ['get', '_'], '__'],
-          paint: { 'line-color': 'rgba(15, 23, 42, 0.55)', 'line-width': 4, 'line-opacity': 0.95 }
+          paint: DISTRICT_LINE_STYLE.congressional.hover
         });
         
         // Add click handler for districts with full trends popup
@@ -11951,21 +12033,29 @@ document.addEventListener('DOMContentLoaded', function() {
           id: 'state-house-fill', 
           type: 'fill', 
           source: 'state-house', 
-          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.6 } 
+          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.54 } 
+        });
+        addLayerWithOptionalSourceLayer({ 
+          id: 'state-house-stroke-casing', 
+          type: 'line', 
+          source: 'state-house', 
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: DISTRICT_LINE_STYLE.state_house.casing
         });
         addLayerWithOptionalSourceLayer({ 
           id: 'state-house-stroke', 
           type: 'line', 
           source: 'state-house', 
-          paint: { 'line-color': '#374151', 'line-width': 1 } 
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: DISTRICT_LINE_STYLE.state_house.base
         });
         addLayerWithOptionalSourceLayer({ 
           id: 'state-house-stroke-hover', 
           type: 'line', 
           source: 'state-house',
-          layout: { visibility: 'none' },
+          layout: { visibility: 'none', 'line-join': 'round', 'line-cap': 'round' },
           filter: ['==', ['get', '_'], '__'],
-          paint: { 'line-color': 'rgba(15, 23, 42, 0.55)', 'line-width': 3, 'line-opacity': 0.95 }
+          paint: DISTRICT_LINE_STYLE.state_house.hover
         });
         
         // Add click handler for state house districts with full trends popup
@@ -12055,21 +12145,29 @@ document.addEventListener('DOMContentLoaded', function() {
           id: 'state-senate-fill', 
           type: 'fill', 
           source: 'state-senate', 
-          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.65 } 
+          paint: { 'fill-color': '#e0e0e0', 'fill-opacity': 0.56 } 
+        });
+        addLayerWithOptionalSourceLayer({ 
+          id: 'state-senate-stroke-casing', 
+          type: 'line', 
+          source: 'state-senate', 
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: DISTRICT_LINE_STYLE.state_senate.casing
         });
         addLayerWithOptionalSourceLayer({ 
           id: 'state-senate-stroke', 
           type: 'line', 
           source: 'state-senate', 
-          paint: { 'line-color': '#4b5563', 'line-width': 1 } 
+          layout: { 'line-join': 'round', 'line-cap': 'round' },
+          paint: DISTRICT_LINE_STYLE.state_senate.base
         });
         addLayerWithOptionalSourceLayer({ 
           id: 'state-senate-stroke-hover', 
           type: 'line', 
           source: 'state-senate',
-          layout: { visibility: 'none' },
+          layout: { visibility: 'none', 'line-join': 'round', 'line-cap': 'round' },
           filter: ['==', ['get', '_'], '__'],
-          paint: { 'line-color': 'rgba(15, 23, 42, 0.55)', 'line-width': 3, 'line-opacity': 0.95 }
+          paint: DISTRICT_LINE_STYLE.state_senate.hover
         });
         
         // Add click handler for state senate districts with full trends popup
@@ -12609,55 +12707,169 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function handleCountySelection(countyName) {
       // Find and zoom to the county using countiesData and Turf.js
-      // Prefer the authoritative source: window.countiesData if present, otherwise try map source
-      const src = (window.countiesData && window.countiesData.features) ? window.countiesData : (map.getSource && map.getSource('counties') && (map.getSource('counties')._data || map.getSource('counties').data)) || null;
-      if (countyName && src && src.features) {
-        // Normalize input for matching
-        function normalize(name) {
-          return (name || '').toString().replace(/[^a-z0-9 ]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
-        }
-        const normTarget = normalize(countyName);
-        let found = false;
-        // First try exact match
+      // Prefer the authoritative source: window.countiesData if present, otherwise try map source.
+      const src = (window.countiesData && window.countiesData.features)
+        ? window.countiesData
+        : ((map.getSource && map.getSource('counties') && (map.getSource('counties')._data || map.getSource('counties').data)) || null);
+
+      if (!countyName || !src || !src.features) return;
+
+      function normalize(name) {
+        return (name || '').toString().replace(/[^a-z0-9 ]/gi, '').replace(/\s+/g, ' ').trim().toUpperCase();
+      }
+
+      const normTarget = normalize(countyName);
+      let found = null;
+
+      // First try exact match.
+      src.features.forEach(f => {
+        const props = f.properties || {};
+        const rawName = props.NAME20 || props.NAMELSAD20 || props.county_name || props.County || props.COUNTYNAME || props.NAME || props.name || '';
+        const n = normalize(rawName);
+        if (n === normTarget) found = f;
+      });
+
+      // If no exact match, try containment (user types 'Jackson' vs 'Jackson County').
+      if (!found) {
         src.features.forEach(f => {
+          if (found) return;
           const props = f.properties || {};
           const rawName = props.NAME20 || props.NAMELSAD20 || props.county_name || props.County || props.COUNTYNAME || props.NAME || props.name || '';
           const n = normalize(rawName);
-          if (n === normTarget) {
-            found = f;
-          }
+          if (n.includes(normTarget) || normTarget.includes(n)) found = f;
         });
-        // If no exact match, try containment (user types 'Jackson' vs 'Jackson County')
-        if (!found) {
-          src.features.forEach(f => {
-            const props = f.properties || {};
-            const rawName = props.NAME20 || props.NAMELSAD20 || props.county_name || props.County || props.COUNTYNAME || props.NAME || props.name || '';
-            const n = normalize(rawName);
-            if (n.indexOf(normTarget) !== -1 || normTarget.indexOf(n) !== -1) {
-              if (!found) found = f; // pick first sensible hit
-            }
-          });
-        }
-
-        if (found) {
-          const props = found.properties || {};
-          lastSelectedCounty = props.NAME20 || props.NAMELSAD20 || props.county_name || props.County || props.COUNTYNAME || props.NAME || props.name;
-          const bbox = turf.bbox(found);
-          debugLog('[DIAGNOSTIC] Matched county for', countyName, '->', lastSelectedCounty, 'bbox:', bbox);
-          syncFlySearchInputs(lastSelectedCounty);
-          setFlySearchFeedback('#10b981');
-          map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: 40, duration: 1000 });
-          showCountyDetails(lastSelectedCounty);
-          const sidebar = document.getElementById('sidebar');
-          if (sidebar && sidebar.classList.contains('minimized')) {
-            toggleSidebar();
-          }
-        } else {
-          console.warn('[DIAGNOSTIC] County not found:', countyName, 'normalized:', normTarget);
-          setFlySearchFeedback('#ef4444');
-          setStatus(`County "${countyName}" was not found on the map.`);
-        }
       }
+
+      if (found) {
+        const props = found.properties || {};
+        lastSelectedCounty = props.NAME20 || props.NAMELSAD20 || props.county_name || props.County || props.COUNTYNAME || props.NAME || props.name;
+        const bbox = turf.bbox(found);
+        debugLog('[DIAGNOSTIC] Matched county for', countyName, '->', lastSelectedCounty, 'bbox:', bbox);
+        syncFlySearchInputs(lastSelectedCounty);
+        setFlySearchFeedback('#10b981');
+        map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: 40, duration: 1000 });
+        showCountyDetails(lastSelectedCounty);
+        const sidebar = document.getElementById('sidebar');
+        if (sidebar && sidebar.classList.contains('minimized')) {
+          toggleSidebar();
+        }
+      } else {
+        console.warn('[DIAGNOSTIC] County not found:', countyName, 'normalized:', normTarget);
+        setFlySearchFeedback('#ef4444');
+        setStatus(`County "${countyName}" was not found on the map.`);
+      }
+    }
+
+    const DISTRICT_LINE_STYLE = (() => {
+      function zoomInterpLinear(pairs) {
+        const expr = ['interpolate', ['linear'], ['zoom']];
+        (pairs || []).forEach(([z, v]) => {
+          expr.push(Number(z), Number(v));
+        });
+        return expr;
+      }
+
+      // DRA-style progressive reveal: visible at lower zooms, strong light casing over dark fills,
+      // and a crisp charcoal inner stroke for all district types.
+      const baseStops = [4.0, 6.0, 7.5, 9.0, 11.0, 13.5];
+
+      function stops(values) {
+        return baseStops.map((z, i) => [z, values[i]]);
+      }
+
+      return {
+        congressional: {
+          casing: {
+            'line-color': 'rgba(248, 250, 252, 0.96)',
+            'line-opacity': zoomInterpLinear(stops([0.34, 0.42, 0.52, 0.66, 0.84, 0.94])),
+            'line-width': zoomInterpLinear(stops([1.70, 2.00, 2.26, 2.65, 3.16, 3.70])),
+            'line-blur': zoomInterpLinear(stops([0.52, 0.40, 0.28, 0.12, 0.0, 0.0]))
+          },
+          base: {
+            'line-color': '#1f2937',
+            'line-opacity': zoomInterpLinear(stops([0.26, 0.32, 0.40, 0.54, 0.72, 0.86])),
+            'line-width': zoomInterpLinear(stops([0.96, 1.12, 1.26, 1.50, 1.82, 2.10])),
+            'line-blur': zoomInterpLinear(stops([0.32, 0.24, 0.16, 0.06, 0.0, 0.0]))
+          },
+          hover: {
+            'line-color': 'rgba(15, 23, 42, 0.82)',
+            'line-opacity': 0.98,
+            'line-width': zoomInterpLinear(stops([2.1, 2.6, 3.1, 3.7, 4.5, 5.3])),
+            'line-blur': 0.0
+          }
+        },
+        state_senate: {
+          casing: {
+            'line-color': 'rgba(248, 250, 252, 0.95)',
+            'line-opacity': zoomInterpLinear(stops([0.32, 0.40, 0.50, 0.64, 0.82, 0.92])),
+            'line-width': zoomInterpLinear(stops([1.60, 1.90, 2.14, 2.52, 3.02, 3.50])),
+            'line-blur': zoomInterpLinear(stops([0.56, 0.44, 0.30, 0.12, 0.0, 0.0]))
+          },
+          base: {
+            'line-color': '#243244',
+            'line-opacity': zoomInterpLinear(stops([0.23, 0.29, 0.38, 0.52, 0.70, 0.84])),
+            'line-width': zoomInterpLinear(stops([0.88, 1.04, 1.18, 1.40, 1.72, 1.98])),
+            'line-blur': zoomInterpLinear(stops([0.34, 0.26, 0.18, 0.08, 0.0, 0.0]))
+          },
+          hover: {
+            'line-color': 'rgba(15, 23, 42, 0.82)',
+            'line-opacity': 0.98,
+            'line-width': zoomInterpLinear(stops([2.0, 2.4, 2.9, 3.4, 4.1, 4.9])),
+            'line-blur': 0.0
+          }
+        },
+        state_house: {
+          casing: {
+            'line-color': 'rgba(248, 250, 252, 0.94)',
+            'line-opacity': zoomInterpLinear(stops([0.30, 0.37, 0.46, 0.60, 0.78, 0.90])),
+            'line-width': zoomInterpLinear(stops([1.48, 1.76, 1.98, 2.34, 2.78, 3.20])),
+            'line-blur': zoomInterpLinear(stops([0.60, 0.46, 0.32, 0.14, 0.0, 0.0]))
+          },
+          base: {
+            'line-color': '#2b3a4d',
+            'line-opacity': zoomInterpLinear(stops([0.21, 0.27, 0.36, 0.48, 0.66, 0.82])),
+            'line-width': zoomInterpLinear(stops([0.82, 0.98, 1.10, 1.30, 1.58, 1.80])),
+            'line-blur': zoomInterpLinear(stops([0.36, 0.28, 0.20, 0.08, 0.0, 0.0]))
+          },
+          hover: {
+            'line-color': 'rgba(15, 23, 42, 0.82)',
+            'line-opacity': 0.98,
+            'line-width': zoomInterpLinear(stops([1.9, 2.3, 2.7, 3.2, 3.9, 4.7])),
+            'line-blur': 0.0
+          }
+        }
+      };
+    })();
+
+    function applyDistrictStrokeStyle(layerId, scope, { variant = 'base' } = {}) {
+      if (!map || !layerId || !map.getLayer(layerId)) return;
+      const key = (scope || '').toString();
+      const spec = DISTRICT_LINE_STYLE[key];
+      if (!spec) return;
+      const paint = spec?.[variant] || spec.base;
+      try { map.setLayoutProperty(layerId, 'line-join', 'round'); } catch (_) {}
+      try { map.setLayoutProperty(layerId, 'line-cap', 'round'); } catch (_) {}
+      Object.keys(paint).forEach(prop => {
+        try { map.setPaintProperty(layerId, prop, paint[prop]); } catch (_) {}
+      });
+    }
+
+    function reinforceDistrictLineStyles() {
+      try {
+        applyDistrictStrokeStyle('district-stroke', 'congressional', { variant: 'base' });
+        applyDistrictStrokeStyle('district-stroke-casing', 'congressional', { variant: 'casing' });
+        applyDistrictStrokeStyle('district-stroke-hover', 'congressional', { variant: 'hover' });
+      } catch (_) {}
+      try {
+        applyDistrictStrokeStyle('state-house-stroke', 'state_house', { variant: 'base' });
+        applyDistrictStrokeStyle('state-house-stroke-casing', 'state_house', { variant: 'casing' });
+        applyDistrictStrokeStyle('state-house-stroke-hover', 'state_house', { variant: 'hover' });
+      } catch (_) {}
+      try {
+        applyDistrictStrokeStyle('state-senate-stroke', 'state_senate', { variant: 'base' });
+        applyDistrictStrokeStyle('state-senate-stroke-casing', 'state_senate', { variant: 'casing' });
+        applyDistrictStrokeStyle('state-senate-stroke-hover', 'state_senate', { variant: 'hover' });
+      } catch (_) {}
     }
 
     function getHistoricalTrends(countyName, isDistrict = false, districtNum = null) {
@@ -13509,6 +13721,7 @@ document.addEventListener('DOMContentLoaded', function() {
           countyNameMap = buildCountyNameMapFromGeoJSON(counties);
         }
         addCountyLayers();
+        try { reinforceMapLabelHalos(); } catch (_) {}
         await setupCountySearch();
         map.on('zoomend', updatePrecinctVisibility);
         setStatus('Counties loaded');
@@ -13905,15 +14118,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	              addKey(`${a}.${b}`);
 	            } else {
 	              // Alphanumeric codes with leading zeros like UNION "0020B" or "0044".
-	              const ma = baseToken.match(/^0*([0-9]{1,4})([A-Z]{0,2})$/);
+	              const ma = baseToken.match(/^0*([0-9]{1,6})([A-Z]{0,2})$/);
 	              if (ma) {
 	                const n = parseInt(ma[1], 10);
 	                const suf = (ma[2] || '').toUpperCase();
 	                if (!isNaN(n)) {
 	                  addKey(`${n}${suf}`);
-	                  addKey(`${String(n).padStart(2, '0')}${suf}`);
-	                  addKey(`${String(n).padStart(3, '0')}${suf}`);
-	                  addKey(`${String(n).padStart(4, '0')}${suf}`);
+	                  [2, 3, 4, 5, 6].forEach(w => addKey(`${String(n).padStart(w, '0')}${suf}`));
 	                }
 	              }
 	            }
@@ -13993,6 +14204,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!contestKey) {
         lastCompletedContestSelection = '';
         updateContextBanner();
+        try { reinforceMapLabelHalos(); } catch (_) {}
         return setStatus('Select a contest');
       }
 
@@ -14035,6 +14247,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (isStaleSelection()) return;
       updateContextBanner();
       await refreshHoverAtPointer();
+      try { reinforceMapLabelHalos(); } catch (_) {}
       try { saveUIState(); } catch (_) {}
     }
 
@@ -14122,7 +14335,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const tokenRaw = (baseToken || '').toString().trim().toUpperCase();
             const token = tokenRaw.replace(/[^A-Z0-9.\-]/g, '').trim();
             const tokenOk = token && (
-              /^[A-Z]{0,3}\d{1,4}(?:-\d{1,4})?[A-Z]{0,2}$/.test(token) ||
+              /^[A-Z]{0,3}\d{1,6}(?:-\d{1,6})?[A-Z]{0,2}$/.test(token) ||
               /^0*\d{1,3}\.\d{1,3}$/.test(token)
             );
             if (tokenOk) {
@@ -14137,21 +14350,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 const n = parseInt(token, 10);
                 if (!isNaN(n)) {
                   addKey(String(n));
-                  addKey(String(n).padStart(2, '0'));
-                  addKey(String(n).padStart(3, '0'));
-                  addKey(String(n).padStart(4, '0'));
+                  [2, 3, 4, 5, 6].forEach(w => addKey(String(n).padStart(w, '0')));
                 }
               }
               // Alphanumeric codes with leading zeros like UNION "0020B" or "0044".
-              const mu = token.match(/^0*([0-9]{1,4})([A-Z]{1,2})$/);
+              const mu = token.match(/^0*([0-9]{1,6})([A-Z]{1,2})$/);
               if (mu) {
                 const n = parseInt(mu[1], 10);
                 const suf = (mu[2] || '').toUpperCase();
                 if (!isNaN(n)) {
                   addKey(`${n}${suf}`);
-                  addKey(`${String(n).padStart(2, '0')}${suf}`);
-                  addKey(`${String(n).padStart(3, '0')}${suf}`);
-                  addKey(`${String(n).padStart(4, '0')}${suf}`);
+                  [2, 3, 4, 5, 6].forEach(w => addKey(`${String(n).padStart(w, '0')}${suf}`));
                 }
               }
               // Decimal codes like Buncombe "08.1".
@@ -14369,6 +14578,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       const expr = ['case'];
+      const countyColorByNorm = {};
       let countiesProcessed = 0;
       
       Object.keys(countyAgg).forEach(countyName => {
@@ -14399,6 +14609,8 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
           color = colorForMarginMode(marginPctAbs, winner === 'T' ? 'R' : winner);
         }
+
+        countyColorByNorm[countyName] = color;
         
         // Debug logging for first few entries
         if (countiesProcessed < 5) {
@@ -14431,7 +14643,9 @@ document.addEventListener('DOMContentLoaded', function() {
       // so precinct fills/dots remain visually primary.
       if (map.getLayer('county-fill')) {
         map.setPaintProperty('county-fill', 'fill-color', expr);
-        map.setPaintProperty('county-fill', 'fill-opacity', precinctsEnabled ? 0.10 : 0.82);
+        const countyFillOpacity = precinctsEnabled ? 0.10 : 0.82;
+        map.setPaintProperty('county-fill', 'fill-opacity', countyFillOpacity);
+        try { updateCountyLabelHaloForFillOpacity(countyFillOpacity); } catch (_) {}
       }
 
       // Flip mode: outline flipped counties in red/blue (to-winner), leave others subtle.
@@ -14469,6 +14683,17 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       // Optional precinct expression (detail overlay)
       if (needsPrecinctDetail) {
+        const fallbackByCounty = ['case'];
+        try {
+          Object.keys(countyColorByNorm).forEach(countyNorm => {
+            const color = countyColorByNorm[countyNorm];
+            if (!countyNorm || !color) return;
+            fallbackByCounty.push(['==', ['get', 'county_norm'], countyNorm]);
+            fallbackByCounty.push(color);
+          });
+        } catch (_) {}
+        fallbackByCounty.push('#d1d5db');
+
         const exprPrecinct = ['case'];
         contestData.forEach(row => {
           const precinctNames = precinctNormVariants(row.county);
@@ -14510,7 +14735,7 @@ document.addEventListener('DOMContentLoaded', function() {
             exprPrecinct.push(color);
           });
         });
-        exprPrecinct.push('#d1d5db');
+        exprPrecinct.push(fallbackByCounty);
         // Cache for later, in case precinct overlay loads after the contest is applied.
         lastPrecinctFillExpr = exprPrecinct;
         lastPrecinctDotExpr = exprPrecinct;
