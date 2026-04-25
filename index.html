@@ -9046,6 +9046,7 @@ document.addEventListener('DOMContentLoaded', function() {
         addStateSenateLayers();
       }
       try { reinforceMapLabelHalos(); } catch (_) {}
+      try { applyLayerOpacityTuning(); } catch (_) {}
       try { reinforceDistrictLineStyles(); } catch (_) {}
       
       // Repopulate contest selector
@@ -11830,6 +11831,92 @@ document.addEventListener('DOMContentLoaded', function() {
       return !!key;
     }
 
+    function isDataFocusModeForLabels() {
+      if (!hasActiveContestSelection()) return false;
+      const view = String(currentView || '').toLowerCase();
+      if (view === 'counties') return !precinctsEnabled;
+      return true;
+    }
+
+    function getOverlayOpacityPresetConfig(presetKey = 'reveal') {
+      const presets = {
+        reveal: {
+          countyActive: 0.65,
+          countyWithPrecinct: 0.11,
+          district: 0.59,
+          house: 0.65,
+          senate: 0.64,
+          precinctFill: 0.61,
+          precinctDot: 0.80
+        },
+        balanced: {
+          countyActive: 0.71,
+          countyWithPrecinct: 0.13,
+          district: 0.72,
+          house: 0.72,
+          senate: 0.73,
+          precinctFill: 0.66,
+          precinctDot: 0.84
+        },
+        focus: {
+          countyActive: 0.90,
+          countyWithPrecinct: 0.18,
+          district: 0.76,
+          house: 0.77,
+          senate: 0.77,
+          precinctFill: 0.72,
+          precinctDot: 0.88
+        }
+      };
+      return presets[String(presetKey || 'reveal').toLowerCase()] || presets.reveal;
+    }
+
+    function applyLayerOpacityTuning() {
+      if (!map || !map.getLayer) return;
+      const contestIsActive = hasActiveContestSelection();
+      // Match NCMap "data focus" defaults: keep the map in focus-opacity mode even before a contest is selected.
+      const presetKey = 'focus';
+      const cfg = getOverlayOpacityPresetConfig(presetKey);
+
+      const countyOpacity = precinctsEnabled ? cfg.countyWithPrecinct : cfg.countyActive;
+      if (map.getLayer('county-fill')) {
+        if (!contestIsActive) {
+          try { map.setPaintProperty('county-fill', 'fill-color', '#d9e3ef'); } catch (_) {}
+        }
+        try {
+          map.setPaintProperty('county-fill', 'fill-opacity', countyOpacity);
+          updateCountyLabelHaloForFillOpacity(countyOpacity);
+        } catch (_) {}
+      }
+      if (map.getLayer('district-fill')) {
+        try { map.setPaintProperty('district-fill', 'fill-opacity', cfg.district); } catch (_) {}
+      }
+      if (map.getLayer('state-house-fill')) {
+        try { map.setPaintProperty('state-house-fill', 'fill-opacity', cfg.house); } catch (_) {}
+      }
+      if (map.getLayer('state-senate-fill')) {
+        try { map.setPaintProperty('state-senate-fill', 'fill-opacity', cfg.senate); } catch (_) {}
+      }
+      if (map.getLayer('precinct-fill')) {
+        if (!contestIsActive) {
+          try { map.setPaintProperty('precinct-fill', 'fill-color', '#cbd5e1'); } catch (_) {}
+        }
+        try { map.setPaintProperty('precinct-fill', 'fill-opacity', cfg.precinctFill); } catch (_) {}
+      }
+      if (map.getLayer('precinct-dot')) {
+        if (!contestIsActive) {
+          try { map.setPaintProperty('precinct-dot', 'circle-color', '#94a3b8'); } catch (_) {}
+          if (map.getLayer('precinct-dot-missing')) {
+            try { map.setPaintProperty('precinct-dot-missing', 'circle-color', '#94a3b8'); } catch (_) {}
+          }
+        }
+        try { map.setPaintProperty('precinct-dot', 'circle-opacity', cfg.precinctDot); } catch (_) {}
+        if (map.getLayer('precinct-dot-missing')) {
+          try { map.setPaintProperty('precinct-dot-missing', 'circle-opacity', Math.min(1, cfg.precinctDot + 0.03)); } catch (_) {}
+        }
+      }
+    }
+
     function updateCountyLabelHaloForFillOpacity(fillOpacity) {
       if (!map.getLayer('county-label')) return;
       const oRaw = Number(fillOpacity);
@@ -11845,17 +11932,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function reinforceMapLabelHalos() {
-      const dataFocus = hasActiveContestSelection();
+      // Match NCMap "data focus" defaults: keep stronger label halos on by default.
+      // (If you later add an overlay preset selector, this can key off that state.)
+      const heavyOverlay = true;
       const settlementTextColor = 'rgba(15, 23, 42, 0.94)';
-      const settlementTextOpacity = dataFocus ? 1.0 : 0.96;
-      const settlementHaloColor = dataFocus ? 'rgba(255, 255, 255, 0.97)' : 'rgba(255, 255, 255, 0.92)';
-      const settlementHaloWidth = dataFocus ? 2.25 : 1.9;
-      const settlementHaloBlur = dataFocus ? 0.7 : 0.58;
+      const settlementTextOpacity = heavyOverlay ? 1.0 : 0.96;
+      const settlementHaloColor = heavyOverlay ? 'rgba(255, 255, 255, 0.97)' : 'rgba(255, 255, 255, 0.92)';
+      const settlementHaloWidth = heavyOverlay ? 2.25 : 1.9;
+      const settlementHaloBlur = heavyOverlay ? 0.7 : 0.58;
       const countyTextColor = 'rgba(15, 23, 42, 0.96)';
       const countyTextOpacity = 1.0;
-      const countyHaloColor = dataFocus ? 'rgba(255, 255, 255, 0.94)' : 'rgba(255, 255, 255, 0.88)';
-      const countyHaloWidth = dataFocus ? 2.0 : 1.7;
-      const countyHaloBlur = dataFocus ? 0.62 : 0.52;
+      const countyHaloColor = heavyOverlay ? 'rgba(255, 255, 255, 0.94)' : 'rgba(255, 255, 255, 0.88)';
+      const countyHaloWidth = heavyOverlay ? 2.0 : 1.7;
+      const countyHaloBlur = heavyOverlay ? 0.62 : 0.52;
 
       let layers = [];
       try { layers = map.getStyle()?.layers || []; } catch (_) { layers = []; }
@@ -11885,6 +11974,9 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         } catch (_) {}
       });
+
+      try { reinforceDistrictLineStyles(); } catch (_) {}
+      try { applyLayerOpacityTuning(); } catch (_) {}
     }
 
     async function togglePrecinctOverlay() {
@@ -11909,6 +12001,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const contestKey = document.getElementById('contestSelect')?.value;
       if (contestKey) await applyContest(contestKey);
       try { reinforceMapLabelHalos(); } catch (_) {}
+      try { applyLayerOpacityTuning(); } catch (_) {}
+      try { reinforceDistrictLineStyles(); } catch (_) {}
       saveUIState();
     }
 
@@ -13722,6 +13816,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         addCountyLayers();
         try { reinforceMapLabelHalos(); } catch (_) {}
+        try { applyLayerOpacityTuning(); } catch (_) {}
         await setupCountySearch();
         map.on('zoomend', updatePrecinctVisibility);
         setStatus('Counties loaded');
@@ -14643,9 +14738,7 @@ document.addEventListener('DOMContentLoaded', function() {
       // so precinct fills/dots remain visually primary.
       if (map.getLayer('county-fill')) {
         map.setPaintProperty('county-fill', 'fill-color', expr);
-        const countyFillOpacity = precinctsEnabled ? 0.10 : 0.82;
-        map.setPaintProperty('county-fill', 'fill-opacity', countyFillOpacity);
-        try { updateCountyLabelHaloForFillOpacity(countyFillOpacity); } catch (_) {}
+        // Opacity is tuned globally (focus preset) in `applyLayerOpacityTuning()`.
       }
 
       // Flip mode: outline flipped counties in red/blue (to-winner), leave others subtle.
