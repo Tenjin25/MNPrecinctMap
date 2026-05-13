@@ -1908,6 +1908,34 @@ body { height: var(--app-height); }
     }
   }
 
+  /* NC-style VoteHub card treatment (applies to candidate-results context). */
+  #hover-tooltip[data-context="candidate-results"] {
+    background: rgba(3,7,18,0.96);
+    color: #e5e7eb;
+    border: 1px solid rgba(148,163,184,0.24);
+    border-radius: 8px;
+    box-shadow: 0 8px 26px rgba(0,0,0,0.22);
+    max-width: 310px;
+    min-width: 250px;
+    backdrop-filter: blur(10px);
+  }
+  #hover-tooltip[data-context="candidate-results"] .votehub-results-card { padding: 12px 14px; }
+  #hover-tooltip[data-context="candidate-results"][data-pinned="0"] .tooltip-head { display: none; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-title { font-size: 13px; font-weight: 800; color: #f8fafc; margin-bottom: 2px; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-subtitle { font-size: 10.5px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; color: #94a3b8; margin-bottom: 8px; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-winner { font-size: 12.5px; font-weight: 900; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid rgba(148,163,184,0.22); color: #e2e8f0; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-winner.rep { color: #fca5a5; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-winner.dem { color: #93c5fd; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-row { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto auto; align-items: center; gap: 8px; padding: 5px 0; font-size: 12.5px; color: #e2e8f0; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-dot { width: 9px; height: 9px; border-radius: 999px; display: inline-block; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-row.rep .vhr-dot { background: #dc2626; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-row.dem .vhr-dot { background: #0284c7; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-row.other .vhr-dot { background: #6b7280; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-weight: 800; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-votes { font-weight: 800; color: #f1f5f9; font-variant-numeric: tabular-nums; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-pct { font-weight: 800; color: #e2e8f0; font-variant-numeric: tabular-nums; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-total { margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(148,163,184,0.22); font-size: 11.5px; color: #94a3b8; }
+
   /* Help modal */
   .modal-backdrop {
     position: fixed;
@@ -10449,47 +10477,45 @@ document.addEventListener('DOMContentLoaded', function() {
       const demVotes = Number(row?.dem_votes || row?.dem || 0);
       const repVotes = Number(row?.rep_votes || row?.rep || 0);
       const otherVotes = Number(row?.other_votes || row?.other || 0);
-      const totalVotes = Number(row?.total_votes || row?.total || (demVotes + repVotes + otherVotes));
-      const demName = cleanCandidateName(row?.dem_candidate || options.demCandidate || 'Democrat') || 'Democrat';
-      const repName = cleanCandidateName(row?.rep_candidate || options.repCandidate || 'Republican') || 'Republican';
+      // Keep denominator aligned with vote-counter math.
+      const totalVotes = demVotes + repVotes + otherVotes;
+      const resolvedCandidates = resolveVoteCounterCandidates({
+        demCandidate: row?.dem_candidate || options.demCandidate || 'Democrat',
+        repCandidate: row?.rep_candidate || options.repCandidate || 'Republican'
+      }, options.meta || null);
+      const demName = cleanCandidateName(resolvedCandidates.demCandidate || 'Democrat') || 'Democrat';
+      const repName = cleanCandidateName(resolvedCandidates.repCandidate || 'Republican') || 'Republican';
       const safeTotal = totalVotes > 0 ? totalVotes : 0;
       const fmtPct = (votes) => `${((safeTotal > 0 ? (Number(votes || 0) / safeTotal) * 100 : 0)).toFixed(2)}%`;
       const title = (options.title || '').toString().trim() || 'Results';
       const kindLabel = (options.kindLabel || 'District').toString().trim().toUpperCase();
       const leadVotes = Math.abs(repVotes - demVotes);
-      const leadPct = Math.abs(((safeTotal > 0 ? ((repVotes - demVotes) / safeTotal) * 100 : 0))).toFixed(2);
-      const winnerName = repVotes >= demVotes ? repName : demName;
-      const winnerShort = shortCandidateLabel(winnerName, repVotes >= demVotes ? 'Republican' : 'Democratic');
-      const leadText = `${winnerShort} +${leadPct}%`;
+      const leadText = compactWinnerMarginLabel(repVotes, demVotes, safeTotal, repName, demName);
       const rows = [
-        { cls: 'rep', name: repName, party: 'Republican', votes: repVotes, pct: fmtPct(repVotes) },
-        { cls: 'dem', name: demName, party: 'Democratic', votes: demVotes, pct: fmtPct(demVotes) }
+        { cls: 'rep', name: repName, votes: repVotes, pct: fmtPct(repVotes) },
+        { cls: 'dem', name: demName, votes: demVotes, pct: fmtPct(demVotes) }
       ];
       if (otherVotes > 0) {
-        rows.push({ cls: 'other', name: 'Others', party: 'Other / Independent', votes: otherVotes, pct: fmtPct(otherVotes) });
+        rows.push({ cls: 'other', name: 'Other', votes: otherVotes, pct: fmtPct(otherVotes) });
       }
+      rows.sort((a, b) => Number(b.votes || 0) - Number(a.votes || 0));
+      const winnerToneClass = repVotes > demVotes ? 'rep' : (demVotes > repVotes ? 'dem' : 'tie');
 
-      return `<div class="vh-candidate-card">
-        <div class="vh-head">
-          <div class="vh-title">${escapeHtml(title)}</div>
-          <div class="vh-kind">${escapeHtml(kindLabel)}</div>
-          <div class="vh-summary">
-            <div class="vh-lead">${escapeHtml(leadText)}</div>
-            <div class="vh-margin-votes">${escapeHtml(`${leadVotes.toLocaleString()} votes`)}</div>
-          </div>
-        </div>` + rows.map(item => `
-        <div class="vh-candidate-row ${item.cls}">
-          <span class="vh-dot"></span>
-          <span class="vh-person">
-            <span class="vh-name">${escapeHtml(item.name)}</span>
-            <span class="vh-party">${escapeHtml(item.party)}</span>
-          </span>
-          <span class="vh-votes">${Number(item.votes || 0).toLocaleString()}</span>
-          <span class="vh-pct">${escapeHtml(item.pct)}</span>
+      return `<div class="votehub-results-card">
+        <div class="vhr-title">${escapeHtml(title)}</div>
+        <div class="vhr-subtitle">${escapeHtml(kindLabel)}</div>
+        <div class="vhr-winner ${winnerToneClass}" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;">
+          <span>${escapeHtml(leadText)}</span>
+          <span>${escapeHtml(`${leadVotes.toLocaleString()} votes`)}</span>
         </div>
-      `).join('') + `
-        <div class="vh-foot">Total votes: <span class="vh-total">${escapeHtml(safeTotal.toLocaleString())}</span></div>
-        <div class="vh-action">More Details</div>
+        ${rows.map(item => `
+        <div class="vhr-row ${item.cls}">
+          <span class="vhr-dot"></span>
+          <span class="vhr-name">${escapeHtml(item.name)}</span>
+          <span class="vhr-votes">${escapeHtml(Number(item.votes || 0).toLocaleString())}</span>
+          <span class="vhr-pct">${escapeHtml(item.pct)}</span>
+        </div>`).join('')}
+        <div class="vhr-total">Total votes: ${escapeHtml(safeTotal.toLocaleString())}</div>
       </div>`;
     }
 
@@ -10597,9 +10623,21 @@ document.addEventListener('DOMContentLoaded', function() {
         ${buildResultCardHTML('', subtitle, demVotes, repVotes, otherVotes, demCandidate, repCandidate)}
         ${demoLine}
       `;
-
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(`${countyDisplay} County`, inner), { force: !!forceTooltip });
-      wireTooltipButtons();
+      setHoverTooltipContext('candidate-results');
+      showHoverTooltip(e.point.x, e.point.y, renderCandidateResultsTooltipHTML({
+        dem_votes: demVotes,
+        rep_votes: repVotes,
+        other_votes: otherVotes,
+        total_votes: demVotes + repVotes + otherVotes,
+        dem_candidate: demCandidate,
+        rep_candidate: repCandidate
+      }, {
+        title: `${countyDisplay} County`,
+        kindLabel: 'County',
+        demCandidate: row[`${contestType}_dem_candidate`],
+        repCandidate: row[`${contestType}_rep_candidate`],
+        meta: { kind: 'county', contestType, year: Number(year) }
+      }), { force: !!forceTooltip });
     }
 
     function renderPrecinctHoverAtPoint(point, feature, { forceTooltip = false } = {}) {
@@ -10684,7 +10722,8 @@ document.addEventListener('DOMContentLoaded', function() {
         title,
         kindLabel: 'Precinct',
         demCandidate: row.dem_candidate,
-        repCandidate: row.rep_candidate
+        repCandidate: row.rep_candidate,
+        meta: { kind: 'precinct', contestType, year: Number(year) }
       }), { force: !!forceTooltip });
       setVoteCounterHoverState(
         `Hover: ${title}`,
@@ -10878,10 +10917,13 @@ document.addEventListener('DOMContentLoaded', function() {
         dem_candidate: demCandidate,
         rep_candidate: repCandidate
       }, {
-        title: `${districtLabel} ${districtNum}`,
+        title: scope === 'congressional'
+          ? `MN-${String(districtNum).padStart(2, '0')}`
+          : `${districtLabel} ${districtNum}`,
         kindLabel: scope === 'congressional' ? 'Congressional District' : (scope === 'state_house' ? 'State House' : 'State Senate'),
         demCandidate: row.dem_candidate,
-        repCandidate: row.rep_candidate
+        repCandidate: row.rep_candidate,
+        meta: { kind: 'district', scope, contestType, year: Number(year) }
       }), { force: !!forceTooltip });
     }
 
@@ -12079,7 +12121,8 @@ document.addEventListener('DOMContentLoaded', function() {
               title,
               kindLabel: 'Precinct',
               demCandidate: row.dem_candidate,
-              repCandidate: row.rep_candidate
+              repCandidate: row.rep_candidate,
+              meta: { kind: 'precinct', contestType, year: Number(year) }
             }));
             setVoteCounterHoverState(
               `Hover: ${title}`,
