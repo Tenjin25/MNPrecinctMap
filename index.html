@@ -1694,12 +1694,12 @@ body { height: var(--app-height); }
   }
 
   #hover-tooltip[data-context="candidate-results"] {
-    background: rgba(255,255,255,0.98);
-    color: #000;
+    background: radial-gradient(140% 120% at 0% 0%, rgba(15, 23, 42, 0.96) 0%, rgba(1, 4, 20, 0.98) 55%, rgba(2, 8, 29, 0.99) 100%);
+    color: #e5e7eb;
     padding: 0;
     border-radius: 14px;
-    border: 1px solid rgba(15, 23, 42, 0.10);
-    box-shadow: 0 14px 38px rgba(15, 23, 42, 0.22);
+    border: 1px solid rgba(148, 163, 184, 0.24);
+    box-shadow: 0 18px 46px rgba(2, 6, 23, 0.62);
     max-width: 420px;
     min-width: 340px;
     overflow: hidden;
@@ -1708,7 +1708,56 @@ body { height: var(--app-height); }
 
   #hover-tooltip[data-context="candidate-results"] .vh-candidate-card {
     width: 100%;
-    background: #fff;
+    background: transparent;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-head {
+    padding: 18px 20px 10px;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-title {
+    font-size: 20px;
+    line-height: 1.06;
+    font-weight: 900;
+    color: #f8fafc;
+    letter-spacing: -0.015em;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-kind {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #94a3b8;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-summary {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 12px;
+    align-items: center;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-lead {
+    color: #fca5a5;
+    font-size: 33px;
+    font-weight: 850;
+    line-height: 1.15;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-margin-votes {
+    color: #fecaca;
+    font-size: 17px;
+    font-weight: 850;
+    line-height: 1.15;
+    white-space: nowrap;
   }
 
   #hover-tooltip[data-context="candidate-results"] .vh-candidate-row {
@@ -1750,40 +1799,68 @@ body { height: var(--app-height); }
   }
 
   #hover-tooltip[data-context="candidate-results"] .vh-name {
-    font-size: 21px;
-    line-height: 1.1;
+    font-size: 16px;
+    line-height: 1.04;
     font-weight: 850;
-    color: #000;
+    color: #f8fafc;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
   #hover-tooltip[data-context="candidate-results"] .vh-party {
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.15;
     font-style: italic;
-    color: #444;
+    color: #94a3b8;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
   #hover-tooltip[data-context="candidate-results"] .vh-votes {
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 850;
-    color: #000;
+    color: #f8fafc;
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
   }
 
   #hover-tooltip[data-context="candidate-results"] .vh-pct {
-    font-size: 19px;
+    font-size: 16px;
     font-weight: 650;
-    color: #000;
+    color: #94a3b8;
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
     text-align: right;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-foot {
+    margin-top: 2px;
+    border-top: 1px solid rgba(148, 163, 184, 0.18);
+    padding: 12px 20px 14px;
+    color: #94a3b8;
+    font-size: 12px;
+    font-weight: 650;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-total {
+    color: #f1f5f9;
+    font-weight: 800;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-action {
+    margin: 10px 12px 12px;
+    border-radius: 16px;
+    border: 1px solid rgba(148, 163, 184, 0.28);
+    text-align: center;
+    color: #e2e8f0;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+    padding: 12px 10px;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.48), rgba(15, 23, 42, 0.2));
   }
 
   @media (max-width: 768px) {
@@ -1804,15 +1881,28 @@ body { height: var(--app-height); }
     }
 
     #hover-tooltip[data-context="candidate-results"] .vh-name {
-      font-size: 17px;
+      font-size: 15px;
     }
 
     #hover-tooltip[data-context="candidate-results"] .vh-party {
       font-size: 13px;
     }
 
+    #hover-tooltip[data-context="candidate-results"] .vh-lead,
+    #hover-tooltip[data-context="candidate-results"] .vh-margin-votes {
+      font-size: 15px;
+    }
+
+    #hover-tooltip[data-context="candidate-results"] .vh-title {
+      font-size: 17px;
+    }
+
+    #hover-tooltip[data-context="candidate-results"] .vh-votes {
+      font-size: 14px;
+    }
+
     #hover-tooltip[data-context="candidate-results"] .vh-pct {
-      font-size: 16px;
+      font-size: 14px;
     }
   }
 
@@ -10362,6 +10452,13 @@ document.addEventListener('DOMContentLoaded', function() {
       const repName = cleanCandidateName(row?.rep_candidate || options.repCandidate || 'Republican') || 'Republican';
       const safeTotal = totalVotes > 0 ? totalVotes : 0;
       const fmtPct = (votes) => `${((safeTotal > 0 ? (Number(votes || 0) / safeTotal) * 100 : 0)).toFixed(2)}%`;
+      const title = (options.title || '').toString().trim() || 'Results';
+      const kindLabel = (options.kindLabel || 'District').toString().trim().toUpperCase();
+      const leadVotes = Math.abs(repVotes - demVotes);
+      const leadPct = Math.abs(((safeTotal > 0 ? ((repVotes - demVotes) / safeTotal) * 100 : 0))).toFixed(2);
+      const winnerName = repVotes >= demVotes ? repName : demName;
+      const winnerShort = shortCandidateLabel(winnerName, repVotes >= demVotes ? 'Republican' : 'Democratic');
+      const leadText = `${winnerShort} +${leadPct}%`;
       const rows = [
         { cls: 'rep', name: repName, party: 'Republican', votes: repVotes, pct: fmtPct(repVotes) },
         { cls: 'dem', name: demName, party: 'Democratic', votes: demVotes, pct: fmtPct(demVotes) }
@@ -10370,7 +10467,15 @@ document.addEventListener('DOMContentLoaded', function() {
         rows.push({ cls: 'other', name: 'Others', party: 'Other / Independent', votes: otherVotes, pct: fmtPct(otherVotes) });
       }
 
-      return `<div class="vh-candidate-card">` + rows.map(item => `
+      return `<div class="vh-candidate-card">
+        <div class="vh-head">
+          <div class="vh-title">${escapeHtml(title)}</div>
+          <div class="vh-kind">${escapeHtml(kindLabel)}</div>
+          <div class="vh-summary">
+            <div class="vh-lead">${escapeHtml(leadText)}</div>
+            <div class="vh-margin-votes">${escapeHtml(`${leadVotes.toLocaleString()} votes`)}</div>
+          </div>
+        </div>` + rows.map(item => `
         <div class="vh-candidate-row ${item.cls}">
           <span class="vh-dot"></span>
           <span class="vh-person">
@@ -10380,7 +10485,10 @@ document.addEventListener('DOMContentLoaded', function() {
           <span class="vh-votes">${Number(item.votes || 0).toLocaleString()}</span>
           <span class="vh-pct">${escapeHtml(item.pct)}</span>
         </div>
-      `).join('') + `</div>`;
+      `).join('') + `
+        <div class="vh-foot">Total votes: <span class="vh-total">${escapeHtml(safeTotal.toLocaleString())}</span></div>
+        <div class="vh-action">More Details</div>
+      </div>`;
     }
 
     function renderCountyHoverAtPoint(e, { forceTooltip = false } = {}) {
@@ -10571,6 +10679,8 @@ document.addEventListener('DOMContentLoaded', function() {
         dem_candidate: demCandidate,
         rep_candidate: repCandidate
       }, {
+        title,
+        kindLabel: 'Precinct',
         demCandidate: row.dem_candidate,
         repCandidate: row.rep_candidate
       }), { force: !!forceTooltip });
@@ -10766,6 +10876,8 @@ document.addEventListener('DOMContentLoaded', function() {
         dem_candidate: demCandidate,
         rep_candidate: repCandidate
       }, {
+        title: `${districtLabel} ${districtNum}`,
+        kindLabel: scope === 'congressional' ? 'Congressional District' : (scope === 'state_house' ? 'State House' : 'State Senate'),
         demCandidate: row.dem_candidate,
         repCandidate: row.rep_candidate
       }), { force: !!forceTooltip });
@@ -11962,6 +12074,8 @@ document.addEventListener('DOMContentLoaded', function() {
               dem_candidate: demCandidate,
               rep_candidate: repCandidate
             }, {
+              title,
+              kindLabel: 'Precinct',
               demCandidate: row.dem_candidate,
               repCandidate: row.rep_candidate
             }));
