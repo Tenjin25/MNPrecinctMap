@@ -1693,6 +1693,129 @@ body { height: var(--app-height); }
     pointer-events: auto;
   }
 
+  #hover-tooltip[data-context="candidate-results"] {
+    background: rgba(255,255,255,0.98);
+    color: #000;
+    padding: 0;
+    border-radius: 14px;
+    border: 1px solid rgba(15, 23, 42, 0.10);
+    box-shadow: 0 14px 38px rgba(15, 23, 42, 0.22);
+    max-width: 420px;
+    min-width: 340px;
+    overflow: hidden;
+    backdrop-filter: blur(12px);
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-candidate-card {
+    width: 100%;
+    background: #fff;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-candidate-row {
+    display: grid;
+    grid-template-columns: 18px minmax(150px, 1fr) auto auto;
+    align-items: center;
+    gap: 12px;
+    padding: 17px 24px;
+    border-bottom: 1px solid rgba(15, 23, 42, 0.06);
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-candidate-row:last-child {
+    border-bottom: 0;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 999px;
+    display: inline-block;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-candidate-row.rep .vh-dot {
+    background: #c90808;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-candidate-row.dem .vh-dot {
+    background: #0b75b7;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-candidate-row.other .vh-dot {
+    background: #6b7280;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-person {
+    min-width: 0;
+    display: grid;
+    gap: 2px;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-name {
+    font-size: 21px;
+    line-height: 1.1;
+    font-weight: 850;
+    color: #000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-party {
+    font-size: 15px;
+    line-height: 1.15;
+    font-style: italic;
+    color: #444;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-votes {
+    font-size: 21px;
+    font-weight: 850;
+    color: #000;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  #hover-tooltip[data-context="candidate-results"] .vh-pct {
+    font-size: 19px;
+    font-weight: 650;
+    color: #000;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    text-align: right;
+  }
+
+  @media (max-width: 768px) {
+    #hover-tooltip[data-context="candidate-results"] {
+      min-width: 0;
+      max-width: none;
+      width: auto;
+    }
+
+    #hover-tooltip[data-context="candidate-results"] .vh-candidate-row {
+      grid-template-columns: 16px minmax(0, 1fr) auto;
+      gap: 10px;
+      padding: 14px 16px;
+    }
+
+    #hover-tooltip[data-context="candidate-results"] .vh-votes {
+      display: none;
+    }
+
+    #hover-tooltip[data-context="candidate-results"] .vh-name {
+      font-size: 17px;
+    }
+
+    #hover-tooltip[data-context="candidate-results"] .vh-party {
+      font-size: 13px;
+    }
+
+    #hover-tooltip[data-context="candidate-results"] .vh-pct {
+      font-size: 16px;
+    }
+  }
+
   /* Help modal */
   .modal-backdrop {
     position: fixed;
@@ -9147,6 +9270,11 @@ document.addEventListener('DOMContentLoaded', function() {
       return toTitleCaseName(cleaned);
     }
 
+    function cleanCandidateName(name) {
+      const cleaned = fullCandidateLabel(name, '');
+      return (cleaned || '').toString().trim();
+    }
+
     function toTitleCaseName(raw) {
       const s = (raw || '').toString().trim();
       if (!s) return '';
@@ -10218,8 +10346,46 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
 
+    function setHoverTooltipContext(context = '') {
+      const tooltip = document.getElementById('hover-tooltip');
+      if (!tooltip) return;
+      if (context) tooltip.dataset.context = context;
+      else delete tooltip.dataset.context;
+    }
+
+    function renderCandidateResultsTooltipHTML(row, options = {}) {
+      const demVotes = Number(row?.dem_votes || row?.dem || 0);
+      const repVotes = Number(row?.rep_votes || row?.rep || 0);
+      const otherVotes = Number(row?.other_votes || row?.other || 0);
+      const totalVotes = Number(row?.total_votes || row?.total || (demVotes + repVotes + otherVotes));
+      const demName = cleanCandidateName(row?.dem_candidate || options.demCandidate || 'Democrat') || 'Democrat';
+      const repName = cleanCandidateName(row?.rep_candidate || options.repCandidate || 'Republican') || 'Republican';
+      const safeTotal = totalVotes > 0 ? totalVotes : 0;
+      const fmtPct = (votes) => `${((safeTotal > 0 ? (Number(votes || 0) / safeTotal) * 100 : 0)).toFixed(2)}%`;
+      const rows = [
+        { cls: 'rep', name: repName, party: 'Republican', votes: repVotes, pct: fmtPct(repVotes) },
+        { cls: 'dem', name: demName, party: 'Democratic', votes: demVotes, pct: fmtPct(demVotes) }
+      ];
+      if (otherVotes > 0) {
+        rows.push({ cls: 'other', name: 'Others', party: 'Other / Independent', votes: otherVotes, pct: fmtPct(otherVotes) });
+      }
+
+      return `<div class="vh-candidate-card">` + rows.map(item => `
+        <div class="vh-candidate-row ${item.cls}">
+          <span class="vh-dot"></span>
+          <span class="vh-person">
+            <span class="vh-name">${escapeHtml(item.name)}</span>
+            <span class="vh-party">${escapeHtml(item.party)}</span>
+          </span>
+          <span class="vh-votes">${Number(item.votes || 0).toLocaleString()}</span>
+          <span class="vh-pct">${escapeHtml(item.pct)}</span>
+        </div>
+      `).join('') + `</div>`;
+    }
+
     function renderCountyHoverAtPoint(e, { forceTooltip = false } = {}) {
       if (!(e.features && e.features[0])) return;
+      setHoverTooltipContext('');
 
       // If precinct overlay is enabled and a precinct feature is under the cursor, let the
       // precinct hover path own the tooltip/outline to avoid flicker between layers.
@@ -10352,6 +10518,7 @@ document.addEventListener('DOMContentLoaded', function() {
       } catch (_) {}
       const [contestType, year] = parseContestValue(contestValue);
       if (!contestType || !year) {
+        setHoverTooltipContext('');
         showHoverTooltip(point.x, point.y, buildTooltipShell(title, '<div style="color:#64748b;">Select a contest to see results</div>'), { force: !!forceTooltip });
         wireTooltipButtons();
         return;
@@ -10359,6 +10526,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       const row = currentPrecinctResults ? currentPrecinctResults.get(precinctNorm) : null;
       if (!row) {
+        setHoverTooltipContext('');
         showHoverTooltip(point.x, point.y, buildTooltipShell(title, '<div style="color:#64748b;">No precinct results loaded for this contest in this view. Switch to Counties and pick the contest.</div>'), { force: !!forceTooltip });
         wireTooltipButtons();
         return;
@@ -10394,12 +10562,18 @@ document.addEventListener('DOMContentLoaded', function() {
         if (flipChip) chips.push(flipChip);
       }
 
-      const inner = `
-        <div class="hover-meta">${chips.join('')}</div>
-        ${buildResultCardHTML('', subtitle, demVotes, repVotes, otherVotes, demCandidate, repCandidate)}
-      `;
-      showHoverTooltip(point.x, point.y, buildTooltipShell(title, inner), { force: !!forceTooltip });
-      wireTooltipButtons();
+      setHoverTooltipContext('candidate-results');
+      showHoverTooltip(point.x, point.y, renderCandidateResultsTooltipHTML({
+        dem_votes: demVotes,
+        rep_votes: repVotes,
+        other_votes: otherVotes,
+        total_votes: demVotes + repVotes + otherVotes,
+        dem_candidate: demCandidate,
+        rep_candidate: repCandidate
+      }, {
+        demCandidate: row.dem_candidate,
+        repCandidate: row.rep_candidate
+      }), { force: !!forceTooltip });
       setVoteCounterHoverState(
         `Hover: ${title}`,
         subtitle,
@@ -10482,6 +10656,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const _demoRow = getDistrictDemographics(scope, districtNum);
       const _demoHTML = buildDemoHTML(_demoRow);
       if (!contestValue) {
+        setHoverTooltipContext('');
         showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(`${districtLabel} ${districtNum}`,
           _demoHTML + '<div style="color:#94a3b8;margin-top:6px;">Select a contest to see results</div>'), { force: !!forceTooltip });
         wireTooltipButtons();
@@ -10505,6 +10680,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
 
       if (!row) {
+        setHoverTooltipContext('');
         showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(`${districtLabel} ${districtNum}`,
           _demoHTML + '<div style="color:#94a3b8;margin-top:6px;">No data for this contest</div>'), { force: !!forceTooltip });
         wireTooltipButtons();
@@ -10516,6 +10692,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const otherVotes = Number(row.other_votes || 0);
       const totalVotes = Number(row.total_votes || 0);
       if (totalVotes <= 0) {
+        setHoverTooltipContext('');
         showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(`${districtLabel} ${districtNum}`,
           _demoHTML + '<div style="color:#94a3b8;margin-top:6px;">No data for this contest</div>'), { force: !!forceTooltip });
         wireTooltipButtons();
@@ -10580,15 +10757,18 @@ document.addEventListener('DOMContentLoaded', function() {
         if (flipChip) chips.push(flipChip);
       }
 
-      const desc = getDistrictDescription(scope, districtNum);
-      const inner = `
-        <div class="hover-meta">${chips.join('')}</div>
-        ${desc ? `<div style="margin-top:6px;font-size:12px;color:#94a3b8;"><strong style="color:#e2e8f0;">Area:</strong> ${desc}</div>` : ''}
-        ${_demoHTML}
-        ${buildResultCardHTML('', subtitle, demVotes, repVotes, otherVotes, demCandidate, repCandidate)}
-      `;
-      showHoverTooltip(e.point.x, e.point.y, buildTooltipShell(`${districtLabel} ${districtNum}`, inner), { force: !!forceTooltip });
-      wireTooltipButtons();
+      setHoverTooltipContext('candidate-results');
+      showHoverTooltip(e.point.x, e.point.y, renderCandidateResultsTooltipHTML({
+        dem_votes: demVotes,
+        rep_votes: repVotes,
+        other_votes: otherVotes,
+        total_votes: totalVotes,
+        dem_candidate: demCandidate,
+        rep_candidate: repCandidate
+      }, {
+        demCandidate: row.dem_candidate,
+        repCandidate: row.rep_candidate
+      }), { force: !!forceTooltip });
     }
 
     function toggleLegend() {
@@ -11749,6 +11929,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const contestValue = document.getElementById('contestSelect')?.value || '';
             const [contestType, year] = parseContestValue(contestValue);
             if (!contestType || !year) {
+              setHoverTooltipContext('');
               showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell(title, '<div style="color:#64748b;">Select a contest to see results</div>'));
               wireTooltipButtons();
               return;
@@ -11756,6 +11937,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             const row = currentPrecinctResults ? currentPrecinctResults.get(precinctNorm) : null;
             if (!row) {
+              setHoverTooltipContext('');
               showHoverTooltip(
                 evt.point.x,
                 evt.point.y,
@@ -11771,9 +11953,18 @@ document.addEventListener('DOMContentLoaded', function() {
             const demCandidate = row[`${contestType}_dem_candidate`] || '';
             const repCandidate = row[`${contestType}_rep_candidate`] || '';
             const subtitle = `${formatContestName(contestType, year)} ${year}`;
-            const inner = buildResultCardHTML('', subtitle, demVotes, repVotes, otherVotes, demCandidate, repCandidate);
-            showHoverTooltip(evt.point.x, evt.point.y, buildTooltipShell(title, inner));
-            wireTooltipButtons();
+            setHoverTooltipContext('candidate-results');
+            showHoverTooltip(evt.point.x, evt.point.y, renderCandidateResultsTooltipHTML({
+              dem_votes: demVotes,
+              rep_votes: repVotes,
+              other_votes: otherVotes,
+              total_votes: demVotes + repVotes + otherVotes,
+              dem_candidate: demCandidate,
+              rep_candidate: repCandidate
+            }, {
+              demCandidate: row.dem_candidate,
+              repCandidate: row.rep_candidate
+            }));
             setVoteCounterHoverState(
               `Hover: ${title}`,
               subtitle,
