@@ -6342,13 +6342,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 <span class="dem">Stronger Democratic</span>
               </div>
               <div class="legend-axis margins">
-                <span class="rep">R +40</span>
-                <span class="rep">R +10</span>
-                <span class="rep">R +1</span>
+                <span class="rep">R+40</span>
+                <span class="rep">R+10</span>
+                <span class="rep">R+1</span>
                 <span>Tie</span>
-                <span class="dem">D +1</span>
-                <span class="dem">D +10</span>
-                <span class="dem">D +40</span>
+                <span class="dem">D+1</span>
+                <span class="dem">D+10</span>
+                <span class="dem">D+40</span>
               </div>
               <div class="legend-chip-row">
                 <span class="legend-chip">Annihilation 40+</span>
@@ -7067,13 +7067,13 @@ document.addEventListener('DOMContentLoaded', function() {
         const a = meta?.fromYear ? `${meta.fromYear} → ${meta.toYear || ''}`.trim() : 'Shift';
         if (header) header.textContent = meta?.fromYear ? `Shift (${a})` : 'Shift';
         content.innerHTML = `
-          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(-15)};"></div>D +15%</div>
-          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(-10)};"></div>D +10%</div>
-          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(-5)};"></div>D +5%</div>
+          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(-15)};"></div>D+15%</div>
+          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(-10)};"></div>D+10%</div>
+          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(-5)};"></div>D+5%</div>
           <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(0)}; border: 1px solid rgba(15,23,42,0.20);"></div>No change</div>
-          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(5)};"></div>R +5%</div>
-          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(10)};"></div>R +10%</div>
-          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(15)};"></div>R +15%</div>
+          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(5)};"></div>R+5%</div>
+          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(10)};"></div>R+10%</div>
+          <div class="legend-item"><div class="legend-color" style="background: ${colorForShiftMode(15)};"></div>R+15%</div>
         `;
       } else {
         // margins (default)
@@ -7380,7 +7380,7 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       return {
         cls: shift > 0 ? 'rep' : 'dem',
-        text: `Shift:${shift > 0 ? 'R' : 'D'}+${Math.abs(shift).toFixed(2)} since ${prevYear}`
+        text: `Shift: ${shift > 0 ? 'R' : 'D'}+${Math.abs(shift).toFixed(2)}% since ${prevYear}`
       };
     }
 
@@ -9635,13 +9635,13 @@ document.addEventListener('DOMContentLoaded', function() {
             <span class="dem">Stronger Democratic</span>
           </div>
           <div class="legend-axis margins">
-            <span class="rep">R +40</span>
-            <span class="rep">R +10</span>
-            <span class="rep">R +1</span>
+            <span class="rep">R+40</span>
+            <span class="rep">R+10</span>
+            <span class="rep">R+1</span>
             <span>Tie</span>
-            <span class="dem">D +1</span>
-            <span class="dem">D +10</span>
-            <span class="dem">D +40</span>
+            <span class="dem">D+1</span>
+            <span class="dem">D+10</span>
+            <span class="dem">D+40</span>
           </div>
           <div class="legend-chip-row">
             <span class="legend-chip">Annihilation 40+</span>
@@ -9696,13 +9696,13 @@ document.addEventListener('DOMContentLoaded', function() {
             <span class="rep">Toward Republicans</span>
           </div>
           <div class="legend-axis shift">
-            <span class="dem">D +15</span>
-            <span class="dem">D +10</span>
-            <span class="dem">D +5</span>
+            <span class="dem">D+15</span>
+            <span class="dem">D+10</span>
+            <span class="dem">D+5</span>
             <span>0</span>
-            <span class="rep">R +5</span>
-            <span class="rep">R +10</span>
-            <span class="rep">R +15</span>
+            <span class="rep">R+5</span>
+            <span class="rep">R+10</span>
+            <span class="rep">R+15</span>
           </div>
         </div>
       `;
@@ -10153,7 +10153,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const s = Number(shiftPct) || 0;
       const dir = s > 0 ? 'R' : (s < 0 ? 'D' : 'T');
       const abs = Math.abs(s);
-      const label = abs < 0.01 ? 'No change' : `${dir} + ${abs.toFixed(2)}%`;
+      const label = abs < 0.01 ? 'No change' : `${dir}+${abs.toFixed(2)}%`;
       const dotColor = colorForShiftMode(s);
       const years = (prevYear && year) ? `${prevYear}→${year}` : '';
       return `<span class="meta-chip shift"><span class="dot" style="background:${dotColor};"></span>Shift: ${label}${years ? ` <span style="color:#64748b;font-weight:800;">(${years})</span>` : ''}</span>`;
