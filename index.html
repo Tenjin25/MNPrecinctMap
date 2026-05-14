@@ -10289,6 +10289,18 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
+    function zoomToClickedDistrictFeature(feature, { padding = 40, duration = 850, maxZoom = 10.5 } = {}) {
+      try {
+        if (!feature) return;
+        const bbox = turf.bbox(feature);
+        if (!Array.isArray(bbox) || bbox.length < 4) return;
+        map.fitBounds(
+          [[bbox[0], bbox[1]], [bbox[2], bbox[3]]],
+          { padding: isMobileViewportNow() ? Math.max(24, padding - 10) : padding, duration, maxZoom }
+        );
+      } catch (_) {}
+    }
+
     function buildAnyPropertyMatchFilter(keys, districtNum) {
       const raw = (districtNum || '').toString().trim();
       if (!raw) return ['==', 1, 0];
@@ -11792,8 +11804,8 @@ document.addEventListener('DOMContentLoaded', function() {
           if (e.features && e.features[0] && e.features[0].properties) {
             const countyName = e.features[0].properties.precinct_name || e.features[0].properties.NAME20 || e.features[0].properties.CountyName || e.features[0].properties.county_nam || e.features[0].properties.COUNTYNAME || e.features[0].properties.County || e.features[0].properties.NAME || e.features[0].properties.name;
             if (countyName) {
-              try { zoomToFeature(e.features[0], { maxZoom: AUTO_ZOOM.county.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.county.mobilePadding : AUTO_ZOOM.county.desktopPadding, preventZoomOut: true }); } catch (_) {}
-              showCountyDetails(countyName);
+              // Match NC: use the county selection path so click/search zoom behavior is identical.
+              handleCountySelection(countyName);
               lastSelectedCounty = countyName;
               setCountyHoverOutline(countyName);
               setTooltipPinned(false);
@@ -11930,7 +11942,7 @@ document.addEventListener('DOMContentLoaded', function() {
       map.on('click', 'precinct-fill', (e) => {
         const props = e.features?.[0]?.properties || {};
         const countyName = props.county_nam || '';
-        try { zoomToFeature(e.features?.[0], { maxZoom: AUTO_ZOOM.precinct.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.precinct.mobilePadding : AUTO_ZOOM.precinct.desktopPadding, preventZoomOut: true }); } catch (_) {}
+        try { zoomToFeature(e.features?.[0], { maxZoom: AUTO_ZOOM.precinct.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.precinct.mobilePadding : AUTO_ZOOM.precinct.desktopPadding }); } catch (_) {}
         if (countyName) {
           showCountyDetails(countyName);
           lastSelectedCounty = countyName;
@@ -12179,7 +12191,7 @@ document.addEventListener('DOMContentLoaded', function() {
           try {
             const f = e?.features?.[0];
             if (!f) return;
-            zoomToFeature(f, { maxZoom: AUTO_ZOOM.precinct.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.precinct.mobilePadding : AUTO_ZOOM.precinct.desktopPadding, preventZoomOut: true });
+            zoomToFeature(f, { maxZoom: AUTO_ZOOM.precinct.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.precinct.mobilePadding : AUTO_ZOOM.precinct.desktopPadding });
             setTooltipPinned(false);
             renderPrecinctHoverAtPoint(e.point, f, { forceTooltip: true });
             if (isTouchInteractionMode()) setTooltipPinned(true);
@@ -12501,7 +12513,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const props = e.features[0].properties;
             const districtNum = normalizeDistrictNumber(props.DISTRICT || props.CD118FP || props.district_id || props.district);
             if (districtNum) {
-              try { zoomToFeature(e.features[0], { maxZoom: AUTO_ZOOM.congressional.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.congressional.mobilePadding : AUTO_ZOOM.congressional.desktopPadding, preventZoomOut: true }); } catch (_) {}
+              zoomToClickedDistrictFeature(e.features[0], { padding: 40, duration: 850, maxZoom: 10.5 });
               // Show detailed sidebar (results + trends).
               showDistrictDetails(districtNum);
               lastSelectedCounty = `District ${districtNum}`;
@@ -12620,7 +12632,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const props = e.features[0].properties;
             const districtNum = normalizeDistrictNumber(props.DISTRICT || props.SLDLST || props.district_id || props.district);
             if (districtNum) {
-              try { zoomToFeature(e.features[0], { maxZoom: AUTO_ZOOM.stateHouse.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.stateHouse.mobilePadding : AUTO_ZOOM.stateHouse.desktopPadding, preventZoomOut: true }); } catch (_) {}
+              zoomToClickedDistrictFeature(e.features[0], { padding: 40, duration: 850, maxZoom: 11.2 });
               // Show detailed sidebar (results + trends).
               showStateDistrictDetails(districtNum, 'house');
               lastSelectedCounty = `State House District ${districtNum}`;
@@ -12737,7 +12749,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const props = e.features[0].properties;
             const districtNum = normalizeDistrictNumber(props.DISTRICT || props.SLDUST || props.district_id || props.district);
             if (districtNum) {
-              try { zoomToFeature(e.features[0], { maxZoom: AUTO_ZOOM.stateSenate.maxZoom, padding: isMobileViewportNow() ? AUTO_ZOOM.stateSenate.mobilePadding : AUTO_ZOOM.stateSenate.desktopPadding, preventZoomOut: true }); } catch (_) {}
+              zoomToClickedDistrictFeature(e.features[0], { padding: 40, duration: 850, maxZoom: 11.0 });
               // Show detailed sidebar (results + trends).
               showStateDistrictDetails(districtNum, 'senate');
               lastSelectedCounty = `State Senate District ${districtNum}`;
