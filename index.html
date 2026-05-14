@@ -1935,6 +1935,9 @@ body { height: var(--app-height); }
   #hover-tooltip[data-context="candidate-results"] .vhr-votes { font-weight: 800; color: #f1f5f9; font-variant-numeric: tabular-nums; }
   #hover-tooltip[data-context="candidate-results"] .vhr-pct { font-weight: 800; color: #e2e8f0; font-variant-numeric: tabular-nums; }
   #hover-tooltip[data-context="candidate-results"] .vhr-total { margin-top: 8px; padding-top: 8px; border-top: 1px solid rgba(148,163,184,0.22); font-size: 11.5px; color: #94a3b8; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-flip { margin: 6px 0 8px; font-size: 11.5px; font-weight: 800; color: #cbd5e1; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-flip.rep { color: #fca5a5; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-flip.dem { color: #93c5fd; }
 
   /* Help modal */
   .modal-backdrop {
@@ -10491,6 +10494,17 @@ document.addEventListener('DOMContentLoaded', function() {
       const kindLabel = (options.kindLabel || 'District').toString().trim().toUpperCase();
       const leadVotes = Math.abs(repVotes - demVotes);
       const leadText = compactWinnerMarginLabel(repVotes, demVotes, safeTotal, repName, demName);
+      const prevSigned = Number(options.prevSignedMarginPct);
+      const curSigned = Number(options.currentSignedMarginPct);
+      const flipMeta = (Number.isFinite(prevSigned) && Number.isFinite(curSigned))
+        ? flipInfo(prevSigned, curSigned)
+        : null;
+      const flipToneClass = (flipMeta && flipMeta.flipped)
+        ? (flipMeta.to === 'R' ? 'rep' : (flipMeta.to === 'D' ? 'dem' : 'tie'))
+        : 'tie';
+      const flipLabel = (flipMeta && flipMeta.flipped)
+        ? `Flipped ${flipMeta.from === 'R' ? 'R->D' : 'D->R'}${options.flipYearLabel ? ` since ${String(options.flipYearLabel)}` : ''}`
+        : '';
       const rows = [
         { cls: 'rep', name: repName, votes: repVotes, pct: fmtPct(repVotes) },
         { cls: 'dem', name: demName, votes: demVotes, pct: fmtPct(demVotes) }
@@ -10508,6 +10522,7 @@ document.addEventListener('DOMContentLoaded', function() {
           <span>${escapeHtml(leadText)}</span>
           <span>${escapeHtml(`${leadVotes.toLocaleString()} votes`)}</span>
         </div>
+        ${flipLabel ? `<div class="vhr-flip ${flipToneClass}">${escapeHtml(flipLabel)}</div>` : ''}
         ${rows.map(item => `
         <div class="vhr-row ${item.cls}">
           <span class="vhr-dot"></span>
@@ -10636,7 +10651,10 @@ document.addEventListener('DOMContentLoaded', function() {
         kindLabel: 'County',
         demCandidate: row[`${contestType}_dem_candidate`],
         repCandidate: row[`${contestType}_rep_candidate`],
-        meta: { kind: 'county', contestType, year: Number(year) }
+        meta: { kind: 'county', contestType, year: Number(year) },
+        prevSignedMarginPct: prevSignedForFlip,
+        currentSignedMarginPct: signedMarginPct,
+        flipYearLabel: vizPrevCache?.prevYear || null
       }), { force: !!forceTooltip });
     }
 
@@ -10723,7 +10741,10 @@ document.addEventListener('DOMContentLoaded', function() {
         kindLabel: 'Precinct',
         demCandidate: row.dem_candidate,
         repCandidate: row.rep_candidate,
-        meta: { kind: 'precinct', contestType, year: Number(year) }
+        meta: { kind: 'precinct', contestType, year: Number(year) },
+        prevSignedMarginPct: prevSignedForFlip,
+        currentSignedMarginPct: curSigned,
+        flipYearLabel: vizPrevCache?.prevYear || null
       }), { force: !!forceTooltip });
       setVoteCounterHoverState(
         `Hover: ${title}`,
@@ -10923,7 +10944,10 @@ document.addEventListener('DOMContentLoaded', function() {
         kindLabel: scope === 'congressional' ? 'Congressional District' : (scope === 'state_house' ? 'State House' : 'State Senate'),
         demCandidate: row.dem_candidate,
         repCandidate: row.rep_candidate,
-        meta: { kind: 'district', scope, contestType, year: Number(year) }
+        meta: { kind: 'district', scope, contestType, year: Number(year) },
+        prevSignedMarginPct: prevSignedForFlip,
+        currentSignedMarginPct: signedMarginPct,
+        flipYearLabel: prevYearForFlip || null
       }), { force: !!forceTooltip });
     }
 
@@ -12122,7 +12146,10 @@ document.addEventListener('DOMContentLoaded', function() {
               kindLabel: 'Precinct',
               demCandidate: row.dem_candidate,
               repCandidate: row.rep_candidate,
-              meta: { kind: 'precinct', contestType, year: Number(year) }
+              meta: { kind: 'precinct', contestType, year: Number(year) },
+              prevSignedMarginPct: prevSignedForFlip,
+              currentSignedMarginPct: curSigned,
+              flipYearLabel: vizPrevCache?.prevYear || null
             }));
             setVoteCounterHoverState(
               `Hover: ${title}`,
