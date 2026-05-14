@@ -10296,7 +10296,7 @@ document.addEventListener('DOMContentLoaded', function() {
         if (!Array.isArray(bbox) || bbox.length < 4) return;
         map.fitBounds(
           [[bbox[0], bbox[1]], [bbox[2], bbox[3]]],
-          { padding: isMobileViewportNow() ? Math.max(24, padding - 10) : padding, duration, maxZoom }
+          { padding, duration, maxZoom }
         );
       } catch (_) {}
     }
@@ -13212,7 +13212,7 @@ document.addEventListener('DOMContentLoaded', function() {
         : (sourceId === 'state-house' ? `HD ${districtNum}` : `SD ${districtNum}`);
       syncFlySearchInputs(canonicalQuery);
       setFlySearchFeedback('#10b981');
-      map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: AUTO_ZOOM.districtSearch.padding, duration: AUTO_ZOOM.districtSearch.duration, maxZoom: AUTO_ZOOM.districtSearch.maxZoom });
+      map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: 28, duration: 900 });
 
       const sidebar = document.getElementById('sidebar');
       if (sidebar && sidebar.classList.contains('minimized')) toggleSidebar();
@@ -13252,7 +13252,7 @@ document.addEventListener('DOMContentLoaded', function() {
       syncFlySearchInputs(target);
       setFlySearchFeedback('#10b981');
       if (coords && coords.length >= 2) {
-        map.flyTo({ center: coords, zoom: Math.max(CONFIG.precincts?.minZoom || 8.5, AUTO_ZOOM.precinctSearch.zoom), speed: AUTO_ZOOM.precinctSearch.speed });
+        map.flyTo({ center: coords, zoom: Math.max(11.5, map.getZoom() || 0), padding: isMobileViewportNow() ? 24 : 22, speed: 0.95, essential: true });
       }
 
       // Pin vote counter if we have precinct-level results keyed by precinct_norm.
@@ -13320,14 +13320,7 @@ document.addEventListener('DOMContentLoaded', function() {
         debugLog('[DIAGNOSTIC] Matched county for', countyName, '->', lastSelectedCounty, 'bbox:', bbox);
         syncFlySearchInputs(lastSelectedCounty);
         setFlySearchFeedback('#10b981');
-        map.fitBounds(
-          [[bbox[0], bbox[1]], [bbox[2], bbox[3]]],
-          {
-            padding: isMobileViewportNow() ? AUTO_ZOOM.county.mobilePadding : AUTO_ZOOM.county.desktopPadding,
-            duration: 1000,
-            maxZoom: AUTO_ZOOM.county.maxZoom
-          }
-        );
+        map.fitBounds([[bbox[0], bbox[1]], [bbox[2], bbox[3]]], { padding: 28, duration: 1000 });
         showCountyDetails(lastSelectedCounty);
         const sidebar = document.getElementById('sidebar');
         if (sidebar && sidebar.classList.contains('minimized')) {
