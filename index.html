@@ -15040,10 +15040,15 @@ document.addEventListener('DOMContentLoaded', function() {
           const trajectoryUnit = meta.kind === 'district'
             ? 'district'
             : (meta.kind === 'region' ? 'region' : (meta.kind === 'precinct' ? (trendOptions.fallbackBadge ? 'county' : 'precinct') : 'county'));
-          trendOptions.trajectoryMeta = classifyCountyTrajectory(series, trajectoryUnit, censusContext, {
-            contestType,
-            selectedYear: Number(year)
-          });
+          try {
+            trendOptions.trajectoryMeta = classifyCountyTrajectory(series, trajectoryUnit, censusContext, {
+              contestType,
+              selectedYear: Number(year)
+            });
+          } catch (trajectoryErr) {
+            trendOptions.trajectoryMeta = null;
+            console.warn('Failed to classify focus trajectory:', trajectoryErr?.message || trajectoryErr);
+          }
         }
         if (trendOptions.trajectoryMeta && censusContext) {
           try {
@@ -23532,6 +23537,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const latestSigned = getSignedDisplayMarginTowardGop(latest);
 	      const first = sorted[0];
 	      const firstSigned = getSignedDisplayMarginTowardGop(first);
+      const row2000 = sorted.find(row => Number(row.year) === 2000) || null;
       const electionCount = sorted.length;
       const yearSpan = Number(latest?.year) - Number(first?.year);
       const historySparse = electionCount < 4;
@@ -23596,7 +23602,7 @@ document.addEventListener('DOMContentLoaded', function() {
         : 0;
 
       let origin = 'Durable';
-      const hasLongAnchor = !!(row2000 || row2008 || (Number.isFinite(yearSpan) && yearSpan >= 16));
+      const hasLongAnchor = !!(baselineAnchor || row2000 || row2008 || (Number.isFinite(yearSpan) && yearSpan >= 16));
       const avgAbsSwing = (() => {
         if (electionCount < 3) return 0;
         let sum = 0;
