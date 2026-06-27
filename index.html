@@ -9947,7 +9947,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 <label class="control-section-label" for="desktop-fly-search">Fly to</label>
                 <div class="desktop-fly-search-wrap">
                   <div class="desktop-fly-search-field fly-search-field">
-                    <input id="desktop-fly-search" type="search" placeholder="Hennepin County, CD 3, HD 61A, SD 55, St. Louis 001" autocomplete="off" spellcheck="false" inputmode="search" />
+                    <input id="desktop-fly-search" type="search" placeholder="Hennepin County, CD 7, HD 21A, SD 3, St. Louis 001" autocomplete="off" spellcheck="false" inputmode="search" />
                   </div>
                   <button id="desktop-fly-submit" class="desktop-fly-submit" type="button">Go</button>
                 </div>
@@ -20351,7 +20351,10 @@ document.addEventListener('DOMContentLoaded', function() {
       const ticketLead = stripRunningMateName(raw);
       const cleaned = ticketLead.replace(/\([^)]*\)/g, ' ').replace(/[^A-Za-z .'-]/g, ' ').replace(/\s+/g, ' ').trim();
       if (!cleaned) return fallback;
-      const parts = cleaned.split(' ').filter(Boolean);
+      // Normalize all-caps legacy data (BARACK OBAMA, MITT ROMNEY, OBAMA-BIDEN)
+      // before taking the compact surname label.
+      const displayName = toTitleCaseName(cleaned);
+      const parts = displayName.split(' ').filter(Boolean);
       if (!parts.length) return fallback;
       // Prefer the surname in compact labels; ignore trailing suffixes like Jr./III.
       let idx = parts.length - 1;
