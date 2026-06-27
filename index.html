@@ -10920,7 +10920,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let contestManifest = [];
     let districtManifest = [];
     let districtManifestByLines = { '2022': [], '2024': [], '2026': [] };
-    let currentDistrictLinesYear = 2022;
+    let currentDistrictLinesYear = 2024; // MN build: default hidden district-line state to 2024 legislative lines
     const districtGeometryCache = new Map();
     let congressionalData = []; // Optional legacy district-level table
     let candidateNameCache = new Map();
@@ -11900,6 +11900,39 @@ document.addEventListener('DOMContentLoaded', function() {
       return dirs[String(y)] || CONFIG.paths.district_contests_dir;
     }
 
+    function getDefaultDistrictLinesYearForScope(scope = null) {
+      const scopeKey = String(scope || '').trim();
+      // The MN build no longer exposes line-year toggles. Keep congressional on
+      // the 2022/118th geometry, but use 2024 legislative lines for House/Senate
+      // so alphanumeric HD IDs and legislative trend slices resolve consistently.
+      if (scopeKey === 'state_house' || scopeKey === 'state_senate') return 2024;
+      return 2022;
+    }
+
+    function dedupeDistrictManifestEntries(entries) {
+      const out = [];
+      const seen = new Set();
+      (Array.isArray(entries) ? entries : []).forEach(entry => {
+        const scope = (entry?.scope || '').toString().trim();
+        const contest = (entry?.contest_type || '').toString().trim();
+        const year = Number(entry?.year);
+        if (!scope || !contest || !Number.isFinite(year)) return;
+        const file = (entry?.file || '').toString().trim();
+        const key = `${scope}|${contest}|${year}|${file}`;
+        if (seen.has(key)) return;
+        seen.add(key);
+        out.push(entry);
+      });
+      return out;
+    }
+
+    function getAllDistrictManifestEntries() {
+      const buckets = districtManifestByLines && typeof districtManifestByLines === 'object'
+        ? Object.values(districtManifestByLines)
+        : [];
+      return dedupeDistrictManifestEntries(buckets.flatMap(list => Array.isArray(list) ? list : []));
+    }
+
     function getPreferredDistrictSlicePaths(scope, contestType, year, linesYear = currentDistrictLinesYear) {
       const y = Number(year);
       const ly = normalizeDistrictLinesYear(linesYear);
@@ -11919,30 +11952,33 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function getActiveDistrictManifest(linesYear = currentDistrictLinesYear) {
-      const y = normalizeDistrictLinesYear(linesYear);
-      if (y === 2026) {
-        const m2026 = Array.isArray(districtManifestByLines?.['2026']) ? districtManifestByLines['2026'] : [];
-        const m2024 = Array.isArray(districtManifestByLines?.['2024']) ? districtManifestByLines['2024'] : [];
-        const merged = [];
-        const seen = new Set();
-        const add = (entry) => {
-          const scope = (entry?.scope || '').toString().trim();
-          const contest = (entry?.contest_type || '').toString().trim();
-          const year = Number(entry?.year);
-          if (!scope || !contest || !Number.isFinite(year)) return;
-          const key = `${scope}|${contest}|${year}`;
-          if (seen.has(key)) return;
-          seen.add(key);
-          merged.push(entry);
-        };
-        m2026.filter(e => (e?.scope || '').toString().trim() === 'congressional').forEach(add);
-        m2024.filter(e => {
-          const s = (e?.scope || '').toString().trim();
-          return s === 'state_house' || s === 'state_senate';
-        }).forEach(add);
-        return merged;
-      }
-      return districtManifestByLines?.[String(y)] || [];
+      const requestedYear = normalizeDistrictLinesYear(linesYear);
+      const requested = Array.isArray(districtManifestByLines?.[String(requestedYear)])
+        ? districtManifestByLines[String(requestedYear)]
+        : [];
+      const all = getAllDistrictManifestEntries();
+
+      // With the visible 2022/2024/2026 toggles removed, district history should
+      // not depend on a hidden line-year state. Prefer the requested bucket when
+      // it has entries, but merge all buckets as a fallback so trend panels still
+      // find district contest slices.
+      if (!requested.length) return all;
+
+      const merged = [];
+      const seen = new Set();
+      const add = (entry) => {
+        const scope = (entry?.scope || '').toString().trim();
+        const contest = (entry?.contest_type || '').toString().trim();
+        const year = Number(entry?.year);
+        if (!scope || !contest || !Number.isFinite(year)) return;
+        const key = `${scope}|${contest}|${year}`;
+        if (seen.has(key)) return;
+        seen.add(key);
+        merged.push(entry);
+      };
+      requested.forEach(add);
+      all.forEach(add);
+      return merged;
     }
 
     function getModeledContestDefinition(contestType, year) {
@@ -18863,9 +18899,12 @@ document.addEventListener('DOMContentLoaded', function() {
       return null;
     }
 
-    async function loadDistrictSlice(scope, contestType, year, linesYearOverride = currentDistrictLinesYear) {
+    async function loadDistrictSlice(scope, contestType, year, linesYearOverride = null) {
       const key = `${scope}_${contestType}_${year}`;
-      const linesYear = normalizeDistrictLinesYear(linesYearOverride);
+      const resolvedLinesYear = linesYearOverride === null || linesYearOverride === undefined || linesYearOverride === ''
+        ? getDefaultDistrictLinesYearForScope(scope)
+        : linesYearOverride;
+      const linesYear = normalizeDistrictLinesYear(resolvedLinesYear);
       const cacheKey = `${linesYear}|${key}`;
       const modeledDef = getModeledContestDefinition(contestType, year);
       if (modeledDef) {
@@ -22174,41 +22213,102 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
     }
 
-    async function getDistrictTrendSeries(scope, contestType, districtNum) {
-      const entries = (getActiveDistrictManifest() || [])
-        .filter(f => f && f.scope === scope && f.contest_type === contestType && Number.isFinite(Number(f.year)))
-        .slice()
-        .sort((a, b) => Number(a.year) - Number(b.year));
+    function getDistrictTrendCandidateYears(scope, contestType) {
+      const scopeKey = String(scope || '').trim();
+      const contestKey = String(contestType || '').trim();
+      const years = new Set();
 
+      const addYear = (raw) => {
+        const y = Number(raw);
+        if (Number.isFinite(y)) years.add(y);
+      };
+
+      getAllDistrictManifestEntries().forEach(entry => {
+        if ((entry?.scope || '').toString().trim() !== scopeKey) return;
+        if ((entry?.contest_type || '').toString().trim() !== contestKey) return;
+        addYear(entry?.year);
+      });
+
+      // If a legacy district-results bundle is present, use it as another source
+      // of truth. This keeps district timelines working even when a manifest is
+      // incomplete or a line-year bucket is hidden.
+      const byYear = districtElectionDataJSON?.results_by_year || {};
+      Object.keys(byYear || {}).forEach(yearKey => {
+        const yearNode = byYear?.[yearKey] || {};
+        const direct = yearNode?.[scopeKey]?.[contestKey] || null;
+        if (districtSliceResultCount(direct) > 0) addYear(yearKey);
+
+        // Cross-chamber fallbacks: State House elections can be summed to Senate
+        // districts, and Senate elections can be copied down to House districts.
+        if (scopeKey === 'state_senate' && contestKey === 'state_house') {
+          const source = yearNode?.state_house?.state_house || null;
+          if (districtSliceResultCount(source) > 0) addYear(yearKey);
+        }
+        if (scopeKey === 'state_house' && contestKey === 'state_senate') {
+          const source = yearNode?.state_senate?.state_senate || null;
+          if (districtSliceResultCount(source) > 0) addYear(yearKey);
+        }
+      });
+
+      // County/statewide contest manifests are useful year hints for geographic
+      // district result slices such as president/governor by HD/SD/CD.
+      (Array.isArray(contestManifest) ? contestManifest : []).forEach(entry => {
+        if ((entry?.contest_type || '').toString().trim() === contestKey) addYear(entry?.year);
+      });
+
+      return Array.from(years).filter(Number.isFinite).sort((a, b) => a - b);
+    }
+
+    async function getDistrictTrendSeries(scope, contestType, districtNum) {
+      const scopeKey = String(scope || '').trim();
+      const contestKey = String(contestType || '').trim();
+      if (!scopeKey || !contestKey) return [];
+
+      try {
+        if (!districtElectionDataJSON && !districtElectionDataLoadFailed) {
+          await ensureDistrictElectionDataLoaded();
+        }
+      } catch (_) {}
+
+      const years = getDistrictTrendCandidateYears(scopeKey, contestKey);
       const out = [];
-      for (const e of entries) {
-        const year = Number(e.year);
-        const payload = await loadDistrictSlice(scope, contestType, year);
+      for (const year of years) {
+        const payload = await loadDistrictSlice(scopeKey, contestKey, year, getDefaultDistrictLinesYearForScope(scopeKey));
         const results = payload?.general?.results || null;
         if (!results) continue;
         const r = getDistrictResultRow(results, districtNum);
         if (!r) continue;
 
+        const demVotes = Number(r.dem_votes) || 0;
+        const repVotes = Number(r.rep_votes) || 0;
+        const otherVotes = Number(r.other_votes) || 0;
+        const totalVotes = Number(r.total_votes || (demVotes + repVotes + otherVotes)) || 0;
+        if (totalVotes <= 0) continue;
+
         // Older statewide district slices may omit candidate labels; recover from contest slice.
         let demCand = (r.dem_candidate || '').toString().trim();
         let repCand = (r.rep_candidate || '').toString().trim();
-        if ((!(demCand && repCand)) && contestType !== 'us_house') {
+        if ((!(demCand && repCand)) && contestKey !== 'us_house') {
           try {
-            const cand = await getContestCandidates(contestType, year);
+            const cand = await getContestCandidates(contestKey, year);
             if (!demCand) demCand = cand.dem || '';
             if (!repCand) repCand = cand.rep || '';
           } catch (_) {}
         }
+
+        const signed = Number.isFinite(Number(r.margin_pct))
+          ? Number(r.margin_pct)
+          : signedMarginPctFromVotes(demVotes, repVotes, totalVotes);
         out.push({
           year,
-          dem_votes: Number(r.dem_votes) || 0,
-          rep_votes: Number(r.rep_votes) || 0,
-          other_votes: Number(r.other_votes) || 0,
-          total_votes: Number(r.total_votes) || 0,
+          dem_votes: demVotes,
+          rep_votes: repVotes,
+          other_votes: otherVotes,
+          total_votes: totalVotes,
           dem_candidate: demCand,
           rep_candidate: repCand,
-          winner: r.winner || '',
-          margin_pct: Number(r.margin_pct) || 0,
+          winner: r.winner || (signed > 0 ? 'REP' : (signed < 0 ? 'DEM' : 'TIE')),
+          margin_pct: signed,
           coverage_pct: payload?.meta?.match_coverage_pct
         });
       }
