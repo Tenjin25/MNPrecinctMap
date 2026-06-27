@@ -10515,7 +10515,7 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate: withBase('./Data/tl_2024_27_sldu.geojson'),
         state_senate_2022: withBase('./Data/tl_2024_27_sldu.geojson'),
         state_senate_2024: withBase('./Data/tl_2024_27_sldu.geojson'),
-        county_demographics: withBase('./Data/county_demographics_2020_dp1.json'),
+        county_demographics: null,
         county_population_estimates: null,
         precinct_demographics: null,
         cvap_aggregates: {},
@@ -10527,10 +10527,10 @@ document.addEventListener('DOMContentLoaded', function() {
           '2022': withBase('./Data/district_contests'),
           '2024': withBase('./Data/district_contests')
         },
-        districts_info: withBase('./Data/mn_congressional_districts.csv'),
-        state_house_info: withBase('./Data/mn_state_house_districts.csv'),
-        state_senate_info: withBase('./Data/mn_state_senate_districts.csv'),
-        district_descriptions: withBase('./Data/district_descriptions.json'),
+        districts_info: null,
+        state_house_info: null,
+        state_senate_info: null,
+        district_descriptions: null,
         contests_dir: withBase('./Data/contests'),
         reports_match_year_summary: null,
         reports_top_unmatched: null,
@@ -11612,11 +11612,13 @@ document.addEventListener('DOMContentLoaded', function() {
         if (meta.kind === 'region' && meta.regionKey) {
           return `region:${String(meta.regionKey).trim().toLowerCase()}`;
         }
-        if (meta.kind === 'district' && Number.isFinite(Number(meta.districtNum))) {
-          const num = Number(meta.districtNum);
-          if (meta.scope === 'congressional') return `cd:${num}`;
-          if (meta.scope === 'state_house') return `hd:${num}`;
-          if (meta.scope === 'state_senate') return `sd:${num}`;
+        if (meta.kind === 'district') {
+          const num = normalizeDistrictNumber(meta.districtNum);
+          if (num) {
+            if (meta.scope === 'congressional') return `cd:${num}`;
+            if (meta.scope === 'state_house') return `hd:${num}`;
+            if (meta.scope === 'state_senate') return `sd:${num}`;
+          }
         }
         if (meta.kind === 'precinct') {
           const raw = String(
@@ -11634,8 +11636,8 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!raw || /^statewide$/i.test(raw)) return '';
       const cdMatch = raw.match(/congressional district\s+(\d+)/i);
       if (cdMatch) return `cd:${Number(cdMatch[1])}`;
-      const hdMatch = raw.match(/state house district\s+(\d+)/i);
-      if (hdMatch) return `hd:${Number(hdMatch[1])}`;
+      const hdMatch = raw.match(/state house district\s+([0-9]{1,3}[A-Z]?)/i);
+      if (hdMatch) return `hd:${normalizeDistrictNumber(hdMatch[1])}`;
       const sdMatch = raw.match(/state senate district\s+(\d+)/i);
       if (sdMatch) return `sd:${Number(sdMatch[1])}`;
       if (raw.includes(' - ')) return `precinct:${raw}`;
@@ -12957,16 +12959,24 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function addLayerWithOptionalSourceLayer(layerDef) {
-      const src = map.getSource(layerDef.source);
+      if (!layerDef || !layerDef.id) return;
+      // Idempotent add: setMapView() can re-enter addCountyLayers(), so skip layers that already exist.
+      if (map.getLayer && map.getLayer(layerDef.id)) return;
+      const layer = { ...layerDef };
+      const src = map.getSource(layer.source);
       const isVectorSource = !!src && src.type === 'vector';
-      const sourceLayer = isVectorSource ? getVectorSourceLayer(layerDef.source) : null;
-      const beforeId = layerDef.beforeId;
-      if (sourceLayer) layerDef['source-layer'] = sourceLayer;
-      if (Object.prototype.hasOwnProperty.call(layerDef, 'beforeId')) delete layerDef.beforeId;
-      if (beforeId && map.getLayer(beforeId)) {
-        map.addLayer(layerDef, beforeId);
-      } else {
-        map.addLayer(layerDef);
+      const sourceLayer = isVectorSource ? getVectorSourceLayer(layer.source) : null;
+      const beforeId = layer.beforeId;
+      if (sourceLayer) layer['source-layer'] = sourceLayer;
+      if (Object.prototype.hasOwnProperty.call(layer, 'beforeId')) delete layer.beforeId;
+      try {
+        if (beforeId && map.getLayer(beforeId)) {
+          map.addLayer(layer, beforeId);
+        } else {
+          map.addLayer(layer);
+        }
+      } catch (err) {
+        if (!/already exists/i.test(String(err?.message || err))) throw err;
       }
     }
 
@@ -14994,7 +15004,10 @@ document.addEventListener('DOMContentLoaded', function() {
           const trajectoryUnit = meta.kind === 'district'
             ? 'district'
             : (meta.kind === 'region' ? 'region' : (meta.kind === 'precinct' ? (trendOptions.fallbackBadge ? 'county' : 'precinct') : 'county'));
-          trendOptions.trajectoryMeta = classifyCountyTrajectory(series, trajectoryUnit, censusContext);
+          trendOptions.trajectoryMeta = classifyCountyTrajectory(series, trajectoryUnit, censusContext, {
+            contestType,
+            selectedYear: Number(year)
+          });
         }
         if (trendOptions.trajectoryMeta && censusContext) {
           try {
@@ -15436,12 +15449,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	      }
 	    }
 
-	    const PRESIDENT_OPEN_ELECTIONS_CSV = {
-	      2000: withBase('./data/2000/20001107__nc__general__precinct.csv'),
-	      2004: withBase('./data/2004/20041102__nc__general__precinct.csv'),
-	      2012: withBase('./data/2012/20121106__nc__general__precinct.csv'),
-	      2008: withBase('./data/2008/20081104__nc__general__precinct.csv')
-	    };
+	    // MN build: do not use the NC OpenElections precinct CSV fallback.
+	    // Older presidential cycles should come from the local Minnesota contest slices/manifest.
+	    const PRESIDENT_OPEN_ELECTIONS_CSV = {};
 
 	    async function loadPresidentSliceFromOpenElectionsCSV(year) {
 	      const y = Number(year);
@@ -23172,7 +23182,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	      return '🏭 Stable / Local Growth';
 	    }
 
-    function classifyCountyTrajectory(dataOrSeries, unitNoun = 'county', censusContext = null) {
+    function classifyCountyTrajectory(dataOrSeries, unitNoun = 'county', censusContext = null, options = {}) {
+      const trajectoryOptions = (options && typeof options === 'object') ? options : {};
+      const contestTypeForTrajectory = String(trajectoryOptions?.contestType || '').trim().toLowerCase();
+      const selectedYearForTrajectory = Number(trajectoryOptions?.selectedYear);
 	      const looksLikeShiftData = dataOrSeries && !Array.isArray(dataOrSeries) && (
 	        Object.prototype.hasOwnProperty.call(dataOrSeries, 'current_margin') ||
 	        Object.prototype.hasOwnProperty.call(dataOrSeries, 'shift_since_2020') ||
@@ -23336,10 +23349,15 @@ document.addEventListener('DOMContentLoaded', function() {
         return `${row.year}: ${signedMargin > 0 ? 'R' : 'D'}+${absMargin.toFixed(2)}%`;
       }
 
-      const sorted = series
+      let sorted = series
         .slice()
         .filter(row => row && Number.isFinite(Number(row.year)))
         .sort((a, b) => Number(a.year) - Number(b.year));
+
+      if (Number.isFinite(selectedYearForTrajectory)) {
+        const throughSelected = sorted.filter(row => Number(row.year) <= selectedYearForTrajectory);
+        if (throughSelected.length) sorted = throughSelected;
+      }
 
       if (!sorted.length) {
         return {
@@ -23365,8 +23383,33 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const shiftSince2008 = row2008 ? latestSigned - getSignedDisplayMarginTowardGop(row2008) : null;
 	      const row2020 = sorted.find(row => Number(row.year) === 2020);
 	      const shiftSince2020 = row2020 ? latestSigned - getSignedDisplayMarginTowardGop(row2020) : NaN;
-	      const row2000 = sorted.find(row => Number(row.year) === 2000);
-	      const shiftSince2000 = (row2000 || first) ? latestSigned - getSignedDisplayMarginTowardGop(row2000 || first) : NaN;
+      const findRowByYear = (targetYear) => sorted.find(row => Number(row.year) === Number(targetYear)) || null;
+      const sameSeatSenateAnchor = (() => {
+        if (contestTypeForTrajectory !== 'us_senate') return null;
+        const latestYear = Number(latest?.year);
+        if (!Number.isFinite(latestYear)) return null;
+        return sorted
+          .filter(row => Number(row.year) < latestYear && ((latestYear - Number(row.year)) % 6 === 0))
+          .sort((a, b) => Number(b.year) - Number(a.year))[0] || null;
+      })();
+      const preferredBaselineYear = (() => {
+        if (contestTypeForTrajectory === 'president' && unitLower === 'county') return 2004;
+        if (contestTypeForTrajectory && contestTypeForTrajectory !== 'president' && contestTypeForTrajectory !== 'us_senate' && isStatewideContestType(contestTypeForTrajectory)) return 2002;
+        return 2000;
+      })();
+      const baselineAnchor = (() => {
+        if (sameSeatSenateAnchor) return sameSeatSenateAnchor;
+        const preferred = findRowByYear(preferredBaselineYear);
+        if (preferred && Number(preferred.year) !== Number(latest?.year)) return preferred;
+        if (contestTypeForTrajectory === 'president' && unitLower === 'county') return null;
+        if (contestTypeForTrajectory && contestTypeForTrajectory !== 'president' && contestTypeForTrajectory !== 'us_senate' && isStatewideContestType(contestTypeForTrajectory)) {
+          return (first && Number(first.year) !== Number(latest?.year)) ? first : null;
+        }
+        const legacy2000 = findRowByYear(2000);
+        return (legacy2000 && Number(legacy2000.year) !== Number(latest?.year)) ? legacy2000 : ((first && Number(first.year) !== Number(latest?.year)) ? first : null);
+      })();
+      const baselineYear = baselineAnchor ? Number(baselineAnchor.year) : NaN;
+      const shiftSinceBaseline = baselineAnchor ? latestSigned - getSignedDisplayMarginTowardGop(baselineAnchor) : NaN;
 	      const previous = sorted.length >= 2 ? sorted[sorted.length - 2] : null;
 	      const previousSigned = previous ? getSignedDisplayMarginTowardGop(previous) : null;
 	      const recentShiftTowardGop = previous ? (latestSigned - previousSigned) : null;
@@ -23591,7 +23634,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        current_margin: latestSigned,
 	        shift_since_2020: shiftSince2020,
 	        shift_since_2008: shiftSince2008,
-	        shift_since_2000: shiftSince2000
+	        shift_since_2000: shiftSinceBaseline
 	      });
 	      const subtype = String(structured?.subtype || '').trim();
 	      const transitionStage = getTransitionStage(latestSigned);
@@ -23609,7 +23652,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	        subtype,
 	        transitionStage,
 	        growthDynamic,
-	        shiftSince2000,
+	        shiftSince2000: shiftSinceBaseline,
+          shiftSinceBaseline,
+          baselineYear,
+          suppressSince2008: contestTypeForTrajectory === 'us_senate',
 	        shiftSince2008: Number.isFinite(shiftSince2008) ? shiftSince2008 : NaN,
 	        shiftSince2020,
 	        icon,
@@ -23634,17 +23680,18 @@ document.addEventListener('DOMContentLoaded', function() {
             add('Latest Result', formatWinnerLabel(latest, latestSigned), 'latest');
             if (previous) add(cycleShiftLabel, formatShiftLabel(recentShiftTowardGop), 'shift');
             if (row2020 && Number(row2020.year) !== Number(latest.year)) add('Since 2020', formatShiftLabel(shiftSince2020), 'shift');
-            // Avoid duplicating "Since 2020" when the first available row is also 2020 (common for midterm-only series).
-            if (
-              previous &&
-              Number(first.year) !== Number(previous.year) &&
-              Number(first.year) !== 2000 &&
-              !(Number(first.year) === 2020)
-            ) {
-              add(`Since ${first.year}`, formatShiftLabel(longShiftTowardGop), 'shift');
+            const baselineYearNum = Number(baselineYear);
+            if (baselineAnchor && Number.isFinite(baselineYearNum) && Number(baselineAnchor.year) !== Number(latest.year)) {
+              add(`Since ${baselineYearNum}`, formatShiftLabel(shiftSinceBaseline), 'shift');
             }
-            if (row2008 && Number(row2008.year) !== Number(first.year)) add('Since 2008', formatShiftLabel(shiftSince2008), 'shift');
-            if (row2000 && Number(row2000.year) !== Number(latest.year)) add('Since 2000', formatShiftLabel(shiftSince2000), 'shift');
+            if (
+              contestTypeForTrajectory !== 'us_senate' &&
+              row2008 &&
+              Number(row2008.year) !== Number(first.year) &&
+              (!Number.isFinite(baselineYearNum) || Number(row2008.year) !== baselineYearNum)
+            ) {
+              add('Since 2008', formatShiftLabel(shiftSince2008), 'shift');
+            }
             return out;
           })()
       };
@@ -23674,7 +23721,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const growthDynamicText = String(meta.growthDynamic || '').trim();
 	      const shiftSince2020 = Number(meta.shiftSince2020);
 	      const shiftSince2008 = Number(meta.shiftSince2008);
-	      const shiftSince2000 = Number(meta.shiftSince2000);
+          const baselineYear = Number(meta.baselineYear);
+          const shiftSinceBaseline = Number.isFinite(Number(meta.shiftSinceBaseline)) ? Number(meta.shiftSinceBaseline) : Number(meta.shiftSince2000);
+	      const shiftSince2000 = shiftSinceBaseline;
+          const suppressSince2008 = !!meta.suppressSince2008;
 
 	      const trendArrowStrengthClass = (shiftPts) => {
 	        const s = Number(shiftPts);
@@ -23771,9 +23821,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	        ? `<div class="trajectory-votes" title="${escapeHtml(voteDelta.text)}">${voteDelta.html}</div>`
 	        : '';
 
+          const baselineLabelYear = Number.isFinite(baselineYear) ? baselineYear : 2000;
 	      const longShiftLinesHTML = [
-	        renderShiftLineHTML(shiftSince2008, 2008),
-	        renderShiftLineHTML(shiftSince2000, 2000)
+            (!suppressSince2008 && (!Number.isFinite(baselineYear) || baselineYear !== 2008)) ? renderShiftLineHTML(shiftSince2008, 2008) : '',
+	        renderShiftLineHTML(shiftSince2000, baselineLabelYear)
 	      ].filter(Boolean).join('');
 
 	      const storyHTML = (latestResultText || recentShiftLineHTML || voteDeltaLineHTML || longShiftLinesHTML)
@@ -30328,12 +30379,12 @@ document.addEventListener('DOMContentLoaded', function() {
       const raw = (query || '').toString().trim();
       const q = raw.toUpperCase().replace(/\s+/g, ' ').trim();
 
-      const cd = q.match(/^(CD|CONG(?:RESS)?|US HOUSE)\s*[-#:]?\s*(\d{1,2})$/i);
-      if (cd) return { kind: 'cd', num: Number(cd[2]), raw };
-      const hd = q.match(/^(HD|HOUSE)\s*[-#:]?\s*(\d{1,3})$/i);
-      if (hd) return { kind: 'hd', num: Number(hd[2]), raw };
-      const sd = q.match(/^(SD|SENATE)\s*[-#:]?\s*(\d{1,3})$/i);
-      if (sd) return { kind: 'sd', num: Number(sd[2]), raw };
+      const cd = q.match(/^(?:CD|CONG(?:RESS)?|CONGRESSIONAL(?: DISTRICT)?|US HOUSE)\s*[-#:]?\s*(\d{1,2})$/i);
+      if (cd) return { kind: 'cd', num: Number(cd[1]), raw };
+      const hd = q.match(/^(?:HD|HOUSE|STATE HOUSE(?: DISTRICT)?)\s*[-#:]?\s*([0-9]{1,3}[A-Z]?)$/i);
+      if (hd) return { kind: 'hd', num: normalizeDistrictNumber(hd[1]), raw };
+      const sd = q.match(/^(?:SD|SENATE|STATE SENATE(?: DISTRICT)?)\s*[-#:]?\s*(\d{1,3})$/i);
+      if (sd) return { kind: 'sd', num: Number(sd[1]), raw };
 
       // Precinct: "HENNEPIN 001" or "ST. LOUIS 001".
       const p1 = q.match(/^([A-Z .'-]+)\s*-\s*([0-9A-Z .'-]+)$/);
@@ -31709,56 +31760,77 @@ document.addEventListener('DOMContentLoaded', function() {
         updateDistrictLinesToggleUI();
       }
 
-      // Optional district resources: do not fail app initialization if absent
-      try {
-        const districtsCSV = await loadCSV(CONFIG.paths.districts_info);
-        districtsInfo = parseCSV(districtsCSV);
-        setStatus('Congressional data loaded');
-      } catch (err) {
-        console.warn('District CSV not loaded:', err.message);
+      // Optional district resources: skip quietly when this state build does not ship the CSV/JSON.
+      if (CONFIG.paths.districts_info) {
+        try {
+          const districtsCSV = await loadCSV(CONFIG.paths.districts_info);
+          districtsInfo = parseCSV(districtsCSV);
+          setStatus('Congressional data loaded');
+        } catch (err) {
+          districtsInfo = [];
+          console.warn('District CSV not loaded:', err.message);
+        }
+      } else {
+        districtsInfo = [];
       }
 
       // Optional descriptive district labels (manual overrides).
-      try {
-        districtDescriptions = await loadJSON(CONFIG.paths.district_descriptions);
-      } catch (_) {
+      if (CONFIG.paths.district_descriptions) {
+        try {
+          districtDescriptions = await loadJSON(CONFIG.paths.district_descriptions);
+        } catch (_) {
+          districtDescriptions = null;
+        }
+      } else {
         districtDescriptions = null;
       }
 
       // Optional county demographics (DP1-derived) for sidebar/tooltips.
-      try {
-        countyDemographics = await loadJSON(CONFIG.paths.county_demographics);
-      } catch (err) {
+      if (CONFIG.paths.county_demographics) {
+        try {
+          countyDemographics = await loadJSON(CONFIG.paths.county_demographics);
+        } catch (err) {
+          countyDemographics = null;
+          console.warn('County demographics not loaded:', err?.message || err);
+        }
+      } else {
         countyDemographics = null;
-        console.warn('County demographics not loaded:', err?.message || err);
       }
 
       // Optional county population estimates (Census Vintage 2025) for county insight + trajectory confirmation.
-      try {
-        if (!CONFIG.paths.county_population_estimates) throw new Error('county population estimates path not configured');
-        const countyPopulationEstimatesCSV = await loadCSV(CONFIG.paths.county_population_estimates);
-        const rows = parseCSV(countyPopulationEstimatesCSV);
-        const idx = buildCountyPopulationEstimateIndex(rows);
-        countyPopulationEstimatesByNorm = idx.byNorm;
-        countyPopulationEstimateStatewide = idx.statewide;
-      } catch (err) {
+      if (CONFIG.paths.county_population_estimates) {
+        try {
+          const countyPopulationEstimatesCSV = await loadCSV(CONFIG.paths.county_population_estimates);
+          const rows = parseCSV(countyPopulationEstimatesCSV);
+          const idx = buildCountyPopulationEstimateIndex(rows);
+          countyPopulationEstimatesByNorm = idx.byNorm;
+          countyPopulationEstimateStatewide = idx.statewide;
+        } catch (err) {
+          countyPopulationEstimatesByNorm = null;
+          countyPopulationEstimateStatewide = null;
+          console.warn('County population estimates not loaded:', err?.message || err);
+        }
+      } else {
         countyPopulationEstimatesByNorm = null;
         countyPopulationEstimateStatewide = null;
-        console.warn('County population estimates not loaded:', err?.message || err);
       }
 
       // Optional precinct demographics (VAP by race from block aggregation).
-      try {
-        if (!CONFIG.paths.precinct_demographics) throw new Error('precinct demographics path not configured');
-        const precinctDemographicsCSV = await loadCSV(CONFIG.paths.precinct_demographics);
-        const rows = parseCSV(precinctDemographicsCSV);
-        const idx = buildPrecinctDemographicsIndexes(rows);
-        precinctDemographicsByNorm = idx.byNorm;
-        precinctDemographicsByCountyCode = idx.byCountyCode;
-      } catch (err) {
+      if (CONFIG.paths.precinct_demographics) {
+        try {
+          const precinctDemographicsCSV = await loadCSV(CONFIG.paths.precinct_demographics);
+          const rows = parseCSV(precinctDemographicsCSV);
+          const idx = buildPrecinctDemographicsIndexes(rows);
+          precinctDemographicsByNorm = idx.byNorm;
+          precinctDemographicsByCountyCode = idx.byCountyCode;
+        } catch (err) {
+          precinctDemographicsByNorm = null;
+          precinctDemographicsByCountyCode = null;
+          console.warn('Precinct demographics not loaded:', err?.message || err);
+        }
+      } else {
         precinctDemographicsByNorm = null;
         precinctDemographicsByCountyCode = null;
-        console.warn('Precinct demographics not loaded:', err?.message || err);
       }
 
       // Optional: preload RDH CVAP aggregates used for hover totals (non-blocking).
@@ -31799,8 +31871,12 @@ document.addEventListener('DOMContentLoaded', function() {
           }
           window['state-house__search_geojson'] = stateHouseGeoJSON;
         }
-        const stateHouseCSV = await loadCSV(CONFIG.paths.state_house_info);
-        stateHouseInfo = parseCSV(stateHouseCSV);
+        if (CONFIG.paths.state_house_info) {
+          const stateHouseCSV = await loadCSV(CONFIG.paths.state_house_info);
+          stateHouseInfo = parseCSV(stateHouseCSV);
+        } else {
+          stateHouseInfo = [];
+        }
         setStatus('State house districts loaded');
       } catch (err) {
         console.warn('State house resources not loaded:', err.message);
@@ -31821,8 +31897,12 @@ document.addEventListener('DOMContentLoaded', function() {
           }
           window['state-senate__search_geojson'] = stateSenateGeoJSON;
         }
-        const stateSenateCSV = await loadCSV(CONFIG.paths.state_senate_info);
-        stateSenateInfo = parseCSV(stateSenateCSV);
+        if (CONFIG.paths.state_senate_info) {
+          const stateSenateCSV = await loadCSV(CONFIG.paths.state_senate_info);
+          stateSenateInfo = parseCSV(stateSenateCSV);
+        } else {
+          stateSenateInfo = [];
+        }
         setStatus('State senate districts loaded');
       } catch (err) {
         console.warn('State senate resources not loaded:', err.message);
