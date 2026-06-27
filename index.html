@@ -1948,6 +1948,10 @@ body { height: var(--app-height); }
   #hover-tooltip[data-context="candidate-results"] .vhr-winner { font-size: 12.5px; font-weight: 900; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid rgba(148,163,184,0.22); color: #e2e8f0; }
   #hover-tooltip[data-context="candidate-results"] .vhr-winner.rep { color: #fca5a5; }
   #hover-tooltip[data-context="candidate-results"] .vhr-winner.dem { color: #93c5fd; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-winner-votes { font-size: 12px; font-weight: 800; opacity: 0.96; font-family: "JetBrains Mono", "Consolas", "SFMono-Regular", monospace; font-variant-numeric: tabular-nums; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-winner-votes.rep { color: #fecaca; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-winner-votes.dem { color: #bfdbfe; }
+  #hover-tooltip[data-context="candidate-results"] .vhr-winner-votes.tie { color: #e2e8f0; opacity: 0.92; }
   #hover-tooltip[data-context="candidate-results"] .vhr-row { display: grid; grid-template-columns: 10px minmax(0, 1fr) auto auto; align-items: center; gap: 8px; padding: 5px 0; font-size: 12.5px; color: #e2e8f0; }
   #hover-tooltip[data-context="candidate-results"] .vhr-dot { width: 9px; height: 9px; border-radius: 999px; display: inline-block; }
   #hover-tooltip[data-context="candidate-results"] .vhr-row.rep .vhr-dot { background: #dc2626; }
@@ -9188,6 +9192,24 @@ document.addEventListener('DOMContentLoaded', function() {
       return `Congressional District ${districtNum}`;
     }
 
+    function getDistrictTooltipCode(scope, districtNum) {
+      const d = normalizeDistrictNumber(districtNum);
+      if (!d) return '';
+      if (scope === 'congressional') {
+        const match = d.match(/^0*([0-9]+)$/);
+        return match ? `MN-${String(Number(match[1])).padStart(2, '0')}` : `MN-${d}`;
+      }
+      if (scope === 'state_house') {
+        const match = d.match(/^0*([0-9]+)([A-Z])$/);
+        return match ? `HD-${String(Number(match[1])).padStart(2, '0')}${match[2]}` : `HD-${d}`;
+      }
+      if (scope === 'state_senate') {
+        const match = d.match(/^0*([0-9]+)$/);
+        return match ? `SD-${String(Number(match[1])).padStart(2, '0')}` : `SD-${d}`;
+      }
+      return d;
+    }
+
     function getDistrictChamberForScope(scope) {
       if (scope === 'state_house') return 'house';
       if (scope === 'state_senate') return 'senate';
@@ -10584,7 +10606,7 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="vhr-subtitle">${escapeHtml(kindLabel)}</div>
         <div class="vhr-winner ${winnerToneClass}" style="display:flex;align-items:baseline;justify-content:space-between;gap:10px;">
           <span>${escapeHtml(leadText)}</span>
-          <span>${escapeHtml(`${leadVotes.toLocaleString()} votes`)}</span>
+          <span class="vhr-winner-votes ${winnerToneClass}">${escapeHtml(`${leadVotes.toLocaleString()} votes`)}</span>
         </div>
         ${flipLabel ? `<div class="vhr-flip ${flipToneClass}">${escapeHtml(flipLabel)}</div>` : ''}
         ${rows.map(item => `
@@ -11002,9 +11024,7 @@ document.addEventListener('DOMContentLoaded', function() {
         dem_candidate: demCandidate,
         rep_candidate: repCandidate
       }, {
-        title: scope === 'congressional'
-          ? `MN-${String(districtNum).padStart(2, '0')}`
-          : `${districtLabel} ${districtNum}`,
+        title: getDistrictTooltipCode(scope, districtNum) || `${districtLabel} ${districtNum}`,
         kindLabel: scope === 'congressional' ? 'Congressional District' : (scope === 'state_house' ? 'State House' : 'State Senate'),
         demCandidate: row.dem_candidate,
         repCandidate: row.rep_candidate,
