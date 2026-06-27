@@ -133,25 +133,41 @@
     }
   }
   @media (max-width: 768px) {
-    /* Mobile: dock hover tooltip above bottom legend for easier reading/taps. */
+    /* Mobile: dock hover tooltip above the bottom dock and vote counter for easier reading/taps. */
     #hover-tooltip {
       position: fixed !important;
       left: 8px !important;
       right: 8px !important;
       top: auto !important;
-      bottom: calc(var(--legend-h, 56px) + var(--safe-bottom, 0px) + 8px) !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 18px + var(--vote-counter-h, 0px) + 6px) !important;
       max-width: none !important;
       width: auto !important;
-      max-height: 42vh;
+      max-height: min(54vh, calc(100vh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
       overflow: auto;
       -webkit-overflow-scrolling: touch;
       touch-action: pan-y;
+      z-index: 10031 !important;
+    }
+    @supports (height: 100svh) {
+      #hover-tooltip {
+        max-height: min(54svh, calc(100svh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px) - var(--mobile-dock-h, 62px) - var(--vote-counter-h, 0px)));
+      }
     }
     #hover-tooltip .tooltip-btn {
       min-height: 44px;
       padding: 10px 12px;
       font-size: 13px;
       border-radius: 12px;
+    }
+    #hover-tooltip .tooltip-head {
+      flex-direction: column;
+      gap: 8px;
+    }
+    #hover-tooltip .tooltip-actions {
+      width: 100%;
+    }
+    #hover-tooltip .tooltip-btn {
+      flex: 1 1 auto;
     }
   }
     .spinner svg {
@@ -2289,11 +2305,11 @@ body { height: var(--app-height); }
     }
 
     html.android-mobile .vote-counter {
-      bottom: calc(var(--legend-h, 56px) + var(--safe-bottom, 0px) + var(--android-vv-bottom, 0px) + 58px) !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--android-vv-bottom, 0px) + var(--mobile-dock-h, 62px) + 18px) !important;
     }
 
     html.android-mobile #hover-tooltip {
-      bottom: calc(var(--legend-h, 56px) + var(--safe-bottom, 0px) + var(--android-vv-bottom, 0px) + 8px) !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--android-vv-bottom, 0px) + var(--mobile-dock-h, 62px) + 18px + var(--vote-counter-h, 0px) + 6px) !important;
     }
 
     .contest-toolbar {
@@ -5778,14 +5794,26 @@ body { height: var(--app-height); }
     }
 
     .vote-counter {
-      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 8px) !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 18px) !important;
     }
 
     #hover-tooltip {
-      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 8px) !important;
+      bottom: calc(var(--safe-bottom, 0px) + var(--mobile-dock-h, 62px) + 18px + var(--vote-counter-h, 0px) + 6px) !important;
+    }
+
+    body.mobile-sheet-open #hover-tooltip {
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(6px) !important;
     }
 
     body.mobile-input-active .vote-counter {
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(8px) !important;
+    }
+
+    body.mobile-input-active #hover-tooltip {
       opacity: 0;
       pointer-events: none;
       transform: translateY(8px) !important;
@@ -5831,11 +5859,16 @@ body { height: var(--app-height); }
       max-height: calc(100vh - 16px - var(--safe-top, 0px) - var(--safe-bottom, 0px)) !important;
     }
 
-    .vote-counter,
-    #hover-tooltip {
+    .vote-counter {
       left: 142px !important;
       right: 8px !important;
       bottom: 8px !important;
+    }
+
+    #hover-tooltip {
+      left: 142px !important;
+      right: 8px !important;
+      bottom: calc(8px + var(--vote-counter-h, 0px) + 8px) !important;
     }
   }
 
@@ -11277,17 +11310,23 @@ document.addEventListener('DOMContentLoaded', function() {
         const dh = dockVisible ? Math.round(mobileDock.getBoundingClientRect().height || 0) : 0;
         root.style.setProperty('--topbar-h', `${Math.max(0, th)}px`);
         root.style.setProperty('--mobile-dock-h', `${Math.max(0, dh)}px`);
+        const counterVisible = !!(voteCounter && voteCounter.style.display !== 'none' && voteCounter.getClientRects().length);
+        const vh = counterVisible ? Math.round(voteCounter.getBoundingClientRect().height) : 0;
         if (isDesktop) {
-          const counterVisible = !!(voteCounter && voteCounter.style.display !== 'none' && voteCounter.getClientRects().length);
-          const vh = counterVisible ? Math.round(voteCounter.getBoundingClientRect().height) : 0;
           root.style.setProperty('--desktop-vote-counter-h', `${Math.max(0, vh)}px`);
         } else {
           root.style.removeProperty('--desktop-vote-counter-h');
+        }
+        if (isMobile) {
+          root.style.setProperty('--vote-counter-h', `${Math.max(0, vh)}px`);
+        } else {
+          root.style.removeProperty('--vote-counter-h');
         }
         if (!isMobile) {
           root.style.removeProperty('--legend-h');
           root.style.removeProperty('--controls-h');
           root.style.removeProperty('--mobile-dock-h');
+          root.style.removeProperty('--vote-counter-h');
           return;
         }
         const legend = document.getElementById('legend');
@@ -15561,3 +15600,4 @@ document.addEventListener('DOMContentLoaded', function() {
   </script>
 </body>
 </html>
+
