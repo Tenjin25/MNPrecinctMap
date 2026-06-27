@@ -19850,6 +19850,63 @@ document.addEventListener('DOMContentLoaded', function() {
       return true;
     }
 
+
+    function getPreferredLongRunBaselineYearForTrend(contestType, unitNoun = 'county') {
+      const key = String(contestType || '').trim().toLowerCase();
+      const unit = String(unitNoun || 'county').trim().toLowerCase();
+      if (key === 'president' && unit === 'county') return 2004;
+      if (key && key !== 'president' && key !== 'us_senate' && isStatewideContestType(key)) return 2002;
+      return 2000;
+    }
+
+    function getPreferredTrendBaselineAnchor(series, options = {}) {
+      const rows = (Array.isArray(series) ? series : [])
+        .filter(row => row && Number.isFinite(Number(row.year)))
+        .slice()
+        .sort((a, b) => Number(a.year) - Number(b.year));
+      if (!rows.length) return null;
+      const contestType = String(options?.contestType || '').trim().toLowerCase();
+      const unit = String(options?.unit || options?.unitNoun || 'county').trim().toLowerCase();
+      const selectedYear = Number(options?.selectedYear);
+      const eligibleRows = Number.isFinite(selectedYear)
+        ? rows.filter(row => Number(row.year) <= selectedYear)
+        : rows;
+      const scopedRows = eligibleRows.length ? eligibleRows : rows;
+      const latest = options?.latest || scopedRows[scopedRows.length - 1];
+      const latestYear = Number(latest?.year);
+      if (!Number.isFinite(latestYear)) return null;
+
+      const findRowByYear = (targetYear) => scopedRows.find(row => Number(row.year) === Number(targetYear)) || null;
+
+      if (contestType === 'us_senate') {
+        // Compare Senate races against the previous same-seat cycle whenever that
+        // row exists (normally six years earlier), instead of using a generic
+        // 2000/2002/2004 long-run anchor.
+        const sameSeat = scopedRows
+          .filter(row => Number(row.year) < latestYear && ((latestYear - Number(row.year)) % 6 === 0))
+          .sort((a, b) => Number(b.year) - Number(a.year))[0] || null;
+        if (sameSeat) return sameSeat;
+        return scopedRows.filter(row => Number(row.year) < latestYear).sort((a, b) => Number(b.year) - Number(a.year))[0] || null;
+      }
+
+      const preferredYear = getPreferredLongRunBaselineYearForTrend(contestType, unit);
+      const preferred = findRowByYear(preferredYear);
+      if (preferred && Number(preferred.year) !== latestYear) return preferred;
+
+      // For county presidential trends, do not silently fall back to 2000. The
+      // desired long-run label is 2004, so if that anchor is missing, omit the
+      // long-run baseline rather than showing the old 2000 comparison.
+      if (contestType === 'president' && unit === 'county') return null;
+
+      if (contestType && contestType !== 'president' && contestType !== 'us_senate' && isStatewideContestType(contestType)) {
+        return scopedRows.find(row => Number(row.year) < latestYear) || null;
+      }
+
+      const legacy2000 = findRowByYear(2000);
+      if (legacy2000 && Number(legacy2000.year) !== latestYear) return legacy2000;
+      return scopedRows.find(row => Number(row.year) < latestYear) || null;
+    }
+
     function buildStatewideCloseRaceAlertHTML(contestType, year, marginPct) {
       if (!isStatewideContestType(contestType)) return '';
       if (!Number.isFinite(marginPct) || marginPct > 1.0) return '';
@@ -23483,31 +23540,12 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const shiftSince2008 = row2008 ? latestSigned - getSignedDisplayMarginTowardGop(row2008) : null;
 	      const row2020 = sorted.find(row => Number(row.year) === 2020);
 	      const shiftSince2020 = row2020 ? latestSigned - getSignedDisplayMarginTowardGop(row2020) : NaN;
-      const findRowByYear = (targetYear) => sorted.find(row => Number(row.year) === Number(targetYear)) || null;
-      const sameSeatSenateAnchor = (() => {
-        if (contestTypeForTrajectory !== 'us_senate') return null;
-        const latestYear = Number(latest?.year);
-        if (!Number.isFinite(latestYear)) return null;
-        return sorted
-          .filter(row => Number(row.year) < latestYear && ((latestYear - Number(row.year)) % 6 === 0))
-          .sort((a, b) => Number(b.year) - Number(a.year))[0] || null;
-      })();
-      const preferredBaselineYear = (() => {
-        if (contestTypeForTrajectory === 'president' && unitLower === 'county') return 2004;
-        if (contestTypeForTrajectory && contestTypeForTrajectory !== 'president' && contestTypeForTrajectory !== 'us_senate' && isStatewideContestType(contestTypeForTrajectory)) return 2002;
-        return 2000;
-      })();
-      const baselineAnchor = (() => {
-        if (sameSeatSenateAnchor) return sameSeatSenateAnchor;
-        const preferred = findRowByYear(preferredBaselineYear);
-        if (preferred && Number(preferred.year) !== Number(latest?.year)) return preferred;
-        if (contestTypeForTrajectory === 'president' && unitLower === 'county') return null;
-        if (contestTypeForTrajectory && contestTypeForTrajectory !== 'president' && contestTypeForTrajectory !== 'us_senate' && isStatewideContestType(contestTypeForTrajectory)) {
-          return (first && Number(first.year) !== Number(latest?.year)) ? first : null;
-        }
-        const legacy2000 = findRowByYear(2000);
-        return (legacy2000 && Number(legacy2000.year) !== Number(latest?.year)) ? legacy2000 : ((first && Number(first.year) !== Number(latest?.year)) ? first : null);
-      })();
+      const baselineAnchor = getPreferredTrendBaselineAnchor(sorted, {
+        contestType: contestTypeForTrajectory,
+        unit: unitLower,
+        selectedYear: selectedYearForTrajectory,
+        latest
+      });
       const baselineYear = baselineAnchor ? Number(baselineAnchor.year) : NaN;
       const shiftSinceBaseline = baselineAnchor ? latestSigned - getSignedDisplayMarginTowardGop(baselineAnchor) : NaN;
 	      const previous = sorted.length >= 2 ? sorted[sorted.length - 2] : null;
@@ -28312,12 +28350,17 @@ document.addEventListener('DOMContentLoaded', function() {
         const selectedYear = Number(year);
         const anchor = sorted.find(s => Number(s?.year) === selectedYear) || sorted[sorted.length - 1];
         const anchorIdx = sorted.indexOf(anchor);
-        const base = sorted.find(s => Number(s?.year) === 2004) || sorted[0];
+        const base = getPreferredTrendBaselineAnchor(sorted, {
+          contestType,
+          unit: 'county',
+          selectedYear,
+          latest: anchor
+        });
         const prev = anchorIdx > 0 ? sorted[anchorIdx - 1] : null;
-        const recentBase = (selectedYear >= 2020 ? (sorted.find(s => Number(s?.year) === 2020) || prev) : prev) || base;
+        const recentBase = (selectedYear >= 2020 ? (sorted.find(s => Number(s?.year) === 2020) || prev) : prev) || base || prev;
 
-        const longShift = Number(anchor?.margin_pct) - Number(base?.margin_pct);
-        const recentShift = Number(anchor?.margin_pct) - Number(recentBase?.margin_pct);
+        const longShift = base ? (Number(anchor?.margin_pct) - Number(base?.margin_pct)) : NaN;
+        const recentShift = recentBase ? (Number(anchor?.margin_pct) - Number(recentBase?.margin_pct)) : NaN;
         const longDir = longShift >= 3 ? 'rep' : (longShift <= -3 ? 'dem' : 'neutral');
         const recentDir = recentShift >= 1.5 ? 'rep' : (recentShift <= -1.5 ? 'dem' : 'neutral');
 
@@ -28335,6 +28378,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const steady = (() => {
           if (longDir === 'neutral') return false;
+          if (!base) return false;
           const slice = sorted.filter(s => Number(s.year) >= Number(base.year) && Number(s.year) <= Number(anchor.year));
           if (slice.length < 5) return false;
           const deltas = slice.slice(1).map((s, idx) => Number(s.margin_pct) - Number(slice[idx].margin_pct));
@@ -28344,7 +28388,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         const partyWord = partyTone === 'rep' ? 'GOP' : (partyTone === 'dem' ? 'Democrats' : 'Either party');
         const directionWord = longDir === 'rep' ? 'right' : (longDir === 'dem' ? 'left' : '');
-        const baseYear = Number(base?.year) || sorted[0]?.year || '';
+        const baseYear = base ? Number(base.year) : '';
 
         let headline = glanceHeadline;
         let story = '';
