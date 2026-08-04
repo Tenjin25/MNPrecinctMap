@@ -10462,8 +10462,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-07-21-1';
-    const APP_BUILD_ID = '2026-07-21-1';
+    const DATA_CACHE_BUSTER = '2026-08-03-1';
+    const APP_BUILD_ID = '2026-08-03-1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -10516,7 +10516,7 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate_2022: withBase('./Data/tl_2024_27_sldu.geojson'),
         state_senate_2024: withBase('./Data/tl_2024_27_sldu.geojson'),
         county_demographics: null,
-        county_population_estimates: null,
+        county_population_estimates: withCacheBuster(withBase('./Data/mn_county_population_estimates_2025.csv')),
         precinct_demographics: null,
         cvap_aggregates: {},
         election: withBase('./Data/mn_elections_aggregated.json'),
