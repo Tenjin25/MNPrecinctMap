@@ -22516,7 +22516,7 @@ document.addEventListener('DOMContentLoaded', function() {
           changePct2023To2024: Number.isFinite(changePct2023To2024) ? changePct2023To2024 : NaN
         };
 
-        if (countyNorm === 'NORTH CAROLINA') statewide = entry;
+        if (countyNorm === 'MINNESOTA') statewide = entry;
         else byNorm.set(countyNorm, entry);
       });
       return { byNorm, statewide };
@@ -26541,8 +26541,11 @@ document.addEventListener('DOMContentLoaded', function() {
             flipYearLabel: vizPrevCache?.prevYear || null
           })
         : '';
-      const votehubCore = (currentVizMode === 'population_change' && popChangeVotehubCore)
-        ? popChangeVotehubCore
+      const populationUnavailableCore = currentVizMode === 'population_change'
+        ? `<div class="votehub-results-card"><div class="vhr-title">${escapeHtml(`${countyDisplay} County`)}</div><div class="vhr-subtitle">Population change</div><div class="vhr-total">Population estimates unavailable.</div></div>`
+        : '';
+      const votehubCore = currentVizMode === 'population_change'
+        ? (popChangeVotehubCore || populationUnavailableCore)
         : defaultVotehubCore;
       const detailLines = `
         ${finalInsight ? `<div class="tooltip-insight">${escapeHtml(finalInsight)}</div>` : ''}
