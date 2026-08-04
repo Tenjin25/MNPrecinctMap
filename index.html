@@ -979,6 +979,19 @@ body.focus-active #hover-tooltip[data-context="preview"] {
   line-height: 1.6;
 }
 
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange { margin-bottom: 8px; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-grid { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; align-items: start; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-main { font-size: 12.5px; line-height: 1.4; font-weight: 800; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-main.gain,
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-values.gain { color: #166534; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-main.loss,
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-values.loss { color: #92400e; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-main.flat,
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-values.flat { color: #94a3b8; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-values { text-align: right; font-size: 12.5px; line-height: 1.4; font-weight: 800; font-variant-numeric: tabular-nums; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-tone { display: block; margin-top: 2px; }
+#hover-tooltip[data-context="votehub-results"] .vhr-popchange-divider { margin: 12px 0 0; border-top: 1px solid rgba(148,163,184,0.22); }
+
 .hover-tooltip .tooltip-head {
   display: flex;
   align-items: flex-start;
@@ -26479,7 +26492,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ? shortCandidateLabel(repCandidate, 'Republican')
         : (winner === 'D' ? shortCandidateLabel(demCandidate, 'Democratic') : 'Tie');
       const winnerParty = winner === 'R' ? 'rep' : (winner === 'D' ? 'dem' : 'tie');
-      const votehubCore = buildVotehubResultsTooltip({
+      const defaultVotehubCore = buildVotehubResultsTooltip({
         title: `${countyDisplay} County`,
         subtitle: String(currentVizMode || '') === 'population_change'
           ? 'Population change'
@@ -26508,6 +26521,29 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(shiftDelta) && !!vizShiftCache?.prevYear
       });
+      const popChangeVotehubCore = popChangeHeaderMeta
+        ? buildPopulationChangeCountyTooltip({
+            title: `${countyDisplay} County`,
+            subtitle: 'Population change',
+            popChangeLine: popChangeHeaderMeta.line,
+            popChangeRaw: popChangeHeaderMeta.raw,
+            popChangeToneLabel: popChangeHeaderMeta.label,
+            popChangeToneClass: popChangeHeaderMeta.tone,
+            demName: demCandidate,
+            repName: repCandidate,
+            otherName: 'Other',
+            demVotes,
+            repVotes,
+            otherVotes,
+            totalVotes,
+            prevSignedMarginPct: prevSignedForFlip,
+            currentSignedMarginPct: signedMarginPct,
+            flipYearLabel: vizPrevCache?.prevYear || null
+          })
+        : '';
+      const votehubCore = (currentVizMode === 'population_change' && popChangeVotehubCore)
+        ? popChangeVotehubCore
+        : defaultVotehubCore;
       const detailLines = `
         ${finalInsight ? `<div class="tooltip-insight">${escapeHtml(finalInsight)}</div>` : ''}
         ${censusDetailLine}
@@ -29005,6 +29041,61 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="vhr-total">Total votes: ${escapeHtml(formatVotehubVotes(safeTotal))}</div>
         </div>
       `.trim();
+    }
+
+    function buildPopulationChangeCountyTooltip({
+      title,
+      subtitle,
+      popChangeLine,
+      popChangeRaw,
+      popChangeToneLabel,
+      popChangeToneClass,
+      demName,
+      repName,
+      otherName,
+      demVotes,
+      repVotes,
+      otherVotes,
+      totalVotes,
+      prevSignedMarginPct,
+      currentSignedMarginPct,
+      flipYearLabel
+    } = {}) {
+      const dVotes = Number(demVotes || 0);
+      const rVotes = Number(repVotes || 0);
+      const oVotes = Number(otherVotes || 0);
+      const total = Number(totalVotes || (dVotes + rVotes + oVotes) || 0);
+      const safeTotal = total > 0 ? total : 0;
+      const pct = value => safeTotal > 0 ? (Number(value || 0) / safeTotal) * 100 : 0;
+      const normalizeCandidateLabel = (value, fallback) => {
+        const cleaned = typeof fullCandidateLabel === 'function' ? fullCandidateLabel(value, '') : String(value || '').trim();
+        return cleaned || fallback;
+      };
+      const rows = [
+        { partyClass: 'rep', label: normalizeCandidateLabel(repName, 'Republican'), votes: rVotes, pct: pct(rVotes) },
+        { partyClass: 'dem', label: normalizeCandidateLabel(demName, 'Democratic'), votes: dVotes, pct: pct(dVotes) }
+      ];
+      if (oVotes > 0) rows.push({ partyClass: 'other', label: normalizeCandidateLabel(otherName, 'Other'), votes: oVotes, pct: pct(oVotes) });
+      rows.sort((a, b) => Number(b.votes || 0) - Number(a.votes || 0));
+      const prevSigned = Number(prevSignedMarginPct);
+      const curSigned = Number(currentSignedMarginPct);
+      const flipMeta = (Number.isFinite(prevSigned) && Number.isFinite(curSigned)) ? flipInfo(prevSigned, curSigned) : null;
+      const flipToneClass = flipMeta?.flipped ? (flipMeta.to === 'R' ? 'rep' : (flipMeta.to === 'D' ? 'dem' : 'tie')) : 'tie';
+      const flipLabel = flipMeta?.flipped
+        ? `Flipped ${flipMeta.from === 'R' ? 'R->D' : 'D->R'}${flipYearLabel ? ` since ${String(flipYearLabel)}` : ''}`
+        : '';
+      const rowHtml = rows.map(row => `<div class="vhr-row ${row.partyClass}"><span class="vhr-dot"></span><span class="vhr-name">${escapeHtml(row.label)}</span><span class="vhr-votes">${escapeHtml(formatVotehubVotes(row.votes))}</span><span class="vhr-pct">${escapeHtml(formatVotehubPct(row.pct, 2))}%</span></div>`).join('');
+      return `<div class="votehub-results-card">
+        <div class="vhr-title">${escapeHtml(String(title || ''))}</div>
+        ${(subtitle || '') ? `<div class="vhr-subtitle">${escapeHtml(String(subtitle))}</div>` : ''}
+        <div class="vhr-popchange"><div class="vhr-popchange-grid">
+          <div class="vhr-popchange-main ${escapeHtml(String(popChangeToneClass || 'flat'))}">${escapeHtml(String(popChangeLine || ''))}<span class="vhr-popchange-tone">${escapeHtml(String(popChangeToneLabel || ''))}</span></div>
+          <div class="vhr-popchange-values ${escapeHtml(String(popChangeToneClass || 'flat'))}">${escapeHtml(String(popChangeRaw || ''))}</div>
+        </div><div class="vhr-popchange-divider"></div></div>
+        ${flipLabel ? `<div class="vhr-flip ${flipToneClass}">${escapeHtml(flipLabel)}</div>` : ''}
+        ${rowHtml}
+        <div class="vhr-total">Total votes: ${escapeHtml(formatVotehubVotes(safeTotal))}</div>
+      </div>`.trim();
     }
 
     function addPrecinctLayers() {
