@@ -10479,8 +10479,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-23-mn-legacy-statewide-v1';
-    const APP_BUILD_ID = '2026-08-23-mn-legacy-statewide-v1';
+    const DATA_CACHE_BUSTER = '2026-08-24-senate-seat-timeline-v1';
+    const APP_BUILD_ID = '2026-08-24-senate-seat-timeline-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -10671,9 +10671,9 @@ document.addEventListener('DOMContentLoaded', function() {
       return totals;
     }
 
-    async function getRegionTrendSeries(contestType, regionKey) {
-      const entries = getVisibleManifestEntries(contestManifest)
-        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+    async function getRegionTrendSeries(contestType, regionKey, anchorYear = null) {
+      const entries = getContestTimelineManifestEntries(contestType, anchorYear)
+        .filter(f => f && Number.isFinite(Number(f.year)))
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -10681,14 +10681,15 @@ document.addEventListener('DOMContentLoaded', function() {
       const loaded = await mapWithConcurrency(entries, 4, async (e) => {
         const year = Number(e?.year);
         if (!Number.isFinite(year)) return null;
-        const rows = await loadContestSlice(contestType, year, { preferCounty: true });
-        return { year, rows };
+        const sourceContestType = String(e?.contest_type || contestType);
+        const rows = await loadContestSlice(sourceContestType, year, { preferCounty: true });
+        return { year, rows, sourceContestType, isSpecial: sourceContestType === 'us_senate_special' };
       });
       for (const bundle of loaded) {
         if (!bundle) continue;
         const year = Number(bundle.year);
         const rows = bundle.rows || [];
-        const totals = aggregateContestRowsForRegion(rows, contestType, regionKey);
+        const totals = aggregateContestRowsForRegion(rows, bundle.sourceContestType || contestType, regionKey);
         if (!totals.total) continue;
         const margin = totals.rep - totals.dem;
         out.push({
@@ -10699,6 +10700,8 @@ document.addEventListener('DOMContentLoaded', function() {
           total_votes: totals.total,
           dem_candidate: totals.demCandidate,
           rep_candidate: totals.repCandidate,
+          contest_type: bundle.sourceContestType || contestType,
+          is_special: !!bundle.isSpecial,
           winner: margin > 0 ? 'REP' : (margin < 0 ? 'DEM' : 'TIE'),
           margin_pct: signedMarginPctFromVotes(totals.dem, totals.rep, totals.total)
         });
@@ -11214,6 +11217,39 @@ document.addEventListener('DOMContentLoaded', function() {
       return (Array.isArray(entries) ? entries : []).filter(shouldIncludeManifestEntry);
     }
 
+    function isUsSenateContestType(contestType) {
+      return contestType === 'us_senate' || contestType === 'us_senate_special';
+    }
+
+    function getMnUsSenateSeatClass(contestType, year, manifestEntry = null) {
+      const explicit = Number(manifestEntry?.senate_seat_class);
+      if (explicit === 1 || explicit === 2) return explicit;
+      const ct = String(contestType || '').trim();
+      const y = Number(year);
+      if (!isUsSenateContestType(ct) || !Number.isFinite(y)) return null;
+      if (ct === 'us_senate_special' && y === 2018) return 2;
+      if ((y - 2000) % 6 === 0) return 1;
+      if ((y - 2002) % 6 === 0) return 2;
+      return null;
+    }
+
+    function getContestTimelineManifestEntries(contestType, anchorYear, entries = contestManifest) {
+      const ct = String(contestType || '').trim();
+      const y = Number(anchorYear);
+      const visible = getVisibleManifestEntries(entries);
+      if (!isUsSenateContestType(ct)) {
+        return visible.filter(entry => entry && String(entry.contest_type || '') === ct);
+      }
+      const seatClass = getMnUsSenateSeatClass(ct, y);
+      if (!seatClass) {
+        return visible.filter(entry => entry && String(entry.contest_type || '') === ct);
+      }
+      return visible.filter(entry => {
+        if (!entry || !isUsSenateContestType(String(entry.contest_type || ''))) return false;
+        return getMnUsSenateSeatClass(entry.contest_type, entry.year, entry) === seatClass;
+      });
+    }
+
     function getAvailableContestYearsForType(contestType) {
       const ct = String(contestType || '').trim();
       if (!ct) return [];
@@ -11255,11 +11291,15 @@ document.addEventListener('DOMContentLoaded', function() {
     function getPriorContestYearsFromAvailableYears(contestType, year, availableYears) {
       const ct = String(contestType || '').trim();
       const y = Number(year);
-      const years = Array.isArray(availableYears)
+      let years = Array.isArray(availableYears)
         ? availableYears.map(Number).filter(v => Number.isFinite(v) && v < y).sort((a, b) => a - b)
         : [];
       if (!years.length) return [];
       if (ct !== 'us_senate') return years.slice().sort((a, b) => b - a);
+      const seatClass = getMnUsSenateSeatClass(ct, y);
+      if (seatClass) {
+        years = years.filter(candidateYear => getMnUsSenateSeatClass(ct, candidateYear) === seatClass);
+      }
       const preferred = [y - 6, y - 12].filter(v => years.includes(v));
       const rest = years.filter(v => !preferred.includes(v)).sort((a, b) => b - a);
       return [...preferred, ...rest];
@@ -14642,6 +14682,12 @@ document.addEventListener('DOMContentLoaded', function() {
       };
     }
 
+    function formatTrendElectionYear(item) {
+      const year = Number(item?.year);
+      const label = Number.isFinite(year) ? String(year) : String(item?.year || '');
+      return item?.is_special ? `${label} special` : label;
+    }
+
     function renderFocusTrendSeries(series, caption = 'Trend history', options = {}) {
       const captionEl = document.getElementById('focus-trend-caption');
       const chartEl = document.getElementById('focus-trend-chart');
@@ -14697,7 +14743,7 @@ document.addEventListener('DOMContentLoaded', function() {
           office: contestTypeHint ? formatContestName(contestTypeHint, Number(item?.year)) : ''
         });
         const leadLabel = leadMarginLabelFn(repVotes, demVotes, totalVotes);
-        const shiftMeta = describeTrendShift(signedPct, prevSignedPct, prev ? prev.year : '');
+        const shiftMeta = describeTrendShift(signedPct, prevSignedPct, prev ? formatTrendElectionYear(prev) : '');
         const flip = prev ? flipInfo(prevSignedPct, signedPct) : { flipped: false, from: 'T', to: 'T' };
         return {
           item,
@@ -14742,7 +14788,7 @@ document.addEventListener('DOMContentLoaded', function() {
         return `${winnerLast} +${marginLabel}%`;
       })();
       const earliest = annotated[0];
-      const historyShift = describeTrendShift(summaryEntry.signedPct, earliest ? earliest.signedPct : NaN, earliest ? earliest.item.year : '');
+      const historyShift = describeTrendShift(summaryEntry.signedPct, earliest ? earliest.signedPct : NaN, earliest ? formatTrendElectionYear(earliest.item) : '');
       let streakCount = 0;
       for (let i = annotated.length - 1; i >= 0; i -= 1) {
         if (annotated[i].winnerMeta.partyClass !== latest.winnerMeta.partyClass) break;
@@ -14752,7 +14798,7 @@ document.addEventListener('DOMContentLoaded', function() {
         ? 'Latest result was an even race.'
         : `${latest.winnerMeta.partyClass === 'rep' ? 'Republican' : 'Democratic'} streak: ${streakCount} election${streakCount === 1 ? '' : 's'}.`;
       const summaryNoteSuffix = selectedEntry && selectedEntry !== latest
-        ? `Selected year ${summaryEntry.item.year}; latest available ${latest.item.year}.`
+        ? `Selected year ${formatTrendElectionYear(summaryEntry.item)}; latest available ${formatTrendElectionYear(latest.item)}.`
         : latestStreakLabel;
 
       const summaryBadges = [];
@@ -14845,7 +14891,7 @@ document.addEventListener('DOMContentLoaded', function() {
             : '';
           return `
             <div class="focus-trend-entry">
-              <span class="focus-trend-entry-year">${escapeHtml(entry.item.year)}</span>
+              <span class="focus-trend-entry-year">${escapeHtml(formatTrendElectionYear(entry.item))}</span>
               <div class="focus-trend-entry-card" data-party="${entry.winnerMeta.partyClass}">
                 <div class="focus-trend-entry-head">
                   <div class="focus-trend-entry-copy">
@@ -14880,22 +14926,22 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="focus-trend-summary">
             <div class="focus-trend-summary-copy">
               <span class="focus-trend-summary-kicker">${escapeHtml(selectedEntry ? 'Trend at a glance (selected year)' : 'Trend at a glance')}</span>
-              <div class="focus-trend-summary-call">${escapeHtml(`${summaryEntry.item.year}: ${summaryLine}`)}</div>
-              <div class="focus-trend-summary-note">${escapeHtml(`Showing ${annotated.length} elections from ${earliest.item.year} to ${latest.item.year}. ${summaryNoteSuffix}`)}</div>
+              <div class="focus-trend-summary-call">${escapeHtml(`${formatTrendElectionYear(summaryEntry.item)}: ${summaryLine}`)}</div>
+              <div class="focus-trend-summary-note">${escapeHtml(`Showing ${annotated.length} elections from ${formatTrendElectionYear(earliest.item)} to ${formatTrendElectionYear(latest.item)}. ${summaryNoteSuffix}`)}</div>
             </div>
             <div class="focus-trend-summary-badges">${summaryBadges.join('')}</div>
             <div class="focus-trend-stats">
               <div class="focus-trend-stat">
                 <span class="focus-trend-stat-label">${escapeHtml(selectedEntry ? 'Selected' : 'Latest')}</span>
-                <span class="focus-trend-stat-value ${summaryEntry.winnerMeta.partyClass}">${escapeHtml(`${summaryEntry.item.year}: ${summaryLine}`)}</span>
+                <span class="focus-trend-stat-value ${summaryEntry.winnerMeta.partyClass}">${escapeHtml(`${formatTrendElectionYear(summaryEntry.item)}: ${summaryLine}`)}</span>
               </div>
               <div class="focus-trend-stat">
                 <span class="focus-trend-stat-label">Closest</span>
-                <span class="focus-trend-stat-value ${closest.winnerMeta.partyClass}">${escapeHtml(`${closest.item.year}: ${winnerMarginLabelFn(closest.repVotes, closest.demVotes, closest.totalVotes, closest.item.rep_candidate, closest.item.dem_candidate)}`)}</span>
+                <span class="focus-trend-stat-value ${closest.winnerMeta.partyClass}">${escapeHtml(`${formatTrendElectionYear(closest.item)}: ${winnerMarginLabelFn(closest.repVotes, closest.demVotes, closest.totalVotes, closest.item.rep_candidate, closest.item.dem_candidate)}`)}</span>
               </div>
               <div class="focus-trend-stat">
                 <span class="focus-trend-stat-label">History</span>
-                <span class="focus-trend-stat-value tie">${escapeHtml(`${earliest.item.year}\u2013${latest.item.year} (${annotated.length} elections)`)}</span>
+                <span class="focus-trend-stat-value tie">${escapeHtml(`${formatTrendElectionYear(earliest.item)}\u2013${formatTrendElectionYear(latest.item)} (${annotated.length} elections)`)}</span>
               </div>
             </div>
           </div>
@@ -14909,9 +14955,9 @@ document.addEventListener('DOMContentLoaded', function() {
       try { updateMobileOverlayOffsets(); } catch (_) {}
     }
 
-    async function getStatewideTrendSeries(contestType) {
-      const entries = getVisibleManifestEntries(contestManifest)
-        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+    async function getStatewideTrendSeries(contestType, anchorYear = null) {
+      const entries = getContestTimelineManifestEntries(contestType, anchorYear)
+        .filter(f => f && Number.isFinite(Number(f.year)))
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -14919,22 +14965,24 @@ document.addEventListener('DOMContentLoaded', function() {
       const loaded = await mapWithConcurrency(entries, 4, async (e) => {
         const year = Number(e?.year);
         if (!Number.isFinite(year)) return null;
-        const rows = await loadContestSlice(contestType, year);
-        return { year, rows };
+        const sourceContestType = String(e?.contest_type || contestType);
+        const rows = await loadContestSlice(sourceContestType, year);
+        return { year, rows, sourceContestType, isSpecial: sourceContestType === 'us_senate_special' };
       });
       for (const bundle of loaded) {
         if (!bundle) continue;
         const year = Number(bundle.year);
         const rows = bundle.rows || [];
+        const sourceContestType = bundle.sourceContestType || contestType;
         let dem = 0, rep = 0, oth = 0, tot = 0;
         let demCand = '', repCand = '';
         rows.forEach(r => {
-          dem += Number(r[`${contestType}_dem`]) || 0;
-          rep += Number(r[`${contestType}_rep`]) || 0;
-          oth += Number(r[`${contestType}_other`]) || 0;
-          tot += Number(r[`${contestType}_total`]) || 0;
-          if (!demCand) demCand = r[`${contestType}_dem_candidate`] || '';
-          if (!repCand) repCand = r[`${contestType}_rep_candidate`] || '';
+          dem += Number(r[`${sourceContestType}_dem`]) || 0;
+          rep += Number(r[`${sourceContestType}_rep`]) || 0;
+          oth += Number(r[`${sourceContestType}_other`]) || 0;
+          tot += Number(r[`${sourceContestType}_total`]) || 0;
+          if (!demCand) demCand = r[`${sourceContestType}_dem_candidate`] || '';
+          if (!repCand) repCand = r[`${sourceContestType}_rep_candidate`] || '';
         });
         if (tot <= 0) continue;
         const margin = rep - dem;
@@ -14946,6 +14994,8 @@ document.addEventListener('DOMContentLoaded', function() {
           total_votes: tot,
           dem_candidate: demCand,
           rep_candidate: repCand,
+          contest_type: sourceContestType,
+          is_special: !!bundle.isSpecial,
           winner: margin > 0 ? 'REP' : (margin < 0 ? 'DEM' : 'TIE'),
           margin_pct: signedMarginPctFromVotes(dem, rep, tot)
         });
@@ -15015,21 +15065,21 @@ document.addEventListener('DOMContentLoaded', function() {
         trendOptions.contestType = contestType;
         let censusContext = null;
         if (meta.kind === 'county' && meta.county) {
-          series = await getCountyTrendSeries(contestType, meta.county);
+          series = await getCountyTrendSeries(contestType, meta.county, year);
         } else if (meta.kind === 'region' && meta.regionKey) {
-          series = await getRegionTrendSeries(contestType, meta.regionKey);
+          series = await getRegionTrendSeries(contestType, meta.regionKey, year);
         } else if (meta.kind === 'district' && meta.scope && meta.districtNum !== undefined) {
-          series = await getDistrictTrendSeries(meta.scope, contestType, meta.districtNum);
+          series = await getDistrictTrendSeries(meta.scope, contestType, meta.districtNum, year);
         } else if (meta.kind === 'precinct' && meta.county) {
-          series = await getPrecinctTrendSeries(contestType, meta.precinctNorm || meta.precinct || '', meta.county || '');
+          series = await getPrecinctTrendSeries(contestType, meta.precinctNorm || meta.precinct || '', meta.county || '', year);
           if (!series || !series.length) {
-            series = await getCountyTrendSeries(contestType, meta.county);
+            series = await getCountyTrendSeries(contestType, meta.county, year);
             if (series && series.length) {
               trendOptions.fallbackBadge = 'Precinct history unavailable - showing county trend';
             }
           }
         } else {
-          series = await getStatewideTrendSeries(contestType);
+          series = await getStatewideTrendSeries(contestType, year);
         }
 
         if ((meta.kind === 'county' || meta.kind === 'precinct') && meta.county) {
@@ -18718,8 +18768,8 @@ document.addEventListener('DOMContentLoaded', function() {
               [`${contestType}_rep`]: Number(r.rep_votes) || 0,
               [`${contestType}_other`]: Number(r.other_votes) || 0,
               [`${contestType}_total`]: Number(r.total_votes) || 0,
-              [`${contestType}_dem_candidate`]: r.dem_candidate || '',
-              [`${contestType}_rep_candidate`]: r.rep_candidate || '',
+              [`${contestType}_dem_candidate`]: normalizeCandidateDisplayName(r.dem_candidate || ''),
+              [`${contestType}_rep_candidate`]: normalizeCandidateDisplayName(r.rep_candidate || ''),
               [`${contestType}_margin`]: Number(r.margin) || 0,
               [`${contestType}_margin_pct`]: Number(r.margin_pct) || 0,
               [`${contestType}_winner`]: r.winner || '',
@@ -18954,7 +19004,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const candidatePaths = getPreferredDistrictSlicePaths(scope, contestType, year, linesYear);
         for (const path of candidatePaths) {
           try {
-            const payload = await loadJSON(path);
+            const payload = normalizeDistrictCandidateNames(await loadJSON(path));
             if (districtSliceResultCount(payload) > 0) {
               districtSliceCache.set(cacheKey, payload);
               return payload;
@@ -18970,7 +19020,7 @@ document.addEventListener('DOMContentLoaded', function() {
           fallback = await deriveCrossChamberDistrictSlice(scope, contestType, year, linesYear);
         }
 
-        const out = districtSliceResultCount(fallback) > 0 ? fallback : null;
+        const out = districtSliceResultCount(fallback) > 0 ? normalizeDistrictCandidateNames(fallback) : null;
         districtSliceCache.set(cacheKey, out);
         return out;
       });
@@ -19106,6 +19156,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	            'presidential': 'president',
 	            'governor': 'governor',
 	            'us_senate': 'us_senate',
+	            'us_senate_special': 'us_senate_special',
 	            'attorney_general': 'attorney_general',
 	            'agriculture_commissioner': 'agriculture_commissioner'
 	          };
@@ -19132,8 +19183,8 @@ document.addEventListener('DOMContentLoaded', function() {
               recordsMap[key][`${mappedOfficeType}_rep`] = countyData.rep_votes || 0;
               recordsMap[key][`${mappedOfficeType}_other`] = countyData.other_votes || 0;
               recordsMap[key][`${mappedOfficeType}_total`] = countyData.total_votes || 0;
-              recordsMap[key][`${mappedOfficeType}_dem_candidate`] = countyData.dem_candidate || '';
-              recordsMap[key][`${mappedOfficeType}_rep_candidate`] = countyData.rep_candidate || '';
+              recordsMap[key][`${mappedOfficeType}_dem_candidate`] = normalizeCandidateDisplayName(countyData.dem_candidate || '');
+              recordsMap[key][`${mappedOfficeType}_rep_candidate`] = normalizeCandidateDisplayName(countyData.rep_candidate || '');
               recordsMap[key][`${mappedOfficeType}_margin`] = countyData.margin || 0;
               recordsMap[key][`${mappedOfficeType}_margin_pct`] = countyData.margin_pct || 0;
               recordsMap[key][`${mappedOfficeType}_winner`] = countyData.winner || '';
@@ -19187,6 +19238,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'President of the United States': 'president',
         'Governor': 'governor',
         'United States Senator': 'us_senate',
+        'United States Senator — Special Election': 'us_senate_special',
         'Attorney General': 'attorney_general',
         'Commissioner of Agriculture': 'agriculture_commissioner',
         'Secretary of State': 'secretary_of_state',
@@ -19206,8 +19258,9 @@ document.addEventListener('DOMContentLoaded', function() {
       }
       
       if (record && record[candidateField]) {
-        candidateNameCache.set(cacheKey, record[candidateField]);
-        return record[candidateField];
+        const displayName = normalizeCandidateDisplayName(record[candidateField]);
+        candidateNameCache.set(cacheKey, displayName);
+        return displayName;
       }
       
       const fallback = party === 'Democrat' ? 'D' : 'R';
@@ -19268,6 +19321,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'president': 'President of the United States',
 	        'governor': 'Governor',
 	        'us_senate': 'United States Senator',
+	        'us_senate_special': 'United States Senator — Special Election',
 	        'lieutenant_governor': 'Lieutenant Governor',
 	        'attorney_general': 'Attorney General',
 	        'auditor': 'State Auditor',
@@ -19292,25 +19346,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	      if (contestType.startsWith('nc_court_of_appeals_judge_seat_')) {
 	        const seat = contestType.replace('nc_court_of_appeals_judge_seat_', '').replace(/^0+/, '');
-	        return `MN Court of Appeals Judge Seat ${seat || contestType}`;
+	        return `Court of Appeals Judge Seat ${seat || contestType}`;
 	      }
 	      if (contestType.startsWith('nc_court_of_appeals_judge_') && contestType.endsWith('_seat')) {
 	        const who = contestType.replace('nc_court_of_appeals_judge_', '').replace(/_seat$/i, '').replace(/_/g, ' ').trim();
 	        const label = who ? (typeof toTitleCaseName === 'function' ? toTitleCaseName(who) : who) : contestType;
-	        return `MN Court of Appeals Judge (${label})`;
+	        return `Court of Appeals Judge (${label})`;
 	      }
 	      if (contestType.startsWith('nc_supreme_court_associate_justice_seat_')) {
 	        const seat = contestType.replace('nc_supreme_court_associate_justice_seat_', '').replace(/^0+/, '');
-	        return `MN Supreme Court Associate Justice Seat ${seat || contestType}`;
+	        return `Supreme Court Associate Justice Seat ${seat || contestType}`;
 	      }
 	      if (contestType.startsWith('nc_supreme_court_chief_justice_seat_')) {
 	        const seat = contestType.replace('nc_supreme_court_chief_justice_seat_', '').replace(/^0+/, '');
-	        return `MN Supreme Court Chief Justice Seat ${seat || contestType}`;
+	        return `Supreme Court Chief Justice Seat ${seat || contestType}`;
 	      }
 	      if (contestType.startsWith('nc_supreme_court_chief_justice_') && contestType.endsWith('_seat')) {
 	        const who = contestType.replace('nc_supreme_court_chief_justice_', '').replace(/_seat$/i, '').replace(/_/g, ' ').trim();
 	        const label = who ? (typeof toTitleCaseName === 'function' ? toTitleCaseName(who) : who) : contestType;
-	        return `MN Supreme Court Chief Justice (${label})`;
+	        return `Supreme Court Chief Justice (${label})`;
 	      }
 
 	      return nameMap[contestType] || contestType.toUpperCase();
@@ -19547,18 +19601,18 @@ document.addEventListener('DOMContentLoaded', function() {
           const modeledDef = getModeledContestDefinitionByType(contestType);
           if (modeledDef?.groupLabel) return modeledDef.groupLabel;
 	        if (contestType === 'president') return 'US President';
-	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType === 'governor') return 'MN Governor';
-	        if (contestType === 'lieutenant_governor') return 'MN Lieutenant Governor';
-	        if (contestType === 'attorney_general') return 'MN Attorney General';
-	        if (contestType === 'secretary_of_state') return 'MN Secretary of State';
-	        if (contestType === 'treasurer') return 'MN Treasurer';
+	        if (contestType === 'us_senate' || contestType === 'us_senate_special') return 'US Senate';
+	        if (contestType === 'governor') return 'Governor';
+	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
+	        if (contestType === 'attorney_general') return 'Attorney General';
+	        if (contestType === 'secretary_of_state') return 'Secretary of State';
+	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
 	        if (contestType === 'labor_commissioner') return 'Labor Commissioner';
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
 	        if (contestType === 'agriculture_commissioner') return 'Agriculture Commissioner';
 	        if (contestType === 'superintendent') return 'Superintendent of Public Instruction';
-	        if (contestType.startsWith('nc_supreme_court_')) return 'MN Supreme Court';
+	        if (contestType.startsWith('nc_supreme_court_')) return 'Supreme Court';
 	        if (contestType.startsWith('nc_court_of_appeals_')) return 'Court of Appeals';
 	        return formatContestName(contestType, '');
 	      }
@@ -19571,17 +19625,17 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-	        'MN Governor',
-	        'MN Lieutenant Governor',
-	        'MN Attorney General',
-	        'MN Secretary of State',
-	        'MN Treasurer',
+	        'Governor',
+	        'Lieutenant Governor',
+	        'Attorney General',
+	        'Secretary of State',
+	        'Treasurer',
 	        'Auditor',
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
 	        'Agriculture Commissioner',
 	        'Superintendent of Public Instruction',
-	        'MN Supreme Court',
+	        'Supreme Court',
 	        'Court of Appeals'
 	      ];
 
@@ -19603,7 +19657,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const fragment = document.createDocumentFragment();
 	      orderedLabels.forEach(label => {
 	        const items = (grouped.get(label) || []).slice();
-	        const isJudicial = (label === 'MN Supreme Court' || label === 'Court of Appeals');
+	        const isJudicial = (label === 'Supreme Court' || label === 'Court of Appeals');
 	        items.sort((a, b) => {
 	          const y = Number(a.year) - Number(b.year);
 	          if (y !== 0) return y;
@@ -19627,7 +19681,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (modeledOptionLabel) {
               opt.textContent = modeledOptionLabel;
             } else
-	          if (isJudicial || modeledDef) {
+	          if (isJudicial || modeledDef || item.contestType === 'us_senate_special') {
               opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})${modeledSuffix}`;
 	          } else {
               opt.textContent = `${label} (${item.year})${modeledSuffix}`;
@@ -19708,6 +19762,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const contestTypes = [
 	        'president',
 	        'us_senate',
+	        'us_senate_special',
 	        'governor',
 	        'lieutenant_governor',
 	        'attorney_general',
@@ -19731,12 +19786,12 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 	      function groupLabelForContestType(contestType) {
 	        if (contestType === 'president') return 'US President';
-	        if (contestType === 'us_senate') return 'US Senate';
-	        if (contestType === 'governor') return 'MN Governor';
-	        if (contestType === 'lieutenant_governor') return 'MN Lieutenant Governor';
-	        if (contestType === 'attorney_general') return 'MN Attorney General';
-	        if (contestType === 'secretary_of_state') return 'MN Secretary of State';
-	        if (contestType === 'treasurer') return 'MN Treasurer';
+	        if (contestType === 'us_senate' || contestType === 'us_senate_special') return 'US Senate';
+	        if (contestType === 'governor') return 'Governor';
+	        if (contestType === 'lieutenant_governor') return 'Lieutenant Governor';
+	        if (contestType === 'attorney_general') return 'Attorney General';
+	        if (contestType === 'secretary_of_state') return 'Secretary of State';
+	        if (contestType === 'treasurer') return 'Treasurer';
 	        if (contestType === 'auditor') return 'Auditor';
 	        if (contestType === 'labor_commissioner') return 'Labor Commissioner';
 	        if (contestType === 'insurance_commissioner') return 'Insurance Commissioner';
@@ -19748,11 +19803,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	      const groupOrder = [
 	        'US President',
 	        'US Senate',
-	        'MN Governor',
-	        'MN Lieutenant Governor',
-	        'MN Attorney General',
-	        'MN Secretary of State',
-	        'MN Treasurer',
+	        'Governor',
+	        'Lieutenant Governor',
+	        'Attorney General',
+	        'Secretary of State',
+	        'Treasurer',
 	        'Auditor',
 	        'Labor Commissioner',
 	        'Insurance Commissioner',
@@ -20632,12 +20687,32 @@ document.addEventListener('DOMContentLoaded', function() {
       const parts = lower.split(/(\s+|-)/); // keep separators
       const titled = parts.map(p => {
         if (p === ' ' || p === '-' || /^\s+$/.test(p)) return p;
+        if (/^(?:[a-z]\.){2,}$/.test(p)) return p.toUpperCase();
         if (p === "of" || p === "and" || p === "the") return p;
         if (p.startsWith("mc") && p.length > 2) return "Mc" + p[2].toUpperCase() + p.slice(3);
         if (p.startsWith("o'") && p.length > 2) return "O'" + p[2].toUpperCase() + p.slice(3);
         return p.charAt(0).toUpperCase() + p.slice(1);
       }).join('');
       return titled;
+    }
+
+    function normalizeCandidateDisplayName(raw) {
+      const value = (raw || '').toString().trim();
+      if (!value || !/[A-Z]/.test(value) || value !== value.toUpperCase()) return value;
+      return toTitleCaseName(value);
+    }
+
+    function normalizeDistrictCandidateNames(payload) {
+      const results = payload?.general?.results;
+      if (!results || typeof results !== 'object') return payload;
+      Object.values(results).forEach(row => {
+        if (!row || typeof row !== 'object') return;
+        Object.keys(row).forEach(key => {
+          if (!key.toLowerCase().includes('candidate') || typeof row[key] !== 'string') return;
+          row[key] = normalizeCandidateDisplayName(row[key]);
+        });
+      });
+      return payload;
     }
 
     function displayCountyName(raw) {
@@ -22338,7 +22413,7 @@ document.addEventListener('DOMContentLoaded', function() {
       return Array.from(years).filter(Number.isFinite).sort((a, b) => a - b);
     }
 
-    async function getDistrictTrendSeries(scope, contestType, districtNum) {
+    async function getDistrictTrendSeries(scope, contestType, districtNum, anchorYear = null) {
       const scopeKey = String(scope || '').trim();
       const contestKey = String(contestType || '').trim();
       if (!scopeKey || !contestKey) return [];
@@ -22349,7 +22424,13 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       } catch (_) {}
 
-      const years = getDistrictTrendCandidateYears(scopeKey, contestKey);
+      let years = getDistrictTrendCandidateYears(scopeKey, contestKey);
+      if (contestKey === 'us_senate') {
+        const seatClass = getMnUsSenateSeatClass(contestKey, anchorYear);
+        if (seatClass) {
+          years = years.filter(year => getMnUsSenateSeatClass(contestKey, year) === seatClass);
+        }
+      }
       const out = [];
       for (const year of years) {
         const payload = await loadDistrictSlice(scopeKey, contestKey, year, getDefaultDistrictLinesYearForScope(scopeKey));
@@ -22394,15 +22475,15 @@ document.addEventListener('DOMContentLoaded', function() {
       return out;
     }
 
-    async function getCountyTrendSeries(contestType, countyName) {
-      const cacheKey = `${String(contestType || '').trim()}|${String(countyName || '').trim().toUpperCase()}`;
+    async function getCountyTrendSeries(contestType, countyName, anchorYear = null) {
+      const cacheKey = `${String(contestType || '').trim()}|${Number(anchorYear) || ''}|${String(countyName || '').trim().toUpperCase()}`;
       try {
         const cached = countyTrendSeriesCache && countyTrendSeriesCache.get ? countyTrendSeriesCache.get(cacheKey) : null;
         if (Array.isArray(cached)) return cached.slice();
       } catch (_) {}
 
-      const entries = getVisibleManifestEntries(contestManifest)
-        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+      const entries = getContestTimelineManifestEntries(contestType, anchorYear)
+        .filter(f => f && Number.isFinite(Number(f.year)))
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -22412,23 +22493,24 @@ document.addEventListener('DOMContentLoaded', function() {
       const loaded = await mapWithConcurrency(entries, 4, async (e) => {
         const year = Number(e?.year);
         if (!Number.isFinite(year)) return null;
-        const bundle = await ensureCountyAggregateBundle(contestType, year);
+        const sourceContestType = String(e?.contest_type || contestType);
+        const bundle = await ensureCountyAggregateBundle(sourceContestType, year);
         let totals = (bundle && bundle.totalsByCounty) ? bundle.totalsByCounty.get(target) : null;
         if (!totals || !(Number(totals.total || 0) > 0)) {
           // Fallback (modeled / missing bundles): aggregate just this county from rows.
           try {
-            const rows = await loadContestSlice(contestType, year);
+            const rows = await loadContestSlice(sourceContestType, year);
             let dem = 0, rep = 0, other = 0, total = 0;
             (rows || []).forEach(r => {
               const rowName = (r?.county || '').toString();
               const countyOnly = rowName.includes(' - ') ? rowName.split(' - ')[0] : rowName;
               const countyNorm = normalizeCountyToken(countyOnly);
               if (countyNorm !== target) return;
-              const d = Number(r?.[`${contestType}_dem`] || 0);
-              const rp = Number(r?.[`${contestType}_rep`] || 0);
-              const o = Number(r?.[`${contestType}_other`] || 0);
+              const d = Number(r?.[`${sourceContestType}_dem`] || 0);
+              const rp = Number(r?.[`${sourceContestType}_rep`] || 0);
+              const o = Number(r?.[`${sourceContestType}_other`] || 0);
               const fallbackTotal = d + rp + o;
-              const t = Math.max(0, Number(r?.[`${contestType}_total`] || fallbackTotal));
+              const t = Math.max(0, Number(r?.[`${sourceContestType}_total`] || fallbackTotal));
               dem += d; rep += rp; other += o; total += t;
             });
             totals = total > 0 ? { dem, rep, other, total } : null;
@@ -22438,8 +22520,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         if (!totals || !(Number(totals.total || 0) > 0)) return null;
         let candidates = null;
-        try { candidates = await getContestCandidates(contestType, year); } catch (_) { candidates = null; }
-        return { year, totals, candidates };
+        try { candidates = await getContestCandidates(sourceContestType, year); } catch (_) { candidates = null; }
+        return { year, totals, candidates, sourceContestType, isSpecial: sourceContestType === 'us_senate_special' };
       });
       for (const bundle of loaded) {
         if (!bundle) continue;
@@ -22461,6 +22543,8 @@ document.addEventListener('DOMContentLoaded', function() {
           total_votes: tot,
           dem_candidate: demCand,
           rep_candidate: repCand,
+          contest_type: bundle.sourceContestType || contestType,
+          is_special: !!bundle.isSpecial,
           winner: signed > 0 ? 'REP' : (signed < 0 ? 'DEM' : 'TIE'),
           margin_pct: signed
         });
@@ -24053,9 +24137,9 @@ document.addEventListener('DOMContentLoaded', function() {
       `;
     }
 
-    async function getPrecinctTrendSeries(contestType, precinctNormRaw, countyNameRaw = '') {
-      const entries = getVisibleManifestEntries(contestManifest)
-        .filter(f => f && f.contest_type === contestType && Number.isFinite(Number(f.year)))
+    async function getPrecinctTrendSeries(contestType, precinctNormRaw, countyNameRaw = '', anchorYear = null) {
+      const entries = getContestTimelineManifestEntries(contestType, anchorYear)
+        .filter(f => f && Number.isFinite(Number(f.year)))
         .slice()
         .sort((a, b) => Number(a.year) - Number(b.year));
 
@@ -24201,13 +24285,15 @@ document.addEventListener('DOMContentLoaded', function() {
       const loaded = await mapWithConcurrency(entries, 4, async (e) => {
         const year = Number(e?.year);
         if (!Number.isFinite(year)) return null;
-        const rows = await loadContestSlice(contestType, year);
-        return { year, rows };
+        const sourceContestType = String(e?.contest_type || contestType);
+        const rows = await loadContestSlice(sourceContestType, year);
+        return { year, rows, sourceContestType, isSpecial: sourceContestType === 'us_senate_special' };
       });
       for (const bundle of loaded) {
         if (!bundle) continue;
         const year = Number(bundle.year);
         const rows = bundle.rows || [];
+        const sourceContestType = bundle.sourceContestType || contestType;
         let dem = 0;
         let rep = 0;
         let oth = 0;
@@ -24221,12 +24307,12 @@ document.addEventListener('DOMContentLoaded', function() {
           if (!rowName.includes(' - ')) return;
           const [rowCounty, rowPrecinct] = rowName.split(' - ', 2);
           if (!rowMatchesTarget(rowCounty, rowPrecinct)) return;
-          dem += Number(r[`${contestType}_dem`] || 0);
-          rep += Number(r[`${contestType}_rep`] || 0);
-          oth += Number(r[`${contestType}_other`] || 0);
-          tot += Number(r[`${contestType}_total`] || 0);
-          if (!demCand) demCand = r[`${contestType}_dem_candidate`] || '';
-          if (!repCand) repCand = r[`${contestType}_rep_candidate`] || '';
+          dem += Number(r[`${sourceContestType}_dem`] || 0);
+          rep += Number(r[`${sourceContestType}_rep`] || 0);
+          oth += Number(r[`${sourceContestType}_other`] || 0);
+          tot += Number(r[`${sourceContestType}_total`] || 0);
+          if (!demCand) demCand = r[`${sourceContestType}_dem_candidate`] || '';
+          if (!repCand) repCand = r[`${sourceContestType}_rep_candidate`] || '';
           matchCount += 1;
         });
         if (tot <= 0 || matchCount <= 0) continue;
@@ -24239,6 +24325,8 @@ document.addEventListener('DOMContentLoaded', function() {
           total_votes: tot,
           dem_candidate: demCand,
           rep_candidate: repCand,
+          contest_type: sourceContestType,
+          is_special: !!bundle.isSpecial,
           winner: margin > 0 ? 'REP' : (margin < 0 ? 'DEM' : 'TIE'),
           margin_pct: signedMarginPctFromVotes(dem, rep, tot)
         });
@@ -24264,7 +24352,7 @@ document.addEventListener('DOMContentLoaded', function() {
             s.dem_candidate,
             Number(s.margin_pct)
           ).text;
-          return `<div style="display:flex;justify-content:space-between;gap:10px;"><span style="color:#cbd5e1;">${s.year}</span><span style="color:${color};font-weight:700;">${label}</span></div>`;
+          return `<div style="display:flex;justify-content:space-between;gap:10px;"><span style="color:#cbd5e1;">${formatTrendElectionYear(s)}</span><span style="color:${color};font-weight:700;">${label}</span></div>`;
         })
         .join('');
       return buildTooltipShell(title, lines);
@@ -28379,7 +28467,7 @@ document.addEventListener('DOMContentLoaded', function() {
   // Populate trends asynchronously from manifest slices (does not block UI).
   (async () => {
     try {
-      const series = await getCountyTrendSeries(contestType, countyName);
+      const series = await getCountyTrendSeries(contestType, countyName, year);
       try {
         // Abort if the user has moved on to a different focus before the async load finishes.
         if ((contentEl?.dataset?.focusKey || '') !== focusKey) return;
@@ -31568,7 +31656,7 @@ document.addEventListener('DOMContentLoaded', function() {
             useCountyMarginPrecision ? NaN : Number(s.margin_pct),
             { precision: useCountyMarginPrecision ? 'county' : 'default' }
           ).text;
-          return `<div style="margin-top:4px;color:${color};font-weight:800;">${s.year}: ${label}</div>`;
+          return `<div style="margin-top:4px;color:${color};font-weight:800;">${formatTrendElectionYear(s)}: ${label}</div>`;
         })
         .join('');
     }
@@ -31683,7 +31771,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         try {
-          const series = await getDistrictTrendSeries('congressional', contestType, districtNum);
+          const series = await getDistrictTrendSeries('congressional', contestType, districtNum, year);
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-trends');
           if (el) el.innerHTML = renderDistrictTrendLinesHTML(series, { marginPrecision: 'default' });
@@ -31772,7 +31860,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         try {
-          const series = await getDistrictTrendSeries(scope, contestType, districtNum);
+          const series = await getDistrictTrendSeries(scope, contestType, districtNum, year);
           if (reqId !== districtSidebarRequestId) return;
           const el = document.getElementById('district-trends');
           if (el) el.innerHTML = renderDistrictTrendLinesHTML(series, { marginPrecision: (scope === 'state_house' && Number(districtNum) === 97) ? 'county' : 'default' });
@@ -32503,8 +32591,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	          [`${contestType}_rep`]: Number(r.rep_votes) || 0,
 	          [`${contestType}_other`]: Number(r.other_votes) || 0,
 	          [`${contestType}_total`]: Number(r.total_votes) || 0,
-	          [`${contestType}_dem_candidate`]: r.dem_candidate || '',
-	          [`${contestType}_rep_candidate`]: r.rep_candidate || '',
+	          [`${contestType}_dem_candidate`]: normalizeCandidateDisplayName(r.dem_candidate || ''),
+	          [`${contestType}_rep_candidate`]: normalizeCandidateDisplayName(r.rep_candidate || ''),
 	          [`${contestType}_margin`]: Number(r.margin) || 0,
 	          [`${contestType}_margin_pct`]: Number(r.margin_pct) || 0,
 	          [`${contestType}_winner`]: r.winner || '',
@@ -32747,7 +32835,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const candidatePaths = getPreferredDistrictSlicePaths(scope, contestType, year, linesYear);
       for (const path of candidatePaths) {
         try {
-          return await loadJSON(path);
+          return normalizeDistrictCandidateNames(await loadJSON(path));
         } catch (_) {}
       }
       return null;

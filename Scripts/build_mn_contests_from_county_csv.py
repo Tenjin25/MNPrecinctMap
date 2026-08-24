@@ -13,13 +13,22 @@ from pathlib import Path
 @dataclass(frozen=True)
 class ContestSpec:
     offices: tuple[str, ...]
+    districts: tuple[str, ...] | None = None
+    excluded_districts: tuple[str, ...] = ()
     dem_parties: tuple[str, ...] = ("DFL", "DEM", "D")
     rep_parties: tuple[str, ...] = ("R", "REP")
 
 
 CONTEST_SPECS: dict[str, ContestSpec] = {
     "president": ContestSpec(offices=("PRESIDENT",)),
-    "us_senate": ContestSpec(offices=("U.S. SENATE", "UNITED STATES SENATOR")),
+    "us_senate": ContestSpec(
+        offices=("U.S. SENATE", "UNITED STATES SENATOR"),
+        excluded_districts=("UNEXPIRED TERM",),
+    ),
+    "us_senate_special": ContestSpec(
+        offices=("U.S. SENATE", "UNITED STATES SENATOR"),
+        districts=("UNEXPIRED TERM",),
+    ),
     "governor": ContestSpec(offices=("GOVERNOR", "GOVERNOR & LT GOVERNOR")),
     "attorney_general": ContestSpec(offices=("ATTORNEY GENERAL",)),
     "secretary_of_state": ContestSpec(offices=("SECRETARY OF STATE",)),
@@ -43,6 +52,19 @@ def parse_int(value: str | None) -> int:
 
 def normalize_office(value: str | None) -> str:
     return clean(value).upper()
+
+
+def normalize_district(value: str | None) -> str:
+    return clean(value).upper()
+
+
+def row_matches_spec(row: dict[str, str], spec: ContestSpec) -> bool:
+    district = normalize_district(row.get("district"))
+    if spec.districts is not None and district not in spec.districts:
+        return False
+    if district in spec.excluded_districts:
+        return False
+    return True
 
 
 def classify_party(party: str, spec: ContestSpec) -> str:
@@ -82,21 +104,24 @@ def top_candidate(counter: Counter[str]) -> str:
 def build_yearly_slices(
     county_csv_path: Path,
     out_dir: Path,
+    contest_types: set[str],
 ) -> list[dict[str, object]]:
     year = int(county_csv_path.name[:4])
 
     office_to_contest: dict[str, list[str]] = defaultdict(list)
     for contest_type, spec in CONTEST_SPECS.items():
+        if contest_type not in contest_types:
+            continue
         for office in spec.offices:
             office_to_contest[office].append(contest_type)
 
     contest_county: dict[str, dict[str, dict[str, int]]] = {
         contest_type: defaultdict(lambda: {"dem": 0, "rep": 0, "other": 0})
-        for contest_type in CONTEST_SPECS
+        for contest_type in contest_types
     }
     candidate_votes: dict[str, dict[str, Counter[str]]] = {
         contest_type: {"dem": Counter(), "rep": Counter()}
-        for contest_type in CONTEST_SPECS
+        for contest_type in contest_types
     }
 
     with county_csv_path.open(newline="", encoding="utf-8-sig") as f:
@@ -122,6 +147,8 @@ def build_yearly_slices(
 
             for contest_type in matching_contests:
                 spec = CONTEST_SPECS[contest_type]
+                if not row_matches_spec(row, spec):
+                    continue
                 bucket = classify_party(party, spec)
                 node = contest_county[contest_type][county]
                 node[bucket] += votes
@@ -177,20 +204,28 @@ def build_yearly_slices(
             continue
 
         out_file = out_dir / f"{contest_type}_{year}.json"
+        payload_meta: dict[str, object] = {
+            "source_file": county_csv_path.name,
+            "generated_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        }
+        if contest_type == "us_senate_special":
+            payload_meta.update(
+                {
+                    "election_type": "special",
+                    "senate_seat_class": 2,
+                    "seat_note": "Unexpired term",
+                }
+            )
         payload = {
             "contest_type": contest_type,
             "year": year,
             "state": "MN",
             "rows": rows,
-            "meta": {
-                "source_file": county_csv_path.name,
-                "generated_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            },
+            "meta": payload_meta,
         }
         out_file.write_text(json.dumps(payload, separators=(",", ":")), encoding="utf-8")
 
-        manifest_entries.append(
-            {
+        manifest_entry: dict[str, object] = {
                 "contest_type": contest_type,
                 "year": year,
                 "file": out_file.name,
@@ -200,7 +235,15 @@ def build_yearly_slices(
                 "other_total": other_total,
                 "major_party_contested": bool(dem_total > 0 and rep_total > 0),
             }
-        )
+        if contest_type == "us_senate_special":
+            manifest_entry.update(
+                {
+                    "election_type": "special",
+                    "senate_seat_class": 2,
+                    "seat_note": "Unexpired term",
+                }
+            )
+        manifest_entries.append(manifest_entry)
 
     return manifest_entries
 
@@ -233,7 +276,26 @@ def main() -> None:
         default=2024,
         help="Maximum year to include.",
     )
+    parser.add_argument(
+        "--contest-types",
+        default=",".join(CONTEST_SPECS),
+        help="Comma-separated contest types to build (default: all supported types).",
+    )
+    parser.add_argument(
+        "--merge-manifest",
+        action="store_true",
+        help="Merge generated entries into an existing manifest instead of replacing it.",
+    )
     args = parser.parse_args()
+
+    contest_types = {
+        token.strip() for token in str(args.contest_types).split(",") if token.strip()
+    }
+    unknown_contest_types = sorted(contest_types.difference(CONTEST_SPECS))
+    if unknown_contest_types:
+        raise SystemExit(f"Unsupported contest types: {', '.join(unknown_contest_types)}")
+    if not contest_types:
+        raise SystemExit("No contest types were requested.")
 
     county_files = []
     for path in sorted(args.data_dir.glob("*__mn__general__county.csv")):
@@ -251,15 +313,32 @@ def main() -> None:
     args.out_dir.mkdir(parents=True, exist_ok=True)
     manifest_entries: list[dict[str, object]] = []
     for csv_path in county_files:
-        manifest_entries.extend(build_yearly_slices(csv_path, args.out_dir))
+        manifest_entries.extend(build_yearly_slices(csv_path, args.out_dir, contest_types))
+    generated_entry_count = len(manifest_entries)
+
+    manifest_path = args.out_dir / "manifest.json"
+    if args.merge_manifest and manifest_path.exists():
+        existing_payload = json.loads(manifest_path.read_text(encoding="utf-8-sig"))
+        existing_entries = existing_payload.get("files", [])
+        replacement_keys = {
+            (str(entry.get("contest_type", "")), int(entry.get("year", 0)))
+            for entry in manifest_entries
+        }
+        manifest_entries = [
+            entry
+            for entry in existing_entries
+            if (str(entry.get("contest_type", "")), int(entry.get("year", 0)))
+            not in replacement_keys
+        ] + manifest_entries
 
     contest_order = {
         "president": 0,
         "us_senate": 1,
-        "governor": 2,
-        "attorney_general": 3,
-        "secretary_of_state": 4,
-        "auditor": 5,
+        "us_senate_special": 2,
+        "governor": 3,
+        "attorney_general": 4,
+        "secretary_of_state": 5,
+        "auditor": 6,
     }
     manifest_entries.sort(
         key=lambda x: (
@@ -270,12 +349,11 @@ def main() -> None:
     )
 
     manifest_payload = {"files": manifest_entries}
-    manifest_path = args.out_dir / "manifest.json"
     manifest_path.write_text(json.dumps(manifest_payload, separators=(",", ":")), encoding="utf-8")
 
     print(
-        f"Wrote {len(manifest_entries)} contest slices to {args.out_dir} "
-        f"and manifest to {manifest_path}"
+        f"Wrote {generated_entry_count} contest slice(s) to {args.out_dir}; "
+        f"manifest indexes {len(manifest_entries)} slices at {manifest_path}"
     )
 
 
