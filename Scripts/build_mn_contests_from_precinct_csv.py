@@ -10,6 +10,11 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 
+from convert_mn_legacy_results_to_openelections_precinct import (
+    load_candidate_overrides,
+    resolve_override_candidate,
+)
+
 
 @dataclass(frozen=True)
 class ContestSpec:
@@ -216,6 +221,7 @@ def build_yearly_slices(
     precinct_csv_path: Path,
     out_dir: Path,
     alias_map: dict[str, str],
+    candidate_overrides: dict[tuple[int, str, str, str], str],
 ) -> list[dict[str, object]]:
     year = int(precinct_csv_path.name[:4])
 
@@ -261,7 +267,13 @@ def build_yearly_slices(
                 matched_votes += votes
 
             party = clean(row.get("party")).upper()
-            candidate = clean(row.get("candidate"))
+            candidate = resolve_override_candidate(
+                candidate_overrides,
+                year=year,
+                office=clean(row.get("office")),
+                district=clean(row.get("district")),
+                party=party,
+            ) or clean(row.get("candidate"))
             candidate_u = candidate.upper()
 
             for contest_type in matching_contests:
@@ -386,6 +398,20 @@ def main() -> None:
         default=Path("Data/precincts.geojson"),
         help="Precinct GeoJSON used to resolve county/precinct names to canonical precinct keys.",
     )
+    parser.add_argument(
+        "--merge-manifest",
+        action="store_true",
+        help=(
+            "Merge generated contest/year entries into an existing manifest instead of "
+            "replacing entries outside the requested year range."
+        ),
+    )
+    parser.add_argument(
+        "--candidate-overrides",
+        type=Path,
+        default=Path("Data/candidate_overrides_legacy_statewide_corrections.csv"),
+        help="Optional explicit candidate-label corrections applied before slice aggregation.",
+    )
     args = parser.parse_args()
 
     precinct_files = []
@@ -403,9 +429,29 @@ def main() -> None:
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     alias_map = build_precinct_alias_map(args.precincts_geojson)
+    candidate_overrides = load_candidate_overrides(args.candidate_overrides)
     manifest_entries: list[dict[str, object]] = []
     for csv_path in precinct_files:
-        manifest_entries.extend(build_yearly_slices(csv_path, args.out_dir, alias_map))
+        manifest_entries.extend(
+            build_yearly_slices(csv_path, args.out_dir, alias_map, candidate_overrides)
+        )
+
+    if args.merge_manifest:
+        manifest_path = args.out_dir / "manifest.json"
+        if manifest_path.exists():
+            existing_payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+            existing_entries = existing_payload.get("files", [])
+            generated_keys = {
+                (str(entry.get("contest_type", "")), int(entry.get("year", 0)))
+                for entry in manifest_entries
+            }
+            manifest_entries = [
+                entry
+                for entry in existing_entries
+                if isinstance(entry, dict)
+                and (str(entry.get("contest_type", "")), int(entry.get("year", 0)))
+                not in generated_keys
+            ] + manifest_entries
 
     contest_order = {
         "president": 0,

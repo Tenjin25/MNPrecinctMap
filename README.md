@@ -86,6 +86,7 @@ For authoritative coverage, check manifest entries rather than assumptions.
 - `Data/`: election inputs, boundaries, crosswalks, generated JSON outputs.
 - `Data/contests/`: statewide/county/precinct contest slices + manifest.
 - `Data/district_contests/`: district contest slices + manifest.
+- `Data/statewide_county_contests/`: 2000-2008 statewide-office OpenElections county CSVs.
 - `Data/crosswalks/`: precinct-to-district allocation tables.
 - `Scripts/`: data conversion and build pipeline scripts.
 
@@ -136,9 +137,14 @@ Republican shades use reds and Democratic shades use blues.
 
 District builder: `Scripts/build_mn_district_contests_from_precinct_and_baf.py`
 
+Measured feasibility and historical-coverage notes: `BLOCK_DISAGGREGATION_FEASIBILITY.md`
+
 Primary allocation path:
 - Resolve `(county, precinct)` to canonical precinct key.
 - Use crosswalk weights from `Data/crosswalks/*.csv`.
+- For 2000-2008, resolve the year-aware sidecar bridge to VTD00 (2000), VTD10 (2002-2008), or a current VTD before using the residual fallback.
+- Keep documented renumbering decisions in `Data/crosswalks/legacy_precinct_overrides_2000_2008.csv`; do not hand-edit the generated bridge.
+- Allocate each integer vote row with largest-remainder rounding so totals are conserved exactly.
 
 Plan selection logic:
 - Congressional uses `precinct_to_cd118.csv`.
@@ -150,6 +156,7 @@ Fallback behavior:
 - For district-native races (`us_house`, `state_house`, `state_senate`), direct district code fallback is attempted first.
 - If precinct mapping fails for non-district-native contests, county-level weighted fallback can be used.
 - Unmatched votes are tracked in output metadata.
+- Bridge conflicts, resolved conflicts, VTD00/VTD10 recovery, and county fallback are reported separately; 100% coverage does not imply 100% exact precinct identification.
 
 ### Candidate Name Selection
 
@@ -164,8 +171,8 @@ Common columns used by builders:
 - `precinct`
 - `office`
 - `district`
-- `candidate`
 - `party`
+- `candidate`
 - `votes`
 
 Example file:
@@ -196,8 +203,10 @@ Columns:
 - `vtdst20`
 
 Interpretation:
-- `area_weight` is the share allocated from a precinct key to a district.
+- `area_weight` is currently `block_count / total_blocks`, despite the legacy column name.
 - Weights should sum to approximately 1.0 by precinct key.
+
+Historical crosswalks use `vtd00_key` or `vtd10_key` instead of `precinct_key` and record `weight_method=2020_block_count_centroids`.
 
 ### Contest Slice Output Schema (`Data/contests/*.json`)
 
@@ -247,11 +256,26 @@ Per-district fields:
 District metadata includes QA-critical fields:
 - `total_input_votes`
 - `crosswalk_matched_votes`
+- `name_crosswalk_matched_votes`
+- `legacy_bridge_matched_votes`
+- `legacy_current_vtd_matched_votes`
+- `legacy_vtd00_matched_votes`
+- `legacy_vtd10_matched_votes`
+- `legacy_conflict_votes`
+- `legacy_resolved_conflict_votes`
+- `legacy_manual_review_conflict_votes`
 - `fallback_matched_votes`
 - `county_fallback_votes`
 - `unmatched_votes`
 - `match_coverage_pct`
 - `crosswalk_match_pct`
+- `legacy_bridge_pct`
+- `legacy_vtd00_pct`
+- `legacy_vtd10_pct`
+- `legacy_conflict_pct`
+- `legacy_resolved_conflict_pct`
+- `legacy_manual_review_conflict_pct`
+- `vote_conservation_delta`
 
 ### Manifest Schema
 
@@ -377,11 +401,36 @@ python Scripts/build_mn_contests_from_precinct_csv.py --year-min 2000 --year-max
 python Scripts/build_mn_district_carry_crosswalks.py
 ```
 
+For the 2000-2008 historical bridge and VTD00/VTD10 crosswalks:
+
+```powershell
+python Scripts/build_mn_vtd00_district_crosswalks.py
+python Scripts/build_mn_vtd10_district_crosswalks.py
+python Scripts/build_mn_legacy_precinct_bridge.py
+```
+
 ### 5) Build district contest slices
 
 ```powershell
 python Scripts/build_mn_district_contests_from_precinct_and_baf.py --year-min 2012 --year-max 2024
 ```
+
+To build a separate historical preview without changing the production manifest:
+
+```powershell
+python Scripts/build_mn_district_contests_from_precinct_and_baf.py --year-min 2000 --year-max 2008 --statewide-only --out-dir Data/district_contests_legacy_preview
+```
+
+To generate and promote the selected 2000-2008 statewide contests while preserving newer manifest entries:
+
+```powershell
+python Scripts/build_mn_statewide_county_csvs_from_precinct.py --year-min 2000 --year-max 2008
+python Scripts/build_mn_contests_from_precinct_csv.py --year-min 2000 --year-max 2008 --merge-manifest
+python Scripts/build_mn_district_contests_from_precinct_and_baf.py --year-min 2000 --year-max 2008 --statewide-only --merge-manifest
+python Scripts/validate_mn_legacy_statewide_promotion.py
+```
+
+This production path emits 15 county/precinct JSON slices and 45 modern-district JSON slices. Historical U.S. House, State House, and State Senate races are intentionally excluded.
 
 ## Recent Project Updates
 
