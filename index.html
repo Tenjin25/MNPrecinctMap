@@ -10479,8 +10479,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-24-senate-seat-timeline-v1';
-    const APP_BUILD_ID = '2026-08-24-senate-seat-timeline-v1';
+    const DATA_CACHE_BUSTER = '2026-08-24-senate-seat-timeline-v2';
+    const APP_BUILD_ID = '2026-08-24-senate-seat-timeline-v2';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -11250,6 +11250,15 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     }
 
+    function getComparableContestTypeForYear(contestType, year, anchorYear) {
+      const ct = String(contestType || '').trim();
+      const y = Number(year);
+      if (!ct || !Number.isFinite(y)) return ct;
+      const entry = getContestTimelineManifestEntries(ct, anchorYear)
+        .find(candidate => Number(candidate?.year) === y);
+      return String(entry?.contest_type || ct);
+    }
+
     function getAvailableContestYearsForType(contestType) {
       const ct = String(contestType || '').trim();
       if (!ct) return [];
@@ -11311,17 +11320,14 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!ct || !Number.isFinite(y) || y <= 0) return [];
       const pairs = [];
 
-      const years = getAvailableContestYearsForType(ct);
+      const years = isUsSenateContestType(ct)
+        ? getContestTimelineManifestEntries(ct, y)
+            .map(entry => Number(entry?.year))
+            .filter(Number.isFinite)
+            .sort((a, b) => a - b)
+        : getAvailableContestYearsForType(ct);
       if (Array.isArray(years) && years.length) {
         let prev = null;
-        // Prefer "last time this contest was up" when a seat/class cadence exists.
-        // US Senate is a special case: same seat repeats every 6 years, but NC has two seats so
-        // the generic series contains elections every 2 years. For deltas, prefer same-class y-6
-        // when available, otherwise fall back to the most recent earlier year.
-        if (ct === 'us_senate') {
-          const preferred = y - 6;
-          if (years.includes(preferred)) prev = preferred;
-        }
         if (!Number.isFinite(prev)) {
           for (let i = years.length - 1; i >= 0; i -= 1) {
             const yr = Number(years[i]);
@@ -11334,10 +11340,6 @@ document.addEventListener('DOMContentLoaded', function() {
           if (pairs.length >= (Number(maxPairs) || 0)) return pairs;
 
           let prevPrev = null;
-          if (ct === 'us_senate') {
-            const preferredPrev = prev - 6;
-            if (years.includes(preferredPrev)) prevPrev = preferredPrev;
-          }
           if (!Number.isFinite(prevPrev)) {
             for (let i = years.length - 1; i >= 0; i -= 1) {
               const yr = Number(years[i]);
@@ -11402,6 +11404,8 @@ document.addEventListener('DOMContentLoaded', function() {
       const p = (async () => {
         const cache = new Map();
         try {
+          const fromContestType = getComparableContestTypeForYear(ct, fy, ty);
+          const toContestType = getComparableContestTypeForYear(ct, ty, ty);
           // Avoid manufacturing deltas for modeled contests.
           try {
             const modeledAny = getModeledContestDefinitionByType(ct);
@@ -11414,8 +11418,8 @@ document.addEventListener('DOMContentLoaded', function() {
           } catch (_) {}
 
           const [fromBundle, toBundle] = await Promise.all([
-            ensureCountyAggregateBundle(ct, fy, { strict: true }),
-            ensureCountyAggregateBundle(ct, ty, { strict: true })
+            ensureCountyAggregateBundle(fromContestType, fy, { strict: true }),
+            ensureCountyAggregateBundle(toContestType, ty, { strict: true })
           ]);
           if (!(fromBundle && toBundle)) {
             countyVoteDeltaCacheByPair.set(key, cache);
@@ -14685,7 +14689,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function formatTrendElectionYear(item) {
       const year = Number(item?.year);
       const label = Number.isFinite(year) ? String(year) : String(item?.year || '');
-      return item?.is_special ? `${label} special` : label;
+      return label;
     }
 
     function renderFocusTrendSeries(series, caption = 'Trend history', options = {}) {
@@ -32613,6 +32617,23 @@ document.addEventListener('DOMContentLoaded', function() {
 	      }
 	    }
 
+    function remapContestSliceRows(rows, sourceContestType, targetContestType) {
+      const source = String(sourceContestType || '').trim();
+      const target = String(targetContestType || '').trim();
+      if (!source || !target || source === target) return rows || [];
+      const suffixes = [
+        'dem', 'rep', 'other', 'total', 'dem_candidate', 'rep_candidate',
+        'margin', 'margin_pct', 'winner', 'color'
+      ];
+      return (rows || []).map(row => {
+        const mapped = { ...row };
+        suffixes.forEach(suffix => {
+          mapped[`${target}_${suffix}`] = row?.[`${source}_${suffix}`];
+        });
+        return mapped;
+      });
+    }
+
     async function getPreviousContestSlice(contestType, year) {
       const y = Number(year);
       const modeledDef = getModeledContestDefinition(contestType, y);
@@ -32621,6 +32642,24 @@ document.addEventListener('DOMContentLoaded', function() {
         if (rows && rows.length) return { year: modeledDef.baseYear, rows };
         return null;
       }
+
+      const timelineEntries = getContestTimelineManifestEntries(contestType, y)
+        .filter(entry => Number.isFinite(Number(entry?.year)) && Number(entry.year) < y)
+        .sort((a, b) => Number(b.year) - Number(a.year));
+      for (const entry of timelineEntries) {
+        const cy = Number(entry.year);
+        const sourceContestType = String(entry.contest_type || contestType);
+        const rows = await tryLoadContestSliceStrict(sourceContestType, cy);
+        if (rows && rows.length) {
+          return {
+            year: cy,
+            rows: remapContestSliceRows(rows, sourceContestType, contestType),
+            sourceContestType,
+            isSpecial: sourceContestType === 'us_senate_special'
+          };
+        }
+      }
+
       const candidates = getPriorContestYearsFromAvailableYears(
         contestType,
         y,
@@ -32628,7 +32667,7 @@ document.addEventListener('DOMContentLoaded', function() {
       );
       for (const cy of candidates) {
         const rows = await tryLoadContestSliceStrict(contestType, cy);
-        if (rows && rows.length) return { year: cy, rows };
+        if (rows && rows.length) return { year: cy, rows, sourceContestType: contestType, isSpecial: false };
       }
       return null;
     }
@@ -32649,6 +32688,8 @@ document.addEventListener('DOMContentLoaded', function() {
           contestType,
           year: y,
           prevYear: null,
+          prevContestType: null,
+          prevIsSpecial: false,
           prevPrecinctMarginByNorm: new Map(),
           prevCountyTotals: {},
           hasPrecinctMargins: false
@@ -32827,6 +32868,8 @@ document.addEventListener('DOMContentLoaded', function() {
         contestType,
         year: y,
         prevYear: prevMeta.year,
+        prevContestType: prevMeta.sourceContestType || contestType,
+        prevIsSpecial: !!prevMeta.isSpecial,
         prevPrecinctMarginByNorm,
         prevCountyTotals,
         hasPrecinctMargins: includePrecinctMargins
