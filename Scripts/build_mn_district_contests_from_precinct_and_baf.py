@@ -1164,6 +1164,22 @@ def main() -> None:
                 not in generated_keys
             ] + manifest_entries
 
+    # Keep pre-2022 district-office contests as source artifacts without promoting
+    # them into the selectable district manifest. Their historical geography is
+    # not comparable to the modern district slices used by the atlas.
+    manifest_entries = [
+        entry
+        for entry in manifest_entries
+        if not (
+            int(entry.get("year", 0)) < 2022
+            and (
+                (entry.get("scope") == "congressional" and entry.get("contest_type") == "us_house")
+                or (entry.get("scope") == "state_house" and entry.get("contest_type") == "state_house")
+                or (entry.get("scope") == "state_senate" and entry.get("contest_type") == "state_senate")
+            )
+        )
+    ]
+
     manifest_entries.sort(
         key=lambda x: (
             SCOPE_ORDER.get(str(x.get("scope")), 999),
