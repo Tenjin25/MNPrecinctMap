@@ -1,0 +1,126 @@
+{
+  "year": 2018,
+  "scope": "congressional",
+  "contest_type": "us_senate_special",
+  "meta": {
+    "source": "county_block_disaggregation",
+    "source_file": "us_senate_special_2018.json",
+    "crosswalk_file": "precinct_to_cd118.csv",
+    "allocation_basis": "county share of Census blocks in target districts",
+    "estimated": true,
+    "match_coverage_pct": 100.0,
+    "county_fallback_pct": 100.0,
+    "allocated_output_votes": 2587356,
+    "vote_conservation_delta": 0,
+    "election_type": "special",
+    "senate_seat_class": 2
+  },
+  "general": {
+    "results": {
+      "1": {
+        "district": "1",
+        "dem_votes": 143987,
+        "rep_votes": 147116,
+        "other_votes": 15329,
+        "total_votes": 306432,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": 3129,
+        "margin_pct": 1.021107,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
+      },
+      "2": {
+        "district": "2",
+        "dem_votes": 164108,
+        "rep_votes": 147420,
+        "other_votes": 14828,
+        "total_votes": 326356,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": -16688,
+        "margin_pct": -5.113434,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      },
+      "3": {
+        "district": "3",
+        "dem_votes": 214142,
+        "rep_votes": 102532,
+        "other_votes": 14049,
+        "total_votes": 330723,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": -111610,
+        "margin_pct": -33.747275,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "4": {
+        "district": "4",
+        "dem_votes": 206588,
+        "rep_votes": 98779,
+        "other_votes": 16328,
+        "total_votes": 321695,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": -107809,
+        "margin_pct": -33.512799,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "5": {
+        "district": "5",
+        "dem_votes": 234259,
+        "rep_votes": 109167,
+        "other_votes": 15111,
+        "total_votes": 358537,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": -125092,
+        "margin_pct": -34.889565,
+        "winner": "DEMOCRAT",
+        "color": "#08519c"
+      },
+      "6": {
+        "district": "6",
+        "dem_votes": 120992,
+        "rep_votes": 156843,
+        "other_votes": 14408,
+        "total_votes": 292243,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": 35851,
+        "margin_pct": 12.267531,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "7": {
+        "district": "7",
+        "dem_votes": 124475,
+        "rep_votes": 176839,
+        "other_votes": 14231,
+        "total_votes": 315545,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": 52364,
+        "margin_pct": 16.59478,
+        "winner": "REPUBLICAN",
+        "color": "#ef3b2c"
+      },
+      "8": {
+        "district": "8",
+        "dem_votes": 161989,
+        "rep_votes": 157081,
+        "other_votes": 16755,
+        "total_votes": 335825,
+        "dem_candidate": "Tina Smith",
+        "rep_candidate": "Karin Housley",
+        "margin": -4908,
+        "margin_pct": -1.461475,
+        "winner": "DEMOCRAT",
+        "color": "#c6dbef"
+      }
+    }
+  }
+}

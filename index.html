@@ -32896,6 +32896,33 @@ document.addEventListener('DOMContentLoaded', function() {
         if (results && Object.keys(results).length) return { year: modeledDef.baseYear, node };
         return null;
       }
+
+      const timelineEntries = getContestTimelineManifestEntries(
+        contestType,
+        y,
+        getActiveDistrictManifest(linesYear)
+      )
+        .filter(entry => (
+          String(entry?.scope || '') === String(scope || '')
+          && Number.isFinite(Number(entry?.year))
+          && Number(entry.year) < y
+        ))
+        .sort((a, b) => Number(b.year) - Number(a.year));
+      for (const entry of timelineEntries) {
+        const cy = Number(entry.year);
+        const sourceContestType = String(entry.contest_type || contestType);
+        const node = await tryLoadDistrictSliceStrict(scope, sourceContestType, cy, linesYear);
+        const results = node?.general?.results || null;
+        if (results && Object.keys(results).length) {
+          return {
+            year: cy,
+            node,
+            sourceContestType,
+            isSpecial: sourceContestType === 'us_senate_special'
+          };
+        }
+      }
+
       const candidates = getPriorContestYearsFromAvailableYears(
         contestType,
         y,

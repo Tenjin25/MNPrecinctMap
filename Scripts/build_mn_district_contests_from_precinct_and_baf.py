@@ -61,6 +61,7 @@ SCOPE_CONTESTS = {
     "congressional": {
         "president",
         "us_senate",
+        "us_senate_special",
         "governor",
         "attorney_general",
         "secretary_of_state",
@@ -70,6 +71,7 @@ SCOPE_CONTESTS = {
     "state_house": {
         "president",
         "us_senate",
+        "us_senate_special",
         "governor",
         "attorney_general",
         "secretary_of_state",
@@ -79,6 +81,7 @@ SCOPE_CONTESTS = {
     "state_senate": {
         "president",
         "us_senate",
+        "us_senate_special",
         "governor",
         "attorney_general",
         "secretary_of_state",
@@ -97,13 +100,14 @@ SCOPE_ORDER = {"congressional": 0, "state_house": 1, "state_senate": 2}
 CONTEST_ORDER = {
     "president": 0,
     "us_senate": 1,
-    "governor": 2,
-    "attorney_general": 3,
-    "secretary_of_state": 4,
-    "auditor": 5,
-    "us_house": 6,
-    "state_house": 7,
-    "state_senate": 8,
+    "us_senate_special": 2,
+    "governor": 3,
+    "attorney_general": 4,
+    "secretary_of_state": 5,
+    "auditor": 6,
+    "us_house": 7,
+    "state_house": 8,
+    "state_senate": 9,
 }
 
 
