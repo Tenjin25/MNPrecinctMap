@@ -19238,7 +19238,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'President of the United States': 'president',
         'Governor': 'governor',
         'United States Senator': 'us_senate',
-        'United States Senator — Special Election': 'us_senate_special',
+        'United States Senator (Special Election)': 'us_senate_special',
         'Attorney General': 'attorney_general',
         'Commissioner of Agriculture': 'agriculture_commissioner',
         'Secretary of State': 'secretary_of_state',
@@ -19321,7 +19321,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	        'president': 'President of the United States',
 	        'governor': 'Governor',
 	        'us_senate': 'United States Senator',
-	        'us_senate_special': 'United States Senator — Special Election',
+	        'us_senate_special': 'United States Senator (Special Election)',
 	        'lieutenant_governor': 'Lieutenant Governor',
 	        'attorney_general': 'Attorney General',
 	        'auditor': 'State Auditor',
@@ -19680,8 +19680,9 @@ document.addEventListener('DOMContentLoaded', function() {
             const modeledSuffix = modeledDef && !modeledOptionLabel ? ' [Modeled]' : '';
             if (modeledOptionLabel) {
               opt.textContent = modeledOptionLabel;
-            } else
-	          if (isJudicial || modeledDef || item.contestType === 'us_senate_special') {
+            } else if (item.contestType === 'us_senate_special') {
+              opt.textContent = `${label} (${item.year} Special)`;
+            } else if (isJudicial || modeledDef) {
               opt.textContent = `${formatContestName(item.contestType, item.year)} (${item.year})${modeledSuffix}`;
 	          } else {
               opt.textContent = `${label} (${item.year})${modeledSuffix}`;
@@ -19839,7 +19840,9 @@ document.addEventListener('DOMContentLoaded', function() {
 	        items.forEach(item => {
 	          const opt = document.createElement('option');
 	          opt.value = `${item.contestType}_${item.year}`;
-	          opt.textContent = `${label} (${item.year})`;
+	          opt.textContent = item.contestType === 'us_senate_special'
+	            ? `${label} (${item.year} Special)`
+	            : `${label} (${item.year})`;
 	          og.appendChild(opt);
 	        });
 	        fragment.appendChild(og);
