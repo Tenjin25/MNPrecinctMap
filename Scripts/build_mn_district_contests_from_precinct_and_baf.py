@@ -4,11 +4,17 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
+
+from convert_mn_legacy_results_to_openelections_precinct import (
+    load_candidate_overrides,
+    resolve_override_candidate,
+)
 
 
 DEM_PARTIES = {"DFL", "DEM", "D"}
@@ -112,6 +118,17 @@ class CrosswalkNode:
     county_district_weights: dict[str, list[tuple[str, float]]] = field(default_factory=dict)
 
 
+@dataclass(frozen=True)
+class LegacyBridgeTarget:
+    target_kind: str
+    target_key: str
+    resolution: str
+    conflict: bool
+    conflict_status: str
+    resolution_source: str
+    confidence: str
+
+
 @dataclass
 class DistrictAccumulator:
     totals: dict[str, dict[str, float]] = field(
@@ -122,6 +139,14 @@ class DistrictAccumulator:
     )
     total_input_votes: float = 0.0
     crosswalk_matched_votes: float = 0.0
+    name_crosswalk_matched_votes: float = 0.0
+    legacy_bridge_matched_votes: float = 0.0
+    legacy_current_vtd_matched_votes: float = 0.0
+    legacy_vtd00_matched_votes: float = 0.0
+    legacy_vtd10_matched_votes: float = 0.0
+    legacy_conflict_votes: float = 0.0
+    legacy_resolved_conflict_votes: float = 0.0
+    legacy_manual_review_conflict_votes: float = 0.0
     fallback_matched_votes: float = 0.0
     county_fallback_votes: float = 0.0
     unmatched_votes: float = 0.0
@@ -295,6 +320,98 @@ def crosswalk_path_for_scope(scope: str, year: int, crosswalk_dir: Path) -> Path
     if scope == "state_senate":
         return crosswalk_dir / f"precinct_to_{plan_year}_state_senate.csv"
     raise ValueError(f"Unsupported scope: {scope}")
+
+
+def historical_crosswalk_path_for_scope(
+    target_kind: str,
+    scope: str,
+    year: int,
+    crosswalk_dir: Path,
+) -> Path:
+    if target_kind not in {"vtd00", "vtd10"}:
+        raise ValueError(f"Unsupported historical target kind: {target_kind}")
+    if scope == "congressional":
+        return crosswalk_dir / f"{target_kind}_to_cd118.csv"
+    plan_year = 2024 if year > 2022 else 2022
+    if scope == "state_house":
+        return crosswalk_dir / f"{target_kind}_to_{plan_year}_state_house.csv"
+    if scope == "state_senate":
+        return crosswalk_dir / f"{target_kind}_to_{plan_year}_state_senate.csv"
+    raise ValueError(f"Unsupported scope: {scope}")
+
+
+def load_allocation_crosswalk(
+    scope: str,
+    path: Path,
+    *,
+    key_field: str,
+) -> dict[str, list[tuple[str, float]]]:
+    if not path.exists():
+        raise FileNotFoundError(f"Allocation crosswalk not found: {path}")
+
+    weights_by_key: dict[str, dict[str, float]] = defaultdict(lambda: defaultdict(float))
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            target_key = normalize_precinct_key(row.get(key_field))
+            district = normalize_scope_district(
+                scope,
+                row.get("district_num") or row.get("district_code") or row.get("district"),
+            )
+            try:
+                weight = float(clean(row.get("area_weight")) or 0)
+            except ValueError:
+                weight = 0.0
+            if target_key and district and weight > 0:
+                weights_by_key[target_key][district] += weight
+
+    out: dict[str, list[tuple[str, float]]] = {}
+    for target_key, district_weights in weights_by_key.items():
+        total = sum(district_weights.values())
+        if total <= 0:
+            continue
+        allocations = [(district, weight / total) for district, weight in district_weights.items()]
+        allocations.sort(key=lambda item: district_sort_key(item[0]))
+        out[target_key] = allocations
+    return out
+
+
+def load_legacy_bridge(path: Path) -> dict[tuple[int, str], LegacyBridgeTarget]:
+    if not path.exists():
+        raise FileNotFoundError(f"Legacy precinct bridge not found: {path}")
+
+    out: dict[tuple[int, str], LegacyBridgeTarget] = {}
+    rejected: set[tuple[int, str]] = set()
+    with path.open(newline="", encoding="utf-8-sig") as f:
+        for row in csv.DictReader(f):
+            year = parse_int(row.get("year"))
+            source_alias = clean(row.get("source_alias"))
+            target_kind = clean(row.get("target_kind")).lower()
+            target_key = normalize_precinct_key(row.get("target_key"))
+            if (
+                year <= 0
+                or source_alias == ""
+                or target_kind not in {"current_vtd", "vtd00", "vtd10"}
+                or target_key == ""
+                or clean(row.get("alias_collision")) == "1"
+            ):
+                continue
+            key = (year, source_alias)
+            target = LegacyBridgeTarget(
+                target_kind=target_kind,
+                target_key=target_key,
+                resolution=clean(row.get("resolution")),
+                conflict=clean(row.get("conflict")) == "1",
+                conflict_status=clean(row.get("conflict_status")),
+                resolution_source=clean(row.get("resolution_source")),
+                confidence=clean(row.get("confidence")),
+            )
+            existing = out.get(key)
+            if existing is None and key not in rejected:
+                out[key] = target
+            elif existing != target:
+                rejected.add(key)
+                out.pop(key, None)
+    return out
 
 
 def load_crosswalk(scope: str, path: Path) -> CrosswalkNode:
@@ -525,6 +642,32 @@ def build_native_precinct_fallback_weights(
     return out
 
 
+def allocate_integer_votes(votes: int, allocations: list[tuple[str, float]]) -> list[tuple[str, int]]:
+    """Allocate a vote row with Hamilton/largest-remainder rounding."""
+    combined: dict[str, float] = defaultdict(float)
+    for district, weight in allocations:
+        if district and float(weight) > 0:
+            combined[district] += float(weight)
+    total_weight = sum(combined.values())
+    if votes <= 0 or total_weight <= 0:
+        return []
+
+    rows: list[list[object]] = []
+    assigned = 0
+    for district, weight in combined.items():
+        raw = votes * (weight / total_weight)
+        base = math.floor(raw)
+        assigned += base
+        rows.append([district, base, raw - base])
+
+    remainder = votes - assigned
+    rows.sort(key=lambda row: (-float(row[2]), district_sort_key(str(row[0]))))
+    for idx in range(remainder):
+        rows[idx % len(rows)][1] = int(rows[idx % len(rows)][1]) + 1
+    rows.sort(key=lambda row: district_sort_key(str(row[0])))
+    return [(str(district), int(allocated)) for district, allocated, _fraction in rows if int(allocated) > 0]
+
+
 def load_year_files(data_dir: Path, year_min: int, year_max: int) -> list[Path]:
     out: list[Path] = []
     for path in sorted(data_dir.glob("*__mn__general__precinct.csv")):
@@ -581,6 +724,13 @@ def main() -> None:
     )
     parser.add_argument("--data-dir", type=Path, default=Path("Data"))
     parser.add_argument("--crosswalk-dir", type=Path, default=Path("Data/crosswalks"))
+    parser.add_argument(
+        "--legacy-bridge",
+        type=Path,
+        default=Path("Data/crosswalks/legacy_precinct_bridge_2000_2008.csv"),
+    )
+    parser.add_argument("--vtd00-crosswalk-dir", type=Path, default=Path("Data/crosswalks"))
+    parser.add_argument("--vtd10-crosswalk-dir", type=Path, default=Path("Data/crosswalks"))
     parser.add_argument("--precincts-geojson", type=Path, default=Path("Data/precincts.geojson"))
     parser.add_argument("--out-dir", type=Path, default=Path("Data/district_contests"))
     parser.add_argument("--year-min", type=int, default=2012)
@@ -590,13 +740,42 @@ def main() -> None:
         action="store_true",
         help="Include absentee/mail/non-geographic precinct labels (default: false).",
     )
+    parser.add_argument(
+        "--statewide-only",
+        action="store_true",
+        help="Build only statewide offices; exclude U.S. House, State House, and State Senate races.",
+    )
+    parser.add_argument(
+        "--merge-manifest",
+        action="store_true",
+        help=(
+            "Merge generated scope/contest/year entries into an existing manifest instead of "
+            "replacing entries outside the requested year range."
+        ),
+    )
+    parser.add_argument(
+        "--candidate-overrides",
+        type=Path,
+        default=Path("Data/candidate_overrides_legacy_statewide_corrections.csv"),
+        help="Optional explicit candidate-label corrections applied before district aggregation.",
+    )
     args = parser.parse_args()
 
     year_files = load_year_files(args.data_dir, args.year_min, args.year_max)
     if not year_files:
         raise SystemExit("No precinct CSV files matched the requested year range.")
 
+    legacy_bridge: dict[tuple[int, str], LegacyBridgeTarget] = {}
+    if args.legacy_bridge.exists():
+        legacy_bridge = load_legacy_bridge(args.legacy_bridge)
+    elif args.year_min <= 2008:
+        raise FileNotFoundError(
+            f"Historical years require the legacy precinct bridge: {args.legacy_bridge}"
+        )
+    candidate_overrides = load_candidate_overrides(args.candidate_overrides)
+
     cw_cache: dict[tuple[str, int], CrosswalkNode] = {}
+    legacy_cw_cache: dict[tuple[str, str, int], dict[str, list[tuple[str, float]]]] = {}
 
     def get_crosswalk(scope: str, year: int) -> CrosswalkNode:
         if scope == "congressional":
@@ -608,6 +787,23 @@ def main() -> None:
         path = crosswalk_path_for_scope(scope, year, args.crosswalk_dir)
         node = load_crosswalk(scope, path)
         cw_cache[cache_key] = node
+        return node
+
+    def get_legacy_crosswalk(
+        target_kind: str,
+        scope: str,
+        year: int,
+    ) -> dict[str, list[tuple[str, float]]]:
+        if scope == "congressional":
+            cache_key = (target_kind, scope, 0)
+        else:
+            cache_key = (target_kind, scope, 2024 if year > 2022 else 2022)
+        if cache_key in legacy_cw_cache:
+            return legacy_cw_cache[cache_key]
+        crosswalk_dir = args.vtd00_crosswalk_dir if target_kind == "vtd00" else args.vtd10_crosswalk_dir
+        path = historical_crosswalk_path_for_scope(target_kind, scope, year, crosswalk_dir)
+        node = load_allocation_crosswalk(scope, path, key_field=f"{target_kind}_key")
+        legacy_cw_cache[cache_key] = node
         return node
 
     # Prime one crosswalk set for alias generation.
@@ -647,6 +843,8 @@ def main() -> None:
                 contest_type = OFFICE_TO_CONTEST.get(office)
                 if not county or not precinct or not contest_type:
                     continue
+                if args.statewide_only and contest_type not in STATEWIDE_OFFICE_TO_CONTEST.values():
+                    continue
 
                 if is_non_geographic_county(county):
                     continue
@@ -663,10 +861,17 @@ def main() -> None:
                     continue
 
                 bucket = classify_party(party)
-                candidate = clean(row.get("candidate"))
                 district_raw = clean(row.get("district"))
+                candidate = resolve_override_candidate(
+                    candidate_overrides,
+                    year=year,
+                    office=clean(row.get("office")),
+                    district=district_raw,
+                    party=party,
+                ) or clean(row.get("candidate"))
                 precinct_alias = make_alias_key(county, precinct)
                 precinct_key = resolve_precinct_key(county, precinct, alias_map)
+                legacy_target = legacy_bridge.get((year, precinct_alias))
 
                 for scope, allowed in SCOPE_CONTESTS.items():
                     if contest_type not in allowed:
@@ -678,6 +883,14 @@ def main() -> None:
 
                     allocations: list[tuple[str, float]] = []
                     used_crosswalk = False
+                    used_name_crosswalk = False
+                    used_legacy_bridge = False
+                    used_legacy_current_vtd = False
+                    used_legacy_vtd00 = False
+                    used_legacy_vtd10 = False
+                    used_legacy_conflict = False
+                    used_legacy_resolved_conflict = False
+                    used_legacy_manual_review_conflict = False
                     used_fallback = False
                     used_county_fallback = False
 
@@ -693,10 +906,34 @@ def main() -> None:
                             allocations = [(fallback_district, 1.0)]
                             used_fallback = True
 
+                    if not allocations and legacy_target is not None:
+                        if legacy_target.target_kind == "current_vtd":
+                            allocations = cw.by_precinct.get(legacy_target.target_key, [])
+                            used_legacy_current_vtd = bool(allocations)
+                        elif legacy_target.target_kind == "vtd00":
+                            allocations = get_legacy_crosswalk("vtd00", scope, year).get(
+                                legacy_target.target_key,
+                                [],
+                            )
+                            used_legacy_vtd00 = bool(allocations)
+                        elif legacy_target.target_kind == "vtd10":
+                            allocations = get_legacy_crosswalk("vtd10", scope, year).get(
+                                legacy_target.target_key,
+                                [],
+                            )
+                            used_legacy_vtd10 = bool(allocations)
+                        if allocations:
+                            used_crosswalk = True
+                            used_legacy_bridge = True
+                            used_legacy_conflict = legacy_target.conflict
+                            used_legacy_resolved_conflict = legacy_target.conflict_status.startswith("resolved_")
+                            used_legacy_manual_review_conflict = legacy_target.conflict_status == "manual_review"
+
                     if not allocations and precinct_key:
                         allocations = cw.by_precinct.get(precinct_key, [])
                         if allocations:
                             used_crosswalk = True
+                            used_name_crosswalk = True
 
                     if not allocations and is_scope_district_contest:
                         fallback_district = normalize_fallback_district(contest_type, district_raw)
@@ -723,13 +960,28 @@ def main() -> None:
 
                     if used_crosswalk:
                         node.crosswalk_matched_votes += votes
+                        if used_name_crosswalk:
+                            node.name_crosswalk_matched_votes += votes
+                        if used_legacy_bridge:
+                            node.legacy_bridge_matched_votes += votes
+                        if used_legacy_current_vtd:
+                            node.legacy_current_vtd_matched_votes += votes
+                        if used_legacy_vtd00:
+                            node.legacy_vtd00_matched_votes += votes
+                        if used_legacy_vtd10:
+                            node.legacy_vtd10_matched_votes += votes
+                        if used_legacy_conflict:
+                            node.legacy_conflict_votes += votes
+                        if used_legacy_resolved_conflict:
+                            node.legacy_resolved_conflict_votes += votes
+                        if used_legacy_manual_review_conflict:
+                            node.legacy_manual_review_conflict_votes += votes
                     elif used_fallback:
                         node.fallback_matched_votes += votes
                     elif used_county_fallback:
                         node.county_fallback_votes += votes
 
-                    for district_num, weight in allocations:
-                        allocated_votes = votes * float(weight)
+                    for district_num, allocated_votes in allocate_integer_votes(votes, allocations):
                         district_totals = node.totals[district_num]
                         district_totals[bucket] += allocated_votes
 
@@ -770,6 +1022,41 @@ def main() -> None:
             crosswalk_pct = (
                 (node.crosswalk_matched_votes / node.total_input_votes) * 100.0 if node.total_input_votes > 0 else 0.0
             )
+            name_crosswalk_pct = (
+                (node.name_crosswalk_matched_votes / node.total_input_votes) * 100.0
+                if node.total_input_votes > 0
+                else 0.0
+            )
+            legacy_bridge_pct = (
+                (node.legacy_bridge_matched_votes / node.total_input_votes) * 100.0
+                if node.total_input_votes > 0
+                else 0.0
+            )
+            legacy_vtd00_pct = (
+                (node.legacy_vtd00_matched_votes / node.total_input_votes) * 100.0
+                if node.total_input_votes > 0
+                else 0.0
+            )
+            legacy_vtd10_pct = (
+                (node.legacy_vtd10_matched_votes / node.total_input_votes) * 100.0
+                if node.total_input_votes > 0
+                else 0.0
+            )
+            legacy_conflict_pct = (
+                (node.legacy_conflict_votes / node.total_input_votes) * 100.0
+                if node.total_input_votes > 0
+                else 0.0
+            )
+            legacy_resolved_conflict_pct = (
+                (node.legacy_resolved_conflict_votes / node.total_input_votes) * 100.0
+                if node.total_input_votes > 0
+                else 0.0
+            )
+            legacy_manual_review_conflict_pct = (
+                (node.legacy_manual_review_conflict_votes / node.total_input_votes) * 100.0
+                if node.total_input_votes > 0
+                else 0.0
+            )
 
             key = f"{scope}_{contest_type}_{year}"
             out_file = args.out_dir / f"{key}.json"
@@ -782,14 +1069,44 @@ def main() -> None:
                 "meta": {
                     "source_file": precinct_csv.name,
                     "crosswalk_file": get_crosswalk(scope, year).path.name,
+                    "legacy_bridge_file": args.legacy_bridge.name if legacy_bridge else "",
+                    "vtd00_crosswalk_file": (
+                        historical_crosswalk_path_for_scope("vtd00", scope, year, args.vtd00_crosswalk_dir).name
+                        if node.legacy_vtd00_matched_votes > 0
+                        else ""
+                    ),
+                    "vtd10_crosswalk_file": (
+                        historical_crosswalk_path_for_scope("vtd10", scope, year, args.vtd10_crosswalk_dir).name
+                        if node.legacy_vtd10_matched_votes > 0
+                        else ""
+                    ),
                     "generated_at_utc": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                     "total_input_votes": int(round(node.total_input_votes)),
                     "crosswalk_matched_votes": int(round(node.crosswalk_matched_votes)),
+                    "name_crosswalk_matched_votes": int(round(node.name_crosswalk_matched_votes)),
+                    "legacy_bridge_matched_votes": int(round(node.legacy_bridge_matched_votes)),
+                    "legacy_current_vtd_matched_votes": int(round(node.legacy_current_vtd_matched_votes)),
+                    "legacy_vtd00_matched_votes": int(round(node.legacy_vtd00_matched_votes)),
+                    "legacy_vtd10_matched_votes": int(round(node.legacy_vtd10_matched_votes)),
+                    "legacy_conflict_votes": int(round(node.legacy_conflict_votes)),
+                    "legacy_resolved_conflict_votes": int(round(node.legacy_resolved_conflict_votes)),
+                    "legacy_manual_review_conflict_votes": int(round(node.legacy_manual_review_conflict_votes)),
                     "fallback_matched_votes": int(round(node.fallback_matched_votes)),
                     "county_fallback_votes": int(round(node.county_fallback_votes)),
                     "unmatched_votes": int(round(node.unmatched_votes)),
                     "match_coverage_pct": round(coverage_pct, 4),
                     "crosswalk_match_pct": round(crosswalk_pct, 4),
+                    "name_crosswalk_pct": round(name_crosswalk_pct, 4),
+                    "legacy_bridge_pct": round(legacy_bridge_pct, 4),
+                    "legacy_vtd00_pct": round(legacy_vtd00_pct, 4),
+                    "legacy_vtd10_pct": round(legacy_vtd10_pct, 4),
+                    "legacy_conflict_pct": round(legacy_conflict_pct, 4),
+                    "legacy_resolved_conflict_pct": round(legacy_resolved_conflict_pct, 4),
+                    "legacy_manual_review_conflict_pct": round(legacy_manual_review_conflict_pct, 4),
+                    "allocated_output_votes": dem_total + rep_total + other_total,
+                    "vote_conservation_delta": (
+                        dem_total + rep_total + other_total - int(round(matched_votes))
+                    ),
                 },
             }
             out_file.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
@@ -808,12 +1125,44 @@ def main() -> None:
                     "major_party_contested": bool(dem_total > 0 and rep_total > 0),
                     "match_coverage_pct": round(coverage_pct, 4),
                     "crosswalk_match_pct": round(crosswalk_pct, 4),
+                    "name_crosswalk_pct": round(name_crosswalk_pct, 4),
+                    "legacy_bridge_pct": round(legacy_bridge_pct, 4),
+                    "legacy_vtd00_pct": round(legacy_vtd00_pct, 4),
+                    "legacy_vtd10_pct": round(legacy_vtd10_pct, 4),
+                    "legacy_conflict_pct": round(legacy_conflict_pct, 4),
+                    "legacy_resolved_conflict_pct": round(legacy_resolved_conflict_pct, 4),
+                    "legacy_manual_review_conflict_pct": round(legacy_manual_review_conflict_pct, 4),
                     "county_fallback_pct": round(
                         (node.county_fallback_votes / node.total_input_votes) * 100.0 if node.total_input_votes > 0 else 0.0,
                         4,
                     ),
                 }
             )
+
+    if args.merge_manifest:
+        manifest_path = args.out_dir / "manifest.json"
+        if manifest_path.exists():
+            existing_payload = json.loads(manifest_path.read_text(encoding="utf-8"))
+            existing_entries = existing_payload.get("files", [])
+            generated_keys = {
+                (
+                    str(entry.get("scope", "")),
+                    str(entry.get("contest_type", "")),
+                    int(entry.get("year", 0)),
+                )
+                for entry in manifest_entries
+            }
+            manifest_entries = [
+                entry
+                for entry in existing_entries
+                if isinstance(entry, dict)
+                and (
+                    str(entry.get("scope", "")),
+                    str(entry.get("contest_type", "")),
+                    int(entry.get("year", 0)),
+                )
+                not in generated_keys
+            ] + manifest_entries
 
     manifest_entries.sort(
         key=lambda x: (

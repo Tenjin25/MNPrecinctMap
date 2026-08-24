@@ -33,6 +33,17 @@ class SourceSpec:
 
 
 SOURCE_SPECS: dict[int, SourceSpec] = {
+    2000: SourceSpec(
+        year=2000,
+        mode="2000_single",
+        precinct_idx=1,
+        county_code_idx=18,
+        county_name_idx=None,
+        cg_idx=44,
+        leg_idx=4,
+        jd_idx=12,
+        header_rows=1,
+    ),
     2002: SourceSpec(
         year=2002,
         mode="2002_multi",
@@ -93,6 +104,13 @@ SOURCE_SPECS: dict[int, SourceSpec] = {
 
 DEFAULT_JOBS = [
     {
+        "year": 2000,
+        "results": Path("Data/full_00results.csv"),
+        "output": Path("Data/20001107__mn__general__precinct.csv"),
+        "counties": Path("Data/2002_general_results - Counties.csv"),
+        "county_results": Path("Data/20001107__mn__general__county.csv"),
+    },
+    {
         "year": 2002,
         "results": Path("Data/2002_general_results - Results.csv"),
         "output": Path("Data/20021105__mn__general__precinct.csv"),
@@ -103,28 +121,28 @@ DEFAULT_JOBS = [
         "year": 2004,
         "results": Path("Data/2004_general_results.csv"),
         "output": Path("Data/20041102__mn__general__precinct.csv"),
-        "counties": None,
+        "counties": Path("Data/2002_general_results - Counties.csv"),
         "county_results": Path("Data/20041102__mn__general__county.csv"),
     },
     {
         "year": 2006,
         "results": Path("Data/2006_general_results - Results.csv"),
         "output": Path("Data/20061107__mn__general__precinct.csv"),
-        "counties": None,
+        "counties": Path("Data/2002_general_results - Counties.csv"),
         "county_results": Path("Data/20061107__mn__general__county.csv"),
     },
     {
         "year": 2008,
         "results": Path("Data/2008_general_results - Results.csv"),
         "output": Path("Data/20081104__mn__general__precinct.csv"),
-        "counties": None,
+        "counties": Path("Data/2002_general_results - Counties.csv"),
         "county_results": Path("Data/20081104__mn__general__county.csv"),
     },
     {
         "year": 2010,
         "results": Path("Data/2010_general_results_final - Results.csv"),
         "output": Path("Data/20101102__mn__general__precinct.csv"),
-        "counties": None,
+        "counties": Path("Data/2002_general_results - Counties.csv"),
         "county_results": Path("Data/20101102__mn__general__county.csv"),
     },
 ]
@@ -182,7 +200,7 @@ def normalize_senate_district(leg_value: str) -> str:
 
 def district_value(kind: str, row: list[str], spec: SourceSpec) -> str:
     if kind == "na":
-        return "NA"
+        return ""
     if kind == "cg":
         return strip_leading_zeroes(get(row, spec.cg_idx)) or "NA"
     if kind == "leg_house":
@@ -332,6 +350,51 @@ def make_partisan_contest(
         candidate=candidate,
         lookup_candidate=lookup and party != "WI",
     )
+
+
+def build_2000_contests(headers: list[str]) -> list[ContestSpec]:
+    columns: list[ContestSpec] = []
+    office_specs = [
+        ("_PREZ", "President", "na", True),
+        ("_USSEN", "U.S. Senate", "na", True),
+        ("_CONG", "U.S. House", "cg", False),
+        ("_SEN", "State Senate", "leg_senate", False),
+        ("_HSE", "State House", "leg_house", False),
+    ]
+    party_map = {
+        "R": "R",
+        "DFL": "DFL",
+        "GREEN": "GP",
+        "GRP": "GRP",
+        "IND": "IND",
+        "LIB": "LIB",
+        "CP": "CP",
+        "RP": "RP",
+        "RPM": "RPM",
+        "SWP": "SWP",
+        "NP": "NP",
+        "OTHER": "OTH",
+        "ALL_OTHER": "OTH",
+    }
+
+    for i, header in enumerate(headers):
+        hu = header.upper()
+        for suffix, office, district_kind, lookup in office_specs:
+            if not hu.endswith(suffix):
+                continue
+            party_token = hu[: -len(suffix)]
+            spec = make_partisan_contest(
+                i,
+                office,
+                district_kind,
+                party_token,
+                party_map,
+                lookup,
+            )
+            if spec is not None:
+                columns.append(spec)
+            break
+    return columns
 
 
 def build_2002_contests(row0: list[str], row2: list[str]) -> list[ContestSpec]:
@@ -634,6 +697,8 @@ def normalize_headers(header_row: list[str]) -> list[str]:
 
 
 def build_contests(rows: list[list[str]], spec: SourceSpec) -> list[ContestSpec]:
+    if spec.mode == "2000_single":
+        return build_2000_contests(normalize_headers(rows[0]))
     if spec.mode == "2002_multi":
         return build_2002_contests(rows[0], rows[2])
     headers = normalize_headers(rows[0])
@@ -670,7 +735,10 @@ def convert_file(
 
     counties_map = load_counties_map(counties_csv)
     county_from_results, candidate_by_office_party = load_county_results_maps(county_results_csv)
-    counties_map = {**counties_map, **county_from_results}
+    # The SOS Counties export is authoritative for legacy result CC values.  Some
+    # older OpenElections county files omit Meeker and shift codes 47-61, so use
+    # those files only to fill gaps rather than overwriting the SOS lookup.
+    counties_map = {**county_from_results, **counties_map}
 
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     written_rows = 0
@@ -680,16 +748,21 @@ def convert_file(
     with output_csv.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
-            fieldnames=["county", "precinct", "office", "district", "candidate", "party", "votes"],
+            fieldnames=["county", "precinct", "office", "district", "party", "candidate", "votes"],
         )
         writer.writeheader()
 
         for row in data_rows:
             precinct = clean(get(row, spec.precinct_idx))
-            if precinct == "":
+            if precinct == "" or precinct.upper() in {"STATEWIDE TOTALS", "STATEWIDE TOTAL", "STATE TOTALS"}:
                 continue
 
-            county_code = clean(get(row, spec.county_code_idx)).zfill(2)
+            county_code_raw = clean(get(row, spec.county_code_idx))
+            if spec.county_code_idx is not None and county_code_raw == "":
+                continue
+            county_code = county_code_raw.zfill(2)
+            if counties_map and county_code not in counties_map:
+                continue
             county = counties_map.get(county_code, "")
             if county == "":
                 county_name_raw = clean(get(row, spec.county_name_idx))
@@ -700,17 +773,17 @@ def convert_file(
                 if votes is None:
                     continue
                 district = district_value(contest.district_kind, row, spec)
-                candidate = contest.candidate
+                candidate = resolve_override_candidate(
+                    candidate_overrides,
+                    year=year,
+                    office=contest.office,
+                    district=district,
+                    party=contest.party,
+                )
+                if candidate == "":
+                    candidate = contest.candidate
                 if contest.lookup_candidate and candidate == "":
                     candidate = candidate_by_office_party.get((contest.office, contest.party), "")
-                if candidate == "":
-                    candidate = resolve_override_candidate(
-                        candidate_overrides,
-                        year=year,
-                        office=contest.office,
-                        district=district,
-                        party=contest.party,
-                    )
                 if candidate == "":
                     if unknown_candidate_policy == "party_label":
                         candidate = f"{contest.party} Candidate" if contest.party else "Unknown Candidate"
@@ -779,12 +852,12 @@ def run_default_jobs(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Convert MN legacy wide precinct CSVs (2002/2004/2006/2008/2010) into OpenElections-style precinct rows."
+        description="Convert MN legacy wide precinct CSVs (2000/2002/2004/2006/2008/2010) into OpenElections-style precinct rows."
     )
     parser.add_argument(
         "--all",
         action="store_true",
-        help="Run built-in conversion jobs for 2002, 2004, 2006, 2008, and 2010.",
+        help="Run built-in conversion jobs for 2000, 2002, 2004, 2006, 2008, and 2010.",
     )
     parser.add_argument("--year", type=int, choices=sorted(SOURCE_SPECS.keys()), help="Election year format selector")
     parser.add_argument("--results", type=Path, help="Input results CSV")
@@ -800,7 +873,10 @@ def main() -> None:
         "--candidate-overrides",
         type=Path,
         default=None,
-        help="Optional CSV with columns year,office,district,party,candidate for missing-name backfills.",
+        help=(
+            "Optional CSV with columns year,office,district,party,candidate. Explicit overrides "
+            "take precedence over embedded and county-lookup candidate labels."
+        ),
     )
     parser.add_argument(
         "--unknown-candidate-policy",
