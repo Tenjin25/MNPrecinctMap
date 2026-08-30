@@ -34,15 +34,15 @@
       "2A": {
         "district": "2A",
         "dem_votes": 10667,
-        "rep_votes": 0,
+        "rep_votes": 11518,
         "other_votes": 26,
-        "total_votes": 10693,
+        "total_votes": 22211,
         "dem_candidate": "Reed Olson",
-        "rep_candidate": "",
-        "margin": -10667,
-        "margin_pct": -99.75685,
-        "winner": "DEMOCRAT",
-        "color": "#08306b"
+        "rep_candidate": "Bidal Duran, Jr.",
+        "margin": 851,
+        "margin_pct": 3.831435,
+        "winner": "REPUBLICAN",
+        "color": "#fcae91"
       },
       "2B": {
         "district": "2B",
