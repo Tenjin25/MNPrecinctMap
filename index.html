@@ -10497,8 +10497,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-08-27-mn-legend-theme-v2';
-    const APP_BUILD_ID = '2026-08-27-mn-legend-theme-v2';
+    const DATA_CACHE_BUSTER = '2026-08-29-mn-legislative-leaders-v1';
+    const APP_BUILD_ID = '2026-08-29-mn-legislative-leaders-v1';
 
     function withCacheBuster(path) {
       const p = (path || '').toString().trim();
@@ -34153,12 +34153,12 @@ document.addEventListener('DOMContentLoaded', function() {
         const yearNum = Number(y);
         if (key === 'state_house') {
           if (yearNum === 2022) return {
-            repCandidate: 'Minority Leader Lisa Demuth',
+            repCandidate: 'Lisa Demuth',
             demCandidate: 'Speaker Melissa Hortman'
           };
           if (yearNum === 2024) return {
             repCandidate: 'Speaker Lisa Demuth',
-            demCandidate: 'DFL Leader Zack Stephenson'
+            demCandidate: 'Zack Stephenson'
           };
         }
         if (key === 'state_senate') {
