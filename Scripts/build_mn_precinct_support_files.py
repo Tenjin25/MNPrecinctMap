@@ -119,6 +119,7 @@ def write_csv(path: Path, rows: list[dict[str, object]]) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--precincts", type=Path, default=Path("Data/precincts.geojson"))
+    parser.add_argument("--friendly-precincts", type=Path, default=Path("Data/precincts_2026.geojson"))
     parser.add_argument("--friendly-out", type=Path, default=Path("Data/precinct_friendly_names.json"))
     parser.add_argument("--population-out", type=Path, default=Path("Data/precinct_demographics_2020_vap.csv"))
     parser.add_argument("--county-out", type=Path, default=Path("Data/mn_county_demographics_2020.json"))
@@ -128,10 +129,19 @@ def main() -> None:
     args = parser.parse_args()
 
     features = json.loads(args.precincts.read_text(encoding="utf-8"))["features"]
+    friendly_features = json.loads(args.friendly_precincts.read_text(encoding="utf-8"))["features"]
     census = census_rows()
     friendly: dict[str, dict[str, str]] = {}
     population_rows: list[dict[str, object]] = []
     missing: list[str] = []
+
+    for feature in friendly_features:
+        props = feature.get("properties") or {}
+        county = clean_name(props.get("county_nam") or props.get("County"))
+        code = clean_name(props.get("prec_id"))
+        name = clean_name(props.get("precinct_full_name") or props.get("Precinct") or props.get("NAME20") or code)
+        if county and code and name:
+            friendly.setdefault(county, {})[code] = name
 
     for feature in features:
         props = feature.get("properties") or {}
@@ -139,9 +149,6 @@ def main() -> None:
         code = clean_name(props.get("prec_id"))
         name = clean_name(props.get("NAME20") or props.get("NAMELSAD20") or code)
         geoid = clean_name(props.get("GEOID20"))
-        if county and code and name:
-            friendly.setdefault(county, {})[code] = name
-
         values = census.get(geoid)
         if not county or not code or values is None:
             missing.append(geoid or f"{county} - {code}")
@@ -166,7 +173,7 @@ def main() -> None:
     payload = {
         "version": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z"),
-        "generated_from": ["Data/precincts.geojson"],
+        "generated_from": ["Data/precincts_2026.geojson"],
         "counties": {
             county.upper(): dict(sorted(codes.items()))
             for county, codes in sorted(friendly.items())
