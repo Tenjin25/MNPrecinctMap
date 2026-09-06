@@ -10558,7 +10558,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-04-mn-district-contests-2010-v1';
+    const DATA_CACHE_BUSTER = '2026-09-05-mn-precinct-demographics-v1';
     const APP_BUILD_ID = '2026-09-02-mn-original-dropdown-v1';
 
     function withCacheBuster(path) {
@@ -10599,7 +10599,7 @@ document.addEventListener('DOMContentLoaded', function() {
         precincts_fallback_vtd20: null,
         precinct_centroids: withBase('./Data/precinct_centroids.geojson'),
         precinct_aliases: null,
-        precinct_friendly_names: null,
+        precinct_friendly_names: withCacheBuster(withBase('./Data/precinct_friendly_names.json')),
         precinct_variant_overrides: null,
         districts: withBase('./Data/tl_2022_27_cd118.geojson'),
         districts_2022: withBase('./Data/tl_2022_27_cd118.geojson'),
@@ -10611,9 +10611,9 @@ document.addEventListener('DOMContentLoaded', function() {
         state_senate: withBase('./Data/tl_2024_27_sldu.geojson'),
         state_senate_2022: withBase('./Data/tl_2024_27_sldu.geojson'),
         state_senate_2024: withBase('./Data/tl_2024_27_sldu.geojson'),
-        county_demographics: null,
+        county_demographics: withCacheBuster(withBase('./Data/mn_county_demographics_2020.json')),
         county_population_estimates: withCacheBuster(withBase('./Data/mn_county_population_estimates_2025.csv')),
-        precinct_demographics: null,
+        precinct_demographics: withCacheBuster(withBase('./Data/precinct_demographics_2020_vap.csv')),
         cvap_aggregates: {},
         election: withBase('./Data/mn_elections_aggregated.json'),
         district_election: withBase('./Data/mn_district_results.json'),
@@ -10623,9 +10623,9 @@ document.addEventListener('DOMContentLoaded', function() {
           '2022': withBase('./Data/district_contests'),
           '2024': withBase('./Data/district_contests')
         },
-        districts_info: null,
-        state_house_info: null,
-        state_senate_info: null,
+        districts_info: withCacheBuster(withBase('./Data/mn_congressional_demographics_2020.csv')),
+        state_house_info: withCacheBuster(withBase('./Data/mn_state_house_demographics_2020.csv')),
+        state_senate_info: withCacheBuster(withBase('./Data/mn_state_senate_demographics_2020.csv')),
         district_descriptions: null,
         contests_dir: withBase('./Data/contests'),
         reports_match_year_summary: null,
@@ -21119,6 +21119,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function buildPrecinctDemographicsHoverHTML(demo, precinctNormRaw = '') {
       if (!demo) return '';
+      const population = numericOrNull(demo.total_population);
       const vap = numericOrZero(demo.vap_18plus);
       const cvap = precinctNormRaw ? getCvapPrecinctTotal(precinctNormRaw) : null;
       const metricValue = Number.isFinite(Number(cvap)) ? Number(cvap) : vap;
@@ -21137,6 +21138,7 @@ document.addEventListener('DOMContentLoaded', function() {
       );
       return `
         <div class="demo-hover-card">
+          ${population !== null ? `<div class="demo-hover-metric">Population: ${Math.round(population).toLocaleString()}</div>` : ''}
           <div class="demo-hover-metric">${metricLabel} ${Math.round(metricValue).toLocaleString()}</div>
           ${races}
         </div>
@@ -21192,6 +21194,7 @@ document.addEventListener('DOMContentLoaded', function() {
           precinct_id: `${countyNorm} - ${codeNorm}`,
           county_norm: countyNorm,
           precinct_code: codeNorm,
+          total_population: numericOrNull(rawRow.total_population),
           vap_18plus: vap,
           white_vap: whiteVotes,
           black_vap: blackVotes,
@@ -26985,7 +26988,7 @@ document.addEventListener('DOMContentLoaded', function() {
           shiftClass = Math.abs(shiftDelta) < 0.01 ? 'tie' : (shiftDelta > 0 ? 'rep' : 'dem');
         }
       }
-      const inner = buildVotehubResultsTooltip({
+      let inner = buildVotehubResultsTooltip({
         title,
         subtitle: 'Precinct',
         demName: demCandidate,
@@ -27009,6 +27012,11 @@ document.addEventListener('DOMContentLoaded', function() {
         shiftYearLabel: (vizShiftCache?.prevYear && vizShiftCache?.year) ? `${vizShiftCache.prevYear}→${vizShiftCache.year}` : '',
         showShiftLine: currentVizMode === 'shift' && Number.isFinite(shiftDelta) && !!vizShiftCache?.prevYear
       });
+      try {
+        const demo = getPrecinctDemographicsRow(precinctNorm, countyName, precId);
+        const showDemographics = currentVizMode === 'demographics' || tooltipPinned || pinSelection || (forceTooltip && isTouchInteractionMode());
+        if (demo && showDemographics) inner += buildPrecinctDemographicsHoverHTML(demo, precinctNorm);
+      } catch (_) {}
       const pinnedShell = !!tooltipPinned;
       const copyText = (precinctNorm || title || '').toString().trim();
       showHoverTooltip(
