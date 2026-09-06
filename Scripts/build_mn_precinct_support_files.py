@@ -8,6 +8,7 @@ import csv
 import json
 import tempfile
 import zipfile
+from datetime import datetime, timezone
 from pathlib import Path
 from urllib.request import urlretrieve
 
@@ -162,8 +163,15 @@ def main() -> None:
             row[f"{key}_vap_pct"] = pct(int(row[f"{key}_vap"]), vap)
         population_rows.append(row)
 
-    payload = {"source": "Minnesota 2020 Census voting district geography (NAME20)",
-               "counties": {county: dict(sorted(codes.items())) for county, codes in sorted(friendly.items())}}
+    payload = {
+        "version": 1,
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z"),
+        "generated_from": ["Data/precincts.geojson"],
+        "counties": {
+            county.upper(): dict(sorted(codes.items()))
+            for county, codes in sorted(friendly.items())
+        },
+    }
     args.friendly_out.write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
     write_csv(args.population_out, population_rows)
     county_rows = aggregate(population_rows, "county", lambda row: str(row["county"]).upper())

@@ -1,7 +1,11 @@
 {
-  "source": "Minnesota 2020 Census voting district geography (NAME20)",
+  "version": 1,
+  "generated_at": "2026-09-06T03:16:11.618Z",
+  "generated_from": [
+    "Data/precincts.geojson"
+  ],
   "counties": {
-    "Aitkin": {
+    "AITKIN": {
       "000005": "Aitkin",
       "000010": "Aitkin Twp",
       "000015": "Ball Bluff Twp",
@@ -57,7 +61,7 @@
       "000285": "Unorg 51-27 (Lemay Unorg)",
       "000290": "Northwest Aitkin Unorg P-1"
     },
-    "Anoka": {
+    "ANOKA": {
       "000005": "Andover P-1",
       "000010": "Andover P-2",
       "000015": "Andover P-3",
@@ -187,7 +191,7 @@
       "003110": "Spring Lake Park P-2",
       "003115": "Spring Lake Park P-3"
     },
-    "Becker": {
+    "BECKER": {
       "000005": "Atlanta Twp",
       "000010": "Audubon",
       "000015": "Audubon Twp",
@@ -237,7 +241,7 @@
       "000235": "Wolf Lake",
       "000240": "Wolf Lake Twp"
     },
-    "Beltrami": {
+    "BELTRAMI": {
       "000005": "Alaska Twp",
       "000010": "Battle Twp",
       "000015": "Bemidji Twp",
@@ -302,7 +306,7 @@
       "000295": "Wilton",
       "000300": "Woodrow Twp"
     },
-    "Benton": {
+    "BENTON": {
       "000005": "Alberta Twp",
       "000010": "Foley",
       "000015": "Gilman",
@@ -331,7 +335,7 @@
       "000115": "Sauk Rapids Twp",
       "000120": "Watab Twp"
     },
-    "Big Stone": {
+    "BIG STONE": {
       "000005": "Akron Twp",
       "000010": "Almond Twp",
       "000015": "Artichoke Twp",
@@ -356,7 +360,7 @@
       "000095": "Prior Twp",
       "000100": "Toqua Twp"
     },
-    "Blue Earth": {
+    "BLUE EARTH": {
       "000005": "Amboy",
       "000010": "Beauford Twp",
       "000015": "Butternut Valley Twp",
@@ -411,7 +415,7 @@
       "000255": "Vernon Center",
       "000260": "Vernon Center Twp"
     },
-    "Brown": {
+    "BROWN": {
       "000005": "Albin Twp",
       "000010": "Bashaw Twp",
       "000015": "Burnstown Twp",
@@ -445,7 +449,7 @@
       "000155": "Stark Twp",
       "000160": "Stately Twp"
     },
-    "Carlton": {
+    "CARLTON": {
       "000005": "Atkinson Twp",
       "000010": "Automba Twp",
       "000015": "Barnum",
@@ -485,7 +489,7 @@
       "000180": "Wrenshall Twp",
       "000185": "Wright"
     },
-    "Carver": {
+    "CARVER": {
       "000005": "Benton Twp",
       "000010": "Camden Twp",
       "000015": "Carver",
@@ -522,7 +526,7 @@
       "000140": "Watertown Twp",
       "000150": "Young America Twp"
     },
-    "Cass": {
+    "CASS": {
       "000005": "Ansel Twp",
       "000010": "Backus",
       "000015": "Barclay Twp",
@@ -597,7 +601,7 @@
       "000317": "Winnie Portage Lakes",
       "000320": "Woodrow Twp"
     },
-    "Chippewa": {
+    "CHIPPEWA": {
       "000005": "Big Bend Twp",
       "000010": "Clara City",
       "000015": "Crate Twp",
@@ -624,7 +628,7 @@
       "000130": "Watson",
       "000135": "Woods Twp"
     },
-    "Chisago": {
+    "CHISAGO": {
       "000005": "Amador Twp",
       "000015": "Center City",
       "000020": "Chisago City",
@@ -649,7 +653,7 @@
       "000100": "Taylors Falls",
       "000105": "Wyoming"
     },
-    "Clay": {
+    "CLAY": {
       "000005": "Alliance Twp",
       "000010": "Barnesville W-1",
       "000015": "Barnesville W-2",
@@ -709,7 +713,7 @@
       "000265": "Ulen Twp",
       "000270": "Viding Twp"
     },
-    "Clearwater": {
+    "CLEARWATER": {
       "000005": "Bagley",
       "000010": "Bear Creek Twp",
       "000015": "Clearbrook",
@@ -740,7 +744,7 @@
       "000135": "South Clearwater 143-36",
       "000140": "Long Lost Lake Twp"
     },
-    "Cook": {
+    "COOK": {
       "000005": "Colvill P-3",
       "000010": "Grand Marais East P-5",
       "000015": "Grand Marais West P-6",
@@ -756,7 +760,7 @@
       "000065": "Maple Hill P-8A",
       "ZZZZZZ": "Voting Districts Not Defined"
     },
-    "Cottonwood": {
+    "COTTONWOOD": {
       "000005": "Amboy Twp",
       "000010": "Amo Twp",
       "000015": "Ann Twp",
@@ -787,7 +791,7 @@
       "000140": "Windom W-2 P-1",
       "000145": "Windom W-2 P-2"
     },
-    "Crow Wing": {
+    "CROW WING": {
       "000005": "Baxter P-1 East",
       "000006": "Baxter P-1 West",
       "000007": "Baxter P-2 East",
@@ -851,7 +855,7 @@
       "000290": "Wolford Twp",
       "000295": "Red Precinct"
     },
-    "Dakota": {
+    "DAKOTA": {
       "001010": "Apple Valley P-1",
       "001020": "Apple Valley P-2",
       "001030": "Apple Valley P-3",
@@ -994,7 +998,7 @@
       "004970": "West Saint Paul W-3 P-1",
       "004980": "West Saint Paul W-3 P-2"
     },
-    "Dodge": {
+    "DODGE": {
       "000005": "Ashland Twp",
       "000007": "Byron P-2",
       "000010": "Canisteo Twp",
@@ -1018,7 +1022,7 @@
       "000085": "West Concord",
       "000090": "Westfield Twp"
     },
-    "Douglas": {
+    "DOUGLAS": {
       "000005": "Alexandria W-1 P-1",
       "000007": "Alexandria W-1 P-2",
       "000010": "Alexandria W-2",
@@ -1057,7 +1061,7 @@
       "000170": "Spruce Hill Twp",
       "000175": "Urness Twp"
     },
-    "Faribault": {
+    "FARIBAULT": {
       "000005": "Barber Twp",
       "000010": "Blue Earth W-1",
       "000015": "Blue Earth W-2",
@@ -1092,7 +1096,7 @@
       "000160": "Winnebago",
       "000165": "Winnebago Twp"
     },
-    "Fillmore": {
+    "FILLMORE": {
       "000005": "Amherst Twp",
       "000010": "Arendahl Twp",
       "000015": "Beaver Twp",
@@ -1131,7 +1135,7 @@
       "000190": "Wykoff",
       "000195": "York Twp"
     },
-    "Freeborn": {
+    "FREEBORN": {
       "000005": "Albert Lea W-1 P-1",
       "000010": "Albert Lea W-1 P-2",
       "000015": "Albert Lea W-2 P-1",
@@ -1174,7 +1178,7 @@
       "000215": "Shell Rock Twp",
       "000220": "Twin Lakes"
     },
-    "Goodhue": {
+    "GOODHUE": {
       "000005": "Bellechester",
       "000010": "Belle Creek Twp",
       "000015": "Belvidere Twp",
@@ -1216,7 +1220,7 @@
       "000215": "Zumbrota P-2",
       "000220": "Zumbrota Twp"
     },
-    "Grant": {
+    "GRANT": {
       "000005": "Ashby",
       "000010": "Barrett",
       "000015": "Delaware Twp",
@@ -1241,7 +1245,7 @@
       "000110": "Stony Brook Twp",
       "000115": "Wendell"
     },
-    "Hennepin": {
+    "HENNEPIN": {
       "000005": "Bloomington W-1 P-7",
       "000010": "Bloomington W-1 P-8",
       "000015": "Bloomington W-1 P-9",
@@ -1667,7 +1671,7 @@
       "002910": "Wayzata P-1",
       "002925": "Woodland P-1"
     },
-    "Houston": {
+    "HOUSTON": {
       "000005": "Black Hammer Twp",
       "000010": "Brownsville",
       "000015": "Brownsville Twp",
@@ -1696,7 +1700,7 @@
       "000125": "Winnebago Twp",
       "000130": "Yucatan Twp"
     },
-    "Hubbard": {
+    "HUBBARD": {
       "000005": "Akeley",
       "000010": "Akeley Twp",
       "000015": "Arago Twp",
@@ -1736,7 +1740,7 @@
       "000152": "Todd Twp P-2",
       "000155": "White Oak Twp"
     },
-    "Isanti": {
+    "ISANTI": {
       "000005": "Athens Twp",
       "000010": "Bradford Twp",
       "000015": "Braham",
@@ -1757,7 +1761,7 @@
       "000075": "Stanford Twp",
       "000080": "Wyanett Twp"
     },
-    "Itasca": {
+    "ITASCA": {
       "000005": "Alvwood Twp",
       "000010": "Arbo Twp",
       "000015": "Ardenhurst Twp",
@@ -1835,7 +1839,7 @@
       "000380": "Wirt Twp",
       "000385": "Zemple"
     },
-    "Jackson": {
+    "JACKSON": {
       "000005": "Alba Twp",
       "000010": "Alpha",
       "000015": "Belmont Twp",
@@ -1865,7 +1869,7 @@
       "000145": "Wilder",
       "000150": "Wisconsin Twp"
     },
-    "Kanabec": {
+    "KANABEC": {
       "000005": "Ann Lake Twp",
       "000010": "Arthur Twp",
       "000015": "Braham",
@@ -1887,7 +1891,7 @@
       "000100": "South Fork Twp",
       "000105": "Whited Twp"
     },
-    "Kandiyohi": {
+    "KANDIYOHI": {
       "000005": "Arctander Twp",
       "000010": "Atwater",
       "000015": "Blomkest",
@@ -1937,7 +1941,7 @@
       "000230": "Willmar W-4 P-3",
       "000235": "Willmar Twp"
     },
-    "Kittson": {
+    "KITTSON": {
       "000005": "Arveson Twp",
       "000010": "Cannon Twp",
       "000015": "Caribou Twp",
@@ -1978,7 +1982,7 @@
       "000180": "Teien Twp",
       "000185": "Thompson Twp"
     },
-    "Koochiching": {
+    "KOOCHICHING": {
       "000005": "Big Falls",
       "000023": "Dinner Creek Unorg",
       "000050": "International Falls East Ward",
@@ -2002,7 +2006,7 @@
       "000190": "Southeast Koochiching",
       "000195": "Southwest Koochiching"
     },
-    "Lac qui Parle": {
+    "LAC QUI PARLE": {
       "000005": "Agassiz Twp",
       "000010": "Arena Twp",
       "000015": "Augusta Twp",
@@ -2033,7 +2037,7 @@
       "000160": "Walter Twp",
       "000165": "Yellow Bank Twp"
     },
-    "Lake": {
+    "LAKE": {
       "000005": "Beaver Bay",
       "000010": "Beaver Bay Twp P-1",
       "000020": "Beaver Bay Twp P-4",
@@ -2055,7 +2059,7 @@
       "000135": "Unorg Terr No 2 Prec 5",
       "ZZZZZZ": "Voting Districts Not Defined"
     },
-    "Lake of the Woods": {
+    "LAKE OF THE WOODS": {
       "000005": "1-A Baudette Unorg",
       "000010": "1-B Baudette City",
       "000015": "2-A Gudrid Unorg",
@@ -2074,7 +2078,7 @@
       "000075": "5-D Roosevelt",
       "000080": "3-E Baudette City"
     },
-    "Le Sueur": {
+    "LE SUEUR": {
       "000005": "Cleveland",
       "000010": "Cleveland Twp",
       "000015": "Cordova Twp",
@@ -2102,7 +2106,7 @@
       "000130": "Waterville",
       "000140": "Waterville Twp"
     },
-    "Lincoln": {
+    "LINCOLN": {
       "000005": "Alta Vista Twp",
       "000010": "Arco",
       "000015": "Ash Lake Twp",
@@ -2124,7 +2128,7 @@
       "000095": "Tyler",
       "000100": "Verdi Twp"
     },
-    "Lyon": {
+    "LYON": {
       "000005": "Amiret Twp",
       "000010": "Balaton",
       "000015": "Clifton Twp",
@@ -2159,7 +2163,7 @@
       "000180": "Vallers Twp",
       "000185": "Westerheim Twp"
     },
-    "Mahnomen": {
+    "MAHNOMEN": {
       "000005": "Beaulieu Twp",
       "000010": "Bejou",
       "000015": "Bejou Twp",
@@ -2180,7 +2184,7 @@
       "000090": "Little Elbow Twp",
       "000095": "Waubun"
     },
-    "Marshall": {
+    "MARSHALL": {
       "000005": "Agder Twp",
       "000010": "Alma Twp",
       "000015": "Alvarado",
@@ -2242,7 +2246,7 @@
       "000295": "Whiteford Twp",
       "000300": "Wright Twp"
     },
-    "Martin": {
+    "MARTIN": {
       "000005": "Cedar Twp",
       "000010": "Center Creek Twp",
       "000015": "Ceylon",
@@ -2281,7 +2285,7 @@
       "000205": "Welcome",
       "000210": "Westford Twp"
     },
-    "McLeod": {
+    "MCLEOD": {
       "000005": "Acoma Twp",
       "000010": "Bergen Twp",
       "000015": "Biscay",
@@ -2311,7 +2315,7 @@
       "000145": "Winsted",
       "000150": "Winsted Twp"
     },
-    "Meeker": {
+    "MEEKER": {
       "000005": "Acton Twp",
       "000010": "Cedar Mills",
       "000015": "Cedar Mills Twp",
@@ -2343,7 +2347,7 @@
       "000145": "Union Grove Twp",
       "000150": "Watkins"
     },
-    "Mille Lacs": {
+    "MILLE LACS": {
       "000005": "Bock",
       "000010": "Bogus Brook Twp",
       "000015": "Borgholm Twp",
@@ -2370,7 +2374,7 @@
       "000120": "South Harbor Twp",
       "000125": "Wahkon"
     },
-    "Morrison": {
+    "MORRISON": {
       "000005": "Agram Twp",
       "000010": "Belle Prairie Twp",
       "000015": "Bellevue Twp",
@@ -2420,7 +2424,7 @@
       "000245": "Two Rivers Twp",
       "000250": "Upsala"
     },
-    "Mower": {
+    "MOWER": {
       "000005": "Adams",
       "000010": "Adams Twp",
       "000015": "Austin W-1 P-1",
@@ -2462,7 +2466,7 @@
       "000215": "Waltham Twp",
       "000220": "Windom Twp"
     },
-    "Murray": {
+    "MURRAY": {
       "000005": "Avoca",
       "000010": "Belfast Twp",
       "000015": "Bondin Twp",
@@ -2493,7 +2497,7 @@
       "000135": "Slayton",
       "000140": "Slayton Twp"
     },
-    "Nicollet": {
+    "NICOLLET": {
       "000005": "Belgrade Twp",
       "000010": "Bernadotte Twp",
       "000015": "Brighton Twp",
@@ -2523,7 +2527,7 @@
       "000140": "Traverse Twp",
       "000145": "West Newton Twp"
     },
-    "Nobles": {
+    "NOBLES": {
       "000005": "Adrian",
       "000010": "Bigelow",
       "000015": "Bigelow Twp",
@@ -2565,7 +2569,7 @@
       "000186": "Worthington W-2 P-5",
       "000190": "Worthington Twp"
     },
-    "Norman": {
+    "NORMAN": {
       "000005": "Ada W-1",
       "000010": "Ada W-2",
       "000015": "Anthony Twp",
@@ -2600,7 +2604,7 @@
       "000160": "Wild Rice Twp",
       "000165": "Winchester Twp"
     },
-    "Olmsted": {
+    "OLMSTED": {
       "000005": "Byron",
       "000010": "Cascade Twp P-1",
       "000011": "Cascade Twp P-2A",
@@ -2686,7 +2690,7 @@
       "000225": "Stewartville",
       "000230": "Viola Twp"
     },
-    "Otter Tail": {
+    "OTTER TAIL": {
       "000005": "Aastad Twp",
       "000010": "Amor Twp",
       "000015": "Aurdal Twp",
@@ -2780,7 +2784,7 @@
       "000450": "Western Twp",
       "000455": "Woodside Twp"
     },
-    "Pennington": {
+    "PENNINGTON": {
       "000005": "Black River Twp",
       "000010": "Bray Twp",
       "000015": "Cloverleaf Twp",
@@ -2813,7 +2817,7 @@
       "000180": "Thief River Falls P-5",
       "000195": "Wyandotte Twp"
     },
-    "Pine": {
+    "PINE": {
       "000005": "Arlone Twp",
       "000010": "Arna Twp",
       "000015": "Askov",
@@ -2863,7 +2867,7 @@
       "000235": "Wilma Twp",
       "000240": "Windemere Twp"
     },
-    "Pipestone": {
+    "PIPESTONE": {
       "000005": "Aetna Twp",
       "000010": "Altona Twp",
       "000015": "Burke Twp",
@@ -2887,7 +2891,7 @@
       "000120": "Troy Twp",
       "000125": "Woodstock"
     },
-    "Polk": {
+    "POLK": {
       "000005": "Andover Twp",
       "000010": "Angus Twp",
       "000015": "Badger Twp",
@@ -2971,7 +2975,7 @@
       "000450": "Winger Twp",
       "000455": "Woodside Twp"
     },
-    "Pope": {
+    "POPE": {
       "000005": "Bangor Twp",
       "000010": "Barsness Twp",
       "000015": "Ben Wade Twp",
@@ -3004,7 +3008,7 @@
       "000145": "Westport Twp",
       "000150": "White Bear Lake Twp"
     },
-    "Ramsey": {
+    "RAMSEY": {
       "000010": "Arden Hills P-1",
       "000020": "Arden Hills P-2",
       "000030": "Arden Hills P-3",
@@ -3175,7 +3179,7 @@
       "001770": "White Bear Lake W-4 P-1",
       "001780": "White Bear Lake W-5 P-1"
     },
-    "Red Lake": {
+    "RED LAKE": {
       "000005": "Brooks",
       "000010": "Browns Creek Twp",
       "000015": "Emardville Twp",
@@ -3198,7 +3202,7 @@
       "000095": "Terrebonne Twp",
       "000100": "Wylie Twp"
     },
-    "Redwood": {
+    "REDWOOD": {
       "000005": "Belview",
       "000010": "Brookville Twp",
       "000015": "Charlestown Twp",
@@ -3243,7 +3247,7 @@
       "000215": "Westline Twp",
       "000220": "Willow Lake Twp"
     },
-    "Renville": {
+    "RENVILLE": {
       "000005": "Bandon Twp",
       "000010": "Beaver Falls Twp",
       "000015": "Birch Cooley Twp",
@@ -3282,7 +3286,7 @@
       "000180": "Wellington Twp",
       "000185": "Winfield Twp"
     },
-    "Rice": {
+    "RICE": {
       "000005": "Bridgewater Twp",
       "000010": "Cannon City Twp",
       "000012": "Dennison",
@@ -3315,7 +3319,7 @@
       "000150": "Wheatland Twp",
       "000155": "Wheeling Twp"
     },
-    "Rock": {
+    "ROCK": {
       "000005": "Battle Plain Twp",
       "000010": "Beaver Creek",
       "000015": "Beaver Creek Twp",
@@ -3341,7 +3345,7 @@
       "000110": "Steen",
       "000115": "Vienna Twp"
     },
-    "Roseau": {
+    "ROSEAU": {
       "000005": "Badger",
       "000010": "Barnett Twp",
       "000015": "Barto Twp",
@@ -3387,7 +3391,7 @@
       "000190": "Strathcona",
       "000195": "Warroad"
     },
-    "Scott": {
+    "SCOTT": {
       "000005": "Belle Plaine",
       "000010": "Belle Plaine Twp",
       "000015": "Blakeley Twp",
@@ -3436,7 +3440,7 @@
       "000158": "Shakopee P-13",
       "000160": "Spring Lake Twp"
     },
-    "Sherburne": {
+    "SHERBURNE": {
       "000005": "Baldwin Twp P-2",
       "000010": "Becker",
       "000015": "Becker Twp",
@@ -3473,7 +3477,7 @@
       "000150": "Livonia Twp P-2",
       "000155": "Livonia Twp P-3"
     },
-    "Sibley": {
+    "SIBLEY": {
       "000005": "Alfsborg Twp",
       "000010": "Arlington",
       "000015": "Arlington Twp",
@@ -3500,7 +3504,7 @@
       "000115": "Washington Lake Twp",
       "000120": "Winthrop"
     },
-    "St. Louis": {
+    "ST. LOUIS": {
       "000005": "Alango Twp",
       "000010": "Alborn Twp",
       "000015": "Alden Twp",
@@ -3675,7 +3679,7 @@
       "001160": "Kabetogama Twp",
       "ZZZZZZ": "Voting Districts Not Defined"
     },
-    "Stearns": {
+    "STEARNS": {
       "000005": "Albany",
       "000010": "Albany Twp",
       "000015": "Ashley Twp",
@@ -3775,7 +3779,7 @@
       "000445": "Wakefield Twp",
       "000450": "Zion Twp"
     },
-    "Steele": {
+    "STEELE": {
       "000005": "Aurora Twp",
       "000010": "Berlin Twp",
       "000015": "Blooming Prairie",
@@ -3803,7 +3807,7 @@
       "000150": "Somerset Twp",
       "000155": "Summit Twp"
     },
-    "Stevens": {
+    "STEVENS": {
       "000005": "Alberta",
       "000010": "Baker Twp",
       "000015": "Chokio",
@@ -3831,7 +3835,7 @@
       "000110": "Swan Lake Twp",
       "000115": "Synnes Twp"
     },
-    "Swift": {
+    "SWIFT": {
       "000005": "Appleton",
       "000010": "Appleton Twp",
       "000015": "Benson P-1",
@@ -3863,7 +3867,7 @@
       "000145": "Torning Twp",
       "000150": "West Bank Twp"
     },
-    "Todd": {
+    "TODD": {
       "000005": "Bartlett Twp",
       "000010": "Bertha",
       "000015": "Bertha Twp",
@@ -3905,7 +3909,7 @@
       "000190": "West Union Twp",
       "000195": "Wykeham Twp"
     },
-    "Traverse": {
+    "TRAVERSE": {
       "000005": "Arthur Twp",
       "000010": "Browns Valley",
       "000015": "Clifton Twp",
@@ -3927,7 +3931,7 @@
       "000090": "Wheaton P-2",
       "000095": "Windsor Twp"
     },
-    "Wabasha": {
+    "WABASHA": {
       "000005": "Bellechester",
       "000010": "Chester Twp",
       "000015": "Elgin",
@@ -3962,7 +3966,7 @@
       "000165": "Zumbro Twp",
       "000170": "Zumbro Falls"
     },
-    "Wadena": {
+    "WADENA": {
       "000005": "Aldrich",
       "000010": "Aldrich Twp",
       "000015": "Blueberry Twp",
@@ -3989,7 +3993,7 @@
       "000120": "Wadena Twp",
       "000125": "Wing River Twp"
     },
-    "Waseca": {
+    "WASECA": {
       "000005": "Alton Twp",
       "000010": "Blooming Grove Twp",
       "000015": "Byron Twp",
@@ -4013,7 +4017,7 @@
       "000110": "Wilton Twp",
       "000115": "Woodville Twp"
     },
-    "Washington": {
+    "WASHINGTON": {
       "000005": "Afton W-1 P-1",
       "000010": "Afton W-2 P-1",
       "000015": "Afton W-3 P-1",
@@ -4098,7 +4102,7 @@
       "000445": "Woodbury P-15",
       "000450": "Woodbury P-16"
     },
-    "Watonwan": {
+    "WATONWAN": {
       "000005": "Adrian Twp",
       "000010": "Antrim Twp",
       "000015": "Butterfield",
@@ -4121,7 +4125,7 @@
       "000125": "Saint James Twp",
       "000135": "South Branch Twp"
     },
-    "Wilkin": {
+    "WILKIN": {
       "000005": "Akron Twp",
       "000010": "Andrea Twp",
       "000015": "Atherton Twp",
@@ -4155,7 +4159,7 @@
       "000150": "Wolverton",
       "000155": "Wolverton Twp"
     },
-    "Winona": {
+    "WINONA": {
       "000005": "Altura",
       "000010": "Dakota",
       "000015": "Dresbach Twp",
@@ -4206,7 +4210,7 @@
       "000230": "Winona W-4 P-4",
       "000240": "Wiscoy Twp"
     },
-    "Wright": {
+    "WRIGHT": {
       "000005": "Albertville P-1",
       "000007": "Albertville P-2",
       "000010": "Albion Twp",
@@ -4253,7 +4257,7 @@
       "000185": "Waverly",
       "000190": "Woodland Twp"
     },
-    "Yellow Medicine": {
+    "YELLOW MEDICINE": {
       "000005": "Burton Twp",
       "000010": "Canby",
       "000020": "Clarkfield",
