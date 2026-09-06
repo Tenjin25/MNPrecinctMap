@@ -179,7 +179,18 @@ def build_precinct_alias_map(precincts_geojson: Path) -> dict[str, str]:
             add_alias(make_alias_key(county, n), canonical_key)
             add_alias(make_alias_key(county, n.zfill(6)), canonical_key)
 
-        for field in ("NAME20", "NAMELSAD20", "precinct_name", "PRECINCT_NAME"):
+        # Support both Census VTD layers and the current Minnesota Secretary of
+        # State precinct layer. The latter stores the human-readable precinct
+        # label in `Precinct` / `precinct_full_name`, not `NAME20`.
+        for field in (
+            "NAME20",
+            "NAMELSAD20",
+            "Precinct",
+            "PCTNAME",
+            "precinct_full_name",
+            "precinct_name",
+            "PRECINCT_NAME",
+        ):
             value = clean(props.get(field))
             if value == "":
                 continue
@@ -217,10 +228,30 @@ def resolve_precinct_key(county: str, precinct: str, alias_map: dict[str, str]) 
     return raw, False
 
 
+def load_result_crosswalk(path: Path) -> dict[tuple[int, str], str]:
+    if not path.exists():
+        return {}
+    out: dict[tuple[int, str], str] = {}
+    with path.open(newline="", encoding="utf-8-sig") as handle:
+        for row in csv.DictReader(handle):
+            try:
+                year = int(clean(row.get("year")))
+            except ValueError:
+                continue
+            county = clean(row.get("county"))
+            source = clean(row.get("source_precinct"))
+            target = clean(row.get("target_precinct"))
+            alias = make_alias_key(county, source)
+            if alias and target:
+                out[(year, alias)] = precinct_key(county, target)
+    return out
+
+
 def build_yearly_slices(
     precinct_csv_path: Path,
     out_dir: Path,
     alias_map: dict[str, str],
+    result_crosswalk: dict[tuple[int, str], str],
     candidate_overrides: dict[tuple[int, str, str, str], str],
 ) -> list[dict[str, object]]:
     year = int(precinct_csv_path.name[:4])
@@ -249,7 +280,11 @@ def build_yearly_slices(
             precinct = clean(row.get("precinct"))
             if is_non_geographic_label(county) or is_non_geographic_label(precinct):
                 continue
-            key, matched = resolve_precinct_key(county, precinct, alias_map)
+            crosswalk_key = result_crosswalk.get((year, make_alias_key(county, precinct)), "")
+            if crosswalk_key:
+                key, matched = crosswalk_key, True
+            else:
+                key, matched = resolve_precinct_key(county, precinct, alias_map)
             if key == "":
                 continue
 
@@ -407,6 +442,12 @@ def main() -> None:
         ),
     )
     parser.add_argument(
+        "--result-crosswalk",
+        type=Path,
+        default=Path("Data/crosswalks/precinct_result_key_crosswalk.csv"),
+        help="Optional year-specific result precinct name to canonical geometry code crosswalk.",
+    )
+    parser.add_argument(
         "--candidate-overrides",
         type=Path,
         default=Path("Data/candidate_overrides_legacy_statewide_corrections.csv"),
@@ -429,11 +470,12 @@ def main() -> None:
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     alias_map = build_precinct_alias_map(args.precincts_geojson)
+    result_crosswalk = load_result_crosswalk(args.result_crosswalk)
     candidate_overrides = load_candidate_overrides(args.candidate_overrides)
     manifest_entries: list[dict[str, object]] = []
     for csv_path in precinct_files:
         manifest_entries.extend(
-            build_yearly_slices(csv_path, args.out_dir, alias_map, candidate_overrides)
+            build_yearly_slices(csv_path, args.out_dir, alias_map, result_crosswalk, candidate_overrides)
         )
 
     if args.merge_manifest:

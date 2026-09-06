@@ -1,0 +1,4 @@
+year,county,source_precinct,target_precinct,method,candidate_count
+2022,St. Louis,AURORA P-1,000032,manual_official_change_review,1
+2024,St. Louis,Aurora P-1,000032,manual_block_successor_review,1
+2022,Stearns,ST JOSEPH P3,000380,manual_official_merge_review,1
