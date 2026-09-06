@@ -10558,7 +10558,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Cache destroyer token for static data requests.
     // Bump this value when you want browsers/CDNs to fetch fresh files immediately.
-    const DATA_CACHE_BUSTER = '2026-09-05-mn-precinct-demographics-v2';
+    const DATA_CACHE_BUSTER = '2026-09-05-mn-precinct-demographics-v3';
     const APP_BUILD_ID = '2026-09-02-mn-original-dropdown-v1';
 
     function withCacheBuster(path) {
@@ -10595,9 +10595,9 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       paths: {
         counties: withBase('./Data/tl_2020_27_county20.geojson'),
-        precincts: withBase('./Data/precincts.geojson'),
-        precincts_fallback_vtd20: null,
-        precinct_centroids: withBase('./Data/precinct_centroids.geojson'),
+        precincts: withBase('./Data/precincts_2026.geojson'),
+        precincts_fallback_vtd20: withBase('./Data/precincts.geojson'),
+        precinct_centroids: withBase('./Data/precinct_centroids_2026.geojson'),
         precinct_aliases: null,
         precinct_friendly_names: withCacheBuster(withBase('./Data/precinct_friendly_names.json')),
         precinct_variant_overrides: null,
@@ -29052,7 +29052,7 @@ document.addEventListener('DOMContentLoaded', function() {
       const year = Number(currentContestMeta?.year);
       // VTD20 is only useful for truly legacy cycles; modern precinct-level contest keys (2014+)
       // are aligned to `data/Voting_Precincts.geojson` precinct IDs (including split precinct suffixes).
-      if (Number.isFinite(year) && year <= 2012) return 'vtd20';
+      if (Number.isFinite(year) && year <= 2020) return 'vtd20';
       return 'precinct';
     }
 
@@ -29716,6 +29716,22 @@ document.addEventListener('DOMContentLoaded', function() {
           if (perCounty && perCounty.size) out.set(countyNorm, perCounty);
         });
         if (out.size) precinctFriendlyNameByCountyCode = out;
+        // Reuse the friendly labels as a reverse name->code index. Minnesota
+        // result exports sometimes contain the precinct name while geometry is
+        // keyed by its zero-padded numeric code.
+        const aliases = precinctAliasIndexByCounty || new Map();
+        out.forEach((codesMap, countyNorm) => {
+          const countyAliases = aliases.has(countyNorm) ? aliases.get(countyNorm) : new Map();
+          codesMap.forEach((name, code) => {
+            const alias = String(name || '').trim().toUpperCase();
+            if (!alias) return;
+            const codes = countyAliases.has(alias) ? countyAliases.get(alias) : [];
+            if (!codes.includes(code)) codes.push(code);
+            countyAliases.set(alias, codes);
+          });
+          if (countyAliases.size) aliases.set(countyNorm, countyAliases);
+        });
+        if (aliases.size) precinctAliasIndexByCounty = aliases;
         precinctFriendlyNamesFileLoaded = true;
       } catch (err) {
         console.warn('Failed to load precinct friendly names:', err?.message || err);
