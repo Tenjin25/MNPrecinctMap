@@ -3,12 +3,12 @@ county_code,county,office,district,party,candidate,votes,pct
 01,Aitkin,Associate Justice - Supreme Court 1,,WI,WRITE-IN,66,1.15
 01,Aitkin,Associate Justice - Supreme Court 4,,NP,Paul Thissen,5625,99.03
 01,Aitkin,Associate Justice - Supreme Court 4,,WI,WRITE-IN,55,0.97
-01,Aitkin,Attorney General,,DFL,Keith Ellison,3028,34.08
-01,Aitkin,Attorney General,,R,Ronald J. Schutz,5850,65.85
+01,Aitkin,Attorney General,,DFL,Keith Ellison,3028,34.09
+01,Aitkin,Attorney General,,R,Ronald J. Schutz,5849,65.84
 01,Aitkin,Attorney General,,WI,WRITE-IN,6,0.07
-01,Aitkin,CONSTITUTIONAL AMENDMENT 1,,NP,NO,2689,30.93
-01,Aitkin,CONSTITUTIONAL AMENDMENT 1,,NP,YES,6005,69.07
-01,Aitkin,County Attorney,,NP,James (Jim) Ratz,6592,99.23
+01,Aitkin,CONSTITUTIONAL AMENDMENT 1,,NP,NO,2688,30.92
+01,Aitkin,CONSTITUTIONAL AMENDMENT 1,,NP,YES,6005,69.08
+01,Aitkin,County Attorney,,NP,James (Jim) Ratz,6591,99.23
 01,Aitkin,County Attorney,,WI,WRITE-IN,51,0.77
 01,Aitkin,County Commissioner District 1,01,NP,J. Mark Wedel,654,49.51
 01,Aitkin,County Commissioner District 1,01,NP,Timothy Catlin,662,50.11
@@ -18,15 +18,15 @@ county_code,county,office,district,party,candidate,votes,pct
 01,Aitkin,County Commissioner District 3,03,WI,WRITE-IN,9,0.56
 01,Aitkin,County Commissioner District 5,05,NP,Michael L. Kearney,1204,97.49
 01,Aitkin,County Commissioner District 5,05,WI,WRITE-IN,31,2.51
-01,Aitkin,County Recorder,,NP,Tara L. Snyder,6645,99.39
+01,Aitkin,County Recorder,,NP,Tara L. Snyder,6644,99.39
 01,Aitkin,County Recorder,,WI,WRITE-IN,41,0.61
-01,Aitkin,County Sheriff,,NP,Daniel Guida,6972,98.34
+01,Aitkin,County Sheriff,,NP,Daniel Guida,6971,98.34
 01,Aitkin,County Sheriff,,WI,WRITE-IN,118,1.66
-01,Aitkin,County Treasurer,,NP,Lori A. Grams,6856,99.48
+01,Aitkin,County Treasurer,,NP,Lori A. Grams,6855,99.48
 01,Aitkin,County Treasurer,,WI,WRITE-IN,36,0.52
-01,Aitkin,Governor & Lt Governor,,DFL,Amy Klobuchar,3194,35.63
+01,Aitkin,Governor & Lt Governor,,DFL,Amy Klobuchar,3194,35.64
 01,Aitkin,Governor & Lt Governor,,GP,Steven Young,133,1.48
-01,Aitkin,Governor & Lt Governor,,R,Lisa Demuth,5625,62.75
+01,Aitkin,Governor & Lt Governor,,R,Lisa Demuth,5624,62.75
 01,Aitkin,Governor & Lt Governor,,WI,WRITE-IN,12,0.13
 01,Aitkin,Judge - 9th District Court 1,09,NP,Matti Adam,5442,98.95
 01,Aitkin,Judge - 9th District Court 1,09,WI,WRITE-IN,58,1.05
@@ -66,35 +66,35 @@ county_code,county,office,district,party,candidate,votes,pct
 01,Aitkin,Secretary of State,,DFL,Steve Simon,3090,35.37
 01,Aitkin,Secretary of State,,GP,Seth Kuhl-Stennes,94,1.08
 01,Aitkin,Secretary of State,,LIB,"George ""Chip"" Tangen",149,1.71
-01,Aitkin,Secretary of State,,R,Tad Jude,5398,61.78
+01,Aitkin,Secretary of State,,R,Tad Jude,5397,61.78
 01,Aitkin,Secretary of State,,WI,WRITE-IN,6,0.07
-01,Aitkin,Soil and Water Supervisor District 1,3001,NP,Thomas Fasteland,6557,99.48
+01,Aitkin,Soil and Water Supervisor District 1,3001,NP,Thomas Fasteland,6556,99.48
 01,Aitkin,Soil and Water Supervisor District 1,3001,WI,WRITE-IN,34,0.52
-01,Aitkin,Soil and Water Supervisor District 2,3001,NP,Francis Dierickx,6446,99.38
+01,Aitkin,Soil and Water Supervisor District 2,3001,NP,Francis Dierickx,6445,99.38
 01,Aitkin,Soil and Water Supervisor District 2,3001,WI,WRITE-IN,40,0.62
 01,Aitkin,State Auditor,,DFL,Zack Filipovich,2959,33.40
 01,Aitkin,State Auditor,,FI,Jay Reeves,263,2.97
-01,Aitkin,State Auditor,,R,Scott Jensen,5635,63.60
+01,Aitkin,State Auditor,,R,Scott Jensen,5634,63.60
 01,Aitkin,State Auditor,,WI,WRITE-IN,3,0.03
 01,Aitkin,State House,10A,DFL,Melissa Maertens,2006,35.85
 01,Aitkin,State House,10A,R,Mark Striemer,3586,64.08
 01,Aitkin,State House,10A,WI,WRITE-IN,4,0.07
-01,Aitkin,State House,7A,DFL,Erin McCabe Ningen,1143,35.60
-01,Aitkin,State House,7A,R,Spencer Igo,2066,64.34
+01,Aitkin,State House,7A,DFL,Erin McCabe Ningen,1143,35.61
+01,Aitkin,State House,7A,R,Spencer Igo,2065,64.33
 01,Aitkin,State House,7A,WI,WRITE-IN,2,0.06
 01,Aitkin,State Senate,10,DFL,Tara Killen,2032,36.18
 01,Aitkin,State Senate,10,R,Nathan Wesenberg,3571,63.59
 01,Aitkin,State Senate,10,WI,WRITE-IN,13,0.23
-01,Aitkin,State Senate,7,DFL,Kim (Kotonias) McLaughlin,1144,35.40
-01,Aitkin,State Senate,7,R,Robert Farnsworth,2086,64.54
+01,Aitkin,State Senate,7,DFL,Kim (Kotonias) McLaughlin,1144,35.41
+01,Aitkin,State Senate,7,R,Robert Farnsworth,2085,64.53
 01,Aitkin,State Senate,7,WI,WRITE-IN,2,0.06
 01,Aitkin,U.S. House,8,DFL,Trina Swanson,3253,36.42
-01,Aitkin,U.S. House,8,R,Pete Stauber,5663,63.40
+01,Aitkin,U.S. House,8,R,Pete Stauber,5662,63.40
 01,Aitkin,U.S. House,8,WI,WRITE-IN,16,0.18
-01,Aitkin,U.S. Senate,,DFL,Peggy Flanagan,2964,33.10
+01,Aitkin,U.S. Senate,,DFL,Peggy Flanagan,2964,33.11
 01,Aitkin,U.S. Senate,,IND,Marisa Simonetti,180,2.01
 01,Aitkin,U.S. Senate,,LIB,Rebecca Whiting,112,1.25
-01,Aitkin,U.S. Senate,,R,Michele Tafoya,5690,63.55
+01,Aitkin,U.S. Senate,,R,Michele Tafoya,5689,63.54
 01,Aitkin,U.S. Senate,,WI,WRITE-IN,8,0.09
 02,Anoka,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,92540,98.50
 02,Anoka,Associate Justice - Supreme Court 1,,WI,WRITE-IN,1411,1.50
@@ -121,9 +121,9 @@ county_code,county,office,district,party,candidate,votes,pct
 02,Anoka,County Commissioner District 4,04,WI,WRITE-IN,109,0.54
 02,Anoka,County Sheriff,,NP,Brad Wise,120632,98.31
 02,Anoka,County Sheriff,,WI,WRITE-IN,2070,1.69
-02,Anoka,Governor & Lt Governor,,DFL,Amy Klobuchar,93834,51.54
-02,Anoka,Governor & Lt Governor,,GP,Steven Young,3375,1.85
-02,Anoka,Governor & Lt Governor,,R,Lisa Demuth,84683,46.51
+02,Anoka,Governor & Lt Governor,,DFL,Amy Klobuchar,93837,51.54
+02,Anoka,Governor & Lt Governor,,GP,Steven Young,3376,1.85
+02,Anoka,Governor & Lt Governor,,R,Lisa Demuth,84694,46.52
 02,Anoka,Governor & Lt Governor,,WI,WRITE-IN,168,0.09
 02,Anoka,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,87942,98.54
 02,Anoka,Judge - 10th District Court 1,10,WI,WRITE-IN,1304,1.46
@@ -253,17 +253,17 @@ county_code,county,office,district,party,candidate,votes,pct
 02,Anoka,U.S. House,3,DFL,Kelly Morrison,22193,58.42
 02,Anoka,U.S. House,3,R,Tyler Bass,15755,41.47
 02,Anoka,U.S. House,3,WI,WRITE-IN,41,0.11
-02,Anoka,U.S. House,5,DFL,Ilhan Omar,15478,62.77
+02,Anoka,U.S. House,5,DFL,Ilhan Omar,15480,62.78
 02,Anoka,U.S. House,5,IND,DeVelle L. Jackson,2158,8.75
 02,Anoka,U.S. House,5,R,John Nagel,6979,28.30
 02,Anoka,U.S. House,5,WI,WRITE-IN,42,0.17
-02,Anoka,U.S. House,6,DFL,Doug Chapin,55139,46.72
-02,Anoka,U.S. House,6,R,Tom Emmer,62751,53.17
+02,Anoka,U.S. House,6,DFL,Doug Chapin,55142,46.72
+02,Anoka,U.S. House,6,R,Tom Emmer,62757,53.17
 02,Anoka,U.S. House,6,WI,WRITE-IN,140,0.12
-02,Anoka,U.S. Senate,,DFL,Peggy Flanagan,90026,49.48
-02,Anoka,U.S. Senate,,IND,Marisa Simonetti,2860,1.57
-02,Anoka,U.S. Senate,,LIB,Rebecca Whiting,2283,1.25
-02,Anoka,U.S. Senate,,R,Michele Tafoya,86553,47.57
+02,Anoka,U.S. Senate,,DFL,Peggy Flanagan,90031,49.48
+02,Anoka,U.S. Senate,,IND,Marisa Simonetti,2861,1.57
+02,Anoka,U.S. Senate,,LIB,Rebecca Whiting,2284,1.26
+02,Anoka,U.S. Senate,,R,Michele Tafoya,86555,47.57
 02,Anoka,U.S. Senate,,WI,WRITE-IN,226,0.12
 03,Becker,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,11573,99.36
 03,Becker,Associate Justice - Supreme Court 1,,WI,WRITE-IN,74,0.64
@@ -456,7 +456,7 @@ county_code,county,office,district,party,candidate,votes,pct
 04,Beltrami,State Senate,2,R,Steve Green,9651,48.13
 04,Beltrami,State Senate,2,UNI,Calvin Larson Jr,324,1.62
 04,Beltrami,State Senate,2,WI,WRITE-IN,6,0.03
-04,Beltrami,U.S. House,8,DFL,Trina Swanson,10123,50.40
+04,Beltrami,U.S. House,8,DFL,Trina Swanson,10124,50.41
 04,Beltrami,U.S. House,8,R,Pete Stauber,9948,49.53
 04,Beltrami,U.S. House,8,WI,WRITE-IN,13,0.06
 04,Beltrami,U.S. Senate,,DFL,Peggy Flanagan,9670,47.94
@@ -485,9 +485,9 @@ county_code,county,office,district,party,candidate,votes,pct
 05,Benton,County Sheriff,,NP,"James ""Jay"" Dingmann",10399,65.34
 05,Benton,County Sheriff,,NP,Joel M Schmidt,5460,34.31
 05,Benton,County Sheriff,,WI,WRITE-IN,56,0.35
-05,Benton,Governor & Lt Governor,,DFL,Amy Klobuchar,6381,34.19
+05,Benton,Governor & Lt Governor,,DFL,Amy Klobuchar,6382,34.19
 05,Benton,Governor & Lt Governor,,GP,Steven Young,341,1.83
-05,Benton,Governor & Lt Governor,,R,Lisa Demuth,11933,63.94
+05,Benton,Governor & Lt Governor,,R,Lisa Demuth,11934,63.93
 05,Benton,Governor & Lt Governor,,WI,WRITE-IN,9,0.05
 05,Benton,Judge - 7th District Court 11,07,NP,Andrew Pearson,10907,99.17
 05,Benton,Judge - 7th District Court 11,07,WI,WRITE-IN,91,0.83
@@ -560,9 +560,9 @@ county_code,county,office,district,party,candidate,votes,pct
 05,Benton,State Senate,14,R,Bernie Perryman,1702,52.84
 05,Benton,State Senate,14,WI,WRITE-IN,7,0.22
 05,Benton,U.S. House,6,DFL,Doug Chapin,6664,35.87
-05,Benton,U.S. House,6,R,Tom Emmer,11894,64.02
-05,Benton,U.S. House,6,WI,WRITE-IN,20,0.11
-05,Benton,U.S. Senate,,DFL,Peggy Flanagan,6105,32.72
+05,Benton,U.S. House,6,R,Tom Emmer,11895,64.02
+05,Benton,U.S. House,6,WI,WRITE-IN,21,0.11
+05,Benton,U.S. Senate,,DFL,Peggy Flanagan,6106,32.72
 05,Benton,U.S. Senate,,IND,Marisa Simonetti,300,1.61
 05,Benton,U.S. Senate,,LIB,Rebecca Whiting,285,1.53
 05,Benton,U.S. Senate,,R,Michele Tafoya,11954,64.07
@@ -656,7 +656,7 @@ county_code,county,office,district,party,candidate,votes,pct
 07,Blue Earth,County Commissioner District 5,05,WI,WRITE-IN,33,0.59
 07,Blue Earth,County Sheriff,,NP,Jeff Wersal,22710,99.20
 07,Blue Earth,County Sheriff,,WI,WRITE-IN,184,0.80
-07,Blue Earth,Governor & Lt Governor,,DFL,Amy Klobuchar,15952,53.62
+07,Blue Earth,Governor & Lt Governor,,DFL,Amy Klobuchar,15953,53.63
 07,Blue Earth,Governor & Lt Governor,,GP,Steven Young,634,2.13
 07,Blue Earth,Governor & Lt Governor,,R,Lisa Demuth,13129,44.13
 07,Blue Earth,Governor & Lt Governor,,WI,WRITE-IN,33,0.11
@@ -731,7 +731,7 @@ county_code,county,office,district,party,candidate,votes,pct
 07,Blue Earth,U.S. Senate,,DFL,Peggy Flanagan,15455,51.91
 07,Blue Earth,U.S. Senate,,IND,Marisa Simonetti,541,1.82
 07,Blue Earth,U.S. Senate,,LIB,Rebecca Whiting,376,1.26
-07,Blue Earth,U.S. Senate,,R,Michele Tafoya,13372,44.91
+07,Blue Earth,U.S. Senate,,R,Michele Tafoya,13373,44.92
 07,Blue Earth,U.S. Senate,,WI,WRITE-IN,29,0.10
 08,Brown,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,9112,99.37
 08,Brown,Associate Justice - Supreme Court 1,,WI,WRITE-IN,58,0.63
@@ -887,16 +887,16 @@ county_code,county,office,district,party,candidate,votes,pct
 09,Carlton,U.S. Senate,,LIB,Rebecca Whiting,243,1.39
 09,Carlton,U.S. Senate,,R,Michele Tafoya,8058,46.12
 09,Carlton,U.S. Senate,,WI,WRITE-IN,13,0.07
-10,Carver,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,34568,99.19
+10,Carver,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,34567,99.19
 10,Carver,Associate Justice - Supreme Court 1,,WI,WRITE-IN,281,0.81
-10,Carver,Associate Justice - Supreme Court 4,,NP,Paul Thissen,34136,99.22
+10,Carver,Associate Justice - Supreme Court 4,,NP,Paul Thissen,34135,99.22
 10,Carver,Associate Justice - Supreme Court 4,,WI,WRITE-IN,268,0.78
 10,Carver,Attorney General,,DFL,Keith Ellison,27643,45.33
-10,Carver,Attorney General,,R,Ronald J. Schutz,33258,54.53
+10,Carver,Attorney General,,R,Ronald J. Schutz,33257,54.53
 10,Carver,Attorney General,,WI,WRITE-IN,85,0.14
-10,Carver,CONSTITUTIONAL AMENDMENT 1,,NP,NO,16131,27.13
-10,Carver,CONSTITUTIONAL AMENDMENT 1,,NP,YES,43337,72.87
-10,Carver,County Attorney,,NP,Mark Metz,40428,99.16
+10,Carver,CONSTITUTIONAL AMENDMENT 1,,NP,NO,16130,27.12
+10,Carver,CONSTITUTIONAL AMENDMENT 1,,NP,YES,43337,72.88
+10,Carver,County Attorney,,NP,Mark Metz,40427,99.16
 10,Carver,County Attorney,,WI,WRITE-IN,341,0.84
 10,Carver,County Commissioner District 2,02,NP,Chrissy Ahola,4562,49.26
 10,Carver,County Commissioner District 2,02,NP,Tom Workman,4671,50.44
@@ -906,65 +906,65 @@ county_code,county,office,district,party,candidate,votes,pct
 10,Carver,County Commissioner District 5,05,NP,John P. Fahey,5701,64.01
 10,Carver,County Commissioner District 5,05,NP,Khai Tran,3184,35.75
 10,Carver,County Commissioner District 5,05,WI,WRITE-IN,22,0.25
-10,Carver,County Sheriff,,NP,Jessica Heger,28238,53.27
+10,Carver,County Sheriff,,NP,Jessica Heger,28237,53.27
 10,Carver,County Sheriff,,NP,Patrick Barry,24620,46.45
 10,Carver,County Sheriff,,WI,WRITE-IN,148,0.28
-10,Carver,Governor & Lt Governor,,DFL,Amy Klobuchar,29716,48.23
+10,Carver,Governor & Lt Governor,,DFL,Amy Klobuchar,29718,48.23
 10,Carver,Governor & Lt Governor,,GP,Steven Young,763,1.24
 10,Carver,Governor & Lt Governor,,R,Lisa Demuth,31098,50.47
 10,Carver,Governor & Lt Governor,,WI,WRITE-IN,40,0.06
-10,Carver,Judge - 1st District Court 1,01,NP,Ann M. Offermann,33252,99.34
+10,Carver,Judge - 1st District Court 1,01,NP,Ann M. Offermann,33251,99.34
 10,Carver,Judge - 1st District Court 1,01,WI,WRITE-IN,221,0.66
-10,Carver,Judge - 1st District Court 12,01,NP,Michael D. Wentzell,33069,99.32
+10,Carver,Judge - 1st District Court 12,01,NP,Michael D. Wentzell,33068,99.32
 10,Carver,Judge - 1st District Court 12,01,WI,WRITE-IN,227,0.68
-10,Carver,Judge - 1st District Court 15,01,NP,Lauren M. Johnson,33026,99.29
+10,Carver,Judge - 1st District Court 15,01,NP,Lauren M. Johnson,33025,99.29
 10,Carver,Judge - 1st District Court 15,01,WI,WRITE-IN,237,0.71
-10,Carver,Judge - 1st District Court 16,01,NP,Luis Morales,32850,99.27
+10,Carver,Judge - 1st District Court 16,01,NP,Luis Morales,32849,99.27
 10,Carver,Judge - 1st District Court 16,01,WI,WRITE-IN,241,0.73
-10,Carver,Judge - 1st District Court 18,01,NP,Christian Sean Wilton,32798,99.32
+10,Carver,Judge - 1st District Court 18,01,NP,Christian Sean Wilton,32797,99.32
 10,Carver,Judge - 1st District Court 18,01,WI,WRITE-IN,226,0.68
-10,Carver,Judge - 1st District Court 2,01,NP,Krista M. Marks,33127,99.34
+10,Carver,Judge - 1st District Court 2,01,NP,Krista M. Marks,33126,99.34
 10,Carver,Judge - 1st District Court 2,01,WI,WRITE-IN,220,0.66
-10,Carver,Judge - 1st District Court 27,01,NP,Tanya Olympia O'Brien,32906,99.27
+10,Carver,Judge - 1st District Court 27,01,NP,Tanya Olympia O'Brien,32905,99.27
 10,Carver,Judge - 1st District Court 27,01,WI,WRITE-IN,243,0.73
-10,Carver,Judge - 1st District Court 3,01,NP,Dannia L. Edwards,32981,99.32
+10,Carver,Judge - 1st District Court 3,01,NP,Dannia L. Edwards,32980,99.32
 10,Carver,Judge - 1st District Court 3,01,WI,WRITE-IN,227,0.68
-10,Carver,Judge - 1st District Court 34,01,NP,Christopher D. Bates,32792,99.31
+10,Carver,Judge - 1st District Court 34,01,NP,Christopher D. Bates,32791,99.31
 10,Carver,Judge - 1st District Court 34,01,WI,WRITE-IN,227,0.69
-10,Carver,Judge - 1st District Court 36,01,NP,Adam Johnson,32733,99.28
+10,Carver,Judge - 1st District Court 36,01,NP,Adam Johnson,32732,99.28
 10,Carver,Judge - 1st District Court 36,01,WI,WRITE-IN,237,0.72
-10,Carver,Judge - 1st District Court 4,01,NP,Tracy Perzel,33006,99.35
+10,Carver,Judge - 1st District Court 4,01,NP,Tracy Perzel,33005,99.35
 10,Carver,Judge - 1st District Court 4,01,WI,WRITE-IN,217,0.65
-10,Carver,Judge - 1st District Court 6,01,NP,Kelly A. Staples,32974,99.34
+10,Carver,Judge - 1st District Court 6,01,NP,Kelly A. Staples,32973,99.34
 10,Carver,Judge - 1st District Court 6,01,WI,WRITE-IN,219,0.66
-10,Carver,Judge - 1st District Court 7,01,NP,Matthew Schmidt,32898,99.32
+10,Carver,Judge - 1st District Court 7,01,NP,Matthew Schmidt,32897,99.32
 10,Carver,Judge - 1st District Court 7,01,WI,WRITE-IN,225,0.68
-10,Carver,Judge - 1st District Court 9,01,NP,Patrick Goggins,32984,99.26
+10,Carver,Judge - 1st District Court 9,01,NP,Patrick Goggins,32983,99.26
 10,Carver,Judge - 1st District Court 9,01,WI,WRITE-IN,246,0.74
-10,Carver,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,33835,99.25
+10,Carver,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,33834,99.25
 10,Carver,Judge - Court of Appeals 1,,WI,WRITE-IN,255,0.75
-10,Carver,Judge - Court of Appeals 13,,NP,Jeanne Cochran,33448,99.27
+10,Carver,Judge - Court of Appeals 13,,NP,Jeanne Cochran,33447,99.27
 10,Carver,Judge - Court of Appeals 13,,WI,WRITE-IN,245,0.73
-10,Carver,Judge - Court of Appeals 15,,NP,Kevin G. Ross,33387,99.29
+10,Carver,Judge - Court of Appeals 15,,NP,Kevin G. Ross,33386,99.29
 10,Carver,Judge - Court of Appeals 15,,WI,WRITE-IN,239,0.71
-10,Carver,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,33092,99.24
+10,Carver,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,33091,99.24
 10,Carver,Judge - Court of Appeals 18,,WI,WRITE-IN,253,0.76
-10,Carver,Judge - Court of Appeals 7,,NP,Rachel Bond,33589,99.28
+10,Carver,Judge - Court of Appeals 7,,NP,Rachel Bond,33588,99.28
 10,Carver,Judge - Court of Appeals 7,,WI,WRITE-IN,242,0.72
 10,Carver,Secretary of State,,DFL,Steve Simon,28480,46.78
 10,Carver,Secretary of State,,GP,Seth Kuhl-Stennes,631,1.04
 10,Carver,Secretary of State,,LIB,"George ""Chip"" Tangen",1177,1.93
-10,Carver,Secretary of State,,R,Tad Jude,30571,50.22
+10,Carver,Secretary of State,,R,Tad Jude,30570,50.22
 10,Carver,Secretary of State,,WI,WRITE-IN,20,0.03
-10,Carver,Soil and Water Supervisor District 1,4019,NP,Karli Wittner,7263,99.05
+10,Carver,Soil and Water Supervisor District 1,4019,NP,Karli Wittner,7262,99.05
 10,Carver,Soil and Water Supervisor District 1,4019,WI,WRITE-IN,70,0.95
 10,Carver,Soil and Water Supervisor District 3,4021,NP,Mark Zabel,8399,99.29
 10,Carver,Soil and Water Supervisor District 3,4021,WI,WRITE-IN,60,0.71
 10,Carver,Soil and Water Supervisor District 5,4023,NP,Jeff Sons,7351,99.38
 10,Carver,Soil and Water Supervisor District 5,4023,WI,WRITE-IN,46,0.62
-10,Carver,State Auditor,,DFL,Zack Filipovich,26953,44.29
+10,Carver,State Auditor,,DFL,Zack Filipovich,26953,44.30
 10,Carver,State Auditor,,FI,Jay Reeves,1723,2.83
-10,Carver,State Auditor,,R,Scott Jensen,32155,52.84
+10,Carver,State Auditor,,R,Scott Jensen,32154,52.84
 10,Carver,State Auditor,,WI,WRITE-IN,18,0.03
 10,Carver,State House,17B,DFL,Ben Wieman,4383,36.72
 10,Carver,State House,17B,R,Bobbie Harder,7546,63.22
@@ -972,22 +972,22 @@ county_code,county,office,district,party,candidate,votes,pct
 10,Carver,State House,48A,DFL,Joe Brothers,11610,44.70
 10,Carver,State House,48A,R,Jim Nash,14343,55.22
 10,Carver,State House,48A,WI,WRITE-IN,21,0.08
-10,Carver,State House,48B,DFL,"Lucille ""Lucy"" Rehm",12655,54.89
-10,Carver,State House,48B,R,Caleb Steffenhagen,10386,45.05
+10,Carver,State House,48B,DFL,"Lucille ""Lucy"" Rehm",12655,54.90
+10,Carver,State House,48B,R,Caleb Steffenhagen,10385,45.05
 10,Carver,State House,48B,WI,WRITE-IN,13,0.06
 10,Carver,State Senate,17,DFL,Julie Kelzer,4486,37.41
 10,Carver,State Senate,17,R,Glenn H Gruenhagen,7497,62.51
 10,Carver,State Senate,17,WI,WRITE-IN,10,0.08
 10,Carver,State Senate,48,DFL,Dan Kessler,24141,48.97
-10,Carver,State Senate,48,R,Julia Coleman,25122,50.96
+10,Carver,State Senate,48,R,Julia Coleman,25121,50.96
 10,Carver,State Senate,48,WI,WRITE-IN,36,0.07
-10,Carver,U.S. House,6,DFL,Doug Chapin,29888,48.70
-10,Carver,U.S. House,6,R,Tom Emmer,31414,51.19
+10,Carver,U.S. House,6,DFL,Doug Chapin,29891,48.70
+10,Carver,U.S. House,6,R,Tom Emmer,31414,51.18
 10,Carver,U.S. House,6,WI,WRITE-IN,71,0.12
-10,Carver,U.S. Senate,,DFL,Peggy Flanagan,27941,45.33
+10,Carver,U.S. Senate,,DFL,Peggy Flanagan,27946,45.34
 10,Carver,U.S. Senate,,IND,Marisa Simonetti,751,1.22
 10,Carver,U.S. Senate,,LIB,Rebecca Whiting,597,0.97
-10,Carver,U.S. Senate,,R,Michele Tafoya,32260,52.34
+10,Carver,U.S. Senate,,R,Michele Tafoya,32262,52.34
 10,Carver,U.S. Senate,,WI,WRITE-IN,87,0.14
 11,Cass,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,10499,98.94
 11,Cass,Associate Justice - Supreme Court 1,,WI,WRITE-IN,113,1.06
@@ -1165,25 +1165,25 @@ county_code,county,office,district,party,candidate,votes,pct
 12,Chippewa,State Senate,16,R,Andrew R. Lang,3091,67.11
 12,Chippewa,State Senate,16,WI,WRITE-IN,2,0.04
 12,Chippewa,U.S. House,7,DFL,Erik Osberg,1893,37.34
-12,Chippewa,U.S. House,7,R,Michelle Fischbach,3171,62.56
+12,Chippewa,U.S. House,7,R,Michelle Fischbach,3172,62.56
 12,Chippewa,U.S. House,7,WI,WRITE-IN,5,0.10
 12,Chippewa,U.S. Senate,,DFL,Peggy Flanagan,1690,33.31
 12,Chippewa,U.S. Senate,,IND,Marisa Simonetti,90,1.77
 12,Chippewa,U.S. Senate,,LIB,Rebecca Whiting,56,1.10
 12,Chippewa,U.S. Senate,,R,Michele Tafoya,3233,63.73
 12,Chippewa,U.S. Senate,,WI,WRITE-IN,4,0.08
-13,Chisago,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,15310,98.82
+13,Chisago,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,15309,98.82
 13,Chisago,Associate Justice - Supreme Court 1,,WI,WRITE-IN,183,1.18
-13,Chisago,Associate Justice - Supreme Court 4,,NP,Paul Thissen,15265,98.94
+13,Chisago,Associate Justice - Supreme Court 4,,NP,Paul Thissen,15264,98.94
 13,Chisago,Associate Justice - Supreme Court 4,,WI,WRITE-IN,163,1.06
 13,Chisago,Attorney General,,DFL,Keith Ellison,10169,35.03
-13,Chisago,Attorney General,,R,Ronald J. Schutz,18819,64.83
+13,Chisago,Attorney General,,R,Ronald J. Schutz,18818,64.83
 13,Chisago,Attorney General,,WI,WRITE-IN,41,0.14
 13,Chisago,CONSTITUTIONAL AMENDMENT 1,,NP,NO,9990,35.37
-13,Chisago,CONSTITUTIONAL AMENDMENT 1,,NP,YES,18253,64.63
-13,Chisago,County Attorney,,NP,Janet Reiter,17510,98.60
+13,Chisago,CONSTITUTIONAL AMENDMENT 1,,NP,YES,18252,64.63
+13,Chisago,County Attorney,,NP,Janet Reiter,17509,98.60
 13,Chisago,County Attorney,,WI,WRITE-IN,248,1.40
-13,Chisago,County Commissioner District 1,01,NP,Tim MacMillan,2726,98.70
+13,Chisago,County Commissioner District 1,01,NP,Tim MacMillan,2725,98.70
 13,Chisago,County Commissioner District 1,01,WI,WRITE-IN,36,1.30
 13,Chisago,County Commissioner District 2,02,NP,Chris DuBose,2845,53.02
 13,Chisago,County Commissioner District 2,02,NP,Rick Greene,2489,46.38
@@ -1191,75 +1191,75 @@ county_code,county,office,district,party,candidate,votes,pct
 13,Chisago,County Commissioner District 3,03,NP,Cyle Cramer,1427,34.25
 13,Chisago,County Commissioner District 3,03,NP,Marlys L. Dunne,2711,65.07
 13,Chisago,County Commissioner District 3,03,WI,WRITE-IN,28,0.67
-13,Chisago,County Sheriff,,NP,Brandon Thyen,19565,98.82
+13,Chisago,County Sheriff,,NP,Brandon Thyen,19564,98.82
 13,Chisago,County Sheriff,,WI,WRITE-IN,233,1.18
-13,Chisago,Governor & Lt Governor,,DFL,Amy Klobuchar,10722,36.58
+13,Chisago,Governor & Lt Governor,,DFL,Amy Klobuchar,10722,36.59
 13,Chisago,Governor & Lt Governor,,GP,Steven Young,452,1.54
-13,Chisago,Governor & Lt Governor,,R,Lisa Demuth,18115,61.81
+13,Chisago,Governor & Lt Governor,,R,Lisa Demuth,18114,61.81
 13,Chisago,Governor & Lt Governor,,WI,WRITE-IN,19,0.06
-13,Chisago,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,12563,98.90
+13,Chisago,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,12562,98.90
 13,Chisago,Judge - 10th District Court 1,10,WI,WRITE-IN,140,1.10
-13,Chisago,Judge - 10th District Court 14,10,NP,Justin Collins,12344,99.11
+13,Chisago,Judge - 10th District Court 14,10,NP,Justin Collins,12343,99.11
 13,Chisago,Judge - 10th District Court 14,10,WI,WRITE-IN,111,0.89
-13,Chisago,Judge - 10th District Court 15,10,NP,Thomas Robert Lehmann,12309,99.07
+13,Chisago,Judge - 10th District Court 15,10,NP,Thomas Robert Lehmann,12308,99.07
 13,Chisago,Judge - 10th District Court 15,10,WI,WRITE-IN,116,0.93
-13,Chisago,Judge - 10th District Court 17,10,NP,Patrick W. Flanagan,12283,98.75
+13,Chisago,Judge - 10th District Court 17,10,NP,Patrick W. Flanagan,12282,98.75
 13,Chisago,Judge - 10th District Court 17,10,WI,WRITE-IN,156,1.25
-13,Chisago,Judge - 10th District Court 19,10,NP,Tricia Loehr,12282,98.99
+13,Chisago,Judge - 10th District Court 19,10,NP,Tricia Loehr,12281,98.99
 13,Chisago,Judge - 10th District Court 19,10,WI,WRITE-IN,125,1.01
-13,Chisago,Judge - 10th District Court 2,10,NP,Carrie A. Doom,12563,98.94
+13,Chisago,Judge - 10th District Court 2,10,NP,Carrie A. Doom,12562,98.94
 13,Chisago,Judge - 10th District Court 2,10,WI,WRITE-IN,135,1.06
-13,Chisago,Judge - 10th District Court 22,10,NP,Melissa Saterbak,12290,99.00
+13,Chisago,Judge - 10th District Court 22,10,NP,Melissa Saterbak,12289,99.00
 13,Chisago,Judge - 10th District Court 22,10,WI,WRITE-IN,124,1.00
-13,Chisago,Judge - 10th District Court 23,10,NP,Catherine (Kate) McPherson,12315,98.99
+13,Chisago,Judge - 10th District Court 23,10,NP,Catherine (Kate) McPherson,12314,98.99
 13,Chisago,Judge - 10th District Court 23,10,WI,WRITE-IN,126,1.01
-13,Chisago,Judge - 10th District Court 24,10,NP,Karin L. McCarthy,12327,98.96
+13,Chisago,Judge - 10th District Court 24,10,NP,Karin L. McCarthy,12326,98.96
 13,Chisago,Judge - 10th District Court 24,10,WI,WRITE-IN,130,1.04
-13,Chisago,Judge - 10th District Court 28,10,NP,Karen B. Schommer,12332,98.96
+13,Chisago,Judge - 10th District Court 28,10,NP,Karen B. Schommer,12331,98.96
 13,Chisago,Judge - 10th District Court 28,10,WI,WRITE-IN,130,1.04
-13,Chisago,Judge - 10th District Court 29,10,NP,Jacob Fischmann,12359,99.04
+13,Chisago,Judge - 10th District Court 29,10,NP,Jacob Fischmann,12358,99.04
 13,Chisago,Judge - 10th District Court 29,10,WI,WRITE-IN,120,0.96
-13,Chisago,Judge - 10th District Court 32,10,NP,Elizabeth H. Strand,12381,99.06
+13,Chisago,Judge - 10th District Court 32,10,NP,Elizabeth H. Strand,12380,99.06
 13,Chisago,Judge - 10th District Court 32,10,WI,WRITE-IN,117,0.94
 13,Chisago,Judge - 10th District Court 38,10,NP,Ben Lacy,8178,47.68
-13,Chisago,Judge - 10th District Court 38,10,NP,Rebecca A. Waxse,8863,51.67
+13,Chisago,Judge - 10th District Court 38,10,NP,Rebecca A. Waxse,8862,51.67
 13,Chisago,Judge - 10th District Court 38,10,WI,WRITE-IN,111,0.65
-13,Chisago,Judge - 10th District Court 4,10,NP,Suzanne M Brown,12513,98.99
+13,Chisago,Judge - 10th District Court 4,10,NP,Suzanne M Brown,12512,98.99
 13,Chisago,Judge - 10th District Court 4,10,WI,WRITE-IN,128,1.01
-13,Chisago,Judge - 10th District Court 43,10,NP,Heather Pipenhagen,12288,99.02
+13,Chisago,Judge - 10th District Court 43,10,NP,Heather Pipenhagen,12287,99.02
 13,Chisago,Judge - 10th District Court 43,10,WI,WRITE-IN,121,0.98
-13,Chisago,Judge - 10th District Court 45,10,NP,Jennifer D. Peterson,12334,99.03
+13,Chisago,Judge - 10th District Court 45,10,NP,Jennifer D. Peterson,12333,99.03
 13,Chisago,Judge - 10th District Court 45,10,WI,WRITE-IN,121,0.97
-13,Chisago,Judge - 10th District Court 6,10,NP,Stoney L. Hiljus,12455,98.96
+13,Chisago,Judge - 10th District Court 6,10,NP,Stoney L. Hiljus,12454,98.96
 13,Chisago,Judge - 10th District Court 6,10,WI,WRITE-IN,131,1.04
-13,Chisago,Judge - 10th District Court 7,10,NP,Viet-Hanh Winchell,12271,98.72
+13,Chisago,Judge - 10th District Court 7,10,NP,Viet-Hanh Winchell,12270,98.72
 13,Chisago,Judge - 10th District Court 7,10,WI,WRITE-IN,159,1.28
-13,Chisago,Judge - 10th District Court 8,10,NP,Laura A. Pietan,12413,99.03
+13,Chisago,Judge - 10th District Court 8,10,NP,Laura A. Pietan,12412,99.03
 13,Chisago,Judge - 10th District Court 8,10,WI,WRITE-IN,122,0.97
-13,Chisago,Judge - 10th District Court 9,10,NP,Sheridan Hawley,12326,99.05
+13,Chisago,Judge - 10th District Court 9,10,NP,Sheridan Hawley,12325,99.05
 13,Chisago,Judge - 10th District Court 9,10,WI,WRITE-IN,118,0.95
-13,Chisago,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,13545,98.86
+13,Chisago,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,13544,98.86
 13,Chisago,Judge - Court of Appeals 1,,WI,WRITE-IN,156,1.14
-13,Chisago,Judge - Court of Appeals 13,,NP,Jeanne Cochran,13134,98.97
+13,Chisago,Judge - Court of Appeals 13,,NP,Jeanne Cochran,13133,98.97
 13,Chisago,Judge - Court of Appeals 13,,WI,WRITE-IN,137,1.03
-13,Chisago,Judge - Court of Appeals 15,,NP,Kevin G. Ross,12763,99.03
+13,Chisago,Judge - Court of Appeals 15,,NP,Kevin G. Ross,12762,99.03
 13,Chisago,Judge - Court of Appeals 15,,WI,WRITE-IN,125,0.97
-13,Chisago,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,12609,98.92
+13,Chisago,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,12608,98.92
 13,Chisago,Judge - Court of Appeals 18,,WI,WRITE-IN,138,1.08
-13,Chisago,Judge - Court of Appeals 7,,NP,Rachel Bond,13196,98.93
+13,Chisago,Judge - Court of Appeals 7,,NP,Rachel Bond,13195,98.93
 13,Chisago,Judge - Court of Appeals 7,,WI,WRITE-IN,143,1.07
 13,Chisago,Secretary of State,,DFL,Steve Simon,10419,36.02
 13,Chisago,Secretary of State,,GP,Seth Kuhl-Stennes,369,1.28
 13,Chisago,Secretary of State,,LIB,"George ""Chip"" Tangen",695,2.40
-13,Chisago,Secretary of State,,R,Tad Jude,17430,60.26
+13,Chisago,Secretary of State,,R,Tad Jude,17429,60.25
 13,Chisago,Secretary of State,,WI,WRITE-IN,14,0.05
-13,Chisago,Soil and Water Supervisor District 1,4025,NP,Lance Petersen,17084,99.10
+13,Chisago,Soil and Water Supervisor District 1,4025,NP,Lance Petersen,17083,99.10
 13,Chisago,Soil and Water Supervisor District 1,4025,WI,WRITE-IN,155,0.90
-13,Chisago,Soil and Water Supervisor District 3,4025,NP,David Tollberg,16988,99.28
+13,Chisago,Soil and Water Supervisor District 3,4025,NP,David Tollberg,16987,99.28
 13,Chisago,Soil and Water Supervisor District 3,4025,WI,WRITE-IN,123,0.72
 13,Chisago,State Auditor,,DFL,Zack Filipovich,9893,34.23
 13,Chisago,State Auditor,,FI,Jay Reeves,954,3.30
-13,Chisago,State Auditor,,R,Scott Jensen,18047,62.44
+13,Chisago,State Auditor,,R,Scott Jensen,18046,62.43
 13,Chisago,State Auditor,,WI,WRITE-IN,11,0.04
 13,Chisago,State House,11B,DFL,Jack L'Heureux,773,32.75
 13,Chisago,State House,11B,R,Nathan Nelson,1585,67.16
@@ -1268,17 +1268,17 @@ county_code,county,office,district,party,candidate,votes,pct
 13,Chisago,State House,28A,R,"James ""Jimmy"" Gordon",2737,62.83
 13,Chisago,State House,28A,WI,WRITE-IN,4,0.09
 13,Chisago,State House,28B,DFL,Daniel Colten Schmidt,8223,37.18
-13,Chisago,State House,28B,R,Max Rymer,13883,62.77
+13,Chisago,State House,28B,R,Max Rymer,13882,62.77
 13,Chisago,State House,28B,WI,WRITE-IN,12,0.05
 13,Chisago,State Senate,11,DFL,Mary Carlson,760,31.99
 13,Chisago,State Senate,11,FI,Monique Doward,61,2.57
 13,Chisago,State Senate,11,R,Jason Rarick,1553,65.36
 13,Chisago,State Senate,11,WI,WRITE-IN,2,0.08
 13,Chisago,State Senate,28,DFL,Max Glenna,9472,35.84
-13,Chisago,State Senate,28,R,Mark Koran,16900,63.94
+13,Chisago,State Senate,28,R,Mark Koran,16899,63.94
 13,Chisago,State Senate,28,WI,WRITE-IN,57,0.22
-13,Chisago,U.S. House,8,DFL,Trina Swanson,11046,37.86
-13,Chisago,U.S. House,8,R,Pete Stauber,18098,62.02
+13,Chisago,U.S. House,8,DFL,Trina Swanson,11047,37.86
+13,Chisago,U.S. House,8,R,Pete Stauber,18097,62.02
 13,Chisago,U.S. House,8,WI,WRITE-IN,35,0.12
 13,Chisago,U.S. Senate,,DFL,Peggy Flanagan,10100,34.47
 13,Chisago,U.S. Senate,,IND,Marisa Simonetti,500,1.71
@@ -1378,10 +1378,10 @@ county_code,county,office,district,party,candidate,votes,pct
 14,Clay,State Senate,4,DFL,Rob Kupec,14520,55.24
 14,Clay,State Senate,4,R,Austin Peterson,11734,44.64
 14,Clay,State Senate,4,WI,WRITE-IN,29,0.11
-14,Clay,U.S. House,7,DFL,Erik Osberg,15165,56.83
+14,Clay,U.S. House,7,DFL,Erik Osberg,15166,56.84
 14,Clay,U.S. House,7,R,Michelle Fischbach,11477,43.01
 14,Clay,U.S. House,7,WI,WRITE-IN,41,0.15
-14,Clay,U.S. Senate,,DFL,Peggy Flanagan,14469,54.05
+14,Clay,U.S. Senate,,DFL,Peggy Flanagan,14470,54.05
 14,Clay,U.S. Senate,,IND,Marisa Simonetti,454,1.70
 14,Clay,U.S. Senate,,LIB,Rebecca Whiting,352,1.31
 14,Clay,U.S. Senate,,R,Michele Tafoya,11467,42.84
@@ -1550,10 +1550,10 @@ county_code,county,office,district,party,candidate,votes,pct
 16,Cook,U.S. House,8,DFL,Trina Swanson,2426,71.88
 16,Cook,U.S. House,8,R,Pete Stauber,947,28.06
 16,Cook,U.S. House,8,WI,WRITE-IN,2,0.06
-16,Cook,U.S. Senate,,DFL,Peggy Flanagan,2330,69.02
+16,Cook,U.S. Senate,,DFL,Peggy Flanagan,2330,69.00
 16,Cook,U.S. Senate,,IND,Marisa Simonetti,37,1.10
 16,Cook,U.S. Senate,,LIB,Rebecca Whiting,40,1.18
-16,Cook,U.S. Senate,,R,Michele Tafoya,968,28.67
+16,Cook,U.S. Senate,,R,Michele Tafoya,969,28.69
 16,Cook,U.S. Senate,,WI,WRITE-IN,1,0.03
 17,Cottonwood,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,3908,99.39
 17,Cottonwood,Associate Justice - Supreme Court 1,,WI,WRITE-IN,24,0.61
@@ -1578,9 +1578,9 @@ county_code,county,office,district,party,candidate,votes,pct
 17,Cottonwood,County Recorder,,WI,WRITE-IN,11,0.25
 17,Cottonwood,County Sheriff,,NP,Jason J. Purrington,4395,99.28
 17,Cottonwood,County Sheriff,,WI,WRITE-IN,32,0.72
-17,Cottonwood,Governor & Lt Governor,,DFL,Amy Klobuchar,1519,31.49
+17,Cottonwood,Governor & Lt Governor,,DFL,Amy Klobuchar,1520,31.50
 17,Cottonwood,Governor & Lt Governor,,GP,Steven Young,91,1.89
-17,Cottonwood,Governor & Lt Governor,,R,Lisa Demuth,3209,66.52
+17,Cottonwood,Governor & Lt Governor,,R,Lisa Demuth,3209,66.51
 17,Cottonwood,Governor & Lt Governor,,WI,WRITE-IN,5,0.10
 17,Cottonwood,Judge - 5th District Court 11,05,NP,Stephen J. Ferrazzano II,3798,99.37
 17,Cottonwood,Judge - 5th District Court 11,05,WI,WRITE-IN,24,0.63
@@ -1758,9 +1758,9 @@ county_code,county,office,district,party,candidate,votes,pct
 19,Dakota,County Sheriff,,NP,Bobby Lambert,64985,37.67
 19,Dakota,County Sheriff,,NP,Joe Leko,106538,61.77
 19,Dakota,County Sheriff,,WI,WRITE-IN,966,0.56
-19,Dakota,Governor & Lt Governor,,DFL,Amy Klobuchar,137677,59.61
-19,Dakota,Governor & Lt Governor,,GP,Steven Young,4078,1.77
-19,Dakota,Governor & Lt Governor,,R,Lisa Demuth,89052,38.56
+19,Dakota,Governor & Lt Governor,,DFL,Amy Klobuchar,137680,59.61
+19,Dakota,Governor & Lt Governor,,GP,Steven Young,4079,1.77
+19,Dakota,Governor & Lt Governor,,R,Lisa Demuth,89053,38.56
 19,Dakota,Governor & Lt Governor,,WI,WRITE-IN,148,0.06
 19,Dakota,Judge - 1st District Court 1,01,NP,Ann M. Offermann,121850,99.03
 19,Dakota,Judge - 1st District Court 1,01,WI,WRITE-IN,1196,0.97
@@ -1888,10 +1888,10 @@ county_code,county,office,district,party,candidate,votes,pct
 19,Dakota,U.S. House,2,DFL,Matt Little,140340,61.03
 19,Dakota,U.S. House,2,R,Eric Pratt,89405,38.88
 19,Dakota,U.S. House,2,WI,WRITE-IN,198,0.09
-19,Dakota,U.S. Senate,,DFL,Peggy Flanagan,132809,57.47
+19,Dakota,U.S. Senate,,DFL,Peggy Flanagan,132812,57.47
 19,Dakota,U.S. Senate,,IND,Marisa Simonetti,3220,1.39
 19,Dakota,U.S. Senate,,LIB,Rebecca Whiting,2414,1.04
-19,Dakota,U.S. Senate,,R,Michele Tafoya,92314,39.95
+19,Dakota,U.S. Senate,,R,Michele Tafoya,92316,39.95
 19,Dakota,U.S. Senate,,WI,WRITE-IN,327,0.14
 20,Dodge,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,6798,99.17
 20,Dodge,Associate Justice - Supreme Court 1,,WI,WRITE-IN,57,0.83
@@ -2087,9 +2087,9 @@ county_code,county,office,district,party,candidate,votes,pct
 22,Faribault,County Sheriff,,NP,Christopher Albers,4007,64.29
 22,Faribault,County Sheriff,,NP,D.J. Bullerman,2215,35.54
 22,Faribault,County Sheriff,,WI,WRITE-IN,11,0.18
-22,Faribault,Governor & Lt Governor,,DFL,Amy Klobuchar,2183,34.08
-22,Faribault,Governor & Lt Governor,,GP,Steven Young,126,1.97
-22,Faribault,Governor & Lt Governor,,R,Lisa Demuth,4094,63.91
+22,Faribault,Governor & Lt Governor,,DFL,Amy Klobuchar,2183,34.07
+22,Faribault,Governor & Lt Governor,,GP,Steven Young,127,1.98
+22,Faribault,Governor & Lt Governor,,R,Lisa Demuth,4094,63.90
 22,Faribault,Governor & Lt Governor,,WI,WRITE-IN,3,0.05
 22,Faribault,Judge - 5th District Court 11,05,NP,Stephen J. Ferrazzano II,4976,99.54
 22,Faribault,Judge - 5th District Court 11,05,WI,WRITE-IN,23,0.46
@@ -2143,13 +2143,13 @@ county_code,county,office,district,party,candidate,votes,pct
 22,Faribault,State Senate,23,DFL,Angie Hanson,1271,36.69
 22,Faribault,State Senate,23,R,Gene Dornink,2191,63.25
 22,Faribault,State Senate,23,WI,WRITE-IN,2,0.06
-22,Faribault,U.S. House,1,DFL,Jake Johnson,2322,36.33
-22,Faribault,U.S. House,1,R,Brad Finstad,4059,63.50
+22,Faribault,U.S. House,1,DFL,Jake Johnson,2322,36.32
+22,Faribault,U.S. House,1,R,Brad Finstad,4061,63.51
 22,Faribault,U.S. House,1,WI,WRITE-IN,11,0.17
-22,Faribault,U.S. Senate,,DFL,Peggy Flanagan,2017,31.42
-22,Faribault,U.S. Senate,,IND,Marisa Simonetti,171,2.66
+22,Faribault,U.S. Senate,,DFL,Peggy Flanagan,2017,31.41
+22,Faribault,U.S. Senate,,IND,Marisa Simonetti,172,2.68
 22,Faribault,U.S. Senate,,LIB,Rebecca Whiting,96,1.50
-22,Faribault,U.S. Senate,,R,Michele Tafoya,4133,64.39
+22,Faribault,U.S. Senate,,R,Michele Tafoya,4134,64.38
 22,Faribault,U.S. Senate,,WI,WRITE-IN,2,0.03
 23,Fillmore,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,7473,99.09
 23,Fillmore,Associate Justice - Supreme Court 1,,WI,WRITE-IN,69,0.91
@@ -2215,7 +2215,7 @@ county_code,county,office,district,party,candidate,votes,pct
 23,Fillmore,State Senate,26,R,Cherie Johnson,5977,58.97
 23,Fillmore,State Senate,26,WI,WRITE-IN,15,0.15
 23,Fillmore,U.S. House,1,DFL,Jake Johnson,4300,42.30
-23,Fillmore,U.S. House,1,R,Brad Finstad,5841,57.46
+23,Fillmore,U.S. House,1,R,Brad Finstad,5842,57.47
 23,Fillmore,U.S. House,1,WI,WRITE-IN,24,0.24
 23,Fillmore,U.S. Senate,,DFL,Peggy Flanagan,3893,38.23
 23,Fillmore,U.S. Senate,,IND,Marisa Simonetti,194,1.91
@@ -2239,7 +2239,7 @@ county_code,county,office,district,party,candidate,votes,pct
 24,Freeborn,County Commissioner District 4,04,WI,WRITE-IN,14,0.62
 24,Freeborn,County Sheriff,,NP,Ryan Shea,10998,98.80
 24,Freeborn,County Sheriff,,WI,WRITE-IN,134,1.20
-24,Freeborn,Governor & Lt Governor,,DFL,Amy Klobuchar,5794,43.19
+24,Freeborn,Governor & Lt Governor,,DFL,Amy Klobuchar,5795,43.19
 24,Freeborn,Governor & Lt Governor,,GP,Steven Young,250,1.86
 24,Freeborn,Governor & Lt Governor,,R,Lisa Demuth,7354,54.82
 24,Freeborn,Governor & Lt Governor,,WI,WRITE-IN,17,0.13
@@ -2290,7 +2290,7 @@ county_code,county,office,district,party,candidate,votes,pct
 24,Freeborn,U.S. House,1,DFL,Jake Johnson,5995,44.75
 24,Freeborn,U.S. House,1,R,Brad Finstad,7384,55.12
 24,Freeborn,U.S. House,1,WI,WRITE-IN,18,0.13
-24,Freeborn,U.S. Senate,,DFL,Peggy Flanagan,5622,41.97
+24,Freeborn,U.S. Senate,,DFL,Peggy Flanagan,5623,41.98
 24,Freeborn,U.S. Senate,,IND,Marisa Simonetti,235,1.75
 24,Freeborn,U.S. Senate,,LIB,Rebecca Whiting,133,0.99
 24,Freeborn,U.S. Senate,,R,Michele Tafoya,7392,55.18
@@ -2467,28 +2467,28 @@ county_code,county,office,district,party,candidate,votes,pct
 26,Grant,State Senate,9,R,Jordan Rasmusson,2077,68.26
 26,Grant,State Senate,9,WI,WRITE-IN,2,0.07
 26,Grant,U.S. House,7,DFL,Erik Osberg,1192,39.02
-26,Grant,U.S. House,7,R,Michelle Fischbach,1859,60.85
-26,Grant,U.S. House,7,WI,WRITE-IN,4,0.13
+26,Grant,U.S. House,7,R,Michelle Fischbach,1860,60.88
+26,Grant,U.S. House,7,WI,WRITE-IN,3,0.10
 26,Grant,U.S. Senate,,DFL,Peggy Flanagan,1002,32.79
 26,Grant,U.S. Senate,,IND,Marisa Simonetti,54,1.77
 26,Grant,U.S. Senate,,LIB,Rebecca Whiting,46,1.51
 26,Grant,U.S. Senate,,R,Michele Tafoya,1953,63.91
 26,Grant,U.S. Senate,,WI,WRITE-IN,1,0.03
-27,Hennepin,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,328743,98.56
-27,Hennepin,Associate Justice - Supreme Court 1,,WI,WRITE-IN,4805,1.44
-27,Hennepin,Associate Justice - Supreme Court 4,,NP,Paul Thissen,323422,98.65
-27,Hennepin,Associate Justice - Supreme Court 4,,WI,WRITE-IN,4431,1.35
-27,Hennepin,Attorney General,,DFL,Keith Ellison,473210,72.12
-27,Hennepin,Attorney General,,R,Ronald J. Schutz,181697,27.69
-27,Hennepin,Attorney General,,WI,WRITE-IN,1198,0.18
-27,Hennepin,CONSTITUTIONAL AMENDMENT 1,,NP,NO,102530,16.11
-27,Hennepin,CONSTITUTIONAL AMENDMENT 1,,NP,YES,534067,83.89
-27,Hennepin,County Attorney,,NP,Anders Folk,249145,48.92
-27,Hennepin,County Attorney,,NP,Cedrick Frazier,257445,50.55
-27,Hennepin,County Attorney,,WI,WRITE-IN,2665,0.52
-27,Hennepin,County Commissioner District 2,02,NP,Irene Fernando,40112,61.84
-27,Hennepin,County Commissioner District 2,02,NP,Sharon El-Amin,24306,37.47
-27,Hennepin,County Commissioner District 2,02,WI,WRITE-IN,443,0.68
+27,Hennepin,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,329326,98.56
+27,Hennepin,Associate Justice - Supreme Court 1,,WI,WRITE-IN,4828,1.44
+27,Hennepin,Associate Justice - Supreme Court 4,,NP,Paul Thissen,323973,98.65
+27,Hennepin,Associate Justice - Supreme Court 4,,WI,WRITE-IN,4449,1.35
+27,Hennepin,Attorney General,,DFL,Keith Ellison,474105,72.15
+27,Hennepin,Attorney General,,R,Ronald J. Schutz,181801,27.67
+27,Hennepin,Attorney General,,WI,WRITE-IN,1206,0.18
+27,Hennepin,CONSTITUTIONAL AMENDMENT 1,,NP,NO,102614,16.09
+27,Hennepin,CONSTITUTIONAL AMENDMENT 1,,NP,YES,534950,83.91
+27,Hennepin,County Attorney,,NP,Anders Folk,249380,48.89
+27,Hennepin,County Attorney,,NP,Cedrick Frazier,258056,50.59
+27,Hennepin,County Attorney,,WI,WRITE-IN,2675,0.52
+27,Hennepin,County Commissioner District 2,02,NP,Irene Fernando,40431,61.51
+27,Hennepin,County Commissioner District 2,02,NP,Sharon El-Amin,24854,37.81
+27,Hennepin,County Commissioner District 2,02,WI,WRITE-IN,448,0.68
 27,Hennepin,County Commissioner District 3,03,NP,Abdihakim Arabow Ibrahim,21369,26.30
 27,Hennepin,County Commissioner District 3,03,NP,Marion Greene,59431,73.16
 27,Hennepin,County Commissioner District 3,03,WI,WRITE-IN,439,0.54
@@ -2503,74 +2503,74 @@ county_code,county,office,district,party,candidate,votes,pct
 27,Hennepin,County Park Commissioner District 5,5,NP,Dan Rasmussen,29582,51.61
 27,Hennepin,County Park Commissioner District 5,5,NP,John F Gibbs,27273,47.59
 27,Hennepin,County Park Commissioner District 5,5,WI,WRITE-IN,459,0.80
-27,Hennepin,County Sheriff,,NP,Dawanna Witt,341732,67.17
-27,Hennepin,County Sheriff,,NP,Joseph Banks,163921,32.22
-27,Hennepin,County Sheriff,,WI,WRITE-IN,3116,0.61
-27,Hennepin,Governor & Lt Governor,,DFL,Amy Klobuchar,487284,73.50
-27,Hennepin,Governor & Lt Governor,,GP,Steven Young,12819,1.93
-27,Hennepin,Governor & Lt Governor,,R,Lisa Demuth,162260,24.47
-27,Hennepin,Governor & Lt Governor,,WI,WRITE-IN,653,0.10
-27,Hennepin,Judge - 4th District Court 1,04,NP,William H. Koch,306245,98.69
-27,Hennepin,Judge - 4th District Court 1,04,WI,WRITE-IN,4074,1.31
-27,Hennepin,Judge - 4th District Court 14,04,NP,Dean Eyler,303458,98.74
-27,Hennepin,Judge - 4th District Court 14,04,WI,WRITE-IN,3880,1.26
-27,Hennepin,Judge - 4th District Court 16,04,NP,Jane Maschka,304497,98.75
-27,Hennepin,Judge - 4th District Court 16,04,WI,WRITE-IN,3846,1.25
-27,Hennepin,Judge - 4th District Court 19,04,NP,Gina M Brandt,304306,98.77
-27,Hennepin,Judge - 4th District Court 19,04,WI,WRITE-IN,3797,1.23
-27,Hennepin,Judge - 4th District Court 20,04,NP,Daniel C. Moreno,302917,98.78
-27,Hennepin,Judge - 4th District Court 20,04,WI,WRITE-IN,3756,1.22
-27,Hennepin,Judge - 4th District Court 25,04,NP,Michelle A. Hatcher,303935,98.78
-27,Hennepin,Judge - 4th District Court 25,04,WI,WRITE-IN,3740,1.22
-27,Hennepin,Judge - 4th District Court 27,04,NP,Matthew M. Wilcox,301143,98.76
-27,Hennepin,Judge - 4th District Court 27,04,WI,WRITE-IN,3777,1.24
-27,Hennepin,Judge - 4th District Court 28,04,NP,Dominick D. Mathews,300645,98.78
-27,Hennepin,Judge - 4th District Court 28,04,WI,WRITE-IN,3722,1.22
-27,Hennepin,Judge - 4th District Court 29,04,NP,Todd M. Fellman,300603,98.76
-27,Hennepin,Judge - 4th District Court 29,04,WI,WRITE-IN,3766,1.24
-27,Hennepin,Judge - 4th District Court 30,04,NP,Jennifer Olson,302643,98.82
-27,Hennepin,Judge - 4th District Court 30,04,WI,WRITE-IN,3618,1.18
-27,Hennepin,Judge - 4th District Court 32,04,NP,Mariam Mokri,301538,98.75
-27,Hennepin,Judge - 4th District Court 32,04,WI,WRITE-IN,3831,1.25
-27,Hennepin,Judge - 4th District Court 35,04,NP,Sarah S. West,301250,98.55
-27,Hennepin,Judge - 4th District Court 35,04,WI,WRITE-IN,4439,1.45
-27,Hennepin,Judge - 4th District Court 42,04,NP,Luis A. Bartolomei,299556,98.75
-27,Hennepin,Judge - 4th District Court 42,04,WI,WRITE-IN,3778,1.25
-27,Hennepin,Judge - 4th District Court 43,04,NP,Bridget Ann Sullivan,300966,98.79
-27,Hennepin,Judge - 4th District Court 43,04,WI,WRITE-IN,3695,1.21
-27,Hennepin,Judge - 4th District Court 47,04,NP,Kristen Marttila,300807,98.79
-27,Hennepin,Judge - 4th District Court 47,04,WI,WRITE-IN,3675,1.21
-27,Hennepin,Judge - 4th District Court 5,04,NP,Kerry W. Meyer,304912,98.76
-27,Hennepin,Judge - 4th District Court 5,04,WI,WRITE-IN,3829,1.24
-27,Hennepin,Judge - 4th District Court 54,04,NP,Emily J. Froehle,301060,98.80
-27,Hennepin,Judge - 4th District Court 54,04,WI,WRITE-IN,3655,1.20
-27,Hennepin,Judge - 4th District Court 56,04,NP,Carrie Ryan Gallia,300738,98.77
-27,Hennepin,Judge - 4th District Court 56,04,WI,WRITE-IN,3734,1.23
-27,Hennepin,Judge - 4th District Court 57,04,NP,Jeannice M. Reding,301053,98.77
-27,Hennepin,Judge - 4th District Court 57,04,WI,WRITE-IN,3737,1.23
-27,Hennepin,Judge - 4th District Court 61,04,NP,Andrew Tweeten,296500,98.76
-27,Hennepin,Judge - 4th District Court 61,04,WI,WRITE-IN,3733,1.24
-27,Hennepin,Judge - 4th District Court 63,04,NP,Angela Willms,299644,98.79
-27,Hennepin,Judge - 4th District Court 63,04,WI,WRITE-IN,3682,1.21
-27,Hennepin,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,316529,98.72
-27,Hennepin,Judge - Court of Appeals 1,,WI,WRITE-IN,4115,1.28
-27,Hennepin,Judge - Court of Appeals 13,,NP,Jeanne Cochran,310568,98.73
-27,Hennepin,Judge - Court of Appeals 13,,WI,WRITE-IN,3990,1.27
-27,Hennepin,Judge - Court of Appeals 15,,NP,Kevin G. Ross,308768,98.74
-27,Hennepin,Judge - Court of Appeals 15,,WI,WRITE-IN,3949,1.26
-27,Hennepin,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,306891,98.69
-27,Hennepin,Judge - Court of Appeals 18,,WI,WRITE-IN,4060,1.31
-27,Hennepin,Judge - Court of Appeals 7,,NP,Rachel Bond,312445,98.71
-27,Hennepin,Judge - Court of Appeals 7,,WI,WRITE-IN,4068,1.29
-27,Hennepin,Secretary of State,,DFL,Steve Simon,472636,72.26
-27,Hennepin,Secretary of State,,GP,Seth Kuhl-Stennes,10670,1.63
-27,Hennepin,Secretary of State,,LIB,"George ""Chip"" Tangen",10903,1.67
-27,Hennepin,Secretary of State,,R,Tad Jude,159565,24.39
-27,Hennepin,Secretary of State,,WI,WRITE-IN,327,0.05
-27,Hennepin,State Auditor,,DFL,Zack Filipovich,459285,70.82
-27,Hennepin,State Auditor,,FI,Jay Reeves,17280,2.66
-27,Hennepin,State Auditor,,R,Scott Jensen,171543,26.45
-27,Hennepin,State Auditor,,WI,WRITE-IN,431,0.07
+27,Hennepin,County Sheriff,,NP,Dawanna Witt,342367,67.18
+27,Hennepin,County Sheriff,,NP,Joseph Banks,164133,32.21
+27,Hennepin,County Sheriff,,WI,WRITE-IN,3124,0.61
+27,Hennepin,Governor & Lt Governor,,DFL,Amy Klobuchar,488171,73.51
+27,Hennepin,Governor & Lt Governor,,GP,Steven Young,12857,1.94
+27,Hennepin,Governor & Lt Governor,,R,Lisa Demuth,162360,24.45
+27,Hennepin,Governor & Lt Governor,,WI,WRITE-IN,662,0.10
+27,Hennepin,Judge - 4th District Court 1,04,NP,William H. Koch,306772,98.68
+27,Hennepin,Judge - 4th District Court 1,04,WI,WRITE-IN,4098,1.32
+27,Hennepin,Judge - 4th District Court 14,04,NP,Dean Eyler,303987,98.73
+27,Hennepin,Judge - 4th District Court 14,04,WI,WRITE-IN,3900,1.27
+27,Hennepin,Judge - 4th District Court 16,04,NP,Jane Maschka,305031,98.75
+27,Hennepin,Judge - 4th District Court 16,04,WI,WRITE-IN,3865,1.25
+27,Hennepin,Judge - 4th District Court 19,04,NP,Gina M Brandt,304831,98.76
+27,Hennepin,Judge - 4th District Court 19,04,WI,WRITE-IN,3818,1.24
+27,Hennepin,Judge - 4th District Court 20,04,NP,Daniel C. Moreno,303444,98.77
+27,Hennepin,Judge - 4th District Court 20,04,WI,WRITE-IN,3772,1.23
+27,Hennepin,Judge - 4th District Court 25,04,NP,Michelle A. Hatcher,304468,98.78
+27,Hennepin,Judge - 4th District Court 25,04,WI,WRITE-IN,3758,1.22
+27,Hennepin,Judge - 4th District Court 27,04,NP,Matthew M. Wilcox,301661,98.76
+27,Hennepin,Judge - 4th District Court 27,04,WI,WRITE-IN,3799,1.24
+27,Hennepin,Judge - 4th District Court 28,04,NP,Dominick D. Mathews,301174,98.77
+27,Hennepin,Judge - 4th District Court 28,04,WI,WRITE-IN,3742,1.23
+27,Hennepin,Judge - 4th District Court 29,04,NP,Todd M. Fellman,301117,98.76
+27,Hennepin,Judge - 4th District Court 29,04,WI,WRITE-IN,3792,1.24
+27,Hennepin,Judge - 4th District Court 30,04,NP,Jennifer Olson,303167,98.81
+27,Hennepin,Judge - 4th District Court 30,04,WI,WRITE-IN,3638,1.19
+27,Hennepin,Judge - 4th District Court 32,04,NP,Mariam Mokri,302055,98.74
+27,Hennepin,Judge - 4th District Court 32,04,WI,WRITE-IN,3854,1.26
+27,Hennepin,Judge - 4th District Court 35,04,NP,Sarah S. West,301771,98.54
+27,Hennepin,Judge - 4th District Court 35,04,WI,WRITE-IN,4461,1.46
+27,Hennepin,Judge - 4th District Court 42,04,NP,Luis A. Bartolomei,300074,98.75
+27,Hennepin,Judge - 4th District Court 42,04,WI,WRITE-IN,3797,1.25
+27,Hennepin,Judge - 4th District Court 43,04,NP,Bridget Ann Sullivan,301486,98.78
+27,Hennepin,Judge - 4th District Court 43,04,WI,WRITE-IN,3714,1.22
+27,Hennepin,Judge - 4th District Court 47,04,NP,Kristen Marttila,301326,98.79
+27,Hennepin,Judge - 4th District Court 47,04,WI,WRITE-IN,3695,1.21
+27,Hennepin,Judge - 4th District Court 5,04,NP,Kerry W. Meyer,305445,98.75
+27,Hennepin,Judge - 4th District Court 5,04,WI,WRITE-IN,3852,1.25
+27,Hennepin,Judge - 4th District Court 54,04,NP,Emily J. Froehle,301580,98.80
+27,Hennepin,Judge - 4th District Court 54,04,WI,WRITE-IN,3669,1.20
+27,Hennepin,Judge - 4th District Court 56,04,NP,Carrie Ryan Gallia,301268,98.77
+27,Hennepin,Judge - 4th District Court 56,04,WI,WRITE-IN,3750,1.23
+27,Hennepin,Judge - 4th District Court 57,04,NP,Jeannice M. Reding,301581,98.77
+27,Hennepin,Judge - 4th District Court 57,04,WI,WRITE-IN,3755,1.23
+27,Hennepin,Judge - 4th District Court 61,04,NP,Andrew Tweeten,297003,98.75
+27,Hennepin,Judge - 4th District Court 61,04,WI,WRITE-IN,3755,1.25
+27,Hennepin,Judge - 4th District Court 63,04,NP,Angela Willms,300168,98.78
+27,Hennepin,Judge - 4th District Court 63,04,WI,WRITE-IN,3698,1.22
+27,Hennepin,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,317085,98.71
+27,Hennepin,Judge - Court of Appeals 1,,WI,WRITE-IN,4135,1.29
+27,Hennepin,Judge - Court of Appeals 13,,NP,Jeanne Cochran,311113,98.73
+27,Hennepin,Judge - Court of Appeals 13,,WI,WRITE-IN,4009,1.27
+27,Hennepin,Judge - Court of Appeals 15,,NP,Kevin G. Ross,309316,98.73
+27,Hennepin,Judge - Court of Appeals 15,,WI,WRITE-IN,3972,1.27
+27,Hennepin,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,307441,98.69
+27,Hennepin,Judge - Court of Appeals 18,,WI,WRITE-IN,4081,1.31
+27,Hennepin,Judge - Court of Appeals 7,,NP,Rachel Bond,312996,98.71
+27,Hennepin,Judge - Court of Appeals 7,,WI,WRITE-IN,4090,1.29
+27,Hennepin,Secretary of State,,DFL,Steve Simon,473490,72.28
+27,Hennepin,Secretary of State,,GP,Seth Kuhl-Stennes,10694,1.63
+27,Hennepin,Secretary of State,,LIB,"George ""Chip"" Tangen",10923,1.67
+27,Hennepin,Secretary of State,,R,Tad Jude,159651,24.37
+27,Hennepin,Secretary of State,,WI,WRITE-IN,330,0.05
+27,Hennepin,State Auditor,,DFL,Zack Filipovich,460133,70.84
+27,Hennepin,State Auditor,,FI,Jay Reeves,17313,2.67
+27,Hennepin,State Auditor,,R,Scott Jensen,171644,26.43
+27,Hennepin,State Auditor,,WI,WRITE-IN,434,0.07
 27,Hennepin,State House,29A,DFL,Emily Dahlgren,77,50.99
 27,Hennepin,State House,29A,R,Joe McDonald,74,49.01
 27,Hennepin,State House,29A,WI,WRITE-IN,0,0.00
@@ -2639,9 +2639,9 @@ county_code,county,office,district,party,candidate,votes,pct
 27,Hennepin,State House,51B,WI,WRITE-IN,26,0.13
 27,Hennepin,State House,59A,DFL,Fue Lee,11487,97.96
 27,Hennepin,State House,59A,WI,WRITE-IN,239,2.04
-27,Hennepin,State House,59B,DFL,Esther Agbaje,16831,87.14
-27,Hennepin,State House,59B,R,Kenneth Smoron,2446,12.66
-27,Hennepin,State House,59B,WI,WRITE-IN,37,0.19
+27,Hennepin,State House,59B,DFL,Esther Agbaje,17701,87.25
+27,Hennepin,State House,59B,R,Kenneth Smoron,2545,12.54
+27,Hennepin,State House,59B,WI,WRITE-IN,41,0.20
 27,Hennepin,State House,60A,DFL,Sydney Jordan,20646,89.21
 27,Hennepin,State House,60A,R,John Holmberg,2465,10.65
 27,Hennepin,State House,60A,WI,WRITE-IN,32,0.14
@@ -2702,8 +2702,8 @@ county_code,county,office,district,party,candidate,votes,pct
 27,Hennepin,State Senate,51,DFL,Simon Trautmann Cordova,29588,74.19
 27,Hennepin,State Senate,51,R,Juline Birgersson,10220,25.62
 27,Hennepin,State Senate,51,WI,WRITE-IN,75,0.19
-27,Hennepin,State Senate,59,DFL,Bobby Joe Champion,28994,98.36
-27,Hennepin,State Senate,59,WI,WRITE-IN,484,1.64
+27,Hennepin,State Senate,59,DFL,Bobby Joe Champion,29885,98.33
+27,Hennepin,State Senate,59,WI,WRITE-IN,509,1.67
 27,Hennepin,State Senate,60,DFL,Doron Clark,33261,90.24
 27,Hennepin,State Senate,60,R,Abigail Wolters,3550,9.63
 27,Hennepin,State Senate,60,WI,WRITE-IN,49,0.13
@@ -2714,21 +2714,21 @@ county_code,county,office,district,party,candidate,votes,pct
 27,Hennepin,State Senate,63,DFL,Zaynab Mohamed,44769,87.92
 27,Hennepin,State Senate,63,R,Diane Napper,6023,11.83
 27,Hennepin,State Senate,63,WI,WRITE-IN,126,0.25
-27,Hennepin,U.S. House,3,DFL,Kelly Morrison,219886,64.67
-27,Hennepin,U.S. House,3,R,Tyler Bass,119749,35.22
-27,Hennepin,U.S. House,3,WI,WRITE-IN,372,0.11
-27,Hennepin,U.S. House,5,DFL,Ilhan Omar,246017,77.57
-27,Hennepin,U.S. House,5,IND,DeVelle L. Jackson,21821,6.88
-27,Hennepin,U.S. House,5,R,John Nagel,48429,15.27
-27,Hennepin,U.S. House,5,WI,WRITE-IN,885,0.28
+27,Hennepin,U.S. House,3,DFL,Kelly Morrison,219894,64.67
+27,Hennepin,U.S. House,3,R,Tyler Bass,119756,35.22
+27,Hennepin,U.S. House,3,WI,WRITE-IN,371,0.11
+27,Hennepin,U.S. House,5,DFL,Ilhan Omar,246813,77.57
+27,Hennepin,U.S. House,5,IND,DeVelle L. Jackson,21947,6.90
+27,Hennepin,U.S. House,5,R,John Nagel,48516,15.25
+27,Hennepin,U.S. House,5,WI,WRITE-IN,889,0.28
 27,Hennepin,U.S. House,6,DFL,Doug Chapin,219,40.26
 27,Hennepin,U.S. House,6,R,Tom Emmer,325,59.74
 27,Hennepin,U.S. House,6,WI,WRITE-IN,0,0.00
-27,Hennepin,U.S. Senate,,DFL,Peggy Flanagan,477416,71.87
-27,Hennepin,U.S. Senate,,IND,Marisa Simonetti,7494,1.13
-27,Hennepin,U.S. Senate,,LIB,Rebecca Whiting,5930,0.89
-27,Hennepin,U.S. Senate,,R,Michele Tafoya,172527,25.97
-27,Hennepin,U.S. Senate,,WI,WRITE-IN,870,0.13
+27,Hennepin,U.S. Senate,,DFL,Peggy Flanagan,478312,71.90
+27,Hennepin,U.S. Senate,,IND,Marisa Simonetti,7513,1.13
+27,Hennepin,U.S. Senate,,LIB,Rebecca Whiting,5951,0.89
+27,Hennepin,U.S. Senate,,R,Michele Tafoya,172620,25.95
+27,Hennepin,U.S. Senate,,WI,WRITE-IN,874,0.13
 28,Houston,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,6468,99.32
 28,Houston,Associate Justice - Supreme Court 1,,WI,WRITE-IN,44,0.68
 28,Houston,Associate Justice - Supreme Court 4,,NP,Paul Thissen,6384,99.38
@@ -2753,7 +2753,7 @@ county_code,county,office,district,party,candidate,votes,pct
 28,Houston,County Sheriff,,WI,WRITE-IN,99,1.30
 28,Houston,Governor & Lt Governor,,DFL,Amy Klobuchar,4059,43.79
 28,Houston,Governor & Lt Governor,,GP,Steven Young,153,1.65
-28,Houston,Governor & Lt Governor,,R,Lisa Demuth,5052,54.50
+28,Houston,Governor & Lt Governor,,R,Lisa Demuth,5053,54.51
 28,Houston,Governor & Lt Governor,,WI,WRITE-IN,5,0.05
 28,Houston,Judge - 3rd District Court 15,03,NP,Erin Lindhart Felten,6270,99.37
 28,Houston,Judge - 3rd District Court 15,03,WI,WRITE-IN,40,0.63
@@ -2796,13 +2796,13 @@ county_code,county,office,district,party,candidate,votes,pct
 28,Houston,State Senate,26,DFL,Jack Hedin,4194,45.31
 28,Houston,State Senate,26,R,Cherie Johnson,5059,54.66
 28,Houston,State Senate,26,WI,WRITE-IN,3,0.03
-28,Houston,U.S. House,1,DFL,Jake Johnson,4315,46.51
-28,Houston,U.S. House,1,R,Brad Finstad,4957,53.43
+28,Houston,U.S. House,1,DFL,Jake Johnson,4316,46.51
+28,Houston,U.S. House,1,R,Brad Finstad,4957,53.42
 28,Houston,U.S. House,1,WI,WRITE-IN,6,0.06
-28,Houston,U.S. Senate,,DFL,Peggy Flanagan,4012,43.21
+28,Houston,U.S. Senate,,DFL,Peggy Flanagan,4013,43.22
 28,Houston,U.S. Senate,,IND,Marisa Simonetti,166,1.79
 28,Houston,U.S. Senate,,LIB,Rebecca Whiting,121,1.30
-28,Houston,U.S. Senate,,R,Michele Tafoya,4981,53.65
+28,Houston,U.S. Senate,,R,Michele Tafoya,4981,53.64
 28,Houston,U.S. Senate,,WI,WRITE-IN,5,0.05
 29,Hubbard,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,7572,99.20
 29,Hubbard,Associate Justice - Supreme Court 1,,WI,WRITE-IN,61,0.80
@@ -2826,7 +2826,7 @@ county_code,county,office,district,party,candidate,votes,pct
 29,Hubbard,County Sheriff,,NP,Anthony (Tony) Petrie,6222,55.20
 29,Hubbard,County Sheriff,,NP,Jimmy Hansen,4972,44.11
 29,Hubbard,County Sheriff,,WI,WRITE-IN,77,0.68
-29,Hubbard,Governor & Lt Governor,,DFL,Amy Klobuchar,4259,36.13
+29,Hubbard,Governor & Lt Governor,,DFL,Amy Klobuchar,4260,36.14
 29,Hubbard,Governor & Lt Governor,,GP,Steven Young,214,1.82
 29,Hubbard,Governor & Lt Governor,,R,Lisa Demuth,7303,61.95
 29,Hubbard,Governor & Lt Governor,,WI,WRITE-IN,12,0.10
@@ -2894,7 +2894,7 @@ county_code,county,office,district,party,candidate,votes,pct
 29,Hubbard,State Senate,5,R,Mike Wiener,5579,62.59
 29,Hubbard,State Senate,5,WI,WRITE-IN,43,0.48
 29,Hubbard,U.S. House,7,DFL,Erik Osberg,2401,37.40
-29,Hubbard,U.S. House,7,R,Michelle Fischbach,4016,62.56
+29,Hubbard,U.S. House,7,R,Michelle Fischbach,4017,62.57
 29,Hubbard,U.S. House,7,WI,WRITE-IN,2,0.03
 29,Hubbard,U.S. House,8,DFL,Trina Swanson,1941,36.38
 29,Hubbard,U.S. House,8,R,Pete Stauber,3390,63.53
@@ -2902,7 +2902,7 @@ county_code,county,office,district,party,candidate,votes,pct
 29,Hubbard,U.S. Senate,,DFL,Peggy Flanagan,4045,34.31
 29,Hubbard,U.S. Senate,,IND,Marisa Simonetti,181,1.54
 29,Hubbard,U.S. Senate,,LIB,Rebecca Whiting,225,1.91
-29,Hubbard,U.S. Senate,,R,Michele Tafoya,7329,62.17
+29,Hubbard,U.S. Senate,,R,Michele Tafoya,7330,62.17
 29,Hubbard,U.S. Senate,,WI,WRITE-IN,9,0.08
 30,Isanti,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,11734,98.64
 30,Isanti,Associate Justice - Supreme Court 1,,WI,WRITE-IN,162,1.36
@@ -2924,9 +2924,9 @@ county_code,county,office,district,party,candidate,votes,pct
 30,Isanti,County Commissioner District 5,05,WI,WRITE-IN,16,0.42
 30,Isanti,County Sheriff,,NP,Wayne Seiberlich,15226,98.69
 30,Isanti,County Sheriff,,WI,WRITE-IN,202,1.31
-30,Isanti,Governor & Lt Governor,,DFL,Amy Klobuchar,6699,32.14
+30,Isanti,Governor & Lt Governor,,DFL,Amy Klobuchar,6700,32.15
 30,Isanti,Governor & Lt Governor,,GP,Steven Young,390,1.87
-30,Isanti,Governor & Lt Governor,,R,Lisa Demuth,13731,65.89
+30,Isanti,Governor & Lt Governor,,R,Lisa Demuth,13732,65.89
 30,Isanti,Governor & Lt Governor,,WI,WRITE-IN,20,0.10
 30,Isanti,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,11270,98.73
 30,Isanti,Judge - 10th District Court 1,10,WI,WRITE-IN,145,1.27
@@ -3053,10 +3053,10 @@ county_code,county,office,district,party,candidate,votes,pct
 31,Itasca,County Recorder,,WI,WRITE-IN,121,0.72
 31,Itasca,County Sheriff,,NP,Joe Dasovich,16949,98.13
 31,Itasca,County Sheriff,,WI,WRITE-IN,323,1.87
-31,Itasca,Governor & Lt Governor,,DFL,Amy Klobuchar,9342,42.58
+31,Itasca,Governor & Lt Governor,,DFL,Amy Klobuchar,9344,42.59
 31,Itasca,Governor & Lt Governor,,GP,Steven Young,324,1.48
 31,Itasca,Governor & Lt Governor,,R,Lisa Demuth,12251,55.84
-31,Itasca,Governor & Lt Governor,,WI,WRITE-IN,21,0.10
+31,Itasca,Governor & Lt Governor,,WI,WRITE-IN,22,0.10
 31,Itasca,Judge - 9th District Court 1,09,NP,Matti Adam,14660,98.44
 31,Itasca,Judge - 9th District Court 1,09,WI,WRITE-IN,232,1.56
 31,Itasca,Judge - 9th District Court 12,09,NP,Sarah L. McBroom,14606,98.85
@@ -3133,14 +3133,14 @@ county_code,county,office,district,party,candidate,votes,pct
 31,Itasca,State Senate,7,DFL,Kim (Kotonias) McLaughlin,3734,41.99
 31,Itasca,State Senate,7,R,Robert Farnsworth,5157,58.00
 31,Itasca,State Senate,7,WI,WRITE-IN,1,0.01
-31,Itasca,U.S. House,8,DFL,Trina Swanson,9496,43.35
-31,Itasca,U.S. House,8,R,Pete Stauber,12385,56.54
-31,Itasca,U.S. House,8,WI,WRITE-IN,25,0.11
-31,Itasca,U.S. Senate,,DFL,Peggy Flanagan,8940,40.79
+31,Itasca,U.S. House,8,DFL,Trina Swanson,9497,43.35
+31,Itasca,U.S. House,8,R,Pete Stauber,12386,56.53
+31,Itasca,U.S. House,8,WI,WRITE-IN,26,0.12
+31,Itasca,U.S. Senate,,DFL,Peggy Flanagan,8940,40.78
 31,Itasca,U.S. Senate,,IND,Marisa Simonetti,409,1.87
 31,Itasca,U.S. Senate,,LIB,Rebecca Whiting,310,1.41
-31,Itasca,U.S. Senate,,R,Michele Tafoya,12232,55.81
-31,Itasca,U.S. Senate,,WI,WRITE-IN,28,0.13
+31,Itasca,U.S. Senate,,R,Michele Tafoya,12233,55.80
+31,Itasca,U.S. Senate,,WI,WRITE-IN,29,0.13
 32,Jackson,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,3749,99.31
 32,Jackson,Associate Justice - Supreme Court 1,,WI,WRITE-IN,26,0.69
 32,Jackson,Associate Justice - Supreme Court 4,,NP,Paul Thissen,3740,99.31
@@ -3210,8 +3210,8 @@ county_code,county,office,district,party,candidate,votes,pct
 32,Jackson,State Senate,21,DFL,Caitlyn Sanow-Minett,1445,30.00
 32,Jackson,State Senate,21,R,Chris Knoll,3370,69.96
 32,Jackson,State Senate,21,WI,WRITE-IN,2,0.04
-32,Jackson,U.S. House,1,DFL,Jake Johnson,1566,32.17
-32,Jackson,U.S. House,1,R,Brad Finstad,3297,67.73
+32,Jackson,U.S. House,1,DFL,Jake Johnson,1566,32.16
+32,Jackson,U.S. House,1,R,Brad Finstad,3298,67.73
 32,Jackson,U.S. House,1,WI,WRITE-IN,5,0.10
 32,Jackson,U.S. Senate,,DFL,Peggy Flanagan,1352,27.80
 32,Jackson,U.S. Senate,,IND,Marisa Simonetti,121,2.49
@@ -3240,7 +3240,7 @@ county_code,county,office,district,party,candidate,votes,pct
 33,Kanabec,County Sheriff,,WI,WRITE-IN,62,1.05
 33,Kanabec,Governor & Lt Governor,,DFL,Amy Klobuchar,2407,31.75
 33,Kanabec,Governor & Lt Governor,,GP,Steven Young,128,1.69
-33,Kanabec,Governor & Lt Governor,,R,Lisa Demuth,5034,66.41
+33,Kanabec,Governor & Lt Governor,,R,Lisa Demuth,5035,66.42
 33,Kanabec,Governor & Lt Governor,,WI,WRITE-IN,11,0.15
 33,Kanabec,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,3909,99.19
 33,Kanabec,Judge - 10th District Court 1,10,WI,WRITE-IN,32,0.81
@@ -3328,8 +3328,8 @@ county_code,county,office,district,party,candidate,votes,pct
 33,Kanabec,U.S. House,8,DFL,Trina Swanson,2485,32.77
 33,Kanabec,U.S. House,8,R,Pete Stauber,5090,67.13
 33,Kanabec,U.S. House,8,WI,WRITE-IN,7,0.09
-33,Kanabec,U.S. Senate,,DFL,Peggy Flanagan,2295,30.23
-33,Kanabec,U.S. Senate,,IND,Marisa Simonetti,134,1.77
+33,Kanabec,U.S. Senate,,DFL,Peggy Flanagan,2296,30.24
+33,Kanabec,U.S. Senate,,IND,Marisa Simonetti,134,1.76
 33,Kanabec,U.S. Senate,,LIB,Rebecca Whiting,106,1.40
 33,Kanabec,U.S. Senate,,R,Michele Tafoya,5049,66.50
 33,Kanabec,U.S. Senate,,WI,WRITE-IN,8,0.11
@@ -3352,9 +3352,9 @@ county_code,county,office,district,party,candidate,votes,pct
 34,Kandiyohi,County Commissioner District 5,05,WI,WRITE-IN,27,0.73
 34,Kandiyohi,County Sheriff,,NP,Eric Tollefson,16947,99.17
 34,Kandiyohi,County Sheriff,,WI,WRITE-IN,141,0.83
-34,Kandiyohi,Governor & Lt Governor,,DFL,Amy Klobuchar,7288,37.31
-34,Kandiyohi,Governor & Lt Governor,,GP,Steven Young,228,1.17
-34,Kandiyohi,Governor & Lt Governor,,R,Lisa Demuth,12012,61.50
+34,Kandiyohi,Governor & Lt Governor,,DFL,Amy Klobuchar,7292,37.31
+34,Kandiyohi,Governor & Lt Governor,,GP,Steven Young,229,1.17
+34,Kandiyohi,Governor & Lt Governor,,R,Lisa Demuth,12016,61.49
 34,Kandiyohi,Governor & Lt Governor,,WI,WRITE-IN,5,0.03
 34,Kandiyohi,Judge - 8th District Court 10,08,NP,Benjamin Charles Pieh,14494,99.41
 34,Kandiyohi,Judge - 8th District Court 10,08,WI,WRITE-IN,86,0.59
@@ -3398,13 +3398,13 @@ county_code,county,office,district,party,candidate,votes,pct
 34,Kandiyohi,State Senate,16,DFL,Kathy Jorgenson,6762,34.79
 34,Kandiyohi,State Senate,16,R,Andrew R. Lang,12671,65.18
 34,Kandiyohi,State Senate,16,WI,WRITE-IN,6,0.03
-34,Kandiyohi,U.S. House,7,DFL,Erik Osberg,7615,39.08
-34,Kandiyohi,U.S. House,7,R,Michelle Fischbach,11860,60.86
+34,Kandiyohi,U.S. House,7,DFL,Erik Osberg,7618,39.08
+34,Kandiyohi,U.S. House,7,R,Michelle Fischbach,11862,60.86
 34,Kandiyohi,U.S. House,7,WI,WRITE-IN,11,0.06
-34,Kandiyohi,U.S. Senate,,DFL,Peggy Flanagan,6879,35.24
+34,Kandiyohi,U.S. Senate,,DFL,Peggy Flanagan,6881,35.24
 34,Kandiyohi,U.S. Senate,,IND,Marisa Simonetti,278,1.42
-34,Kandiyohi,U.S. Senate,,LIB,Rebecca Whiting,208,1.07
-34,Kandiyohi,U.S. Senate,,R,Michele Tafoya,12130,62.14
+34,Kandiyohi,U.S. Senate,,LIB,Rebecca Whiting,209,1.07
+34,Kandiyohi,U.S. Senate,,R,Michele Tafoya,12134,62.14
 34,Kandiyohi,U.S. Senate,,WI,WRITE-IN,26,0.13
 35,Kittson,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,1471,99.73
 35,Kittson,Associate Justice - Supreme Court 1,,WI,WRITE-IN,4,0.27
@@ -3644,8 +3644,8 @@ county_code,county,office,district,party,candidate,votes,pct
 37,Lac Qui Parle,State Senate,15,DFL,Andrea Boettger,1181,35.10
 37,Lac Qui Parle,State Senate,15,R,Braxton John Seifert,2181,64.81
 37,Lac Qui Parle,State Senate,15,WI,WRITE-IN,3,0.09
-37,Lac Qui Parle,U.S. House,7,DFL,Erik Osberg,1252,37.02
-37,Lac Qui Parle,U.S. House,7,R,Michelle Fischbach,2127,62.89
+37,Lac Qui Parle,U.S. House,7,DFL,Erik Osberg,1252,37.01
+37,Lac Qui Parle,U.S. House,7,R,Michelle Fischbach,2128,62.90
 37,Lac Qui Parle,U.S. House,7,WI,WRITE-IN,3,0.09
 37,Lac Qui Parle,U.S. Senate,,DFL,Peggy Flanagan,1139,33.58
 37,Lac Qui Parle,U.S. Senate,,IND,Marisa Simonetti,80,2.36
@@ -3744,9 +3744,9 @@ county_code,county,office,district,party,candidate,votes,pct
 39,Lake Of The Woods,County Recorder,,WI,WRITE-IN,9,0.59
 39,Lake Of The Woods,County Sheriff,,NP,Gary Fish,1537,96.48
 39,Lake Of The Woods,County Sheriff,,WI,WRITE-IN,56,3.52
-39,Lake Of The Woods,Governor & Lt Governor,,DFL,Amy Klobuchar,517,27.84
+39,Lake Of The Woods,Governor & Lt Governor,,DFL,Amy Klobuchar,518,27.88
 39,Lake Of The Woods,Governor & Lt Governor,,GP,Steven Young,28,1.51
-39,Lake Of The Woods,Governor & Lt Governor,,R,Lisa Demuth,1311,70.60
+39,Lake Of The Woods,Governor & Lt Governor,,R,Lisa Demuth,1311,70.56
 39,Lake Of The Woods,Governor & Lt Governor,,WI,WRITE-IN,1,0.05
 39,Lake Of The Woods,Judge - 9th District Court 1,09,NP,Matti Adam,1129,98.95
 39,Lake Of The Woods,Judge - 9th District Court 1,09,WI,WRITE-IN,12,1.05
@@ -3803,13 +3803,13 @@ county_code,county,office,district,party,candidate,votes,pct
 39,Lake Of The Woods,State Senate,2,R,Steve Green,1316,71.02
 39,Lake Of The Woods,State Senate,2,UNI,Calvin Larson Jr,27,1.46
 39,Lake Of The Woods,State Senate,2,WI,WRITE-IN,1,0.05
-39,Lake Of The Woods,U.S. House,8,DFL,Trina Swanson,528,28.42
-39,Lake Of The Woods,U.S. House,8,R,Pete Stauber,1329,71.53
+39,Lake Of The Woods,U.S. House,8,DFL,Trina Swanson,529,28.46
+39,Lake Of The Woods,U.S. House,8,R,Pete Stauber,1329,71.49
 39,Lake Of The Woods,U.S. House,8,WI,WRITE-IN,1,0.05
-39,Lake Of The Woods,U.S. Senate,,DFL,Peggy Flanagan,487,26.15
+39,Lake Of The Woods,U.S. Senate,,DFL,Peggy Flanagan,488,26.19
 39,Lake Of The Woods,U.S. Senate,,IND,Marisa Simonetti,28,1.50
 39,Lake Of The Woods,U.S. Senate,,LIB,Rebecca Whiting,28,1.50
-39,Lake Of The Woods,U.S. Senate,,R,Michele Tafoya,1317,70.73
+39,Lake Of The Woods,U.S. Senate,,R,Michele Tafoya,1317,70.69
 39,Lake Of The Woods,U.S. Senate,,WI,WRITE-IN,2,0.11
 40,Le Sueur,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,10130,99.17
 40,Le Sueur,Associate Justice - Supreme Court 1,,WI,WRITE-IN,85,0.83
@@ -3908,7 +3908,7 @@ county_code,county,office,district,party,candidate,votes,pct
 40,Le Sueur,U.S. Senate,,DFL,Peggy Flanagan,4572,31.83
 40,Le Sueur,U.S. Senate,,IND,Marisa Simonetti,289,2.01
 40,Le Sueur,U.S. Senate,,LIB,Rebecca Whiting,191,1.33
-40,Le Sueur,U.S. Senate,,R,Michele Tafoya,9285,64.64
+40,Le Sueur,U.S. Senate,,R,Michele Tafoya,9286,64.64
 40,Le Sueur,U.S. Senate,,WI,WRITE-IN,27,0.19
 41,Lincoln,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,2034,99.27
 41,Lincoln,Associate Justice - Supreme Court 1,,WI,WRITE-IN,15,0.73
@@ -3981,13 +3981,13 @@ county_code,county,office,district,party,candidate,votes,pct
 41,Lincoln,State Senate,21,DFL,Caitlyn Sanow-Minett,826,32.78
 41,Lincoln,State Senate,21,R,Chris Knoll,1691,67.10
 41,Lincoln,State Senate,21,WI,WRITE-IN,3,0.12
-41,Lincoln,U.S. House,7,DFL,Erik Osberg,873,34.40
-41,Lincoln,U.S. House,7,R,Michelle Fischbach,1664,65.56
+41,Lincoln,U.S. House,7,DFL,Erik Osberg,874,34.42
+41,Lincoln,U.S. House,7,R,Michelle Fischbach,1664,65.54
 41,Lincoln,U.S. House,7,WI,WRITE-IN,1,0.04
-41,Lincoln,U.S. Senate,,DFL,Peggy Flanagan,795,31.36
-41,Lincoln,U.S. Senate,,IND,Marisa Simonetti,56,2.21
+41,Lincoln,U.S. Senate,,DFL,Peggy Flanagan,795,31.35
+41,Lincoln,U.S. Senate,,IND,Marisa Simonetti,57,2.25
 41,Lincoln,U.S. Senate,,LIB,Rebecca Whiting,41,1.62
-41,Lincoln,U.S. Senate,,R,Michele Tafoya,1638,64.62
+41,Lincoln,U.S. Senate,,R,Michele Tafoya,1638,64.59
 41,Lincoln,U.S. Senate,,WI,WRITE-IN,5,0.20
 42,Lyon,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,8230,99.34
 42,Lyon,Associate Justice - Supreme Court 1,,WI,WRITE-IN,55,0.66
@@ -4006,9 +4006,9 @@ county_code,county,office,district,party,candidate,votes,pct
 42,Lyon,County Commissioner District 3,03,WI,WRITE-IN,14,0.85
 42,Lyon,County Sheriff,,NP,Eric Wallen,9175,99.08
 42,Lyon,County Sheriff,,WI,WRITE-IN,85,0.92
-42,Lyon,Governor & Lt Governor,,DFL,Amy Klobuchar,3815,36.63
+42,Lyon,Governor & Lt Governor,,DFL,Amy Klobuchar,3816,36.64
 42,Lyon,Governor & Lt Governor,,GP,Steven Young,161,1.55
-42,Lyon,Governor & Lt Governor,,R,Lisa Demuth,6428,61.72
+42,Lyon,Governor & Lt Governor,,R,Lisa Demuth,6428,61.71
 42,Lyon,Governor & Lt Governor,,WI,WRITE-IN,11,0.11
 42,Lyon,Judge - 5th District Court 11,05,NP,Stephen J. Ferrazzano II,8027,99.43
 42,Lyon,Judge - 5th District Court 11,05,WI,WRITE-IN,46,0.57
@@ -4057,8 +4057,8 @@ county_code,county,office,district,party,candidate,votes,pct
 42,Lyon,U.S. House,7,DFL,Erik Osberg,3939,37.81
 42,Lyon,U.S. House,7,R,Michelle Fischbach,6461,62.02
 42,Lyon,U.S. House,7,WI,WRITE-IN,17,0.16
-42,Lyon,U.S. Senate,,DFL,Peggy Flanagan,3667,35.17
-42,Lyon,U.S. Senate,,IND,Marisa Simonetti,195,1.87
+42,Lyon,U.S. Senate,,DFL,Peggy Flanagan,3667,35.16
+42,Lyon,U.S. Senate,,IND,Marisa Simonetti,196,1.88
 42,Lyon,U.S. Senate,,LIB,Rebecca Whiting,114,1.09
 42,Lyon,U.S. Senate,,R,Michele Tafoya,6438,61.74
 42,Lyon,U.S. Senate,,WI,WRITE-IN,13,0.12
@@ -4148,7 +4148,7 @@ county_code,county,office,district,party,candidate,votes,pct
 43,Mcleod,U.S. House,7,WI,WRITE-IN,17,0.10
 43,Mcleod,U.S. Senate,,DFL,Peggy Flanagan,5357,31.02
 43,Mcleod,U.S. Senate,,IND,Marisa Simonetti,335,1.94
-43,Mcleod,U.S. Senate,,LIB,Rebecca Whiting,209,1.21
+43,Mcleod,U.S. Senate,,LIB,Rebecca Whiting,210,1.22
 43,Mcleod,U.S. Senate,,R,Michele Tafoya,11332,65.61
 43,Mcleod,U.S. Senate,,WI,WRITE-IN,38,0.22
 44,Mahnomen,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,1275,99.22
@@ -4231,8 +4231,8 @@ county_code,county,office,district,party,candidate,votes,pct
 44,Mahnomen,State Senate,2,R,Steve Green,1044,53.62
 44,Mahnomen,State Senate,2,UNI,Calvin Larson Jr,31,1.59
 44,Mahnomen,State Senate,2,WI,WRITE-IN,1,0.05
-44,Mahnomen,U.S. House,8,DFL,Trina Swanson,939,48.23
-44,Mahnomen,U.S. House,8,R,Pete Stauber,1006,51.67
+44,Mahnomen,U.S. House,8,DFL,Trina Swanson,939,48.20
+44,Mahnomen,U.S. House,8,R,Pete Stauber,1007,51.69
 44,Mahnomen,U.S. House,8,WI,WRITE-IN,2,0.10
 44,Mahnomen,U.S. Senate,,DFL,Peggy Flanagan,895,45.55
 44,Mahnomen,U.S. Senate,,IND,Marisa Simonetti,42,2.14
@@ -4408,8 +4408,8 @@ county_code,county,office,district,party,candidate,votes,pct
 46,Martin,State Senate,22,DFL,Marisa Ulmen,2445,31.54
 46,Martin,State Senate,22,R,Jeremy Munson,5301,68.37
 46,Martin,State Senate,22,WI,WRITE-IN,7,0.09
-46,Martin,U.S. House,1,DFL,Jake Johnson,2863,33.11
-46,Martin,U.S. House,1,R,Brad Finstad,5770,66.72
+46,Martin,U.S. House,1,DFL,Jake Johnson,2863,33.10
+46,Martin,U.S. House,1,R,Brad Finstad,5771,66.72
 46,Martin,U.S. House,1,WI,WRITE-IN,15,0.17
 46,Martin,U.S. Senate,,DFL,Peggy Flanagan,2476,28.61
 46,Martin,U.S. Senate,,IND,Marisa Simonetti,187,2.16
@@ -4435,7 +4435,7 @@ county_code,county,office,district,party,candidate,votes,pct
 47,Meeker,County Sheriff,,WI,WRITE-IN,147,1.48
 47,Meeker,Governor & Lt Governor,,DFL,Amy Klobuchar,3363,29.55
 47,Meeker,Governor & Lt Governor,,GP,Steven Young,178,1.56
-47,Meeker,Governor & Lt Governor,,R,Lisa Demuth,7826,68.76
+47,Meeker,Governor & Lt Governor,,R,Lisa Demuth,7825,68.75
 47,Meeker,Governor & Lt Governor,,WI,WRITE-IN,15,0.13
 47,Meeker,Judge - 8th District Court 10,08,NP,Benjamin Charles Pieh,8346,99.33
 47,Meeker,Judge - 8th District Court 10,08,WI,WRITE-IN,56,0.67
@@ -4489,12 +4489,12 @@ county_code,county,office,district,party,candidate,votes,pct
 47,Meeker,State Senate,29,R,Michael Holmstrom Jr,624,78.69
 47,Meeker,State Senate,29,WI,WRITE-IN,0,0.00
 47,Meeker,U.S. House,7,DFL,Erik Osberg,3440,30.39
-47,Meeker,U.S. House,7,R,Michelle Fischbach,7865,69.48
+47,Meeker,U.S. House,7,R,Michelle Fischbach,7864,69.48
 47,Meeker,U.S. House,7,WI,WRITE-IN,14,0.12
 47,Meeker,U.S. Senate,,DFL,Peggy Flanagan,3112,27.39
 47,Meeker,U.S. Senate,,IND,Marisa Simonetti,218,1.92
 47,Meeker,U.S. Senate,,LIB,Rebecca Whiting,159,1.40
-47,Meeker,U.S. Senate,,R,Michele Tafoya,7855,69.14
+47,Meeker,U.S. Senate,,R,Michele Tafoya,7854,69.14
 47,Meeker,U.S. Senate,,WI,WRITE-IN,17,0.15
 48,Mille Lacs,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,7497,98.88
 48,Mille Lacs,Associate Justice - Supreme Court 1,,WI,WRITE-IN,85,1.12
@@ -4514,9 +4514,9 @@ county_code,county,office,district,party,candidate,votes,pct
 48,Mille Lacs,County Commissioner District 4,04,WI,WRITE-IN,13,0.56
 48,Mille Lacs,County Sheriff,,NP,Kyle A. Burton,9715,98.47
 48,Mille Lacs,County Sheriff,,WI,WRITE-IN,151,1.53
-48,Mille Lacs,Governor & Lt Governor,,DFL,Amy Klobuchar,3781,31.37
+48,Mille Lacs,Governor & Lt Governor,,DFL,Amy Klobuchar,3782,31.38
 48,Mille Lacs,Governor & Lt Governor,,GP,Steven Young,246,2.04
-48,Mille Lacs,Governor & Lt Governor,,R,Lisa Demuth,8014,66.50
+48,Mille Lacs,Governor & Lt Governor,,R,Lisa Demuth,8015,66.50
 48,Mille Lacs,Governor & Lt Governor,,WI,WRITE-IN,10,0.08
 48,Mille Lacs,Judge - 7th District Court 11,07,NP,Andrew Pearson,7229,99.08
 48,Mille Lacs,Judge - 7th District Court 11,07,WI,WRITE-IN,67,0.92
@@ -4586,115 +4586,115 @@ county_code,county,office,district,party,candidate,votes,pct
 48,Mille Lacs,State Senate,27,DFL,Brandon Van Dover,1202,33.01
 48,Mille Lacs,State Senate,27,R,Andrew Mathews,2434,66.85
 48,Mille Lacs,State Senate,27,WI,WRITE-IN,5,0.14
-48,Mille Lacs,U.S. House,8,DFL,Trina Swanson,3933,32.78
-48,Mille Lacs,U.S. House,8,R,Pete Stauber,8051,67.10
-48,Mille Lacs,U.S. House,8,WI,WRITE-IN,15,0.13
-48,Mille Lacs,U.S. Senate,,DFL,Peggy Flanagan,3576,29.68
+48,Mille Lacs,U.S. House,8,DFL,Trina Swanson,3933,32.77
+48,Mille Lacs,U.S. House,8,R,Pete Stauber,8053,67.10
+48,Mille Lacs,U.S. House,8,WI,WRITE-IN,15,0.12
+48,Mille Lacs,U.S. Senate,,DFL,Peggy Flanagan,3577,29.69
 48,Mille Lacs,U.S. Senate,,IND,Marisa Simonetti,229,1.90
 48,Mille Lacs,U.S. Senate,,LIB,Rebecca Whiting,182,1.51
-48,Mille Lacs,U.S. Senate,,R,Michele Tafoya,8044,66.77
+48,Mille Lacs,U.S. Senate,,R,Michele Tafoya,8044,66.76
 48,Mille Lacs,U.S. Senate,,WI,WRITE-IN,17,0.14
-49,Morrison,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,10549,99.19
+49,Morrison,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,10572,99.19
 49,Morrison,Associate Justice - Supreme Court 1,,WI,WRITE-IN,86,0.81
-49,Morrison,Associate Justice - Supreme Court 4,,NP,Paul Thissen,10473,99.29
+49,Morrison,Associate Justice - Supreme Court 4,,NP,Paul Thissen,10495,99.29
 49,Morrison,Associate Justice - Supreme Court 4,,WI,WRITE-IN,75,0.71
-49,Morrison,Attorney General,,DFL,Keith Ellison,3515,21.74
-49,Morrison,Attorney General,,R,Ronald J. Schutz,12639,78.18
+49,Morrison,Attorney General,,DFL,Keith Ellison,3554,21.93
+49,Morrison,Attorney General,,R,Ronald J. Schutz,12638,77.99
 49,Morrison,Attorney General,,WI,WRITE-IN,13,0.08
-49,Morrison,CONSTITUTIONAL AMENDMENT 1,,NP,NO,6692,42.92
-49,Morrison,CONSTITUTIONAL AMENDMENT 1,,NP,YES,8899,57.08
-49,Morrison,County Attorney,,NP,Brian Middendorf,12333,99.08
-49,Morrison,County Attorney,,WI,WRITE-IN,115,0.92
-49,Morrison,County Auditor/Treasurer,,NP,Shannon Coyle,12193,99.55
-49,Morrison,County Auditor/Treasurer,,WI,WRITE-IN,55,0.45
-49,Morrison,County Commissioner District 4,04,NP,Deb Gruber,1894,53.13
-49,Morrison,County Commissioner District 4,04,NP,Robert F Kasper,1667,46.76
+49,Morrison,CONSTITUTIONAL AMENDMENT 1,,NP,NO,6689,42.80
+49,Morrison,CONSTITUTIONAL AMENDMENT 1,,NP,YES,8941,57.20
+49,Morrison,County Attorney,,NP,Brian Middendorf,12364,99.07
+49,Morrison,County Attorney,,WI,WRITE-IN,116,0.93
+49,Morrison,County Auditor/Treasurer,,NP,Shannon Coyle,12221,99.54
+49,Morrison,County Auditor/Treasurer,,WI,WRITE-IN,56,0.46
+49,Morrison,County Commissioner District 4,04,NP,Deb Gruber,1900,53.27
+49,Morrison,County Commissioner District 4,04,NP,Robert F Kasper,1663,46.62
 49,Morrison,County Commissioner District 4,04,WI,WRITE-IN,4,0.11
 49,Morrison,County Commissioner District 5,05,NP,Greg Blaine,2602,98.79
 49,Morrison,County Commissioner District 5,05,WI,WRITE-IN,32,1.21
-49,Morrison,County Recorder,,NP,Jennifer (Jenny) Sanders,12297,99.60
-49,Morrison,County Recorder,,WI,WRITE-IN,50,0.40
-49,Morrison,County Sheriff,,NP,Shawn Larsen,13388,99.41
-49,Morrison,County Sheriff,,WI,WRITE-IN,79,0.59
-49,Morrison,Governor & Lt Governor,,DFL,Amy Klobuchar,3621,22.20
-49,Morrison,Governor & Lt Governor,,GP,Steven Young,256,1.57
-49,Morrison,Governor & Lt Governor,,R,Lisa Demuth,12405,76.06
+49,Morrison,County Recorder,,NP,Jennifer (Jenny) Sanders,12325,99.59
+49,Morrison,County Recorder,,WI,WRITE-IN,51,0.41
+49,Morrison,County Sheriff,,NP,Shawn Larsen,13424,99.41
+49,Morrison,County Sheriff,,WI,WRITE-IN,80,0.59
+49,Morrison,Governor & Lt Governor,,DFL,Amy Klobuchar,3662,22.40
+49,Morrison,Governor & Lt Governor,,GP,Steven Young,255,1.56
+49,Morrison,Governor & Lt Governor,,R,Lisa Demuth,12405,75.88
 49,Morrison,Governor & Lt Governor,,WI,WRITE-IN,27,0.17
-49,Morrison,Judge - 7th District Court 11,07,NP,Andrew Pearson,10191,99.35
+49,Morrison,Judge - 7th District Court 11,07,NP,Andrew Pearson,10214,99.35
 49,Morrison,Judge - 7th District Court 11,07,WI,WRITE-IN,67,0.65
-49,Morrison,Judge - 7th District Court 12,07,NP,Kevin M. Miller,10201,99.31
+49,Morrison,Judge - 7th District Court 12,07,NP,Kevin M. Miller,10222,99.31
 49,Morrison,Judge - 7th District Court 12,07,WI,WRITE-IN,71,0.69
-49,Morrison,Judge - 7th District Court 13,07,NP,Michelle Clark,10196,99.34
+49,Morrison,Judge - 7th District Court 13,07,NP,Michelle Clark,10218,99.34
 49,Morrison,Judge - 7th District Court 13,07,WI,WRITE-IN,68,0.66
-49,Morrison,Judge - 7th District Court 14,07,NP,Meriel Lester,10172,99.31
+49,Morrison,Judge - 7th District Court 14,07,NP,Meriel Lester,10194,99.31
 49,Morrison,Judge - 7th District Court 14,07,WI,WRITE-IN,71,0.69
-49,Morrison,Judge - 7th District Court 15,07,NP,Ole Tvedten,10152,99.27
+49,Morrison,Judge - 7th District Court 15,07,NP,Ole Tvedten,10171,99.27
 49,Morrison,Judge - 7th District Court 15,07,WI,WRITE-IN,75,0.73
-49,Morrison,Judge - 7th District Court 2,07,NP,Michael Leeser,10216,99.32
+49,Morrison,Judge - 7th District Court 2,07,NP,Michael Leeser,10239,99.32
 49,Morrison,Judge - 7th District Court 2,07,WI,WRITE-IN,70,0.68
-49,Morrison,Judge - 7th District Court 21,07,NP,Robert J. Raupp,10153,99.30
+49,Morrison,Judge - 7th District Court 21,07,NP,Robert J. Raupp,10175,99.30
 49,Morrison,Judge - 7th District Court 21,07,WI,WRITE-IN,72,0.70
-49,Morrison,Judge - 7th District Court 22,07,NP,Doug Clark,10165,99.31
+49,Morrison,Judge - 7th District Court 22,07,NP,Doug Clark,10186,99.31
 49,Morrison,Judge - 7th District Court 22,07,WI,WRITE-IN,71,0.69
-49,Morrison,Judge - 7th District Court 24,07,NP,Karl L. Schmidt,10133,99.28
+49,Morrison,Judge - 7th District Court 24,07,NP,Karl L. Schmidt,10154,99.28
 49,Morrison,Judge - 7th District Court 24,07,WI,WRITE-IN,74,0.72
-49,Morrison,Judge - 7th District Court 26,07,NP,Mark J. Herzing,10194,99.29
+49,Morrison,Judge - 7th District Court 26,07,NP,Mark J. Herzing,10215,99.29
 49,Morrison,Judge - 7th District Court 26,07,WI,WRITE-IN,73,0.71
-49,Morrison,Judge - 7th District Court 27,07,NP,Tammy L. Merkins,10137,99.27
+49,Morrison,Judge - 7th District Court 27,07,NP,Tammy L. Merkins,10158,99.27
 49,Morrison,Judge - 7th District Court 27,07,WI,WRITE-IN,75,0.73
-49,Morrison,Judge - 7th District Court 28,07,NP,Antoinette C. Wetzel,10519,98.88
+49,Morrison,Judge - 7th District Court 28,07,NP,Antoinette C. Wetzel,10544,98.88
 49,Morrison,Judge - 7th District Court 28,07,WI,WRITE-IN,119,1.12
-49,Morrison,Judge - 7th District Court 30,07,NP,Jade M. Rosenfeldt,10111,99.28
+49,Morrison,Judge - 7th District Court 30,07,NP,Jade M. Rosenfeldt,10131,99.28
 49,Morrison,Judge - 7th District Court 30,07,WI,WRITE-IN,73,0.72
-49,Morrison,Judge - 7th District Court 8,07,NP,Matthew E. Engelking,10200,99.29
+49,Morrison,Judge - 7th District Court 8,07,NP,Matthew E. Engelking,10221,99.29
 49,Morrison,Judge - 7th District Court 8,07,WI,WRITE-IN,73,0.71
-49,Morrison,Judge - 7th District Court 9,07,NP,Michelle Winkis Lawson,10191,99.36
+49,Morrison,Judge - 7th District Court 9,07,NP,Michelle Winkis Lawson,10213,99.36
 49,Morrison,Judge - 7th District Court 9,07,WI,WRITE-IN,66,0.64
-49,Morrison,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,10412,99.28
+49,Morrison,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,10436,99.28
 49,Morrison,Judge - Court of Appeals 1,,WI,WRITE-IN,76,0.72
-49,Morrison,Judge - Court of Appeals 13,,NP,Jeanne Cochran,10310,99.29
+49,Morrison,Judge - Court of Appeals 13,,NP,Jeanne Cochran,10333,99.29
 49,Morrison,Judge - Court of Appeals 13,,WI,WRITE-IN,74,0.71
-49,Morrison,Judge - Court of Appeals 15,,NP,Kevin G. Ross,10334,99.39
-49,Morrison,Judge - Court of Appeals 15,,WI,WRITE-IN,63,0.61
-49,Morrison,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,10243,99.26
+49,Morrison,Judge - Court of Appeals 15,,NP,Kevin G. Ross,10355,99.40
+49,Morrison,Judge - Court of Appeals 15,,WI,WRITE-IN,63,0.60
+49,Morrison,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,10264,99.26
 49,Morrison,Judge - Court of Appeals 18,,WI,WRITE-IN,76,0.74
-49,Morrison,Judge - Court of Appeals 7,,NP,Rachel Bond,10352,99.28
+49,Morrison,Judge - Court of Appeals 7,,NP,Rachel Bond,10376,99.28
 49,Morrison,Judge - Court of Appeals 7,,WI,WRITE-IN,75,0.72
-49,Morrison,Secretary of State,,DFL,Steve Simon,3724,23.07
-49,Morrison,Secretary of State,,GP,Seth Kuhl-Stennes,170,1.05
-49,Morrison,Secretary of State,,LIB,"George ""Chip"" Tangen",273,1.69
-49,Morrison,Secretary of State,,R,Tad Jude,11974,74.17
+49,Morrison,Secretary of State,,DFL,Steve Simon,3765,23.27
+49,Morrison,Secretary of State,,GP,Seth Kuhl-Stennes,169,1.04
+49,Morrison,Secretary of State,,LIB,"George ""Chip"" Tangen",274,1.69
+49,Morrison,Secretary of State,,R,Tad Jude,11971,73.98
 49,Morrison,Secretary of State,,WI,WRITE-IN,3,0.02
-49,Morrison,Soil and Water Supervisor District 3,2097,NP,Scott Saehr,12445,99.62
-49,Morrison,Soil and Water Supervisor District 3,2097,WI,WRITE-IN,47,0.38
-49,Morrison,Soil and Water Supervisor District 4,2097,NP,Dale Scholl,12290,99.55
-49,Morrison,Soil and Water Supervisor District 4,2097,WI,WRITE-IN,55,0.45
-49,Morrison,State Auditor,,DFL,Zack Filipovich,3404,21.12
-49,Morrison,State Auditor,,FI,Jay Reeves,391,2.43
-49,Morrison,State Auditor,,R,Scott Jensen,12311,76.40
+49,Morrison,Soil and Water Supervisor District 3,2097,NP,Scott Saehr,12476,99.62
+49,Morrison,Soil and Water Supervisor District 3,2097,WI,WRITE-IN,48,0.38
+49,Morrison,Soil and Water Supervisor District 4,2097,NP,Dale Scholl,12322,99.55
+49,Morrison,Soil and Water Supervisor District 4,2097,WI,WRITE-IN,56,0.45
+49,Morrison,State Auditor,,DFL,Zack Filipovich,3444,21.32
+49,Morrison,State Auditor,,FI,Jay Reeves,390,2.41
+49,Morrison,State Auditor,,R,Scott Jensen,12310,76.21
 49,Morrison,State Auditor,,WI,WRITE-IN,8,0.05
-49,Morrison,State House,10A,DFL,Melissa Maertens,2441,27.67
-49,Morrison,State House,10A,R,Mark Striemer,6356,72.06
+49,Morrison,State House,10A,DFL,Melissa Maertens,2453,27.78
+49,Morrison,State House,10A,R,Mark Striemer,6353,71.95
 49,Morrison,State House,10A,WI,WRITE-IN,24,0.27
-49,Morrison,State House,10B,DFL,Jeff Larson,949,15.88
-49,Morrison,State House,10B,R,Isaac Schultz,5025,84.09
+49,Morrison,State House,10B,DFL,Jeff Larson,979,16.30
+49,Morrison,State House,10B,R,Isaac Schultz,5026,83.67
 49,Morrison,State House,10B,WI,WRITE-IN,2,0.03
 49,Morrison,State House,5B,DFL,Maggie Evers,325,24.71
 49,Morrison,State House,5B,R,Jonathan Claussen,990,75.29
 49,Morrison,State House,5B,WI,WRITE-IN,0,0.00
-49,Morrison,State Senate,10,DFL,Tara Killen,3520,23.75
-49,Morrison,State Senate,10,R,Nathan Wesenberg,11264,76.00
-49,Morrison,State Senate,10,WI,WRITE-IN,38,0.26
+49,Morrison,State Senate,10,DFL,Tara Killen,3562,23.97
+49,Morrison,State Senate,10,R,Nathan Wesenberg,11260,75.77
+49,Morrison,State Senate,10,WI,WRITE-IN,39,0.26
 49,Morrison,State Senate,5,DFL,Skylar Fynboh,326,24.57
 49,Morrison,State Senate,5,R,Mike Wiener,1001,75.43
 49,Morrison,State Senate,5,WI,WRITE-IN,0,0.00
-49,Morrison,U.S. House,7,DFL,Erik Osberg,3937,24.30
-49,Morrison,U.S. House,7,R,Michelle Fischbach,12249,75.62
+49,Morrison,U.S. House,7,DFL,Erik Osberg,3973,24.47
+49,Morrison,U.S. House,7,R,Michelle Fischbach,12253,75.45
 49,Morrison,U.S. House,7,WI,WRITE-IN,13,0.08
-49,Morrison,U.S. Senate,,DFL,Peggy Flanagan,3414,20.96
-49,Morrison,U.S. Senate,,IND,Marisa Simonetti,278,1.71
-49,Morrison,U.S. Senate,,LIB,Rebecca Whiting,215,1.32
-49,Morrison,U.S. Senate,,R,Michele Tafoya,12363,75.89
+49,Morrison,U.S. Senate,,DFL,Peggy Flanagan,3451,21.13
+49,Morrison,U.S. Senate,,IND,Marisa Simonetti,279,1.71
+49,Morrison,U.S. Senate,,LIB,Rebecca Whiting,214,1.31
+49,Morrison,U.S. Senate,,R,Michele Tafoya,12366,75.73
 49,Morrison,U.S. Senate,,WI,WRITE-IN,20,0.12
 50,Mower,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,11043,99.24
 50,Mower,Associate Justice - Supreme Court 1,,WI,WRITE-IN,85,0.76
@@ -4717,9 +4717,9 @@ county_code,county,office,district,party,candidate,votes,pct
 50,Mower,County Sheriff,,NP,Steven Sandvik,3714,25.06
 50,Mower,County Sheriff,,NP,TJ Lynch,11068,74.68
 50,Mower,County Sheriff,,WI,WRITE-IN,38,0.26
-50,Mower,Governor & Lt Governor,,DFL,Amy Klobuchar,7729,49.16
+50,Mower,Governor & Lt Governor,,DFL,Amy Klobuchar,7730,49.16
 50,Mower,Governor & Lt Governor,,GP,Steven Young,346,2.20
-50,Mower,Governor & Lt Governor,,R,Lisa Demuth,7629,48.52
+50,Mower,Governor & Lt Governor,,R,Lisa Demuth,7630,48.52
 50,Mower,Governor & Lt Governor,,WI,WRITE-IN,19,0.12
 50,Mower,Judge - 3rd District Court 15,03,NP,Erin Lindhart Felten,10824,99.23
 50,Mower,Judge - 3rd District Court 15,03,WI,WRITE-IN,84,0.77
@@ -4768,13 +4768,13 @@ county_code,county,office,district,party,candidate,votes,pct
 50,Mower,State Senate,26,DFL,Jack Hedin,421,30.84
 50,Mower,State Senate,26,R,Cherie Johnson,944,69.16
 50,Mower,State Senate,26,WI,WRITE-IN,0,0.00
-50,Mower,U.S. House,1,DFL,Jake Johnson,8098,51.64
-50,Mower,U.S. House,1,R,Brad Finstad,7571,48.28
+50,Mower,U.S. House,1,DFL,Jake Johnson,8102,51.64
+50,Mower,U.S. House,1,R,Brad Finstad,7572,48.27
 50,Mower,U.S. House,1,WI,WRITE-IN,14,0.09
 50,Mower,U.S. Senate,,DFL,Peggy Flanagan,7522,47.81
 50,Mower,U.S. Senate,,IND,Marisa Simonetti,337,2.14
 50,Mower,U.S. Senate,,LIB,Rebecca Whiting,256,1.63
-50,Mower,U.S. Senate,,R,Michele Tafoya,7605,48.34
+50,Mower,U.S. Senate,,R,Michele Tafoya,7606,48.34
 50,Mower,U.S. Senate,,WI,WRITE-IN,12,0.08
 51,Murray,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,3124,99.74
 51,Murray,Associate Justice - Supreme Court 1,,WI,WRITE-IN,8,0.26
@@ -4798,9 +4798,9 @@ county_code,county,office,district,party,candidate,votes,pct
 51,Murray,County Recorder,,WI,WRITE-IN,13,0.36
 51,Murray,County Sheriff,,NP,Heath Landsman,3648,99.18
 51,Murray,County Sheriff,,WI,WRITE-IN,30,0.82
-51,Murray,Governor & Lt Governor,,DFL,Amy Klobuchar,1161,29.15
-51,Murray,Governor & Lt Governor,,GP,Steven Young,60,1.51
-51,Murray,Governor & Lt Governor,,R,Lisa Demuth,2755,69.17
+51,Murray,Governor & Lt Governor,,DFL,Amy Klobuchar,1161,29.14
+51,Murray,Governor & Lt Governor,,GP,Steven Young,61,1.53
+51,Murray,Governor & Lt Governor,,R,Lisa Demuth,2755,69.15
 51,Murray,Governor & Lt Governor,,WI,WRITE-IN,7,0.18
 51,Murray,Judge - 5th District Court 11,05,NP,Stephen J. Ferrazzano II,3043,99.51
 51,Murray,Judge - 5th District Court 11,05,WI,WRITE-IN,15,0.49
@@ -4846,13 +4846,13 @@ county_code,county,office,district,party,candidate,votes,pct
 51,Murray,State Senate,21,DFL,Caitlyn Sanow-Minett,1168,29.47
 51,Murray,State Senate,21,R,Chris Knoll,2793,70.48
 51,Murray,State Senate,21,WI,WRITE-IN,2,0.05
-51,Murray,U.S. House,7,DFL,Erik Osberg,1217,30.68
-51,Murray,U.S. House,7,R,Michelle Fischbach,2748,69.27
-51,Murray,U.S. House,7,WI,WRITE-IN,2,0.05
-51,Murray,U.S. Senate,,DFL,Peggy Flanagan,1111,27.90
-51,Murray,U.S. Senate,,IND,Marisa Simonetti,61,1.53
+51,Murray,U.S. House,7,DFL,Erik Osberg,1217,30.66
+51,Murray,U.S. House,7,R,Michelle Fischbach,2749,69.26
+51,Murray,U.S. House,7,WI,WRITE-IN,3,0.08
+51,Murray,U.S. Senate,,DFL,Peggy Flanagan,1111,27.89
+51,Murray,U.S. Senate,,IND,Marisa Simonetti,62,1.56
 51,Murray,U.S. Senate,,LIB,Rebecca Whiting,55,1.38
-51,Murray,U.S. Senate,,R,Michele Tafoya,2751,69.09
+51,Murray,U.S. Senate,,R,Michele Tafoya,2751,69.07
 51,Murray,U.S. Senate,,WI,WRITE-IN,4,0.10
 52,Nicollet,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,12315,99.18
 52,Nicollet,Associate Justice - Supreme Court 1,,WI,WRITE-IN,102,0.82
@@ -4949,7 +4949,7 @@ county_code,county,office,district,party,candidate,votes,pct
 53,Nobles,County Sheriff,,WI,WRITE-IN,44,0.75
 53,Nobles,Governor & Lt Governor,,DFL,Amy Klobuchar,2523,38.18
 53,Nobles,Governor & Lt Governor,,GP,Steven Young,116,1.76
-53,Nobles,Governor & Lt Governor,,R,Lisa Demuth,3966,60.02
+53,Nobles,Governor & Lt Governor,,R,Lisa Demuth,3967,60.02
 53,Nobles,Governor & Lt Governor,,WI,WRITE-IN,3,0.05
 53,Nobles,Judge - 5th District Court 11,05,NP,Stephen J. Ferrazzano II,4743,99.31
 53,Nobles,Judge - 5th District Court 11,05,WI,WRITE-IN,33,0.69
@@ -4998,13 +4998,13 @@ county_code,county,office,district,party,candidate,votes,pct
 53,Nobles,State Senate,21,DFL,Caitlyn Sanow-Minett,2559,39.10
 53,Nobles,State Senate,21,R,Chris Knoll,3984,60.88
 53,Nobles,State Senate,21,WI,WRITE-IN,1,0.02
-53,Nobles,U.S. House,1,DFL,Jake Johnson,2728,41.38
-53,Nobles,U.S. House,1,R,Brad Finstad,3859,58.53
+53,Nobles,U.S. House,1,DFL,Jake Johnson,2729,41.39
+53,Nobles,U.S. House,1,R,Brad Finstad,3859,58.52
 53,Nobles,U.S. House,1,WI,WRITE-IN,6,0.09
-53,Nobles,U.S. Senate,,DFL,Peggy Flanagan,2515,37.97
+53,Nobles,U.S. Senate,,DFL,Peggy Flanagan,2516,37.98
 53,Nobles,U.S. Senate,,IND,Marisa Simonetti,110,1.66
 53,Nobles,U.S. Senate,,LIB,Rebecca Whiting,85,1.28
-53,Nobles,U.S. Senate,,R,Michele Tafoya,3908,59.01
+53,Nobles,U.S. Senate,,R,Michele Tafoya,3908,59.00
 53,Nobles,U.S. Senate,,WI,WRITE-IN,5,0.08
 54,Norman,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,1975,99.20
 54,Norman,Associate Justice - Supreme Court 1,,WI,WRITE-IN,16,0.80
@@ -5192,7 +5192,7 @@ county_code,county,office,district,party,candidate,votes,pct
 55,Olmsted,U.S. Senate,,IND,Marisa Simonetti,1041,1.32
 55,Olmsted,U.S. Senate,,LIB,Rebecca Whiting,887,1.12
 55,Olmsted,U.S. Senate,,R,Michele Tafoya,31012,39.29
-55,Olmsted,U.S. Senate,,WI,WRITE-IN,79,0.10
+55,Olmsted,U.S. Senate,,WI,WRITE-IN,80,0.10
 56,Otter Tail,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,20309,99.33
 56,Otter Tail,Associate Justice - Supreme Court 1,,WI,WRITE-IN,138,0.67
 56,Otter Tail,Associate Justice - Supreme Court 4,,NP,Paul Thissen,20123,99.43
@@ -5287,7 +5287,7 @@ county_code,county,office,district,party,candidate,votes,pct
 56,Otter Tail,U.S. House,7,DFL,Erik Osberg,11215,36.19
 56,Otter Tail,U.S. House,7,R,Michelle Fischbach,19748,63.72
 56,Otter Tail,U.S. House,7,WI,WRITE-IN,30,0.10
-56,Otter Tail,U.S. Senate,,DFL,Peggy Flanagan,10075,32.45
+56,Otter Tail,U.S. Senate,,DFL,Peggy Flanagan,10076,32.45
 56,Otter Tail,U.S. Senate,,IND,Marisa Simonetti,469,1.51
 56,Otter Tail,U.S. Senate,,LIB,Rebecca Whiting,402,1.29
 56,Otter Tail,U.S. Senate,,R,Michele Tafoya,20086,64.70
@@ -5299,12 +5299,12 @@ county_code,county,office,district,party,candidate,votes,pct
 57,Pennington,Attorney General,,DFL,Keith Ellison,2028,37.42
 57,Pennington,Attorney General,,R,Ronald J. Schutz,3387,62.49
 57,Pennington,Attorney General,,WI,WRITE-IN,5,0.09
-57,Pennington,CONSTITUTIONAL AMENDMENT 1,,NP,NO,1369,25.68
-57,Pennington,CONSTITUTIONAL AMENDMENT 1,,NP,YES,3963,74.32
+57,Pennington,CONSTITUTIONAL AMENDMENT 1,,NP,NO,1371,25.70
+57,Pennington,CONSTITUTIONAL AMENDMENT 1,,NP,YES,3963,74.30
 57,Pennington,County Attorney,,NP,Nathan Haase,4749,99.37
 57,Pennington,County Attorney,,WI,WRITE-IN,30,0.63
-57,Pennington,County Commissioner District 3,03,NP,Joshua Iverson,412,39.96
-57,Pennington,County Commissioner District 3,03,NP,Neil Peterson,616,59.75
+57,Pennington,County Commissioner District 3,03,NP,Joshua Iverson,430,40.99
+57,Pennington,County Commissioner District 3,03,NP,Neil Peterson,616,58.72
 57,Pennington,County Commissioner District 3,03,WI,WRITE-IN,3,0.29
 57,Pennington,County Commissioner District 4,04,NP,Roy Sourdif,758,98.70
 57,Pennington,County Commissioner District 4,04,WI,WRITE-IN,10,1.30
@@ -5316,24 +5316,24 @@ county_code,county,office,district,party,candidate,votes,pct
 57,Pennington,Governor & Lt Governor,,WI,WRITE-IN,4,0.07
 57,Pennington,Judge - 9th District Court 1,09,NP,Matti Adam,4057,99.31
 57,Pennington,Judge - 9th District Court 1,09,WI,WRITE-IN,28,0.69
-57,Pennington,Judge - 9th District Court 12,09,NP,Sarah L. McBroom,4032,99.29
+57,Pennington,Judge - 9th District Court 12,09,NP,Sarah L. McBroom,4045,99.29
 57,Pennington,Judge - 9th District Court 12,09,WI,WRITE-IN,29,0.71
 57,Pennington,Judge - 9th District Court 13,09,NP,Daniel M. Hawley,4056,99.24
 57,Pennington,Judge - 9th District Court 13,09,WI,WRITE-IN,31,0.76
-57,Pennington,Judge - 9th District Court 14,09,NP,Kathryn A. Lorsbach,4012,99.31
+57,Pennington,Judge - 9th District Court 14,09,NP,Kathryn A. Lorsbach,4040,99.31
 57,Pennington,Judge - 9th District Court 14,09,WI,WRITE-IN,28,0.69
-57,Pennington,Judge - 9th District Court 15,09,NP,Tamara L. Yon,4130,98.50
-57,Pennington,Judge - 9th District Court 15,09,WI,WRITE-IN,63,1.50
+57,Pennington,Judge - 9th District Court 15,09,NP,Tamara L. Yon,4130,98.47
+57,Pennington,Judge - 9th District Court 15,09,WI,WRITE-IN,64,1.53
 57,Pennington,Judge - 9th District Court 19,09,NP,Jana Austad,4064,99.29
 57,Pennington,Judge - 9th District Court 19,09,WI,WRITE-IN,29,0.71
-57,Pennington,Judge - 9th District Court 2,09,NP,Henry C. Ambelang,1619,37.45
-57,Pennington,Judge - 9th District Court 2,09,NP,Matthew R. Mallie,2690,62.23
-57,Pennington,Judge - 9th District Court 2,09,WI,WRITE-IN,14,0.32
+57,Pennington,Judge - 9th District Court 2,09,NP,Henry C. Ambelang,1592,36.82
+57,Pennington,Judge - 9th District Court 2,09,NP,Matthew R. Mallie,2717,62.84
+57,Pennington,Judge - 9th District Court 2,09,WI,WRITE-IN,15,0.35
 57,Pennington,Judge - 9th District Court 20,09,NP,Michael Patrick Grover,4058,99.27
 57,Pennington,Judge - 9th District Court 20,09,WI,WRITE-IN,30,0.73
 57,Pennington,Judge - 9th District Court 21,09,NP,Patricia A. Aanes,4036,99.26
 57,Pennington,Judge - 9th District Court 21,09,WI,WRITE-IN,30,0.74
-57,Pennington,Judge - 9th District Court 22,09,NP,Seamus P. Duffy,4115,98.63
+57,Pennington,Judge - 9th District Court 22,09,NP,Seamus P. Duffy,4116,98.63
 57,Pennington,Judge - 9th District Court 22,09,WI,WRITE-IN,57,1.37
 57,Pennington,Judge - 9th District Court 4,09,NP,Charles D. Halverson,4058,99.29
 57,Pennington,Judge - 9th District Court 4,09,WI,WRITE-IN,29,0.71
@@ -5343,7 +5343,7 @@ county_code,county,office,district,party,candidate,votes,pct
 57,Pennington,Judge - Court of Appeals 1,,WI,WRITE-IN,27,0.65
 57,Pennington,Judge - Court of Appeals 13,,NP,Jeanne Cochran,4078,99.32
 57,Pennington,Judge - Court of Appeals 13,,WI,WRITE-IN,28,0.68
-57,Pennington,Judge - Court of Appeals 15,,NP,Kevin G. Ross,4064,99.29
+57,Pennington,Judge - Court of Appeals 15,,NP,Kevin G. Ross,4080,99.29
 57,Pennington,Judge - Court of Appeals 15,,WI,WRITE-IN,29,0.71
 57,Pennington,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,4055,99.22
 57,Pennington,Judge - Court of Appeals 18,,WI,WRITE-IN,32,0.78
@@ -5354,24 +5354,24 @@ county_code,county,office,district,party,candidate,votes,pct
 57,Pennington,Secretary of State,,LIB,"George ""Chip"" Tangen",108,1.99
 57,Pennington,Secretary of State,,R,Tad Jude,3215,59.25
 57,Pennington,Secretary of State,,WI,WRITE-IN,3,0.06
-57,Pennington,Soil and Water Supervisor District 2,1113,NP,Ricky A Peterson,4666,99.57
+57,Pennington,Soil and Water Supervisor District 2,1113,NP,Ricky A Peterson,4676,99.57
 57,Pennington,Soil and Water Supervisor District 2,1113,WI,WRITE-IN,20,0.43
-57,Pennington,Soil and Water Supervisor District 3,1113,NP,Kaleb Torgerson,2209,46.87
-57,Pennington,Soil and Water Supervisor District 3,1113,NP,Kevin F. Wilde,2486,52.75
-57,Pennington,Soil and Water Supervisor District 3,1113,WI,WRITE-IN,18,0.38
+57,Pennington,Soil and Water Supervisor District 3,1113,NP,Kaleb Torgerson,2209,46.83
+57,Pennington,Soil and Water Supervisor District 3,1113,NP,Kevin F. Wilde,2486,52.70
+57,Pennington,Soil and Water Supervisor District 3,1113,WI,WRITE-IN,22,0.47
 57,Pennington,State Auditor,,DFL,Zack Filipovich,1905,35.09
 57,Pennington,State Auditor,,FI,Jay Reeves,148,2.73
 57,Pennington,State Auditor,,R,Scott Jensen,3373,62.13
 57,Pennington,State Auditor,,WI,WRITE-IN,3,0.06
-57,Pennington,State House,1A,DFL,Leanna Sandahl,1995,36.67
-57,Pennington,State House,1A,R,John Burkel,3444,63.30
+57,Pennington,State House,1A,DFL,Leanna Sandahl,1960,36.02
+57,Pennington,State House,1A,R,John Burkel,3479,63.94
 57,Pennington,State House,1A,WI,WRITE-IN,2,0.04
 57,Pennington,State Senate,1,DFL,Bjorn Solberg,1953,35.78
 57,Pennington,State Senate,1,R,Mark Johnson,3502,64.15
 57,Pennington,State Senate,1,WI,WRITE-IN,4,0.07
-57,Pennington,U.S. House,7,DFL,Erik Osberg,2126,38.97
-57,Pennington,U.S. House,7,R,Michelle Fischbach,3325,60.94
-57,Pennington,U.S. House,7,WI,WRITE-IN,5,0.09
+57,Pennington,U.S. House,7,DFL,Erik Osberg,2127,38.96
+57,Pennington,U.S. House,7,R,Michelle Fischbach,3325,60.91
+57,Pennington,U.S. House,7,WI,WRITE-IN,7,0.13
 57,Pennington,U.S. Senate,,DFL,Peggy Flanagan,1970,36.07
 57,Pennington,U.S. Senate,,IND,Marisa Simonetti,82,1.50
 57,Pennington,U.S. Senate,,LIB,Rebecca Whiting,70,1.28
@@ -5651,7 +5651,7 @@ county_code,county,office,district,party,candidate,votes,pct
 60,Polk,U.S. Senate,,DFL,Peggy Flanagan,4156,34.82
 60,Polk,U.S. Senate,,IND,Marisa Simonetti,176,1.47
 60,Polk,U.S. Senate,,LIB,Rebecca Whiting,193,1.62
-60,Polk,U.S. Senate,,R,Michele Tafoya,7403,62.03
+60,Polk,U.S. Senate,,R,Michele Tafoya,7405,62.04
 60,Polk,U.S. Senate,,WI,WRITE-IN,6,0.05
 61,Pope,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,4565,99.46
 61,Pope,Associate Justice - Supreme Court 1,,WI,WRITE-IN,25,0.54
@@ -5678,7 +5678,7 @@ county_code,county,office,district,party,candidate,votes,pct
 61,Pope,County Sheriff,,WI,WRITE-IN,26,0.49
 61,Pope,Governor & Lt Governor,,DFL,Amy Klobuchar,2149,35.33
 61,Pope,Governor & Lt Governor,,GP,Steven Young,90,1.48
-61,Pope,Governor & Lt Governor,,R,Lisa Demuth,3839,63.12
+61,Pope,Governor & Lt Governor,,R,Lisa Demuth,3840,63.13
 61,Pope,Governor & Lt Governor,,WI,WRITE-IN,4,0.07
 61,Pope,Judge - 8th District Court 10,08,NP,Benjamin Charles Pieh,4511,99.49
 61,Pope,Judge - 8th District Court 10,08,WI,WRITE-IN,23,0.51
@@ -5725,13 +5725,13 @@ county_code,county,office,district,party,candidate,votes,pct
 61,Pope,State Senate,12,DFL,Kari Dorry,1916,31.66
 61,Pope,State Senate,12,R,Torrey Westrom,4133,68.29
 61,Pope,State Senate,12,WI,WRITE-IN,3,0.05
-61,Pope,U.S. House,7,DFL,Erik Osberg,2242,36.92
-61,Pope,U.S. House,7,R,Michelle Fischbach,3825,62.98
+61,Pope,U.S. House,7,DFL,Erik Osberg,2243,36.92
+61,Pope,U.S. House,7,R,Michelle Fischbach,3827,62.99
 61,Pope,U.S. House,7,WI,WRITE-IN,6,0.10
-61,Pope,U.S. Senate,,DFL,Peggy Flanagan,1994,32.84
+61,Pope,U.S. Senate,,DFL,Peggy Flanagan,1994,32.83
 61,Pope,U.S. Senate,,IND,Marisa Simonetti,101,1.66
 61,Pope,U.S. Senate,,LIB,Rebecca Whiting,88,1.45
-61,Pope,U.S. Senate,,R,Michele Tafoya,3881,63.93
+61,Pope,U.S. Senate,,R,Michele Tafoya,3883,63.94
 61,Pope,U.S. Senate,,WI,WRITE-IN,7,0.12
 62,Ramsey,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,130349,98.65
 62,Ramsey,Associate Justice - Supreme Court 1,,WI,WRITE-IN,1779,1.35
@@ -5880,7 +5880,7 @@ county_code,county,office,district,party,candidate,votes,pct
 62,Ramsey,U.S. Senate,,DFL,Peggy Flanagan,185997,74.47
 62,Ramsey,U.S. Senate,,IND,Marisa Simonetti,3248,1.30
 62,Ramsey,U.S. Senate,,LIB,Rebecca Whiting,2791,1.12
-62,Ramsey,U.S. Senate,,R,Michele Tafoya,57335,22.96
+62,Ramsey,U.S. Senate,,R,Michele Tafoya,57336,22.96
 62,Ramsey,U.S. Senate,,WI,WRITE-IN,399,0.16
 63,Red Lake,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,1439,99.65
 63,Red Lake,Associate Justice - Supreme Court 1,,WI,WRITE-IN,5,0.35
@@ -6044,13 +6044,13 @@ county_code,county,office,district,party,candidate,votes,pct
 64,Redwood,State Senate,15,DFL,Andrea Boettger,1863,27.86
 64,Redwood,State Senate,15,R,Braxton John Seifert,4823,72.11
 64,Redwood,State Senate,15,WI,WRITE-IN,2,0.03
-64,Redwood,U.S. House,7,DFL,Erik Osberg,2036,30.42
-64,Redwood,U.S. House,7,R,Michelle Fischbach,4650,69.47
+64,Redwood,U.S. House,7,DFL,Erik Osberg,2036,30.41
+64,Redwood,U.S. House,7,R,Michelle Fischbach,4651,69.47
 64,Redwood,U.S. House,7,WI,WRITE-IN,8,0.12
 64,Redwood,U.S. Senate,,DFL,Peggy Flanagan,1868,27.81
 64,Redwood,U.S. Senate,,IND,Marisa Simonetti,121,1.80
 64,Redwood,U.S. Senate,,LIB,Rebecca Whiting,85,1.27
-64,Redwood,U.S. Senate,,R,Michele Tafoya,4629,68.92
+64,Redwood,U.S. Senate,,R,Michele Tafoya,4630,68.93
 64,Redwood,U.S. Senate,,WI,WRITE-IN,13,0.19
 65,Renville,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,5089,99.43
 65,Renville,Associate Justice - Supreme Court 1,,WI,WRITE-IN,29,0.57
@@ -6143,7 +6143,7 @@ county_code,county,office,district,party,candidate,votes,pct
 66,Rice,County Sheriff,,WI,WRITE-IN,234,0.99
 66,Rice,Governor & Lt Governor,,DFL,Amy Klobuchar,16080,51.60
 66,Rice,Governor & Lt Governor,,GP,Steven Young,608,1.95
-66,Rice,Governor & Lt Governor,,R,Lisa Demuth,14440,46.34
+66,Rice,Governor & Lt Governor,,R,Lisa Demuth,14441,46.34
 66,Rice,Governor & Lt Governor,,WI,WRITE-IN,33,0.11
 66,Rice,Judge - 3rd District Court 15,03,NP,Erin Lindhart Felten,20188,99.21
 66,Rice,Judge - 3rd District Court 15,03,WI,WRITE-IN,161,0.79
@@ -6282,13 +6282,13 @@ county_code,county,office,district,party,candidate,votes,pct
 67,Rock,State Senate,21,DFL,Caitlyn Sanow-Minett,1424,32.20
 67,Rock,State Senate,21,R,Chris Knoll,2997,67.77
 67,Rock,State Senate,21,WI,WRITE-IN,1,0.02
-67,Rock,U.S. House,1,DFL,Jake Johnson,1519,34.13
-67,Rock,U.S. House,1,R,Brad Finstad,2928,65.78
+67,Rock,U.S. House,1,DFL,Jake Johnson,1519,34.12
+67,Rock,U.S. House,1,R,Brad Finstad,2929,65.79
 67,Rock,U.S. House,1,WI,WRITE-IN,4,0.09
-67,Rock,U.S. Senate,,DFL,Peggy Flanagan,1399,31.46
+67,Rock,U.S. Senate,,DFL,Peggy Flanagan,1399,31.45
 67,Rock,U.S. Senate,,IND,Marisa Simonetti,76,1.71
 67,Rock,U.S. Senate,,LIB,Rebecca Whiting,58,1.30
-67,Rock,U.S. Senate,,R,Michele Tafoya,2910,65.44
+67,Rock,U.S. Senate,,R,Michele Tafoya,2912,65.45
 67,Rock,U.S. Senate,,WI,WRITE-IN,4,0.09
 68,Roseau,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,4877,99.39
 68,Roseau,Associate Justice - Supreme Court 1,,WI,WRITE-IN,30,0.61
@@ -6369,13 +6369,13 @@ county_code,county,office,district,party,candidate,votes,pct
 68,Roseau,State Senate,1,DFL,Bjorn Solberg,1644,24.91
 68,Roseau,State Senate,1,R,Mark Johnson,4954,75.05
 68,Roseau,State Senate,1,WI,WRITE-IN,3,0.05
-68,Roseau,U.S. House,7,DFL,Erik Osberg,1810,27.35
-68,Roseau,U.S. House,7,R,Michelle Fischbach,4802,72.56
+68,Roseau,U.S. House,7,DFL,Erik Osberg,1811,27.36
+68,Roseau,U.S. House,7,R,Michelle Fischbach,4802,72.55
 68,Roseau,U.S. House,7,WI,WRITE-IN,6,0.09
-68,Roseau,U.S. Senate,,DFL,Peggy Flanagan,1672,25.28
+68,Roseau,U.S. Senate,,DFL,Peggy Flanagan,1672,25.27
 68,Roseau,U.S. Senate,,IND,Marisa Simonetti,95,1.44
-68,Roseau,U.S. Senate,,LIB,Rebecca Whiting,77,1.16
-68,Roseau,U.S. Senate,,R,Michele Tafoya,4762,71.99
+68,Roseau,U.S. Senate,,LIB,Rebecca Whiting,78,1.18
+68,Roseau,U.S. Senate,,R,Michele Tafoya,4762,71.98
 68,Roseau,U.S. Senate,,WI,WRITE-IN,9,0.14
 69,St. Louis,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,72453,99.14
 69,St. Louis,Associate Justice - Supreme Court 1,,WI,WRITE-IN,631,0.86
@@ -6400,9 +6400,9 @@ county_code,county,office,district,party,candidate,votes,pct
 69,St. Louis,County Commissioner District 6,06,WI,WRITE-IN,59,0.52
 69,St. Louis,County Sheriff,,NP,Gordon Scott Ramsay,80488,98.78
 69,St. Louis,County Sheriff,,WI,WRITE-IN,993,1.22
-69,St. Louis,Governor & Lt Governor,,DFL,Amy Klobuchar,60793,60.72
-69,St. Louis,Governor & Lt Governor,,GP,Steven Young,2096,2.09
-69,St. Louis,Governor & Lt Governor,,R,Lisa Demuth,37158,37.12
+69,St. Louis,Governor & Lt Governor,,DFL,Amy Klobuchar,60795,60.72
+69,St. Louis,Governor & Lt Governor,,GP,Steven Young,2097,2.09
+69,St. Louis,Governor & Lt Governor,,R,Lisa Demuth,37158,37.11
 69,St. Louis,Governor & Lt Governor,,WI,WRITE-IN,66,0.07
 69,St. Louis,Judge - 6th District Court 1,06,NP,Rachel C. Sullivan,71574,99.11
 69,St. Louis,Judge - 6th District Court 1,06,WI,WRITE-IN,641,0.89
@@ -6477,39 +6477,39 @@ county_code,county,office,district,party,candidate,votes,pct
 69,St. Louis,State Senate,8,DFL,Jen McEwen,31668,76.03
 69,St. Louis,State Senate,8,R,Darrick Law,9951,23.89
 69,St. Louis,State Senate,8,WI,WRITE-IN,33,0.08
-69,St. Louis,U.S. House,8,DFL,Trina Swanson,62512,62.47
+69,St. Louis,U.S. House,8,DFL,Trina Swanson,62513,62.47
 69,St. Louis,U.S. House,8,R,Pete Stauber,37444,37.42
 69,St. Louis,U.S. House,8,WI,WRITE-IN,107,0.11
-69,St. Louis,U.S. Senate,,DFL,Peggy Flanagan,59589,59.53
+69,St. Louis,U.S. Senate,,DFL,Peggy Flanagan,59593,59.53
 69,St. Louis,U.S. Senate,,IND,Marisa Simonetti,1865,1.86
 69,St. Louis,U.S. Senate,,LIB,Rebecca Whiting,1304,1.30
-69,St. Louis,U.S. Senate,,R,Michele Tafoya,37254,37.22
+69,St. Louis,U.S. Senate,,R,Michele Tafoya,37255,37.22
 69,St. Louis,U.S. Senate,,WI,WRITE-IN,89,0.09
-70,Scott,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,44358,98.90
+70,Scott,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,44360,98.90
 70,Scott,Associate Justice - Supreme Court 1,,WI,WRITE-IN,494,1.10
 70,Scott,Associate Justice - Supreme Court 4,,NP,Paul Thissen,43738,99.01
 70,Scott,Associate Justice - Supreme Court 4,,WI,WRITE-IN,438,0.99
-70,Scott,Attorney General,,DFL,Keith Ellison,36194,46.06
-70,Scott,Attorney General,,R,Ronald J. Schutz,42270,53.79
-70,Scott,Attorney General,,WI,WRITE-IN,113,0.14
+70,Scott,Attorney General,,DFL,Keith Ellison,36195,46.06
+70,Scott,Attorney General,,R,Ronald J. Schutz,42270,53.80
+70,Scott,Attorney General,,WI,WRITE-IN,110,0.14
 70,Scott,CONSTITUTIONAL AMENDMENT 1,,NP,NO,20333,26.49
 70,Scott,CONSTITUTIONAL AMENDMENT 1,,NP,YES,56438,73.51
 70,Scott,County Attorney,,NP,Allen Andersen,26261,44.35
 70,Scott,County Attorney,,NP,Ron Hocevar,32690,55.21
 70,Scott,County Attorney,,WI,WRITE-IN,257,0.43
-70,Scott,County Commissioner District 2,02,NP,Jim Muelken,7861,66.94
-70,Scott,County Commissioner District 2,02,NP,Mike Robole,3830,32.62
+70,Scott,County Commissioner District 2,02,NP,Jim Muelken,7961,67.22
+70,Scott,County Commissioner District 2,02,NP,Mike Robole,3830,32.34
 70,Scott,County Commissioner District 2,02,WI,WRITE-IN,52,0.44
 70,Scott,County Commissioner District 4,04,NP,Dave Beer,11012,99.22
 70,Scott,County Commissioner District 4,04,WI,WRITE-IN,87,0.78
 70,Scott,County Commissioner District 5,05,NP,Bob Coughlen,4932,35.57
 70,Scott,County Commissioner District 5,05,NP,Drew Christensen,8869,63.96
 70,Scott,County Commissioner District 5,05,WI,WRITE-IN,65,0.47
-70,Scott,County Sheriff,,NP,Luke W. Hennen,56855,99.07
-70,Scott,County Sheriff,,WI,WRITE-IN,533,0.93
+70,Scott,County Sheriff,,NP,Luke W. Hennen,56856,99.08
+70,Scott,County Sheriff,,WI,WRITE-IN,529,0.92
 70,Scott,Governor & Lt Governor,,DFL,Amy Klobuchar,38619,48.39
 70,Scott,Governor & Lt Governor,,GP,Steven Young,1241,1.56
-70,Scott,Governor & Lt Governor,,R,Lisa Demuth,39895,49.99
+70,Scott,Governor & Lt Governor,,R,Lisa Demuth,39897,49.99
 70,Scott,Governor & Lt Governor,,WI,WRITE-IN,50,0.06
 70,Scott,Judge - 1st District Court 1,01,NP,Ann M. Offermann,42693,99.04
 70,Scott,Judge - 1st District Court 1,01,WI,WRITE-IN,413,0.96
@@ -6543,18 +6543,18 @@ county_code,county,office,district,party,candidate,votes,pct
 70,Scott,Judge - Court of Appeals 1,,WI,WRITE-IN,438,1.00
 70,Scott,Judge - Court of Appeals 13,,NP,Jeanne Cochran,42861,99.02
 70,Scott,Judge - Court of Appeals 13,,WI,WRITE-IN,426,0.98
-70,Scott,Judge - Court of Appeals 15,,NP,Kevin G. Ross,42888,99.08
+70,Scott,Judge - Court of Appeals 15,,NP,Kevin G. Ross,42886,99.08
 70,Scott,Judge - Court of Appeals 15,,WI,WRITE-IN,397,0.92
-70,Scott,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,42477,98.98
+70,Scott,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,42478,98.98
 70,Scott,Judge - Court of Appeals 18,,WI,WRITE-IN,438,1.02
 70,Scott,Judge - Court of Appeals 7,,NP,Rachel Bond,43049,98.98
 70,Scott,Judge - Court of Appeals 7,,WI,WRITE-IN,443,1.02
-70,Scott,Secretary of State,,DFL,Steve Simon,37381,47.51
+70,Scott,Secretary of State,,DFL,Steve Simon,37386,47.52
 70,Scott,Secretary of State,,GP,Seth Kuhl-Stennes,972,1.24
-70,Scott,Secretary of State,,LIB,"George ""Chip"" Tangen",1666,2.12
+70,Scott,Secretary of State,,LIB,"George ""Chip"" Tangen",1665,2.12
 70,Scott,Secretary of State,,R,Tad Jude,38619,49.08
 70,Scott,Secretary of State,,WI,WRITE-IN,40,0.05
-70,Scott,Soil and Water Supervisor District 1,4139,NP,Douglas R. Schoenecker,11738,99.55
+70,Scott,Soil and Water Supervisor District 1,4139,NP,Douglas R. Schoenecker,11740,99.55
 70,Scott,Soil and Water Supervisor District 1,4139,WI,WRITE-IN,53,0.45
 70,Scott,Soil and Water Supervisor District 3,4142,NP,Gary A. Hartmann,8778,98.82
 70,Scott,Soil and Water Supervisor District 3,4142,WI,WRITE-IN,105,1.18
@@ -6562,7 +6562,7 @@ county_code,county,office,district,party,candidate,votes,pct
 70,Scott,Soil and Water Supervisor District 4,4143,WI,WRITE-IN,61,0.58
 70,Scott,State Auditor,,DFL,Zack Filipovich,35324,45.11
 70,Scott,State Auditor,,FI,Jay Reeves,2336,2.98
-70,Scott,State Auditor,,R,Scott Jensen,40610,51.86
+70,Scott,State Auditor,,R,Scott Jensen,40611,51.86
 70,Scott,State Auditor,,WI,WRITE-IN,40,0.05
 70,Scott,State House,22B,DFL,Mary Nesgoda,1420,31.92
 70,Scott,State House,22B,R,Terry Matthew Stier,3026,68.03
@@ -6576,14 +6576,14 @@ county_code,county,office,district,party,candidate,votes,pct
 70,Scott,State House,55A,DFL,Jessica Hanson,9462,56.22
 70,Scott,State House,55A,R,Pam Myhra,7354,43.70
 70,Scott,State House,55A,WI,WRITE-IN,14,0.08
-70,Scott,State House,57A,DFL,JD Delgado,2659,32.59
-70,Scott,State House,57A,R,Jon Koznick,5497,67.37
+70,Scott,State House,57A,DFL,JD Delgado,2662,32.61
+70,Scott,State House,57A,R,Jon Koznick,5497,67.35
 70,Scott,State House,57A,WI,WRITE-IN,3,0.04
 70,Scott,State House,58A,DFL,Kristi Pursell,1793,34.65
 70,Scott,State House,58A,R,Steven E. Cherney,3380,65.31
 70,Scott,State House,58A,WI,WRITE-IN,2,0.04
-70,Scott,State Senate,22,DFL,Marisa Ulmen,1544,35.00
-70,Scott,State Senate,22,R,Jeremy Munson,2866,64.97
+70,Scott,State Senate,22,DFL,Marisa Ulmen,1545,35.02
+70,Scott,State Senate,22,R,Jeremy Munson,2866,64.96
 70,Scott,State Senate,22,WI,WRITE-IN,1,0.02
 70,Scott,State Senate,54,DFL,Rick Olson,22360,50.53
 70,Scott,State Senate,54,R,Ben Bakeberg,21848,49.38
@@ -6592,32 +6592,32 @@ county_code,county,office,district,party,candidate,votes,pct
 70,Scott,State Senate,55,R,Van Holston,7239,42.93
 70,Scott,State Senate,55,WI,WRITE-IN,13,0.08
 70,Scott,State Senate,57,DFL,Steven Schroer,2528,30.92
-70,Scott,State Senate,57,R,Zach Duckworth,5646,69.05
+70,Scott,State Senate,57,R,Zach Duckworth,5645,69.04
 70,Scott,State Senate,57,WI,WRITE-IN,3,0.04
 70,Scott,State Senate,58,DFL,Mark Legvold,1774,34.05
 70,Scott,State Senate,58,R,Bill Lieske,3434,65.91
 70,Scott,State Senate,58,WI,WRITE-IN,2,0.04
-70,Scott,U.S. House,2,DFL,Matt Little,38631,48.66
-70,Scott,U.S. House,2,R,Eric Pratt,40695,51.26
+70,Scott,U.S. House,2,DFL,Matt Little,38633,48.66
+70,Scott,U.S. House,2,R,Eric Pratt,40699,51.26
 70,Scott,U.S. House,2,WI,WRITE-IN,64,0.08
-70,Scott,U.S. Senate,,DFL,Peggy Flanagan,36393,45.76
-70,Scott,U.S. Senate,,IND,Marisa Simonetti,1154,1.45
-70,Scott,U.S. Senate,,LIB,Rebecca Whiting,902,1.13
-70,Scott,U.S. Senate,,R,Michele Tafoya,40991,51.54
+70,Scott,U.S. Senate,,DFL,Peggy Flanagan,36693,45.97
+70,Scott,U.S. Senate,,IND,Marisa Simonetti,1152,1.44
+70,Scott,U.S. Senate,,LIB,Rebecca Whiting,904,1.13
+70,Scott,U.S. Senate,,R,Michele Tafoya,40993,51.35
 70,Scott,U.S. Senate,,WI,WRITE-IN,85,0.11
-71,Sherburne,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,25234,99.02
+71,Sherburne,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,25235,99.02
 71,Sherburne,Associate Justice - Supreme Court 1,,WI,WRITE-IN,251,0.98
 71,Sherburne,Associate Justice - Supreme Court 4,,NP,Paul Thissen,24992,99.10
-71,Sherburne,Associate Justice - Supreme Court 4,,WI,WRITE-IN,227,0.90
-71,Sherburne,Attorney General,,DFL,Keith Ellison,15625,33.61
+71,Sherburne,Associate Justice - Supreme Court 4,,WI,WRITE-IN,228,0.90
+71,Sherburne,Attorney General,,DFL,Keith Ellison,15626,33.61
 71,Sherburne,Attorney General,,R,Ronald J. Schutz,30810,66.27
 71,Sherburne,Attorney General,,WI,WRITE-IN,59,0.13
-71,Sherburne,CONSTITUTIONAL AMENDMENT 1,,NP,NO,17658,38.58
+71,Sherburne,CONSTITUTIONAL AMENDMENT 1,,NP,NO,17659,38.58
 71,Sherburne,CONSTITUTIONAL AMENDMENT 1,,NP,YES,28113,61.42
 71,Sherburne,County Attorney,,NP,Dawn Nyhus,17579,50.43
-71,Sherburne,County Attorney,,NP,Hans Larson,17125,49.13
+71,Sherburne,County Attorney,,NP,Hans Larson,17126,49.13
 71,Sherburne,County Attorney,,WI,WRITE-IN,151,0.43
-71,Sherburne,County Auditor,,NP,Brenda Davis,19236,55.47
+71,Sherburne,County Auditor,,NP,Brenda Davis,19237,55.47
 71,Sherburne,County Auditor,,NP,Michael Tonsager,15289,44.09
 71,Sherburne,County Auditor,,WI,WRITE-IN,153,0.44
 71,Sherburne,County Commissioner District 2,02,NP,Raeanne Danielowski,6096,98.40
@@ -6627,75 +6627,75 @@ county_code,county,office,district,party,candidate,votes,pct
 71,Sherburne,County Commissioner District 3,03,WI,WRITE-IN,44,0.53
 71,Sherburne,County Commissioner District 4,04,NP,Gary Howard Gray,5494,97.34
 71,Sherburne,County Commissioner District 4,04,WI,WRITE-IN,150,2.66
-71,Sherburne,County Recorder,,NP,Holly Menke,29466,99.38
+71,Sherburne,County Recorder,,NP,Holly Menke,29467,99.38
 71,Sherburne,County Recorder,,WI,WRITE-IN,184,0.62
-71,Sherburne,County Sheriff,,NP,Benjamin Zawacki,30948,99.24
+71,Sherburne,County Sheriff,,NP,Benjamin Zawacki,30949,99.24
 71,Sherburne,County Sheriff,,WI,WRITE-IN,238,0.76
-71,Sherburne,Governor & Lt Governor,,DFL,Amy Klobuchar,16502,34.93
+71,Sherburne,Governor & Lt Governor,,DFL,Amy Klobuchar,16503,34.93
 71,Sherburne,Governor & Lt Governor,,GP,Steven Young,731,1.55
-71,Sherburne,Governor & Lt Governor,,R,Lisa Demuth,29978,63.45
+71,Sherburne,Governor & Lt Governor,,R,Lisa Demuth,29979,63.45
 71,Sherburne,Governor & Lt Governor,,WI,WRITE-IN,34,0.07
-71,Sherburne,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,24358,98.96
-71,Sherburne,Judge - 10th District Court 1,10,WI,WRITE-IN,257,1.04
-71,Sherburne,Judge - 10th District Court 14,10,NP,Justin Collins,24115,99.08
+71,Sherburne,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,24358,98.95
+71,Sherburne,Judge - 10th District Court 1,10,WI,WRITE-IN,258,1.05
+71,Sherburne,Judge - 10th District Court 14,10,NP,Justin Collins,24116,99.08
 71,Sherburne,Judge - 10th District Court 14,10,WI,WRITE-IN,224,0.92
-71,Sherburne,Judge - 10th District Court 15,10,NP,Thomas Robert Lehmann,24083,99.05
+71,Sherburne,Judge - 10th District Court 15,10,NP,Thomas Robert Lehmann,24084,99.05
 71,Sherburne,Judge - 10th District Court 15,10,WI,WRITE-IN,231,0.95
-71,Sherburne,Judge - 10th District Court 17,10,NP,Patrick W. Flanagan,23930,98.77
+71,Sherburne,Judge - 10th District Court 17,10,NP,Patrick W. Flanagan,23931,98.77
 71,Sherburne,Judge - 10th District Court 17,10,WI,WRITE-IN,297,1.23
-71,Sherburne,Judge - 10th District Court 19,10,NP,Tricia Loehr,24037,98.97
+71,Sherburne,Judge - 10th District Court 19,10,NP,Tricia Loehr,24038,98.97
 71,Sherburne,Judge - 10th District Court 19,10,WI,WRITE-IN,251,1.03
 71,Sherburne,Judge - 10th District Court 2,10,NP,Carrie A. Doom,24358,99.00
-71,Sherburne,Judge - 10th District Court 2,10,WI,WRITE-IN,245,1.00
-71,Sherburne,Judge - 10th District Court 22,10,NP,Melissa Saterbak,24059,99.01
+71,Sherburne,Judge - 10th District Court 2,10,WI,WRITE-IN,246,1.00
+71,Sherburne,Judge - 10th District Court 22,10,NP,Melissa Saterbak,24060,99.01
 71,Sherburne,Judge - 10th District Court 22,10,WI,WRITE-IN,240,0.99
-71,Sherburne,Judge - 10th District Court 23,10,NP,Catherine (Kate) McPherson,24058,99.00
-71,Sherburne,Judge - 10th District Court 23,10,WI,WRITE-IN,244,1.00
-71,Sherburne,Judge - 10th District Court 24,10,NP,Karin L. McCarthy,23997,98.98
+71,Sherburne,Judge - 10th District Court 23,10,NP,Catherine (Kate) McPherson,24058,98.99
+71,Sherburne,Judge - 10th District Court 23,10,WI,WRITE-IN,245,1.01
+71,Sherburne,Judge - 10th District Court 24,10,NP,Karin L. McCarthy,23998,98.98
 71,Sherburne,Judge - 10th District Court 24,10,WI,WRITE-IN,248,1.02
-71,Sherburne,Judge - 10th District Court 28,10,NP,Karen B. Schommer,24036,98.91
+71,Sherburne,Judge - 10th District Court 28,10,NP,Karen B. Schommer,24037,98.91
 71,Sherburne,Judge - 10th District Court 28,10,WI,WRITE-IN,264,1.09
 71,Sherburne,Judge - 10th District Court 29,10,NP,Jacob Fischmann,23990,99.05
 71,Sherburne,Judge - 10th District Court 29,10,WI,WRITE-IN,231,0.95
-71,Sherburne,Judge - 10th District Court 32,10,NP,Elizabeth H. Strand,24054,99.04
+71,Sherburne,Judge - 10th District Court 32,10,NP,Elizabeth H. Strand,24055,99.04
 71,Sherburne,Judge - 10th District Court 32,10,WI,WRITE-IN,234,0.96
 71,Sherburne,Judge - 10th District Court 38,10,NP,Ben Lacy,14222,49.08
-71,Sherburne,Judge - 10th District Court 38,10,NP,Rebecca A. Waxse,14608,50.41
+71,Sherburne,Judge - 10th District Court 38,10,NP,Rebecca A. Waxse,14609,50.41
 71,Sherburne,Judge - 10th District Court 38,10,WI,WRITE-IN,147,0.51
-71,Sherburne,Judge - 10th District Court 4,10,NP,Suzanne M Brown,24306,99.00
+71,Sherburne,Judge - 10th District Court 4,10,NP,Suzanne M Brown,24307,99.00
 71,Sherburne,Judge - 10th District Court 4,10,WI,WRITE-IN,246,1.00
-71,Sherburne,Judge - 10th District Court 43,10,NP,Heather Pipenhagen,24012,98.99
-71,Sherburne,Judge - 10th District Court 43,10,WI,WRITE-IN,246,1.01
-71,Sherburne,Judge - 10th District Court 45,10,NP,Jennifer D. Peterson,23994,98.98
-71,Sherburne,Judge - 10th District Court 45,10,WI,WRITE-IN,248,1.02
-71,Sherburne,Judge - 10th District Court 6,10,NP,Stoney L. Hiljus,24152,98.97
+71,Sherburne,Judge - 10th District Court 43,10,NP,Heather Pipenhagen,24012,98.98
+71,Sherburne,Judge - 10th District Court 43,10,WI,WRITE-IN,247,1.02
+71,Sherburne,Judge - 10th District Court 45,10,NP,Jennifer D. Peterson,23994,98.97
+71,Sherburne,Judge - 10th District Court 45,10,WI,WRITE-IN,249,1.03
+71,Sherburne,Judge - 10th District Court 6,10,NP,Stoney L. Hiljus,24153,98.97
 71,Sherburne,Judge - 10th District Court 6,10,WI,WRITE-IN,252,1.03
-71,Sherburne,Judge - 10th District Court 7,10,NP,Viet-Hanh Winchell,23935,98.69
+71,Sherburne,Judge - 10th District Court 7,10,NP,Viet-Hanh Winchell,23936,98.69
 71,Sherburne,Judge - 10th District Court 7,10,WI,WRITE-IN,317,1.31
-71,Sherburne,Judge - 10th District Court 8,10,NP,Laura A. Pietan,24183,98.97
+71,Sherburne,Judge - 10th District Court 8,10,NP,Laura A. Pietan,24184,98.97
 71,Sherburne,Judge - 10th District Court 8,10,WI,WRITE-IN,252,1.03
 71,Sherburne,Judge - 10th District Court 9,10,NP,Sheridan Hawley,24093,98.96
-71,Sherburne,Judge - 10th District Court 9,10,WI,WRITE-IN,252,1.04
-71,Sherburne,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,24883,99.03
+71,Sherburne,Judge - 10th District Court 9,10,WI,WRITE-IN,253,1.04
+71,Sherburne,Judge - Court of Appeals 1,,NP,Elizabeth Bentley,24884,99.03
 71,Sherburne,Judge - Court of Appeals 1,,WI,WRITE-IN,244,0.97
 71,Sherburne,Judge - Court of Appeals 13,,NP,Jeanne Cochran,24623,99.06
 71,Sherburne,Judge - Court of Appeals 13,,WI,WRITE-IN,234,0.94
-71,Sherburne,Judge - Court of Appeals 15,,NP,Kevin G. Ross,24597,99.09
+71,Sherburne,Judge - Court of Appeals 15,,NP,Kevin G. Ross,24598,99.09
 71,Sherburne,Judge - Court of Appeals 15,,WI,WRITE-IN,225,0.91
 71,Sherburne,Judge - Court of Appeals 18,,NP,JaPaul J. Harris,24399,99.01
-71,Sherburne,Judge - Court of Appeals 18,,WI,WRITE-IN,244,0.99
-71,Sherburne,Judge - Court of Appeals 7,,NP,Rachel Bond,24710,99.02
-71,Sherburne,Judge - Court of Appeals 7,,WI,WRITE-IN,245,0.98
-71,Sherburne,Secretary of State,,DFL,Steve Simon,16036,34.34
+71,Sherburne,Judge - Court of Appeals 18,,WI,WRITE-IN,245,0.99
+71,Sherburne,Judge - Court of Appeals 7,,NP,Rachel Bond,24710,99.01
+71,Sherburne,Judge - Court of Appeals 7,,WI,WRITE-IN,246,0.99
+71,Sherburne,Secretary of State,,DFL,Steve Simon,16037,34.34
 71,Sherburne,Secretary of State,,GP,Seth Kuhl-Stennes,598,1.28
 71,Sherburne,Secretary of State,,LIB,"George ""Chip"" Tangen",1049,2.25
 71,Sherburne,Secretary of State,,R,Tad Jude,28999,62.10
 71,Sherburne,Secretary of State,,WI,WRITE-IN,15,0.03
-71,Sherburne,Soil and Water Supervisor District 2,4141,NP,Christine Jurek,29510,99.37
+71,Sherburne,Soil and Water Supervisor District 2,4141,NP,Christine Jurek,29511,99.37
 71,Sherburne,Soil and Water Supervisor District 2,4141,WI,WRITE-IN,187,0.63
-71,Sherburne,Soil and Water Supervisor District 4,4141,NP,Jason Selvog,29340,99.36
+71,Sherburne,Soil and Water Supervisor District 4,4141,NP,Jason Selvog,29341,99.36
 71,Sherburne,Soil and Water Supervisor District 4,4141,WI,WRITE-IN,190,0.64
-71,Sherburne,State Auditor,,DFL,Zack Filipovich,15390,33.11
+71,Sherburne,State Auditor,,DFL,Zack Filipovich,15391,33.11
 71,Sherburne,State Auditor,,FI,Jay Reeves,1298,2.79
 71,Sherburne,State Auditor,,R,Scott Jensen,29775,64.06
 71,Sherburne,State Auditor,,WI,WRITE-IN,17,0.04
@@ -6705,8 +6705,8 @@ county_code,county,office,district,party,candidate,votes,pct
 71,Sherburne,State House,27A,DFL,Vanessa Davenport,6658,32.08
 71,Sherburne,State House,27A,R,Shane Mekeland,14084,67.86
 71,Sherburne,State House,27A,WI,WRITE-IN,14,0.07
-71,Sherburne,State House,27B,DFL,Charles A. McConaughay,3012,27.96
-71,Sherburne,State House,27B,R,Bryan Lawrence,7756,72.00
+71,Sherburne,State House,27B,DFL,Charles A. McConaughay,3013,27.97
+71,Sherburne,State House,27B,R,Bryan Lawrence,7756,71.99
 71,Sherburne,State House,27B,WI,WRITE-IN,4,0.04
 71,Sherburne,State House,30B,DFL,Keenan Gentry,5091,40.71
 71,Sherburne,State House,30B,R,Chad Westberg,7411,59.26
@@ -6714,18 +6714,18 @@ county_code,county,office,district,party,candidate,votes,pct
 71,Sherburne,State Senate,14,DFL,Aric Putnam,1639,66.49
 71,Sherburne,State Senate,14,R,Bernie Perryman,822,33.35
 71,Sherburne,State Senate,14,WI,WRITE-IN,4,0.16
-71,Sherburne,State Senate,27,DFL,Brandon Van Dover,9611,30.44
+71,Sherburne,State Senate,27,DFL,Brandon Van Dover,9612,30.45
 71,Sherburne,State Senate,27,R,Andrew Mathews,21947,69.52
 71,Sherburne,State Senate,27,WI,WRITE-IN,12,0.04
 71,Sherburne,State Senate,30,DFL,Leah Temple,5209,41.45
 71,Sherburne,State Senate,30,R,Eric Lucero,7354,58.52
 71,Sherburne,State Senate,30,WI,WRITE-IN,4,0.03
-71,Sherburne,U.S. House,6,DFL,Doug Chapin,17121,36.40
-71,Sherburne,U.S. House,6,R,Tom Emmer,29855,63.47
+71,Sherburne,U.S. House,6,DFL,Doug Chapin,17122,36.40
+71,Sherburne,U.S. House,6,R,Tom Emmer,29855,63.46
 71,Sherburne,U.S. House,6,WI,WRITE-IN,65,0.14
-71,Sherburne,U.S. Senate,,DFL,Peggy Flanagan,15649,33.14
+71,Sherburne,U.S. Senate,,DFL,Peggy Flanagan,15649,33.13
 71,Sherburne,U.S. Senate,,IND,Marisa Simonetti,717,1.52
-71,Sherburne,U.S. Senate,,LIB,Rebecca Whiting,652,1.38
+71,Sherburne,U.S. Senate,,LIB,Rebecca Whiting,653,1.38
 71,Sherburne,U.S. Senate,,R,Michele Tafoya,30178,63.90
 71,Sherburne,U.S. Senate,,WI,WRITE-IN,32,0.07
 72,Sibley,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,4776,99.11
@@ -6816,13 +6816,13 @@ county_code,county,office,district,party,candidate,votes,pct
 72,Sibley,State Senate,17,DFL,Julie Kelzer,2102,29.21
 72,Sibley,State Senate,17,R,Glenn H Gruenhagen,5088,70.70
 72,Sibley,State Senate,17,WI,WRITE-IN,7,0.10
-72,Sibley,U.S. House,7,DFL,Erik Osberg,2188,30.41
-72,Sibley,U.S. House,7,R,Michelle Fischbach,5001,69.51
+72,Sibley,U.S. House,7,DFL,Erik Osberg,2189,30.42
+72,Sibley,U.S. House,7,R,Michelle Fischbach,5002,69.50
 72,Sibley,U.S. House,7,WI,WRITE-IN,6,0.08
-72,Sibley,U.S. Senate,,DFL,Peggy Flanagan,1970,27.26
+72,Sibley,U.S. Senate,,DFL,Peggy Flanagan,1970,27.25
 72,Sibley,U.S. Senate,,IND,Marisa Simonetti,149,2.06
 72,Sibley,U.S. Senate,,LIB,Rebecca Whiting,102,1.41
-72,Sibley,U.S. Senate,,R,Michele Tafoya,4995,69.11
+72,Sibley,U.S. Senate,,R,Michele Tafoya,4997,69.11
 72,Sibley,U.S. Senate,,WI,WRITE-IN,12,0.17
 73,Stearns,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,46985,99.22
 73,Stearns,Associate Justice - Supreme Court 1,,WI,WRITE-IN,370,0.78
@@ -7016,8 +7016,8 @@ county_code,county,office,district,party,candidate,votes,pct
 74,Steele,State Senate,23,DFL,Angie Hanson,969,32.87
 74,Steele,State Senate,23,R,Gene Dornink,1977,67.06
 74,Steele,State Senate,23,WI,WRITE-IN,2,0.07
-74,Steele,U.S. House,1,DFL,Jake Johnson,7808,43.41
-74,Steele,U.S. House,1,R,Brad Finstad,10153,56.45
+74,Steele,U.S. House,1,DFL,Jake Johnson,7811,43.42
+74,Steele,U.S. House,1,R,Brad Finstad,10154,56.44
 74,Steele,U.S. House,1,WI,WRITE-IN,26,0.14
 74,Steele,U.S. Senate,,DFL,Peggy Flanagan,7021,38.90
 74,Steele,U.S. Senate,,IND,Marisa Simonetti,358,1.98
@@ -7163,8 +7163,8 @@ county_code,county,office,district,party,candidate,votes,pct
 76,Swift,State Senate,12,DFL,Kari Dorry,1447,32.23
 76,Swift,State Senate,12,R,Torrey Westrom,3039,67.68
 76,Swift,State Senate,12,WI,WRITE-IN,4,0.09
-76,Swift,U.S. House,7,DFL,Erik Osberg,1633,36.36
-76,Swift,U.S. House,7,R,Michelle Fischbach,2852,63.50
+76,Swift,U.S. House,7,DFL,Erik Osberg,1634,36.37
+76,Swift,U.S. House,7,R,Michelle Fischbach,2853,63.50
 76,Swift,U.S. House,7,WI,WRITE-IN,6,0.13
 76,Swift,U.S. Senate,,DFL,Peggy Flanagan,1418,31.43
 76,Swift,U.S. Senate,,IND,Marisa Simonetti,111,2.46
@@ -7261,10 +7261,10 @@ county_code,county,office,district,party,candidate,votes,pct
 77,Todd,U.S. House,7,DFL,Erik Osberg,3084,27.54
 77,Todd,U.S. House,7,R,Michelle Fischbach,8107,72.39
 77,Todd,U.S. House,7,WI,WRITE-IN,8,0.07
-77,Todd,U.S. Senate,,DFL,Peggy Flanagan,2696,24.07
-77,Todd,U.S. Senate,,IND,Marisa Simonetti,210,1.88
-77,Todd,U.S. Senate,,LIB,Rebecca Whiting,184,1.64
-77,Todd,U.S. Senate,,R,Michele Tafoya,8102,72.34
+77,Todd,U.S. Senate,,DFL,Peggy Flanagan,2697,24.07
+77,Todd,U.S. Senate,,IND,Marisa Simonetti,210,1.87
+77,Todd,U.S. Senate,,LIB,Rebecca Whiting,186,1.66
+77,Todd,U.S. Senate,,R,Michele Tafoya,8102,72.32
 77,Todd,U.S. Senate,,WI,WRITE-IN,8,0.07
 78,Traverse,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,1179,99.41
 78,Traverse,Associate Justice - Supreme Court 1,,WI,WRITE-IN,7,0.59
@@ -7288,9 +7288,9 @@ county_code,county,office,district,party,candidate,votes,pct
 78,Traverse,County Sheriff,,NP,Andy Miller,867,57.27
 78,Traverse,County Sheriff,,NP,Greg Forcier,642,42.40
 78,Traverse,County Sheriff,,WI,WRITE-IN,5,0.33
-78,Traverse,Governor & Lt Governor,,DFL,Amy Klobuchar,525,34.18
+78,Traverse,Governor & Lt Governor,,DFL,Amy Klobuchar,525,34.16
 78,Traverse,Governor & Lt Governor,,GP,Steven Young,25,1.63
-78,Traverse,Governor & Lt Governor,,R,Lisa Demuth,986,64.19
+78,Traverse,Governor & Lt Governor,,R,Lisa Demuth,987,64.22
 78,Traverse,Governor & Lt Governor,,WI,WRITE-IN,0,0.00
 78,Traverse,Judge - 8th District Court 10,08,NP,Benjamin Charles Pieh,1150,99.57
 78,Traverse,Judge - 8th District Court 10,08,WI,WRITE-IN,5,0.43
@@ -7333,13 +7333,13 @@ county_code,county,office,district,party,candidate,votes,pct
 78,Traverse,State Senate,9,DFL,Krystyne M. Knutson,490,32.15
 78,Traverse,State Senate,9,R,Jordan Rasmusson,1034,67.85
 78,Traverse,State Senate,9,WI,WRITE-IN,0,0.00
-78,Traverse,U.S. House,7,DFL,Erik Osberg,545,35.67
-78,Traverse,U.S. House,7,R,Michelle Fischbach,983,64.33
+78,Traverse,U.S. House,7,DFL,Erik Osberg,545,35.64
+78,Traverse,U.S. House,7,R,Michelle Fischbach,984,64.36
 78,Traverse,U.S. House,7,WI,WRITE-IN,0,0.00
-78,Traverse,U.S. Senate,,DFL,Peggy Flanagan,492,32.05
+78,Traverse,U.S. Senate,,DFL,Peggy Flanagan,492,32.03
 78,Traverse,U.S. Senate,,IND,Marisa Simonetti,31,2.02
 78,Traverse,U.S. Senate,,LIB,Rebecca Whiting,10,0.65
-78,Traverse,U.S. Senate,,R,Michele Tafoya,1001,65.21
+78,Traverse,U.S. Senate,,R,Michele Tafoya,1002,65.23
 78,Traverse,U.S. Senate,,WI,WRITE-IN,1,0.07
 79,Wabasha,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,7874,99.42
 79,Wabasha,Associate Justice - Supreme Court 1,,WI,WRITE-IN,46,0.58
@@ -7511,13 +7511,13 @@ county_code,county,office,district,party,candidate,votes,pct
 80,Wadena,State Senate,5,DFL,Skylar Fynboh,1640,25.53
 80,Wadena,State Senate,5,R,Mike Wiener,4765,74.16
 80,Wadena,State Senate,5,WI,WRITE-IN,20,0.31
-80,Wadena,U.S. House,7,DFL,Erik Osberg,1845,28.56
-80,Wadena,U.S. House,7,R,Michelle Fischbach,4614,71.41
+80,Wadena,U.S. House,7,DFL,Erik Osberg,1845,28.55
+80,Wadena,U.S. House,7,R,Michelle Fischbach,4615,71.42
 80,Wadena,U.S. House,7,WI,WRITE-IN,2,0.03
 80,Wadena,U.S. Senate,,DFL,Peggy Flanagan,1554,24.03
 80,Wadena,U.S. Senate,,IND,Marisa Simonetti,134,2.07
 80,Wadena,U.S. Senate,,LIB,Rebecca Whiting,74,1.14
-80,Wadena,U.S. Senate,,R,Michele Tafoya,4700,72.68
+80,Wadena,U.S. Senate,,R,Michele Tafoya,4701,72.68
 80,Wadena,U.S. Senate,,WI,WRITE-IN,5,0.08
 81,Waseca,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,6544,99.48
 81,Waseca,Associate Justice - Supreme Court 1,,WI,WRITE-IN,34,0.52
@@ -7541,7 +7541,7 @@ county_code,county,office,district,party,candidate,votes,pct
 81,Waseca,County Sheriff,,WI,WRITE-IN,106,1.37
 81,Waseca,Governor & Lt Governor,,DFL,Amy Klobuchar,2973,35.43
 81,Waseca,Governor & Lt Governor,,GP,Steven Young,176,2.10
-81,Waseca,Governor & Lt Governor,,R,Lisa Demuth,5233,62.36
+81,Waseca,Governor & Lt Governor,,R,Lisa Demuth,5234,62.37
 81,Waseca,Governor & Lt Governor,,WI,WRITE-IN,9,0.11
 81,Waseca,Judge - 3rd District Court 15,03,NP,Erin Lindhart Felten,6342,99.45
 81,Waseca,Judge - 3rd District Court 15,03,WI,WRITE-IN,35,0.55
@@ -7724,8 +7724,8 @@ county_code,county,office,district,party,candidate,votes,pct
 82,Washington,State House,53B,DFL,Rick Hansen,4453,59.38
 82,Washington,State House,53B,R,Patti Mikulski,3040,40.54
 82,Washington,State House,53B,WI,WRITE-IN,6,0.08
-82,Washington,State Senate,33,DFL,Nat Smith,23935,49.92
-82,Washington,State Senate,33,R,Karin Housley,23977,50.00
+82,Washington,State Senate,33,DFL,Nat Smith,23936,49.92
+82,Washington,State Senate,33,R,Karin Housley,23978,50.00
 82,Washington,State Senate,33,WI,WRITE-IN,39,0.08
 82,Washington,State Senate,36,DFL,Heather Gustafson,503,64.57
 82,Washington,State Senate,36,R,Heidi Heino,276,35.43
@@ -7742,16 +7742,16 @@ county_code,county,office,district,party,candidate,votes,pct
 82,Washington,State Senate,53,DFL,Paul Cumings,4404,58.59
 82,Washington,State Senate,53,R,Todd Podgorski,3107,41.34
 82,Washington,State Senate,53,WI,WRITE-IN,5,0.07
-82,Washington,U.S. House,2,DFL,Matt Little,19292,58.89
+82,Washington,U.S. House,2,DFL,Matt Little,19292,58.88
 82,Washington,U.S. House,2,R,Eric Pratt,13437,41.01
-82,Washington,U.S. House,2,WI,WRITE-IN,33,0.10
-82,Washington,U.S. House,4,DFL,Betty McCollum,55048,61.27
+82,Washington,U.S. House,2,WI,WRITE-IN,34,0.10
+82,Washington,U.S. House,4,DFL,Betty McCollum,55049,61.27
 82,Washington,U.S. House,4,R,Paul Wikstrom,34718,38.64
 82,Washington,U.S. House,4,WI,WRITE-IN,86,0.10
 82,Washington,U.S. House,8,DFL,Trina Swanson,12230,47.00
 82,Washington,U.S. House,8,R,Pete Stauber,13779,52.95
 82,Washington,U.S. House,8,WI,WRITE-IN,14,0.05
-82,Washington,U.S. Senate,,DFL,Peggy Flanagan,81779,54.70
+82,Washington,U.S. Senate,,DFL,Peggy Flanagan,81780,54.70
 82,Washington,U.S. Senate,,IND,Marisa Simonetti,1992,1.33
 82,Washington,U.S. Senate,,LIB,Rebecca Whiting,1673,1.12
 82,Washington,U.S. Senate,,R,Michele Tafoya,63846,42.71
@@ -7936,9 +7936,9 @@ county_code,county,office,district,party,candidate,votes,pct
 85,Winona,County Sheriff,,NP,Charles Rolbiecki,10434,48.84
 85,Winona,County Sheriff,,NP,John Hazelton,10842,50.75
 85,Winona,County Sheriff,,WI,WRITE-IN,88,0.41
-85,Winona,Governor & Lt Governor,,DFL,Amy Klobuchar,11709,51.09
+85,Winona,Governor & Lt Governor,,DFL,Amy Klobuchar,11711,51.09
 85,Winona,Governor & Lt Governor,,GP,Steven Young,522,2.28
-85,Winona,Governor & Lt Governor,,R,Lisa Demuth,10674,46.57
+85,Winona,Governor & Lt Governor,,R,Lisa Demuth,10675,46.57
 85,Winona,Governor & Lt Governor,,WI,WRITE-IN,14,0.06
 85,Winona,Judge - 3rd District Court 15,03,NP,Erin Lindhart Felten,15266,99.33
 85,Winona,Judge - 3rd District Court 15,03,WI,WRITE-IN,103,0.67
@@ -7987,13 +7987,13 @@ county_code,county,office,district,party,candidate,votes,pct
 85,Winona,State Senate,26,DFL,Jack Hedin,10747,55.39
 85,Winona,State Senate,26,R,Cherie Johnson,8649,44.57
 85,Winona,State Senate,26,WI,WRITE-IN,8,0.04
-85,Winona,U.S. House,1,DFL,Jake Johnson,12343,53.88
+85,Winona,U.S. House,1,DFL,Jake Johnson,12344,53.88
 85,Winona,U.S. House,1,R,Brad Finstad,10557,46.08
 85,Winona,U.S. House,1,WI,WRITE-IN,9,0.04
-85,Winona,U.S. Senate,,DFL,Peggy Flanagan,11616,50.69
-85,Winona,U.S. Senate,,IND,Marisa Simonetti,354,1.54
+85,Winona,U.S. Senate,,DFL,Peggy Flanagan,11616,50.68
+85,Winona,U.S. Senate,,IND,Marisa Simonetti,355,1.55
 85,Winona,U.S. Senate,,LIB,Rebecca Whiting,292,1.27
-85,Winona,U.S. Senate,,R,Michele Tafoya,10639,46.42
+85,Winona,U.S. Senate,,R,Michele Tafoya,10640,46.42
 85,Winona,U.S. Senate,,WI,WRITE-IN,17,0.07
 86,Wright,Associate Justice - Supreme Court 1,,NP,Sarah Hennesy,37330,98.98
 86,Wright,Associate Justice - Supreme Court 1,,WI,WRITE-IN,385,1.02
@@ -8018,10 +8018,10 @@ county_code,county,office,district,party,candidate,votes,pct
 86,Wright,County Sheriff,,NP,Matt Treichler,43300,75.63
 86,Wright,County Sheriff,,NP,Rob Mossman,13713,23.95
 86,Wright,County Sheriff,,WI,WRITE-IN,237,0.41
-86,Wright,Governor & Lt Governor,,DFL,Amy Klobuchar,28550,37.67
+86,Wright,Governor & Lt Governor,,DFL,Amy Klobuchar,28551,37.67
 86,Wright,Governor & Lt Governor,,GP,Steven Young,1209,1.60
-86,Wright,Governor & Lt Governor,,R,Lisa Demuth,45987,60.67
-86,Wright,Governor & Lt Governor,,WI,WRITE-IN,49,0.06
+86,Wright,Governor & Lt Governor,,R,Lisa Demuth,45988,60.67
+86,Wright,Governor & Lt Governor,,WI,WRITE-IN,51,0.07
 86,Wright,Judge - 10th District Court 1,10,NP,Juanita C. Freeman,35652,99.07
 86,Wright,Judge - 10th District Court 1,10,WI,WRITE-IN,333,0.93
 86,Wright,Judge - 10th District Court 14,10,NP,Justin Collins,35267,99.18
@@ -8117,10 +8117,10 @@ county_code,county,office,district,party,candidate,votes,pct
 86,Wright,State Senate,34,DFL,John Hoffman,17,62.96
 86,Wright,State Senate,34,R,Karen Attia,10,37.04
 86,Wright,State Senate,34,WI,WRITE-IN,0,0.00
-86,Wright,U.S. House,6,DFL,Doug Chapin,29329,38.92
-86,Wright,U.S. House,6,R,Tom Emmer,45942,60.96
-86,Wright,U.S. House,6,WI,WRITE-IN,94,0.12
-86,Wright,U.S. Senate,,DFL,Peggy Flanagan,26926,35.54
+86,Wright,U.S. House,6,DFL,Doug Chapin,29331,38.92
+86,Wright,U.S. House,6,R,Tom Emmer,45941,60.96
+86,Wright,U.S. House,6,WI,WRITE-IN,95,0.13
+86,Wright,U.S. Senate,,DFL,Peggy Flanagan,26927,35.54
 86,Wright,U.S. Senate,,IND,Marisa Simonetti,1259,1.66
 86,Wright,U.S. Senate,,LIB,Rebecca Whiting,980,1.29
 86,Wright,U.S. Senate,,R,Michele Tafoya,46518,61.41
